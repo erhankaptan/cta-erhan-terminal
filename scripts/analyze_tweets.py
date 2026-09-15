@@ -1,8 +1,8 @@
 """
-CTA ERHAN TERMİNALİ — Gemini Analiz v3
+CTA ERHAN TERMİNALİ — Gemini Analiz v4
 =========================================
-Sadece 10 ÖNCELİKLİ hesabı analiz eder.
-Diğerleri: raw kayıt, analiz yok.
+10 öncelikli hesabı analiz eder.
+Her varlık ayrı yön (Türkçe).
 """
 
 import os
@@ -28,7 +28,7 @@ ANALYSIS_DIR = DATA_DIR / "analysis"
 STATE_FILE = DATA_DIR / "analysis_state.json"
 
 # ============================================================
-# ÖNCELİKLİ HESAPLAR (Sadece bunlar analiz edilir)
+# ÖNCELİKLİ HESAPLAR
 # ============================================================
 
 PRIORITY_ACCOUNTS = [
@@ -51,6 +51,7 @@ def is_priority_tweet(tweet: dict) -> bool:
     """Tweet öncelikli hesaptan mı?"""
     username = (tweet.get("username") or "").lower()
     return username in PRIORITY_LOWER
+
 
 # ============================================================
 # YARDIMCI FONKSİYONLAR
@@ -96,8 +97,9 @@ def download_image(url: str):
         pass
     return None
 
+
 # ============================================================
-# GEMINI ANALİZ
+# GEMINI PROMPT — TÜRKÇE, VARLIK BAZLI
 # ============================================================
 
 PROMPT = """Sen kıdemli bir CTA (Commodity Trading Advisor) ve vadeli işlemler analistisin.
@@ -107,21 +109,42 @@ Tweet metnini ve varsa görseli analiz et:
 TWEET:
 {text}
 
-Görev: Piyasa yönünü BULL/BEAR/NEUTRAL olarak sınıflandır.
-CTA sinyali içeriyor mu? (evet/hayır)
-Güven skoru (0-100).
-Türkçe kısa özet (max 150 karakter).
+GÖREV:
+1. Tweet'teki (veya görseldeki) HER VARLIĞI ayrı ayrı tespit et.
+2. HER VARLIK için kendi yönünü ver:
+   - YUKARI (long, bullish, alım)
+   - AŞAĞI (short, bearish, satım)
+   - NÖTR (neutral, belirsiz)
+3. Genel yön:
+   - Tümü aynı yönde → YUKARI veya AŞAĞI
+   - Karışık yönler → KARIŞIK
+   - Belirsiz → NÖTR
+4. Türkçe kısa özet (max 150 karakter)
 
-SADECE JSON döndür:
+ÖNEMLİ KURALLAR:
+- Aynı tweet'te farklı varlıklar farklı yönlerde olabilir (örn: Altın YUKARI, DXY AŞAĞI).
+- Her varlığı AYRI değerlendir.
+- Sadece tweet'te/görselde açıkça belirtilen varlıkları ekle.
+- Varlık isimlerini Türkçe yaz (Ham Petrol, Altın, Gümüş, vs.).
+- Semboller standart olsun (CL, GC, SI, NG, HG, ES, NQ, DXY, vs.).
+
+SADECE aşağıdaki JSON formatında cevap ver, başka bir şey yazma:
+
 {{
-  "sentiment": "BULL|BEAR|NEUTRAL",
-  "tickers": ["ES", "NQ"],
-  "is_cta_signal": true,
-  "confidence": 75,
-  "summary": "Kısa Türkçe özet"
+  "varliklar": [
+    {{"sembol": "CL", "isim": "Ham Petrol", "yon": "YUKARI"}},
+    {{"sembol": "NG", "isim": "Doğal Gaz", "yon": "AŞAĞI"}},
+    {{"sembol": "GC", "isim": "Altın", "yon": "NÖTR"}}
+  ],
+  "genel_yon": "KARIŞIK",
+  "ozet": "Enerji yukarı, Doğal Gaz aşağı, Altın nötr"
 }}
 """
 
+
+# ============================================================
+# GEMINI ANALİZ
+# ============================================================
 
 def analyze_tweet(text: str, images: list) -> dict:
     try:
@@ -129,7 +152,8 @@ def analyze_tweet(text: str, images: list) -> dict:
         prompt = PROMPT.format(text=text[:2000])
         contents = [prompt]
 
-        for img_url in images[:1]:
+        # İlk 2 görseli ekle
+        for img_url in images[:2]:
             img_bytes = download_image(img_url)
             if img_bytes:
                 contents.append({
@@ -140,21 +164,28 @@ def analyze_tweet(text: str, images: list) -> dict:
         response = model.generate_content(contents)
         raw = response.text.strip()
 
+        # JSON bloğunu çıkar
         if "```json" in raw:
             raw = raw.split("```json")[1].split("```")[0].strip()
         elif "```" in raw:
             raw = raw.split("```")[1].split("```")[0].strip()
 
-        return json.loads(raw)
+        result = json.loads(raw)
+
+        # Yeni format
+        return {
+            "varliklar": result.get("varliklar", []),
+            "genel_yon": result.get("genel_yon", "NÖTR"),
+            "ozet": result.get("ozet", ""),
+        }
 
     except Exception as e:
         return {
-            "sentiment": "NEUTRAL",
-            "tickers": [],
-            "is_cta_signal": False,
-            "confidence": 0,
-            "summary": f"Hata: {type(e).__name__}",
+            "varliklar": [],
+            "genel_yon": "NÖTR",
+            "ozet": f"Hata: {type(e).__name__}",
         }
+
 
 # ============================================================
 # ANA FONKSİYON
@@ -162,7 +193,7 @@ def analyze_tweet(text: str, images: list) -> dict:
 
 def main():
     print("=" * 60)
-    print("CTA ERHAN TERMİNALİ — Gemini Analiz v3 (10 Hesap)")
+    print("CTA ERHAN TERMİNALİ — Gemini Analiz v4 (Varlık Bazlı)")
     print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
 
@@ -185,7 +216,7 @@ def main():
 
     processed_ids = set(state.get("processed_ids", []))
 
-    # SADECE ÖNCELİKLİ HESAPLAR
+    # Sadece öncelikli hesaplar
     priority_tweets = [
         t for t in tweets
         if t.get("id")
@@ -218,7 +249,9 @@ def main():
             "text": text[:500],
             "images": images,
             "analyzed_at": datetime.now(timezone.utc).isoformat(),
-            **analysis,
+            "varliklar": analysis.get("varliklar", []),
+            "genel_yon": analysis.get("genel_yon", "NÖTR"),
+            "ozet": analysis.get("ozet", ""),
         }
         results.append(result)
         new_processed.append(tweet_id)
@@ -243,12 +276,18 @@ def main():
     # Özet
     print("=" * 60)
     print(f"Toplam: {len(results)}")
-    bull = sum(1 for r in results if r.get("sentiment") == "BULL")
-    bear = sum(1 for r in results if r.get("sentiment") == "BEAR")
-    neutral = sum(1 for r in results if r.get("sentiment") == "NEUTRAL")
-    cta = sum(1 for r in results if r.get("is_cta_signal"))
-    print(f"BULL: {bull}, BEAR: {bear}, NEUTRAL: {neutral}")
-    print(f"CTA Sinyali: {cta}")
+
+    yukari = sum(1 for r in results if r.get("genel_yon") == "YUKARI")
+    asagi = sum(1 for r in results if r.get("genel_yon") == "AŞAĞI")
+    notr = sum(1 for r in results if r.get("genel_yon") == "NÖTR")
+    karisik = sum(1 for r in results if r.get("genel_yon") == "KARIŞIK")
+
+    print(f"YUKARI: {yukari}, AŞAĞI: {asagi}, NÖTR: {notr}, KARIŞIK: {karisik}")
+
+    # Toplam varlık sayısı
+    toplam_varlik = sum(len(r.get("varliklar", [])) for r in results)
+    print(f"Toplam varlık: {toplam_varlik}")
+
     print("=" * 60)
 
 
