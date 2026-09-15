@@ -1,0 +1,32 @@
+[
+  {
+    "tweet_id": "2099938058502107504",
+    "username": "MikeZaccardi",
+    "text": "GS: Empire Manufacturing Below Expectations... The prices paid components—both current and expected—increased.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSR6iVKWcAAtI4U.png"
+    ],
+    "analyzed_at": "2026-09-15T19:17:11.845887+00:00",
+    "sentiment": "NEUTRAL",
+    "tickers": [],
+    "is_cta_signal": false,
+    "confidence": 0,
+    "summary": "Hata: ResourceExhausted"
+  },
+  {
+    "tweet_id": "2099936789888700742",
+    "username": "Hedgeye",
+    "text": "Global oil inventories have fallen to 7.6 billion barrels since the Iran war began",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSR1bC-W4AEiGbp.png"
+    ],
+    "analyzed_at": "2026-09-15T19:17:21.909328+00:00",
+    "sentiment": "BULL",
+    "tickers": [
+      "CL"
+    ],
+    "is_cta_signal": false,
+    "confidence": 90,
+    "summary": "Küresel petrol stoklarındaki sert düşüş ve operasyonel stres seviyesine inilmesi ham petrol (CL) için güçlü yükselişi destekliyor."
+  }
+]
