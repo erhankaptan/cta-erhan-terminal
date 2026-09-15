@@ -27,7 +27,7 @@ import google.generativeai as genai
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # Gemini model
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-flash-latest"
 
 # Rate limit (60 istek/dakika = 1 istek/saniye)
 REQUEST_DELAY = 1.5
