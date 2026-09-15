@@ -30,7 +30,7 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = "gemini-flash-latest"
 
 # Rate limit (60 istek/dakika = 1 istek/saniye)
-REQUEST_DELAY = 1.5
+REQUEST_DELAY = 4.0
 
 # Klasörler
 DATA_DIR = Path("data")
