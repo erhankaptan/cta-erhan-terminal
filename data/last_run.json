@@ -1,1 +1,75 @@
-{}
+{
+  "wayneterprises": {
+    "processed_ids": [
+      "2097758922023284832",
+      "2099850071575765447",
+      "2099485723246395586",
+      "2099251021025509533",
+      "2098120943273119801",
+      "2099842564405030912",
+      "2097759673722273839",
+      "2099252045190681057",
+      "2097682770269233650",
+      "2098088204415189100",
+      "2099842902151373089",
+      "2097689841123430682",
+      "2097680790025093570",
+      "2099849459396235640",
+      "2097748041352745089",
+      "2098462455139856529",
+      "2099911762061754693",
+      "2099495801856917664",
+      "2097683873291444456",
+      "2099252230914523469"
+    ],
+    "last_update": "2026-09-15T17:38:02.067635+00:00"
+  },
+  "PeterLBrandt": {
+    "processed_ids": [
+      "2098392649182917060",
+      "2099460535745994920",
+      "2099194024133353830",
+      "2098513369548358106",
+      "2099492183443194187",
+      "2098442418190192904",
+      "2098075410344923155",
+      "2099273391140118954",
+      "2099269898098860332",
+      "2098073584002297857",
+      "2098076076672971048",
+      "2098886481855053832",
+      "2099890935832162748",
+      "2099880545459085698",
+      "2098131004758339649",
+      "2099076189188943984",
+      "2099517748875259991",
+      "2099880159201407120"
+    ],
+    "last_update": "2026-09-15T17:38:04.185051+00:00"
+  },
+  "MacroAlf": {
+    "processed_ids": [
+      "http://nitter.jaydenha.uk/MacroAlf/status/1932794272756932837#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1938951671062679654#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1938175323012554834#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1948377447403073884#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1933599337654755828#m",
+      "2011545006335516704",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1953336391875580368#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1953815814341104066#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1937104711431102958#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1933051019425943952#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1948064566031851945#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1938647762981056781#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1938332367975772211#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1936870242799567135#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1947272850886316038#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1947194635635265557#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1958271849499885733#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1948001549902651522#m",
+      "http://nitter.jaydenha.uk/MacroAlf/status/1953158243410153501#m",
+      "http://nitter.jaydenha.uk/donnelly_brent/status/1933533731253358838#m"
+    ],
+    "last_update": "2026-09-15T17:38:06.696608+00:00"
+  }
+}
