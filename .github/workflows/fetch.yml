@@ -15,7 +15,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       # 1. Repo'yu çek
@@ -42,7 +42,7 @@ jobs:
         run: python scripts/fetch_nitter.py
 
       # 5. Gemini ile analiz et
-            - name: Analyze tweets with Gemini
+      - name: Analyze tweets with Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
@@ -57,8 +57,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/translate_rss.py
 
-      # 6. Evidence DB'ye ekle
-
       # 6. Değişiklikleri commit et
       - name: Commit and push
         run: |
@@ -68,6 +66,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Değişiklik yok, commit atlanıyor"
           else
-            git commit -m "Auto: Fetch + analyze tweets $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Auto: Fetch + analyze + RSS $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
