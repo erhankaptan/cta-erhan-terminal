@@ -42,10 +42,22 @@ jobs:
         run: python scripts/fetch_nitter.py
 
       # 5. Gemini ile analiz et
-      - name: Analyze tweets with Gemini
+            - name: Analyze tweets with Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
+
+      # 5.5. RSS çek (Tickmill)
+      - name: Fetch RSS from Tickmill
+        run: python scripts/fetch_rss.py
+
+      # 5.6. RSS çevir (Türkçe)
+      - name: Translate RSS to Turkish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/translate_rss.py
+
+      # 6. Evidence DB'ye ekle
 
       # 6. Değişiklikleri commit et
       - name: Commit and push
