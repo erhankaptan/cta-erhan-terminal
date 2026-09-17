@@ -41,7 +41,8 @@ PRIORITY_ACCOUNTS = [
     "rcmAlts",
     "MacroOps",
     "AttainCap2",
-    "JPokoTrades",
+    "JPokoTrades",    
+    "JuanJesusMontoy",
 ]
 
 PRIORITY_LOWER = [a.lower() for a in PRIORITY_ACCOUNTS]
