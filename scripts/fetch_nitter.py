@@ -31,7 +31,8 @@ TARGET_ACCOUNTS = [
     "MacroAlf",
     "biancoresearch",
     "CrossBorderCap",
-    "MikeZaccardi",
+    "MikeZaccardi",   
+    "JuanJesusMontoy",
     # Kurumsal (1)
     "Nomura",
     # Haber (5)
