@@ -1,0 +1,51 @@
+[
+  {
+    "tweet_id": "2100484213787013153",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: Apertura en video La FED gana credibilidad ¿pero será suficiente para los bonos? https://youtu.be/FwkDhyOeppE",
+    "images": [
+      "http://nitter.gravitywell.xyz/pic/card_img%2F2100484217176023040%2FVcIxLJYE%3Fformat%3Djpg%26name%3D600x314"
+    ],
+    "analyzed_at": "2026-09-19T04:59:53.190893+00:00",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "NÖTR",
+        "gerekce": "Fed'in kredibilitesi ve tahvil faizlerindeki belirsizlik hisse senetlerinde kararsızlık yaratıyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Gold",
+        "yon": "NÖTR",
+        "gerekce": "Fed politikalarının tahvil piyasasına etkisi netleşene kadar altın nötr kalabilir.",
+        "skor": 0.5
+      }
+    ],
+    "genel_yon": "KARIŞIK",
+    "ozet": "Tweet, Fed'in güven kazanmasının tahvil piyasasını desteklemeye yetip yetmeyeceğini sorgulayan makro bir analiz içeriyor.",
+    "confidence": 0.4
+  },
+  {
+    "tweet_id": "2100124619495628940",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: Apertura en video FED: no todo está descontado. Petróleo de Omán a 155$ por barril. Encuesta de grandes gestores de fondos de Hartnett. https://youtu.be/XI5yMJFbqtU",
+    "images": [
+      "http://nitter.gravitywell.xyz/pic/card_img%2F2100124622263889920%2FQjIXNEfG%3Fformat%3Djpg%26name%3D800x419"
+    ],
+    "analyzed_at": "2026-09-19T05:00:01.531920+00:00",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Crude Oil",
+        "yon": "YUKARI",
+        "gerekce": "Oman petrolü için 155 dolar seviyelerinin ve fon yöneticisi anketlerinin tartışılması.",
+        "skor": 0.75
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "FED öncesi piyasada tüm risklerin fiyatlanmadığı, Oman petrolünde 155 dolar seviyelerinin ve Hartnett anketinin öne çıktığı belirtiliyor.",
+    "confidence": 0.7
+  }
+]
