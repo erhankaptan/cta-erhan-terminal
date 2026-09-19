@@ -1,0 +1,172 @@
+[
+  {
+    "tweet_id": "2101391122417541582",
+    "username": "wayneterprises",
+    "text": "Top Buys/Sells by the Chinese into offshore equities this past week $TCEHY $BABA",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHShM1aVbEAA8IJ3.png",
+      "http://nitter.jaydenha.uk/pic/media%2FHSIKsvtbsAAtvzo.png"
+    ],
+    "analyzed_at": "2026-09-19T20:46:04.738593+00:00",
+    "varliklar": [
+      {
+        "sembol": "1299 HK",
+        "isim": "AIA",
+        "yon": "YUKARI",
+        "gerekce": "Güçlü Southbound net alışı (248M ve 145M USD net giriş).",
+        "skor": 0.85
+      },
+      {
+        "sembol": "3308 HK",
+        "isim": "Innolight",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek net alım ve mülkiyet oranında %18.8'e varan güçlü artış.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "700 HK",
+        "isim": "Tencent",
+        "yon": "YUKARI",
+        "gerekce": "162M USD net alım ile en çok tercih edilen teknoloji hisselerinden.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "2800 HK",
+        "isim": "HSI ETF",
+        "yon": "YUKARI",
+        "gerekce": "Geniş endeks takibi için 133M USD net giriş.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "1810 HK",
+        "isim": "Xiaomi",
+        "yon": "YUKARI",
+        "gerekce": "İkinci tabloda 203M USD net giriş ile en çok alınan ikinci hisse.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "1347 HK",
+        "isim": "Hua Hong Semiconductor",
+        "yon": "AŞAĞI",
+        "gerekce": "550M USD'ye ulaşan devasa net çıkış ve pozisyon azaltımı.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "9988 HK",
+        "isim": "Alibaba",
+        "yon": "AŞAĞI",
+        "gerekce": "208M USD net satış ile çıkış listesinde yer alıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "981 HK",
+        "isim": "SMIC",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı iletken devinde 424M USD net satış baskısı.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "1801 HK",
+        "isim": "Innovent Biologics",
+        "yon": "AŞAĞI",
+        "gerekce": "Sırasıyla 233M ve 231M USD net çıkış kaydedildi.",
+        "skor": 0.8
+      }
+    ],
+    "genel_yon": "KARIŞIK",
+    "ozet": "Çinli anakara yatırımcıları Hong Kong borsasında seçici bir strateji izliyor; Innolight, Tencent ve Xiaomi gibi büyüme odaklı hisseleri alırken, Hua Hong, SMIC ve Alibaba gibi teknoloji/yarı iletken devlerinde yoğun satış gerçekleştirdiler.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101390870801252712",
+    "username": "wayneterprises",
+    "text": "Chinese continue to buy offshore equities this week +$1.5B. Last 5D $HSTECH +2.8%, solana:3aSu9uuDLiWkBQGycJDDSubZEPb6YJjDzULPWZkJn8ic -0.8%",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHShMfJ6boAAazqQ.png",
+      "http://nitter.jaydenha.uk/pic/media%2FHSIKXfBaEAAIGNl.png"
+    ],
+    "analyzed_at": "2026-09-19T20:46:22.327748+00:00",
+    "varliklar": [
+      {
+        "sembol": "HSTECH",
+        "isim": "Hang Seng Tech Index",
+        "yon": "YUKARI",
+        "gerekce": "Güney yönlü (Southbound) net alımların haftalık 1.5B$ seviyesinde güçlü ve istikrarlı seyretmesi.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "SOL",
+        "isim": "Solana",
+        "yon": "NÖTR",
+        "gerekce": "Son 5 günde %0.8'lik sınırlı düşüşle yatay-negatif bir görünüm sergilemesi.",
+        "skor": 0.48
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Çinli anakara yatırımcılarının offshore Hong Kong hisselerine yönelik güçlü alım iştahı sürüyor. Haftalık bazda ortalamaya yakın 1.54 milyar dolarlık giriş HSTECH endeksini yukarı taşımaktadır.",
+    "confidence": 0.85
+  },
+  {
+    "tweet_id": "2101386089537650838",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: 👉 Video YouTube En este video reflexionamos con datos si Europa está entrando en su mayor crisis energética y la reacción que están teniendo los mercados financieros. https://youtu.be/ogy1fY3j-m8",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSmEfG2XMAAh-MO.jpg"
+    ],
+    "analyzed_at": "2026-09-19T20:46:42.705307+00:00",
+    "varliklar": [
+      {
+        "sembol": "NG",
+        "isim": "Natural Gas",
+        "yon": "YUKARI",
+        "gerekce": "Avrupa doğalgaz fiyatlarında beklenen sert yükseliş ve artan enerji krizi riskleri.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Enerji krizinin Euro Bölgesi ekonomik büyümesi üzerinde yaratacağı aşağı yönlü baskı.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "KARIŞIK",
+    "ozet": "Avrupa'da olası bir enerji krizi beklentisi ve doğalgaz fiyatlarındaki keskin yükseliş projeksiyonu, enerji emtialarını desteklerken Euro üzerinde baskı yaratıyor.",
+    "confidence": 0.8
+  },
+  {
+    "tweet_id": "2101386089537650838",
+    "username": "misterpuertas",
+    "text": "👉 Video YouTube En este video reflexionamos con datos si Europa está entrando en su mayor crisis energética y la reacción que están teniendo los mercados financieros. https://youtu.be/ogy1fY3j-m8",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSmEfG2XMAAh-MO.jpg"
+    ],
+    "analyzed_at": "2026-09-19T20:46:56.887993+00:00",
+    "varliklar": [
+      {
+        "sembol": "NG",
+        "isim": "Natural Gas",
+        "yon": "YUKARI",
+        "gerekce": "Avrupa doğalgaz fiyatlarındaki sert yükseliş grafiği ve artan enerji kriz riski.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Avrupa'da yaşanabilecek derin bir enerji krizinin Euro bölgesi ekonomisi üzerindeki baskısı.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "CL",
+        "isim": "Crude Oil",
+        "yon": "YUKARI",
+        "gerekce": "Doğalgaz krizinin ve yüksek fiyatların alternatif enerji kaynaklarına (petrol) talebi artırması.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "KARIŞIK",
+    "ozet": "Grafikte Almanya ve Avrupa genelinde doğalgaz fiyatlarının dramatik bir şekilde yükseldiği görülüyor. Bu durum enerji emtialarında yükselişi desteklerken, Euro üzerinde ciddi ekonomik riskler yaratıyor.",
+    "confidence": 0.8
+  }
+]
