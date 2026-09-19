@@ -24,43 +24,10 @@ import xml.etree.ElementTree as ET
 # ============================================================
 
 TARGET_ACCOUNTS = [
-    # Kişisel (7)
     "wayneterprises",
-    "stenodata",
-    "LynAldenContact",
-    "MacroAlf",
-    "biancoresearch",
-    "CrossBorderCap",
-    "MikeZaccardi",   
     "JuanJesusMontoy",
-    # Kurumsal (1)
-    "Nomura",
-    # Haber (5)
-    "zerohedge",
-    "MacroCompass",
-    "TheTerminal",
-    "Hedgeye",
-    "Tickmill",
-    # Chart (3)
-    "jam_croissant",
-    "topdowncharts",
-    "MacroRiskAdvisory",
-    # CTA Uzman (13)
-    "rcmAlts",
-    "MacroOps",
-    "rjpjr12",
-    "PeterLBrandt",
-    "LindaRaschke",
-    "AnthonyCrudele",
-    "FuturesTrader71",
-    "CommodMkt",
-    "tracyalloway",
     "misterpuertas",
-    "TheStalwart",
-    "AttainCap2",
-    "JPokoTrades",
 ]
-
 NITTER_INSTANCES = [
     "https://nitter.meowing.monster",
     "https://nitter.kareem.one",
