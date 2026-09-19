@@ -19,7 +19,7 @@ import google.generativeai as genai
 # ============================================================
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash"
 REQUEST_DELAY = 2.0
 
 DATA_DIR = Path("data")
