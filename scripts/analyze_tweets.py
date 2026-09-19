@@ -33,16 +33,8 @@ STATE_FILE = DATA_DIR / "analysis_state.json"
 
 PRIORITY_ACCOUNTS = [
     "wayneterprises",
-    "PeterLBrandt",
-    "LindaRaschke",
-    "AnthonyCrudele",
-    "FuturesTrader71",
-    "CommodMkt",
-    "rcmAlts",
-    "MacroOps",
-    "AttainCap2",
-    "JPokoTrades",    
     "JuanJesusMontoy",
+    "misterpuertas",
 ]
 
 PRIORITY_LOWER = [a.lower() for a in PRIORITY_ACCOUNTS]
