@@ -1,0 +1,76 @@
+[
+  {
+    "tweet_id": "2101262710268657843",
+    "username": "JuanJesusMontoy",
+    "text": "RT @carpatos: Las 4 claves de la semana en video FED sube tipos ¿Y ahora qué? https://youtu.be/UcJaUAvsEzY",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/card_img%2F2101262596544286720%2FVze4qJjM%3Fformat%3Djpg%26name%3D800x320_1"
+    ],
+    "analyzed_at": "2026-09-19T11:06:27.307978+00:00",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artışı sonrası piyasalardaki teknik ve temel yön arayışı.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz oranlarının teknoloji ve büyüme hisseleri üzerinde yarattığı baskı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Gold",
+        "yon": "AŞAĞI",
+        "gerekce": "Sıkılaşan para politikası ve artan tahvil getirilerinin altın fiyatlarını baskılaması.",
+        "skor": 0.6
+      }
+    ],
+    "genel_yon": "KARIŞIK",
+    "ozet": "FED'in faiz artış kararının ardından piyasaların teknik, temel ve likidite (fontanería) dengelerinin nasıl etkileneceğini inceleyen haftalık makro analiz.",
+    "confidence": 0.7
+  },
+  {
+    "tweet_id": "2101241193245868131",
+    "username": "misterpuertas",
+    "text": "La apuesta obvia por la ciberseguridad ya no está en una fase temprana. Acumula una subida de alrededor del 44% en lo que va de año, frente a aproximadamente un 17% del QQQ y un 12% del SPY.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSkbuXAW4AAotO1.jpg"
+    ],
+    "analyzed_at": "2026-09-19T11:06:40.701010+00:00",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "QQQ sene başından beri %17 civarı yükselerek güçlü bir boğa trendi sergiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "SPY sene başından beri %12 yükselişle istikrarlı bir yukarı yönlü trend izliyor.",
+        "skor": 0.75
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Siber güvenlik sektörü (CIBR) sene başından beri yaklaşık %44 yükselerek, teknoloji (QQQ) ve S&P 500 (SPY) endekslerine kıyasla belirgin bir şekilde pozitif ayrışmıştır.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101217215601106994",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/1iTxHgjXSJX98j9m0z485u?si=7-uw5LwkSXamjLI6-rrlXg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-19T11:06:47.253384+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Paylaşılan tweet sadece bir Spotify podcast bağlantısı içermekte olup, herhangi bir finansal veri veya CTA analiz içeriği barındırmamaktadır.",
+    "confidence": 1.0
+  }
+]
