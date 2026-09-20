@@ -1,10 +1,10 @@
-name: CTA Terminal - Nitter Fetch
+name: CTA Terminal - Auto Pipeline
 
 on:
   # Her 3 saatte 1 çalış (17. dakikada — yoğunluktan kaçınmak için)
   schedule:
     - cron: '17 */3 * * *'
-  
+
   # Manuel tetikleme (test için)
   workflow_dispatch:
 
@@ -13,9 +13,12 @@ permissions:
   contents: write
 
 jobs:
-  fetch:
+  pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
+
+    env:
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
       # 1. Repo'yu çek
@@ -37,27 +40,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Nitter fetch script'ini çalıştır
+      # 4. Nitter'dan tweet çek
       - name: Fetch tweets from Nitter
         run: python scripts/fetch_nitter.py
 
-      # 5. Gemini ile analiz et
+      # 5. Gemini ile tweet analizi
       - name: Analyze tweets with Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
 
-      # 5.5. RSS çek (Tickmill)
+      # 6. RSS çek (Tickmill)
       - name: Fetch RSS from Tickmill
         run: python scripts/fetch_rss.py
 
-      # 5.6. RSS çevir (Türkçe)
+      # 7. RSS çevir + yorum + varlık analizi
       - name: Translate RSS to Turkish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/translate_rss.py
 
-      # 6. Değişiklikleri commit et
+      # 8. Evidence havuzunu inşa et
+      - name: Build evidence pool
+        run: python scripts/build_evidence_pool.py
+
+      # 9. Sentez çalıştır (snapshot üret)
+      - name: Run synthesis
+        run: python scripts/run_synthesis.py
+
+      # 10. Değişiklikleri commit et
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
@@ -66,6 +77,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Değişiklik yok, commit atlanıyor"
           else
-            git commit -m "Auto: Fetch + analyze + RSS $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Auto: Full pipeline $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
