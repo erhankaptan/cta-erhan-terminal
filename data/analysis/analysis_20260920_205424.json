@@ -1,0 +1,273 @@
+[
+  {
+    "tweet_id": "2101746967164461550",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: 🥇 ¿Puede el oro volver a máximos históricos y superar de nuevo los 5.000 dólares? Después de la corrección vivida tras los máximos de comienzos de 2026, ponemos el foco en algunos de los factores que pueden marcar la evolución del oro @misterpuertas https://youtube.com/shorts/FNy8WQw7KvI",
+    "images": [],
+    "analyzed_at": "2026-09-20T20:53:13.912314+00:00",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Gold",
+        "yon": "YUKARI",
+        "gerekce": "Altının tarihi zirvelere dönme ve 5.000 doları aşma potansiyeli tartışılıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold",
+        "yon": "YUKARI",
+        "gerekce": "Altının tarihi zirvelere dönme ve 5.000 doları aşma potansiyeli tartışılıyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet, altının 2026 başındaki düzeltme sonrası tarihi zirvelere dönme ve 5.000 doları aşma potansiyelini analiz ediyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101748477520998591",
+    "username": "misterpuertas",
+    "text": "👉 Video YouTube - Ataque Ucrania-Rusia que podría empeorar la situación de la gasolina y diesel. - Rendimientos globales de los bonos en su mayor nivel desde 2002. - S&P500 aguanta los 7.600, aunque dispuesto a moverse. https://youtu.be/1HKnFtNfBaI",
+    "images": [
+      "https://pbs.twimg.com/media/HSrldLgWUAAHfub.jpg"
+    ],
+    "analyzed_at": "2026-09-20T20:53:36.226961+00:00",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Crude Oil",
+        "yon": "YUKARI",
+        "gerekce": "Ukrayna-Rusya çatışması benzin/dizel fiyatlarını artırabilir, arz endişeleri yükselişi destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Micro Crude Oil",
+        "yon": "YUKARI",
+        "gerekce": "Ukrayna-Rusya çatışması benzin/dizel fiyatlarını artırabilir, arz endişeleri yükselişi destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "US Oil Fund",
+        "yon": "YUKARI",
+        "gerekce": "Ukrayna-Rusya çatışması benzin/dizel fiyatlarını artırabilir, arz endişeleri yükselişi destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "YUKARI",
+        "gerekce": "Küresel tahvil getirileri 2002'den bu yana en yüksek seviyede, yükseliş eğilimi devam ediyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek tahvil getirileri ve artan faizler S&P 500 üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek tahvil getirileri ve artan faizler S&P 500 üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek tahvil getirileri ve artan faizler S&P 500 üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "US Dollar Index",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek tahvil getirileri ve küresel ekonomik belirsizlik DXY'yi destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold",
+        "yon": "NÖTR",
+        "gerekce": "Jeopolitik riskler destekleyici olsa da, yükselen tahvil getirileri altın üzerinde baskı yaratıyor.",
+        "skor": 0.5
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Ukrayna-Rusya çatışması petrol fiyatlarını yükseltirken, küresel tahvil getirilerindeki artış S&P 500 üzerinde aşağı yönlü baskı oluşturuyor.",
+    "confidence": 0.8
+  },
+  {
+    "tweet_id": "2101725134029570404",
+    "username": "misterpuertas",
+    "text": "Para julio, 21 grandes tecnológicas habían revelado ~2.500 vulnerabilidades graves o críticas, 5 veces el récord mensual previo. Y el riesgo cambia: ya no solo preocupa el atacante externo, sino también qué puede hacer por sí mismo el software autónomo.",
+    "images": [
+      "https://pbs.twimg.com/media/HSrT3rHW0AArl0d.png"
+    ],
+    "analyzed_at": "2026-09-20T20:53:51.594877+00:00",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "TSLA",
+        "isim": "Tesla",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "AAPL",
+        "isim": "Apple",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "MSFT",
+        "isim": "Microsoft",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "AMZN",
+        "isim": "Amazon",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "GOOGL",
+        "isim": "Alphabet (Google)",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "META",
+        "isim": "Meta Platforms",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinde siber güvenlik açıkları ve riskleri hızla artıyor, olumsuz etki bekleniyor.",
+        "skor": 0.85
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Büyük teknoloji şirketlerinde ciddi siber güvenlik açıkları rekor seviyelere ulaştı ve otonom yazılım riskleri artıyor, bu da sektör için olumsuz bir görünüm sunuyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101706726105833943",
+    "username": "misterpuertas",
+    "text": "China cambió las reglas de la IA: modelos open source capaces de hacer hasta el 98% del trabajo de Claude o ChatGPT por apenas el 2% del precio. ¿La clave? La “destilación”: modelos más pequeños, baratos y eficientes aprendiendo de los gigantes.",
+    "images": [
+      "https://pbs.twimg.com/media/HSrDIRoW8AEWogA.jpg"
+    ],
+    "analyzed_at": "2026-09-20T20:54:24.975597+00:00",
+    "varliklar": [
+      {
+        "sembol": "HSTECH",
+        "isim": "Hang Seng Tech Index",
+        "yon": "YUKARI",
+        "gerekce": "Çin'in yapay zeka modellerindeki ilerlemesi ve maliyet avantajı, Çin teknoloji sektörüne olumlu yansıyabilir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "HSI",
+        "isim": "Hang Seng Index",
+        "yon": "YUKARI",
+        "gerekce": "Çin'in yapay zeka liderliği, genel Hong Kong piyasasını ve teknoloji ağırlıklı endeksi destekleyebilir.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MSFT",
+        "isim": "Microsoft",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GOOGL",
+        "isim": "Alphabet (Google)",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "AMZN",
+        "isim": "Amazon",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "AAPL",
+        "isim": "Apple",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "META",
+        "isim": "Meta Platforms",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin'in uygun maliyetli AI modelleri, ABD'li teknoloji devleri için rekabeti artırarak kar marjlarını baskılayabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "NÖTR",
+        "gerekce": "Çin'in AI'daki ilerlemesi küresel AI pazarını büyütse de, ABD teknoloji şirketleri üzerindeki rekabet baskısı endeksi dengeleyebilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "NÖTR",
+        "gerekce": "Çin'in AI'daki ilerlemesi küresel AI pazarını büyütse de, ABD teknoloji şirketleri üzerindeki rekabet baskısı endeksi dengeleyebilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji ağırlıklı bir endeks olarak, ABD'li AI şirketleri üzerindeki rekabet baskısından daha fazla etkilenebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Index",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji ağırlıklı bir endeks olarak, ABD'li AI şirketleri üzerindeki rekabet baskısından daha fazla etkilenebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "HG",
+        "isim": "Copper",
+        "yon": "NÖTR",
+        "gerekce": "Çin ekonomisiyle bağlantılı olsa da, AI modellerindeki bu özel gelişmenin bakır talebine doğrudan etkisi belirsizdir.",
+        "skor": 0.4
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Çin'in açık kaynak ve uygun maliyetli yapay zeka modellerindeki ilerlemesi, ABD ile arasındaki zeka açığını kapatarak küresel yapay zeka pazarının kurallarını değiştiriyor. Bu durum Çin teknoloji hisselerini desteklerken, ABD'li teknoloji devleri için rekabeti artırıyor.",
+    "confidence": 0.85
+  }
+]
