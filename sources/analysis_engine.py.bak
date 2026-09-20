@@ -1,0 +1,59 @@
+from __future__ import annotations
+
+from typing import Any, Dict
+
+from sources.evidence_pool import global_evidence_pool
+
+
+def run_analysis_for_product(product_code: str) -> Dict[str, Any]:
+    """
+    SQLite tabanlı EvidencePool'dan verileri okur.
+    Hataları gizlemez; Fail-Closed olarak raporlar.
+    """
+
+    product_code = product_code.upper().strip()
+
+    try:
+        evidences = global_evidence_pool.get_evidence_for_product(
+            product_code
+        )
+
+    except Exception as e:
+        return {
+            "product": product_code,
+            "synthesis_state": "INSUFFICIENT",
+            "confidence": "YETERSİZ",
+            "reason": (
+                f"EvidencePool READ ERROR: "
+                f"{type(e).__name__}: {e}"
+            ),
+            "evidence_count": 0,
+            "evidence_ids": [],
+        }
+
+    count = len(evidences)
+
+    if count == 0:
+        return {
+            "product": product_code,
+            "synthesis_state": "INSUFFICIENT",
+            "confidence": "YETERSİZ",
+            "reason": "No validated evidence items found in database.",
+            "evidence_count": 0,
+            "evidence_ids": [],
+        }
+
+    evidence_ids = [
+        e.get("evidence_id", f"REC_{i}")
+        for i, e in enumerate(evidences)
+    ]
+
+    return {
+        "product": product_code,
+        "synthesis_state": "BULLISH",
+        "confidence": "MODERATE",
+        "reason": f"Evaluated {count} validated evidence items.",
+        "evidence_count": count,
+        "evidence_ids": evidence_ids,
+        "evidences": evidences,
+    }

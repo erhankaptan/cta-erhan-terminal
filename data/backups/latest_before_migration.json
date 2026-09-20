@@ -1,0 +1,408 @@
+{
+  "generated_at": "2026-09-16T03:11:37.495250+00:00",
+  "total_assets": 21,
+  "state_counts": {
+    "INSUFFICIENT": 21
+  },
+  "results": {
+    "6A": {
+      "asset_code": "6A",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_50a40fd5d1b04fdaeb96e87a_6a"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "6B": {
+      "asset_code": "6B",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_b0dd991c57b8157c7c0030dd_6b"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "6C": {
+      "asset_code": "6C",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_47de9cc3002f0efd354dff97_6c"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "6E": {
+      "asset_code": "6E",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_0a7e6cfb291a039717167168_6e"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "6J": {
+      "asset_code": "6J",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_34814074dc5bbc5ce1e3db36_6j"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "6S": {
+      "asset_code": "6S",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_f8a5a57ca5d279f26337333b_6s"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "CL": {
+      "asset_code": "CL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_2ee5ae8a3121ddfa63599f54_cl"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ES": {
+      "asset_code": "ES",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_77dc99ff1fc0f2113517b77b_es"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "GC": {
+      "asset_code": "GC",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_41c5bcbf01b9560bc7eabdec_gc"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "HG": {
+      "asset_code": "HG",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_b9f0a5d50677c3c8a9903e6d_hg"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "NG": {
+      "asset_code": "NG",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_85acb8dde1a81e34a0062363_ng"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "NQ": {
+      "asset_code": "NQ",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_e81bba9ea9431bd6349c7f83_nq"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "PL": {
+      "asset_code": "PL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_ff681f70997a66471617c1cf_pl"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "RTY": {
+      "asset_code": "RTY",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_a04608e20083861a8ddd0d13_rty"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "SI": {
+      "asset_code": "SI",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_a3c46b0cf5deaf8174d7ac7c_si"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "YM": {
+      "asset_code": "YM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_43943643a6faf115456998b0_ym"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ZC": {
+      "asset_code": "ZC",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_543c93d03223d32efec6f801_zc"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ZL": {
+      "asset_code": "ZL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_e1c733c24f2877dc4d48e8c7_zl"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ZM": {
+      "asset_code": "ZM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_03d5e54115ed7b358dce2b82_zm"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ZS": {
+      "asset_code": "ZS",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_de1143b8585ad92b688fe53c_zs"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    },
+    "ZW": {
+      "asset_code": "ZW",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 0,
+      "uncertainty": 100,
+      "evidence_count": 1,
+      "source_type_count": 0,
+      "total_weight": 0.0,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz kanıt: 1 (min 2)"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_16cb94dca75648fb8cb5946a_zw"
+      ],
+      "generated_at": "2026-09-16T03:11:37.490686+00:00"
+    }
+  }
+}

@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Bearish momentum building",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Ayı Momentumu Oluşuyor",
     "content_en": "Title: XAUUSD H4 | Bearish momentum building Type: Bearish reversal Preference: The price is rising towards the pivot at 4,318.68, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 4,162, a pullback support. Alternativ...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Ayı momentumu oluşuyor Tip: Ayı dönüşü Tercih: Fiyat, geri çekilme direnci olan 4,318.68 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı geri çekilme desteği olan 4,162 seviyesindeki 1. desteğe yönlendirebilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-bearish-momentum-building-16th-september-2026",
     "published_at": "Wed, 16 Sep 2026 13:12:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475064+00:00",
-    "translation_hash": "17867bf19446d53cea0511f31368a074"
+    "translation_hash": "17867bf19446d53cea0511f31368a074",
+    "yorum": "Makale, XAUUSD için ayı piyasası dönüşü beklentisini ortaya koyuyor. Fiyatın mevcut direnç seviyesine yükseldikten sonra düşüş eğilimine girmesi öngörülüyor. Bu durum, kısa vadeli bir yükselişin ardından belirgin bir düşüş potansiyeline işaret etmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Makale, XAUUSD'nin (Altın) direnç seviyesinden ayı dönüşü yaparak düşüş trendine girmesini bekliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:51:55.285316+00:00"
   },
   {
     "id": "eurusd-h4-potential-bullish-bounce-at-strong-support-16th-september-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD H4 | Potential bullish bounce at strong support",
-    "title_tr": "",
+    "title_tr": "EURUSD H4 | Güçlü Destekte Potansiyel Boğa Sıçraması",
     "content_en": "Title: EURUSD H4 | Potential bullish bounce at strong support Type: Bullish bounce Preference: The price is falling towards the pivot at 1.1507, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.1573, an overlap resist...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURUSD H4 | Güçlü Destekte Potansiyel Boğa Sıçraması Tür: Boğa sıçraması Tercih: Fiyat, geri çekilme desteği olan 1.1507'deki pivot seviyesine doğru düşüyor. Bu seviyeden yaşanacak bir sıçrama, fiyatı 1.1573'teki ilk dirence (örtüşen direnç) doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/eurusd-h4-potential-bullish-bounce-at-strong-support-16th-september-2026",
     "published_at": "Wed, 16 Sep 2026 13:13:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475092+00:00",
-    "translation_hash": "5a0ce1f7b2a5f8db327c82ec483ee6ef"
+    "translation_hash": "5a0ce1f7b2a5f8db327c82ec483ee6ef",
+    "yorum": "Makale, EURUSD'nin güçlü bir destek seviyesine yaklaştığını belirtiyor. 1.1507'deki pivot seviyesinden bir sıçrama beklenmekte olup, fiyatın ilk dirence doğru hareket etmesi öngörülüyor. Bu durum, parite için kısa vadede yükseliş potansiyeline işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.1507'deki pivot destekten sıçrayarak 1.1573'teki dirence yönelmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:52:03.185676+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-16926",
@@ -36,13 +60,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 16/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 16/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 16/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 16/9/26***ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILARAK NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnç 7882 Destek 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-16926",
     "published_at": "Wed, 16 Sep 2026 07:51:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475122+00:00",
-    "translation_hash": "c9839afb8b15a4a575ea055a637f4c82"
+    "translation_hash": "c9839afb8b15a4a575ea055a637f4c82",
+    "yorum": "Bu makale, S&P500 endeksi için vadeli işlem seviyelerini kullanarak belirlenen aylık teknik destek, direnç ve boğa/ayı bölgelerini sunmaktadır. Belirtilen direnç seviyelerinin destek ve boğa bölgesinin üzerinde olması, genel olarak yükseliş potansiyeline işaret etmektedir. Eski tarihli olmasına rağmen, makale belirli fiyat hedefleri ve aksiyon alanları belirleyerek kısa vadeli işlem stratejilerine rehberlik etmeyi amaçlamaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemler",
+        "yon": "YUKARI",
+        "gerekce": "Makalede, aylık destek (7490) ve direnç (7882) seviyeleri ile boğa/ayı bölgesi (7440/7400) belirtilmiştir. Destek seviyesinin boğa bölgesinin üzerinde olması ve yüksek direnç hedefi, yükseliş potansiyeline işaret etmektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "S&P500 için ES1! vadeli işlem seviyeleri üzerinden aylık destek (7490) ve direnç (7882) noktaları verilmiştir. Belirlenen bu seviyeler ve yukarı yönlü direnç hedefi, endeks için pozitif bir eğilime işaret etmektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-19T22:52:24.406062+00:00"
   },
   {
     "id": "nzdusd-h4-falling-towards-pullback-support-16th-september-2026",
@@ -51,13 +94,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "NZDUSD H4 | Falling towards pullback support",
-    "title_tr": "",
+    "title_tr": "NZDUSD H4 | Geri çekilme desteğine doğru düşüş",
     "content_en": "Title: NZDUSD H4 | Falling towards pullback support Type: Bullish bounce Preference: The price is falling towards the pivot at 0.5716, a pullback support that lines up with the 100% Fibonacci projection. A bounce from this level could lead the price toward the 1st ...",
-    "content_tr": "",
+    "content_tr": "Başlık: NZDUSD H4 | Geri çekilme desteğine doğru düşüş Tür: Yükseliş sıçraması Tercih: Fiyat, %100 Fibonacci projeksiyonu ile hizalanan bir geri çekilme desteği olan 0.5716'daki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. hedefe doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/nzdusd-h4-falling-towards-pullback-support-16th-september-2026",
     "published_at": "Wed, 16 Sep 2026 13:10:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475144+00:00",
-    "translation_hash": "4fc36a94db079e568e967671aca93986"
+    "translation_hash": "4fc36a94db079e568e967671aca93986",
+    "yorum": "NZDUSD paritesi, önemli bir geri çekilme desteği olan 0.5716 seviyesine doğru geriliyor. Analistler bu seviyeden güçlü bir yükseliş sıçraması bekleyerek, yukarı yönlü hareketin başlayabileceğini öngörüyor. Fibonacci projeksiyonu bu desteğin önemini vurguluyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 0.5716'daki destek seviyesine düşerek buradan bir 'yükseliş sıçraması' yapması bekleniyor; bu seviye %100 Fibonacci projeksiyonuyla uyumlu.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-19T22:52:40.445330+00:00"
   },
   {
     "id": "usdjpy-h4-pullback-resistance-ahead-16th-september-2026",
@@ -66,13 +121,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Pullback resistance ahead",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Geri Çekilme Direnci Yaklaşıyor",
     "content_en": "Title: USDJPY H4 | Pullback resistance ahead Type: Bearish reversal Preference: The price is rising towards the pivot at 156.10, which is a pullback resistance that is slightly above the 38.2% Fibonacci retracement. A reversal from this level could lead the price ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Geri çekilme direnci yaklaşıyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, %38.2 Fibonacci geri çekilmesinin biraz üzerinde olan 156.10'daki pivot direncine doğru yükseliyor. Bu seviyeden olası bir dönüş, fiyatı...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-pullback-resistance-ahead-16th-september-2026",
     "published_at": "Wed, 16 Sep 2026 13:00:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475163+00:00",
-    "translation_hash": "035387b6787bb60b721360fa9712ad8b"
+    "translation_hash": "035387b6787bb60b721360fa9712ad8b",
+    "yorum": "USDJPY paritesi, 156.10 seviyesindeki kritik pivot direncine ve %38.2 Fibonacci geri çekilme bölgesine yaklaşıyor. Analiz, bu seviyeden bir ayı piyasası dönüşü potansiyeli olduğuna işaret ediyor. Yatırımcılar, bu direnç bölgesindeki fiyat hareketlerini dikkatle izlemelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-09-19T22:52:56.313703+00:00"
   },
   {
     "id": "daily-market-outlook-september-16-2026",
@@ -81,12 +140,16 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 16, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 16 Eylül 2026",
     "content_en": "Daily Market Outlook, September 16, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Markets Steady As Warsh Faces Fed Hike TestGlobal equity markets found temporary footing on Wednesday as investors shifted into a wait-and-s...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 16 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Raporu - Warsh Fed Faiz Artışı Testiyle Karşı Karşıya Kalırken Piyasalar İstikrarlı\nKüresel hisse senedi piyasaları Çarşamba günü yatırımcıların beklemeye geçmesiyle geçici bir zemin buldu...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-16-2026",
     "published_at": "Wed, 16 Sep 2026 09:50:00 +0000",
     "fetched_at": "2026-09-16T08:41:31.475186+00:00",
-    "translation_hash": "d57292836460ab5e0e52c507e583a399"
+    "translation_hash": "d57292836460ab5e0e52c507e583a399",
+    "yorum": "Makale, küresel hisse senedi piyasalarının Fed'in olası faiz artışı beklentisiyle geçici bir denge bulduğunu belirtiyor. Yatırımcıların bu belirsizlik ortamında temkinli bir bekleyiş içinde olduğu görülüyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [],
+    "translated_at": "2026-09-19T22:53:06.315010+00:00"
   }
 ]

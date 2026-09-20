@@ -1,0 +1,196 @@
+[
+  {
+    "tweet_id": "2101391122417541582",
+    "username": "wayneterprises",
+    "text": "Top Buys/Sells by the Chinese into offshore equities this past week $TCEHY $BABA",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHShM1aVbEAA8IJ3.png",
+      "http://nitter.jaydenha.uk/pic/media%2FHSIKsvtbsAAtvzo.png"
+    ],
+    "analyzed_at": "2026-09-19T23:51:00.064753+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, Çinli yatırımcıların offshore hisse senetlerindeki haftalık alım/satım ve pozisyon değişimlerini gösteren iki tablo sunuyor. Tablolarda ve tweet metninde Tencent ($TCEHY) ve Alibaba ($BABA) dahil olmak üzere çeşitli hisse senetleri listelenmekte.",
+    "confidence": 0.95
+  },
+  {
+    "tweet_id": "2101390870801252712",
+    "username": "wayneterprises",
+    "text": "Chinese continue to buy offshore equities this week +$1.5B. Last 5D $HSTECH +2.8%, solana:3aSu9uuDLiWkBQGycJDDSubZEPb6YJjDzULPWZkJn8ic -0.8%",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHShMfJ6boAAazqQ.png",
+      "http://nitter.jaydenha.uk/pic/media%2FHSIKXfBaEAAIGNl.png"
+    ],
+    "analyzed_at": "2026-09-19T23:51:19.168736+00:00",
+    "varliklar": [],
+    "genel_yon": "YUKARI",
+    "ozet": "Çinli yatırımcılar bu hafta denizaşırı hisse senetlerine 1.5 milyar doların üzerinde net alım yaparak piyasada pozitif bir eğilim sergilemiştir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101386089537650838",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: 👉 Video YouTube En este video reflexionamos con datos si Europa está entrando en su mayor crisis energética y la reacción que están teniendo los mercados financieros. https://youtu.be/ogy1fY3j-m8",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSmEfG2XMAAh-MO.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:51:33.429883+00:00",
+    "varliklar": [
+      {
+        "sembol": "NG",
+        "isim": "Natural Gas",
+        "yon": "YUKARI",
+        "gerekce": "Görseldeki Avrupa gaz fiyatı grafiği, geleceğe yönelik güçlü bir yükseliş trendi ve ok işareti ile vurgulanmıştır.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet, Avrupa'da enerji krizi ve finans piyasalarının tepkileri üzerine bir video paylaşıyor. Görsel, Avrupa'da doğalgaz fiyatlarında geleceğe yönelik belirgin bir artış öngörüyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101314942137733431",
+    "username": "JuanJesusMontoy",
+    "text": "Comentarios de Goldman Sachs sobre NVDA.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSlezMHXoAAHgpA.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:51:53.279885+00:00",
+    "varliklar": [],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia hissesinde düşük ima edilen volatiliteden faydalanarak potansiyel yükseliş için uzun vadeli alım opsiyonu stratejisi öneriyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101280969827156409",
+    "username": "JuanJesusMontoy",
+    "text": "Nvidia: Goldman Sachs plantea aprovechar el abaratamiento de las opciones Goldman Sachs señala que la caída de la volatilidad implícita está abaratando las opciones en el sector tecnológico. En Nvidia, ha alcanzado mínimos de varios años, lo que vuelve a despertar el interés por sustituir acciones por compras de calls. La idea es sencilla: mantener exposición a una posible subida de Nvidia con un desembolso menor que al comprar las acciones y limitar la pérdida máxima a la prima pagada. A cambio, las opciones tienen vencimiento: si la subida no llega a tiempo o no es suficiente, se puede perder toda esa prima. Como ejemplo, Goldman Sachs menciona las calls de diciembre con strike de 240 dólares, con un precio orientativo de 9,40 dólares por acción, frente a una cotización de Nvidia de 221,72 dólares en el momento de la nota. Si se mantienen hasta el vencimiento, el punto de equilibrio estaría en 249,40 dólares, sin incluir comisiones. La propuesta permite mantener exposición alcista con un riesgo de pérdida definido, pero exige acertar tanto con la magnitud de la subida como con el plazo.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:52:11.939720+00:00",
+    "varliklar": [],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet ve görseller, düşük zımni volatiliteden faydalanarak Nvidia hissesi üzerinde call opsiyonları alarak yükseliş pozisyonu alma stratejisini anlatmaktadır. Goldman Sachs, hisse senedi yerine call opsiyonları ile daha düşük maliyetli ve tanımlı riskli bir yükseliş pozisyonu öneriyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101262710268657843",
+    "username": "JuanJesusMontoy",
+    "text": "RT @carpatos: Las 4 claves de la semana en video FED sube tipos ¿Y ahora qué? https://youtu.be/UcJaUAvsEzY",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/card_img%2F2101262596544286720%2FVze4qJjM%3Fformat%3Djpg%26name%3D800x320_1"
+    ],
+    "analyzed_at": "2026-09-19T23:52:31.701827+00:00",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dollar Index",
+        "yon": "YUKARI",
+        "gerekce": "FED faiz artışı, Dolar'ı diğer para birimlerine karşı daha cazip hale getirir ve değerini artırma eğilimindedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury",
+        "yon": "AŞAĞI",
+        "gerekce": "FED faiz artışı, tahvil getirilerini yükseltirken tahvil fiyatları üzerinde aşağı yönlü baskı oluşturur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Artan faiz oranları, şirketlerin borçlanma maliyetlerini yükselterek kâr marjlarını ve hisse senedi değerlemelerini olumsuz etkileyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artışları, gelecekteki büyüme beklentileri yüksek teknoloji şirketlerinin değerlemeleri üzerinde daha fazla baskı yaratır.",
+        "skor": 0.65
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, FED'in faiz artırımının piyasalarda ne gibi sonuçlar doğuracağını sorguluyor. Dolar'da güçlenme, tahvil fiyatlarında düşüş ve hisse senedi piyasalarında baskı potansiyeli öne çıkan beklentilerdir.",
+    "confidence": 0.8
+  },
+  {
+    "tweet_id": "2101386089537650838",
+    "username": "misterpuertas",
+    "text": "👉 Video YouTube En este video reflexionamos con datos si Europa está entrando en su mayor crisis energética y la reacción que están teniendo los mercados financieros. https://youtu.be/ogy1fY3j-m8",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSmEfG2XMAAh-MO.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:52:44.705335+00:00",
+    "varliklar": [
+      {
+        "sembol": "NG",
+        "isim": "Natural Gas",
+        "yon": "YUKARI",
+        "gerekce": "Görseldeki grafik, Avrupa doğal gaz fiyatlarında geçmişteki büyük artışı ve 2026'ya kadar devam eden yükseliş beklentisini gösteriyor.",
+        "skor": 0.95
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet ve görseller, Avrupa'da devam eden enerji krizini ve doğal gaz fiyatlarındaki yükseliş trendini analiz ediyor.",
+    "confidence": 0.95
+  },
+  {
+    "tweet_id": "2101280969827156409",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: Nvidia: Goldman Sachs plantea aprovechar el abaratamiento de las opciones Goldman Sachs señala que la caída de la volatilidad implícita está abaratando las opciones en el sector tecnológico. En Nvidia, ha alcanzado mínimos de varios años, lo que vuelve a despertar el interés por sustituir acciones por compras de calls. La idea es sencilla: mantener exposición a una posible subida de Nvidia con un desembolso menor que al comprar las acciones y limitar la pérdida máxima a la prima pagada. A cambio, las opciones tienen vencimiento: si la subida no llega a tiempo o no es suficiente, se puede perder toda esa prima. Como ejemplo, Goldman Sachs menciona las calls de diciembre con strike de 240 dólares, con un precio orientativo de 9,40 dólares por acción, frente a una cotización de Nvidia de 221,72 dólares en el momento de la nota. Si se mantienen hasta el vencimiento, el punto de equilibrio estaría en 249,40 dólares, sin incluir comisiones. La propuesta permite mantener exposición alcista con un riesgo de pérdida definido, pero exige acertar tanto con la magnitud de la subida como con el plazo.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:52:58.611484+00:00",
+    "varliklar": [],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia hisse senedinde düşük volatilite nedeniyle call opsiyonları ile yükseliş pozisyonu alınmasını öneriyor. Düşük maliyetle yukarı yönlü pozisyon alma ve riski sınırlama stratejisi vurgulanıyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101241193245868131",
+    "username": "misterpuertas",
+    "text": "La apuesta obvia por la ciberseguridad ya no está en una fase temprana. Acumula una subida de alrededor del 44% en lo que va de año, frente a aproximadamente un 17% del QQQ y un 12% del SPY.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSkbuXAW4AAotO1.jpg"
+    ],
+    "analyzed_at": "2026-09-19T23:53:14.845568+00:00",
+    "varliklar": [
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Tweet'te bahsedilen QQQ ETF'i (Nasdaq 100'ü takip eder) yılbaşından bu yana yaklaşık %17'lik bir yükseliş göstermiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Tweet'te bahsedilen SPY ETF'i (S&P 500'ü takip eder) yılbaşından bu yana yaklaşık %12'lik bir yükseliş göstermiştir.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet, siber güvenlik sektöründeki güçlü yükselişi vurgularken, QQQ ve SPY gibi ana endeks ETF'lerinin de yılbaşından bu yana pozitif performans gösterdiğini belirtmektedir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101217215601106994",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/1iTxHgjXSJX98j9m0z485u?si=7-uw5LwkSXamjLI6-rrlXg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-19T23:53:19.773688+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal piyasalarla veya varlıklarla ilgili herhangi bir bilgi içermemektedir. Bir Spotify bölümünün duyurusudur.",
+    "confidence": 1.0
+  }
+]

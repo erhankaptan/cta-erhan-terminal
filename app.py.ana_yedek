@@ -1,0 +1,684 @@
+import streamlit as st
+import json
+import urllib.request
+from pathlib import Path
+
+from sources.analysis_engine import run_analysis_for_product
+from sources.evidence_pool import global_evidence_pool
+
+# ============================================================
+# SAYFA AYARLARI
+# ============================================================
+st.set_page_config(
+    page_title="CTA ERHAN Terminali",
+    page_icon="◉",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# ============================================================
+# GLOBAL CSS
+# ============================================================
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 11px !important;
+    }
+    .block-container {
+        padding-top: 0.6rem !important;
+        padding-bottom: 0.6rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        max-width: 100% !important;
+    }
+    h1, h2, h3 {
+        margin-top: 0.3rem !important;
+        margin-bottom: 0.2rem !important;
+    }
+    h1, h2, h3, h4, h5, h6,
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+        color: #00E5FF !important;
+    }
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3 {
+        color: #00E5FF !important;
+    }
+    div[data-testid="stAlert"] {
+        background-color: #0F2A5C !important;
+        border: 1px solid #1E4FA8 !important;
+        border-radius: 4px !important;
+        padding: 6px 12px !important;
+    }
+    div[data-testid="stAlert"] * {
+        color: #FFFFFF !important;
+        font-weight: 700 !important;
+        font-size: 13px !important;
+    }
+    div[data-baseweb="notification"] {
+        background-color: #0F2A5C !important;
+        border: 1px solid #1E4FA8 !important;
+    }
+    div[data-baseweb="notification"] * {
+        color: #FFFFFF !important;
+        font-weight: 700 !important;
+        font-size: 13px !important;
+    }
+    div[data-testid="stMetric"] {
+        background-color: #0F2A5C !important;
+        border: 1px solid #1E4FA8 !important;
+        border-radius: 4px !important;
+        padding: 4px 8px !important;
+    }
+    div[data-testid="stMetric"] * {
+        color: #FFFFFF !important;
+    }
+    details summary {
+        color: #00E5FF !important;
+    }
+    .aktif-urun-kutu {
+        padding: 8px 14px;
+        border: 1px solid #333;
+        border-radius: 6px;
+        background: #0a0a0a;
+    }
+    .aktif-urun-baslik {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .aktif-urun-deger {
+        color: #00E676;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .varlik-yukari { color: #00E676 !important; font-weight: 700; }
+    .varlik-asagi  { color: #FF3B3B !important; font-weight: 700; }
+    .varlik-notr   { color: #FFC107 !important; font-weight: 700; }
+    .varlik-karisik { color: #00E5FF !important; font-weight: 700; }
+    .ozet-kutu {
+        background: #0F2A5C;
+        padding: 14px 18px;
+        border-radius: 6px;
+        margin: 10px 0;
+        border-left: 5px solid #00E5FF;
+    }
+    .ozet-baslik {
+        color: #00E5FF;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 6px;
+    }
+    .ozet-metin {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# ============================================================
+# GITHUB OTOMATİK ÇEKME
+# ============================================================
+GITHUB_RAW = "https://raw.githubusercontent.com/erhankaptan/cta-erhan-terminal/main"
+GITHUB_API = "https://api.github.com/repos/erhankaptan/cta-erhan-terminal/contents"
+
+PROJECT_ROOT = Path(__file__).parent.resolve()
+DATA_DIR = PROJECT_ROOT / "data"
+TWEETS_DIR = DATA_DIR / "tweets"
+ANALYSIS_DIR = DATA_DIR / "analysis"
+RSS_DIR = DATA_DIR / "rss"
+
+
+def _ensure_dirs():
+    TWEETS_DIR.mkdir(parents=True, exist_ok=True)
+    ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
+    RSS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _http_get(url, timeout=15):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "CTA-Erhan-Terminal"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read()
+    except Exception:
+        return None
+
+
+def _list_github_dir(subpath):
+    try:
+        url = f"{GITHUB_API}/{subpath}"
+        data = _http_get(url, timeout=15)
+        if not data:
+            return []
+        items = json.loads(data.decode("utf-8"))
+        if not isinstance(items, list):
+            return []
+        return [i for i in items if i.get("type") == "file" and i.get("name", "").endswith(".json")]
+    except Exception:
+        return []
+
+
+def _download_latest(subpath, target_dir, max_files=5):
+    _ensure_dirs()
+    files = _list_github_dir(subpath)
+    if not files:
+        return 0
+    files_sorted = sorted(files, key=lambda x: x.get("name", ""))
+    latest = files_sorted[-max_files:]
+    downloaded = 0
+    for item in latest:
+        name = item.get("name")
+        if not name:
+            continue
+        target = target_dir / name
+        if target.exists():
+            continue
+        raw_url = f"{GITHUB_RAW}/{subpath}/{name}"
+        content = _http_get(raw_url, timeout=20)
+        if content:
+            try:
+                with open(target, "wb") as f:
+                    f.write(content)
+                downloaded += 1
+            except Exception:
+                pass
+    return downloaded
+
+
+def sync_from_github():
+    n1 = _download_latest("data/tweets", TWEETS_DIR, max_files=5)
+    n2 = _download_latest("data/analysis", ANALYSIS_DIR, max_files=5)
+    n3 = _download_latest("data/rss", RSS_DIR, max_files=5)
+    return n1, n2, n3
+
+
+def load_all_tweets():
+    if not TWEETS_DIR.exists():
+        return []
+    all_tweets = []
+    seen = set()
+    for fp in sorted(TWEETS_DIR.glob("tweets_*.json")):
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                for t in data:
+                    tid = t.get("id", "")
+                    if tid and tid not in seen:
+                        seen.add(tid)
+                        all_tweets.append(t)
+        except Exception:
+            continue
+    return all_tweets
+
+
+def load_all_analysis():
+    if not ANALYSIS_DIR.exists():
+        return []
+    all_an = []
+    seen = set()
+    for fp in sorted(ANALYSIS_DIR.glob("analysis_*.json")):
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                for a in data:
+                    tid = a.get("tweet_id", "")
+                    if tid and tid not in seen:
+                        seen.add(tid)
+                        all_an.append(a)
+        except Exception:
+            continue
+    return all_an
+
+
+def load_all_rss():
+    if not RSS_DIR.exists():
+        return []
+    all_articles = []
+    seen = set()
+    for fp in sorted(RSS_DIR.glob("rss_*.json")):
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                for a in data:
+                    aid = a.get("id", "")
+                    if aid and aid not in seen:
+                        seen.add(aid)
+                        all_articles.append(a)
+        except Exception:
+            continue
+    return all_articles
+
+
+# ============================================================
+# ÜRÜNLER
+# ============================================================
+products = ["ES", "MES", "NQ", "MNQ", "RTY", "YM", "CL", "MCL", "NG", "GC", "MGC", "SI", "HG", "PL", "6E", "6J", "6B", "6A", "6C", "6S", "ZC", "ZS", "ZW", "ZL", "ZM"]
+product_names = {
+    "ES": "S&P 500 E-mini", "MES": "Micro S&P 500",
+    "NQ": "Nasdaq 100 E-mini", "MNQ": "Micro Nasdaq 100",
+    "RTY": "Russell 2000 E-mini", "YM": "Dow E-mini",
+    "CL": "Ham Petrol", "MCL": "Micro Ham Petrol", "NG": "Doğal Gaz",
+    "GC": "Altın", "MGC": "Micro Altın", "SI": "Gümüş", "HG": "Bakır", "PL": "Platin",
+    "6E": "Euro FX", "6J": "Japon Yeni", "6B": "İngiliz Sterlini",
+    "6A": "Avustralya Doları", "6C": "Kanada Doları", "6S": "İsviçre Frangı",
+    "ZC": "Mısır", "ZS": "Soya Fasulyesi", "ZW": "Buğday", "ZL": "Soya Yağı", "ZM": "Soya Küspesi",
+}
+
+# ============================================================
+# SOL MENÜ
+# ============================================================
+with st.sidebar:
+    st.markdown('<h1 style="color:#00E5FF;">◉ CTA ERHAN</h1>', unsafe_allow_html=True)
+    st.caption("Vadeli İşlemler / CTA / Piyasa İstihbaratı")
+    st.divider()
+    st.subheader("ÜRÜN SEÇİMİ")
+    selected_product = st.selectbox("Aktif ürün", products, index=0)
+    st.markdown(f'<h2 style="color:#00E5FF;">{selected_product}</h2>', unsafe_allow_html=True)
+    st.caption(product_names[selected_product])
+    st.divider()
+    st.subheader("TERMİNAL")
+    st.write("◉ CTA Radarı")
+    st.write("◉ Vadeli İşlemler Panosu")
+    st.write("◉ COT Analizi")
+    st.write("◉ Kaynak İstihbaratı")
+    st.write("◉ Kanıt Havuzu")
+    st.write("◉ Analiz")
+    st.write("◉ Sentez")
+    st.divider()
+    st.subheader("SİSTEM SINIRI")
+    st.success("SALT OKUNUR İSTİHBARAT")
+    st.write("Karar üretmez.")
+    st.write("Emir göndermez.")
+    st.write("Otomatik işlem yapmaz.")
+    st.divider()
+    st.subheader("VERİ SENKRON")
+    if st.button("🔄 GitHub'dan Çek", use_container_width=True):
+        with st.spinner("GitHub'dan veri çekiliyor..."):
+            n_t, n_a, n_r = sync_from_github()
+        st.success(f"✅ {n_t} tweet, {n_a} analiz, {n_r} RSS")
+        st.rerun()
+    if "github_synced" not in st.session_state:
+        st.session_state["github_synced"] = True
+        try:
+            sync_from_github()
+        except Exception:
+            pass
+
+# ============================================================
+# BACKEND
+# ============================================================
+analysis = run_analysis_for_product(selected_product)
+cta_yon = analysis.get("synthesis_state", "NÖTR")
+if cta_yon == "INSUFFICIENT":
+    cta_yon = "NÖTR"
+elif cta_yon == "BULLISH":
+    cta_yon = "YÜKSELİŞ"
+elif cta_yon == "BEARISH":
+    cta_yon = "DÜŞÜŞ"
+
+guven = analysis.get("confidence", "—")
+kanit_sayisi = analysis.get("evidence_count", 0)
+yon = "YETERSİZ" if kanit_sayisi == 0 else cta_yon
+guc = "YETERSİZ" if kanit_sayisi == 0 else analysis.get("strength", "YETERSİZ")
+belirsizlik = "YÜKSEK" if kanit_sayisi == 0 else analysis.get("uncertainty", "YÜKSEK")
+catisma = analysis.get("conflict", "YOK")
+rejim = analysis.get("regime", "BİLİNMİYOR")
+nihai_yon = yon
+
+# ============================================================
+# X + RSS VERİSİ
+# ============================================================
+all_tweets = load_all_tweets()
+all_rss = load_all_rss()
+all_analysis = load_all_analysis()
+x_total = len(all_tweets)
+x_analyzed = len(all_analysis)
+x_assets = sum(len(a.get("varliklar", [])) for a in all_analysis)
+rss_total = len(all_rss)
+
+# ============================================================
+# ANA BAŞLIK
+# ============================================================
+st.markdown('<h1 style="color:#00E5FF;">◉ CTA ERHAN TERMİNALİ</h1>', unsafe_allow_html=True)
+st.caption("Vadeli İşlemler / CTA / Piyasa İstihbaratı")
+st.markdown(
+    f'<div class="aktif-urun-kutu">'
+    f'<span class="aktif-urun-baslik">AKTİF ÜRÜN: </span>'
+    f'<span class="aktif-urun-deger">{selected_product} — {product_names[selected_product]}</span>'
+    f'</div>',
+    unsafe_allow_html=True,
+)
+st.divider()
+
+# ============================================================
+# SİSTEM DURUMU
+# ============================================================
+st.subheader("SİSTEM DURUMU")
+col1, col2, col3, col4, col5 = st.columns(5)
+with col1:
+    st.metric("CTA YÖNÜ", cta_yon)
+with col2:
+    st.metric("GÜVEN", guven)
+with col3:
+    st.metric("REJİM", rejim)
+with col4:
+    st.metric("KAYNAK DURUMU", "HAZIR")
+with col5:
+    st.metric("KANIT", kanit_sayisi)
+st.divider()
+
+# ============================================================
+# ANA PANELLER
+# ============================================================
+c1, c2, c3, c4 = st.columns(4)
+
+with c1:
+    st.header("CTA RADARI")
+    st.write(f"Ürün: {selected_product}")
+    st.write(f"Yön: {yon}")
+    st.write(f"Güç: {guc}")
+    st.write(f"Belirsizlik: {belirsizlik}")
+    st.write(f"Çatışma: {catisma}")
+    st.write(f"Nihai Yön: {nihai_yon}")
+    st.divider()
+    st.header("VADELİ İŞLEMLER PANOSU")
+    st.write(f"Kontrat: **{selected_product}**")
+    st.write(f"Enstrüman: **{product_names[selected_product]}**")
+    st.write("Fiyat: —")
+    st.write("Hacim: —")
+    st.write("Açık Pozisyon: —")
+    st.write("Volatilite: —")
+    st.info("Gerçek piyasa verisi bu aşamada bağlı değil.")
+    with st.expander("Detaylar"):
+        st.write("Veri kaynağı: —")
+        st.write("Zaman damgası: —")
+        st.write("Seans: —")
+
+with c2:
+    st.header("KAYNAK İSTİHBARATI")
+    tab1, tab2, tab3, tab4 = st.tabs(["X / BİRİNCİL", "RSS / HABER", "KURUMSAL", "PDF RAPORLAR"])
+
+    with tab1:
+        st.subheader("X / Birincil Kaynak")
+        st.info("X gönderileri birincil kaynak katmanıdır.")
+        m1, m2, m3 = st.columns(3)
+        with m1:
+            st.metric("Toplam", x_total)
+        with m2:
+            st.metric("Analiz", x_analyzed)
+        with m3:
+            st.metric("Varlık", x_assets)
+        st.divider()
+
+        alt1, alt2 = st.tabs(["⭐ ANALİZ EDİLENLER", "📋 TÜM X AKIŞI"])
+
+        with alt1:
+            if not all_analysis:
+                st.warning("Henüz analiz edilmiş tweet yok.")
+            else:
+                for item in all_analysis:
+                    username = item.get("username", "")
+                    text = item.get("text", "")[:100]
+                    genel = item.get("genel_yon", "NÖTR")
+                    ozet = item.get("ozet", "")
+                    varliklar = item.get("varliklar", [])
+                    images = item.get("images", [])
+
+                    with st.expander(f"@{username} — {text}...", expanded=False):
+                        if ozet:
+                            st.markdown(
+                                f'<div class="ozet-kutu">'
+                                f'<div class="ozet-baslik">📝 TÜRKÇE ÖZET</div>'
+                                f'<div class="ozet-metin">{ozet}</div>'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+
+                        if genel == "YUKARI":
+                            cls = "varlik-yukari"
+                        elif genel == "AŞAĞI":
+                            cls = "varlik-asagi"
+                        elif genel == "KARIŞIK":
+                            cls = "varlik-karisik"
+                        else:
+                            cls = "varlik-notr"
+
+                        st.markdown(f'<span class="{cls}">📊 Genel: {genel}</span>', unsafe_allow_html=True)
+
+                        if varliklar:
+                            for v in varliklar:
+                                sembol = v.get("sembol", "?")
+                                isim = v.get("isim", "")
+                                vyon = v.get("yon", "NÖTR")
+                                if vyon == "YUKARI":
+                                    ikon = "🟢"
+                                elif vyon == "AŞAĞI":
+                                    ikon = "🔴"
+                                else:
+                                    ikon = "🟡"
+                                st.write(f"{ikon} **{sembol}** ({isim}) → {vyon}")
+
+                        if images:
+                            st.caption(f"📸 {len(images)} görsel")
+
+                        st.caption("Orijinal metin:")
+                        st.write(item.get("text", ""))
+
+        with alt2:
+            if not all_tweets:
+                st.warning("Henüz tweet yok.")
+            else:
+                usernames = sorted(set(t.get("username", "") for t in all_tweets))
+                secim = st.selectbox("Hesap filtresi", ["Hepsi"] + usernames, key="x_filter")
+                filtered = all_tweets
+                if secim != "Hepsi":
+                    filtered = [t for t in all_tweets if t.get("username") == secim]
+                st.caption(f"**{len(filtered)}** tweet")
+                for t in filtered[:200]:
+                    username = t.get("username", "")
+                    text = t.get("text", "")
+                    published = t.get("published", "")
+                    images = t.get("images", [])
+                    with st.expander(f"@{username} — {text[:80]}...", expanded=False):
+                        st.write(text)
+                        if published:
+                            st.caption(f"📅 {published}")
+                        if images:
+                            st.caption(f"📸 {len(images)} görsel")
+
+    with tab2:
+        st.subheader("RSS / Haber")
+        st.info("Tickmill blog RSS akışı")
+
+        if not all_rss:
+            st.warning("Henüz RSS makalesi yok.")
+        else:
+            st.metric("Toplam Makale", rss_total)
+            st.divider()
+
+            for article in all_rss:
+                title_tr = article.get("title_tr", "").strip()
+                title_en = article.get("title_en", "").strip()
+                display_title = title_tr if title_tr else title_en
+                link = article.get("url", "")
+                published = article.get("published_at", "")
+                source = article.get("source", "Tickmill")
+
+                with st.expander(f"📰 {display_title}", expanded=False):
+                    st.markdown(
+                        f'<div class="ozet-kutu">'
+                        f'<div class="ozet-baslik">📰 BAŞLIK</div>'
+                        f'<div class="ozet-metin">{display_title}</div>'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                    if title_tr and title_en:
+                        st.caption(f"🇬🇧 Orijinal: {title_en}")
+
+                    st.caption(f"📅 {published}")
+                    st.caption(f"📡 Kaynak: {source}")
+
+                    content_tr = article.get("content_tr", "").strip()
+                    content_en = article.get("content_en", "").strip()
+
+                    if content_tr:
+                        st.markdown("**📝 Türkçe İçerik:**")
+                        st.write(content_tr)
+                    elif content_en:
+                        st.markdown("**📝 İçerik (İngilizce):**")
+                        st.write(content_en)
+
+                    if link:
+                        st.markdown(f"[🔗 Makaleyi Aç]({link})")
+
+    with tab3:
+        st.subheader("Kurumsal Kaynaklar")
+        st.info("Kurumların açık web ve araştırma yayınları.")
+        st.write("Kurumlar: 0")
+        st.write("Belgeler: 0")
+        st.write("Doğrulanmış: 0")
+
+    with tab4:
+        st.subheader("PDF Raporları")
+        st.info("Kurumsal PDF raporları.")
+        st.write("PDF dosyaları: 0")
+        st.write("Taranan sayfalar: 0")
+        st.write("Çıkarılan kanıt: 0")
+
+    st.divider()
+    st.header("KANIT HAVUZU")
+    evidence = {
+        "Kaynak": ["—"], "Tür": ["—"], "Ürün": [selected_product],
+        "Durum": ["KANIT YOK" if kanit_sayisi == 0 else "KANIT VAR"], "Zaman": ["—"],
+    }
+    with st.expander("Kanıt Tablosu"):
+        st.dataframe(evidence, use_container_width=True, hide_index=True)
+    st.caption("Kaynak → Kaynak Geçmişi → Kanıt → İstihbarat")
+
+with c3:
+    st.header("ANALİZ")
+    st.write("Yön")
+    st.warning(yon)
+    st.write("Güç")
+    st.warning(guc)
+    st.write("Belirsizlik")
+    st.warning(belirsizlik)
+    st.write("Çatışma")
+    st.success(catisma)
+    st.write("Rejim")
+    st.warning(rejim)
+    st.divider()
+    st.header("SENTEZ")
+    if kanit_sayisi == 0:
+        st.markdown(
+            '<div style="background:#0F2A5C;border:1px solid #1E4FA8;border-radius:4px;padding:6px 12px;color:#FFFFFF;font-weight:700;font-size:13px;">YETERSİZ KANIT</div>',
+            unsafe_allow_html=True,
+        )
+        st.write("Mevcut kanıtlarla doğrulanmış yönsel sonuç üretilemiyor.")
+        st.write(f"Nihai Yön: **{nihai_yon}**")
+    else:
+        st.markdown(
+            f'<div style="background:#0F2A5C;border:1px solid #1E4FA8;border-radius:4px;padding:6px 12px;color:#FFFFFF;font-weight:700;font-size:13px;">{cta_yon}</div>',
+            unsafe_allow_html=True,
+        )
+        st.write(f"Kanıt sayısı: {kanit_sayisi}")
+        st.write(f"Nihai Yön: **{nihai_yon}**")
+    with st.expander("Detaylar"):
+        st.write(f"TÜMÜ UYUMLU: {'Evet' if kanit_sayisi > 0 else 'Hayır'}")
+        st.write(f"NÖTR: {'Evet' if cta_yon == 'NÖTR' else 'Hayır'}")
+        st.write("BÖLÜNMÜŞ: Hayır")
+        st.write(f"YETERSİZ: {'Evet' if kanit_sayisi == 0 else 'Hayır'}")
+
+with c4:
+    st.header("COT ANALİZİ")
+    cot = analysis.get("cot", {})
+    if cot.get("available"):
+        summary = cot.get("summary", {})
+        details = cot.get("details", {})
+        st.write("CFTC COT: **YALNIZCA VEKİL VERİ**")
+        st.write(summary.get("line1", "—"))
+        st.write(summary.get("line2", "—"))
+        st.write(summary.get("line3", "—"))
+        with st.expander("Detaylar"):
+            st.write(f"**Piyasa:** {details.get('market', '—')}")
+            st.write(f"**Rapor:** {details.get('report_date', '—')}")
+            st.write(f"**Açık Pozisyon:** {details.get('open_interest', 0):,}")
+            st.write(f"**Squeeze Riski:** {details.get('squeeze_risk', '—')}")
+            st.write("---")
+            st.write("**Leveraged Funds (CTA Proxy)**")
+            cta = details.get("cta_proxy", {})
+            st.write(f"Long: {cta.get('long', 0):,} | Short: {cta.get('short', 0):,}")
+            st.write(f"Net: {cta.get('net', 0):+,} | Değişim: {cta.get('change_net', 0):+,}")
+            st.write("**Dealer (Sell-side)**")
+            dealer = details.get("dealer", {})
+            st.write(f"Net: {dealer.get('net', 0):+,}")
+            st.write("**Asset Manager (Kurumsal)**")
+            inst = details.get("institutional", {})
+            st.write(f"Net: {inst.get('net', 0):+,}")
+            st.caption("COT verisi doğrudan CTA pozisyonu değildir.")
+    else:
+        st.write("CFTC COT: **YALNIZCA VEKİL VERİ**")
+        st.write("Yönetilen Para: —")
+        st.write("Ticari Pozisyonlar: —")
+        st.write("Ticari Olmayan Pozisyonlar: —")
+        with st.expander("Detaylar"):
+            st.write("COT verisi doğrudan CTA pozisyonu değildir.")
+            st.write("Yalnızca vekil veri ve araştırma kanıtı olarak kullanılır.")
+    st.divider()
+    st.caption("COT = Commitments of Traders")
+    st.caption("CFTC haftalık raporu")
+
+# ============================================================
+# ALT SATIR
+# ============================================================
+st.divider()
+a1, a2, a3, a4 = st.columns(4)
+
+with a1:
+    st.header("İSTİHBARAT AKIŞI")
+    st.write("1 — KAYNAK")
+    st.write("2 — KAYNAK ALMA")
+    st.write("3 — NORMALİZASYON")
+    st.write("4 — KAYNAK GEÇMİŞİ")
+    st.write("5 — KANIT")
+    st.write("6 — İSTİHBARAT")
+    st.write("7 — SENTEZ")
+
+with a2:
+    st.header("DOĞRULAMA")
+    st.write("Kaynak doğrulaması: —")
+    st.write("Güncellik doğrulaması: —")
+    st.write("Kanıt doğrulaması: —")
+    st.write("Çatışma doğrulaması: —")
+    st.write("Çürütme testi: —")
+
+with a3:
+    st.header("OPERASYONEL DURUM")
+    st.write("Terminal: HAZIR")
+    st.write("Kaynak Motoru: HAZIR")
+    st.write("Kanıt Motoru: HAZIR")
+    st.write("Analiz Motoru: HAZIR")
+    st.write("İşlem: DEVRE DIŞI")
+
+with a4:
+    st.header("KAYNAK DURUMU")
+    st.write("X / Birincil: **HAZIR**")
+    st.write("RSS: **HAZIR**")
+    st.write("Kurumsal: **HAZIR**")
+    st.write("PDF: **HAZIR**")
+    st.write("COT: **HAZIR**")
+    st.write("IBKR / TWS: **İSTEĞE BAĞLI**")
+
+st.divider()
+st.caption("CTA ERHAN Terminali | Kanıt Öncelikli | Salt Okunur İstihbarat")

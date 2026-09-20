@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD H4 | Bearish reversal at strong resistance",
-    "title_tr": "",
+    "title_tr": "EURUSD H4 | Güçlü dirençte ayı piyasası dönüşü",
     "content_en": "Title: EURUSD H4 | Bearish reversal at strong resistance Type: Bearish reversal Preference: The price is rising towards the pivot at 1.1572, which is an overlap resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the p...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURUSD H4 | Güçlü dirençte ayı piyasası dönüşü Tür: Ayı piyasası dönüşü Tercih: Fiyat, 38.2% Fibonacci geri çekilmesiyle hizalanan bir örtüşme direnci olan 1.1572'deki pivota doğru yükseliyor. Bu seviyeden bir geri dönüş, p...",
     "url": "https://www.tickmill.com/blog/eurusd-h4-bearish-reversal-at-strong-resistance-15th-september-2026",
     "published_at": "Tue, 15 Sep 2026 10:46:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509470+00:00",
-    "translation_hash": "2f5be1c57cb72650e96085909b13401d"
+    "translation_hash": "2f5be1c57cb72650e96085909b13401d",
+    "yorum": "Makale, EURUSD'nin 1.1572'deki güçlü bir direnç seviyesinde, aynı zamanda %38.2 Fibonacci geri çekilme seviyesinde, bir ayı piyasası dönüşü sinyali verdiğini belirtiyor. Bu durum, paritenin kısa vadede düşüş yaşayabileceğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, 1.1572'deki güçlü örtüşme direncinde ve %38.2 Fibonacci geri çekilme seviyesinde ayı piyasası dönüşü sinyali veriyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:49:18.581341+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed",
@@ -21,13 +33,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs US Flows & Themes Ahead of The Fed",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs ABD Akışları ve Fed Öncesi Temalar",
     "content_en": "EQUITY, VOL & MACRO DESK BRIEFING: US FLOWS & THEMESAuthor: Giulio Esposito (Goldman Sachs Managing Director, FICC & Equities) | Date: September 14, 2026THE TAKE: MARKET SNAPS WINNING STREAK AS RATES & OIL SHOCK TAPEUS equity benchmarks snapped a 2-...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENETLERİ, VOLATİLİTE VE MAKRO MASASI BİLGİLENDİRMESİ: ABD AKIŞLARI VE TEMALAR Yazar: Giulio Esposito (Goldman Sachs Yönetici Direktörü, FICC & Hisse Senetleri) | Tarih: 14 Eylül 2026. GÖRÜŞ: PİYASA, ORANLAR VE PETROL ŞOKU İLE KAZANMA SERİSİNİ SONLANDIRDI. ABD hisse senedi göstergeleri 2-...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed",
     "published_at": "Tue, 15 Sep 2026 12:02:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509511+00:00",
-    "translation_hash": "98e4843b918941f83fadafdbfb8854d3"
+    "translation_hash": "98e4843b918941f83fadafdbfb8854d3",
+    "yorum": "Goldman Sachs'ın kısa raporu, faiz oranları ve petrol fiyatlarındaki şokun etkisiyle ABD hisse senedi piyasasının yükseliş serisinin sona erdiğini belirtiyor. Bu durum, piyasada olumsuz bir hava ve risk iştahında azalma olduğuna işaret etmektedir. Daha fazla detay olmamasına rağmen, genel piyasa görünümü aşağı yönlü bir baskı altında.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatlarındaki yükselişin piyasada şok etkisi yaratması ve bu varlığın kendisi için pozitif olması.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatlarındaki yükselişin piyasada şok etkisi yaratması ve bu varlığın kendisi için pozitif olması.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz oranları ve petrol şoku nedeniyle ABD hisse senedi piyasasının yükseliş serisini sonlandırması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz oranları ve petrol şoku nedeniyle ABD hisse senedi piyasasının yükseliş serisini sonlandırması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz oranları ve petrol şoku nedeniyle ABD hisse senedi piyasasının yükseliş serisini sonlandırması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz oranları ve petrol şoku nedeniyle ABD hisse senedi piyasasının yükseliş serisini sonlandırması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-19T22:49:34.393022+00:00"
   },
   {
     "id": "ftse-two-month-lows-bond-surge-and-jobs-soften",
@@ -36,13 +95,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Two-Month Lows, Bond Surge and Jobs Soften",
-    "title_tr": "",
+    "title_tr": "FTSE İki Aylık Düşükler, Tahvil Getirilerinde Yükseliş ve İş Piyasasında Yumuşama",
     "content_en": "FTSE Finish Line Sep 15 2026: FTSE Two-Month Lows, Bond Surge and Jobs SoftenLondon shares slipped to two-month lows on Tuesday, as rising crude oil prices pushed global bond yields higher amid persistent inflation concerns. The U.K. stock market briefly recovered ...",
-    "content_tr": "",
+    "content_tr": "Londra hisseleri Salı günü iki ayın en düşük seviyelerine geriledi. Artan ham petrol fiyatları, küresel tahvil getirilerini yukarı iterken, kalıcı enflasyon endişeleri piyasalarda baskı oluşturdu. İngiltere hisse senedi piyasası kısa bir toparlanma yaşasa da, genel hava olumsuzdu. İş piyasasındaki yumuşama işaretleri de ekonomik görünümdeki belirsizliği artırdı.",
     "url": "https://www.tickmill.com/blog/ftse-two-month-lows-bond-surge-and-jobs-soften",
     "published_at": "Tue, 15 Sep 2026 17:12:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509533+00:00",
-    "translation_hash": "df9ab136b7a66dbdf342c7e8466a20cf"
+    "translation_hash": "df9ab136b7a66dbdf342c7e8466a20cf",
+    "yorum": "Makale, küresel piyasalarda artan enflasyon endişeleri ve yükselen ham petrol fiyatları nedeniyle hisse senedi ve tahvil piyasalarında negatif bir eğilime işaret ediyor. Londra borsasının iki aylık dip seviyelere gerilemesi ve tahvil getirilerinin yükselmesi, ekonomik yavaşlama ve sıkılaşan finansal koşullara dair endişeleri yansıtıyor. İş piyasasındaki zayıflama da bu olumsuz görünümü destekliyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Londra hisseleri iki ayın en düşük seviyelerine geriledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ham petrol fiyatları yükseldi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "YUKARI",
+        "gerekce": "Küresel tahvil getirileri yükseldi ('global bond yields higher').",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-19T22:49:50.632478+00:00"
   },
   {
     "id": "bitcoin-slides-as-etf-outflows-return",
@@ -51,13 +136,81 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Slides As ETF Outflows Return",
-    "title_tr": "",
+    "title_tr": "Bitcoin, ETF Çıkışları Geri Döndüğü İçin Düşüşte",
     "content_en": "FOMC Nerves GrowingBitcoin prices are cooling today as uncertainty kicks in ahead of the keenly awaited September FOMC meeting tomorrow. The Fed is widely expected to hike rates tomorrow and the hawkish shift in traders’ Fed expectations recently has blunted the ea...",
-    "content_tr": "",
+    "content_tr": "FOMC endişeleri artıyor. Yarın merakla beklenen Eylül FOMC toplantısı öncesinde belirsizliklerin artmasıyla Bitcoin fiyatları bugün soğuyor. Fed'in yarın faiz artırımına gitmesi geniş çapta bekleniyor ve trader'ların Fed beklentilerindeki son şahin değişim, kolay...",
     "url": "https://www.tickmill.com/blog/bitcoin-slides-as-etf-outflows-return",
     "published_at": "Tue, 15 Sep 2026 11:06:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509559+00:00",
-    "translation_hash": "aa2bedc7e96090cea9c404d21caeb809"
+    "translation_hash": "aa2bedc7e96090cea9c404d21caeb809",
+    "yorum": "Makale, yaklaşan FOMC toplantısı öncesinde artan belirsizliği ve faiz artırımı beklentilerini vurgulamaktadır. Bu durum, Bitcoin fiyatlarında soğumaya yol açarken, genel olarak riskli varlıklar üzerinde aşağı yönlü bir baskı oluşturmaktadır. Piyasalar, şahin Fed politikalarına hazırlanıyor gibi görünmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede fiyatlarının soğuduğu açıkça belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve faiz artırımı, hisse senedi piyasaları üzerinde olumsuz etki yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz oranları, teknoloji ve büyüme hisseleri için genellikle olumsuz bir faktördür.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz oranları ve güçlenen dolar, genellikle altın fiyatları üzerinde baskı oluşturur.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in faiz artırımıyla ilgili endişeler, ekonomik yavaşlama ve petrol talebinde düşüş beklentilerini artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed politikaları ve beklenen faiz artırımı doları güçlendirerek Euro'nun değerini düşürür.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'den beklenen faiz artırımı, ABD dolarını diğer para birimlerine karşı güçlendirir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in faiz artırımı beklentisi, tahvil getirilerinin yükselmesine neden olur.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Piyasada artan belirsizlik ve FOMC öncesi gerginlik, volatiliteyi artırır.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-19T22:50:13.734913+00:00"
   },
   {
     "id": "gbpusd-h4-bearish-reversal-for-the-cable-15th-september-2026",
@@ -66,13 +219,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Bearish reversal for the Cable",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Cable İçin Ayısal Dönüş",
     "content_en": "Title: GBPUSD H4 | Bearish reversal for the Cable Type: Bearish reversal Preference: The price is currently reacting off the pivot at 1.3503, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 1.3439, a pullback support...",
-    "content_tr": "",
+    "content_tr": "Fiyat şu anda 1.3503 seviyesindeki pivot direncinden, bir geri çekilme direncinden tepki veriyor. Bu seviyeden yaşanacak bir dönüş, fiyatı 1.3439'daki ilk destek seviyesine, bir geri çekilme desteğine doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-bearish-reversal-for-the-cable-15th-september-2026",
     "published_at": "Tue, 15 Sep 2026 11:09:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509580+00:00",
-    "translation_hash": "d4a9c7178d9cc9d3e6e1486393c0b9e6"
+    "translation_hash": "d4a9c7178d9cc9d3e6e1486393c0b9e6",
+    "yorum": "GBPUSD paritesinde 1.3503 seviyesindeki dirençten ayısal bir tepki gözlemleniyor. Makale, bu tepkinin fiyatı 1.3439 seviyesindeki bir sonraki desteğe taşıyacağını öngörüyor, bu da parite için kısa vadede düşüş eğilimine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat 1.3503 pivot direncinden tepki vererek 1.3439 ilk desteğe yöneliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:50:23.754183+00:00"
   },
   {
     "id": "xauusd-watching-4105-equality-objective-for-bullish-reversal-set",
@@ -81,13 +246,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD Watching 4105 Equality Objective for Bullish Reversal Setup",
-    "title_tr": "",
+    "title_tr": "XAUUSD Boğa Yönlü Bir Tersine Dönüş Kurulumu İçin 4105 Eşitlik Hedefini İzliyor",
     "content_en": "XAUUSD Watching 4105 Equality Objective for Bullish Reversal SetupTO REVIEW THE TECHNICAL CHART, CLICK HEREGold remains in a corrective phase, with price working lower inside the short-term descending structure. The key downside area to monitor is the 4105 equality...",
-    "content_tr": "",
+    "content_tr": "XAUUSD Boğa Yönlü Bir Tersine Dönüş Kurulumu İçin 4105 Eşitlik Hedefini İzliyor. TEKNİK GRAFİĞİ İNCELEMEK İÇİN BURAYA TIKLAYIN. Altın düzeltme aşamasında kalmaya devam ediyor, fiyat kısa vadeli alçalan yapının içinde düşüş gösteriyor. İzlenmesi gereken kilit aşağı yönlü alan 4105 eşitliğidir...",
     "url": "https://www.tickmill.com/blog/xauusd-watching-4105-equality-objective-for-bullish-reversal-set",
     "published_at": "Tue, 15 Sep 2026 11:09:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509617+00:00",
-    "translation_hash": "e91fff6b6b6d7650afe64a103c26208a"
+    "translation_hash": "e91fff6b6b6d7650afe64a103c26208a",
+    "yorum": "Altın, kısa vadede düzeltme ve düşüş eğilimini sürdürüyor. Ancak piyasa, potansiyel bir boğa yönlü tersine dönüş için 4105 seviyesini önemli bir hedef olarak takip ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Kısa vadede düzeltme aşamasında ve düşüş eğiliminde olmasına rağmen, boğa yönlü bir tersine dönüş kurulumu için 4105 eşitlik hedefi izleniyor.",
+        "skor": 0.4
+      }
+    ],
+    "translated_at": "2026-09-19T22:50:39.405923+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-15926",
@@ -96,13 +273,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 15/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 15/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 15/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 15/9/26***ES1!(Z VADE SÖZLEŞME SEVİYELERİ) NAKİT US500 KARŞILIĞI İÇİN KULLANILIYOR, FARK PUANINI ÇIKARINIZ***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK ARALIK DİRENÇ 7882 DESTEK 7490HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-15926",
     "published_at": "Tue, 15 Sep 2026 08:00:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509648+00:00",
-    "translation_hash": "f7318845fb76383b2c4f1645f97b467b"
+    "translation_hash": "f7318845fb76383b2c4f1645f97b467b",
+    "yorum": "Bu metin, S&P500 için günlük, haftalık ve aylık bazda teknik fiyat seviyeleri sunmaktadır. ES1! (vadeli işlem sözleşmesi) referans alınarak nakit US500 eşdeğer seviyeleri belirlenmiştir. Aylık boğa/ayı bölgeleri ile direnç ve destek seviyeleri vurgulanmıştır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Metinde belirtilen aylık destek seviyesi (7490), boğa/ayı bölgesinin (7400-7440) üzerinde yer almaktadır.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "ES1! vadeli işlem seviyeleri baz alındığında, aylık destek (7490) boğa/ayı bölgesinin üzerinde konumlanmıştır.",
+        "skor": 0.65
+      }
+    ],
+    "translated_at": "2026-09-19T22:50:56.910041+00:00"
   },
   {
     "id": "usdjpy-rallying-ahead-of-fed-boj-meeting",
@@ -111,13 +307,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY Rallying Ahead of Fed & BOJ Meeting",
-    "title_tr": "",
+    "title_tr": "USDJPY, Fed ve BOJ Toplantısı Öncesinde Yükselişte",
     "content_en": "FOMC On WatchUSDJPY is rising again today as traders brace for the FOMC tomorrow followed by the September BOJ meeting on Friday. Traders are widely expecting the Fed to hike rates tomorrow on the back of headline annualised CPI remaining at 3.4% last month and cor...",
-    "content_tr": "",
+    "content_tr": "FOMC Gözetimde: USDJPY, yarınki FOMC toplantısı ve Cuma günkü Eylül BOJ toplantısı öncesinde yatırımcılar hazırlık yaparken bugün tekrar yükseliyor. Yatırımcılar, geçen ay yıllık manşet TÜFE'nin %3,4'te kalması ve çekirdek...",
     "url": "https://www.tickmill.com/blog/usdjpy-rallying-ahead-of-fed-boj-meeting",
     "published_at": "Tue, 15 Sep 2026 10:23:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509672+00:00",
-    "translation_hash": "aa1492cd21f52907104fac71a7f753a5"
+    "translation_hash": "aa1492cd21f52907104fac71a7f753a5",
+    "yorum": "Makale, yarınki Fed faiz artırımı beklentisi ve Cuma günkü BOJ toplantısı öncesinde USDJPY'nin yükselişini vurguluyor. Bu durum, Fed'in şahin duruşunu ve Japonya Merkez Bankası ile potansiyel politika farklılaşmasını işaret ediyor. Yatırımcılar, enflasyon verilerini dikkate alarak Fed'den faiz artışı bekliyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in faiz artırımı beklentisi ve BOJ toplantısı öncesi doların güçlenmesiyle parite yükselişte.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:51:16.452090+00:00"
   },
   {
     "id": "institutional-insights-bofa-sp500-outlook-update",
@@ -126,13 +334,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: BofA SP500 Outlook Update",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: BofA S&P 500 Görünüm Güncellemesi",
     "content_en": "BofA GLOBAL: S&P 500 OUTLOOKTHE TAKE: TACTICAL PULLBACK AHEAD, BUT LONG-TERM BULL CASE INTACTBofA Equity Strategy has updated its mark-to-market S&P 500 target models, raising the year-end target to 7,400 (from 7,100), which implies a ~3% near-term downside...",
-    "content_tr": "",
+    "content_tr": "BofA KÜRESEL: S&P 500 GÖRÜNÜMÜ. DEĞERLENDİRME: TAKTİKSEL BİR GERİ ÇEKİLME BEKLENİYOR, ANCAK UZUN VADELİ YÜKSELİŞ SENARYOSU BOZULMADI. BofA Hisse Senedi Stratejisi, piyasa değerine göre S&P 500 hedef modellerini güncelleyerek yıl sonu hedefini 7.100'den 7.400'e yükseltti; bu durum kısa vadede yaklaşık %3'lük bir düşüş potansiyeli ima ediyor...",
     "url": "https://www.tickmill.com/blog/institutional-insights-bofa-sp500-outlook-update",
     "published_at": "Tue, 15 Sep 2026 10:53:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509693+00:00",
-    "translation_hash": "7adbf374b2e12c81010d99d38fc12454"
+    "translation_hash": "7adbf374b2e12c81010d99d38fc12454",
+    "yorum": "BofA, S&P 500 için yıl sonu hedefini yükselterek uzun vadeli yükseliş beklentisini koruduğunu belirtiyor. Kısa vadede taktiksel bir geri çekilme öngörülse de genel görünüm pozitifliğini sürdürüyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "BofA yıl sonu hedefini yükseltti, uzun vadeli yükseliş senaryosu sağlam.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Futures",
+        "yon": "YUKARI",
+        "gerekce": "S&P 500'deki yükseliş beklentisi vadeli kontratları destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro E-mini S&P 500 Futures",
+        "yon": "YUKARI",
+        "gerekce": "S&P 500'deki yükseliş beklentisi vadeli kontratları destekliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:51:28.866911+00:00"
   },
   {
     "id": "daily-market-outlook-september-15-2026",
@@ -141,12 +375,73 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 15, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 15 Eylül 2026",
     "content_en": "Daily Market Outlook, September 15, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Oil Shock Sends Treasuries Through 5% As Hike Bets SurgeGlobal risk assets deepened their retreat on Tuesday as an escalating oil shock tigh...",
-    "content_tr": "",
+    "content_tr": "Tickmill Group ortağı Patrick Munnelly'nin 15 Eylül 2026 tarihli günlük piyasa görünümüne göre, yükselen bir petrol şokunun tahvil faizlerini %5'in üzerine çıkarması ve faiz artırımı beklentilerinin artmasıyla küresel risk varlıkları Salı günü geri çekilmeyi derinleştirdi.",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-15-2026",
     "published_at": "Tue, 15 Sep 2026 09:18:00 +0000",
     "fetched_at": "2026-09-16T01:26:27.509714+00:00",
-    "translation_hash": "e4f6c084b28175c324cc5351fbfbaafe"
+    "translation_hash": "e4f6c084b28175c324cc5351fbfbaafe",
+    "yorum": "Makale, petrol fiyatlarındaki yükselişin ve faiz artırımı beklentilerinin piyasalar üzerindeki olumsuz etkisini vurguluyor. Tahvil faizlerinin %5'i aşmasıyla riskli varlıklarda düşüş eğilimi gözlemleniyor. Bu durum, yatırımcılar için temkinli bir piyasa ortamına işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Yükselen petrol şoku belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Yükselen petrol şoku belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow Jones",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıkları geri çekilmeyi derinleştirdi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-09-19T22:51:40.752446+00:00"
   }
 ]

@@ -1,0 +1,686 @@
+{
+  "generated_at": "2026-09-19T22:42:13.022384+00:00",
+  "total_assets": 25,
+  "state_counts": {
+    "BEARISH": 8,
+    "CONFLICT": 6,
+    "BULLISH": 5,
+    "INSUFFICIENT": 6
+  },
+  "results": {
+    "6A": {
+      "asset_code": "6A",
+      "state": "BEARISH",
+      "score": -0.6437,
+      "confidence": 68,
+      "uncertainty": 32,
+      "evidence_count": 5,
+      "source_type_count": 2,
+      "total_weight": 0.6024,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.495,
+      "reasons": [
+        "Kanıt sayısı: 5",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.644",
+        "Yukarı ağırlık: 0.107",
+        "Aşağı ağırlık: 0.495",
+        "Toplam ağırlık: 0.602"
+      ],
+      "evidence_ids": [
+        "rss_daily-market-outlook-september-15-2026_13_6a",
+        "rss_audusd-h4-bearish-momentum-to-continue-17th-september-2026_0_6a",
+        "rss_copper-rebound-rolls-on-following-fomc_4_6a",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_3_6a",
+        "cot_EV_COT_50a40fd5d1b04fdaeb96e87a_6a"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "6B": {
+      "asset_code": "6B",
+      "state": "BEARISH",
+      "score": -0.6437,
+      "confidence": 68,
+      "uncertainty": 32,
+      "evidence_count": 5,
+      "source_type_count": 2,
+      "total_weight": 0.6024,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.495,
+      "reasons": [
+        "Kanıt sayısı: 5",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.644",
+        "Yukarı ağırlık: 0.107",
+        "Aşağı ağırlık: 0.495",
+        "Toplam ağırlık: 0.602"
+      ],
+      "evidence_ids": [
+        "rss_gbpusd-h4-bearish-reversal-for-the-cable-15th-september-2026_0_6b",
+        "rss_daily-market-outlook-september-15-2026_12_6b",
+        "rss_copper-rebound-rolls-on-following-fomc_3_6b",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_2_6b",
+        "cot_EV_COT_b0dd991c57b8157c7c0030dd_6b"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "6C": {
+      "asset_code": "6C",
+      "state": "BEARISH",
+      "score": -1.0,
+      "confidence": 81,
+      "uncertainty": 19,
+      "evidence_count": 4,
+      "source_type_count": 2,
+      "total_weight": 0.4786,
+      "bull_weight": 0.0,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 4",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -1.000",
+        "Yukarı ağırlık: 0.000",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 0.479"
+      ],
+      "evidence_ids": [
+        "rss_daily-market-outlook-september-15-2026_14_6c",
+        "rss_copper-rebound-rolls-on-following-fomc_5_6c",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_4_6c",
+        "cot_EV_COT_47de9cc3002f0efd354dff97_6c"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "6E": {
+      "asset_code": "6E",
+      "state": "BEARISH",
+      "score": -0.6591,
+      "confidence": 72,
+      "uncertainty": 28,
+      "evidence_count": 6,
+      "source_type_count": 2,
+      "total_weight": 0.7261,
+      "bull_weight": 0.1238,
+      "bear_weight": 0.6024,
+      "reasons": [
+        "Kanıt sayısı: 6",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.659",
+        "Yukarı ağırlık: 0.124",
+        "Aşağı ağırlık: 0.602",
+        "Toplam ağırlık: 0.726"
+      ],
+      "evidence_ids": [
+        "rss_eurusd-h4-potential-bullish-bounce-at-strong-support-16th-september-2026_0_6e",
+        "rss_eurusd-h4-bearish-reversal-at-strong-resistance-15th-september-2026_0_6e",
+        "rss_daily-market-outlook-september-15-2026_10_6e",
+        "rss_copper-rebound-rolls-on-following-fomc_1_6e",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_0_6e",
+        "cot_EV_COT_0a7e6cfb291a039717167168_6e"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "6J": {
+      "asset_code": "6J",
+      "state": "BEARISH",
+      "score": -1.0,
+      "confidence": 88,
+      "uncertainty": 12,
+      "evidence_count": 8,
+      "source_type_count": 2,
+      "total_weight": 0.9736,
+      "bull_weight": 0.0,
+      "bear_weight": 0.9736,
+      "reasons": [
+        "Kanıt sayısı: 8",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -1.000",
+        "Yukarı ağırlık: 0.000",
+        "Aşağı ağırlık: 0.974",
+        "Toplam ağırlık: 0.974"
+      ],
+      "evidence_ids": [
+        "rss_usdjpy-rallying-ahead-of-fed-boj-meeting_0_6j",
+        "rss_daily-market-outlook-september-15-2026_11_6j",
+        "rss_usdjpy-h4-bullish-momentum-building-17th-september-2026_0_6j",
+        "rss_copper-rebound-rolls-on-following-fomc_2_6j",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_1_6j",
+        "rss_usdjpy-soaring-on-dovish-boj-hike_0_6j",
+        "rss_daily-market-outlook-september-18-2026_5_6j",
+        "cot_EV_COT_34814074dc5bbc5ce1e3db36_6j"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "6S": {
+      "asset_code": "6S",
+      "state": "BEARISH",
+      "score": -1.0,
+      "confidence": 81,
+      "uncertainty": 19,
+      "evidence_count": 4,
+      "source_type_count": 2,
+      "total_weight": 0.4786,
+      "bull_weight": 0.0,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 4",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -1.000",
+        "Yukarı ağırlık: 0.000",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 0.479"
+      ],
+      "evidence_ids": [
+        "rss_daily-market-outlook-september-15-2026_15_6s",
+        "rss_copper-rebound-rolls-on-following-fomc_6_6s",
+        "rss_dollar-spikes-as-fed-hikes-signals-more-to-come_5_6s",
+        "cot_EV_COT_f8a5a57ca5d279f26337333b_6s"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "CL": {
+      "asset_code": "CL",
+      "state": "CONFLICT",
+      "score": 0.122,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 11,
+      "source_type_count": 3,
+      "total_weight": 1.4095,
+      "bull_weight": 0.7907,
+      "bear_weight": 0.6188,
+      "reasons": [
+        "Kanıt sayısı: 11",
+        "Kaynak türü: COT, RSS, X",
+        "Yön skoru: +0.122",
+        "Yukarı ağırlık: 0.791",
+        "Aşağı ağırlık: 0.619",
+        "Toplam ağırlık: 1.410",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.78)"
+      ],
+      "evidence_ids": [
+        "rss_crude-oil-eia-on-watch-after-huge-api-inventories-build_0_cl",
+        "rss_ftse-two-month-lows-bond-surge-and-jobs-soften_0_cl",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_6_cl",
+        "rss_daily-market-outlook-september-15-2026_6_cl",
+        "rss_usousd-h4-sellers-showing-signs-of-strength-17th-september-2026_0_cl",
+        "rss_daily-market-outlook-september-17-2026_6_cl",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_6_cl",
+        "rss_oil-drops-as-saudi-supply-fears-ease_0_cl",
+        "rss_daily-market-outlook-september-18-2026_0_cl",
+        "x_2100124619495628940_cl",
+        "cot_EV_COT_2ee5ae8a3121ddfa63599f54_cl"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ES": {
+      "asset_code": "ES",
+      "state": "CONFLICT",
+      "score": 0.0787,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 14,
+      "source_type_count": 3,
+      "total_weight": 1.7808,
+      "bull_weight": 0.6188,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 14",
+        "Kaynak türü: COT, RSS, X",
+        "Yön skoru: +0.079",
+        "Yukarı ağırlık: 0.619",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 1.781",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.77)"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_0_es",
+        "rss_daily-market-outlook-september-16-2026_0_es",
+        "rss_sp500-daily-action-areas-price-targets-16926_0_es",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_0_es",
+        "rss_institutional-insights-bofa-sp500-outlook-update_0_es",
+        "rss_daily-market-outlook-september-15-2026_0_es",
+        "rss_sp500-daily-action-areas-price-targets-15926_0_es",
+        "rss_daily-market-outlook-september-17-2026_0_es",
+        "rss_sp500-daily-action-areas-price-targets-1692026_0_es",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_0_es",
+        "rss_daily-market-outlook-september-18-2026_1_es",
+        "rss_sp500-daily-action-areas-price-targets-18926_0_es",
+        "x_2100484213787013153_es",
+        "cot_EV_COT_77dc99ff1fc0f2113517b77b_es"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "GC": {
+      "asset_code": "GC",
+      "state": "CONFLICT",
+      "score": -0.018,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 7,
+      "source_type_count": 3,
+      "total_weight": 0.9145,
+      "bull_weight": 0.3548,
+      "bear_weight": 0.3713,
+      "reasons": [
+        "Kanıt sayısı: 7",
+        "Kaynak türü: COT, RSS, X",
+        "Yön skoru: -0.018",
+        "Yukarı ağırlık: 0.355",
+        "Aşağı ağırlık: 0.371",
+        "Toplam ağırlık: 0.914",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.96)"
+      ],
+      "evidence_ids": [
+        "rss_xauusd-h4-bearish-momentum-building-16th-september-2026_0_gc",
+        "rss_xauusd-watching-4105-equality-objective-for-bullish-reversal-set_0_gc",
+        "rss_daily-market-outlook-september-15-2026_8_gc",
+        "rss_institutional-insights-ubs-gold-trading-update-18926_0_gc",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_9_gc",
+        "x_2100484213787013153_gc",
+        "cot_EV_COT_41c5bcbf01b9560bc7eabdec_gc"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "HG": {
+      "asset_code": "HG",
+      "state": "BULLISH",
+      "score": 1.0,
+      "confidence": 74,
+      "uncertainty": 26,
+      "evidence_count": 2,
+      "source_type_count": 2,
+      "total_weight": 0.2311,
+      "bull_weight": 0.2311,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Kanıt sayısı: 2",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: +1.000",
+        "Yukarı ağırlık: 0.231",
+        "Aşağı ağırlık: 0.000",
+        "Toplam ağırlık: 0.231"
+      ],
+      "evidence_ids": [
+        "rss_copper-rebound-rolls-on-following-fomc_0_hg",
+        "cot_EV_COT_b9f0a5d50677c3c8a9903e6d_hg"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "MCL": {
+      "asset_code": "MCL",
+      "state": "BULLISH",
+      "score": 0.4293,
+      "confidence": 63,
+      "uncertainty": 37,
+      "evidence_count": 6,
+      "source_type_count": 2,
+      "total_weight": 0.8674,
+      "bull_weight": 0.6199,
+      "bear_weight": 0.2475,
+      "reasons": [
+        "Kanıt sayısı: 6",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: +0.429",
+        "Yukarı ağırlık: 0.620",
+        "Aşağı ağırlık: 0.248",
+        "Toplam ağırlık: 0.867"
+      ],
+      "evidence_ids": [
+        "rss_crude-oil-eia-on-watch-after-huge-api-inventories-build_1_mcl",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_7_mcl",
+        "rss_daily-market-outlook-september-15-2026_7_mcl",
+        "rss_daily-market-outlook-september-17-2026_7_mcl",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_7_mcl",
+        "cot_EV_COT_56ca87e6e6ce9458083cb562_mcl"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "MES": {
+      "asset_code": "MES",
+      "state": "BEARISH",
+      "score": -0.3757,
+      "confidence": 60,
+      "uncertainty": 40,
+      "evidence_count": 7,
+      "source_type_count": 2,
+      "total_weight": 0.9911,
+      "bull_weight": 0.2475,
+      "bear_weight": 0.6199,
+      "reasons": [
+        "Kanıt sayısı: 7",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.376",
+        "Yukarı ağırlık: 0.248",
+        "Aşağı ağırlık: 0.620",
+        "Toplam ağırlık: 0.991"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_1_mes",
+        "rss_daily-market-outlook-september-16-2026_1_mes",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_1_mes",
+        "rss_daily-market-outlook-september-15-2026_1_mes",
+        "rss_daily-market-outlook-september-17-2026_1_mes",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_1_mes",
+        "cot_EV_COT_0dd76a73e9f4f57f1d9794a6_mes"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "MGC": {
+      "asset_code": "MGC",
+      "state": "BULLISH",
+      "score": 0.5011,
+      "confidence": 59,
+      "uncertainty": 41,
+      "evidence_count": 3,
+      "source_type_count": 2,
+      "total_weight": 0.4961,
+      "bull_weight": 0.3723,
+      "bear_weight": 0.1238,
+      "reasons": [
+        "Kanıt sayısı: 3",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: +0.501",
+        "Yukarı ağırlık: 0.372",
+        "Aşağı ağırlık: 0.124",
+        "Toplam ağırlık: 0.496"
+      ],
+      "evidence_ids": [
+        "rss_daily-market-outlook-september-15-2026_9_mgc",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_10_mgc",
+        "cot_EV_COT_bd6360f414ce8afe98eb7e31_mgc"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "MNQ": {
+      "asset_code": "MNQ",
+      "state": "BEARISH",
+      "score": -0.3757,
+      "confidence": 60,
+      "uncertainty": 40,
+      "evidence_count": 7,
+      "source_type_count": 2,
+      "total_weight": 0.9911,
+      "bull_weight": 0.2475,
+      "bear_weight": 0.6199,
+      "reasons": [
+        "Kanıt sayısı: 7",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.376",
+        "Yukarı ağırlık: 0.248",
+        "Aşağı ağırlık: 0.620",
+        "Toplam ağırlık: 0.991"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_3_mnq",
+        "rss_daily-market-outlook-september-16-2026_3_mnq",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_3_mnq",
+        "rss_daily-market-outlook-september-15-2026_3_mnq",
+        "rss_daily-market-outlook-september-17-2026_3_mnq",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_3_mnq",
+        "cot_EV_COT_00f57751cfd86a5ea37fc791_mnq"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "NG": {
+      "asset_code": "NG",
+      "state": "BULLISH",
+      "score": 1.0,
+      "confidence": 74,
+      "uncertainty": 26,
+      "evidence_count": 2,
+      "source_type_count": 2,
+      "total_weight": 0.2311,
+      "bull_weight": 0.2311,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Kanıt sayısı: 2",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: +1.000",
+        "Yukarı ağırlık: 0.231",
+        "Aşağı ağırlık: 0.000",
+        "Toplam ağırlık: 0.231"
+      ],
+      "evidence_ids": [
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_8_ng",
+        "cot_EV_COT_85acb8dde1a81e34a0062363_ng"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "NQ": {
+      "asset_code": "NQ",
+      "state": "CONFLICT",
+      "score": -0.1102,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 8,
+      "source_type_count": 2,
+      "total_weight": 0.9736,
+      "bull_weight": 0.3713,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 8",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.110",
+        "Yukarı ağırlık: 0.371",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 0.974",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.78)"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_2_nq",
+        "rss_daily-market-outlook-september-16-2026_2_nq",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_2_nq",
+        "rss_daily-market-outlook-september-15-2026_2_nq",
+        "rss_daily-market-outlook-september-17-2026_2_nq",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_2_nq",
+        "rss_daily-market-outlook-september-18-2026_2_nq",
+        "cot_EV_COT_e81bba9ea9431bd6349c7f83_nq"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "PL": {
+      "asset_code": "PL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_ff681f70997a66471617c1cf_pl"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "RTY": {
+      "asset_code": "RTY",
+      "state": "CONFLICT",
+      "score": -0.1102,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 8,
+      "source_type_count": 2,
+      "total_weight": 0.9736,
+      "bull_weight": 0.3713,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 8",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.110",
+        "Yukarı ağırlık: 0.371",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 0.974",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.78)"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_4_rty",
+        "rss_daily-market-outlook-september-16-2026_4_rty",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_4_rty",
+        "rss_daily-market-outlook-september-15-2026_4_rty",
+        "rss_daily-market-outlook-september-17-2026_4_rty",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_4_rty",
+        "rss_daily-market-outlook-september-18-2026_3_rty",
+        "cot_EV_COT_a04608e20083861a8ddd0d13_rty"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "SI": {
+      "asset_code": "SI",
+      "state": "BULLISH",
+      "score": 1.0,
+      "confidence": 74,
+      "uncertainty": 26,
+      "evidence_count": 2,
+      "source_type_count": 2,
+      "total_weight": 0.2311,
+      "bull_weight": 0.2311,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Kanıt sayısı: 2",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: +1.000",
+        "Yukarı ağırlık: 0.231",
+        "Aşağı ağırlık: 0.000",
+        "Toplam ağırlık: 0.231"
+      ],
+      "evidence_ids": [
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_11_si",
+        "cot_EV_COT_a3c46b0cf5deaf8174d7ac7c_si"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "YM": {
+      "asset_code": "YM",
+      "state": "CONFLICT",
+      "score": -0.1102,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 8,
+      "source_type_count": 2,
+      "total_weight": 0.9736,
+      "bull_weight": 0.3713,
+      "bear_weight": 0.4786,
+      "reasons": [
+        "Kanıt sayısı: 8",
+        "Kaynak türü: COT, RSS",
+        "Yön skoru: -0.110",
+        "Yukarı ağırlık: 0.371",
+        "Aşağı ağırlık: 0.479",
+        "Toplam ağırlık: 0.974",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.78)"
+      ],
+      "evidence_ids": [
+        "rss_institutional-insights-jpmorgan-trading-the-fomc-16926_5_ym",
+        "rss_daily-market-outlook-september-16-2026_5_ym",
+        "rss_institutional-insights-goldman-sachs-us-flows-themes-ahead-of-the-fed_5_ym",
+        "rss_daily-market-outlook-september-15-2026_5_ym",
+        "rss_daily-market-outlook-september-17-2026_5_ym",
+        "rss_institutional-fx-insights-credit-agricole-fx-weekly-18926_5_ym",
+        "rss_daily-market-outlook-september-18-2026_4_ym",
+        "cot_EV_COT_43943643a6faf115456998b0_ym"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ZC": {
+      "asset_code": "ZC",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_543c93d03223d32efec6f801_zc"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ZL": {
+      "asset_code": "ZL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_e1c733c24f2877dc4d48e8c7_zl"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ZM": {
+      "asset_code": "ZM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_03d5e54115ed7b358dce2b82_zm"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ZS": {
+      "asset_code": "ZS",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_de1143b8585ad92b688fe53c_zs"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    },
+    "ZW": {
+      "asset_code": "ZW",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1073,
+      "bull_weight": 0.1073,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.107"
+      ],
+      "evidence_ids": [
+        "cot_EV_COT_16cb94dca75648fb8cb5946a_zw"
+      ],
+      "generated_at": "2026-09-19T22:42:13.019384+00:00"
+    }
+  }
+}

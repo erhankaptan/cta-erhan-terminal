@@ -1,0 +1,8 @@
+class SourceType:
+    X_ACCOUNT = "X_ACCOUNT"
+    TELEGRAM = "TELEGRAM"
+    RSS = "RSS"
+    INSTITUTION = "INSTITUTION"
+    NEWS = "NEWS"
+    ANALYST = "ANALYST"
+    PERSON = "PERSON"

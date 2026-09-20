@@ -1,213 +1,201 @@
 """
-CTA ERHAN TERMİNALİ — RSS Çeviri + Yorum
-==========================================
-İngilizce RSS makalelerini Gemini ile:
-- Türkçeye çevirir
-- Türkçe yorum üretir
-- Varlık analizleri çıkarır (BULLISH/BEARISH/NEUTRAL)
-- Tek çağrıda (kota tasarrufu)
+CTA ERHAN TERMİNALİ — Translate RSS (v3)
+=========================================
+Tickmill RSS makalelerini Gemini ile:
+  - Türkçeye çevirir
+  - Kısa yorum yazar
+  - Varlık analizi yapar (sembol, yon, skor, gerekce)
 """
 
 import os
 import json
 import time
-import hashlib
-from datetime import datetime, timezone
 from pathlib import Path
+from datetime import datetime, timezone
 
-import google.generativeai as genai
+try:
+    import google.generativeai as genai
+except ImportError:
+    print("HATA: pip install google-generativeai")
+    raise
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-MODEL_NAME = "gemini-3.5-flash"
-REQUEST_DELAY = 3.0
 
-DATA_DIR = Path("data")
+PROJECT_ROOT = Path(__file__).parent.parent.resolve()
+DATA_DIR = PROJECT_ROOT / "data"
 RSS_DIR = DATA_DIR / "rss"
 STATE_FILE = DATA_DIR / "translation_state.json"
 
-
-def load_state() -> dict:
-    if STATE_FILE.exists():
-        try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return {}
-    return {}
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+WAIT_SECONDS = 3
 
 
-def save_state(state: dict):
+PRODUCT_LIST = """ES, MES, NQ, MNQ, RTY, YM (Endeksler)
+CL, MCL, NG, GC, MGC, SI, HG, PL (Emtialar)
+ZC, ZS, ZW, ZL, ZM (Tahıllar)
+6E, 6J, 6B, 6A, 6C, 6S (Dövizler)
+
+İZLEME DIŞI (bunları da sembol olarak kullan, çevirme):
+XAUUSD, XAGUSD, EURUSD, GBPUSD, USDJPY, AUDUSD, NZDUSD, USDCAD, USDCHF,
+BTCUSD, ETHUSD, USOUSD, UKOIL, SPX500, NAS100, GER40, UK100, JP225,
+DXY, VIX, US10Y, TSLA, AAPL, NVDA, MSFT, AMZN, GOOGL"""
+
+
+PROMPT = """Aşağıdaki İngilizce finans makalesini Türkçe analiz et.
+
+VARLIK LİSTESİ (sadece bu kodları kullan):
+{product_list}
+
+GÖREVLER:
+1. Başlığı Türkçeye çevir → title_tr
+2. İçeriği Türkçeye çevir (max 1500 karakter) → content_tr
+3. Kısa Türkçe yorum (2-3 cümle) → yorum
+4. Makalede geçen her varlık için analiz → varliklar
+5. Genel yön (YUKARI/AŞAĞI/NÖTR) → genel_yon
+
+ÇIKTI: SADECE JSON, başka metin yok:
+
+{{
+  "title_tr": "...",
+  "content_tr": "...",
+  "yorum": "...",
+  "genel_yon": "YUKARI",
+  "varliklar": [
+    {{
+      "sembol": "GC",
+      "isim": "Altın",
+      "yon": "YUKARI",
+      "gerekce": "kısa gerekçe",
+      "skor": 0.7
+    }}
+  ]
+}}
+
+KURALLAR:
+- sembol listeden olmalı (GC, ES, 6E gibi)
+- yon: YUKARI, AŞAĞI, NÖTR (büyük harf)
+- skor: 0.0-1.0 arası ondalık (0.7 gibi)
+- Makalede futures yoksa → "varliklar": []
+
+BAŞLIK: {title}
+İÇERİK: {content}
+"""
+
+
+def load_state():
+    if not STATE_FILE.exists():
+        return {"processed_ids": []}
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"processed_ids": []}
+
+
+def save_state(state):
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def compute_hash(text: str) -> str:
-    return hashlib.md5(text.encode("utf-8")).hexdigest()
-
-
-def get_latest_rss_file():
-    files = sorted(RSS_DIR.glob("rss_*.json"))
-    if not files:
-        return None
-    return files[-1]
-
-
-def translate_and_analyze(title_en: str, content_en: str, model) -> dict:
-    """Tek çağrıda: çeviri + yorum + varlık analizi."""
-    if not title_en and not content_en:
-        return {"title_tr": "", "content_tr": "", "yorum": "", "varliklar": [], "genel_yon": "NÖTR"}
-
-    prompt = f"""Sen kıdemli bir CTA (Commodity Trading Advisor) ve vadeli işlemler analistisin.
-
-Aşağıdaki İngilizce finansal makaleyi analiz et:
-1. Başlığı Türkçeye çevir
-2. İçeriği Türkçeye çevir
-3. Makalenin Türkçe YORUMUNU yaz (2-3 cümle, piyasa etkisi)
-4. Makalede geçen futures varlıklarını çıkar (BULLISH/BEARISH/NEUTRAL)
-
-BAŞLIK (İngilizce):
-{title_en[:500]}
-
-İÇERİK (İngilizce):
-{content_en[:2500]}
-
-ÇIKTI FORMATI (sadece JSON, markdown kullanma):
-{{
-  "title_tr": "Türkçe başlık",
-  "content_tr": "Türkçe içerik çevirisi",
-  "yorum": "Makalenin Türkçe yorumu (piyasa etkisi, CTA açısından önem)",
-  "varliklar": [
-    {{
-      "sembol": "GC",
-      "isim": "Gold",
-      "yon": "YUKARI" | "AŞAĞI" | "NÖTR",
-      "gerekce": "kısa gerekçe (max 100 karakter)",
-      "skor": 0.0-1.0
-    }}
-  ],
-  "genel_yon": "YUKARI" | "AŞAĞI" | "NÖTR" | "KARIŞIK"
-}}
-
-KURALLAR:
-- 25 futures kontratı tanı: ES, NQ, CL, GC, SI, HG, NG, ZC, ZS, ZW, 6E, 6J, 6B, 6A, 6C, 6S
-- Finansal terimleri koru (CTA, COT, S&P 500, Fed, vs.)
-- Sadece JSON döndür, markdown kullanma
-- Varlık yoksa "varliklar": [] bırak
-
-Şimdi analiz et:"""
-
-    try:
-        response = model.generate_content(prompt)
-        raw = response.text.strip()
-
-        # Markdown kod bloğu temizle
-        if raw.startswith("```"):
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        raw = raw.strip()
-
-        result = json.loads(raw)
-        return {
-            "title_tr": result.get("title_tr", ""),
-            "content_tr": result.get("content_tr", ""),
-            "yorum": result.get("yorum", ""),
-            "varliklar": result.get("varliklar", []),
-            "genel_yon": result.get("genel_yon", "NÖTR"),
-        }
-    except json.JSONDecodeError as e:
-        print(f"[ERR] JSON parse hatası: {e}")
-        return {
-            "title_tr": "", "content_tr": "", "yorum": "",
-            "varliklar": [], "genel_yon": "NÖTR",
-        }
-    except Exception as e:
-        print(f"[ERR] Gemini hatası: {type(e).__name__}: {e}")
-        return {
-            "title_tr": "", "content_tr": "", "yorum": "",
-            "varliklar": [], "genel_yon": "NÖTR",
-        }
-
-
-def main():
-    print("=" * 60)
-    print("CTA ERHAN TERMİNALİ — RSS Çeviri + Yorum v2")
-    print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
-    print("=" * 60)
-
+def call_gemini(title, content):
     if not GEMINI_API_KEY:
-        print("[FATAL] GEMINI_API_KEY bulunamadı!")
-        return
+        return {"hata": "GEMINI_API_KEY yok"}
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        model = genai.GenerativeModel(MODEL_NAME)
+        prompt = PROMPT.format(
+            product_list=PRODUCT_LIST,
+            title=(title or "")[:500],
+            content=(content or "")[:3000],
+        )
+        response = model.generate_content(prompt)
+        text = (response.text or "").strip()
+        if text.startswith("```"):
+            parts = text.split("```")
+            if len(parts) >= 2:
+                text = parts[1]
+                if text.startswith("json"):
+                    text = text[4:]
+        text = text.strip()
+        return json.loads(text)
+    except Exception as e:
+        return {"hata": str(e)}
 
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel(MODEL_NAME)
 
-    rss_file = get_latest_rss_file()
-    if not rss_file:
-        print("[FATAL] RSS dosyası bulunamadı!")
-        return
-
-    print(f"[LOAD] {rss_file}")
-
-    with open(rss_file, "r", encoding="utf-8") as f:
-        articles = json.load(f)
-
-    print(f"[INFO] {len(articles)} makale yüklendi")
-
+def process_rss_files():
     state = load_state()
-    processed_count = 0
+    processed = set(state.get("processed_ids", []))
 
-    for i, article in enumerate(articles, 1):
-        title_en = article.get("title_en", "")
-        content_en = article.get("content_en", "")
+    if not RSS_DIR.exists():
+        print(f"RSS klasörü yok: {RSS_DIR}")
+        return
 
-        title_hash = compute_hash(title_en)
+    files = sorted(RSS_DIR.glob("rss_*.json"))
+    print(f"Toplam {len(files)} dosya")
 
-        if title_hash in state and state[title_hash].get("yorum"):
-            article["title_tr"] = state[title_hash]["title_tr"]
-            article["content_tr"] = state[title_hash].get("content_tr", "")
-            article["yorum"] = state[title_hash].get("yorum", "")
-            article["varliklar"] = state[title_hash].get("varliklar", [])
-            article["genel_yon"] = state[title_hash].get("genel_yon", "NÖTR")
-            print(f"[{i}/{len(articles)}] Cache: {title_en[:50]}...")
+    new_count = 0
+    skip_count = 0
+    err_count = 0
+
+    for fp in files:
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"  [ERR] {fp.name}: {e}")
             continue
 
-        print(f"[{i}/{len(articles)}] Analiz: {title_en[:50]}...")
+        is_list = isinstance(data, list)
+        items = data if is_list else [data]
+        updated = False
 
-        result = translate_and_analyze(title_en, content_en, model)
+        for item in items:
+            rss_id = item.get("id") or item.get("guid") or ""
+            if not rss_id:
+                continue
 
-        article["title_tr"] = result["title_tr"]
-        article["content_tr"] = result["content_tr"]
-        article["yorum"] = result["yorum"]
-        article["varliklar"] = result["varliklar"]
-        article["genel_yon"] = result["genel_yon"]
-        article["translation_hash"] = title_hash
+            if rss_id in processed and item.get("title_tr"):
+                skip_count += 1
+                continue
 
-        state[title_hash] = {
-            "title_en": title_en,
-            "title_tr": result["title_tr"],
-            "content_tr": result["content_tr"],
-            "yorum": result["yorum"],
-            "varliklar": result["varliklar"],
-            "genel_yon": result["genel_yon"],
-            "translated_at": datetime.now(timezone.utc).isoformat(),
-        }
+            title = item.get("title") or item.get("title_en") or ""
+            content = item.get("content") or item.get("content_en") or item.get("summary") or ""
 
-        processed_count += 1
+            if not title or not content:
+                continue
 
-        if i < len(articles):
-            time.sleep(REQUEST_DELAY)
+            print(f"  -> {(title or '')[:60]}...")
+            result = call_gemini(title, content)
 
+            if "hata" in result:
+                print(f"     [HATA] {result['hata'][:100]}")
+                err_count += 1
+                continue
+
+            item["title_tr"] = result.get("title_tr", "") or ""
+            item["content_tr"] = result.get("content_tr", "") or ""
+            item["yorum"] = result.get("yorum", "") or ""
+            item["genel_yon"] = result.get("genel_yon", "NÖTR")
+            item["varliklar"] = result.get("varliklar", []) or []
+            item["translated_at"] = datetime.now(timezone.utc).isoformat()
+
+            processed.add(rss_id)
+            new_count += 1
+            updated = True
+            time.sleep(WAIT_SECONDS)
+
+        if updated:
+            with open(fp, "w", encoding="utf-8") as f:
+                json.dump(items if is_list else items[0], f, ensure_ascii=False, indent=2)
+
+    state["processed_ids"] = list(processed)
     save_state(state)
-
-    with open(rss_file, "w", encoding="utf-8") as f:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-
-    print(f"[SAVE] {rss_file}: {processed_count} yeni analiz")
-    print("=" * 60)
-    print(f"Toplam işlenen: {processed_count}")
-    print("=" * 60)
+    print(f"\nOK. Yeni: {new_count}, Atlandi: {skip_count}, Hata: {err_count}")
 
 
 if __name__ == "__main__":
-    main()
+    print("=" * 60)
+    print("Translate RSS (v3)")
+    print("=" * 60)
+    process_rss_files()

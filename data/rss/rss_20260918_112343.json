@@ -6,24 +6,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Rebounding On Tech Rally Boost",
-    "title_tr": "Teknoloji Rallisi Desteğiyle Bitcoin Yeniden Toparlanıyor",
+    "title_tr": "Bitcoin Teknoloji Rallisi Desteğiyle Toparlanıyor",
     "content_en": "Bitcoin Rallies Post-FedBitcoin bulls have better reason to be optimistic today with the futures market pushing firmly higher. This move comes despite the Fed hiking rates this week and signalling the likelihood of further tightening to come. Previous hawkish actio...",
-    "content_tr": "Fed Sonrası Bitcoin Rallisi: Vadeli işlemler piyasasının kararlı bir şekilde yükselmesiyle birlikte Bitcoin boğaları bugün iyimser olmak için daha güçlü bir nedene sahip. Bu hareket, Fed'in bu hafta faiz oranlarını artırmasına ve gelecekte daha fazla sıkılaşma olasılığına işaret etmesine rağmen gerçekleşti. Önceki şahin adımlar...",
+    "content_tr": "Bitcoin Fed Sonrası Yükseliyor. Bitcoin boğaları bugün vadeli işlem piyasasının güçlü bir şekilde yükselmesiyle daha iyimser olmak için daha iyi bir nedene sahip. Bu hareket, Fed'in bu hafta faiz oranlarını artırmasına ve daha fazla sıkılaştırma olasılığını işaret etmesine rağmen gerçekleşti. Önceki şahin eylem...",
     "url": "https://www.tickmill.com/blog/bitcoin-rebounding-on-tech-rally-boost",
     "published_at": "Fri, 18 Sep 2026 10:42:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848787+00:00",
     "translation_hash": "d53718ee119b979a9dd6cd17e8469f48",
-    "yorum": "Fed'in şahin duruşuna ve faiz artış sinyallerine rağmen teknoloji sektöründeki ralli risk iştahını destekliyor. CTA perspektifinden, vadeli işlemler piyasasındaki bu güçlü alıcı hacmi kısa vadeli trend takipçileri için alım sinyali üretebilir, ancak makroekonomik sıkılaşma baskısı orta vadeli riskleri canlı tutmaktadır.",
+    "yorum": "Fed'in faiz artırımı ve sıkılaştırma sinyallerine rağmen Bitcoin ve genel vadeli işlem piyasası güçlü bir yükseliş sergiliyor. Teknoloji rallisi bu toparlanmayı desteklerken, piyasalar Fed'in şahin politikasına direnç gösteriyor. Bu durum, yatırımcıların riskli varlıklara olan ilgisinin devam ettiğini gösteriyor.",
     "varliklar": [
       {
-        "sembol": "NQ",
-        "isim": "E-mini Nasdaq 100 Futures",
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
         "yon": "YUKARI",
-        "gerekce": "Teknoloji hisselerindeki güçlü ralli, Bitcoin liderliğindeki risk varlıklarını yukarı yönlü destekliyor.",
+        "gerekce": "Fed sonrası yükseliş, vadeli işlem piyasasının güçlü artışı ve boğaların iyimserliği.",
         "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji rallisi desteği ve vadeli işlem piyasasının güçlü yükselişi.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Vadeli işlem piyasasının genel olarak güçlü yükselişi.",
+        "skor": 0.7
       }
     ],
-    "genel_yon": "YUKARI"
+    "genel_yon": "YUKARI",
+    "translated_at": "2026-09-19T22:57:02.610569+00:00"
   },
   {
     "id": "oil-drops-as-saudi-supply-fears-ease",
@@ -32,24 +47,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Oil Drops As Saudi Supply Fears Ease",
-    "title_tr": "Suudi Arz Endişelerinin Hafiflemesiyle Petrol Düştü",
+    "title_tr": "Petrol, Suudi Arz Endişeleri Hafiflerken Düştü",
     "content_en": "Oil Drops on FridayOil prices have plunged lower today amidst cooling fears over supply issues in the Middle East. Following the recent outage of the East-West pipeline, Saudi Arabia said overnight that it expects to return around half of the pipeline’s full capaci...",
-    "content_tr": "Petrol Cuma Günü Düştü: Orta Doğu'daki arz sorunlarına ilişkin endişelerin yatışmasıyla petrol fiyatları bugün sert bir düşüş yaşadı. Doğu-Batı boru hattındaki son kesintinin ardından Suudi Arabistan, gece saatlerinde boru hattının tam kapasitesinin yaklaşık yarısını devreye almayı beklediğini açıkladı...",
+    "content_tr": "Petrol Fiyatları Cuma Günü Düştü. Ortadoğu'daki arz sorunlarına ilişkin endişelerin azalmasıyla petrol fiyatları bugün keskin bir düşüş yaşadı. Doğu-Batı boru hattındaki son arızanın ardından Suudi Arabistan, gece boyunca boru hattının tam kapasitesinin yaklaşık yarısını geri döndürmeyi beklediğini bildirdi...",
     "url": "https://www.tickmill.com/blog/oil-drops-as-saudi-supply-fears-ease",
     "published_at": "Fri, 18 Sep 2026 10:13:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848821+00:00",
     "translation_hash": "5ec48da98a1157dc40f5c0982ea2539d",
-    "yorum": "Orta Doğu'daki jeopolitik risk priminin azalması ve Suudi Arabistan'ın boru hattı kapasitesini hızla geri kazanacağına dair açıklamaları, petrol piyasasındaki arz endişelerini hafifleterek sert satış baskısını tetikledi. CTA fonları açısından, teknik destek seviyelerinin kırılması kısa vadeli momentum stratejilerinde short (kısa) yönlü pozisyonları tetikleyebilir. Bu gelişme, enerji kompleksinde genel bir gevşeme hareketini beraberinde getirecektir.",
+    "yorum": "Makale, Suudi Arabistan'dan gelen arz endişelerinin azalmasıyla petrol fiyatlarında yaşanan düşüşü ele almaktadır. Boru hattı kapasitesinin bir kısmının geri kazanılacak olması, piyasadaki gerilimi hafifletmiştir. Bu durum, küresel petrol piyasasında kısa vadede bir rahatlama işaretidir.",
     "varliklar": [
       {
         "sembol": "CL",
-        "isim": "Crude Oil",
+        "isim": "Ham Petrol",
         "yon": "AŞAĞI",
-        "gerekce": "Arz endişelerinin hafiflemesi ve boru hattının kısmen açılması fiyat baskısı yaratıyor.",
-        "skor": 0.85
+        "gerekce": "Suudi arz endişelerinin hafiflemesi ve boru hattı kapasitesinin geri kazanılmasıyla fiyatlar düştü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Suudi arz endişelerinin hafiflemesi ve boru hattı kapasitesinin geri kazanılmasıyla fiyatlar düştü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol ETF",
+        "yon": "AŞAĞI",
+        "gerekce": "Suudi arz endişelerinin hafiflemesi ve boru hattı kapasitesinin geri kazanılmasıyla fiyatlar düştü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Suudi arz endişelerinin hafiflemesi ve boru hattı kapasitesinin geri kazanılmasıyla fiyatlar düştü.",
+        "skor": 0.8
       }
     ],
-    "genel_yon": "AŞAĞI"
+    "genel_yon": "AŞAĞI",
+    "translated_at": "2026-09-19T22:57:15.433661+00:00"
   },
   {
     "id": "institutional-insights-ubs-gold-trading-update-18926",
@@ -58,24 +95,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: UBS Gold Trading Update 18/9/26",
-    "title_tr": "Kurumsal Analizler: UBS Altın İşlemleri Güncellemesi 18/9/26",
+    "title_tr": "Kurumsal Bakış Açıları: UBS Altın Ticareti Güncellemesi 18/9/26",
     "content_en": "HAWKISH FED CREATES NEAR-TERM VOLATILITY, BUT MEDIUM-TERM BULL CASE IS INTACTFollowing the Federal Reserve’s 25-basis-point \"hawkish hike\" (raising the target rate to 3.75%–4.00%) and updated projections signaling elevated rates past 2027, gold faces near...",
-    "content_tr": "ŞAHİN FED YAKIN VADEDE OYNAKLIK YARATIYOR, ANCAK ORTA VADELİ YÜKSELİŞ SENARYOSU KORUNUYOR. Federal Rezerv'in 25 baz puanlık 'şahin faiz artırımı' (hedef oranı %3,75-%4,00 seviyesine yükseltmesi) ve 2027 sonrasına kadar yüksek faiz oranlarına işaret eden güncellenmiş projeksiyonlarının ardından, altın yakın vadede...",
+    "content_tr": "ŞAHİN FED YAKIN VADEDE VOLATİLİTE YARATIYOR, ANCAK ORTA VADELİ YÜKSELİŞ SENARYOSU BOZULMADI. Federal Rezerv'in 25 baz puanlık \"şahin faiz artırımı\" (hedef oranı %3,75-%4,00'e yükseltmesi) ve 2027 sonrasına kadar yüksek faiz oranlarını işaret eden güncellenmiş projeksiyonlarının ardından altın yakın vadede...",
     "url": "https://www.tickmill.com/blog/institutional-insights-ubs-gold-trading-update-18926",
     "published_at": "Fri, 18 Sep 2026 11:15:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848842+00:00",
     "translation_hash": "2f5f3d7c55b41fc71a54478346131091",
-    "yorum": "Fed'in şahin faiz artırımı kararı kısa vadede altın (GC) üzerinde baskı ve yüksek volatilite yaratsa da, kurumsal yatırımcıların orta vadeli yükseliş beklentisi geçerliliğini korumaktadır. CTA fonları açısından bu geri çekilmeler, orta vadeli trend takip eden stratejiler için yeni uzun yönlü pozisyon giriş fırsatları sunabilir.",
+    "yorum": "Makale, Federal Rezerv'in 'şahin' faiz artırımının altın için kısa vadeli bir volatilite yarattığını belirtiyor. Ancak, orta vadede altının yükseliş senaryosunun bozulmadığını ve güçlü kaldığını vurgulamaktadır. Bu durum, piyasanın yakın vadede çalkantılı, ancak uzun vadede altın için pozitif bir görünüme sahip olduğunu gösteriyor.",
     "varliklar": [
       {
         "sembol": "GC",
-        "isim": "Gold",
+        "isim": "Altın",
         "yon": "YUKARI",
-        "gerekce": "Şahin Fed baskısına rağmen orta vadeli yükseliş senaryosunun güçlü kalması.",
-        "skor": 0.72
+        "gerekce": "Şahin Fed kararı kısa vadede volatilite yaratırken, altının orta vadeli yükseliş senaryosu bozulmadan kalmaktadır.",
+        "skor": 0.7
       }
     ],
-    "genel_yon": "KARIŞIK"
+    "genel_yon": "YUKARI",
+    "translated_at": "2026-09-19T22:57:25.681006+00:00"
   },
   {
     "id": "institutional-fx-insights-credit-agricole-fx-weekly-18926",
@@ -84,31 +122,81 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights: Credit Agricole FX Weekly 18/9/26",
-    "title_tr": "Kurumsal FX Öngörüleri: Credit Agricole Haftalık FX Raporu 18/9/26",
+    "title_tr": "Kurumsal FX İçgörüler: Credit Agricole FX Haftalık 18/9/26",
     "content_en": "G10 Central Banks vs. Supply Shocks & Yield Curve Inversion RisksTHE TAKE: CENTRAL BANKS FIGHT SUPPLY-SIDE INFLATION AT GROWTH'S EXPENSEGlobal central banks are aggressively tightening into a severe supply-side inflation trifecta: energy shocks from the US...",
-    "content_tr": "G10 Merkez Bankaları, Arz Şokları ve Verim Eğrisi Tersine Dönme Risklerine Karşı. GÖRÜŞ: MERKEZ BANKALARI BÜYÜME PAHASINA ARZ KAYNAKLI ENFLASYONLA MÜCADELE EDİYOR. Küresel merkez bankaları, ciddi bir arz yönlü enflasyon üçlemesine karşı agresif bir şekilde sıkılaşıyor: ABD kaynaklı enerji şokları...",
+    "content_tr": "G10 Merkez Bankaları, Arz Şokları ve Getiri Eğrisi Ters Dönüş Risklerine Karşı. SONUÇ: MERKEZ BANKALARI ARZ KAYNAKLI ENFLASYONLA BÜYÜMENİN ALEYHİNE SAVAŞIYOR. Küresel merkez bankaları, şiddetli bir arz kaynaklı enflasyon üçlüsüne karşı agresif bir şekilde sıkılaştırma yapıyor: ABD'den gelen enerji şokları...",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-credit-agricole-fx-weekly-18926",
     "published_at": "Fri, 18 Sep 2026 10:41:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848872+00:00",
     "translation_hash": "ccb8b9c2d8d3a997938e3bd1034a8e86",
-    "yorum": "Merkez bankalarının büyüme pahasına enflasyonla mücadele etmesi resesyon risklerini ve verim eğrisi inversiyonunu tetiklemektedir. Bu makroekonomik görünüm, CTA trend takip stratejilerinde hisse senedi endekslerinde satış baskısını, enerji grubunda ise yukarı yönlü eğilimi destekler.",
+    "yorum": "Makale, merkez bankalarının arz kaynaklı enflasyonla mücadele etmek için agresif parasal sıkılaştırmaya gittiğini, bunun ekonomik büyüme pahasına gerçekleştiğini vurguluyor. Bu durum, enflasyonun temel endişe kaynağı olmaya devam ettiği ve potansiyel olarak daha yavaş büyüme veya resesyon baskılarına yol açabileceği zorlu bir piyasa ortamına işaret ediyor.",
     "varliklar": [
       {
         "sembol": "CL",
-        "isim": "Crude Oil",
+        "isim": "Ham Petrol",
         "yon": "YUKARI",
-        "gerekce": "ABD kaynaklı enerji şokları ve arz yönlü enflasyon petrol fiyatlarında yukarı yönü destekler.",
+        "gerekce": "Arz şokları nedeniyle enerji fiyatlarında artış beklentisi.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Arz şokları nedeniyle enerji fiyatlarında artış beklentisi.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğalgaz",
+        "yon": "YUKARI",
+        "gerekce": "Arz şokları nedeniyle enerji fiyatlarında artış beklentisi.",
         "skor": 0.8
       },
       {
         "sembol": "ES",
-        "isim": "S&P 500",
+        "isim": "S&P 500 E-mini Vadeli İşlem",
         "yon": "AŞAĞI",
-        "gerekce": "Agresif parasal sıkılaşma ve resesyon riskleri hisse senedi endekslerini baskılamaktadır.",
+        "gerekce": "Merkez bankası sıkılaştırması ve büyüme endişeleri hisse senedi piyasaları üzerinde baskı yaratıyor.",
         "skor": 0.75
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini Vadeli İşlem",
+        "yon": "AŞAĞI",
+        "gerekce": "Merkez bankası sıkılaştırması ve büyüme endişeleri hisse senedi piyasaları üzerinde baskı yaratıyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini Vadeli İşlem",
+        "yon": "AŞAĞI",
+        "gerekce": "Merkez bankası sıkılaştırması ve büyüme endişeleri hisse senedi piyasaları üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini Vadeli İşlem",
+        "yon": "AŞAĞI",
+        "gerekce": "Merkez bankası sıkılaştırması ve büyüme endişeleri hisse senedi piyasaları üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek enflasyon ve ekonomik belirsizlik ortamında güvenli liman talebi.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mini Altın",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek enflasyon ve ekonomik belirsizlik ortamında güvenli liman talebi.",
+        "skor": 0.65
       }
     ],
-    "genel_yon": "KARIŞIK"
+    "genel_yon": "AŞAĞI",
+    "translated_at": "2026-09-19T22:57:43.246562+00:00"
   },
   {
     "id": "daily-market-outlook-september-18-2026",
@@ -119,36 +207,30 @@
     "title_en": "Daily Market Outlook, September 18, 2026",
     "title_tr": "Günlük Piyasa Görünümü, 18 Eylül 2026",
     "content_en": "Daily Market Outlook, September 18, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Oil Relief Fuels Risk Rally, BoJ Hikes Yen SlidesWall Street’s relief rally carried into Asia, as another leg lower in oil prices eased infl...",
-    "content_tr": "Günlük Piyasa Görünümü, 18 Eylül 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Bülteni - Petrol Rahatlaması Risk Rallisini Besliyor, BoJ Faiz Artırdı Yen Düştü. Wall Street'in rahatlama rallisi, petrol fiyatlarındaki bir diğer düşüş dalgasının enflasyon endişelerini hafifletmesiyle Asya'ya da taşındı...",
+    "content_tr": "Günlük Piyasa Görünümü, 18 Eylül 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mektubu - Petrol Rahatlaması Risk Rallisini Besliyor, BoJ Faiz Artırımı Yen'i Kaydırıyor Wall Street'in rahatlama rallisi Asya'ya taşındı, petrol fiyatlarındaki bir başka düşüş enflasyonu hafifletirken...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-18-2026",
     "published_at": "Fri, 18 Sep 2026 09:14:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848893+00:00",
     "translation_hash": "ca372feb2b1363de3f9c2cb16c39cc84",
-    "yorum": "Petrol fiyatlarındaki düşüşün enflasyon baskılarını hafifletmesi, küresel hisse senedi endekslerinde (risk-on) alımları tetikleyerek CTA trend takipçileri için pozitif bir zemin hazırlıyor. BoJ'un faiz artırımına rağmen Yen'in değer kaybetmesi ise carry trade dinamiklerinin sürdüğünü ve küresel piyasadaki risk iştahının güçlü kaldığını gösteriyor.",
+    "yorum": "Makale, petrol fiyatlarındaki düşüşün küresel piyasalarda risk iştahını artırdığını ve Wall Street'ten Asya'ya bir rahatlama rallisini tetiklediğini belirtiyor. Ancak Japonya Merkez Bankası'nın faiz artırımına rağmen Japon Yen'inin değer kaybetmesi dikkat çekici bir gelişme olarak öne çıkıyor.",
     "varliklar": [
       {
         "sembol": "CL",
-        "isim": "Crude Oil",
+        "isim": "Ham Petrol",
         "yon": "AŞAĞI",
-        "gerekce": "Petrol fiyatlarındaki yeni düşüş dalgası enflasyon baskılarını hafifletiyor.",
-        "skor": 0.85
-      },
-      {
-        "sembol": "ES",
-        "isim": "S&P 500 E-mini",
-        "yon": "YUKARI",
-        "gerekce": "Wall Street öncülüğündeki rahatlama rallisi Asya piyasalarına da yansıyor.",
+        "gerekce": "Petrol fiyatlarındaki düşüş enflasyon endişelerini hafifletti.",
         "skor": 0.8
       },
       {
         "sembol": "6J",
-        "isim": "Japanese Yen",
+        "isim": "Japon Yeni",
         "yon": "AŞAĞI",
-        "gerekce": "Japonya Merkez Bankası'nın faiz artışına rağmen Yen değer kaybetmeye devam etti.",
-        "skor": 0.75
+        "gerekce": "BoJ faiz artırımına rağmen Yen değer kaybetti.",
+        "skor": 0.7
       }
     ],
-    "genel_yon": "KARIŞIK"
+    "genel_yon": "YUKARI",
+    "translated_at": "2026-09-19T22:57:54.078559+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-18926",
@@ -157,24 +239,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 18/9/26",
-    "title_tr": "S&P 500 Günlük İşlem Bölgeleri ve Fiyat Hedefleri 18/09/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 18/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 18/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "S&P 500 Günlük İşlem Bölgeleri ve Fiyat Hedefleri 18/09/26***SPOT US500 MUADİL SEVİYELERİ İÇİN ES1! (Z VADELİ SÖZLEŞME SEVİYELERİ) REFERANS ALINMIŞTIR, PUAN FARKINI ÇIKARIN***AYLIK-HAFTALIK VE GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK ARALIK DİRENÇ 7882 DESTEK 7490HAFTALIK BOĞA AYI...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 18/9/26***Nakit US500 eşdeğer seviyeleri için ES1!(Z kontrat seviyeleri) kullanılıyor, farkı çıkarın***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnç 7882 Destek 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-18926",
     "published_at": "Fri, 18 Sep 2026 08:28:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848919+00:00",
     "translation_hash": "8dcfcfea33d5a43a721066075cea3a53",
-    "yorum": "CTA perspektifinden, ES vadeli işlem kontratlarında belirtilen aylık boğa/ayı pivot bölgesi (7440/7400), piyasanın orta vadeli yönü açısından kritik bir eşiktir. Vadeli ve spot endeks arasındaki makasın (spread) takibi, arbitraj ve hedge pozisyonlarının yönetimi için büyük önem taşımaktadır. Teknik olarak direnç seviyelerinin aşılması momentum takip eden CTA fonlarının alımlarını hızlandırabilir.",
+    "yorum": "Makale, S&P500 için günlük hareket alanlarını ve fiyat hedeflerini belirtmektedir. ES1! (E-mini S&P 500 vadeli işlemleri) üzerinden aylık boğa/ayı bölgeleri ile direnç ve destek seviyeleri sunarak teknik bir bakış açısı sağlamaktadır. Piyasanın mevcut durumu hakkında net bir yön tayin etmekten ziyade kritik seviyeleri işaret etmektedir.",
     "varliklar": [
       {
         "sembol": "ES",
-        "isim": "S&P 500 E-mini Futures",
-        "yon": "YUKARI",
-        "gerekce": "Belirtilen aylık boğa/ayı pivot bölgesinin ve dirençlerin yukarı yönlü olması boğa eğilimini gösterir.",
-        "skor": 0.75
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede aylık boğa/ayı bölgesi (7440/7400), direnç (7882) ve destek (7490) seviyeleri belirlenmiş olup, fiyatın hangi yöne gideceğine dair net bir öngörü sunulmamaktadır.",
+        "skor": 0.5
       }
     ],
-    "genel_yon": "YUKARI"
+    "genel_yon": "NÖTR",
+    "translated_at": "2026-09-19T22:58:06.450494+00:00"
   },
   {
     "id": "usdjpy-soaring-on-dovish-boj-hike",
@@ -183,23 +266,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY Soaring On Dovish BOJ Hike",
-    "title_tr": "Güvercin BOJ Faiz Artırımı Sonrası USDJPY Yükselişte",
+    "title_tr": "USDJPY, BOJ'un Güvercin Faiz Artışı Sonrası Yükselişte",
     "content_en": "Yen Collapsing AgainUSDJPY is surging higher today as traders digest the latest rate decision meeting from the Bank of Japan overnight. The BOJ hiked rates by a further .25%, as expected, with its headline interest rate now back up to 1.25%. However, two dissenting...",
-    "content_tr": "Yen Yeniden Çöküyor. Yatırımcılar Japonya Merkez Bankası'nın (BOJ) dün geceki en son faiz kararı toplantısını değerlendirirken USDJPY bugün hızla yükseliyor. BOJ, beklendiği gibi faizleri 0,25 puan daha artırarak gösterge faiz oranını %1,25'e çıkardı. Ancak, karşı çıkan iki...",
+    "content_tr": "Yen yeniden çöküyor. USDJPY, Japonya Merkez Bankası'nın (BOJ) dün geceki son faiz kararı toplantısını yatırımcılar sindirirken bugün yukarı yönlü bir yükseliş sergiliyor. BOJ, beklendiği gibi faizleri 0.25 puan daha artırarak politika faizini %1.25'e çıkardı. Ancak, iki karşıt görüşe rağmen...",
     "url": "https://www.tickmill.com/blog/usdjpy-soaring-on-dovish-boj-hike",
     "published_at": "Fri, 18 Sep 2026 09:33:00 +0000",
     "fetched_at": "2026-09-18T11:23:43.848938+00:00",
     "translation_hash": "08b060ac689a8309e39cd90b5fc3531d",
-    "yorum": "BOJ'un beklentiler dahilinde faiz artırmasına rağmen güvercin tonlu sinyaller vermesi, Yen üzerindeki satış baskısının devam edeceğini gösteriyor. CTA perspektifinden, USDJPY'deki bu sert yükseliş JPY kısa pozisyonlarını (short) ve carry trade dinamiklerini yeniden ön plana çıkarabilir. Küresel makro momentum fonlarının Yen aleyhine pozisyonlanmaya devam etmesi beklenmelidir.",
+    "yorum": "Japonya Merkez Bankası'nın faiz artışı beklentileri karşılasa da, piyasa tarafından güvercin olarak algılanması sonucu Japon Yeni değer kaybediyor. Bu durum, USDJPY paritesinde güçlü bir yükselişe yol açarak yatırımcıların BOJ'un gelecekteki sıkılaştırma adımlarına ilişkin şüphelerini yansıtıyor.",
     "varliklar": [
       {
-        "sembol": "6J",
-        "isim": "Japanese Yen",
-        "yon": "AŞAĞI",
-        "gerekce": "BOJ'un güvercin tondaki faiz artırımı Yen üzerindeki baskıyı artırıyor.",
-        "skor": 0.85
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "BOJ'un faiz artırımının güvercin tonda algılanmasıyla Japon Yeni değer kaybetti ve parite yükseldi.",
+        "skor": 0.9
       }
     ],
-    "genel_yon": "AŞAĞI"
+    "genel_yon": "YUKARI",
+    "translated_at": "2026-09-19T22:58:22.275948+00:00"
   }
 ]
