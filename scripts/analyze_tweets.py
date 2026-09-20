@@ -1,24 +1,19 @@
 """
-CTA ERHAN TERMİNALİ — Gemini Analiz v6 (Genişletilmiş)
-========================================================
-Öncelikli hesapların tweet'lerini analiz eder.
-- Metin + GÖRSEL analizi
-- 25 futures + izleme dışı varlıklar (XAUUSD, DXY, BTCUSD vs.)
-- Türkçe yön + gerekçe
+CTA ERHAN TERMİNALİ — Gemini Analiz v9 (google-genai)
+======================================================
+Yeni SDK: google-genai (eski google-generativeai değil)
 """
 
 import os
 import json
 import time
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-import google.generativeai as genai
-
-# ============================================================
-# AYARLAR
-# ============================================================
+from google import genai
+from google.genai import types
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = "gemini-2.5-flash"
@@ -29,12 +24,7 @@ TWEETS_DIR = DATA_DIR / "tweets"
 ANALYSIS_DIR = DATA_DIR / "analysis"
 STATE_FILE = DATA_DIR / "analysis_state.json"
 
-PRIORITY_ACCOUNTS = [
-    "wayneterprises",
-    "JuanJesusMontoy",
-    "misterpuertas",
-]
-
+PRIORITY_ACCOUNTS = ["wayneterprises", "JuanJesusMontoy", "misterpuertas"]
 PRIORITY_LOWER = [a.lower() for a in PRIORITY_ACCOUNTS]
 
 
@@ -42,10 +32,6 @@ def is_priority_tweet(tweet: dict) -> bool:
     username = (tweet.get("username") or "").lower()
     return username in PRIORITY_LOWER
 
-
-# ============================================================
-# YARDIMCI
-# ============================================================
 
 def ensure_dirs():
     ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
@@ -66,11 +52,8 @@ def save_state(state: dict):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def get_latest_tweets_file():
-    files = sorted(TWEETS_DIR.glob("tweets_*.json"))
-    if not files:
-        return None
-    return files[-1]
+def get_all_tweets_files():
+    return sorted(TWEETS_DIR.glob("tweets_*.json"))
 
 
 def load_tweets(filepath):
@@ -84,7 +67,6 @@ def download_image(url: str):
         response = requests.get(url, timeout=20, headers=headers, allow_redirects=True)
         if response.status_code == 200:
             ct = response.headers.get("Content-Type", "").lower()
-            # Sadece gerçek görselleri kabul et (html reddet)
             if "image" in ct and "html" not in ct:
                 return response.content, ct
             else:
@@ -97,49 +79,47 @@ def download_image(url: str):
     return None, None
 
 
-# ============================================================
-# GEMINI PROMPT (GENİŞLETİLMİŞ)
-# ============================================================
-
 PROMPT = """Sen kıdemli bir CTA (Commodity Trading Advisor) ve vadeli işlemler analistisin.
 
-GÖREV: Aşağıdaki tweet metnini ve varsa görselleri analiz et. Tweet'te geçen HER finansal varlığı çıkar.
+GÖREV: Aşağıdaki tweet metnini ve varsa görselleri analiz et. Tweet'te geçen HER finansal varlığı ÇIKAR.
 
-ÖNEMLİ:
-- Görselleri DİKKATLİCE incele. Tablo/grafik/chart varsa her satırı (ürünü) ayrı ayrı oku.
-- Tweet piyasa/finans ile ALAKALI DEĞİLSE (siyasi, kişisel, reklam, mizah) → varliklar: []
-- Tweet kısa olsa bile içindeki her varlığı yakala.
+ÇOK ÖNEMLİ — AGRESİF OL:
+- Tweet kısa olsa bile, ima etse bile, dolaylı konuşsa bile varlık çıkar.
+- Hashtag (#gold, #SPX, #BTC) ve kısaltma ($ES, $GC, $SPX) varsa mutlaka yakala.
+- Tweet'te şirket adı geçiyorsa (Nvidia, Tesla, Apple) → hisse sembolü olarak al (NVDA, TSLA, AAPL).
+- Tweet İspanyolca/İngilizce/Türkçe olabilir, hepsini işle.
+- Tweet "FED faiz kararı" diyorsa → DXY, US10Y, XAUUSD çıkar.
+- Tweet "Çin ekonomisi" diyorsa → HG, ES, SPX500 çıkar.
+- Tweet "petrol" diyorsa → CL, MCL, USOUSD çıkar.
+- HK hisseleri (700 HK, 9988 HK vs.) da geçerli — onları da çıkar.
+- Eğer tweet tamamen alakasız (siyasi, kişisel, reklam, mizah) → varliklar: []
 
-VARLIK LİSTESİ (bu sembolleri kullan, başka sembol uydurma):
+GÖRSEL: Varsa tablo/grafik oku. Her satırı (ürünü) ayrı ayrı çıkar.
 
-VADELİ KONTRATLAR:
-- Endeksler: ES, MES, NQ, MNQ, RTY, YM
-- Emtialar: CL, MCL, NG, GC, MGC, SI, HG, PL
-- Tahıllar: ZC, ZS, ZW, ZL, ZM
-- Dövizler: 6E, 6J, 6B, 6A, 6C, 6S
+VARLIK LİSTESİ:
+
+VADELİ:
+- Endeks: ES, MES, NQ, MNQ, RTY, YM
+- Emtia: CL, MCL, NG, GC, MGC, SI, HG, PL
+- Tahıl: ZC, ZS, ZW, ZL, ZM
+- Döviz: 6E, 6J, 6B, 6A, 6C, 6S
 
 SPOT / İZLEME DIŞI:
-- Değerli Metaller: XAUUSD, XAGUSD
+- Değerli: XAUUSD, XAGUSD
 - Forex: EURUSD, GBPUSD, USDJPY, AUDUSD, NZDUSD, USDCAD, USDCHF
-- Kripto: BTCUSD, ETHUSD
-- Endeksler/Endeks: SPX500, NAS100, GER40, UK100, JP225, DXY, VIX
+- Kripto: BTCUSD, ETHUSD, SOL
+- Endeks: SPX500, NAS100, GER40, UK100, JP225, DXY, VIX
 - Petrol: USOUSD, UKOIL
 - Tahvil: US10Y
-
-EŞLEŞTİRME KURALI:
-- "Gold" / "XAUUSD" → GC (futures) veya XAUUSD (spot)
-- "S&P 500" / "SPX" → ES (futures) veya SPX500 (spot)
-- "Euro" / "EURUSD" → 6E (futures) veya EURUSD (spot)
-- "Bitcoin" / "BTC" → BTCUSD
-- "Dollar" / "DXY" → DXY
-- Hangi formatta geçiyorsa onu kullan.
+- Hisse: NVDA, TSLA, AAPL, MSFT, AMZN, GOOGL, META
+- HK: 700 HK, 9988 HK, 1299 HK, 1810 HK, HSTECH, HSI
 
 Tweet metni:
 {text}
 
 Kullanıcı: @{username}
 
-ÇIKTI FORMATI (SADECE JSON döndür, markdown/açıklama yok):
+ÇIKTI (SADECE JSON):
 
 {{
   "varliklar": [
@@ -157,34 +137,34 @@ Kullanıcı: @{username}
 }}
 
 KURALLAR:
-- yon sadece: YUKARI, AŞAĞI, NÖTR
-- gerekce Türkçe, max 150 karakter
+- yon: YUKARI, AŞAĞI, NÖTR
+- gerekce: Türkçe, max 150 karakter
 - skor: 0.0 - 1.0
 - varliklar boş olabilir → []
 
 Şimdi analiz et:"""
 
 
-# ============================================================
-# GEMINI ANALİZ
-# ============================================================
-
-def analyze_with_gemini(text: str, username: str, image_urls: list):
-    model = genai.GenerativeModel(MODEL_NAME)
+def analyze_with_gemini(text: str, username: str, image_urls: list, client):
     prompt = PROMPT.format(text=(text or "")[:1500], username=username)
 
     contents = [prompt]
-
     for img_url in image_urls[:3]:
         img_bytes, mime_type = download_image(img_url)
         if img_bytes:
-            contents.append({
-                "mime_type": mime_type or "image/jpeg",
-                "data": img_bytes
-            })
-            print(f"    [IMG] Görsel eklendi: {img_url[:60]}...")
+            contents.append(
+                types.Part.from_bytes(data=img_bytes, mime_type=mime_type or "image/jpeg")
+            )
+            print(f"    [IMG] Görsel eklendi")
 
-    response = model.generate_content(contents)
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=contents,
+        config=types.GenerateContentConfig(
+            temperature=0.2,
+            max_output_tokens=8192,
+        ),
+    )
     raw = (response.text or "").strip()
 
     if raw.startswith("```"):
@@ -195,21 +175,58 @@ def analyze_with_gemini(text: str, username: str, image_urls: list):
                 raw = raw[4:]
     raw = raw.strip()
 
+    if not raw.startswith("{"):
+        m = re.search(r'\{.*\}', raw, re.DOTALL)
+        if m:
+            raw = m.group(0)
+
+    # 1. Normal dene
     try:
         return json.loads(raw)
-    except json.JSONDecodeError as e:
-        print(f"    [ERR] JSON parse hatası: {e}")
-        print(f"    [RAW] {raw[:200]}")
-        return None
+    except json.JSONDecodeError:
+        pass
+
+    # 2. Trailing virgülleri temizle
+    cleaned = re.sub(r',\s*([}\]])', r'\1', raw)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # 3. Kesik JSON'u tamamla
+    try:
+        if '"varliklar"' in raw:
+            idx = raw.rfind('}')
+            if idx > 0:
+                truncated = raw[:idx+1]
+                opens = truncated.count('[') - truncated.count(']')
+                trunc2 = truncated + (']' * opens)
+                opens2 = trunc2.count('{') - trunc2.count('}')
+                trunc3 = trunc2 + ('}' * opens2)
+                return json.loads(trunc3)
+    except Exception:
+        pass
+
+    print(f"    [ERR] JSON parse başarısız")
+    print(f"    [RAW] {raw[:200]}")
+    return None
 
 
-# ============================================================
-# ANA
-# ============================================================
+def analyze_with_retry(text, username, images, client, max_retries=2):
+    for attempt in range(max_retries):
+        try:
+            result = analyze_with_gemini(text, username, images, client)
+            if result is not None:
+                return result
+        except Exception as e:
+            print(f"    [RETRY {attempt+1}] {type(e).__name__}: {str(e)[:100]}")
+            time.sleep(2)
+    return None
+
 
 def main():
     print("=" * 60)
-    print("Gemini Analiz v6 (Genişletilmiş)")
+    print("Gemini Analiz v9 (google-genai)")
     print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
 
@@ -217,29 +234,46 @@ def main():
         print("[FATAL] GEMINI_API_KEY yok")
         return
 
-    genai.configure(api_key=GEMINI_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
     ensure_dirs()
 
-    latest_file = get_latest_tweets_file()
-    if not latest_file:
+    files = get_all_tweets_files()
+    if not files:
         print("[FATAL] Tweet dosyası yok")
         return
 
-    print(f"[LOAD] {latest_file.name}")
-    tweets = load_tweets(latest_file)
-    print(f"[INFO] {len(tweets)} tweet")
+    print(f"[INFO] {len(files)} tweet dosyası bulundu")
 
-    priority_tweets = [t for t in tweets if is_priority_tweet(t)]
-    print(f"[INFO] {len(priority_tweets)} öncelikli")
+    all_tweets = []
+    for fp in files:
+        try:
+            tweets = load_tweets(fp)
+            all_tweets.extend(tweets)
+        except Exception as e:
+            print(f"  [ERR] {fp.name}: {e}")
 
-    if not priority_tweets:
+    print(f"[INFO] Toplam {len(all_tweets)} tweet")
+
+    priority_tweets = [t for t in all_tweets if is_priority_tweet(t)]
+
+    seen_ids = set()
+    unique_tweets = []
+    for t in priority_tweets:
+        tid = str(t.get("id", ""))
+        if tid and tid not in seen_ids:
+            seen_ids.add(tid)
+            unique_tweets.append(t)
+
+    print(f"[INFO] {len(unique_tweets)} öncelikli (unique)")
+
+    if not unique_tweets:
         print("[DONE] Öncelikli tweet yok")
         return
 
     state = load_state()
     analyzed_ids = set(state.get("analyzed_ids", []))
 
-    new_tweets = [t for t in priority_tweets if str(t.get("id")) not in analyzed_ids]
+    new_tweets = [t for t in unique_tweets if str(t.get("id")) not in analyzed_ids]
     print(f"[INFO] {len(new_tweets)} yeni")
 
     if not new_tweets:
@@ -249,6 +283,7 @@ def main():
     results = []
     success = 0
     failed = 0
+    total_assets = 0
 
     for i, tweet in enumerate(new_tweets, 1):
         tweet_id = str(tweet.get("id", ""))
@@ -257,35 +292,30 @@ def main():
         images = tweet.get("images", [])
 
         print(f"\n[{i}/{len(new_tweets)}] @{username} — {text[:60]}...")
-        if images:
-            print(f"    [IMG] {len(images)} görsel")
 
-        try:
-            analysis = analyze_with_gemini(text, username, images)
+        analysis = analyze_with_retry(text, username, images, client)
 
-            if analysis:
-                result = {
-                    "tweet_id": tweet_id,
-                    "username": username,
-                    "text": text,
-                    "images": images,
-                    "analyzed_at": datetime.now(timezone.utc).isoformat(),
-                    "varliklar": analysis.get("varliklar", []),
-                    "genel_yon": analysis.get("genel_yon", "NÖTR"),
-                    "ozet": analysis.get("ozet", ""),
-                    "confidence": analysis.get("confidence", 0.0),
-                }
-                results.append(result)
-                analyzed_ids.add(tweet_id)
-                success += 1
-                vc = len(result["varliklar"])
-                print(f"    [OK] {vc} varlık")
-            else:
-                failed += 1
-                print(f"    [FAIL]")
-        except Exception as e:
+        if analysis:
+            varliklar = analysis.get("varliklar", [])
+            result = {
+                "tweet_id": tweet_id,
+                "username": username,
+                "text": text,
+                "images": images,
+                "analyzed_at": datetime.now(timezone.utc).isoformat(),
+                "varliklar": varliklar,
+                "genel_yon": analysis.get("genel_yon", "NÖTR"),
+                "ozet": analysis.get("ozet", ""),
+                "confidence": analysis.get("confidence", 0.0),
+            }
+            results.append(result)
+            analyzed_ids.add(tweet_id)
+            success += 1
+            total_assets += len(varliklar)
+            print(f"    [OK] {len(varliklar)} varlık")
+        else:
             failed += 1
-            print(f"    [ERR] {type(e).__name__}: {str(e)[:120]}")
+            print(f"    [FAIL]")
 
         if i < len(new_tweets):
             time.sleep(REQUEST_DELAY)
@@ -303,7 +333,8 @@ def main():
 
     print(f"\n{'=' * 60}")
     print(f"Başarılı: {success}, Başarısız: {failed}")
-    print(f"Toplam işlenmiş: {len(analyzed_ids)}")
+    print(f"Toplam varlık çıkarıldı: {total_assets}")
+    print(f"Toplam işlenmiş ID: {len(analyzed_ids)}")
     print(f"{'=' * 60}")
 
 

@@ -1,10 +1,6 @@
 """
-CTA ERHAN TERMİNALİ — Translate RSS (v3)
-=========================================
-Tickmill RSS makalelerini Gemini ile:
-  - Türkçeye çevirir
-  - Kısa yorum yazar
-  - Varlık analizi yapar (sembol, yon, skor, gerekce)
+CTA ERHAN TERMİNALİ — Translate RSS v4 (google-genai)
+======================================================
 """
 
 import os
@@ -13,11 +9,8 @@ import time
 from pathlib import Path
 from datetime import datetime, timezone
 
-try:
-    import google.generativeai as genai
-except ImportError:
-    print("HATA: pip install google-generativeai")
-    raise
+from google import genai
+from google.genai import types
 
 
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
@@ -37,23 +30,23 @@ ZC, ZS, ZW, ZL, ZM (Tahıllar)
 
 İZLEME DIŞI (bunları da sembol olarak kullan, çevirme):
 XAUUSD, XAGUSD, EURUSD, GBPUSD, USDJPY, AUDUSD, NZDUSD, USDCAD, USDCHF,
-BTCUSD, ETHUSD, USOUSD, UKOIL, SPX500, NAS100, GER40, UK100, JP225,
+BTCUSD, ETHUSD, SOL, USOUSD, UKOIL, SPX500, NAS100, GER40, UK100, JP225,
 DXY, VIX, US10Y, TSLA, AAPL, NVDA, MSFT, AMZN, GOOGL"""
 
 
 PROMPT = """Aşağıdaki İngilizce finans makalesini Türkçe analiz et.
 
-VARLIK LİSTESİ (sadece bu kodları kullan):
+VARLIK LİSTESİ (sadece bunlardan kullan):
 {product_list}
 
 GÖREVLER:
 1. Başlığı Türkçeye çevir → title_tr
 2. İçeriği Türkçeye çevir (max 1500 karakter) → content_tr
-3. Kısa Türkçe yorum (2-3 cümle) → yorum
+3. Kısa Türkçe yorum yaz (2-3 cümle, piyasa etkisi) → yorum
 4. Makalede geçen her varlık için analiz → varliklar
 5. Genel yön (YUKARI/AŞAĞI/NÖTR) → genel_yon
 
-ÇIKTI: SADECE JSON, başka metin yok:
+ÇIKTI: SADECE aşağıdaki JSON şemasında, başka metin yazma:
 
 {{
   "title_tr": "...",
@@ -65,20 +58,20 @@ GÖREVLER:
       "sembol": "GC",
       "isim": "Altın",
       "yon": "YUKARI",
-      "gerekce": "kısa gerekçe",
+      "gerekce": "kısa Türkçe gerekçe",
       "skor": 0.7
     }}
   ]
 }}
 
 KURALLAR:
-- sembol listeden olmalı (GC, ES, 6E gibi)
-- yon: YUKARI, AŞAĞI, NÖTR (büyük harf)
-- skor: 0.0-1.0 arası ondalık (0.7 gibi)
-- Makalede futures yoksa → "varliklar": []
+- sembol TAM olarak yukarıdaki listeden olmalı (GC, ES, 6E gibi)
+- yon sadece: YUKARI, AŞAĞI, NÖTR
+- skor: 0.0 - 1.0
+- varliklar boş olabilir → []
 
-BAŞLIK: {title}
-İÇERİK: {content}
+MAKALE BAŞLIĞI: {title}
+MAKALE İÇERİĞİ: {content}
 """
 
 
@@ -98,18 +91,23 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def call_gemini(title, content):
+def call_gemini(title, content, client):
     if not GEMINI_API_KEY:
         return {"hata": "GEMINI_API_KEY yok"}
+    prompt = PROMPT.format(
+        product_list=PRODUCT_LIST,
+        title=(title or "")[:500],
+        content=(content or "")[:3000],
+    )
     try:
-        genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel(MODEL_NAME)
-        prompt = PROMPT.format(
-            product_list=PRODUCT_LIST,
-            title=(title or "")[:500],
-            content=(content or "")[:3000],
+        response = client.models.generate_content(
+            model=MODEL_NAME,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.2,
+                max_output_tokens=8192,
+            ),
         )
-        response = model.generate_content(prompt)
         text = (response.text or "").strip()
         if text.startswith("```"):
             parts = text.split("```")
@@ -124,6 +122,11 @@ def call_gemini(title, content):
 
 
 def process_rss_files():
+    if not GEMINI_API_KEY:
+        print("[FATAL] GEMINI_API_KEY yok")
+        return
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
     state = load_state()
     processed = set(state.get("processed_ids", []))
 
@@ -166,7 +169,7 @@ def process_rss_files():
                 continue
 
             print(f"  -> {(title or '')[:60]}...")
-            result = call_gemini(title, content)
+            result = call_gemini(title, content, client)
 
             if "hata" in result:
                 print(f"     [HATA] {result['hata'][:100]}")
@@ -196,6 +199,6 @@ def process_rss_files():
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("Translate RSS (v3)")
+    print("Translate RSS v4 (google-genai)")
     print("=" * 60)
     process_rss_files()
