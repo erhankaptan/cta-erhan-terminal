@@ -1,0 +1,104 @@
+[
+  {
+    "tweet_id": "2101634282712166676",
+    "username": "misterpuertas",
+    "text": "Los minoristas han elegido bando en tecnología: semiconductores, no SaaS. Según JPM, los chips dominan los flujos positivos, que pasaron de +5.000 M$ a inicios de 2025 a casi -4.000 M$ a mitad de año. Volátil, sí, pero siguen liderando esta tendencia alcista.",
+    "images": [
+      "https://pbs.twimg.com/media/HSqBPbYWYAAdmT4.png"
+    ],
+    "analyzed_at": "2026-09-20T11:31:37.073571+00:00",
+    "varliklar": [
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Index",
+        "yon": "YUKARI",
+        "gerekce": "Perakende yatırımcıların yarı iletkenlere güçlü ilgisi ve teknoloji sektöründeki genel yükseliş trendi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji sektöründeki yükseliş eğilimi ve yarı iletkenlere olan ilgi S&P 500'ü de destekleyecektir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia Stock",
+        "yon": "YUKARI",
+        "gerekce": "Yarı iletken sektörüne yönelik güçlü perakende yatırımcı ilgisi ve genel yükseliş trendi.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "MSFT",
+        "isim": "Microsoft Stock",
+        "yon": "NÖTR",
+        "gerekce": "Perakende yatırımcıların yarı iletkenleri SaaS'a tercih etmesi, ancak SaaS için doğrudan negatif bir trend belirtilmemesi.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "AAPL",
+        "isim": "Apple Stock",
+        "yon": "NÖTR",
+        "gerekce": "Teknoloji donanım ve ekipmanlarına yönelik karışık akışlar ve tweet'in ana odak noktasının yarı iletkenler olması.",
+        "skor": 0.5
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Perakende yatırımcılar teknoloji sektöründe yarı iletkenleri tercih ediyor. JPM verilerine göre, yarı iletkenler volatil olsa da pozitif akışlara liderlik ederek genel yükseliş trendini sürdürüyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101618152706597227",
+    "username": "misterpuertas",
+    "text": "Indicador Bull & Bear de BofA: se mantiene en 9,5, ya que las fuertes entradas en renta variable global se ven compensadas por las salidas de bonos HY y la ampliación de los diferenciales de crédito AT1. Lla “señal de venta” se activó el 26 de mayo; desde entonces, S&P 500 +1,6%, ACWI +1,4%. Regla de amplitud de BofA: la amplitud de los índices bursátiles globales se ha debilitado... solo el 2% de los índices de renta variable global cotizan por encima tanto de su media móvil de 50 días como de la de 200 días, frente al 66% de hace una semana.",
+    "images": [
+      "https://pbs.twimg.com/media/HSpykl5WgAE13bm.jpg"
+    ],
+    "analyzed_at": "2026-09-20T11:32:00.172360+00:00",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "AŞAĞI",
+        "gerekce": "BofA'nın 'satış sinyali' ve küresel hisse senedi endekslerindeki zayıflayan genişlik, düşüş eğilimi gösteriyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "S&P 500'deki düşüş beklentisi, ES vadeli işlemlerini de etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10 Year Treasury Yield",
+        "yon": "YUKARI",
+        "gerekce": "HY tahvillerden çıkışlar ve AT1 kredi spreadlerinin genişlemesi tahvil piyasasında olumsuz sinyal, bu da getirileri artırabilir.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "DXY",
+        "isim": "US Dollar Index",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senedi piyasalarındaki düşüş sinyali ve zayıflayan genişlik, riskten kaçışı tetikleyerek DXY'yi destekleyebilir.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "BofA'nın Bull & Bear göstergesi 'satış sinyali' verirken, küresel hisse senedi endekslerinin genişliği zayıflıyor ve kredi piyasalarında risk artışı gözleniyor. Bu durum, hisse senetleri için düşüş, tahvil getirileri ve DXY için yükseliş eğilimi gösteriyor.",
+    "confidence": 0.85
+  },
+  {
+    "tweet_id": "2101606131390877754",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/2pV0UsF2NbAfxLlQrhki3J?si=pCfqyLxLTiGORS4QfgSAHQ&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T11:32:05.832754+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, Spotify'da bir bölümün bağlantısını paylaşıyor ve finansal varlıklara dair herhangi bir bilgi içermiyor.",
+    "confidence": 1.0
+  }
+]
