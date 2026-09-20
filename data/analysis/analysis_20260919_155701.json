@@ -1,0 +1,76 @@
+[
+  {
+    "tweet_id": "2101314942137733431",
+    "username": "JuanJesusMontoy",
+    "text": "Comentarios de Goldman Sachs sobre NVDA.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSlezMHXoAAHgpA.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T15:56:32.714376+00:00",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "YUKARI",
+        "gerekce": "Düşük zımni oynaklık (IV) ile ucuzlayan call opsiyon alımları teknoloji endeksini destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Tarihi düşük %34.4 IV seviyesiyle ucuz call opsiyonları üzerinden kaldıraçlı yükseliş yönlü alım.",
+        "skor": 0.85
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia (NVDA) hisselerinde zımni oynaklığın çok düşmesiyle ucuzlayan Aralık vadeli $240 Call opsiyonları üzerinden uzun yönlü pozisyonlanma önermektedir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101280969827156409",
+    "username": "JuanJesusMontoy",
+    "text": "Nvidia: Goldman Sachs plantea aprovechar el abaratamiento de las opciones Goldman Sachs señala que la caída de la volatilidad implícita está abaratando las opciones en el sector tecnológico. En Nvidia, ha alcanzado mínimos de varios años, lo que vuelve a despertar el interés por sustituir acciones por compras de calls. La idea es sencilla: mantener exposición a una posible subida de Nvidia con un desembolso menor que al comprar las acciones y limitar la pérdida máxima a la prima pagada. A cambio, las opciones tienen vencimiento: si la subida no llega a tiempo o no es suficiente, se puede perder toda esa prima. Como ejemplo, Goldman Sachs menciona las calls de diciembre con strike de 240 dólares, con un precio orientativo de 9,40 dólares por acción, frente a una cotización de Nvidia de 221,72 dólares en el momento de la nota. Si se mantienen hasta el vencimiento, el punto de equilibrio estaría en 249,40 dólares, sin incluir comisiones. La propuesta permite mantener exposición alcista con un riesgo de pérdida definido, pero exige acertar tanto con la magnitud de la subida como con el plazo.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T15:56:48.417329+00:00",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "NVDA zımni oynaklığının (IV) dip yapmasıyla call opsiyonları üzerinden ucuz uzun pozisyon fırsatı.",
+        "skor": 0.75
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia'da (NVDA) çok yıllık dip seviyelere gerileyen zımni oynaklık (IV) sayesinde call opsiyonlarının ucuzladığını ve sınırlı riskle yükselişe katılım için hisse yerine opsiyon alımını öneriyor.",
+    "confidence": 0.85
+  },
+  {
+    "tweet_id": "2101280969827156409",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: Nvidia: Goldman Sachs plantea aprovechar el abaratamiento de las opciones Goldman Sachs señala que la caída de la volatilidad implícita está abaratando las opciones en el sector tecnológico. En Nvidia, ha alcanzado mínimos de varios años, lo que vuelve a despertar el interés por sustituir acciones por compras de calls. La idea es sencilla: mantener exposición a una posible subida de Nvidia con un desembolso menor que al comprar las acciones y limitar la pérdida máxima a la prima pagada. A cambio, las opciones tienen vencimiento: si la subida no llega a tiempo o no es suficiente, se puede perder toda esa prima. Como ejemplo, Goldman Sachs menciona las calls de diciembre con strike de 240 dólares, con un precio orientativo de 9,40 dólares por acción, frente a una cotización de Nvidia de 221,72 dólares en el momento de la nota. Si se mantienen hasta el vencimiento, el punto de equilibrio estaría en 249,40 dólares, sin incluir comisiones. La propuesta permite mantener exposición alcista con un riesgo de pérdida definido, pero exige acertar tanto con la magnitud de la subida como con el plazo.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-19T15:57:01.791556+00:00",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "NVDA zımni oynaklığının dip yapmasıyla call opsiyonları üzerinden ucuz maliyetli yükseliş fırsatı.",
+        "skor": 0.8
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia'da zımni oynaklığın çok yıllık en düşük seviyelere gerilemesiyle, doğrudan hisse taşımak yerine sınırlı risk ve düşük maliyetli call opsiyonu alımını önermektedir.",
+    "confidence": 0.85
+  }
+]
