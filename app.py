@@ -1,5 +1,5 @@
 """
-CTA ERHAN TERMİNALİ — app.py (v18 - FİLTRELİ + YUMUŞATILMIŞ SKOR)
+CTA ERHAN TERMİNALİ — app.py (v20 - GRUPLU İZLEME)
 """
 
 import streamlit as st
@@ -31,7 +31,6 @@ st.markdown(
     section[data-testid="stSidebar"] h1,
     section[data-testid="stSidebar"] h2,
     section[data-testid="stSidebar"] h3 { color: #00E5FF !important; }
-
     div[data-testid="stMetric"] {
         background-color: #0F2A5C !important;
         border: 1px solid #1E4FA8 !important;
@@ -45,7 +44,6 @@ st.markdown(
         font-size: 20px !important; font-weight: 800 !important; color: #FFFFFF !important;
     }
     div[data-testid="stMetric"] * { color: #FFFFFF !important; }
-
     .aktif-urun-kutu {
         padding: 4px 10px; border: 1px solid #333;
         border-radius: 4px; background: #0a0a0a; margin-bottom: 4px;
@@ -53,14 +51,12 @@ st.markdown(
     .aktif-urun-baslik { color: #FFFFFF; font-weight: 700; font-size: 13px; }
     .aktif-urun-deger { color: #00E676; font-weight: 700; font-size: 16px; }
     hr { margin: 0.3rem 0 !important; padding: 0 !important; }
-
     section[data-testid="stSidebar"] * { font-size: 16px !important; }
     section[data-testid="stSidebar"] label { font-size: 16px !important; font-weight: 700 !important; }
     section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] { font-size: 16px !important; }
     section[data-testid="stSidebar"] h1 { font-size: 24px !important; }
     section[data-testid="stSidebar"] h2 { font-size: 22px !important; }
     section[data-testid="stSidebar"] h3 { font-size: 18px !important; }
-
     details { font-size: 15px !important; margin-bottom: 2px !important; }
     details summary {
         font-size: 15px !important; font-weight: 700 !important;
@@ -167,6 +163,15 @@ TRACKED_CODES = set()
 for _cat_list in product_categories.values():
     TRACKED_CODES.update(_cat_list)
 
+# Egzotik semboller (izleme listesinde gösterme)
+EGZOTIK = {
+    "TZT1", "QS1", "XB1", "HO1", "LA1", "LN1", "MXCN",
+    "CSI1000", "SH000905", "SHSN300", "XIN9I", "HSBIO",
+    "VVIX", "CIBR", "CNXT", "AGI", "OPEN", "NBIS",
+    "SAP", "HUBS", "WDAY", "TEAM", "MRVL",
+    "CRM", "CSCO", "NOW", "LULU", "CRWD",
+}
+
 # ============================================================
 # SIDEBAR
 # ============================================================
@@ -191,11 +196,9 @@ all_analysis = load_json_files(ANALYSIS_DIR, "analysis_*.json")
 all_rss = load_json_files(RSS_DIR, "rss_*.json")
 synthesis_snapshot = load_synthesis_snapshot()
 
-# Sadece VARLIK içeren X analizleri
 x_with_assets = [a for a in all_analysis if a.get("varliklar") and len(a.get("varliklar", [])) > 0]
 x_analyzed = len(x_with_assets)
 x_total = len(all_analysis)
-
 rss_total = len(all_rss)
 
 
@@ -204,7 +207,6 @@ rss_total = len(all_rss)
 # ============================================================
 
 def soften_score(score, cap=0.75):
-    """±cap üstünü kırp. Tek kaynak uçmasın."""
     try:
         s = float(score)
     except Exception:
@@ -285,6 +287,35 @@ def offlist_products():
     return offlist
 
 
+def categorize_offlist(code):
+    """İzleme dışı varlığı gruba ayır."""
+    c = code.upper().strip()
+
+    # ABD ENDEKSLERİ
+    abd_endeks = {"SPX500", "NAS100", "DXY", "VIX", "US10Y", "GER40", "UK100", "JP225"}
+    if c in abd_endeks:
+        return "ABD_ENDEKS"
+
+    # ABD ETF'LERİ
+    abd_etf = {"TLT", "SPY", "QQQ", "KWEB", "FXI", "EWJ", "EWT", "EWY", "KSTR", "HSI", "HSTECH", "HSCEI"}
+    if c in abd_etf:
+        return "ABD_ETF"
+
+    # EMTİA / KRİPTO / FOREX
+    emtia = {"XAUUSD", "XAGUSD", "UKOIL", "USOUSD", "BTCUSD", "SOL",
+             "EURUSD", "GBPUSD", "NZDUSD", "USDJPY", "USDCAD", "USDCHF", "AUDUSD"}
+    if c in emtia:
+        return "EMTIA"
+
+    # ABD HİSSELERİ
+    us_stocks = {"AAPL", "AMD", "AMZN", "AVGO", "GOOGL", "META", "MSFT", "NVDA", "TSLA", "BABA"}
+    if c in us_stocks:
+        return "ABD_HISSE"
+
+    # ASYA / HK (default)
+    return "ASYA"
+
+
 # ============================================================
 # BAŞLIK
 # ============================================================
@@ -355,7 +386,6 @@ with tab_pano:
                     if code.upper() not in TRACKED_CODES:
                         continue
 
-                    # SKOR YUMUŞATMA
                     raw_score = r.get("score", 0.0)
                     score = soften_score(raw_score, cap=0.75)
                     segments = build_segments_for(code)
@@ -429,7 +459,7 @@ with tab_pano:
         else:
             st.info("Snapshot bulunamadı.")
 
-        # ---------- ORTA: TICKMILL ----------
+    # ---------- ORTA: TICKMILL ----------
     with col_mid:
         st.markdown("### 📰 TICKMILL YORUMLARI")
         st.caption(f"Toplam: {rss_total} makale")
@@ -561,25 +591,45 @@ with tab_pano:
         st.divider()
         with st.expander("📋 İZLEME LİSTESİNDE OLMAYAN ÜRÜNLER", expanded=False):
             offlist = offlist_products()
+            offlist = {k: v for k, v in offlist.items() if k.upper() not in EGZOTIK}
+
             if not offlist:
                 st.caption("Şu an 25 ürün dışında konuşulan bir varlık yok.")
             else:
+                groups = {"ABD_ENDEKS": [], "ABD_ETF": [], "EMTIA": [], "ABD_HISSE": [], "ASYA": []}
                 for sembol, data in sorted(offlist.items()):
-                    isim = data.get("isim", "") or ""
-                    yonler = ", ".join(sorted(data["yonler"])) if data["yonler"] else "—"
-                    kaynaklar = ", ".join(sorted(data["kaynaklar"])) if data["kaynaklar"] else "—"
-                    st.markdown(
-                        f'<div style="background:#0a0a0a;border:1px solid #333;border-radius:4px;padding:6px 10px;margin:4px 0;">'
-                        f'<div style="color:#FFC107;font-size:14px;font-weight:800;">{sembol} — {isim}</div>'
-                        f'<div style="color:#B8D4FF;font-size:12px;margin-top:3px;">Yön: {yonler}</div>'
-                        f'<div style="color:#888;font-size:11px;margin-top:2px;">Kaynak: {kaynaklar}</div>'
-                        f'</div>',
-                        unsafe_allow_html=True,
-                    )
+                    grp = categorize_offlist(sembol)
+                    groups[grp].append((sembol, data))
+
+                GROUP_TITLES = {
+                    "ABD_ENDEKS": "🇺🇸 ABD ENDEKSLERİ",
+                    "ABD_ETF": "📊 ABD ETF'LERİ",
+                    "EMTIA": "🛢️ EMTİA / KRİPTO / FOREX",
+                    "ABD_HISSE": "💼 ABD HİSSELERİ",
+                    "ASYA": "🇭🇰 ASYA / HK",
+                }
+
+                for grp_key in ["ABD_ENDEKS", "ABD_ETF", "EMTIA", "ABD_HISSE", "ASYA"]:
+                    items = groups[grp_key]
+                    if not items:
+                        continue
+                    st.markdown(f"**{GROUP_TITLES[grp_key]}** ({len(items)})")
+                    for sembol, data in items:
+                        isim = data.get("isim", "") or ""
+                        yonler = ", ".join(sorted(data["yonler"])) if data["yonler"] else "—"
+                        kaynaklar = ", ".join(sorted(data["kaynaklar"])) if data["kaynaklar"] else "—"
+                        st.markdown(
+                            f'<div style="background:#0a0a0a;border:1px solid #333;border-radius:4px;padding:6px 10px;margin:4px 0;">'
+                            f'<div style="color:#FFC107;font-size:14px;font-weight:800;">{sembol} — {isim}</div>'
+                            f'<div style="color:#B8D4FF;font-size:12px;margin-top:3px;">Yön: {yonler}</div>'
+                            f'<div style="color:#888;font-size:11px;margin-top:2px;">Kaynak: {kaynaklar}</div>'
+                            f'</div>',
+                            unsafe_allow_html=True,
+                        )
 
 
 # ============================================================
-# SEKME 2 — X ANALİZLERİ (SADECE VARLIK İÇERENLER)
+# SEKME 2 — X ANALİZLERİ
 # ============================================================
 with tab_x:
     st.markdown(f"### 📱 X ANALİZLERİ")
