@@ -1,0 +1,177 @@
+[
+  {
+    "tweet_id": "2101692653117001881",
+    "username": "misterpuertas",
+    "text": "Las grandes empresas tecnológicas están gastando tanto dinero en gastos de capital que todas, excepto Microsoft, tienen ahora un flujo de caja libre negativo, lo que significa que el crecimiento futuro de los gastos de capital dependerá casi exclusivamente de nueva deuda.",
+    "images": [
+      "https://pbs.twimg.com/media/HSq2U2yWcAANdFp.png"
+    ],
+    "analyzed_at": "2026-09-20T16:12:29.851065+00:00",
+    "varliklar": [
+      {
+        "sembol": "MSFT",
+        "isim": "Microsoft",
+        "yon": "NÖTR",
+        "gerekce": "Grafikte pozitif serbest nakit akışı gösterse de, sektördeki genel olumsuzluktan etkilenebilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "META",
+        "isim": "Meta Platforms",
+        "yon": "AŞAĞI",
+        "gerekce": "Negatif serbest nakit akışı ve gelecekteki büyüme için borçlanmaya bağımlılık olumsuz bir sinyal.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GOOGL",
+        "isim": "Alphabet",
+        "yon": "AŞAĞI",
+        "gerekce": "Negatif serbest nakit akışı ve gelecekteki büyüme için borçlanmaya bağımlılık olumsuz bir sinyal.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "AMZN",
+        "isim": "Amazon",
+        "yon": "AŞAĞI",
+        "gerekce": "Negatif serbest nakit akışı ve gelecekteki büyüme için borçlanmaya bağımlılık olumsuz bir sinyal.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "NASDAQ 100 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinin FCF sorunları ve borçlanma eğilimi endeksi aşağı çekebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro NASDAQ 100 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinin FCF sorunları ve borçlanma eğilimi endeksi aşağı çekebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "NASDAQ 100 Spot",
+        "yon": "AŞAĞI",
+        "gerekce": "Büyük teknoloji şirketlerinin FCF sorunları ve borçlanma eğilimi endeksi aşağı çekebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji şirketlerinin S&P 500'deki ağırlığı göz önüne alındığında, sorunlar endeksi etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji şirketlerinin S&P 500'deki ağırlığı göz önüne alındığında, sorunlar endeksi etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Spot",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji şirketlerinin S&P 500'deki ağırlığı göz önüne alındığında, sorunlar endeksi etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "YUKARI",
+        "gerekce": "Büyük teknoloji şirketlerinin artan borçlanma ihtiyacı tahvil arzını artırarak getirileri yükseltebilir.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Büyük teknoloji şirketlerinin (Microsoft hariç) negatif serbest nakit akışı ve borçlanmaya bağımlılığı, sektör hisseleri ve endeksler üzerinde aşağı yönlü baskı yaratırken, artan borçlanma tahvil getirilerini yükseltebilir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101678045597765772",
+    "username": "misterpuertas",
+    "text": "El capital se ha vuelto selectivo. Frente al S&P 500 equiponderado, Quantum Computing cae a 72,3, Autonomous Vehicles a 82,39 y Nuclear Tech a 86,88, tras rondar 100 a finales de 2025. Desde el pico de mayo, las temáticas más especulativas pierden fuerza.",
+    "images": [
+      "https://pbs.twimg.com/media/HSqpCxiXIAADtgi.jpg"
+    ],
+    "analyzed_at": "2026-09-20T16:12:52.153052+00:00",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "NÖTR",
+        "gerekce": "Spekülatif temaların karşılaştırıldığı ana endeks (S&P 500 Equal Weight).",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "NÖTR",
+        "gerekce": "S&P 500'ün vadeli işlem karşılığı, spekülatif temaların karşılaştırıldığı endeks.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kuantum Bilgisayar, Otonom Araçlar ve Kârsız Teknoloji gibi spekülatif temalar güç kaybediyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Kuantum Bilgisayar, Otonom Araçlar ve Kârsız Teknoloji gibi spekülatif temalar güç kaybediyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Spekülatif teknoloji ve tematik yatırımlar, S&P 500'e göre mayıs ayından bu yana güç kaybediyor ve düşüş eğiliminde.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101661213256003889",
+    "username": "misterpuertas",
+    "text": "La IA china se queda atrás. El índice de ADRs de IA de Goldman Sachs frente al de EE. UU. ha caído de ~100 a 68,23 desde comienzos de año: un rendimiento relativo inferior del 32%. La gran operación de recuperación china, por ahora, se desinfla.",
+    "images": [
+      "https://pbs.twimg.com/media/HSqZuwxWIAAca6f.jpg"
+    ],
+    "analyzed_at": "2026-09-20T16:13:09.300465+00:00",
+    "varliklar": [
+      {
+        "sembol": "HSTECH",
+        "isim": "Hang Seng Tech Index",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin AI ADR'leri ABD'ye göre %32 geride kaldı, toparlanma beklentileri zayıflıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Çin AI'nin geride kalması, ABD AI sektörünün göreceli olarak daha iyi performans gösterdiğini ima ediyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HSI",
+        "isim": "Hang Seng Index",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin ekonomisindeki toparlanma beklentilerinin zayıfladığı belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "HG",
+        "isim": "Copper",
+        "yon": "AŞAĞI",
+        "gerekce": "Çin ekonomisindeki toparlanma beklentilerinin zayıflaması, emtia talebi üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Çin yapay zeka ADR'leri, ABD'li rakiplerine kıyasla yılbaşından bu yana %32 geride kalarak önemli ölçüde düşük performans gösterdi ve Çin'deki toparlanma beklentileri zayıfladı.",
+    "confidence": 0.9
+  }
+]
