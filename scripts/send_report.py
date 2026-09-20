@@ -1,8 +1,8 @@
 """
-CTA ERHAN TERMİNALİ — Telegram Rapor (v2)
+CTA ERHAN TERMİNALİ — Telegram Rapor (v3)
 ==========================================
-app.py ile aynı mantık: segment bazlı state hesabı.
-X + RSS dosyalarından canlı okur.
+3 grup: Vadeli+Forex+Emtia | ABD Hisseleri | Asya Hisseleri
+State hesabı skor bazlı.
 """
 
 import os
@@ -13,32 +13,53 @@ from datetime import datetime, timezone
 
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 DATA_DIR = PROJECT_ROOT / "data"
-ANALYSIS_DIR = DATA_DIR / "analysis"
-RSS_DIR = DATA_DIR / "rss"
 SNAPSHOT_FILE = DATA_DIR / "snapshots" / "latest.json"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 
-def load_json_files(folder, pattern):
-    if not folder.exists():
-        return []
-    items = []
-    seen = set()
-    for fp in sorted(folder.glob(pattern)):
-        try:
-            with open(fp, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            if isinstance(data, list):
-                for item in data:
-                    tid = item.get("id") or item.get("tweet_id") or item.get("guid") or str(hash(str(item)))
-                    if tid not in seen:
-                        seen.add(tid)
-                        items.append(item)
-        except Exception:
-            continue
-    return items
+# ABD hisseleri (bilinen semboller)
+US_STOCKS = {
+    "NVDA", "TSLA", "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "META",
+    "NFLX", "AMD", "INTC", "AVGO", "ORCL", "CRM", "ADBE", "QCOM",
+    "JPM", "BAC", "GS", "WFC", "C", "MS",
+    "XOM", "CVX", "COP", "OXY",
+    "DIS", "NKE", "SBUX", "MCD", "KO", "PEP", "WMT", "TGT", "COST",
+    "BA", "CAT", "GE", "F", "GM", "RIVN", "LCID",
+    "PFE", "JNJ", "MRNA", "UNH", "LLY",
+    "PLTR", "COIN", "MSTR", "SQ", "PYPL", "SHOP", "UBER", "LYFT", "ABNB",
+    "SPOT", "SNAP", "PINS", "TWLO", "ZM", "DOCU",
+}
+
+
+def categorize(code):
+    """Sembolü kategoriye ayır: 'us_stock', 'asia_stock', 'main'."""
+    c = code.upper().strip()
+
+    # ABD hisseleri
+    if c in US_STOCKS:
+        return "us_stock"
+
+    # Asya/HK hisseleri
+    if c.endswith(" HK") or c.endswith("HK"):
+        return "asia_stock"
+    if c.endswith(" JP") or c.endswith("JP"):
+        return "asia_stock"
+    if c.endswith(" SS") or c.endswith(" SZ"):
+        return "asia_stock"
+    if c in ("HSTECH", "HSI", "HSCEI", "NIKKEI", "JP225", "KOSPI", "TWII", "SHCOMP"):
+        return "asia_stock"
+
+    return "main"
+
+
+def soften(score, cap=0.75):
+    try:
+        s = float(score)
+    except Exception:
+        return 0.0
+    return max(-cap, min(cap, s))
 
 
 def load_snapshot():
@@ -51,77 +72,50 @@ def load_snapshot():
         return {}
 
 
-def build_segments_for(code, all_analysis, all_rss):
-    segments = []
-    code_u = code.upper().strip()
-    for item in all_analysis:
-        username = (item.get("username") or "").strip()
-        for v in (item.get("varliklar") or []):
-            sembol = (v.get("sembol") or "").upper().strip()
-            if sembol == code_u:
-                segments.append((v.get("yon", "NÖTR"), "@" + username if username else "X"))
-    for item in all_rss:
-        for v in (item.get("varliklar") or []):
-            sembol = (v.get("sembol") or "").upper().strip()
-            if sembol == code_u:
-                segments.append((v.get("yon", "NÖTR"), "tickmill"))
-    return segments
+def compute_state(score, evidence_count, has_conflict=False):
+    """
+    Skor bazlı state:
+    - Hiç kanıt yok → INSUFFICIENT
+    - |skor| < 0.10 → NEUTRAL
+    - skor >= 0.35 → BULLISH
+    - skor <= -0.35 → BEARISH
+    - arası (0.10 - 0.35) → CONFLICT (zayıf sinyal)
+    """
+    if evidence_count == 0:
+        return "INSUFFICIENT"
 
+    # Kanıt sayısı 1 ve skor 0 → INSUFFICIENT
+    if evidence_count == 1 and abs(score) < 0.05:
+        return "INSUFFICIENT"
 
-def compute_state_from_segments(segments, fallback="INSUFFICIENT"):
-    if not segments:
-        return fallback
-    bull = bear = 0
-    for y, _ in segments:
-        yu = str(y).upper()
-        if "YUKARI" in yu or "BULL" in yu or "LONG" in yu:
-            bull += 1
-        elif "AŞAĞI" in yu or "BEAR" in yu or "SHORT" in yu:
-            bear += 1
-    if bull > 0 and bear > 0:
-        return "CONFLICT"
-    if bull > 0:
+    if abs(score) < 0.10:
+        if has_conflict:
+            return "CONFLICT"
+        return "NEUTRAL"
+
+    if score >= 0.35:
         return "BULLISH"
-    if bear > 0:
+    if score <= -0.35:
         return "BEARISH"
-    return "NEUTRAL"
+
+    # 0.10 - 0.35 arası → CONFLICT (zayıf, karışık)
+    return "CONFLICT"
 
 
-def soften(score, cap=0.75):
-    try:
-        s = float(score)
-    except Exception:
-        return 0.0
-    return max(-cap, min(cap, s))
+def format_group(title, items):
+    """Bir grup için satırlar üret."""
+    if not items:
+        return []
 
-
-def build_message(snapshot, all_analysis, all_rss):
-    results = snapshot.get("results", {})
-    if not results:
-        return "⚠️ CTA ERHAN RAPORU\n\nSnapshot boş."
-
-    now_tr = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
-
-    groups = {
-        "BULLISH": [], "BEARISH": [], "CONFLICT": [],
-        "NEUTRAL": [], "INSUFFICIENT": [],
-    }
-
-    for code, r in results.items():
-        score = soften(r.get("score", 0.0))
-        segments = build_segments_for(code, all_analysis, all_rss)
-        state = compute_state_from_segments(segments, r.get("state", "INSUFFICIENT"))
+    groups = {"BULLISH": [], "BEARISH": [], "CONFLICT": [], "NEUTRAL": [], "INSUFFICIENT": []}
+    for code, sc, state in items:
         if state in groups:
-            groups[state].append((code, score))
+            groups[state].append((code, sc))
 
     for k in groups:
         groups[k].sort(key=lambda x: abs(x[1]), reverse=True)
 
-    lines = [
-        "📊 <b>CTA ERHAN RAPORU</b>",
-        f"🕐 {now_tr}",
-        "",
-    ]
+    lines = [f"═══ <b>{title}</b> ═══", ""]
 
     if groups["BULLISH"]:
         lines.append(f"🟢 <b>BULLISH</b> ({len(groups['BULLISH'])})")
@@ -153,7 +147,57 @@ def build_message(snapshot, all_analysis, all_rss):
         lines.append(f"  {codes}")
         lines.append("")
 
-    total = sum(len(v) for v in groups.values())
+    return lines
+
+
+def build_message(snapshot):
+    results = snapshot.get("results", {})
+    if not results:
+        return "⚠️ CTA ERHAN RAPORU\n\nSnapshot boş."
+
+    now_tr = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+
+    # Kategorilere ayır
+    main_items = []
+    us_items = []
+    asia_items = []
+
+    for code, r in results.items():
+        score = soften(r.get("score", 0.0))
+        ev_count = r.get("evidence_count", 0)
+        reasons = " ".join(r.get("reasons", []))
+        has_conflict = "ÇELİŞKİ" in reasons
+        state = compute_state(score, ev_count, has_conflict)
+
+        cat = categorize(code)
+        item = (code, score, state)
+
+        if cat == "us_stock":
+            us_items.append(item)
+        elif cat == "asia_stock":
+            asia_items.append(item)
+        else:
+            main_items.append(item)
+
+    total = len(main_items) + len(us_items) + len(asia_items)
+
+    lines = [
+        "📊 <b>CTA ERHAN RAPORU</b>",
+        f"🕐 {now_tr}",
+        "",
+    ]
+
+    # Ana grup
+    lines.extend(format_group("VADELİ / FOREX / EMTİA", main_items))
+
+    # ABD hisseleri
+    if us_items:
+        lines.extend(format_group("ABD HİSSELERİ", us_items))
+
+    # Asya hisseleri
+    if asia_items:
+        lines.extend(format_group("ASYA / HK HİSSELERİ", asia_items))
+
     lines.append(f"📈 Toplam: <b>{total}</b> varlık")
     lines.append(f"🔗 {snapshot.get('generated_at', '—')[:16]}")
 
@@ -188,7 +232,7 @@ def send_telegram(text):
 
 def main():
     print("=" * 60)
-    print("Telegram Rapor (v2)")
+    print("Telegram Rapor (v3)")
     print("=" * 60)
 
     snapshot = load_snapshot()
@@ -196,14 +240,9 @@ def main():
         print("[FATAL] Snapshot bulunamadı")
         return
 
-    all_analysis = load_json_files(ANALYSIS_DIR, "analysis_*.json")
-    all_rss = load_json_files(RSS_DIR, "rss_*.json")
-
-    print(f"[INFO] {len(all_analysis)} X analizi, {len(all_rss)} RSS makalesi")
-
-    msg = build_message(snapshot, all_analysis, all_rss)
+    msg = build_message(snapshot)
     print("--- Mesaj önizleme ---")
-    print(msg[:800])
+    print(msg[:1200])
     print("--- Gönderiliyor ---")
 
     send_telegram(msg)
