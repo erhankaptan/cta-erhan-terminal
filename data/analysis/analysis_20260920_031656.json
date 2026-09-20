@@ -1,0 +1,228 @@
+[
+  {
+    "tweet_id": "2098120943273119801",
+    "username": "wayneterprises",
+    "text": "just took some juicy profits on Oil $USO Wen bond short squeeze? $TLT",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHR4F4RVbIAEfERV.jpg"
+    ],
+    "analyzed_at": "2026-09-20T02:25:29.278220+00:00",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol (USO ETF)",
+        "yon": "YUKARI",
+        "gerekce": "Kullanıcı petrol ETF'inden (USO) kar elde ettiğini belirtiyor ve görselde yükseliş teyit ediliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "TLT",
+        "isim": "Uzun Vadeli ABD Tahvil ETF'i",
+        "yon": "YUKARI",
+        "gerekce": "Kullanıcı TLT'de kısa pozisyon sıkışması (short squeeze) bekliyor, bu da fiyat artışı beklentisi yaratır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "AŞAĞI",
+        "gerekce": "Tahvil short squeeze beklentisi, tahvil fiyatlarının yükselmesi ve dolayısıyla getirilerin düşmesi anlamına gelir.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Kullanıcı petrol ETF'inden (USO) kar elde ettiğini belirtirken, uzun vadeli ABD tahvillerinde (TLT) bir kısa pozisyon sıkışması (short squeeze) bekliyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100148434632061395",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: Hoy tenemos la reunión de la Fed más importante de los últimos años. Especial informativo en mi canal de Twitch desde las 19.15h (CEST) con toda la cobertura. Culminaremos con una tertulia con mis amigos @Javieerdelvalle y @misterpuertas. https://www.twitch.tv/hectorchamizo",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSUlLvOWcAALDBz.jpg"
+    ],
+    "analyzed_at": "2026-09-20T02:46:22.494511+00:00",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dollar Index",
+        "yon": "NÖTR",
+        "gerekce": "FED toplantısı, dolar endeksi üzerinde doğrudan etki yaratır ve yüksek volatilite beklenir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "NÖTR",
+        "gerekce": "FED kararları, ABD tahvil getirilerini doğrudan etkiler ve piyasada belirsizlik yaratır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold",
+        "yon": "NÖTR",
+        "gerekce": "FED toplantısı ve faiz kararları, altın fiyatları üzerinde önemli bir etkiye sahiptir.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, FED'in son yılların en önemli toplantısını duyuruyor ve bu toplantının piyasalar üzerindeki potansiyel etkisine dikkat çekiyor. FED kararları öncesi piyasada belirsizlik hakimdir.",
+    "confidence": 0.95
+  },
+  {
+    "tweet_id": "2100273021759934764",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: 🟢Ya en directo en Twitch ESPECIAL DE LA FED Primero, análisis de los mercados con @EduardoFaus, analista técnico de @Renta4. Previa, comunicado, rueda de prensa y reacciones. Tertulia con @Javieerdelvalle, @misterpuertas y servidor. https://www.twitch.tv/hectorchamizo",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSWpHZXXMAARMHi.jpg"
+    ],
+    "analyzed_at": "2026-09-20T02:50:07.286506+00:00",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dollar Index",
+        "yon": "NÖTR",
+        "gerekce": "Tweet'te geçen 'ESPECIAL DE LA FED' ifadesi, FED politikalarının dolar endeksi üzerindeki doğrudan etkisini ima eder.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "NÖTR",
+        "gerekce": "FED özel yayını, faiz kararları ve tahvil piyasası üzerindeki etkileri nedeniyle ABD 10 yıllık tahvil getirilerini doğrudan ilgilendirir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold Spot",
+        "yon": "NÖTR",
+        "gerekce": "FED politikaları, faiz oranları ve enflasyon beklentileri altın fiyatları üzerinde önemli etkiye sahiptir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "NÖTR",
+        "gerekce": "'Análisis de los mercados' ve FED özel yayını bağlamında, ABD hisse senedi piyasaları (S&P 500) analiz konusu olacaktır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "NÖTR",
+        "gerekce": "'Análisis de los mercados' ve FED özel yayını bağlamında, ABD teknoloji hisse senedi piyasaları (Nasdaq) analiz konusu olacaktır.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, FED özel yayını ve piyasa analizi duyurusu olduğundan, FED politikalarından doğrudan veya dolaylı olarak etkilenen başlıca varlıklar çıkarılmıştır. Yayın bir yön belirtmediği için genel yön NÖTR'dür.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100605488341676401",
+    "username": "misterpuertas",
+    "text": "Europa sigue siendo el mayor consumidor relativo de energía del mundo. Esto puede suponer un claro perjuicio relativo para el euro.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSbZjj7WsAAEfIj.jpg"
+    ],
+    "analyzed_at": "2026-09-20T03:00:28.900100+00:00",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/US Dollar",
+        "yon": "AŞAĞI",
+        "gerekce": "Avrupa'nın yüksek enerji tüketimi Euro üzerinde olumsuz baskı yaratıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NG",
+        "isim": "Natural Gas",
+        "yon": "YUKARI",
+        "gerekce": "Avrupa'nın yüksek enerji tüketimi doğal gaz fiyatları üzerinde yukarı yönlü baskı oluşturuyor (TTF göstergesi).",
+        "skor": 0.85
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Avrupa'nın yüksek enerji tüketimi Euro üzerinde baskı yaratırken, doğal gaz fiyatlarının yükselişini destekliyor. Görseldeki TTF (inverted) ve EURUSD korelasyonu bu durumu destekliyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100886846901244258",
+    "username": "misterpuertas",
+    "text": "La volatilidad del petróleo se ha mantenido sorprendentemente contenida durante toda la última subida. Un auténtico episodio de pánico alcista debería haber provocado un fuerte repunte de la volatilidad. Sin embargo, hemos visto casi lo contrario.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSfZczZXoAAyZ4K.png"
+    ],
+    "analyzed_at": "2026-09-20T03:02:59.556578+00:00",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Crude Oil",
+        "yon": "YUKARI",
+        "gerekce": "Tweet ve grafik, petrol fiyatlarında son dönemde belirgin bir yükseliş olduğunu gösteriyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Petrol fiyatları son dönemde yükseliş gösterse de, bu yükselişe eşlik etmesi beklenen volatilite artışı gözlemlenmemiştir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101241193245868131",
+    "username": "misterpuertas",
+    "text": "La apuesta obvia por la ciberseguridad ya no está en una fase temprana. Acumula una subida de alrededor del 44% en lo que va de año, frente a aproximadamente un 17% del QQQ y un 12% del SPY.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSkbuXAW4AAotO1.jpg"
+    ],
+    "analyzed_at": "2026-09-20T03:11:39.412475+00:00",
+    "varliklar": [
+      {
+        "sembol": "CIBR",
+        "isim": "Cybersecurity ETF",
+        "yon": "YUKARI",
+        "gerekce": "Yılbaşından bu yana %44'lük güçlü bir yükseliş göstererek piyasa endekslerini geride bıraktı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "QQQ ETF'i aracılığıyla yılbaşından bu yana yaklaşık %17'lik bir yükseliş kaydetti.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "SPY ETF'i aracılığıyla yılbaşından bu yana yaklaşık %12'lik bir yükseliş kaydetti.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Siber güvenlik sektörü, QQQ ve SPY gibi ana endeksleri geride bırakarak yılbaşından bu yana güçlü bir yükseliş trendi sergiliyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101314942137733431",
+    "username": "JuanJesusMontoy",
+    "text": "Comentarios de Goldman Sachs sobre NVDA.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSlezMHXoAAHgpA.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_0r6XUAEzIKg.jpg",
+      "http://nitter.jaydenha.uk/pic/media%2FHSk_438XIAASLR_.jpg"
+    ],
+    "analyzed_at": "2026-09-20T03:12:03.872722+00:00",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Goldman Sachs, düşük zımni volatilite nedeniyle NVDA alım opsiyonları öneriyor ve hissede yukarı yönlü bir hareket bekliyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Goldman Sachs, Nvidia'daki düşük zımni volatiliteden faydalanarak hisse senedinde yukarı yönlü bir hareket bekliyor ve alım opsiyonları öneriyor.",
+    "confidence": 0.9
+  }
+]

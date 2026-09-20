@@ -1,0 +1,444 @@
+[
+  {
+    "tweet_id": "2099911762061754693",
+    "username": "wayneterprises",
+    "text": "lmao",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:16:20.538274+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet metni 'lmao' ifadesiyle kişisel bir tepkiyi belirtmekte olup, herhangi bir finansal varlığa veya piyasa durumuna atıfta bulunmamaktadır.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2097758922023284832",
+    "username": "wayneterprises",
+    "text": "they fumbled with this so badly I was hoping to re-experience the pure satisfaction of hanging up on someone by closing my phone 😡",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/amplify_video_thumb%2F2097747153607380992%2Fimg%2F6DWvTCOyx8gcCQyq.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:22:42.689653+00:00",
+    "varliklar": [
+      {
+        "sembol": "AAPL",
+        "isim": "Apple",
+        "yon": "AŞAĞI",
+        "gerekce": "Kullanıcının iPhone ile ilgili yaşadığı olumsuz deneyim ve hayal kırıklığı, Apple hisseleri üzerinde negatif algı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Kullanıcının iPhone ile ilgili olumsuz deneyimi, Apple hisseleri üzerinde hafif negatif bir baskı oluşturabilir.",
+    "confidence": 0.7
+  },
+  {
+    "tweet_id": "2097759673722273839",
+    "username": "wayneterprises",
+    "text": "R to @wayneterprises: Gif",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:22:48.328793+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal bir varlık veya piyasa hakkında herhangi bir bilgi veya ima içermemektedir. Tamamen alakasız bir içeriktir.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2099894826732839274",
+    "username": "misterpuertas",
+    "text": "Los bonos del Tesoro estadounidense a 10 años se sitúan por encima del 5%. El precio del petróleo por encima de los 100$. La correlación WTI/10Y ha alcanzado 0,96. Cada barril adicional supone un punto básico en el tramo largo.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSRTNq2W4AAiPjL.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:25:56.439667+00:00",
+    "varliklar": [
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "YUKARI",
+        "gerekce": "ABD 10 yıllık tahvil getirileri %5'in üzerinde ve grafikte güçlü bir yükseliş trendi gösteriyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "CL",
+        "isim": "Crude Oil Futures (WTI)",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatları 100 doların üzerinde ve grafikte WTI'ın güçlü bir yükseliş trendinde olduğu belirtiliyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "US Oil Fund",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatlarındaki genel yükseliş trendi spot piyasayı ve ilgili fonları da etkiler.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "DXY",
+        "isim": "US Dollar Index",
+        "yon": "YUKARI",
+        "gerekce": "Yükselen ABD tahvil getirileri, genellikle doları destekleyerek DXY'nin yükselmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold Spot",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD tahvil getirileri, getirisi olmayan altın için genellikle olumsuz bir faktördür.",
+        "skor": 0.65
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet, ABD 10 yıllık tahvil getirileri ve WTI petrol fiyatlarının 0.96 korelasyonla birlikte yükselişini ve önemli seviyeleri aştığını vurguluyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2099771570344345747",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/4dxg4VijO8pjwhqllPR1yy?si=zVc_FaVOR7-ojhE5Qo3wsg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:30:34.752699+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal varlıklarla ilgili herhangi bir bilgi veya ima içermemektedir. Yalnızca bir Spotify bölümünün bağlantısını paylaşmaktadır.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2099564370527236412",
+    "username": "misterpuertas",
+    "text": "Las revisiones de beneficios del sector de semiconductores están empezando a darse la vuelta a la baja.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSMmqlnXEAArkkz.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:31:45.603451+00:00",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı iletken sektöründe kar revizyonları düşüşe geçti, bu durum NVDA gibi hisseler için olumsuz bir sinyal.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı iletken sektöründeki olumsuz görünüm, teknoloji ağırlıklı Nasdaq endeksini aşağı çekebilir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı iletken sektöründeki zayıflık, genel piyasa endeksi S&P 500 üzerinde baskı oluşturabilir.",
+        "skor": 0.75
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Yarı iletken sektöründeki kar revizyonları düşüşe geçerek NVDA gibi hisseler ve teknoloji ağırlıklı endeksler (NQ, ES) için olumsuz bir görünüm sunuyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100135420218515795",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/4aHaRgyrefVC5UcMtqlZOY?si=HFJjsVJ-S-aTF_u1eWdaxg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:37:45.976098+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal piyasalarla ilgili herhangi bir varlık veya ekonomik gösterge içermemektedir. Yalnızca bir Spotify bağlantısı paylaşılmaktadır.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100208410771747060",
+    "username": "misterpuertas",
+    "text": "Previa de la Fed en directo con @darwinexzero_es ¡¡Pasaté a charlar!! https://x.com/i/broadcasts/1nxnRBmVgMYxO",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/card_img%2F2100223564829868032%2FwsnfwlmK%3Fformat%3Djpg%26name%3D800x419"
+    ],
+    "analyzed_at": "2026-09-20T01:39:32.330418+00:00",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dollar Index",
+        "yon": "NÖTR",
+        "gerekce": "FED beklentileri ve politikaları DXY üzerinde doğrudan etkilidir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "NÖTR",
+        "gerekce": "FED'in faiz politikaları ve ekonomik görünüm tahvil getirilerini etkiler.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold",
+        "yon": "NÖTR",
+        "gerekce": "FED kararları ve doların seyri altın fiyatları üzerinde önemli rol oynar.",
+        "skor": 0.85
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, FED'in yaklaşan kararları veya politikaları hakkında bir önizleme etkinliğine davet ediyor. Bu tür tartışmalar DXY, US10Y ve XAUUSD üzerinde dolaylı etkilere sahiptir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100168608965914827",
+    "username": "misterpuertas",
+    "text": "El mundo está inundado de níquel, pero el exceso podría convertirse en déficit desde 2035. Bernstein estima hasta -900 kt en 2040, con las baterías pasando del 12% al 26% de la demanda. El superávit de hoy podría ser la semilla del próximo squeeze.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSVMN-wXYAAA0_F.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:40:32.382711+00:00",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Copper",
+        "yon": "YUKARI",
+        "gerekce": "Nikel arz fazlasının 2035'ten itibaren açığa dönüşeceği ve gelecekte fiyat sıkışması potansiyeli, endüstriyel metalleri destekler.",
+        "skor": 0.75
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Tweet ve görsel, nikel piyasasında mevcut arz fazlasının 2035'ten itibaren büyük bir açığa dönüşeceğini ve gelecekte bir fiyat sıkışması potansiyeli olduğunu belirtiyor.",
+    "confidence": 0.85
+  },
+  {
+    "tweet_id": "2100162066757689550",
+    "username": "misterpuertas",
+    "text": "El S&P 500 ha cotizado en rojo en 6 de los últimos 7 días y ahora cerró por debajo de su media móvil de 50 días.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSVGRNTXEAAheRz.png"
+    ],
+    "analyzed_at": "2026-09-20T01:40:47.521347+00:00",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "S&P 500, son 7 günün 6'sında düşüş yaşadı ve 50 günlük hareketli ortalamasının altında kapandı, bu kısa vadeli düşüş eğilimini gösteriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "S&P 500 endeksinin vadeli işlem kontratı olarak, spot endeksteki düşüş eğilimi ES üzerinde de baskı yaratır. 50 günlük MA altı kapanış düşüş sinyali.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "S&P 500, son yedi günün altısında düşüş yaşayarak ve 50 günlük hareketli ortalamasının altına inerek kısa vadede belirgin bir düşüş eğilimi sergilemektedir.",
+    "confidence": 0.95
+  },
+  {
+    "tweet_id": "2100304906603114925",
+    "username": "JuanJesusMontoy",
+    "text": "Asalto a la Put Wall!!!!!!",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:47:25.302777+00:00",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "\"Put Wall\" terimi, genellikle S&P 500 gibi büyük endekslerdeki opsiyon piyasası destek seviyelerini ifade eder; \"Asalto\" aşağı yönlü baskıyı gösterir.",
+        "skor": 0.65
+      }
+    ],
+    "genel_yon": "AŞAĞI",
+    "ozet": "Tweet, S&P 500 gibi büyük bir endekste önemli bir opsiyon destek seviyesine (put wall) yönelik aşağı yönlü bir baskıyı ima ediyor.",
+    "confidence": 0.75
+  },
+  {
+    "tweet_id": "2099854470930637169",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: ⚠️ Ojo con el strike 7.500 del SPX. Hay unas 30.000 puts para el vencimiento del 18 de septiembre y, ampliando hasta el 30 de septiembre, la posición ronda los 45.000 contratos. Si el mercado pierde esa zona, los dealers podrían verse obligados a vender futuros para cubrirse, amplificando la caída. En cambio, si el SPX se mantiene por encima y esas puts empiezan a cerrarse, la retirada de coberturas podría generar flujos compradores y favorecer una subida. Con este posicionamiento, 7.500 puede convertirse en un nivel clave y provocar movimientos fuertes en cualquiera de las dos direcciones durante los próximos días.",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:48:38.631461+00:00",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "NÖTR",
+        "gerekce": "SPX 7.500 seviyesi kritik pivot noktası. Altında satış, üstünde alış baskısı bekleniyor. Yüksek volatilite potansiyeli.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Futures",
+        "yon": "NÖTR",
+        "gerekce": "SPX 7.500 seviyesi kritik pivot noktası. Altında satış, üstünde alış baskısı bekleniyor. Yüksek volatilite potansiyeli. Vadeli işlemlerden bahsediliyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "SPX 7.500 seviyesi, opsiyon pozisyonları nedeniyle kritik bir pivot noktasıdır. Bu seviyenin altında veya üstünde kalması, piyasada güçlü hareketlere yol açabilir.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100516396144755094",
+    "username": "misterpuertas",
+    "text": "Los minoristas se están concentrando en ciberseguridad: CRWD concentra el 53% de las calls minoristas del sector y la compra de calls a 1 mes está en el percentil 97.",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSaIh7dWUAA4MDg.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:52:34.741613+00:00",
+    "varliklar": [
+      {
+        "sembol": "CRWD",
+        "isim": "CrowdStrike Holdings, Inc.",
+        "yon": "YUKARI",
+        "gerekce": "Perakende yatırımcıların CRWD hissesine yönelik yoğun alım opsiyonu ilgisi ve sektördeki lider payı, güçlü yükseliş beklentisini gösteriyor.",
+        "skor": 0.9
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Perakende yatırımcılar siber güvenlik sektöründe CRWD hissesine yoğun ilgi gösteriyor, alım opsiyonu hacimleri rekor seviyelerde.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2100509512595607933",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/5NmAbzm48No0cSSWYmQjrM?si=EWGcoi1sRgqM960e3nqueQ&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:52:42.778432+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal piyasalarla ilgili herhangi bir varlık veya bilgi içermemektedir. Bir Spotify bölümünün tanıtımını yapmaktadır.",
+    "confidence": 0.95
+  },
+  {
+    "tweet_id": "2100683911437402226",
+    "username": "wayneterprises",
+    "text": "Haven't been posting because my daughter was just born.. healthy! Back on the grind again soon",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:53:17.747059+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, kullanıcının kişisel bir duyurusunu içeriyor ve herhangi bir finansal varlık veya piyasa yorumu barındırmıyor. Bu nedenle, çıkarılacak bir varlık bulunmamaktadır.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100620667716600306",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: The Best!!!",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:53:23.840784+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet metni finansal bir varlık veya piyasa hakkında herhangi bir bilgi içermemektedir. Tamamen alakasız ve kişisel bir ifadedir.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100613748750741801",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: ANUNCIO ESPECIAL 🚨 La IV ED. del Curso de Opciones Financieras contará con un nuevo experto de muuuucho nivel, el fundador de una de las newsletter sobre opciones más leídas: 🥁🥁🥁 JJ MONTOYA @JuanJesusMontoy Era difícil seguir mejorando, pero creemos que lo hemos conseguido. Tendremos un seminario sobre gamma y dinámicas de mercado, del que podrán disfrutar todos los participantes del curso en directo. Y como siempre tendrán acceso los alumnos de ediciones anteriores. Seguimos creciendo y podemos hacerlo juntos, si quieres empezar o mejorar con las opciones financieras, esto es para ti. https://formacion.devilinvestors.com/opciones-venta",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSbgRGmWUAAduMR.jpg"
+    ],
+    "analyzed_at": "2026-09-20T01:53:49.742844+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal opsiyonlar üzerine bir kursun tanıtımını yapmaktadır ve belirli bir finansal varlık veya piyasa hareketi hakkında bilgi içermemektedir.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100842332891353575",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible tambien en Spotify: https://open.spotify.com/episode/6EkT5rYKjAn1SgxybLfVVz?si=TH05nlZSTNWQkzi28nJzjA&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T01:59:13.671387+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, Spotify'da bir içeriğin mevcut olduğunu belirten bir yanıttır. Finansal varlıklar veya piyasa ile ilgili herhangi bir bilgi içermemektedir.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100947955796660637",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: El miércoles que viene, entrevista especial 🎙️ @JuanJesusMontoy viene a nuestro canal. Hablaremos de su vida como inversor, de opciones financieras y de dinámica de flujos de mercado como experto en la materia. Directo presencial, cara a cara. Miércoles 23, 20:00h. No os lo perdáis 👇",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSew0_8XUAAwp-C.jpg"
+    ],
+    "analyzed_at": "2026-09-20T02:02:11.283087+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, finansal opsiyonlar ve piyasa akış dinamikleri üzerine bir röportajı duyurmaktadır. Herhangi bir spesifik finansal varlığa doğrudan veya dolaylı atıfta bulunulmamıştır.",
+    "confidence": 1.0
+  },
+  {
+    "tweet_id": "2100919573134393752",
+    "username": "JuanJesusMontoy",
+    "text": "Muy contento y agradecido por esta invitación de mis amigos y paisanos. Todo un orgullo compartir este momento con ellos!",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/media%2FHSbgRGmWUAAduMR.jpg"
+    ],
+    "analyzed_at": "2026-09-20T02:02:43.878689+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, kişisel bir davet için duyulan memnuniyeti ifade etmektedir. Görselde 'Finansal Opsiyonlar Uzmanı' yazsa da, belirli bir finansal varlığa işaret eden bir bilgi bulunmamaktadır.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101262710268657843",
+    "username": "JuanJesusMontoy",
+    "text": "RT @carpatos: Las 4 claves de la semana en video FED sube tipos ¿Y ahora qué? https://youtu.be/UcJaUAvsEzY",
+    "images": [
+      "http://nitter.jaydenha.uk/pic/card_img%2F2101262596544286720%2FVze4qJjM%3Fformat%3Djpg%26name%3D800x320_1"
+    ],
+    "analyzed_at": "2026-09-20T02:06:03.112418+00:00",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dollar Index",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artırımı dolar endeksi üzerinde doğrudan etki yaratır, tweet sonrası piyasa tepkisi belirsiz.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artırımı tahvil getirilerini doğrudan etkiler, tweet sonrası piyasa tepkisi belirsiz.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Gold",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artırımı altın fiyatları üzerinde dolaylı etki yaratır, tweet sonrası piyasa tepkisi belirsiz.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artırımı hisse senedi piyasalarını etkiler, tweet sonrası piyasa tepkisi belirsiz.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "NÖTR",
+        "gerekce": "FED faiz artırımı teknoloji ağırlıklı endeksleri etkiler, tweet sonrası piyasa tepkisi belirsiz.",
+        "skor": 0.8
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, FED'in faiz artırımının ardından piyasaların nasıl etkileneceğine dair bir analiz sorusu yöneltiyor. Bu durum, dolar, tahvil, altın ve hisse senedi endeksleri üzerinde belirsizlik yaratıyor.",
+    "confidence": 0.9
+  },
+  {
+    "tweet_id": "2101217215601106994",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/1iTxHgjXSJX98j9m0z485u?si=7-uw5LwkSXamjLI6-rrlXg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-09-20T02:06:44.254435+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, Spotify'da bir bölümün mevcut olduğunu belirtiyor ve finansal piyasalarla ilgili herhangi bir varlık veya yön içermiyor.",
+    "confidence": 1.0
+  }
+]
