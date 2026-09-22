@@ -7,7 +7,11 @@ State hesabı skor bazlı.
 
 import os
 import json
+import re
+import smtplib
 import requests
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -230,6 +234,46 @@ def send_telegram(text):
         return False
 
 
+def send_email(subject, html_body):
+    """SMTP ile mail gonder."""
+    smtp_host = os.environ.get("EMAIL_SMTP_HOST", "smtp.gmail.com")
+    smtp_port = int(os.environ.get("EMAIL_SMTP_PORT", "587"))
+    user = os.environ.get("EMAIL_USER", "")
+    password = os.environ.get("EMAIL_PASS", "")
+    to = os.environ.get("EMAIL_TO", "")
+    enabled = os.environ.get("EMAIL_ENABLED", "true").lower()
+
+    if enabled != "true":
+        print("[SKIP] EMAIL_ENABLED != true")
+        return False
+
+    if not all([user, password, to]):
+        print("[FATAL] EMAIL_USER/PASS/TO eksik")
+        return False
+
+    # HTML'i temizle - basit text
+    plain = re.sub(r"<[^>]+>", "", html_body)
+    plain = plain.replace("&nbsp;", " ").replace("&amp;", "&")
+
+    msg = MIMEMultipart("alternative")
+    msg["From"] = user
+    msg["To"] = to
+    msg["Subject"] = subject
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
+    msg.attach(MIMEText(plain, "plain", "utf-8"))
+
+    try:
+        with smtplib.SMTP(smtp_host, smtp_port, timeout=30) as s:
+            s.starttls()
+            s.login(user, password)
+            s.send_message(msg)
+        print("[OK] Email gonderildi")
+        return True
+    except Exception as e:
+        print(f"[ERR] Email: {e}")
+        return False
+
+
 def main():
     print("=" * 60)
     print("Telegram Rapor (v3)")
@@ -246,6 +290,10 @@ def main():
     print("--- Gönderiliyor ---")
 
     send_telegram(msg)
+
+    # Mail gonder
+    subject = f"CTA ERHAN RAPORU - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
+    send_email(subject, msg)
 
 
 if __name__ == "__main__":
