@@ -36,13 +36,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY: Pivotal Test at 158.00–158.50",
-    "title_tr": "",
+    "title_tr": "USDJPY: 158.00–158.50 Seviyesinde Kritik Bir Test",
     "content_en": "USDJPY: Pivotal Test at 158.00–158.50USDJPY: Pivotal Test at 158.00–158.50TO REVIEW THE TECHNICAL CHARTS, CLICK HERE! *USDJPY is facing a key Decision Point (DP) at the 158.00–158.50 resistance zone. The structural volume profile and multi-timeframe channels presen...",
-    "content_tr": "",
+    "content_tr": "USDJPY: 158.00–158.50 Seviyesinde Kritik Bir Test. TEKNİK GRAFİKLERİ İNCELEMEK İÇİN BURAYA TIKLAYIN! *USDJPY, 158.00–158.50 direnç bölgesinde önemli bir Karar Noktası (DP) ile karşı karşıya. Yapısal hacim profili ve çoklu zaman dilimi kanalları sun...",
     "url": "https://www.tickmill.com/blog/usdjpy-pivotal-test-at-15800-15850",
     "published_at": "Mon, 21 Sep 2026 12:29:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383025+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDJPY, önemli bir direnç bölgesinde kritik bir testle karşı karşıya. Bu seviyenin geçilmesi yukarı yönlü hareketi destekleyebilirken, başarısızlık düşüş baskısı yaratabilir. Piyasa, bu kilit seviyenin nasıl tepki vereceğini yakından izleyecektir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "NÖTR",
+        "gerekce": "158.00–158.50 direnç bölgesinde kritik bir testle karşı karşıya, sonucun belirsizliği nedeniyle yön nötr.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-09-23T17:16:06.028540+00:00"
   },
   {
     "id": "daily-market-outlook-september-21-2026",
