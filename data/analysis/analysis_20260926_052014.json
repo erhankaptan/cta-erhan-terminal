@@ -1,0 +1,65 @@
+[
+  {
+    "tweet_id": "2102778675435360351",
+    "username": "misterpuertas",
+    "text": "RT by @misterpuertas: BQuant empezó como empresa de formación a retail en quant y trading algorítmico aprovechando nuestra posición como profesores en escuelas de negocio y creando contenido que incluso tuvo una mención en el Financial Times en su día. Hoy, BQuant es una empresa de finanzas multi-agente: consultoría, análisis automatizado y un laboratorio donde investigo qué aporta de verdad la IA a la inversión y al sector wealth (24 de marzo, 13k ARR, solopreneur) Agradezco enormemente a los más de 150 suscriptores de pago que habéis apoyado (o seguís haciéndolo) con la financiación. Sin inversores ni rondas: cada dato cargado, cada función y cada agente se ha pagado con vuestras suscripciones. Esta infraestructura es, en buena parte, vuestra. Después de casi 2 semanas auditando cada producto os confirmo que tengo algo sólido y que ya he empezado a moverlo con ayuda de distinta gente. La persiana está a punto de subir.",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2102778064761421824/img/z9orFKmixLWuqly-.jpg"
+    ],
+    "analyzed_at": "2026-09-26T05:15:16.197686+00:00",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "NÖTR",
+        "gerekce": "Tweet'teki 'quant y trading algorítmico' ve 'inversión' ifadeleri, algoritmik ve nicel stratejilerin sıkça uygulandığı S&P 500 vadeli işlemlerini ima eder.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Spot Gold",
+        "yon": "NÖTR",
+        "gerekce": "'Inversión' ve 'sector wealth' ifadeleri, servet yönetimi ve portföy çeşitlendirme bağlamında altın gibi değerli metallerin yatırım varlığı olarak kullanıldığını düşündürür.",
+        "skor": 0.6
+      }
+    ],
+    "genel_yon": "NÖTR",
+    "ozet": "Tweet, BQuant adlı finans şirketinin nicel ve algoritmik ticaret ile yatırım ve servet yönetimi alanındaki büyümesini ve yeni bir aşamaya geçişini olumlu bir dille anlatıyor.",
+    "confidence": 0.7
+  },
+  {
+    "tweet_id": "2103174671193506064",
+    "username": "misterpuertas",
+    "text": "Ayer se registró la peor sesión para los bonos del Tesoro a 10 años desde el Día de la Liberación, y el rendimiento de los bonos a 5 años superó el 5% por primera vez desde 2007. El rendimiento a 10 años ha subido aproximadamente 97 puntos básicos este año, pero los puntos de equilibrio representan solo unos 10 puntos básicos de ese aumento. Casi toda la revalorización se observa en los rendimientos reales, que ahora se encuentran en niveles no vistos desde 2008. Los puntos de equilibrio apenas se han movido en los últimos tres años, mientras que la prima por plazo se ha mantenido dentro de un rango limitado. Esto se asemeja mucho más a una revalorización de los tipos de interés oficiales y del tipo neutral que a una alarma inflacionaria o fiscal. Como pregunta Reid de DB: ¿Dónde estaría el bono a 10 años si los bonos comenzaran a reflejar realmente un problema de inflación?",
+    "images": [
+      "https://pbs.twimg.com/media/HS_6NlDWQAA8UH2.jpg"
+    ],
+    "analyzed_at": "2026-09-26T05:18:27.833548+00:00",
+    "varliklar": [
+      {
+        "sembol": "US10Y",
+        "isim": "US 10-Year Treasury Yield",
+        "yon": "YUKARI",
+        "gerekce": "10 yıllık tahvil getirileri bu yıl 97 baz puan yükseldi ve reel getiriler 2008'den beri en yüksek seviyelerde.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "DXY",
+        "isim": "US Dollar Index",
+        "yon": "YUKARI",
+        "gerekce": "Faiz oranlarının ve nötr faiz oranının yeniden fiyatlanması, ABD Dolarını destekler.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "GC",
+        "isim": "Gold Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Getiri artışı enflasyon endişesinden değil, reel getirilerden kaynaklanıyor; bu durum altın için olumsuz.",
+        "skor": 0.7
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "ABD 10 yıllık tahvil getirileri, enflasyon endişelerinden ziyade reel getiriler ve faiz oranlarının yeniden fiyatlanması nedeniyle önemli ölçüde yükseldi.",
+    "confidence": 0.9
+  }
+]
