@@ -31,3 +31,17 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+# Yedek dosyalar
+*.bak
+*.bak_*
+*.bak_ONCEKI
+*.bak_TAM_KOD
+*.20260927_YEDEK
+*.20260927_cot_oncesi.bak
+
+# Test dosyaları
+test_*.py
+
+# Python cache
+__pycache__/
+*.pyc

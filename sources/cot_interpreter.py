@@ -1,196 +1,144 @@
 # sources/cot_interpreter.py
-"""
-CFTC COT verisini yorumlar ve UI'ye hazır istihbarat kartı üretir.
-
-- Ana panel için: `summary` (5-6 satır, net, karar verilebilir)
-- Detay expander için: `details` (ham veriler, gürültü)
-
-Terminoloji:
-- TFF raporu: "Leveraged Funds" = CTA proxy (CTA ağırlıklı ama CTA'ların tamamı değil)
-- Disaggregated raporu: "Managed Money" = CTA proxy
-"""
+"""COT yorumlama motoru (5 kategori -> yon, momentum, konsensus, non-reportable)."""
 from __future__ import annotations
+from typing import Any, Dict, Optional
 
-from typing import Any, Dict
+PRIMARY_BY_TYPE = {
+    "TFF": "LEVERAGED_FUNDS",
+    "DIS": "MANAGED_MONEY",
+}
 
-
-def _fmt(value: int) -> str:
-    """Sayıyı Türkçe formatla: 134972 → '134.972'"""
-    return f"{value:,}".replace(",", ".")
-
-
-def _fmt_signed(value: int) -> str:
-    """İşaretli sayı: +134972 → '+134.972', -1799 → '-1.799'"""
-    sign = "+" if value >= 0 else "-"
-    return f"{sign}{abs(value):,}".replace(",", ".")
-
-
-def _direction_label(value: int) -> str:
-    if value > 0:
-        return "NET LONG"
-    if value < 0:
-        return "NET SHORT"
-    return "NÖTR"
-
-
-def _momentum_label(change_net: int, cta_net: int) -> str:
-    """Haftalık değişimin pozisyona göre yorumu."""
-    if change_net == 0:
-        return "SABİT"
-    # Aynı yönde güçlenme
-    if (change_net > 0 and cta_net > 0) or (change_net < 0 and cta_net < 0):
-        return "GÜÇLENİYOR"
-    # Pozisyon korunuyor ama momentum zayıflıyor
-    if (change_net > 0 and cta_net < 0) or (change_net < 0 and cta_net > 0):
-        return "ZAYIFLIYOR"
-    return "SABİT"
+TFF_CATEGORIES = [
+    "DEALER_INTERMEDIARY",
+    "ASSET_MANAGER",
+    "LEVERAGED_FUNDS",
+    "OTHER_REPORTABLES",
+    "NON_REPORTABLE",
+]
+DIS_CATEGORIES = [
+    "PRODUCER_MERCHANT",
+    "SWAP_DEALER",
+    "MANAGED_MONEY",
+    "OTHER_REPORTABLE",
+    "NON_REPORTABLE",
+]
 
 
-def _consensus_label(cta_net: int, dealer_net: int, inst_net: int) -> str:
-    """3 kategori aynı yönde mi?"""
-    dirs = []
-    for v in (cta_net, dealer_net, inst_net):
-        if v > 0:
-            dirs.append("LONG")
-        elif v < 0:
-            dirs.append("SHORT")
-        else:
-            dirs.append("FLAT")
-    unique = set(dirs)
-    if len(unique) == 1:
-        return "UYUMLU"
-    if len(unique) == 2:
-        return "KARIŞIK"
-    return "ÇELİŞKİLİ"
+def _net(cat: Optional[Dict[str, Any]]) -> int:
+    if not cat:
+        return 0
+    net = cat.get("net")
+    if net is not None:
+        try:
+            return int(net)
+        except (TypeError, ValueError):
+            pass
+    long_v = cat.get("long") or 0
+    short_v = cat.get("short") or 0
+    try:
+        return int(long_v) - int(short_v)
+    except (TypeError, ValueError):
+        return 0
 
 
-def _squeeze_risk(cta_net: int, open_interest: int) -> str:
-    """
-    Aşırı pozisyonlanma / squeeze riski.
-    OI'ye göre normalize edilir.
-    """
-    if open_interest <= 0:
-        return "HESAPLANAMADI"
-    ratio = cta_net / open_interest  # -1.0 ile +1.0 arası tipik
-    pct = abs(ratio) * 100
+def interpret(
+    categories: Dict[str, Dict[str, Any]],
+    *,
+    report_type: str = "TFF",
+    prev_categories: Optional[Dict[str, Dict[str, Any]]] = None,
+) -> Dict[str, Any]:
+    primary_cat = PRIMARY_BY_TYPE.get(report_type.upper(), "LEVERAGED_FUNDS")
+    primary_net = _net(categories.get(primary_cat))
 
-    if ratio < -0.15:
-        return f"YÜKSEK (aşırı short — short squeeze potansiyeli, OI'nin %{pct:.1f}'i)"
-    if ratio > 0.15:
-        return f"YÜKSEK (aşırı long — kâr satışı riski, OI'nin %{pct:.1f}'i)"
-    if pct > 0.08:
-        return f"ORTA (OI'nin %{pct:.1f}'i)"
-    return f"DÜŞÜK (OI'nin %{pct:.1f}'i)"
-
-
-def interpret_cot(metadata: Dict[str, Any], product_code: str) -> Dict[str, Any]:
-    """
-    CFTC COT metadata'sını UI'ye hazır iki katmana ayırır:
-    - summary: ana panel (5-6 satır, net)
-    - details: detay expander (gürültü, ham veriler)
-
-    Fail-Closed: Eksik veri varsa summary'de "YETERSİZ" gösterilir.
-    """
-    # --- Fail-Closed: eksik alan kontrolü ---
-    required = ["report_date", "market", "open_interest", "cta_proxy", "dealer", "institutional"]
-    missing = [k for k in required if k not in metadata]
-    if missing:
-        return {
-            "available": False,
-            "summary": {
-                "title": "COT Analizi",
-                "line1": "Veri eksik",
-                "line2": f"Eksik alanlar: {', '.join(missing)}",
-                "interpretation": "YETERSİZ",
-            },
-            "details": {},
-        }
-
-    # --- Veri çıkar ---
-    report_date = metadata["report_date"]
-    report_week = metadata.get("report_week", "")
-    market = metadata["market"]
-    oi = metadata["open_interest"]
-
-    cta = metadata["cta_proxy"]
-    dealer = metadata["dealer"]
-    inst = metadata["institutional"]
-
-    cta_long = cta.get("long", 0)
-    cta_short = cta.get("short", 0)
-    cta_net = cta.get("net", 0)
-    cta_change_long = cta.get("change_long", 0)
-    cta_change_short = cta.get("change_short", 0)
-    cta_change_net = cta.get("change_net", 0)
-
-    dealer_net = dealer.get("net", 0)
-    inst_net = inst.get("net", 0)
-
-    # --- Yorum hesapla ---
-    cta_dir_label = _direction_label(cta_net)
-    momentum = _momentum_label(cta_change_net, cta_net)
-    consensus = _consensus_label(cta_net, dealer_net, inst_net)
-    squeeze = _squeeze_risk(cta_net, oi)
-
-    # --- Ana panel özet cümleler ---
-    cta_label = "Leveraged Funds (CTA Proxy)"
-    inst_label = "Asset Manager (Kurumsal)"
-    dealer_label = "Dealer (Sell-side)"
-
-    line1 = f"{cta_label}: {cta_dir_label} {_fmt_signed(cta_net)}"
-    line2 = f"Haftalık değişim: {_fmt_signed(cta_change_net)} ({momentum})"
-
-    # Yorum cümlesi
-    if consensus == "UYUMLU":
-        yorum = "Kategoriler aynı yönde — uyumlu sinyal"
-    elif consensus == "KARIŞIK":
-        yorum = "Kategoriler farklı yönde — karışık sinyal"
+    if primary_net > 0:
+        cot_yon = "YUKSELIS"
+    elif primary_net < 0:
+        cot_yon = "DUSUS"
     else:
-        yorum = "Kategoriler çelişiyor — belirsiz sinyal"
+        cot_yon = "NOTR"
 
-    # --- Details (gürültü) ---
-    details = {
-        "report_date": report_date,
-        "report_week": report_week,
-        "market": market,
-        "open_interest": oi,
-        "cta_proxy": {
-            "label": cta_label,
-            "long": cta_long,
-            "short": cta_short,
-            "net": cta_net,
-            "change_long": cta_change_long,
-            "change_short": cta_change_short,
-            "change_net": cta_change_net,
-            "direction": cta_dir_label,
-            "momentum": momentum,
-        },
-        "dealer": {
-            "label": dealer_label,
-            "long": dealer.get("long", 0),
-            "short": dealer.get("short", 0),
-            "net": dealer_net,
-        },
-        "institutional": {
-            "label": inst_label,
-            "long": inst.get("long", 0),
-            "short": inst.get("short", 0),
-            "net": inst_net,
-        },
-        "consensus": consensus,
-        "squeeze_risk": squeeze,
-    }
+    change_by_category: Dict[str, int] = {}
+    if prev_categories:
+        for cat_name in categories.keys():
+            new_net = _net(categories.get(cat_name))
+            old_net = _net(prev_categories.get(cat_name))
+            change_by_category[cat_name] = new_net - old_net
+
+    primary_change = change_by_category.get(primary_cat, 0)
+
+    if primary_net > 0 and primary_change > 0:
+        momentum = "GUCLENIYOR"
+    elif primary_net < 0 and primary_change < 0:
+        momentum = "GUCLENIYOR"
+    elif primary_change != 0:
+        momentum = "ZAYIFLIYOR"
+    else:
+        momentum = "SABIT"
+
+    if report_type.upper() == "TFF":
+        trio = ["DEALER_INTERMEDIARY", "ASSET_MANAGER", "LEVERAGED_FUNDS"]
+    else:
+        trio = ["PRODUCER_MERCHANT", "SWAP_DEALER", "MANAGED_MONEY"]
+
+    directions = []
+    for c in trio:
+        n = _net(categories.get(c))
+        if n > 0:
+            directions.append("L")
+        elif n < 0:
+            directions.append("S")
+        else:
+            directions.append("F")
+
+    if len(set(directions)) == 1:
+        consensus = "UYUMLU"
+    elif len(set(directions)) == 2:
+        consensus = "KARISIK"
+    else:
+        consensus = "CELISKILI"
+
+    nr_net = _net(categories.get("NON_REPORTABLE"))
+    nr_change = change_by_category.get("NON_REPORTABLE", 0)
+
+    if abs(nr_net) < 1000 and nr_change == 0:
+        non_reportable = "YOK"
+    elif nr_net > 0 and nr_change > 0:
+        non_reportable = "TERS_INDIKATOR_UYARI_ASIRI_IYIMSER"
+    elif nr_net < 0 and nr_change < 0:
+        non_reportable = "TERS_INDIKATOR_UYARI_ASIRI_KOTUMSER"
+    elif nr_net > 0:
+        non_reportable = "TERS_INDIKATOR_UYARI_POZITIF"
+    elif nr_net < 0:
+        non_reportable = "TERS_INDIKATOR_UYARI_NEGATIF"
+    else:
+        non_reportable = "NOTR"
+
+    if primary_net > 0 and momentum == "GUCLENIYOR":
+        primary_signal = "BULLISH"
+    elif primary_net < 0 and momentum == "GUCLENIYOR":
+        primary_signal = "BEARISH"
+    elif primary_net > 0:
+        primary_signal = "WEAK_BULLISH"
+    elif primary_net < 0:
+        primary_signal = "WEAK_BEARISH"
+    else:
+        primary_signal = "NEUTRAL"
+
+    net_by_category = {c: _net(categories.get(c)) for c in categories.keys()}
 
     return {
-        "available": True,
-        "summary": {
-            "title": f"COT Analizi — {market[:45]}",
-            "date_line": f"Rapor: {report_date} | {report_week}",
-            "line1": line1,
-            "line2": line2,
-            "line3": f"{inst_label}: {_direction_label(inst_net)} {_fmt_signed(inst_net)}",
-            "interpretation": yorum,
-            "consensus": consensus,
-        },
-        "details": details,
+        "cot_yon": cot_yon,
+        "momentum": momentum,
+        "consensus": consensus,
+        "non_reportable": non_reportable,
+        "primary_signal": primary_signal,
+        "primary_category": primary_cat,
+        "net_by_category": net_by_category,
+        "change_by_category": change_by_category,
     }
+
+
+def all_category_names(report_type: str) -> list:
+    if report_type.upper() == "TFF":
+        return list(TFF_CATEGORIES)
+    return list(DIS_CATEGORIES)

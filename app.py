@@ -1,5 +1,5 @@
 """
-CTA ERHAN TERMİNALİ — app.py (v20 - GRUPLU İZLEME)
+CTA ERHAN TERMİNALİ — app.py (v21 - KARAR MOTORU + KOYU TEMA)
 """
 
 import streamlit as st
@@ -10,66 +10,17 @@ import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="CTA ERHAN Terminali",
-    page_icon="◉",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+# ---------- HARICI CSS YÜKLE ----------
+_css_path = Path(__file__).parent / "styles.css"
+if _css_path.exists():
+    with open(_css_path, "r", encoding="utf-8") as _f:
+        st.markdown(f"<style>{_f.read()}</style>", unsafe_allow_html=True)
+# ---------- GLOBAL CSS: KOYU TEMA (v3) ----------
 
-st.markdown(
-    """
-    <style>
-    header[data-testid="stHeader"] { display: none !important; height: 0 !important; }
-    .block-container {
-        padding-top: 0 !important; padding-bottom: 0 !important;
-        padding-left: 0.3rem !important; padding-right: 0.3rem !important;
-        margin-top: 0 !important; max-width: 100% !important;
-    }
-    html, body, [class*="css"] { font-size: 13px !important; }
-    h1 { font-size: 22px !important; margin: 0 !important; padding: 0 !important; line-height: 1.2 !important; }
-    h2 { font-size: 19px !important; margin: 0.1rem 0 !important; }
-    h3 { font-size: 18px !important; margin: 0.2rem 0 !important; font-weight: 800 !important; }
-    section[data-testid="stSidebar"] h1,
-    section[data-testid="stSidebar"] h2,
-    section[data-testid="stSidebar"] h3 { color: #00E5FF !important; }
-    div[data-testid="stMetric"] {
-        background-color: #0F2A5C !important;
-        border: 1px solid #1E4FA8 !important;
-        border-radius: 4px !important;
-        padding: 4px 8px !important;
-    }
-    div[data-testid="stMetric"] label {
-        font-size: 16px !important; font-weight: 700 !important; color: #B8D4FF !important;
-    }
-    div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
-        font-size: 20px !important; font-weight: 800 !important; color: #FFFFFF !important;
-    }
-    div[data-testid="stMetric"] * { color: #FFFFFF !important; }
-    .aktif-urun-kutu {
-        padding: 4px 10px; border: 1px solid #333;
-        border-radius: 4px; background: #0a0a0a; margin-bottom: 4px;
-    }
-    .aktif-urun-baslik { color: #FFFFFF; font-weight: 700; font-size: 13px; }
-    .aktif-urun-deger { color: #00E676; font-weight: 700; font-size: 16px; }
-    hr { margin: 0.3rem 0 !important; padding: 0 !important; }
-    section[data-testid="stSidebar"] * { font-size: 16px !important; }
-    section[data-testid="stSidebar"] label { font-size: 16px !important; font-weight: 700 !important; }
-    section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] { font-size: 16px !important; }
-    section[data-testid="stSidebar"] h1 { font-size: 24px !important; }
-    section[data-testid="stSidebar"] h2 { font-size: 22px !important; }
-    section[data-testid="stSidebar"] h3 { font-size: 18px !important; }
-    details { font-size: 15px !important; margin-bottom: 2px !important; }
-    details summary {
-        font-size: 15px !important; font-weight: 700 !important;
-        color: #00E5FF !important; padding: 4px 4px !important;
-    }
-    details p, details span, details li, details div {
-        font-size: 14px !important; line-height: 1.4 !important;
-    }
-    details p { margin: 0.2rem 0 !important; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 # ============================================================
 # YOLLAR
@@ -142,10 +93,12 @@ def load_cot_for_product(product):
 # ÜRÜN KATEGORİLERİ
 # ============================================================
 product_categories = {
-    "Borsalar": ["ES", "MES", "NQ", "MNQ", "RTY", "YM"],
-    "Emtialar": ["CL", "MCL", "NG", "GC", "MGC", "SI", "HG", "PL"],
-    "Tahıllar": ["ZC", "ZS", "ZW", "ZL", "ZM"],
-    "Dövizler": ["6E", "6J", "6B", "6A", "6C", "6S"],
+    "Endeksler":  ["ES", "NQ", "YM", "RTY", "NK", "MSCI_EM", "MSCI_EAFE"],
+    "Faizler":    ["ZT", "ZF", "ZN", "ZB", "UB", "UWB", "SR1", "SR3", "ZQ"],
+    "Dövizler":   ["DXY", "6E", "6J", "6B", "6A", "6C", "6N", "6S"],
+    "Enerji":     ["CL", "NG", "HO", "RB", "BZ"],
+    "Metaller":   ["GC", "SI", "HG", "PL", "PA"],
+    "Tahıllar":   ["ZC", "ZS", "ZL", "ZM", "ZW", "KE"],
 }
 
 product_names = {
@@ -157,13 +110,31 @@ product_names = {
     "6E": "Euro FX", "6J": "Japon Yeni", "6B": "İngiliz Sterlini",
     "6A": "Avustralya Doları", "6C": "Kanada Doları", "6S": "İsviçre Frangı",
     "ZC": "Mısır", "ZS": "Soya Fasulyesi", "ZW": "Buğday", "ZL": "Soya Yağı", "ZM": "Soya Küspesi",
+    "NK": "Nikkei 225",
+    "MSCI_EM": "MSCI Emerging Markets",
+    "MSCI_EAFE": "MSCI EAFE",
+    "ZT": "2Y Note", "ZF": "5Y Note", "ZN": "10Y Note", "ZB": "30Y Bond",
+    "UB": "Ultra Bond", "UWB": "Ultra 10Y", "SR1": "SOFR 1M", "SR3": "SOFR 3M",
+    "ZQ": "Fed Funds",
+    "6N": "Yeni Zelanda Doları",
+    "DXY": "US Dollar Index",
+    "HO": "Kalorifer Yakıtı", "RB": "Benzin RBOB", "BZ": "Brent Petrol",
+    "PA": "Paladyum",
+    "KE": "Buğday (HRW)",
 }
 
 TRACKED_CODES = set()
 for _cat_list in product_categories.values():
     TRACKED_CODES.update(_cat_list)
 
-# Egzotik semboller (izleme listesinde gösterme)
+TRACKED_CODES.update({"MES", "MNQ", "MCL", "MGC", "M2K", "MYM"})
+
+COT_ALIASES = {
+    "SPX500", "NAS100", "US10Y", "XAUUSD", "XAGUSD", "UKOIL",
+    "EURUSD", "GBPUSD", "USDJPY", "NZDUSD",
+    "MES", "MNQ", "MCL", "MGC", "M2K", "MYM",
+}
+
 EGZOTIK = {
     "TZT1", "QS1", "XB1", "HO1", "LA1", "LN1", "MXCN",
     "CSI1000", "SH000905", "SHSN300", "XIN9I", "HSBIO",
@@ -288,31 +259,20 @@ def offlist_products():
 
 
 def categorize_offlist(code):
-    """İzleme dışı varlığı gruba ayır."""
     c = code.upper().strip()
-
-    # ABD ENDEKSLERİ
     abd_endeks = {"SPX500", "NAS100", "DXY", "VIX", "US10Y", "GER40", "UK100", "JP225"}
     if c in abd_endeks:
         return "ABD_ENDEKS"
-
-    # ABD ETF'LERİ
     abd_etf = {"TLT", "SPY", "QQQ", "KWEB", "FXI", "EWJ", "EWT", "EWY", "KSTR", "HSI", "HSTECH", "HSCEI"}
     if c in abd_etf:
         return "ABD_ETF"
-
-    # EMTİA / KRİPTO / FOREX
     emtia = {"XAUUSD", "XAGUSD", "UKOIL", "USOUSD", "BTCUSD", "SOL",
              "EURUSD", "GBPUSD", "NZDUSD", "USDJPY", "USDCAD", "USDCHF", "AUDUSD"}
     if c in emtia:
         return "EMTIA"
-
-    # ABD HİSSELERİ
     us_stocks = {"AAPL", "AMD", "AMZN", "AVGO", "GOOGL", "META", "MSFT", "NVDA", "TSLA", "BABA"}
     if c in us_stocks:
         return "ABD_HISSE"
-
-    # ASYA / HK (default)
     return "ASYA"
 
 
@@ -528,73 +488,179 @@ with tab_pano:
 
             components.html(rss_html, height=700, scrolling=True)
 
-    # ---------- SAĞ: COT + İZLEME LİSTESİ ----------
+    # ---------- SAĞ: KARAR MOTORU + COT RAPORU ----------
     with col_right:
+        st.markdown(f"### 🎯 KARAR MOTORU: {selected_product}")
+
+        try:
+            from core.signal_engine import calculate_signal, MAJOR_PRODUCTS
+            _sig = calculate_signal(selected_product)
+            _conf = _sig.get("confidence", 0)
+            _signal = _sig.get("signal", "BEKLE")
+            _skor = _sig.get("final_score", 0)
+            _cot_s = _sig.get("cot_score", 0)
+            _radar_s = _sig.get("radar_score", 0)
+            _tm_s = _sig.get("tickmill_score", 0)
+            _is_conflict = _sig.get("is_conflict", False)
+            _conflict_src = _sig.get("conflict_sources", [])
+            _signal_type = _sig.get("signal_type", "mixed")
+            _validity = _sig.get("validity_reason", "mixed")
+            _created = _sig.get("created_at", "")
+            _expires = _sig.get("expires_at", "")
+
+            if "GÜÇLÜ AL" in _signal or _signal == "AL":
+                _color = "#00E676"
+            elif "GÜÇLÜ SAT" in _signal or _signal == "SAT":
+                _color = "#FF3B3B"
+            else:
+                _color = "#999"
+
+            st.markdown(f"""
+            <div style="background:#0a0a0a;border:2px solid {_color};border-radius:6px;padding:12px;margin-bottom:8px;">
+                <div style="font-size:24px;font-weight:900;color:{_color};margin-bottom:8px;">
+                    {_signal}  <span style="font-size:16px;color:#FFF;">|</span>  <span style="font-size:16px;color:#00E5FF;">Güven %{_conf:.1f}</span>
+                </div>
+                <div style="font-size:11px;color:#AAA;">
+                    {_created[:19].replace('T', ' ')} UTC | {_signal_type} sinyal | Validity: {_validity}
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            col_s1, col_s2, col_s3 = st.columns(3)
+            with col_s1:
+                st.metric("COT", f"{_cot_s:+.3f}")
+            with col_s2:
+                st.metric("Radar", f"{_radar_s:+.3f}")
+            with col_s3:
+                st.metric("Tickmill", f"{_tm_s:+.3f}")
+
+            if _is_conflict:
+                st.warning(f"⚠️ ÇELİŞKİLİ SİNYAL — {' + '.join(_conflict_src)} ters yönde")
+
+            st.caption(f"Skor: {_skor:+.4f} | Sinyal Tipi: {_signal_type}")
+
+            if selected_product not in MAJOR_PRODUCTS:
+                st.caption(f"ℹ️ Bu ürün Faz 2A kapsamı dışında. Sadece {', '.join(MAJOR_PRODUCTS)} için tam analiz var.")
+
+        except Exception as _e:
+            st.caption(f"⚠️ Karar motoru hatası: {_e}")
+
+        st.divider()
+
         st.markdown(f"### 📊 COT RAPORU: {selected_product}")
-        st.caption("CFTC COT — Vekil Veri")
+
+        try:
+            from sources.merkez_cot_loader import load_merkez_snapshot
+            load_merkez_snapshot()
+        except Exception as _e:
+            st.caption(f"⚠️ MERKEZ tazeleme uyarısı: {_e}")
 
         cot_records = load_cot_for_product(selected_product)
 
         if not cot_records:
             st.caption(f"{selected_product} için COT kaydı bulunamadı.")
         else:
-            for cot in cot_records[:3]:
-                title = cot.get("title", f"COT {selected_product}")
-                published = cot.get("published_at", "")
-                publisher = cot.get("publisher", "CFTC")
-                metadata = cot.get("metadata", {})
+            cot = next((c for c in cot_records if c.get("metadata", {}).get("categories")), cot_records[0])
+            metadata = cot.get("metadata", {}) if isinstance(cot.get("metadata"), dict) else {}
+            categories = metadata.get("categories", {})
+            interp = metadata.get("interpreter", {})
+            report_type = metadata.get("report_type", "TFF")
+            report_date = metadata.get("report_date", "")
+            oi = metadata.get("open_interest", 0)
 
-                st.markdown(f"**{title}**")
-                st.caption(f"📅 {published} | 📡 {publisher}")
+            st.caption(f"📅 {report_date} | CFTC {report_type} Raporu")
 
-                cta_proxy = metadata.get("cta_proxy", {}) if isinstance(metadata, dict) else {}
-                if cta_proxy:
-                    long_pos = cta_proxy.get("long", 0)
-                    short_pos = cta_proxy.get("short", 0)
-                    net = cta_proxy.get("net", 0)
-                    change = cta_proxy.get("change_net", 0)
+            yon = interp.get("cot_yon", "?")
+            momentum = interp.get("momentum", "?")
+            consensus = interp.get("consensus", "?")
+            non_rep = interp.get("non_reportable", "YOK")
 
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        st.metric("Long", f"{long_pos:,}")
-                    with col2:
-                        st.metric("Short", f"{short_pos:,}")
+            col_a, col_b, col_c = st.columns(3)
+            with col_a:
+                st.metric("Yön", yon)
+            with col_b:
+                st.metric("Momentum", momentum)
+            with col_c:
+                st.metric("Konsensüs", consensus)
 
-                    st.metric("Net", f"{net:+,}")
-                    st.metric("Değişim", f"{change:+,}")
+            if "TERS_INDIKATOR" in non_rep:
+                st.warning(f"⚠️ TERS İNDİKATÖR: {non_rep}")
+            elif non_rep == "NOTR":
+                st.info("ℹ️ Non-Reportable: Nötr")
+            elif non_rep == "YOK":
+                st.caption("ℹ️ Non-Reportable verisi yok.")
 
-                    total = long_pos + short_pos
-                    if total > 0:
-                        long_pct = (long_pos / total) * 100
-                        short_pct = (short_pos / total) * 100
-                    else:
-                        long_pct = short_pct = 0.0
+            st.markdown("##### Kategori Detayları")
+            if report_type == "TFF":
+                cat_order = ["DEALER_INTERMEDIARY", "ASSET_MANAGER", "LEVERAGED_FUNDS", "OTHER_REPORTABLES", "NON_REPORTABLE"]
+            else:
+                cat_order = ["PRODUCER_MERCHANT", "SWAP_DEALER", "MANAGED_MONEY", "OTHER_REPORTABLE", "NON_REPORTABLE"]
 
-                    bars_html = f'''
-                    <div style="background:#0a0a0a;border:1px solid #1E4FA8;border-radius:4px;padding:10px;margin:8px 0;">
-                        <div style="color:#00E5FF;font-size:15px;font-weight:800;margin-bottom:6px;">LONG</div>
-                        <div style="background:#1a1a1a;height:20px;border-radius:3px;overflow:hidden;border:1px solid #1E4FA8;">
-                            <div style="width:{long_pct:.2f}%;height:100%;background:#00E676;"></div>
-                        </div>
-                        <div style="color:#FFFFFF;font-weight:800;margin-top:4px;text-align:right;font-size:16px;">{long_pos:,} — %{long_pct:.0f}</div>
-                        <div style="color:#00E5FF;font-size:15px;font-weight:800;margin-top:10px;margin-bottom:6px;">SHORT</div>
-                        <div style="background:#1a1a1a;height:20px;border-radius:3px;overflow:hidden;border:1px solid #1E4FA8;">
-                            <div style="width:{short_pct:.2f}%;height:100%;background:#FF3B3B;"></div>
-                        </div>
-                        <div style="color:#FFFFFF;font-weight:800;margin-top:4px;text-align:right;font-size:16px;">{short_pos:,} — %{short_pct:.0f}</div>
-                    </div>
-                    '''
-                    components.html(bars_html, height=200, scrolling=False)
+            cat_labels = {
+                "DEALER_INTERMEDIARY": "🏦 Dealer/Interm.",
+                "ASSET_MANAGER": "💼 Asset Manager",
+                "LEVERAGED_FUNDS": "🎯 Leveraged Funds",
+                "OTHER_REPORTABLES": "👥 Other Reportables",
+                "PRODUCER_MERCHANT": "🌾 Producer/Merchant",
+                "SWAP_DEALER": "🔄 Swap Dealer",
+                "MANAGED_MONEY": "💰 Managed Money",
+                "OTHER_REPORTABLE": "👥 Other Reportable",
+                "NON_REPORTABLE": "⚠️ Non-Reportable",
+            }
 
-                st.caption("⚠️ COT doğrudan CTA pozisyonu değildir.")
+            rows_html = []
+            for cat in cat_order:
+                c = categories.get(cat) or {}
+                long_v = c.get("long", 0) or 0
+                short_v = c.get("short", 0) or 0
+                net_v = c.get("net")
+                if net_v is None:
+                    net_v = long_v - short_v
+                net_color = "#00E676" if net_v > 0 else ("#FF3B3B" if net_v < 0 else "#999")
+                rows_html.append(
+                    f'<tr>'
+                    f'<td style="padding:4px 4px;color:#DDD;font-size:11px;">{cat_labels.get(cat, cat)}</td>'
+                    f'<td style="padding:4px 4px;text-align:right;color:#00E676;font-size:11px;">{long_v:,}</td>'
+                    f'<td style="padding:4px 4px;text-align:right;color:#FF3B3B;font-size:11px;">{short_v:,}</td>'
+                    f'<td style="padding:4px 4px;text-align:right;color:{net_color};font-weight:700;font-size:11px;">{net_v:+,}</td>'
+                    f'</tr>'
+                )
+
+            table_html = f'''
+            <div style="background:#0a0a0a;border:1px solid #1E4FA8;border-radius:4px;padding:6px;margin:8px 0;overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;font-size:11px;table-layout:fixed;">
+                <colgroup>
+                  <col style="width:38%;">
+                  <col style="width:20%;">
+                  <col style="width:20%;">
+                  <col style="width:22%;">
+                </colgroup>
+                <thead>
+                  <tr style="background:#111;color:#00E5FF;">
+                    <th style="padding:4px 4px;text-align:left;font-size:11px;">Kategori</th>
+                    <th style="padding:4px 4px;text-align:right;font-size:11px;">Long</th>
+                    <th style="padding:4px 4px;text-align:right;font-size:11px;">Short</th>
+                    <th style="padding:4px 4px;text-align:right;font-size:11px;">Net</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {''.join(rows_html)}
+                </tbody>
+              </table>
+            </div>
+            '''
+            components.html(table_html, height=260, scrolling=False)
+
+            st.metric("Açık Pozisyon (OI)", f"{oi:,}" if isinstance(oi, (int, float)) else str(oi))
+            st.caption("⚠️ COT doğrudan CTA pozisyonu değildir. Non-Reportable ters indikatör olarak değerlendirilir.")
 
         st.divider()
         with st.expander("📋 İZLEME LİSTESİNDE OLMAYAN ÜRÜNLER", expanded=False):
             offlist = offlist_products()
-            offlist = {k: v for k, v in offlist.items() if k.upper() not in EGZOTIK}
+            offlist = {k: v for k, v in offlist.items() if k.upper() not in EGZOTIK and k.upper() not in COT_ALIASES}
 
             if not offlist:
-                st.caption("Şu an 25 ürün dışında konuşulan bir varlık yok.")
+                st.caption(f"Şu an {len(TRACKED_CODES)} ürün dışında konuşulan bir varlık yok.")
             else:
                 groups = {"ABD_ENDEKS": [], "ABD_ETF": [], "EMTIA": [], "ABD_HISSE": [], "ASYA": []}
                 for sembol, data in sorted(offlist.items()):

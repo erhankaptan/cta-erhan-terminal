@@ -1,0 +1,142 @@
+/* ========================================
+   CTA ERHAN — KOYU TEMA
+   ======================================== */
+
+html, body, #root, .stApp,
+.stApp > div, .stApp > div > div,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"],
+.main, .main > div,
+section.main, section.main > div {
+    background-color: #121212 !important;
+}
+
+.main .block-container,
+[data-testid="stMainBlockContainer"] {
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    max-width: 100% !important;
+}
+
+[data-testid="stHeader"] {
+    background-color: #121212 !important;
+    height: 2.5rem !important;
+}
+
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] > div:first-child {
+    background-color: #0a0a0a !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #E0E0E0 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] > div,
+[data-testid="stSidebar"] [data-baseweb="select"] input {
+    background-color: #1a1a1a !important;
+    color: #FFFFFF !important;
+    border-color: #1E4FA8 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] span {
+    color: #FFFFFF !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: #1E4FA8 !important;
+    background-color: #1E4FA8 !important;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] .stMarkdown strong {
+    color: #00E5FF !important;
+    background-color: transparent !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    background-color: transparent !important;
+}
+
+[data-testid="stSidebar"] .stAlert {
+    background-color: #0a2a0a !important;
+    border: 1px solid #00E676 !important;
+}
+
+[data-testid="stSidebar"] .stAlert * {
+    color: #00E676 !important;
+}
+
+[data-testid="stMetric"] {
+    background-color: #1a1a1a !important;
+    border: 1px solid #1E4FA8 !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #00E5FF !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+    font-weight: 900 !important;
+}
+
+.stAlert {
+    background-color: #1a1a1a !important;
+    border: 1px solid #1E4FA8 !important;
+}
+
+[data-testid="stExpander"] {
+    background-color: #1a1a1a !important;
+    border: 1px solid #1E4FA8 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, span {
+    color: #E0E0E0;
+}
+
+hr {
+    border-color: #1E4FA8 !important;
+}
+/* Sidebar selectbox - TÜM beyaz alanları koyu yap */
+[data-testid="stSidebar"] .stSelectbox div,
+[data-testid="stSidebar"] .stSelectbox div div,
+[data-testid="stSidebar"] .stSelectbox div div div,
+[data-testid="stSidebar"] [data-baseweb="select"],
+[data-testid="stSidebar"] [data-baseweb="select"] > div,
+[data-testid="stSidebar"] [data-baseweb="select"] > div > div,
+[data-testid="stSidebar"] [data-baseweb="select"] input,
+[data-testid="stSidebar"] [data-baseweb="select"] span,
+[data-testid="stSidebar"] [data-baseweb="popover"],
+[data-testid="stSidebar"] [role="combobox"],
+[data-testid="stSidebar"] [role="listbox"] {
+    background-color: #1a1a1a !important;
+    color: #FFFFFF !important;
+    border-color: #1E4FA8 !important;
+}
+
+/* Sidebar selectbox içindeki tüm yazılar */
+[data-testid="stSidebar"] .stSelectbox *,
+[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+}
+
+/* Sidebar selectbox görünür input */
+[data-testid="stSidebar"] [data-baseweb="select"] > div:first-child {
+    background-color: #1a1a1a !important;
+    border: 1px solid #1E4FA8 !important;
+}
+
+/* Sidebar label */
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] .stSelectbox > label {
+    color: #00E5FF !important;
+    background-color: transparent !important;
+}

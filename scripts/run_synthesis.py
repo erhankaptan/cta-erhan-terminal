@@ -25,7 +25,7 @@ from core.synthesis_engine import synthesize_all, SynthesisResult
 
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 DATA_DIR = PROJECT_ROOT / "data"
-EVIDENCE_DB = DATA_DIR / "evidence_pool.db"
+EVIDENCE_DB = DATA_DIR / "evidence.db"
 SNAPSHOTS_DIR = DATA_DIR / "snapshots"
 
 
