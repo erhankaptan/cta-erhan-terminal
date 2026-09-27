@@ -1,5 +1,5 @@
 """
-CTA ERHAN TERMİNALİ — app.py (v21 - KARAR MOTORU + KOYU TEMA)
+CTA ERHAN TERMİNALİ — app.py (v22 - KARAR MOTORU + LOG + KOYU TEMA)
 """
 
 import streamlit as st
@@ -14,13 +14,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
 # ---------- HARICI CSS YÜKLE ----------
 _css_path = Path(__file__).parent / "styles.css"
 if _css_path.exists():
     with open(_css_path, "r", encoding="utf-8") as _f:
         st.markdown(f"<style>{_f.read()}</style>", unsafe_allow_html=True)
-# ---------- GLOBAL CSS: KOYU TEMA (v3) ----------
-
 
 # ============================================================
 # YOLLAR
@@ -495,6 +494,23 @@ with tab_pano:
         try:
             from core.signal_engine import calculate_signal, MAJOR_PRODUCTS
             _sig = calculate_signal(selected_product)
+
+            # LOG
+            try:
+                from core.signals_db import global_signals_db as _gdb
+                from datetime import datetime as _dt, timezone as _tz
+                _today = _dt.now(_tz.utc).strftime("%Y-%m-%d")
+                _ex = _gdb.get_active_signal(selected_product)
+                _log_it = True
+                if _ex:
+                    if ((_ex.get("created_at") or "")[:10] == _today and
+                        _ex.get("signal") == _sig.get("signal")):
+                        _log_it = False
+                if _log_it:
+                    _sig["signal_id"] = _gdb.log_signal(_sig)
+            except Exception:
+                pass
+
             _conf = _sig.get("confidence", 0)
             _signal = _sig.get("signal", "BEKLE")
             _skor = _sig.get("final_score", 0)
@@ -506,7 +522,6 @@ with tab_pano:
             _signal_type = _sig.get("signal_type", "mixed")
             _validity = _sig.get("validity_reason", "mixed")
             _created = _sig.get("created_at", "")
-            _expires = _sig.get("expires_at", "")
 
             if "GÜÇLÜ AL" in _signal or _signal == "AL":
                 _color = "#00E676"
