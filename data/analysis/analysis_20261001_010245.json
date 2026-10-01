@@ -1,0 +1,44 @@
+[
+  {
+    "tweet_id": "2101953370495803838",
+    "username": "misterpuertas",
+    "text": "Los inversores están utilizando cada vez más productos apalancados para aumentar su exposición al mercado, y su tamaño se ha multiplicado en pocos años.",
+    "images": [
+      "https://pbs.twimg.com/media/HSujcsBWoAA5zsY.png"
+    ],
+    "analyzed_at": "2026-10-01T00:36:53.374760+00:00",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Futures",
+        "yon": "YUKARI",
+        "gerekce": "Yatırımcıların kaldıraçlı uzun pozisyonlara artan ilgisi, S&P 500 gibi geniş piyasa endekslerinde yükseliş beklentisini gösteriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Futures",
+        "yon": "YUKARI",
+        "gerekce": "Kaldıraçlı ETF varlıklarındaki keskin artış, özellikle teknoloji ağırlıklı Nasdaq 100 endeksinde güçlü bir yükseliş eğilimine işaret ediyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Index",
+        "yon": "YUKARI",
+        "gerekce": "Genel piyasa maruziyetini artıran kaldıraçlı ürünlerin yükselişi, S&P 500'de yukarı yönlü bir hareket beklentisini destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Index",
+        "yon": "YUKARI",
+        "gerekce": "Yatırımcıların kaldıraçlı uzun pozisyonları tercih etmesi, Nasdaq 100 gibi büyüme odaklı endekslerde pozitif bir görünüm sunuyor.",
+        "skor": 0.85
+      }
+    ],
+    "genel_yon": "YUKARI",
+    "ozet": "Yatırımcılar, özellikle 2023'ten bu yana kaldıraçlı uzun ETF ürünlerine olan maruziyetlerini önemli ölçüde artırarak piyasada güçlü bir yükseliş eğilimi sergiliyorlar.",
+    "confidence": 0.9
+  }
+]
