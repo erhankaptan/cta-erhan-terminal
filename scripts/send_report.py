@@ -1,8 +1,9 @@
 """
-CTA ERHAN TERMİNALİ — Telegram Rapor (v3)
-==========================================
+CTA ERHAN TERMİNALİ — Telegram & Mail Rapor (v3)
+==================================================
 3 grup: Vadeli+Forex+Emtia | ABD Hisseleri | Asya Hisseleri
 State hesabı skor bazlı.
+Wayne Enterprise Kılavuzu Operasyonel Hatırlatmaları Entegre Edilmiştir.
 """
 
 import os
@@ -88,7 +89,6 @@ def compute_state(score, evidence_count, has_conflict=False):
     if evidence_count == 0:
         return "INSUFFICIENT"
 
-    # Kanıt sayısı 1 ve skor 0 → INSUFFICIENT
     if evidence_count == 1 and abs(score) < 0.05:
         return "INSUFFICIENT"
 
@@ -102,7 +102,6 @@ def compute_state(score, evidence_count, has_conflict=False):
     if score <= -0.35:
         return "BEARISH"
 
-    # 0.10 - 0.35 arası → CONFLICT (zayıf, karışık)
     return "CONFLICT"
 
 
@@ -161,7 +160,6 @@ def build_message(snapshot):
 
     now_tr = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
 
-    # Kategorilere ayır
     main_items = []
     us_items = []
     asia_items = []
@@ -186,7 +184,7 @@ def build_message(snapshot):
     total = len(main_items) + len(us_items) + len(asia_items)
 
     lines = [
-        "📊 <b>CTA ERHAN RAPORU</b>",
+        "📊 <b>CTA ERHAN RAPORU</b> (Wayne Protocol)",
         f"🕐 {now_tr}",
         "",
     ]
@@ -203,6 +201,11 @@ def build_message(snapshot):
         lines.extend(format_group("ASYA / HK HİSSELERİ", asia_items))
 
     lines.append(f"📈 Toplam: <b>{total}</b> varlık")
+    lines.append("")
+    lines.append("🛡️ <b>Wayne Protokolü Notu:</b>")
+    lines.append("• Çöp CTA Sinyalleri yok sayıldı.")
+    lines.append("• Sığ saatlerde işlem açılmaz; Pzt/Salı seans açılışı ve Stop Hunt iğnesi beklenir.")
+    lines.append("• Tüm pozisyonlar Cuma kapanışında kapatılır.")
     lines.append(f"🔗 {snapshot.get('generated_at', '—')[:16]}")
 
     return "\n".join(lines)
@@ -251,7 +254,6 @@ def send_email(subject, html_body):
         print("[FATAL] EMAIL_USER/PASS/TO eksik")
         return False
 
-    # HTML'i temizle - basit text
     plain = re.sub(r"<[^>]+>", "", html_body)
     plain = plain.replace("&nbsp;", " ").replace("&amp;", "&")
 
@@ -276,7 +278,7 @@ def send_email(subject, html_body):
 
 def main():
     print("=" * 60)
-    print("Telegram Rapor (v3)")
+    print("Telegram Rapor (v3) — Wayne Protocol Etkin")
     print("=" * 60)
 
     snapshot = load_snapshot()
@@ -292,7 +294,7 @@ def main():
     send_telegram(msg)
 
     # Mail gonder
-    subject = f"CTA ERHAN RAPORU - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
+    subject = f"CTA ERHAN RAPORU (Wayne Protocol) - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
     send_email(subject, msg)
 
 
