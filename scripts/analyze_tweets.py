@@ -2,6 +2,7 @@
 CTA ERHAN TERMİNALİ — Gemini Analiz v9 (google-genai)
 ======================================================
 Yeni SDK: google-genai (eski google-generativeai değil)
+Wayne Enterprise CTA Panosu Değerlendirme Entegrasyonlu
 """
 
 import os
@@ -81,9 +82,26 @@ def download_image(url: str):
 
 PROMPT = """Sen kıdemli bir CTA (Commodity Trading Advisor) ve vadeli işlemler analistisin.
 
-GÖREV: Aşağıdaki tweet metnini ve varsa görselleri analiz et. Tweet'te geçen HER finansal varlığı ÇIKAR.
+GÖREV: Aşağıdaki tweet metnini ve varsa görsellerdeki (özellikle Wayne Enterprise vb. CTA panolarındaki) tabloları analiz et. Tweet'te ve görsellerde geçen HER finansal varlığı ÇIKAR.
 
-ÇOK ÖNEMLİ — AGRESİF OL:
+====================================================================
+WAYNE ENTERPRISE CTA PANOSU DEĞERLENDİRME VE AKIŞ KURALLARI (KESİN UYULACAK):
+1. ÇÖP SİNYAL YASAĞI: Tabloların en sağında yer alan "CTA Signal" (LONG/SHORT/NEUTRAL) sütunu tamamen geçmiş ralli/düşüşlerden kalan gecikmeli (lagging) bir etikettir. Bu sütundaki renk ve yazıları tamamen YOK SAYACAK ve analizlerine kesinlikle dahil etmeyeceksin.
+2. PATRON SÜTUN (1w Net Flow z): Haftalık kurumsal para yönünü belirleyen ana göstergedir.
+   - Değer +0.5 üzerindeyse yön kesinlikle LONG.
+   - Değer -0.5 altındaysa yön kesinlikle SHORT.
+   - Değer -0.5 ile +0.5 arasındaysa (nötr/zayıf akış) kurumsallar kararsızdır; acele edilmez, likidite temizliği (iğne) beklenir.
+3. DİVERJANS / UYUMSUZLUK AVCISI (1w Return vs 1w Net Flow):
+   - Fiyat çakılırken (1w Return < 0) para akışı yeşilse (1w Net Flow z > 0), bu bir "Dip Tuzağı / Kurumsal Mal Toplama" (Muazzam Long Fırsatı) olarak etiketlenmelidir.
+   - Fiyat yükselirken para akışı kırmızıysa, "Tepe Tuzağı / Kurumsal Satış" olarak etiketlenmelidir.
+4. LİKİDİTE VE AÇIK POZİSYON (OI Change & OI Correlation):
+   - Fiyat düşerken Açık Pozisyon azalıyorsa (OI Change < 0), bu bir "Stop Patlatma / Long Liquidation" hareketidir.
+   - Spot Korelasyonu (OI Corr) %15 altındaysa piyasada manipülasyon/kararsızlık yüksektir; stop mesafesinin geniş tutulması not düşülmelidir.
+5. ZAMANLAMA PROTOKOLÜ:
+   - Veri gece yarısı veya seans kapanışında yayınlansa bile hemen işleme girilmez; Londra/New York seans açılışları ve silkeleme iğnesi (Stop Hunt) beklenmelidir.
+====================================================================
+
+ÇOK ÖNEMLİ — AGRESİF VE DOĞRU VARLIK ÇIKARIMI:
 - Tweet kısa olsa bile, ima etse bile, dolaylı konuşsa bile varlık çıkar.
 - Hashtag (#gold, #SPX, #BTC) ve kısaltma ($ES, $GC, $SPX) varsa mutlaka yakala.
 - Tweet'te şirket adı geçiyorsa (Nvidia, Tesla, Apple) → hisse sembolü olarak al (NVDA, TSLA, AAPL).
@@ -91,13 +109,9 @@ GÖREV: Aşağıdaki tweet metnini ve varsa görselleri analiz et. Tweet'te geç
 - Tweet "FED faiz kararı" diyorsa → DXY, US10Y, XAUUSD çıkar.
 - Tweet "Çin ekonomisi" diyorsa → HG, ES, SPX500 çıkar.
 - Tweet "petrol" diyorsa → CL, MCL, USOUSD çıkar.
-- HK hisseleri (700 HK, 9988 HK vs.) da geçerli — onları da çıkar.
-- Eğer tweet tamamen alakasız (siyasi, kişisel, reklam, mizah) → varliklar: []
-
-GÖRSEL: Varsa tablo/grafik oku. Her satırı (ürünü) ayrı ayrı çıkar.
+- GÖRSEL: Varsa tablo/grafik oku. Wayne Enterprise tablosundaki her satırı (ürünü/emtiayı) ayrı ayrı çıkar ve yukarıdaki kurallara göre değerlendir.
 
 VARLIK LİSTESİ:
-
 VADELİ:
 - Endeks: ES, MES, NQ, MNQ, RTY, YM
 - Emtia: CL, MCL, NG, GC, MGC, SI, HG, PL
@@ -127,12 +141,12 @@ Kullanıcı: @{username}
       "sembol": "GC",
       "isim": "Gold",
       "yon": "YUKARI",
-      "gerekce": "kısa Türkçe gerekçe (max 150 karakter)",
+      "gerekce": "kısa Türkçe gerekçe (1w Net Flow ve Diverjans odaklı, max 150 karakter)",
       "skor": 0.7
     }}
   ],
   "genel_yon": "YUKARI",
-  "ozet": "Türkçe 1-2 cümle özet",
+  "ozet": "Wayne Enterprise kurallarına dayalı Türkçe 1-2 cümle özet",
   "confidence": 0.8
 }}
 
@@ -226,7 +240,7 @@ def analyze_with_retry(text, username, images, client, max_retries=2):
 
 def main():
     print("=" * 60)
-    print("Gemini Analiz v9 (google-genai)")
+    print("Gemini Analiz v9 (google-genai) — Wayne Enterprise Kılavuzu Etkin")
     print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
 
