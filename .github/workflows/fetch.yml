@@ -15,7 +15,7 @@ permissions:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60  # 30 dakikadan 60 dakikaya çıkardık ki kilitlenmesin
 
     env:
       PYTHONPATH: ${{ github.workspace }}
