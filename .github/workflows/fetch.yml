@@ -1,11 +1,12 @@
 name: CTA Terminal - Auto Pipeline
 
 on:
-  # Her 3 saatte 1 çalış (17. dakikada — yoğunluktan kaçınmak için)
+  # Fransa Saatiyle (UTC+2) her gün 12:00 (UTC 10:00) ve 22:30 (UTC 20:30)
   schedule:
-    - cron: '17 */3 * * *'
+    - cron: '0 10 * * *'
+    - cron: '30 20 * * *'
 
-  # Manuel tetikleme (test için)
+  # Manuel tetikleme (istediğinde test etmek için)
   workflow_dispatch:
 
 # Repo'ya yazma izni
@@ -15,7 +16,7 @@ permissions:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 30 dakikadan 60 dakikaya çıkardık ki kilitlenmesin
+    timeout-minutes: 60  # Zaman aşımını önleyen 60 dk limit
 
     env:
       PYTHONPATH: ${{ github.workspace }}
