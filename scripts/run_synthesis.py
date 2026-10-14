@@ -4,6 +4,7 @@ CTA ERHAN TERMİNALİ — Run Synthesis
 Evidence pool'daki tüm kanıtları okur.
 Her varlık için sentez üretir.
 Sonuçları JSON ve SQLite'a kaydeder.
+Wayne Enterprise Kılavuzu Kuralları Entegre Edilmiştir.
 
 Kullanım:
     python -m scripts.run_synthesis
@@ -43,7 +44,7 @@ def now_utc_iso() -> str:
 
 def main():
     print("=" * 60)
-    print("Run Synthesis")
+    print("Run Synthesis — Wayne Enterprise Kılavuzu Etkin")
     print(f"Zaman: {now_utc_iso()}")
     print("=" * 60)
 
@@ -67,7 +68,7 @@ def main():
     print(f"[INFO] {len(asset_codes)} varlık: {', '.join(asset_codes)}")
 
     # Her varlık için sentez
-    print("\n[SYNTHESIS]")
+    print("\n[SYNTHESIS] (1w Net Flow z Patron Kuralı ve Diverjans Filtreleri Devrede)")
     results: Dict[str, SynthesisResult] = synthesize_all(all_evidences, asset_codes)
 
     # Özet
@@ -101,6 +102,13 @@ def main():
         "total_assets": len(results),
         "state_counts": state_counts,
         "results": {code: r.to_dict() for code, r in results.items()},
+        "protocol_rules": {
+            "garbage_signal_ignored": True,
+            "net_flow_z_threshold": 0.5,
+            "divergence_trap_active": True,
+            "session_timing_rule": "Pazartesi/Salı seans açılışları ve Stop Hunt iğnesi beklenir",
+            "weekend_rule": "Cuma kapanışında pozisyonlar kapatılır"
+        }
     }
 
     with open(output_file, "w", encoding="utf-8") as f:
@@ -116,6 +124,11 @@ def main():
     print(f"[SAVE] {latest_file}")
 
     print("\n" + "=" * 60)
+    print("OPERASYONEL HATIRLATMA:")
+    print("- Gece yarısı sığ piyasada işlem yapılmaz.")
+    print("- Pazartesi/Salı likidite iğneleri (Stop Hunt) beklenir.")
+    print("- Tüm pozisyonlar Cuma kapanışında kapatılır.")
+    print("=" * 60)
     print("TAMAMLANDI")
     print("=" * 60)
 
