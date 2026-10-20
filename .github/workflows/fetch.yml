@@ -14,7 +14,7 @@ permissions:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # Bot korumaları ve yavaş çekim için 60 dk ana limit kalıyor
+    timeout-minutes: 30  # Toplam akış süresi 30 dk ile sınırlandı
 
     env:
       PYTHONPATH: ${{ github.workspace }}
@@ -36,37 +36,45 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Nitter çekim adımına 15 dk limit + hata toleransı
+      # Nitter çekim adımı (Maksimum 8 dakika)
       - name: Fetch tweets from Nitter
-        timeout-minutes: 15
+        timeout-minutes: 8
         continue-on-error: true
         run: python scripts/fetch_nitter.py
 
+      # Gemini Tweet Analizi (10 dk yerine hızlı 3 dk limit)
       - name: Analyze tweets with Gemini
-        timeout-minutes: 10
+        timeout-minutes: 3
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
 
+      # RSS Çekim
       - name: Fetch RSS from Tickmill
-        timeout-minutes: 3
+        timeout-minutes: 2
         continue-on-error: true
         run: python scripts/fetch_rss.py
 
+      # RSS Çeviri
       - name: Translate RSS to Turkish
-        timeout-minutes: 5
+        timeout-minutes: 3
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/translate_rss.py
 
+      # Kanıt Havuzunu İnşa Et
       - name: Build evidence pool
         run: python scripts/build_evidence_pool.py
 
+      # Sentez (Taze snapshot.json / latest.json burada üretilir)
       - name: Run synthesis
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/run_synthesis.py
 
+      # Raporlama (Telegram & Email)
       - name: Send Report (Telegram & Email)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -79,6 +87,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python scripts/send_report.py
 
+      # Commit ve Push
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
