@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 7-22/3 * * *'
 
-  # Manuel tetikleme (GitHub üzerinden istediğinde çalıştırmak için)
+  # Manuel tetikleme (test etmek için)
   workflow_dispatch:
 
 permissions:
@@ -20,32 +20,28 @@ jobs:
       PYTHONPATH: ${{ github.workspace }}
 
     steps:
-      # 1. Repo'yu çek
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2. Python kur
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      # 3. Bağımlılıkları kur
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Nitter'dan tweet çek (15 dk adım limiti + hata toleransı)
+      # Nitter çekim adımına 15 dk limit + hata toleransı ekledik
       - name: Fetch tweets from Nitter
         timeout-minutes: 15
         continue-on-error: true
         run: python scripts/fetch_nitter.py
 
-      # 5. Gemini ile tweet analizi
       - name: Analyze tweets with Gemini
         timeout-minutes: 5
         continue-on-error: true
@@ -53,13 +49,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
 
-      # 6. RSS çek (Tickmill)
       - name: Fetch RSS from Tickmill
         timeout-minutes: 3
         continue-on-error: true
         run: python scripts/fetch_rss.py
 
-      # 7. RSS çevir + yorum + varlık analizi
       - name: Translate RSS to Turkish
         timeout-minutes: 5
         continue-on-error: true
@@ -67,15 +61,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/translate_rss.py
 
-      # 8. Evidence havuzunu inşa et
       - name: Build evidence pool
         run: python scripts/build_evidence_pool.py
 
-      # 9. Sentez çalıştır (snapshot üret)
       - name: Run synthesis
         run: python scripts/run_synthesis.py
 
-      # 10. Değişiklikleri commit et ve push yap
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
