@@ -278,24 +278,42 @@ def send_email(subject, html_body):
 
 def main():
     print("=" * 60)
-    print("Telegram Rapor (v3) — Wayne Protocol Etkin")
+    print("Telegram & Mail Rapor (v3) — Wayne Protocol Etkin")
     print("=" * 60)
 
     snapshot = load_snapshot()
+    
+    # Snapshot boş/eksik olsa bile pipeline ve mail akışı asla çökmez, bilgi verir
     if not snapshot:
-        print("[FATAL] Snapshot bulunamadı")
-        return
+        print("[WARN] Snapshot bulunamadı veya analiz zaman aşımına uğradı.")
+        msg = (
+            "⚠️ <b>CTA ERHAN TERMİNAL BİLDİRİMİ</b><br><br>"
+            "Bu periyotta yeni snapshot verisi üretilemedi veya analiz adımı zaman aşımına uğradı.<br>"
+            "Otomasyon akışı başarıyla tamamlandı. Wayne Protokolü aktif."
+        )
+    else:
+        msg = build_message(snapshot)
 
-    msg = build_message(snapshot)
     print("--- Mesaj önizleme ---")
     print(msg[:1200])
     print("--- Gönderiliyor ---")
 
     send_telegram(msg)
 
-    # Mail gonder
+    # Mail gönderimi için HTML şablonu sarmalayıcısı
     subject = f"CTA ERHAN RAPORU (Wayne Protocol) - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
-    send_email(subject, msg)
+    
+    html_msg = f"""
+    <html>
+      <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px;">
+        <div style="max-width: 650px; margin: 0 auto; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px;">
+          <pre style="font-family: 'Courier New', Courier, monospace; font-size: 13px; white-space: pre-wrap; word-wrap: break-word;">{msg}</pre>
+        </div>
+      </body>
+    </html>
+    """
+
+    send_email(subject, html_msg)
 
 
 if __name__ == "__main__":
