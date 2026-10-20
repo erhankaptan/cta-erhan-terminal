@@ -1,8 +1,9 @@
 """
-CTA ERHAN TERMİNALİ — Gemini Analiz v9 (google-genai)
-======================================================
-Yeni SDK: google-genai (eski google-generativeai değil)
+CTA ERHAN TERMİNALİ — Gemini Analiz v9 (google-genai) — Fast & Timeout Safe
+=============================================================================
+Yeni SDK: google-genai
 Wayne Enterprise CTA Panosu Değerlendirme Entegrasyonlu
+Zaman aşımı ve takılma korumaları optimize edildi.
 """
 
 import os
@@ -18,7 +19,7 @@ from google.genai import types
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = "gemini-2.5-flash"
-REQUEST_DELAY = 3.0
+REQUEST_DELAY = 1.5  # Bekleme süresi düşürüldü
 
 DATA_DIR = Path("data")
 TWEETS_DIR = DATA_DIR / "tweets"
@@ -63,20 +64,18 @@ def load_tweets(filepath):
 
 
 def download_image(url: str):
+    """Hızlı görsel indirme (Maksimum 4 saniye timeout)."""
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-        response = requests.get(url, timeout=20, headers=headers, allow_redirects=True)
+        response = requests.get(url, timeout=4, headers=headers, allow_redirects=True)
         if response.status_code == 200:
             ct = response.headers.get("Content-Type", "").lower()
             if "image" in ct and "html" not in ct:
                 return response.content, ct
             else:
-                print(f"    [IMG] Reddedildi (MIME: {ct})")
                 return None, None
-        else:
-            print(f"    [IMG] HTTP {response.status_code}")
     except Exception as e:
-        print(f"    [IMG] İndirme hatası: {e}")
+        print(f"    [IMG] Atlandı (Timeout/Hata): {e}")
     return None, None
 
 
@@ -163,20 +162,19 @@ def analyze_with_gemini(text: str, username: str, image_urls: list, client):
     prompt = PROMPT.format(text=(text or "")[:1500], username=username)
 
     contents = [prompt]
-    for img_url in image_urls[:3]:
+    for img_url in image_urls[:2]:  # En fazla 2 görsel
         img_bytes, mime_type = download_image(img_url)
         if img_bytes:
             contents.append(
                 types.Part.from_bytes(data=img_bytes, mime_type=mime_type or "image/jpeg")
             )
-            print(f"    [IMG] Görsel eklendi")
 
     response = client.models.generate_content(
         model=MODEL_NAME,
         contents=contents,
         config=types.GenerateContentConfig(
             temperature=0.2,
-            max_output_tokens=8192,
+            max_output_tokens=2048,  # Token sınırı düşürüldü, yanıt hızlandı
         ),
     )
     raw = (response.text or "").strip()
@@ -194,53 +192,36 @@ def analyze_with_gemini(text: str, username: str, image_urls: list, client):
         if m:
             raw = m.group(0)
 
-    # 1. Normal dene
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
         pass
 
-    # 2. Trailing virgülleri temizle
     cleaned = re.sub(r',\s*([}\]])', r'\1', raw)
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError:
         pass
 
-    # 3. Kesik JSON'u tamamla
-    try:
-        if '"varliklar"' in raw:
-            idx = raw.rfind('}')
-            if idx > 0:
-                truncated = raw[:idx+1]
-                opens = truncated.count('[') - truncated.count(']')
-                trunc2 = truncated + (']' * opens)
-                opens2 = trunc2.count('{') - trunc2.count('}')
-                trunc3 = trunc2 + ('}' * opens2)
-                return json.loads(trunc3)
-    except Exception:
-        pass
-
-    print(f"    [ERR] JSON parse başarısız")
-    print(f"    [RAW] {raw[:200]}")
     return None
 
 
-def analyze_with_retry(text, username, images, client, max_retries=2):
+def analyze_with_retry(text, username, images, client, max_retries=1):
+    """Maksimum 1 retry ile hızlı geçiş."""
     for attempt in range(max_retries):
         try:
             result = analyze_with_gemini(text, username, images, client)
             if result is not None:
                 return result
         except Exception as e:
-            print(f"    [RETRY {attempt+1}] {type(e).__name__}: {str(e)[:100]}")
-            time.sleep(2)
+            print(f"    [RETRY] {type(e).__name__}: {str(e)[:80]}")
+            time.sleep(1)
     return None
 
 
 def main():
     print("=" * 60)
-    print("Gemini Analiz v9 (google-genai) — Wayne Enterprise Kılavuzu Etkin")
+    print("Gemini Analiz v9 (google-genai) — Fast & Timeout Safe")
     print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
 
@@ -256,8 +237,6 @@ def main():
         print("[FATAL] Tweet dosyası yok")
         return
 
-    print(f"[INFO] {len(files)} tweet dosyası bulundu")
-
     all_tweets = []
     for fp in files:
         try:
@@ -265,8 +244,6 @@ def main():
             all_tweets.extend(tweets)
         except Exception as e:
             print(f"  [ERR] {fp.name}: {e}")
-
-    print(f"[INFO] Toplam {len(all_tweets)} tweet")
 
     priority_tweets = [t for t in all_tweets if is_priority_tweet(t)]
 
@@ -278,20 +255,20 @@ def main():
             seen_ids.add(tid)
             unique_tweets.append(t)
 
-    print(f"[INFO] {len(unique_tweets)} öncelikli (unique)")
-
-    if not unique_tweets:
-        print("[DONE] Öncelikli tweet yok")
-        return
-
     state = load_state()
     analyzed_ids = set(state.get("analyzed_ids", []))
 
     new_tweets = [t for t in unique_tweets if str(t.get("id")) not in analyzed_ids]
-    print(f"[INFO] {len(new_tweets)} yeni")
+    
+    # KİLİTLENMEYİ ÖNLEMEK İÇİN BATCH SINIRI (Maksimum son 10 yeni tweet)
+    if len(new_tweets) > 10:
+        print(f"[INFO] Toplam {len(new_tweets)} yeni tweet var, en son 10 tanesi işlenecek.")
+        new_tweets = new_tweets[-10:]
+
+    print(f"[INFO] İşlenecek taze tweet sayısı: {len(new_tweets)}")
 
     if not new_tweets:
-        print("[DONE] Yeni tweet yok")
+        print("[DONE] İşlenecek yeni tweet yok")
         return
 
     results = []
@@ -305,7 +282,7 @@ def main():
         text = tweet.get("text", "")
         images = tweet.get("images", [])
 
-        print(f"\n[{i}/{len(new_tweets)}] @{username} — {text[:60]}...")
+        print(f"\n[{i}/{len(new_tweets)}] @{username} — {text[:50]}...")
 
         analysis = analyze_with_retry(text, username, images, client)
 
@@ -326,10 +303,10 @@ def main():
             analyzed_ids.add(tweet_id)
             success += 1
             total_assets += len(varliklar)
-            print(f"    [OK] {len(varliklar)} varlık")
+            print(f"    [OK] {len(varliklar)} varlık çıkarıldı")
         else:
             failed += 1
-            print(f"    [FAIL]")
+            print(f"    [FAIL] Atlandı")
 
         if i < len(new_tweets):
             time.sleep(REQUEST_DELAY)
@@ -348,7 +325,6 @@ def main():
     print(f"\n{'=' * 60}")
     print(f"Başarılı: {success}, Başarısız: {failed}")
     print(f"Toplam varlık çıkarıldı: {total_assets}")
-    print(f"Toplam işlenmiş ID: {len(analyzed_ids)}")
     print(f"{'=' * 60}")
 
 
