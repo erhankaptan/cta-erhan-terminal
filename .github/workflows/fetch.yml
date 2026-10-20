@@ -43,7 +43,7 @@ jobs:
         run: python scripts/fetch_nitter.py
 
       - name: Analyze tweets with Gemini
-        timeout-minutes: 5
+        timeout-minutes: 10
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
