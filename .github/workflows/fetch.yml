@@ -1,22 +1,20 @@
 name: CTA Terminal - Auto Pipeline
 
 on:
-  # Fransa Saatiyle (UTC+2) her gün 12:00 (UTC 10:00) ve 22:30 (UTC 20:30)
+  # Fransa Saatiyle (UTC+2) seans içi her 3 saatte bir (09:00, 12:00, 15:00, 18:00, 21:00, 00:00)
   schedule:
-    - cron: '0 10 * * *'
-    - cron: '30 20 * * *'
+    - cron: '0 7-22/3 * * *'
 
-  # Manuel tetikleme (istediğinde test etmek için)
+  # Manuel tetikleme (GitHub üzerinden istediğinde çalıştırmak için)
   workflow_dispatch:
 
-# Repo'ya yazma izni
 permissions:
   contents: write
 
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # Zaman aşımını önleyen 60 dk limit
+    timeout-minutes: 60  # Bot korumaları ve yavaş çekim için 60 dk ana limit kalıyor
 
     env:
       PYTHONPATH: ${{ github.workspace }}
@@ -41,22 +39,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Nitter'dan tweet çek
+      # 4. Nitter'dan tweet çek (15 dk adım limiti + hata toleransı)
       - name: Fetch tweets from Nitter
+        timeout-minutes: 15
+        continue-on-error: true
         run: python scripts/fetch_nitter.py
 
       # 5. Gemini ile tweet analizi
       - name: Analyze tweets with Gemini
+        timeout-minutes: 5
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/analyze_tweets.py
 
       # 6. RSS çek (Tickmill)
       - name: Fetch RSS from Tickmill
+        timeout-minutes: 3
+        continue-on-error: true
         run: python scripts/fetch_rss.py
 
       # 7. RSS çevir + yorum + varlık analizi
       - name: Translate RSS to Turkish
+        timeout-minutes: 5
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/translate_rss.py
@@ -69,7 +75,7 @@ jobs:
       - name: Run synthesis
         run: python scripts/run_synthesis.py
 
-      # 10. Değişiklikleri commit et
+      # 10. Değişiklikleri commit et ve push yap
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
