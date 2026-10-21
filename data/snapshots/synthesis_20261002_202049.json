@@ -1,0 +1,769 @@
+{
+  "generated_at": "2026-10-02T20:20:49.830838+00:00",
+  "total_assets": 40,
+  "state_counts": {
+    "INSUFFICIENT": 40
+  },
+  "results": {
+    "6A": {
+      "asset_code": "6A",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6A_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6B": {
+      "asset_code": "6B",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6B_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6C": {
+      "asset_code": "6C",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6C_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6E": {
+      "asset_code": "6E",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6E_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6J": {
+      "asset_code": "6J",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6J_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6N": {
+      "asset_code": "6N",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6N_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "6S": {
+      "asset_code": "6S",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_6S_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "BZ": {
+      "asset_code": "BZ",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_BZ_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "CL": {
+      "asset_code": "CL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_CL_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "DXY": {
+      "asset_code": "DXY",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_DXY_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ES": {
+      "asset_code": "ES",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ES_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "GC": {
+      "asset_code": "GC",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_GC_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "HG": {
+      "asset_code": "HG",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_HG_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "HO": {
+      "asset_code": "HO",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_HO_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "KE": {
+      "asset_code": "KE",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_KE_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "MSCI_EAFE": {
+      "asset_code": "MSCI_EAFE",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_MSCI_EAFE_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "MSCI_EM": {
+      "asset_code": "MSCI_EM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_MSCI_EM_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "NG": {
+      "asset_code": "NG",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_NG_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "NK": {
+      "asset_code": "NK",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_NK_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "NQ": {
+      "asset_code": "NQ",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_NQ_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "PA": {
+      "asset_code": "PA",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_PA_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "PL": {
+      "asset_code": "PL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_PL_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "RB": {
+      "asset_code": "RB",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_RB_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "RTY": {
+      "asset_code": "RTY",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_RTY_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "SI": {
+      "asset_code": "SI",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_SI_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "SR1": {
+      "asset_code": "SR1",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_SR1_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "SR3": {
+      "asset_code": "SR3",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_SR3_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "UB": {
+      "asset_code": "UB",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_UB_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "UWB": {
+      "asset_code": "UWB",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_UWB_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "YM": {
+      "asset_code": "YM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_YM_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZB": {
+      "asset_code": "ZB",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZB_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZC": {
+      "asset_code": "ZC",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZC_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZF": {
+      "asset_code": "ZF",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZF_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZL": {
+      "asset_code": "ZL",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZL_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZM": {
+      "asset_code": "ZM",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZM_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZN": {
+      "asset_code": "ZN",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZN_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZQ": {
+      "asset_code": "ZQ",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZQ_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZS": {
+      "asset_code": "ZS",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.1224,
+      "bear_weight": 0.0,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZS_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZT": {
+      "asset_code": "ZT",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZT_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    },
+    "ZW": {
+      "asset_code": "ZW",
+      "state": "INSUFFICIENT",
+      "score": 0.0,
+      "confidence": 20,
+      "uncertainty": 80,
+      "evidence_count": 1,
+      "source_type_count": 1,
+      "total_weight": 0.1224,
+      "bull_weight": 0.0,
+      "bear_weight": 0.1224,
+      "reasons": [
+        "Yetersiz toplam ağırlık: 0.122"
+      ],
+      "evidence_ids": [
+        "merkez_cot_ZW_2026_09_22"
+      ],
+      "generated_at": "2026-10-02T20:20:49.823835+00:00"
+    }
+  }
+}

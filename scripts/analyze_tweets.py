@@ -169,15 +169,40 @@ def analyze_with_gemini(text: str, username: str, image_urls: list, client):
                 types.Part.from_bytes(data=img_bytes, mime_type=mime_type or "image/jpeg")
             )
 
-    response = client.models.generate_content(
-        model=MODEL_NAME,
-        contents=contents,
-        config=types.GenerateContentConfig(
-            temperature=0.2,
-            max_output_tokens=2048,  # Token sınırı düşürüldü, yanıt hızlandı
-        ),
-    )
-    raw = (response.text or "").strip()
+    try:
+        # Chat oturumu üzerinden gönderiyoruz
+        chat = client.chats.create(
+            model=MODEL_NAME,
+            config=types.GenerateContentConfig(
+                temperature=0.2,
+                max_output_tokens=2048,
+            )
+        )
+        
+        response = chat.send_message(contents)
+        raw = (response.text or "").strip()
+
+        # Markdown blok işaretlerini temizle (örn: ```json ... ```)
+        if raw.startswith("```"):
+            parts = raw.split("```")
+            if len(parts) >= 2:
+                raw = parts[1]
+                if raw.startswith("json"):
+                    raw = raw[4:]
+        raw = raw.strip()
+
+        # Süslü parantez dışındaki fazlalıkları ayıkla
+        if not raw.startswith("{"):
+            m = re.search(r'\{.*\}', raw, re.DOTALL)
+            if m:
+                raw = m.group(0)
+
+        # JSON olarak parse et ve sözlük olarak döndür
+        return json.loads(raw)
+
+    except Exception as e:
+        print(f"    [HATA DETAYI]: {e}")
+        return {"varliklar": [], "hata": str(e)}
 
     if raw.startswith("```"):
         parts = raw.split("```")

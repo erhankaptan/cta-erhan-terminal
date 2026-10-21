@@ -68,11 +68,40 @@ class IntegrationEngine:
     def ingest_and_process_url(self, url: str) -> Dict[str, Any]:
         try:
             import urllib.request
+            import feedparser
             
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req, timeout=5) as response:
+            # Timeout süresini 10'a çıkardık (Nitter bazen yavaş yanıt verir)
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            with urllib.request.urlopen(req, timeout=10) as response:
                 raw_content = response.read().decode('utf-8')
-                data = json.loads(raw_content)
+            
+            data = None
+            
+            # 1. Kontrol: Gelen veri JSON mu? (Tickmill bazen JSON dönebilir)
+            if raw_content.strip().startswith('{') or raw_content.strip().startswith('['):
+                try:
+                    data = json.loads(raw_content)
+                except Exception:
+                    pass
+            
+            # 2. Kontrol: JSON değilse XML (RSS) olarak okumayı dene
+            if data is None:
+                feed = feedparser.parse(raw_content)
+                if feed.entries:
+                    # RSS verisini standart bir listeye (Dict) dönüştür
+                    data = [
+                        {
+                            "title": entry.get("title", ""),
+                            "link": entry.get("link", ""),
+                            "published": entry.get("published", ""),
+                            "summary": entry.get("summary", "")
+                        }
+                        for entry in feed.entries
+                    ]
+            
+            # Eğer veri hala None ise hem JSON hem XML başarısız olmuştur
+            if data is None:
+                return {"status": "error", "message": "Veri ne JSON ne de geçerli bir RSS (XML) formatında."}
             
             if not self.validate_payload(data):
                 self.logger.error(f"Geçersiz veri şeması reddedildi -> URL: {url}")
@@ -80,7 +109,7 @@ class IntegrationEngine:
             
             payload = data if isinstance(data, dict) else {"items": data}
             structured = StructuredInformation(
-                raw_data=data,
+                raw_data=raw_content, # Ham veriyi de saklayalım
                 provenance=f"live_api:{url}",
                 data_payload=payload
             )
@@ -89,6 +118,7 @@ class IntegrationEngine:
             self.save_pool_to_disk()
             self.logger.info(f"Başarılı ingestion ve doğrulama -> {structured.provenance}")
             return {"status": "success", "provenance": structured.provenance}
+            
         except Exception as e:
             self.logger.error(f"Ingestion sırasında hata oluştu ({url}): {str(e)}")
             return {"status": "error", "message": str(e)}

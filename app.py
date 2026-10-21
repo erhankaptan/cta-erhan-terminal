@@ -413,10 +413,40 @@ with tab_pano:
                 iframe_height = 50 + tracked_count * 44
                 components.html(html_table, height=iframe_height, scrolling=False)
 
-                gen = synthesis_snapshot.get("generated_at", "—")
+                gen = __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 st.caption(f"Snapshot: {gen} | Skor üst sınırı: ±0.75")
         else:
             st.info("Snapshot bulunamadı.")
+
+        # --- WAYNE ENTERPRISE EL KİTABI UYARILARI (BURAYA EKLENDİ) ---
+        st.markdown("---")
+        st.markdown("### 🎯 WAYNE PROTOKOLÜ")
+        
+        try:
+            with open("data/latest_wayne_analysis.json", "r", encoding="utf-8") as f:
+                wayne_data = json.load(f)
+                
+            for asset in wayne_data.get("data", []):
+                ticker = asset["ticker"]
+                asset_name = asset["asset_name"]
+                direction = asset["direction"]
+                tags = asset.get("status_tags", [])
+                
+                if direction == "BULLISH": color = "#00E676"
+                elif direction == "BEARISH": color = "#FF3B3B"
+                elif direction == "NEUTRAL": color = "#FFC107"
+                else: color = "#999999"
+                
+                st.markdown(f"**{ticker}** ({asset_name}) | Yön: <span style='color:{color};font-weight:bold;'>{direction}</span>", unsafe_allow_html=True)
+                
+                for tag in tags:
+                    if "DİP" in tag: st.success(tag)
+                    elif "STOP" in tag: st.warning(tag)
+                    elif "AŞIRI" in tag: st.info(tag)
+                    else: st.error(tag)
+        except FileNotFoundError:
+            st.caption("Henüz işlenmiş bir Wayne tablosu yok.")
+        # -----------------------------------------------------------
 
     # ---------- ORTA: TICKMILL ----------
     with col_mid:

@@ -427,3 +427,79 @@ if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("TEST TAMAMLANDI")
     print("=" * 60)
+def apply_wayne_handbook_rules(raw_asset_data: dict) -> dict:
+    """
+    Erhan'ın 'Kurumsal Akış ve Swing Ticaret Başucu El Kitabı' kurallarını uygular.
+    """
+    ticker = raw_asset_data.get("ticker", "UNKNOWN")
+    asset_name = raw_asset_data.get("asset_name", ticker)
+    
+    raw_flow = raw_asset_data.get("net_flow_1w")
+    if raw_flow is None:
+        return {
+            "ticker": ticker, "asset_name": asset_name, "direction": "INSUFFICIENT", "score": 0.0,
+            "net_flow_1w": 0, "return_1w": 0, "oi_change": 0, "oi_corr": 0,
+            "status_tags": ["⚠️ YETERSIZ VERI / OKUNAMADI"],
+            "protocol_note": "Görselden veri okunamadı, işlem yapılmaz."
+        }
+
+    try:
+        net_flow_1w = float(raw_flow)
+        net_flow_4w = float(raw_asset_data.get("net_flow_4w") or 0.0)
+        return_1w = float(raw_asset_data.get("return_1w") or 0.0)
+        oi_change = float(raw_asset_data.get("oi_change") or 0.0)
+        oi_corr = float(raw_asset_data.get("oi_corr") or 0.0)
+    except (ValueError, TypeError):
+        return {
+            "ticker": ticker, "asset_name": asset_name, "direction": "INSUFFICIENT", "score": 0.0,
+            "net_flow_1w": 0, "return_1w": 0, "oi_change": 0, "oi_corr": 0,
+            "status_tags": ["⚠️ PARSE HATASI"], "protocol_note": "Hatalı veri formattı."
+        }
+
+    # 1. PATRON SÜTUN: 1w Net Flow (Eşik 0.3)
+    if net_flow_1w >= 0.3:
+        direction = "BULLISH"
+        score = min(1.0, net_flow_1w / 1.5)
+    elif net_flow_1w <= -0.3:
+        direction = "BEARISH"
+        score = max(-1.0, net_flow_1w / 1.5)
+    else:
+        direction = "NEUTRAL"
+        score = 0.0
+
+    # 2. KURUMSAL BASKI / AŞIRI AKIŞ (|z| >= 1.0)
+    is_extreme_flow = abs(net_flow_1w) >= 1.0
+
+    # 3. DİVERJANS / DİP TUZAĞI (Fiyat eksi, Akış artı)
+    is_dip_opportunity = (return_1w < 0.0) and (net_flow_1w >= 0.3)
+    
+    # 4. LİKİDİTE TEMİZLİĞİ / STOP HUNT (OI Change eksi)
+    is_stop_hunt_warning = oi_change < 0.0
+
+    # 5. GÜVEN DERECESİ VE MANİPÜLASYON (15/30 Eşikleri)
+    abs_corr = abs(oi_corr)
+    if abs_corr >= 30:
+        confidence = "YÜKSEK (Teknik Seviyelere Saygılı)"
+        is_manipulation_risk = False
+    elif abs_corr < 15:
+        confidence = "DÜŞÜK (Manipülasyon/Stop Avı)"
+        is_manipulation_risk = True
+    else:
+        confidence = "ORTA"
+        is_manipulation_risk = False
+
+    # ROZETLER
+    status_tags = []
+    if is_dip_opportunity: status_tags.append("🔥 DİP TUZAĞI (ALIM FIRSATI)")
+    if is_stop_hunt_warning: status_tags.append("⚠️ STOP HUNT / LİKİDİTE İĞNESİ BEKLENİYOR")
+    if is_extreme_flow: status_tags.append("🌊 AŞIRI AKIŞ (TREND KARŞITI İŞLEM ALMA)")
+    if is_manipulation_risk: status_tags.append("⚡ MANİPÜLASYON BÖLGESİ (GENİŞ STOP BIRAK)")
+
+    return {
+        "ticker": ticker, "asset_name": asset_name, "direction": direction, "score": score,
+        "net_flow_1w": net_flow_1w, "net_flow_4w": net_flow_4w, "return_1w": return_1w,
+        "oi_change": oi_change, "oi_corr": oi_corr, "is_dip_opportunity": is_dip_opportunity,
+        "is_stop_hunt_warning": is_stop_hunt_warning, "confidence": confidence,
+        "status_tags": status_tags,
+        "protocol_note": "Pzt/Salı seans açılışını ve Stop Hunt iğnesini bekle. Bütün pozisyonları Cuma kapanışında kapat."
+    }

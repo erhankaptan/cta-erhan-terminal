@@ -1,0 +1,47 @@
+200:def _status_color(veri_durumu_ham: str) -> str:
+208:def _esc(value) -> str:
+214:def _fmt_num(value: Optional[float], decimals: int = 2) -> str:
+222:def _fmt_price(value: Optional[float]) -> str:
+229:def _fmt_pct_from_fraction(value: Optional[float]) -> str:
+236:def _fmt_signed(value: Optional[float], decimals: int = 2) -> str:
+243:def _fmt_dt(ts: Optional[datetime]) -> str:
+254:def _iso_or_empty(ts: Optional[datetime]) -> str:
+260:def _direction_label(direction: Optional[int]) -> str:
+264:def _relabel_trend_strength(claim_deger: str) -> str:
+282:def _split_epistemic(label: str) -> Tuple[str, Optional[str]]:
+292:def _chip(text: str, kind: str = "epistemik") -> str:
+300:def _status_dot(color: str) -> str:
+304:def _card(baslik: str, ana_deger_html: str, alt_satirlar, color: str, durum_metni: str,
+322:def _price_card(price_info: Optional[dict]) -> str:
+377:def _domain_panel_heading(d: Optional[DomainSynthesis], fallback_label: str) -> Tuple[str, str, str]:
+389:def _domain_panel_faz5_detail_lines(d: Optional[DomainSynthesis]) -> list:
+411:def _domain_panel_shell(domain_kod: str, dot: str, ana_html: str, ust_satirlar, durum_color: str,
+430:def _domain_panel_cot(mm, payload: Optional[KokboruIntelligencePayload], d: Optional[DomainSynthesis]) -> str:
+463:def _domain_panel_trend(ts_card, payload: Optional[KokboruIntelligencePayload], d: Optional[DomainSynthesis]) -> str:
+486:def _domain_panel_sg(sg, d: Optional[DomainSynthesis]) -> str:
+512:def _synthesis_column1_html(price_card_html: str, mm, ts_card, sg,
+527:def _alignment_card(al) -> str:
+601:def _terminal_state_dot_color(state: FinalTerminalState) -> str:
+615:def _synthesis_direction_label(report: CTASynthesisReport) -> str:
+654:def _domain_mini_line(d: DomainSynthesis) -> str:
+670:def _synthesis_not_provided_card() -> str:
+690:def _synth_final_status_card(report: CTASynthesisReport) -> str:
+698:def _synth_direction_card(report: CTASynthesisReport) -> str:
+708:def _synth_coverage_card(report: CTASynthesisReport) -> str:
+716:def _synth_certainty_card(report: CTASynthesisReport) -> str:
+729:def _synth_dependency_card(report: CTASynthesisReport) -> str:
+743:def _synth_intra_split_card(report: CTASynthesisReport) -> str:
+755:def _synth_critical_missing_card(report: CTASynthesisReport) -> str:
+767:def _synth_domain_alignment_card(report: CTASynthesisReport) -> str:
+778:def _synthesis_column2_html(report: Optional[CTASynthesisReport]) -> str:
+802:def _synthesis_column3_evidence_html(report: CTASynthesisReport) -> str:
+846:def _fmt_dt_any(value) -> str:
+862:def _provenance_row(bilesen: str, gozlem, yayin, erisim, kaynak: str) -> str:
+874:def _observability_row(items) -> str:
+883:def _unsupported_panel(product_key: str, display_name: str) -> str:
+899:def _error_panel(product_key: str, display_name: str, hata_mesaji: str) -> str:
+914:def _not_attempted_panel(product_key: str, display_name: str) -> str:
+928:def _product_panel_html(product_key: str, display_name: str, view: TerminalView,
+1039:def render_cta_terminal_screen(
+1045:    default_product: Optional[str] = None,
+1101:    aktif_urun = default_product or ilk_gercek_urun or PRODUCT_CATALOG[0][0]

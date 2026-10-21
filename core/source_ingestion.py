@@ -9,14 +9,22 @@ class SourceIngestionManager:
 
     def fetch_from_api(self, url: str) -> Dict[str, Any]:
         timestamp = datetime.utcnow().isoformat()
+        
+        # Nitter ve diğer sitelerin bizi bot sanıp engellememesi için tarayıcı kimliği ekliyoruz
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        
         try:
-            response = requests.get(url, timeout=5)
+            # Timeout süresini 5'ten 15'e çıkardık, çünkü Nitter bazen yavaş yanıt verir
+            response = requests.get(url, headers=headers, timeout=15)
+            
             if response.status_code == 200:
                 return {
                     "source_id": url,
                     "status": "available",
                     "timestamp": timestamp,
-                    "content": response.text,
+                    "content": response.text, # Tickmill RSS'i için response.text kalmalı!
                     "error": None
                 }
             else:

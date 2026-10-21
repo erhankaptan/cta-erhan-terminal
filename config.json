@@ -1,7 +1,8 @@
 {
     "sources": [
-        "https://jsonplaceholder.typicode.com/todos/1",
-        "https://jsonplaceholder.typicode.com/todos/2",
-        "https://jsonplaceholder.typicode.com/todos/3"
+        "https://www.tickmill.com/blog/rss/feed.xml",
+        "https://nitter.poast.org/wayneterprises/rss",
+        "https://nitter.poast.org/misterpuertas/rss",
+        "https://nitter.poast.org/juanjesusmontoy/rss"
     ]
 }

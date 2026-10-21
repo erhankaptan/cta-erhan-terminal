@@ -66,13 +66,193 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Deutsche Bank 'Trump Xi The Main Event'",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Deutsche Bank 'Trump Xi Ana Etkinlik'",
     "content_en": "EQUITY, FX & MACRO STRATEGY BRIEFING: WASHINGTON SUMMIT BREAKTHROUGH & TRADE DETENTESource Data: Cross-Asset Strategy Desk / White House Briefings | Date: September 24, 2026THE TAKE: BUSAN EXTENSION TO JANUARY 2027 ANCHORS NEAR-TERM MARKET STABILITYPresiden...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ, DÖVİZ VE MAKRO STRATEJİ BRİFİNGİ: WASHINGTON ZİRVESİ ATILIMI VE TİCARET YUMUŞAMASI. Kaynak Verisi: Çapraz Varlık Strateji Masası / Beyaz Saray Brifingleri | Tarih: 24 Eylül 2026. DEĞERLENDİRME: BUSAN UZATMASI OCAK 2027'YE KADAR KISA VADELİ PİYASA İSTİKRARINI SAĞLIYOR. Başkan...",
     "url": "https://www.tickmill.com/blog/institutional-insights-deutsche-bank-trump-xii-the-main-event",
     "published_at": "Thu, 24 Sep 2026 11:11:00 +0000",
     "fetched_at": "2026-09-24T12:02:55.886243+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Washington Zirvesi'ndeki ticaret yumuşaması ve Busan uzatması, piyasalarda kısa vadeli istikrar beklentisi yaratıyor. Bu durum, risk iştahını artırarak hisse senetleri ve emtialar üzerinde olumlu etki yapabilirken, güvenli liman varlıkları üzerinde baskı oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret yumuşaması ve piyasa istikrarı risk iştahını artırır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ticaretin ve büyümenin iyileşme beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ticaretin ve büyümenin iyileşme beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "NÖTR",
+        "gerekce": "Ticaret yumuşaması ile doğrudan güçlü bir bağlantısı yok.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk iştahının artması güvenli liman talebini azaltabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk iştahının artması güvenli liman talebini azaltabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Endüstriyel talep artışı beklentisi ve risk iştahı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Endüstriyel talep artışı beklentisi ve küresel büyüme.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "Endüstriyel talep artışı beklentisi ve risk iştahı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret anlaşmaları ve küresel talep beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret anlaşmaları ve küresel talep beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret anlaşmaları ve küresel talep beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret anlaşmaları ve küresel talep beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret anlaşmaları ve küresel talep beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artmasıyla USD karşısında güçlenebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Güvenli liman JPY talebinin azalmasıyla USD karşısında zayıflayabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artmasıyla USD karşısında güçlenebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ticaret iyileşmesi ve risk iştahıyla USD karşısında güçlenebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Ticaret iyileşmesi ve risk iştahıyla CAD, USD karşısında güçlenebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Güvenli liman CHF talebinin azalmasıyla USD karşısında zayıflayabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-20T20:16:29.904416+00:00"
   },
   {
     "id": "daily-market-outlook-september-24-2026",
