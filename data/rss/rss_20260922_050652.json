@@ -8,30 +8,30 @@
     "title_en": "CADCHF H4 | Bearish breakout in focus",
     "title_tr": "CADCHF H4 | Ayı piyasası kırılımı odak noktasında",
     "content_en": "Title: CADCHF H4 | Bearish breakout in focus Type: Bearish reversal Preference: The price could rise towards the pivot at 0.58729, an overlap resistance. A reversal from this level could lead the price toward the 1st suport at 0.58227, an overlap support. Alternati...",
-    "content_tr": "Başlık: CADCHF H4 | Ayı piyasası kırılımı odak noktasında Tür: Ayı piyasası dönüşü Tercih: Fiyat, 0.58729 seviyesindeki pivot noktasına, bir çakışma direncine doğru yükselebilir. Bu seviyeden bir dönüş, fiyatı 0.58227 seviyesindeki ilk desteğe, bir çakışma desteğine doğru götürebilir. Alternatif...",
+    "content_tr": "Başlık: CADCHF H4 | Ayı piyasası kırılımı odak noktasında Tür: Ayı piyasası dönüşü Tercih: Fiyat, 0.58729'daki pivot noktasına, bir çakışma direncine doğru yükselebilir. Bu seviyeden bir geri dönüş, fiyatı 0.58227'deki ilk desteğe, bir çakışma desteğine doğru yönlendirebilir. Alternati...",
     "url": "https://www.tickmill.com/blog/cadchf-h4-bearish-breakout-in-focus-22nd-september-2026",
     "published_at": "Tue, 22 Sep 2026 11:20:00 +0000",
     "fetched_at": "2026-09-22T05:06:52.065712+00:00",
     "translation_hash": "",
-    "yorum": "Makale, CADCHF paritesinde ayı piyasası dönüşü öngörerek, geçici bir direnç seviyesine yükselişin ardından düşüş potansiyeline işaret ediyor. Bu durum, Kanada Doları'nın İsviçre Frangı karşısında zayıflayabileceğini gösteriyor ve bu para birimlerinde veya ilgili varlıklarda pozisyonu olan yatırımcıları etkileyebilir.",
+    "yorum": "CADCHF paritesinde ayı piyasası dönüşü bekleniyor. Fiyatın dirençten geri dönerek destek seviyelerine gerilemesi olası görünüyor. Bu durum, Kanada Doları'nda İsviçre Frangı'na karşı bir zayıflığa işaret edebilir.",
     "genel_yon": "AŞAĞI",
     "varliklar": [
       {
         "sembol": "6C",
         "isim": "Kanada Doları",
         "yon": "AŞAĞI",
-        "gerekce": "CADCHF paritesinde ayı piyasası dönüşü beklentisi, Kanada Doları'nın İsviçre Frangı karşısında zayıflayacağına işaret ediyor.",
+        "gerekce": "CADCHF paritesinde ayı piyasası kırılımı ve dönüş beklentisi, Kanada Doları'nın İsviçre Frangı karşısında değer kaybetme potansiyelini göstermektedir.",
         "skor": 0.8
       },
       {
         "sembol": "6S",
         "isim": "İsviçre Frangı",
         "yon": "YUKARI",
-        "gerekce": "CADCHF paritesinde ayı piyasası dönüşü beklentisi, İsviçre Frangı'nın Kanada Doları karşısında güçleneceğine işaret ediyor.",
+        "gerekce": "CADCHF paritesinde ayı piyasası kırılımı ve dönüş beklentisi, İsviçre Frangı'nın Kanada Doları karşısında değer kazanma potansiyelini göstermektedir.",
         "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-22T22:14:05.649366+00:00"
+    "translated_at": "2026-10-23T12:31:37.940706+00:00"
   },
   {
     "id": "usousd-h4-falling-towards-pullback-support-22nd-september-2026",
@@ -42,23 +42,23 @@
     "title_en": "USOUSD H4 | Falling towards pullback support",
     "title_tr": "USOUSD H4 | Geri çekilme desteğine doğru düşüş",
     "content_en": "Title: USOUSD H4 | Falling towards pullback support Type: Bullish bounce Preference: The price is falling towards the pivot at 93.69, a pullback support that aligns with the 50% Fibonacci retracement. A bounce from this level could lead the price toward the 1st res...",
-    "content_tr": "Başlık: USOUSD H4 | Geri çekilme desteğine doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 93.69'daki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir...",
+    "content_tr": "Başlık: USOUSD H4 | Geri çekilme desteğine doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 93.69'daki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/usousd-h4-falling-towards-pullback-support-22nd-september-2026",
     "published_at": "Tue, 22 Sep 2026 11:18:00 +0000",
     "fetched_at": "2026-09-22T05:06:52.065741+00:00",
     "translation_hash": "",
-    "yorum": "Bu analiz, USOUSD'de (petrol) potansiyel bir boğa sıçraması öngörmektedir. Bu durum, kısa vadede petrol fiyatları için olumlu bir görünüm sunarak enerji piyasalarında yukarı yönlü bir hareketlilik yaratabilir ve enflasyon beklentilerini etkileyebilir.",
+    "yorum": "Bu analiz, USOUSD'de (petrol ETF'i) potansiyel bir yükseliş sıçramasına işaret ediyor. Petrol fiyatlarındaki olası bir artış, enerji piyasalarında kısa vadeli bir iyimserlik yaratabilir ve enflasyon beklentilerini etkileyebilir.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "USOUSD",
         "isim": "Petrol ETF'i",
         "yon": "YUKARI",
-        "gerekce": "Fiyat, %50 Fibonacci geri çekilmesi ve pivot desteği olan 93.69'a düşüyor ve buradan boğa sıçraması bekleniyor.",
+        "gerekce": "Fiyatın %50 Fibonacci geri çekilmesiyle uyumlu 93.69 pivot seviyesinden bir sıçrama bekleniyor.",
         "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-22T22:14:16.881780+00:00"
+    "translated_at": "2026-10-23T12:31:49.120046+00:00"
   },
   {
     "id": "gbpchf-h4-bearish-momentum-building-22nd-september-2026",
@@ -69,30 +69,30 @@
     "title_en": "GBPCHF H4 | Bearish momentum building",
     "title_tr": "GBPCHF H4 | Ayı piyasası momentumu oluşuyor",
     "content_en": "Title: GBPCHF H4 | Bearish momentum building Type: Bearish reversal Preference: The price could rise toward the pivot at 1.1010, which is an overlap resistance. A reversal from this level could lead the price toward the 1st support at 1.0937, a pullback support. A...",
-    "content_tr": "Başlık: GBPCHF H4 | Ayı piyasası momentumu oluşuyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, çakışan bir direnç olan 1.1010'daki pivot noktasına doğru yükselebilir. Bu seviyeden bir geri dönüş, fiyatı bir geri çekilme desteği olan 1.0937'deki 1. desteğe doğru yönlendirebilir. Bir...",
+    "content_tr": "GBPCHF H4 | Ayı piyasası momentumu oluşuyor. Ayı piyasası dönüşü bekleniyor. Fiyat, çakışan bir direnç olan 1.1010'daki pivot noktasına doğru yükselebilir. Bu seviyeden bir geri dönüş, fiyatı geri çekilme desteği olan 1.0937'deki ilk desteğe doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/gbpchf-h4-bearish-momentum-building-22nd-september-2026",
     "published_at": "Tue, 22 Sep 2026 11:04:00 +0000",
     "fetched_at": "2026-09-22T05:06:52.065762+00:00",
     "translation_hash": "",
-    "yorum": "Analiz, GBPCHF paritesinde potansiyel bir ayı piyasası dönüşüne işaret ediyor. Fiyatın 1.1010 seviyesindeki pivot direncinden geri dönerek 1.0937'deki desteğe gerilemesi bekleniyor. Bu durum, İngiliz Sterlini'nin İsviçre Frangı karşısında zayıflayabileceğine dair bir sinyal olarak yorumlanabilir.",
+    "yorum": "Makale, GBPCHF paritesinde potansiyel bir ayı piyasası dönüşüne işaret ediyor. Fiyatın kısa vadede bir direnç seviyesine yükselip ardından düşüşe geçebileceği öngörülüyor. Bu durum, İngiliz Sterlini'nin İsviçre Frangı karşısında değer kaybetme potansiyeline dikkat çekiyor.",
     "genel_yon": "AŞAĞI",
     "varliklar": [
       {
         "sembol": "6B",
         "isim": "İngiliz Sterlini",
         "yon": "AŞAĞI",
-        "gerekce": "GBPCHF paritesinde ayı piyasası dönüşü beklentisi, GBP'nin CHF karşısında zayıflayacağını gösteriyor.",
+        "gerekce": "GBPCHF paritesinde ayı piyasası dönüşü beklentisi, GBP'nin CHF karşısında değer kaybetme potansiyeline işaret ediyor.",
         "skor": 0.8
       },
       {
         "sembol": "6S",
         "isim": "İsviçre Frangı",
         "yon": "YUKARI",
-        "gerekce": "GBPCHF paritesinde ayı piyasası dönüşü beklentisi, CHF'nin GBP karşısında güçleneceğini gösteriyor.",
+        "gerekce": "GBPCHF paritesinde ayı piyasası dönüşü beklentisi, CHF'nin GBP karşısında değer kazanma potansiyeline işaret ediyor.",
         "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-22T22:14:28.097516+00:00"
+    "translated_at": "2026-10-23T12:32:00.010845+00:00"
   },
   {
     "id": "eurjpy-h4-heading-towards-50-fib-resistance-22nd-september-2026",
@@ -101,16 +101,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURJPY H4 | Heading towards 50% Fib resistance",
-    "title_tr": "EURJPY H4 | %50 Fib direnci hedefleniyor",
+    "title_tr": "EURJPY H4 | %50 Fib direncine doğru ilerliyor",
     "content_en": "Title: EURJPY H4 | Heading towards 50% Fib resistance Type: Bearish reversal Preference: The price is rising towards the pivot at 182.01, an overlap resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward th...",
-    "content_tr": "Başlık: EURJPY H4 | %50 Fib direnci hedefleniyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu, üst üste binen bir direnç olan 182.01'deki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı...",
+    "content_tr": "Başlık: EURJPY H4 | %50 Fib direncine doğru ilerliyor Tip: Ayı piyasası geri dönüşü Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan ve 182.01'deki pivot noktasına, yani bir örtüşme direncine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı aşağı yönlü hareket ettirebilir.",
     "url": "https://www.tickmill.com/blog/eurjpy-h4-heading-towards-50-fib-resistance-22nd-september-2026",
     "published_at": "Tue, 22 Sep 2026 11:15:00 +0000",
     "fetched_at": "2026-09-22T05:06:52.065784+00:00",
     "translation_hash": "",
-    "yorum": "EURJPY paritesinde %50 Fibonacci direnç seviyesinden bir ayı piyasası dönüşü bekleniyor. Bu durum, paritede kısa vadede aşağı yönlü bir hareket potansiyeline işaret etmektedir. Yatırımcılar bu seviyede satış baskısı arayabilir.",
+    "yorum": "Makale, EURJPY paritesinde önemli bir direnç seviyesinden potansiyel bir ayı piyasası geri dönüşüne işaret ediyor. Bu durum, paritede kısa vadeli bir düşüş trendi başlatarak, satış fırsatları arayan döviz yatırımcıları için önemli olabilir.",
     "genel_yon": "AŞAĞI",
-    "varliklar": [],
-    "translated_at": "2026-10-22T22:14:41.184828+00:00"
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "EURJPY paritesinde beklenen ayı piyasası geri dönüşü, Euro'nun Japon Yeni karşısında değer kaybetme potansiyeline işaret etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "EURJPY paritesinde beklenen ayı piyasası geri dönüşü, Japon Yeni'nin Euro karşısında değer kazanma potansiyeline işaret etmektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-23T12:32:13.298293+00:00"
   }
 ]
