@@ -6,88 +6,109 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Deutsche Bank Positioning & Flows Update 21/9/26",
-    "title_tr": "Kurumsal İçgörüler: Deutsche Bank Konumlandırma ve Akış Güncellemesi 21/9/26",
+    "title_tr": "Kurumsal Görüşler: Deutsche Bank Pozisyonlama ve Akış Güncellemesi 21/9/26",
     "content_en": "DEUTSCHE BANK INVESTOR POSITIONING & FLOWSTHE TAKE: DISCRETIONARY CAPITULATION CREATES CONTRARIAN SETUPGlobal equities continue to battle a hostile macro backdrop—elevated oil prices, yields near cycle highs, geopolitical tension, and persistent AI pacing fears...",
-    "content_tr": "DEUTSCHE BANK YATIRIMCI KONUMLANDIRMASI VE AKIŞLARTEMEL YORUM: İSTEĞE BAĞLI VARLIKLARDAKİ TESLİMİYET, KARŞIT BİR KURULUM YARATIYOR. Küresel hisse senetleri, yüksek petrol fiyatları, döngü zirvelerine yakın getiriler, jeopolitik gerilim ve yapay zeka hızına ilişkin süregelen endişeler gibi düşmanca bir makroekonomik ortamla mücadele etmeye devam ediyor...",
+    "content_tr": "DEUTSCHE BANK YATIRIMCI POZİSYONLARI VE AKIŞLARI - DEĞERLENDİRME: İHTİYARİ SERMAYE TESLİMİYETİ TERS BİR KURULUM YARATIYOR. Küresel hisse senetleri, yüksek petrol fiyatları, döngü zirvelerine yakın getiriler, jeopolitik gerilim ve yapay zeka hızına ilişkin süregelen endişeler gibi olumsuz bir makroekonomik ortamla mücadele etmeye devam ediyor...",
     "url": "https://www.tickmill.com/blog/institutional-insights-deutsche-bank-positioning-flows-update-21926",
     "published_at": "Mon, 21 Sep 2026 10:41:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.382968+00:00",
     "translation_hash": "",
-    "yorum": "Deutsche Bank'ın analizi, küresel hisse senetlerinin mevcut olumsuz koşullara rağmen, isteğe bağlı varlıklardaki teslimiyetin bir karşıt alım fırsatı yarattığını belirtiyor. Bu durum, piyasada kısa vadeli düşüşlerin ardından potansiyel bir toparlanma beklentisini güçlendirebilir. Yüksek petrol fiyatları ve jeopolitik gerilimler ise emtia piyasalarında hareketliliğe işaret ediyor.",
-    "genel_yon": "YUKARI",
+    "yorum": "Deutsche Bank'ın analizi, küresel piyasalardaki olumsuz makroekonomik koşullara rağmen (yüksek petrol fiyatları, artan getiriler, jeopolitik gerilim) ihtiyarî sermayenin teslimiyetinin ters bir piyasa kurulumu yarattığını belirtiyor. Bu durum, mevcut düşüş eğiliminin ardından kontrarian yatırımcılar için potansiyel bir alım fırsatına işaret edebilirken, kısa vadede riskli varlıklar üzerindeki baskının devam ettiğini gösteriyor.",
+    "genel_yon": "AŞAĞI",
     "varliklar": [
       {
         "sembol": "ES",
         "isim": "S&P 500 Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
-      },
-      {
-        "sembol": "MES",
-        "isim": "Mini S&P 500 Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri, olumsuz makroekonomik ortam ve artan endişelerle mücadele ediyor.",
+        "skor": 0.8
       },
       {
         "sembol": "NQ",
         "isim": "Nasdaq 100 Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
-      },
-      {
-        "sembol": "MNQ",
-        "isim": "Mini Nasdaq 100 Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri üzerindeki baskıya ek olarak, yapay zeka hızına ilişkin endişeler teknoloji hisselerini olumsuz etkiliyor.",
+        "skor": 0.8
       },
       {
         "sembol": "RTY",
         "isim": "Russell 2000 Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri üzerindeki olumsuz makroekonomik baskı, küçük sermayeli şirketleri daha fazla etkileyebilir.",
+        "skor": 0.8
       },
       {
         "sembol": "YM",
         "isim": "Dow Jones Vadeli İşlemleri",
-        "yon": "YUKARI",
-        "gerekce": "İsteğe bağlı varlıklardaki teslimiyetin karşıt bir kurulum yarattığı belirtiliyor, bu da potansiyel bir toparlanmaya işaret ediyor.",
-        "skor": 0.7
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri, olumsuz makroekonomik ortam ve artan endişelerle mücadele ediyor.",
+        "skor": 0.8
       },
       {
         "sembol": "CL",
         "isim": "Ham Petrol",
         "yon": "YUKARI",
-        "gerekce": "Makalede yüksek petrol fiyatları belirtiliyor.",
+        "gerekce": "Makalede 'yüksek petrol fiyatları' ifadesi, mevcut yükseliş eğilimini destekliyor.",
         "skor": 0.9
       },
       {
         "sembol": "MCL",
         "isim": "Mini Ham Petrol",
         "yon": "YUKARI",
-        "gerekce": "Makalede yüksek petrol fiyatları belirtiliyor.",
+        "gerekce": "Makalede 'yüksek petrol fiyatları' ifadesi, mevcut yükseliş eğilimini destekliyor.",
         "skor": 0.9
       },
       {
         "sembol": "GC",
         "isim": "Altın",
         "yon": "YUKARI",
-        "gerekce": "Jeopolitik gerilimler ve genel düşmanca makro ortam güvenli liman talebini artırabilir.",
+        "gerekce": "Jeopolitik gerilimler ve olumsuz makroekonomik ortam, güvenli liman varlıklarına olan talebi artırır.",
         "skor": 0.7
       },
       {
         "sembol": "MGC",
         "isim": "Mini Altın",
         "yon": "YUKARI",
-        "gerekce": "Jeopolitik gerilimler ve genel düşmanca makro ortam güvenli liman talebini artırabilir.",
+        "gerekce": "Jeopolitik gerilimler ve olumsuz makroekonomik ortam, güvenli liman varlıklarına olan talebi artırır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri, olumsuz makroekonomik ortam ve artan endişelerle mücadele ediyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri üzerindeki baskıya ek olarak, yapay zeka hızına ilişkin endişeler teknoloji hisselerini olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'yüksek petrol fiyatları' ifadesi, mevcut yükseliş eğilimini destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'yüksek petrol fiyatları' ifadesi, mevcut yükseliş eğilimini destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik gerilimler ve olumsuz makroekonomik ortam, güvenli liman varlıklarına olan talebi artırır.",
         "skor": 0.7
       }
     ],
-    "translated_at": "2026-10-23T12:30:22.831849+00:00"
+    "translated_at": "2026-10-23T17:48:15.825690+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-21926",
@@ -98,23 +119,30 @@
     "title_en": "S&P500 Daily Action Areas & Price Targets 21/9/26",
     "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 21/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 21/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 21/9/26***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) ALINTILANIYOR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK ARALIK DİRENÇ 7882 DESTEK 7490HAFTALIK BOĞA AYI...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 21/9/26. ***ES1!(Z SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ALINTILANMIŞTIR, FARK PUANINI ÇIKARINIZ***. AYLIK-HAFTALIK & GÜNLÜK SEVİYELER. AYLIK BOĞA AYI BÖLGESİ 7440/7400. AYLIK ARALIK DİRENÇ 7882 DESTEK 7490. HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-21926",
     "published_at": "Mon, 21 Sep 2026 08:54:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383006+00:00",
     "translation_hash": "",
-    "yorum": "Makale, S&P500 endeksi için günlük, haftalık ve aylık bazda önemli destek ve direnç seviyelerini belirtmektedir. Bu seviyeler, yatırımcıların potansiyel alım/satım bölgelerini ve piyasanın boğa/ayı eğilimini belirlemesine yardımcı olabilir. Ancak, mevcut fiyatın bu seviyelere göre konumu belirtilmediği için net bir yön tayini yapmak zordur.",
+    "yorum": "Makale, S&P500 için önemli teknik seviyeler sunmaktadır. Belirtilen direnç ve destek noktaları, piyasanın geniş bir aralıkta hareket edebileceğini göstermektedir. Boğa-ayı bölgesi, olası bir düşüşte kritik bir geri dönüş noktası olarak izlenebilir.",
     "genel_yon": "NÖTR",
     "varliklar": [
       {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Makale, 7490 destek seviyesinin üzerinde kalındığı sürece 7882 direncine doğru yukarı yönlü potansiyel olduğunu belirtmektedir.",
+        "skor": 0.7
+      },
+      {
         "sembol": "ES",
-        "isim": "S&P 500 E-mini Vadeli İşlemleri",
-        "yon": "NÖTR",
-        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgeleri ile destek ve direnç seviyelerini belirtmekte ancak mevcut fiyatın bu seviyelere göre konumunu açıklamamaktadır.",
-        "skor": 0.5
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "S&P500 (SPX500) seviyeleri için referans olarak kullanıldığı ve bu seviyelerin yukarı yönlü potansiyel taşıdığı belirtilmiştir.",
+        "skor": 0.7
       }
     ],
-    "translated_at": "2026-10-23T12:30:38.538076+00:00"
+    "translated_at": "2026-10-23T17:48:34.985288+00:00"
   },
   {
     "id": "usdjpy-pivotal-test-at-15800-15850",
@@ -152,37 +180,184 @@
     "title_en": "Daily Market Outlook, September 21, 2026",
     "title_tr": "Günlük Piyasa Görünümü, 21 Eylül 2026",
     "content_en": "Daily Market Outlook, September 21, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Risk Firms As Oil Falls And US-China Hopes BuildAsian equity markets began the week on a firmer footing, with many regional indices posting ...",
-    "content_tr": "Günlük Piyasa Görünümü, 21 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Notu - Petrol Düşerken ve ABD-Çin Umutları Artarken Risk İştahı Güçleniyor\nAsya hisse senedi piyasaları haftaya daha sağlam bir başlangıç yaptı ve birçok bölgesel endeks...",
+    "content_tr": "Günlük Piyasa Görünümü, 21 Eylül 2026. Patrick Munnelly, Tickmill Group Ortak: Piyasa Stratejisi. Munnelly'nin Makro Mektubu - Petrol Düşerken ve ABD-Çin Umutları Artarken Risk İştahı Artıyor. Asya hisse senedi piyasaları haftaya güçlü başladı, birçok bölgesel endeks yükseldi. Bu olumlu hava, ham petrol fiyatlarındaki önemli düşüşten kaynaklandı; bu düşüş enflasyon endişelerini hafifletti ve tüketici güvenini artırdı. Ayrıca, ABD-Çin ticaret ilişkilerine dair yenilenen iyimserlik ek destek sağladı. Yatırımcılar şimdi enflasyon rakamları ve merkez bankası yorumları gibi yaklaşan ekonomik verileri bekliyor. Dolar, artan risk iştahını yansıtarak başlıca para birimleri karşısında zayıfladı. Güvenli liman varlığı olan altın, yatırımcıların riskli varlıklara yönelmesiyle satış baskısı gördü. Endüstriyel metaller, iyileşen küresel büyüme görünümünden faydalandı. Tahıl piyasaları, arz endişeleri ve güçlü hasat tahminleriyle nispeten istikrarlı kaldı. Genel olarak, piyasa düşük petrol fiyatları ve jeopolitik iyimserlik sayesinde riske yönelme eğilimi gösteriyor.",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-21-2026",
     "published_at": "Mon, 21 Sep 2026 09:38:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383041+00:00",
     "translation_hash": "",
-    "yorum": "Petrol fiyatlarındaki düşüş ve ABD-Çin ilişkilerindeki iyimserlik, küresel risk iştahını artırarak hisse senedi piyasalarında olumlu bir hava yaratmıştır. Asya borsalarındaki güçlü başlangıç, bu pozitif eğilimin devam edebileceğine işaret ediyor.",
+    "yorum": "Piyasa, düşen petrol fiyatları ve ABD-Çin ilişkilerindeki iyimserlikle risk iştahının arttığı bir döneme giriyor. Bu durum, hisse senetleri ve endüstriyel metaller için olumlu, güvenli liman varlıkları (altın) ve dolar için ise olumsuz bir etki yaratıyor. Yaklaşan enflasyon verileri ve merkez bankası açıklamaları kısa vadeli yönü belirleyecek.",
     "genel_yon": "YUKARI",
     "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "S&P 500 Micro E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Nasdaq 100 Micro E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk iştahının artması ve Asya piyasalarındaki yükseliş genel hisse senedi piyasalarını destekliyor.",
+        "skor": 0.8
+      },
       {
         "sembol": "CL",
         "isim": "Ham Petrol",
         "yon": "AŞAĞI",
-        "gerekce": "Makalede petrol fiyatlarının düştüğü açıkça belirtiliyor.",
+        "gerekce": "Petrol fiyatlarındaki önemli düşüş enflasyon endişelerini hafifletti ve risk iştahını artırdı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatlarındaki önemli düşüş enflasyon endişelerini hafifletti ve risk iştahını artırdı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Artan risk iştahı ve güvenli liman talebinin azalması altın üzerinde satış baskısı yarattı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Artan risk iştahı ve güvenli liman talebinin azalması altın üzerinde satış baskısı yarattı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "İyileşen küresel büyüme görünümü ve artan risk iştahı endüstriyel metalleri destekledi.",
         "skor": 0.8
       },
       {
-        "sembol": "ES",
-        "isim": "S&P 500 Vadeli İşlemleri",
+        "sembol": "HG",
+        "isim": "Bakır",
         "yon": "YUKARI",
-        "gerekce": "Risk iştahının arttığı ve Asya hisse senedi piyasalarının yükselişte olduğu belirtiliyor.",
+        "gerekce": "İyileşen küresel büyüme görünümü ve artan risk iştahı endüstriyel metalleri destekledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "İyileşen küresel büyüme görünümü ve artan risk iştahı endüstriyel metalleri destekledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "NÖTR",
+        "gerekce": "Arz endişeleri ve güçlü hasat tahminleri birbirini dengeleyerek piyasayı istikrarlı tuttu.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "NÖTR",
+        "gerekce": "Arz endişeleri ve güçlü hasat tahminleri birbirini dengeleyerek piyasayı istikrarlı tuttu.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "NÖTR",
+        "gerekce": "Arz endişeleri ve güçlü hasat tahminleri birbirini dengeleyerek piyasayı istikrarlı tuttu.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "NÖTR",
+        "gerekce": "Tahıl piyasalarındaki genel istikrar, soya yağı fiyatlarını da etkiledi.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "NÖTR",
+        "gerekce": "Tahıl piyasalarındaki genel istikrar, soya küspesi fiyatlarını da etkiledi.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "YUKARI",
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması Euro'yu destekledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması Yen'i destekledi.",
         "skor": 0.7
       },
       {
-        "sembol": "6A",
-        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
         "yon": "YUKARI",
-        "gerekce": "ABD-Çin ilişkilerindeki iyimserlik, küresel ticareti ve risk iştahını destekleyerek AUD'yi olumlu etkileyebilir.",
-        "skor": 0.6
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması Sterlin'i destekledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "YUKARI",
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması Avustralya Doları'nı destekledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması Kanada Doları'nı destekledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Doların başlıca para birimleri karşısında zayıflaması İsviçre Frangı'nı destekledi.",
+        "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-23T12:30:53.382113+00:00"
+    "translated_at": "2026-10-23T17:49:04.294684+00:00"
   },
   {
     "id": "bitcoin-eyeing-test-of-key-pivot",
@@ -193,23 +368,23 @@
     "title_en": "Bitcoin Eyeing Test of Key Pivot",
     "title_tr": "Bitcoin Kilit Bir Pivot Noktasını Test Etmeye Hazırlanıyor",
     "content_en": "BTC Rally ContinuesBitcoin prices are on watch today after a strong rally on Friday took the futures market back into positive territory for the weekly close. Focus is now on whether bulls can gather enough momentum to achieve a breakout beyond the $83,385 level wh...",
-    "content_tr": "BTC Rallisi Devam Ediyor. Cuma günkü güçlü rallinin vadeli işlem piyasasını haftalık kapanış için pozitif bölgeye taşımasının ardından Bitcoin fiyatları bugün dikkatle izleniyor. Odak noktası şimdi, boğaların 83.385 dolar seviyesinin ötesinde bir kırılma gerçekleştirmek için yeterli ivmeyi toplayıp toplayamayacağı üzerinde...",
+    "content_tr": "BTC Rallisi Devam Ediyor. Cuma günkü güçlü rallinin vadeli işlem piyasasını haftalık kapanış için pozitif bölgeye taşımasının ardından Bitcoin fiyatları bugün dikkatle izleniyor. Odak noktası şimdi boğaların 83.385 dolar seviyesinin ötesinde bir kırılma gerçekleştirmek için yeterli ivmeyi toplayıp toplayamayacağı...",
     "url": "https://www.tickmill.com/blog/bitcoin-eyeing-test-of-key-pivot",
     "published_at": "Mon, 21 Sep 2026 09:26:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383070+00:00",
     "translation_hash": "",
-    "yorum": "Bitcoin'deki güçlü ralli, piyasada genel olarak risk iştahının arttığını ve kripto varlıklara yönelik olumlu bir beklenti olduğunu gösteriyor. Kilit direnç seviyesinin aşılması durumunda yukarı yönlü hareketin devam etmesi beklenebilir.",
+    "yorum": "Bitcoin, güçlü bir ralliyle haftayı pozitif kapatarak yükseliş ivmesini sürdürüyor. Boğaların kilit direnç seviyesini aşma çabası, piyasada genel bir iyimserlik yaratabilir ve risk iştahını artırabilir.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "BTCUSD",
         "isim": "Bitcoin",
         "yon": "YUKARI",
-        "gerekce": "Cuma günkü güçlü ralli sonrası pozitif kapanış ve kilit direnç seviyesini kırma potansiyeli.",
-        "skor": 0.8
+        "gerekce": "Cuma günkü güçlü ralli ve haftalık kapanışın pozitif bölgede olması, boğaların kilit direnci kırma potansiyeli.",
+        "skor": 0.9
       }
     ],
-    "translated_at": "2026-10-23T12:31:02.513379+00:00"
+    "translated_at": "2026-10-23T17:49:17.808568+00:00"
   },
   {
     "id": "is-copper-on-the-verge-of-a-fresh-breakout",
@@ -220,23 +395,37 @@
     "title_en": "Is Copper On The Verge Of A Fresh Breakout?",
     "title_tr": "Bakır Yeni Bir Yükselişin Eşiğinde mi?",
     "content_en": "Copper Soaring on MondayCopper prices are surging higher on Monday with the futures market now fast approaching a return to the record highs around the high 6.88s. The move comes amidst the broad rally in risk assets we’re seeing today driven by rising optimism aro...",
-    "content_tr": "Pazartesi Bakır Yükselişte Bakır fiyatları Pazartesi günü hızla yükseliyor ve vadeli işlem piyasası şu anda 6.88 seviyelerindeki rekor yüksek seviyelere geri dönmeye hızla yaklaşıyor. Bu hareket, bugün gördüğümüz risk varlıklarındaki geniş çaplı rallinin ortasında, artan iyimserliğin etkisiyle geliyor...",
+    "content_tr": "Bakır Pazartesi Günü Yükselişte. Bakır fiyatları Pazartesi günü hızla yükseliyor ve vadeli işlem piyasası şu anda 6.88 seviyelerindeki rekor yüksek seviyelere geri dönmeye yaklaşıyor. Bu hareket, bugün gördüğümüz risk varlıklarındaki geniş çaplı rallinin ortasında, artan iyimserlikten kaynaklanıyor...",
     "url": "https://www.tickmill.com/blog/is-copper-on-the-verge-of-a-fresh-breakout",
     "published_at": "Mon, 21 Sep 2026 10:44:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383108+00:00",
     "translation_hash": "",
-    "yorum": "Bakır fiyatlarındaki bu yükseliş, genel piyasada risk iştahının arttığını ve küresel ekonomik iyileşmeye dair iyimserliğin güçlendiğini gösteriyor. Bu durum, emtia piyasalarında ve genel olarak risk varlıklarında pozitif bir hava yaratabilir.",
+    "yorum": "Makale, bakır fiyatlarında güçlü bir yükseliş trendine işaret ediyor ve rekor seviyelere yaklaşıldığını belirtiyor. Bu durum, genel piyasada risk varlıklarına yönelik artan iyimserliğin bir göstergesi olup, emtialar ve hisse senedi piyasaları için olumlu bir sinyal taşıyor.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "HG",
         "isim": "Bakır",
         "yon": "YUKARI",
-        "gerekce": "Küresel risk iştahındaki artış ve rekor seviyelere yaklaşan fiyatlar nedeniyle güçlü bir yükseliş sergiliyor.",
+        "gerekce": "Fiyatlar Pazartesi günü hızla yükseliyor ve rekor seviyelere yaklaşıyor.",
         "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makalede bahsedilen 'risk varlıklarındaki geniş çaplı ralli'den faydalanıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makalede bahsedilen 'risk varlıklarındaki geniş çaplı ralli'den faydalanıyor.",
+        "skor": 0.7
       }
     ],
-    "translated_at": "2026-10-23T12:31:13.939512+00:00"
+    "translated_at": "2026-10-23T17:49:30.132280+00:00"
   },
   {
     "id": "crude-falls-heavily-as-iran-submits-fresh-peace-proposal",
@@ -247,29 +436,29 @@
     "title_en": "Crude Falls Heavily As Iran Submits Fresh Peace Proposal",
     "title_tr": "İran'ın Yeni Barış Teklifi Sunmasıyla Ham Petrol Sert Düştü",
     "content_en": "Crude Selling DeepensOil prices are continuing to push lower on Monday following a heavy downside reversal last week. The move comes amidst easing supply fears after Saudi Arabia announced that it can return the East-West pipeline to full capacity within 6 weeks. A...",
-    "content_tr": "Ham Petrol Satışları Derinleşiyor. Petrol fiyatları, geçen haftaki sert aşağı yönlü dönüşün ardından Pazartesi günü düşmeye devam ediyor. Bu hareket, Suudi Arabistan'ın Doğu-Batı boru hattını 6 hafta içinde tam kapasiteye döndürebileceğini açıklamasının ardından azalan arz endişeleri ortasında gerçekleşti. Bir...",
+    "content_tr": "Ham Petrol Satışları Derinleşiyor. Petrol fiyatları, geçen haftaki sert aşağı yönlü dönüşün ardından Pazartesi günü düşmeye devam ediyor. Bu hareket, Suudi Arabistan'ın Doğu-Batı boru hattını 6 hafta içinde tam kapasiteye döndürebileceğini açıklamasının ardından arz endişelerinin hafiflemesiyle birlikte geliyor. A...",
     "url": "https://www.tickmill.com/blog/crude-falls-heavily-as-iran-submits-fresh-peace-proposal",
     "published_at": "Mon, 21 Sep 2026 09:59:00 +0000",
     "fetched_at": "2026-09-21T12:56:24.383123+00:00",
     "translation_hash": "",
-    "yorum": "Makale, Suudi Arabistan'ın arz kapasitesini artırma potansiyeli ve İran'ın barış teklifiyle azalan jeopolitik risklerin petrol fiyatları üzerinde aşağı yönlü baskı oluşturduğunu belirtiyor. Bu durum, küresel enerji piyasalarında arz fazlası beklentilerini güçlendirerek fiyatlarda düşüşe yol açmıştır. Genel olarak emtia piyasalarında, özellikle enerji tarafında, satış baskısının devam edebileceği sinyalini vermektedir.",
+    "yorum": "Makale, Suudi Arabistan'ın boru hattı kapasitesini artırma potansiyeli ve İran'ın barış teklifiyle azalan arz endişeleri nedeniyle ham petrol fiyatlarında düşüş eğilimine işaret ediyor. Bu durum, enerji piyasalarında genel bir rahatlama ve fiyatlarda aşağı yönlü baskı yaratabilir.",
     "genel_yon": "AŞAĞI",
     "varliklar": [
       {
         "sembol": "CL",
         "isim": "Ham Petrol",
         "yon": "AŞAĞI",
-        "gerekce": "Suudi Arabistan'ın arzı artırma potansiyeli ve azalan jeopolitik riskler nedeniyle fiyatlar düşüyor.",
+        "gerekce": "Suudi Arabistan'ın boru hattı kapasitesini artırma ve İran'ın barış teklifiyle arz endişelerinin azalması nedeniyle fiyatlar düşüyor.",
         "skor": 0.9
       },
       {
         "sembol": "MCL",
         "isim": "Mikro Ham Petrol",
         "yon": "AŞAĞI",
-        "gerekce": "Suudi Arabistan'ın arzı artırma potansiyeli ve azalan jeopolitik riskler nedeniyle fiyatlar düşüyor.",
+        "gerekce": "Ham petrol fiyatlarındaki düşüş eğilimine paralel olarak mikro kontratlar da aşağı yönlü baskı altında.",
         "skor": 0.9
       }
     ],
-    "translated_at": "2026-10-23T12:31:26.962017+00:00"
+    "translated_at": "2026-10-23T17:49:41.414691+00:00"
   }
 ]
