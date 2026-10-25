@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Edges Higher as Retail Earnings Offset Fiscal Risks",
-    "title_tr": "",
+    "title_tr": "FTSE, Perakende Kazançları Mali Riskleri Dengelerken Yükselişe Geçti",
     "content_en": "FTSE Finish Line 22/9/2026: FTSE Edges Higher as Retail Earnings Offset Fiscal RisksLondon's FTSE 100 hovered in positive territory past midday on Tuesday, as strong corporate earnings updates and selective buying across retail and industrial engineering helpe...",
-    "content_tr": "",
+    "content_tr": "FTSE Bitiş Çizgisi 22/9/2026: FTSE, Perakende Kazançları Mali Riskleri Dengelerken Yükselişe Geçti. Londra'nın FTSE 100 endeksi Salı günü öğleden sonra pozitif bölgede seyretti. Güçlü şirket kazanç güncellemeleri ve perakende ile endüstriyel mühendislik sektörlerindeki seçici alımlar endeksin yükselmesine yardımcı oldu.",
     "url": "https://www.tickmill.com/blog/ftse-edges-higher-as-retail-earnings-offset-fiscal-risks",
     "published_at": "Tue, 22 Sep 2026 16:31:00 +0000",
     "fetched_at": "2026-09-22T17:05:08.919386+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, güçlü şirket kazançlarının ve perakende sektöründeki alımların, mali risklere rağmen FTSE 100 endeksini yukarı taşıdığını belirtiyor. Bu durum, kurumsal performansın makroekonomik endişeleri geçici olarak gölgede bıraktığını gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "YUKARI",
+        "gerekce": "Güçlü şirket kazançları ve perakende ile endüstriyel mühendislik sektörlerindeki seçici alımlar endeksi pozitif bölgede tuttu.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:29:38.359121+00:00"
   },
   {
     "id": "institutional-fx-insights-goldman-sachs-dollar-drift",
@@ -21,13 +33,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights: Goldman Sachs 'Dollar Drift\"",
-    "title_tr": "",
+    "title_tr": "Kurumsal FX İçgörüleri: Goldman Sachs 'Dolar Kayması'",
     "content_en": "THE TAKE: LOW-VOLATILITY DOLLAR DRIFT MEETS DIVERGENT CENTRAL BANK PATHSGoldman Sachs FX Research expects G10 foreign exchange markets to remain anchored in a low-volatility regime across most economic scenarios. The US Dollar is structurally supported by solid dom...",
-    "content_tr": "",
+    "content_tr": "ÖZET: DÜŞÜK VOLATİLİTELİ DOLAR KAYMASI, FARKLI MERKEZ BANKASI YOLLARIYLA BULUŞUYOR. Goldman Sachs FX Araştırması, G10 döviz piyasalarının çoğu ekonomik senaryoda düşük volatilite rejiminde kalmasını bekliyor. ABD Doları, sağlam iç dinamiklerle yapısal olarak destekleniyor...",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-goldman-sachs-dollar-drift",
     "published_at": "Tue, 22 Sep 2026 13:09:00 +0000",
     "fetched_at": "2026-09-22T17:05:08.919429+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Goldman Sachs'ın analizi, ABD Doları'nın sağlam temellerle desteklendiğini ve G10 döviz piyasalarında düşük volatilite beklendiğini gösteriyor. Bu durum, Dolar'ın diğer G10 para birimleri karşısında yavaş ama istikrarlı bir yükseliş sergileyebileceğine işaret ediyor. Yatırımcılar, merkez bankalarının farklılaşan politikalarının döviz kurları üzerindeki etkilerine odaklanmalı.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Goldman Sachs, ABD Doları'nın sağlam iç dinamiklerle yapısal olarak desteklendiğini belirtiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yapısal olarak desteklenmesi ve merkez bankalarının farklılaşan politikaları Euro üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yapısal desteği ve düşük volatilite beklentisi, Euro'nun Dolar karşısında değer kaybetmesine neden olabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yapısal desteği ve merkez bankalarının farklılaşan politikaları Japon Yeni üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Goldman Sachs, G10 döviz piyasalarında düşük volatilite rejiminin devam etmesini bekliyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T07:29:57.732848+00:00"
   },
   {
     "id": "sp-500-august-fractal-equality-objective-toward-8040",
@@ -36,12 +88,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P 500 August Fractal / Equality Objective Toward 8040",
-    "title_tr": "",
+    "title_tr": "S&P 500 Ağustos Fraktalı / 8040 Hedefine Doğru Eşitlik Amacı",
     "content_en": "S&P 500 August Fractal / Equality Objective Toward 8040TO REVIEW THE TECHNICAL CHART, CLICK HERE! The S&P 500 continues to show a notable similarity/fractal pattern with the prior August advance, visible on the H4 structure. The current price action appears...",
-    "content_tr": "",
+    "content_tr": "S&P 500 Ağustos Fraktalı / 8040 Hedefine Doğru Eşitlik Amacı. TEKNİK GRAFİĞİ İNCELEMEK İÇİN BURAYA TIKLAYIN! S&P 500, H4 yapısında görülebilen, önceki Ağustos yükselişiyle kayda değer bir benzerlik/fraktal paterni göstermeye devam ediyor. Mevcut fiyat hareketi...",
     "url": "https://www.tickmill.com/blog/sp-500-august-fractal-equality-objective-toward-8040",
     "published_at": "Tue, 22 Sep 2026 14:19:00 +0000",
     "fetched_at": "2026-09-22T17:05:08.919453+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P 500'ün geçmiş bir Ağustos yükselişine benzer bir fraktal patern gösterdiğini ve 8040 hedefine doğru potansiyel bir yükseliş sinyali verdiğini belirtiyor. Bu durum, hisse senedi piyasalarında genel olarak yukarı yönlü bir beklenti yaratabilir. Ancak makalenin eksik olması, bu analizin öncü bir değerlendirme olduğunu gösterir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Makale, S&P 500'ün geçmiş bir Ağustos yükselişine benzer bir fraktal patern gösterdiğini ve 8040 hedefine doğru ilerlediğini belirtiyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:30:13.189510+00:00"
   }
 ]

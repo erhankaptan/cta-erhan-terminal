@@ -6,13 +6,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "WTIUSD H4 | Rising towards 50% Fib resistance",
-    "title_tr": "",
+    "title_tr": "WTIUSD H4 | %50 Fib direncine doğru yükseliş",
     "content_en": "Title: WTIUSD H4 | Rising towards 50% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 99.43, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward the 1...",
-    "content_tr": "",
+    "content_tr": "Başlık: WTIUSD H4 | %50 Fib direncine doğru yükseliş Tür: Ayı piyasası dönüşü Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan ve bir geri çekilme direnci görevi gören 99.43'teki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı 1...",
     "url": "https://www.tickmill.com/blog/wtiusd-h4-rising-towards-50-fib-resistance-24th-september-2026",
     "published_at": "Thu, 24 Sep 2026 12:20:00 +0000",
     "fetched_at": "2026-09-24T05:06:19.193596+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, WTIUSD'nin kritik bir direnç seviyesine yaklaştığını ve bu noktadan bir ayı piyasası dönüşü beklediğini belirtiyor. Bu durum, petrol piyasasında kısa vadede aşağı yönlü bir hareket beklentisi yaratabilir ve satış baskısını artırabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-10-25T07:32:53.765384+00:00"
   },
   {
     "id": "gbpjpy-h4-bullish-bounce-setup-24th-september-2026",
@@ -21,13 +25,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPJPY H4 | Bullish bounce setup",
-    "title_tr": "",
+    "title_tr": "GBPJPY H4 | Boğa sıçraması kurulumu",
     "content_en": "Title: GBPJPY H4 | Bullish bounce setup Type: Bullish bounce Preference: The price is falling towards the pivot at 209.39, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 211.68, a pullback resistance that aligns with ...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPJPY H4 | Boğa sıçraması kurulumu Tür: Boğa sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 209.39'daki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 211.68'deki ilk dirence, yani ... ile uyumlu bir geri çekilme direncine doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/gbpjpy-h4-bullish-bounce-setup-24th-september-2026",
     "published_at": "Thu, 24 Sep 2026 12:23:00 +0000",
     "fetched_at": "2026-09-24T05:06:19.193619+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPJPY paritesinde potansiyel bir yükseliş sinyali vermektedir. Fiyatın belirtilen destek seviyesinden sıçraması durumunda yukarı yönlü bir hareket beklenmektedir. Bu durum, parite üzerinde kısa vadeli alım fırsatları yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPJPY",
+        "isim": "İngiliz Sterlini / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın destek seviyesinden sıçrayarak yukarı yönlü hareket etmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:33:02.732969+00:00"
   },
   {
     "id": "audusd-h4-bullish-rebound-for-the-aussie-24th-september-2026",
@@ -36,13 +52,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "AUDUSD H4 | Bullish rebound for the Aussie",
-    "title_tr": "",
+    "title_tr": "AUDUSD H4 | Avustralya Doları için Boğa Yönlü Toparlanma",
     "content_en": "Title: AUDUSD H4 | Bullish rebound for the Aussie Type: Bullish bounce Preference: The price is falling towards the pivot at 0.7022, a pullback support slightly above the 78.6% Fibonacci projection. A bounce from this level could lead the price toward the 1st resis...",
-    "content_tr": "",
+    "content_tr": "Başlık: AUDUSD H4 | Avustralya Doları için Boğa Yönlü Toparlanma Tür: Boğa yönlü sıçrama Tercih: Fiyat, 0.7022 seviyesindeki pivot noktasına, %78.6 Fibonacci projeksiyonunun biraz üzerindeki bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/audusd-h4-bullish-rebound-for-the-aussie-24th-september-2026",
     "published_at": "Thu, 24 Sep 2026 12:17:00 +0000",
     "fetched_at": "2026-09-24T05:06:19.193634+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, AUDUSD paritesinde önemli bir destek seviyesinden boğa yönlü bir toparlanma bekliyor. Bu durum, Avustralya dolarının ABD doları karşısında kısa vadeli güç kazanabileceğine işaret ediyor. Belirtilen pivot seviyesinden bir sıçrama gerçekleşirse, paritede geçici bir yükseliş trendi görülebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 0.7022 pivot seviyesinden, %78.6 Fibonacci desteğinden boğa yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:33:12.557946+00:00"
   },
   {
     "id": "usdjpy-h4-potential-bearish-reversal-24th-september-2026",
@@ -51,13 +79,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Potential bearish reversal",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Potansiyel düşüş yönlü dönüş",
     "content_en": "Title: USDJPY H4 | Potential bearish reversal Type: Bearish reversal Preference: The price is rising toward the pivot at158.54, which is a pullback resistance that is slightly below the 78.6% Fibonacci retracement. A reversal from this level could lead the price t...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Potansiyel düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, %78.6 Fibonacci geri çekilmesinin biraz altında yer alan bir geri çekilme direnci olan 158.54 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-potential-bearish-reversal-24th-september-2026",
     "published_at": "Thu, 24 Sep 2026 12:11:00 +0000",
     "fetched_at": "2026-09-24T05:06:19.193650+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDJPY paritesinde potansiyel bir düşüş yönlü dönüş beklentisi, Japon Yeni'nin ABD Doları karşısında değer kazanabileceğine işaret ediyor. Bu durum, piyasada risk iştahının azalması veya Japonya Merkez Bankası'nın politikalarına yönelik beklentilerle tetiklenebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 158.54 pivot direncinden düşüş yönlü bir dönüş yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:33:23.641576+00:00"
   },
   {
     "id": "eurusd-plunging-as-oil-fall-hits-ecb-tightening-expectations",
@@ -66,12 +106,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD Plunging As Oil Fall Hits ECB Tightening Expectations",
-    "title_tr": "",
+    "title_tr": "EURUSD Düşüşte: Petrol Fiyatlarındaki Düşüş ECB Sıkılaştırma Beklentilerini Vuruyor",
     "content_en": "EUR Selling DeepensEURUSD remains heavily sold today with the pair extending its decline amidst the ongoing fall in oil prices. The reaction in EURUSD suggests that lower oil prices are taking a harsher toll on ECB tightening expectations than Fed tightening expect...",
-    "content_tr": "",
+    "content_tr": "EUR Satışları Derinleşiyor. EURUSD, petrol fiyatlarındaki devam eden düşüşün ortasında gerilemesini sürdürerek bugün yoğun bir şekilde satılmaya devam ediyor. EURUSD'deki tepki, düşük petrol fiyatlarının Avrupa Merkez Bankası (ECB) sıkılaştırma beklentileri üzerinde Fed'in sıkılaştırma beklentilerinden daha sert bir etki yarattığını gösteriyor...",
     "url": "https://www.tickmill.com/blog/eurusd-plunging-as-oil-fall-hits-ecb-tightening-expectations",
     "published_at": "Wed, 23 Sep 2026 11:10:00 +0000",
     "fetched_at": "2026-09-24T05:06:19.193665+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Petrol fiyatlarındaki düşüş, Avrupa Merkez Bankası'nın (ECB) sıkılaştırma beklentilerini azaltarak EUR üzerinde baskı yaratıyor. Bu durum, EURUSD paritesinde aşağı yönlü bir eğilimi işaret ederken, doların güçlenmesine katkıda bulunabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede EURUSD'nin petrol fiyatlarındaki düşüşle birlikte yoğun bir şekilde satıldığı ve gerilemesini sürdürdüğü belirtiliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede petrol fiyatlarında devam eden bir düşüşün olduğu açıkça ifade ediliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:33:36.548228+00:00"
   }
 ]

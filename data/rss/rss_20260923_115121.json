@@ -6,13 +6,74 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 23, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 23 Eylül 2026",
     "content_en": "Daily Market Outlook, September 23, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Brent Breaking, Bonds Bounce & Bulls BreatheAsian bonds and Treasury futures caught a bid as oil prices extended their retreat, giving m...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 23 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Notu - Brent Kırılıyor, Tahviller Sıçrıyor ve Boğalar Nefes Alıyor\nAsya tahvilleri ve Hazine vadeli işlemleri, petrol fiyatlarının geri çekilmesini sürdürmesiyle talep gördü ve m...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-23-2026",
     "published_at": "Wed, 23 Sep 2026 09:41:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.034915+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Petrol fiyatlarındaki düşüş, tahvil piyasasında alım iştahını artırarak piyasalara bir miktar rahatlama getirdi. Bu durum, risk iştahının yeniden canlandığına ve hisse senedi piyasalarında olumlu bir hava oluştuğuna işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatları düşüşünü sürdürerek piyasaya rahatlama sağladı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatlarındaki genel düşüş eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatlarındaki genel düşüş eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "AŞAĞI",
+        "gerekce": "Tahvil fiyatları yükseldiği için getiriler düşüyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Boğaların nefes alması, risk iştahının arttığını ve hisse senetlerinin yükseldiğini gösteriyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Boğaların nefes alması, risk iştahının arttığını ve hisse senetlerinin yükseldiğini gösteriyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Boğaların nefes alması, risk iştahının arttığını ve hisse senetlerinin yükseldiğini gösteriyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Boğaların nefes alması, risk iştahının arttığını ve hisse senetlerinin yükseldiğini gösteriyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T07:31:15.783289+00:00"
   },
   {
     "id": "btcusd-watching-812k-trend-support-for-bullish-reversal",
@@ -21,13 +82,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "BTCUSD — Watching 81.2k Trend Support for Bullish Reversal",
-    "title_tr": "",
+    "title_tr": "BTCUSD — Boğa Yönlü Bir Tersine Dönüş İçin 81.2 bin Trend Desteğini İzliyor",
     "content_en": "BTCUSD — Watching 81.2k Trend Support for Bullish ReversalTO REVIEW THE TECHNICAL CHART, CLICK HEREBTCUSD — Watching 81.2k Trend Support for Bullish Reversal Bitcoin is currently stalling at the daily VAH from the all-time-high composite profile, suggesting short-t...",
-    "content_tr": "",
+    "content_tr": "Bitcoin, 81.2 bin seviyesindeki trend desteğini boğa yönlü bir tersine dönüş için yakından izliyor. Şu anda tüm zamanların en yüksek seviyesindeki kompozit profilden gelen günlük VAH (Değer Alanı Yüksekliği) seviyesinde duraklama gösteriyor, bu da kısa vadede bir...",
     "url": "https://www.tickmill.com/blog/btcusd-watching-812k-trend-support-for-bullish-reversal",
     "published_at": "Wed, 23 Sep 2026 11:17:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.034939+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Bitcoin'in kritik bir destek seviyesinde boğa yönlü bir tersine dönüş potansiyeli taşıdığını belirtiyor. Bu durum, kripto para piyasasında kısa vadede yukarı yönlü bir hareketlilik beklentisi yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "81.2 bin trend desteğinde tutunma ve boğa yönlü tersine dönüş potansiyeli izleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T07:31:25.262127+00:00"
   },
   {
     "id": "dollar-pushing-higher-on-hawkish-fed-speak",
@@ -36,13 +109,200 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Pushing Higher On Hawkish Fed Speak",
-    "title_tr": "",
+    "title_tr": "Şahin Fed Konuşmalarıyla Dolar Yükseliyor",
     "content_en": "More Hawkish Fed CommentaryThe US Dollar is continuing to storm higher today with the DXY up sharply mid-week as focus falls on hawkish Fed expectations. Following on from hawkish comments earlier in the week from Fed’s Goolsbee and Musalem, yesterday we heard Rich...",
-    "content_tr": "",
+    "content_tr": "Daha Şahin Fed Yorumları. ABD Doları, hafta ortasında DXY'nin keskin bir şekilde yükselmesiyle bugün de güçlü bir şekilde yükselmeye devam ediyor, zira odak noktası şahin Fed beklentileri. Hafta başında Fed yetkilileri Goolsbee ve Musalem'den gelen şahin yorumların ardından, dün Rich...",
     "url": "https://www.tickmill.com/blog/dollar-pushing-higher-on-hawkish-fed-speak",
     "published_at": "Wed, 23 Sep 2026 09:48:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.034964+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Şahin Fed söylemleri, faiz artırımı beklentilerini güçlendirerek ABD Doları'nı yukarı yönlü itiyor. Bu durum, emtialar üzerinde baskı yaratabilir ve küresel piyasalarda risk iştahını azaltabilir. Yüksek faiz beklentileri hisse senedi piyasaları için olumsuz bir sinyal olarak algılanabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed söylemleri ve faiz artırımı beklentileri ABD Doları'nı güçlendiriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, EUR karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, JPY karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, GBP karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, AUD karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, CAD karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed söylemleri ve yükselen ABD Doları, CHF karşısında USD'yi güçlendiriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları ve faiz artırımı beklentileri altın üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları ve faiz artırımı beklentileri mikro altın üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları ve faiz artırımı beklentileri gümüş üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı ham petrol fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı mikro ham petrol fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı doğal gaz fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı bakır fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı platin fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "S&P 500 Micro E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Nasdaq 100 Micro E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri ve yüksek faiz beklentileri hisse senedi piyasalarını olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı mısır fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı soya fasulyesi fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı buğday fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı soya yağı fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen ABD Doları, dolar bazlı soya küspesi fiyatlarını olumsuz etkiliyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T07:31:50.740090+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-23926",
@@ -51,13 +311,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 23/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 23/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 23/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 23/9/26. Nakit US500 eşdeğer seviyeleri için ES1! (Z VADELİ SÖZLEŞME SEVİYELERİ) referans alınmıştır; puan farkını çıkarın. AYLIK-HAFTALIK & GÜNLÜK SEVİYELER: AYLIK BOĞA AYI BÖLGESİ 7440/7400, AYLIK DİRENÇ 7882, DESTEK 7490. HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-23926",
     "published_at": "Wed, 23 Sep 2026 08:44:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.035011+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için günlük, haftalık ve aylık teknik seviyeleri (destek, direnç, boğa/ayı bölgeleri) sunmaktadır. Bu seviyeler, kısa vadeli yatırımcılar için önemli referans noktaları sağlayarak piyasa hareketlerine yön verebilir. Belirtilen seviyeler, özellikle vadeli işlem piyasasında işlem yapanlar için kritik öneme sahiptir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 vadeli işlemleri için aylık boğa/ayı bölgeleri (7440/7400) ve direnç (7882) ile destek (7490) seviyeleri sunmaktadır. Mevcut fiyat bilgisi olmadan net bir yön belirlenememektedir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-25T07:32:03.414748+00:00"
   },
   {
     "id": "yen-plunging-intervention-risks-return",
@@ -66,13 +338,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Yen Plunging, Intervention Risks Return",
-    "title_tr": "",
+    "title_tr": "Yen Düşüşte, Müdahale Riskleri Geri Döndü",
     "content_en": "BOJ Rate-Check ChatterIntervention risks are becoming the focal point again for JPY traders as the Yen continues to plunge against USD. Chatter is circulating that the BOJ conducted a rate check on Friday, prompting speculation that the bank might be about to inter...",
-    "content_tr": "",
+    "content_tr": "BOJ Faiz Kontrolü Söylentileri. Yen'in USD karşısında düşmeye devam etmesiyle birlikte, müdahale riskleri JPY yatırımcıları için yeniden odak noktası haline geliyor. BOJ'un Cuma günü bir faiz kontrolü yaptığına dair söylentiler dolaşıyor ve bu da bankanın müdahale etmeye hazırlandığı spekülasyonlarına yol açıyor...",
     "url": "https://www.tickmill.com/blog/yen-plunging-intervention-risks-return",
     "published_at": "Wed, 23 Sep 2026 10:20:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.035071+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Yen'in USD karşısındaki keskin düşüşünü ve Japonya Merkez Bankası'nın (BOJ) potansiyel müdahalesini ele alıyor. Bu durum, JPY paritelerinde artan oynaklığa işaret ederken, olası bir müdahale Yen'de geçici bir güçlenmeye yol açarak küresel döviz piyasalarını etkileyebilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Yen'in USD karşısında keskin düşüşü ve BOJ müdahale beklentisi nedeniyle zayıflıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Yen'in USD karşısında değer kaybetmesi, USDJPY paritesini yükseltiyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T07:32:15.755753+00:00"
   },
   {
     "id": "institutional-fx-insights-pictet-dxy-techs",
@@ -81,12 +372,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights: Pictet DXY Techs",
-    "title_tr": "",
+    "title_tr": "Kurumsal FX Analizleri: Pictet DXY Teknikleri",
     "content_en": "GLOBAL MACRO & FX TECHNICAL BRIEFING: US DOLLAR INDEX (DXY)Theme: Short-Term Double-Bottom Breakout & Reversal DynamicsTHE TAKE: TECHNICAL BREAKOUT VALIDATES SHORT-TERM DXY RECOVERYThe US Dollar Index (DXY) has completed a short-term double-bottom breakout ...",
-    "content_tr": "",
+    "content_tr": "KÜRESEL MAKRO & FX TEKNİK BİLGİLENDİRME: ABD Dolar Endeksi (DXY)\nTema: Kısa Vadeli Çift Dip Kırılımı ve Tersine Dönüş Dinamikleri\nSONUÇ: TEKNİK KIRILIM, KISA VADELİ DXY TOPARLANMASINI ONAYLADI\nABD Dolar Endeksi (DXY), kısa vadeli bir çift dip kırılımını tamamladı...",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-pictet-dxy-techs",
     "published_at": "Wed, 23 Sep 2026 13:07:00 +0000",
     "fetched_at": "2026-09-23T11:51:21.035093+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "DXY'deki bu teknik kırılım, kısa vadede ABD dolarının güçleneceğine işaret ediyor. Bu durum, EURUSD, GBPUSD gibi paritelerde düşüş, USDJPY gibi paritelerde ise yükseliş beklentisi yaratabilir. Emtia fiyatları üzerinde de baskı oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Kısa vadeli çift dip kırılımı ve teknik toparlanma sinyali verdi.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T07:32:28.235436+00:00"
   }
 ]

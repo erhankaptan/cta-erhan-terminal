@@ -6,12 +6,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Trades Mixed as Weak PMI Data Offsets Oil Recovery",
-    "title_tr": "",
+    "title_tr": "Zayıf PMI Verileri Petrol Toparlanmasını Dengelerken FTSE Karışık Seyretti",
     "content_en": "FTSE Finish Line 23/9/26 : FTSE Trades Mixed as Weak PMI Data Offsets Oil RecoveryU.K. stocks turned in a mixed performance on Wednesday morning, as weak domestic flash PMI data weighed on investor sentiment while recovering crude oil prices kept the broader market...",
-    "content_tr": "",
+    "content_tr": "FTSE Bitiş Çizgisi 23/9/26: Zayıf PMI Verileri Petrol Toparlanmasını Dengelerken FTSE Karışık Seyretti. Çarşamba sabahı İngiltere hisse senetleri karışık bir performans sergiledi; zayıf yurt içi flaş PMI verileri yatırımcı duyarlılığını olumsuz etkilerken, toparlanan ham petrol fiyatları genel piyasayı destekledi...",
     "url": "https://www.tickmill.com/blog/ftse-trades-mixed-as-weak-pmi-data-offsets-oil-recovery",
     "published_at": "Wed, 23 Sep 2026 17:09:00 +0000",
     "fetched_at": "2026-09-23T17:15:55.238817+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Zayıf PMI verileri İngiltere piyasalarında olumsuz bir hava yaratırken, toparlanan petrol fiyatları düşüşleri sınırladı. Bu durum, piyasaların makroekonomik göstergeler ve emtia fiyatları arasındaki dengeyi aradığını gösteriyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Zayıf PMI verileri ile toparlanan petrol fiyatlarının dengelemesi sonucu endeks karışık bir performans sergiledi.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede ham petrol fiyatlarının toparlanma eğiliminde olduğu belirtilmiştir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T07:32:41.458533+00:00"
   }
 ]

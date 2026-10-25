@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 22/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 22/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 22/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 22/9/26***ES1!(Z VADELİ SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN KULLANILMIŞTIR, FARK PUANINI ÇIKARINIZ***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnci 7882 Desteği 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-22926",
     "published_at": "Tue, 22 Sep 2026 08:36:00 +0000",
     "fetched_at": "2026-09-22T11:48:56.575731+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P 500 vadeli işlemleri (ES) için 22 Eylül 2026 tarihine ait günlük hareket alanları ve fiyat hedeflerini sunmaktadır. Belirtilen aylık boğa/ayı bölgeleri ve direnç/destek seviyeleri, yatırımcıların kısa vadeli piyasa duyarlılığını ve potansiyel işlem noktalarını belirlemesine yardımcı olabilir. Bu teknik seviyeler, piyasada volatiliteye ve belirli fiyat aralıklarında konsolidasyona işaret edebilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P 500 vadeli işlemleri (ES) için aylık boğa/ayı bölgeleri (7440/7400) ile direnç (7882) ve destek (7490) seviyelerini belirtmektedir. Bu seviyeler, piyasanın potansiyel hareket alanlarını ve denge noktalarını gösterir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T07:28:25.046728+00:00"
   },
   {
     "id": "bitcoin-breaks-out-as-etf-inflows-explode",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Breaks Out As ETF Inflows Explode",
-    "title_tr": "",
+    "title_tr": "Bitcoin, ETF Girişleri Patlayınca Yükselişe Geçti",
     "content_en": "Record ETF InflowsBitcoin prices soared higher yesterday with the futures market breaking out above the $83,385 level which has capped the market since February. The move was accompanied by a record surge in ETF demand with industry data reflecting net-inflows of j...",
-    "content_tr": "",
+    "content_tr": "Rekor ETF Girişleri: Bitcoin fiyatları dün yükselişe geçti; vadeli işlem piyasası, Şubat ayından bu yana piyasayı sınırlayan 83.385 dolar seviyesinin üzerine çıktı. Bu hareket, sektör verilerinin net girişleri yansıttığı rekor bir ETF talebi artışıyla birlikte gerçekleşti.",
     "url": "https://www.tickmill.com/blog/bitcoin-breaks-out-as-etf-inflows-explode",
     "published_at": "Tue, 22 Sep 2026 10:29:00 +0000",
     "fetched_at": "2026-09-22T11:48:56.575763+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bitcoin, rekor ETF girişleriyle birlikte önemli bir direnç seviyesini kırarak güçlü bir yükseliş trendine girdi. Bu durum, kripto para piyasasında genel bir iyimserlik yaratabilir ve daha fazla kurumsal yatırımcı ilgisini çekebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "Rekor ETF girişleri ve 83.385 dolar seviyesinin üzerine çıkarak direnci kırmasıyla fiyatlar yükselişe geçti.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T07:28:36.292728+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-sp500-positioning-key-levels-22926",
@@ -36,13 +60,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs SP500 Positioning & Key Levels 22/9/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış: Goldman Sachs SP500 Konumlandırması ve Anahtar Seviyeler 22/9/26",
     "content_en": "THE TAKE: SYSTEMATIC CTA SQUEEZE & TECH BUYING PROVIDE UPWARD TAPE SUPPORTGlobal equities saw strong net institutional accumulation over the past week, driven by long buys outpacing short sales by a 3.9-to-1 ratio. US equities recorded their largest net buying ...",
-    "content_tr": "",
+    "content_tr": "ÖZET: SİSTEMATİK CTA SIKIŞMASI VE TEKNOLOJİ ALIMLARI YUKARI YÖNLÜ PİYASA DESTEĞİ SAĞLIYOR. Geçtiğimiz hafta küresel hisse senetleri, uzun pozisyon alımlarının kısa pozisyon satışlarını 3.9'a 1 oranında geride bırakmasıyla güçlü net kurumsal birikim gördü. ABD hisse senetleri en büyük net alımı kaydetti...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-sp500-positioning-key-levels-22926",
     "published_at": "Tue, 22 Sep 2026 09:59:00 +0000",
     "fetched_at": "2026-09-22T11:48:56.575809+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, ABD hisse senetleri ve teknoloji sektöründe güçlü kurumsal alımlara işaret ediyor. Bu durum, piyasada yükseliş eğiliminin hakim olduğunu ve kısa vadede yukarı yönlü momentumun devam edebileceğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD hisse senetlerinde ve SP500'de güçlü kurumsal alımlar ve CTA sıkışması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji hisselerine yönelik güçlü alımlar ve yukarı yönlü piyasa desteği.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD hisse senetlerinde en büyük net alım ve genel piyasa desteği.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal alımlar ve CTA sıkışması ile güçlü yukarı yönlü destek.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji hisselerine yönelik güçlü alımlar ve yukarı yönlü piyasa desteği.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-10-25T07:28:50.919032+00:00"
   },
   {
     "id": "daily-market-outlook-september-22-2026",
@@ -51,13 +115,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 22, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 22 Eylül 2026",
     "content_en": "Daily Market Outlook, September 22, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Chips Rally As Fiscal Fault Lines WidenGlobal equities extended their recovery as renewed enthusiasm around artificial intelligence revived ...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 22 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - Mali Fay Hatları Genişlerken Çip Rallisi\nKüresel hisse senetleri, yapay zeka etrafındaki yenilenen coşkuyla toparlanmasını sürdürdü...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-22-2026",
     "published_at": "Tue, 22 Sep 2026 09:21:00 +0000",
     "fetched_at": "2026-09-22T11:48:56.575833+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, yapay zeka coşkusunun etkisiyle küresel hisse senetlerinde, özellikle de teknoloji sektöründe bir toparlanma yaşıyor. Ancak, genişleyen mali fay hatları, uzun vadede potansiyel ekonomik endişelere işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi toparlanması ve yapay zeka coşkusu.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "'Çip Rallisi' ve yapay zeka etrafındaki yenilenen coşku, teknoloji ağırlıklı endeks.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi toparlanması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi toparlanması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi toparlanması ve yapay zeka coşkusu.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "'Çip Rallisi' ve yapay zeka etrafındaki yenilenen coşku, teknoloji ağırlıklı endeks.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T07:29:07.252903+00:00"
   },
   {
     "id": "dollar-rallies-on-hawkish-fed-speak",
@@ -66,12 +177,52 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Rallies on Hawkish Fed Speak",
-    "title_tr": "",
+    "title_tr": "Dolar Şahin Fed Yorumlarıyla Yükseliyor",
     "content_en": "Hawkish Fed CommentaryThe US Dollar is pushing firmly higher today, with bullish sentiment strengthened by hawkish Fed commentary yesterday. Chicago Fed President Goolsbee said yesterday that he sees risks of inflation remaining elevated against a backdrop of heigh...",
-    "content_tr": "",
+    "content_tr": "Şahin Fed Yorumları\nABD Doları bugün güçlü bir şekilde yükseliyor ve dün gelen şahin Fed yorumları ile yükseliş eğilimi güçlendi. Chicago Fed Başkanı Goolsbee dün yaptığı açıklamada, yüksek enflasyon risklerinin devam ettiğini gördüğünü belirtti...",
     "url": "https://www.tickmill.com/blog/dollar-rallies-on-hawkish-fed-speak",
     "published_at": "Tue, 22 Sep 2026 09:37:00 +0000",
     "fetched_at": "2026-09-22T11:48:56.575891+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu yorumlar, Fed'in enflasyonla mücadele konusunda kararlı olduğunu ve faiz oranlarını daha uzun süre yüksek tutabileceğini gösteriyor. Bu durum, doları güçlendirirken, riskli varlıklar ve altın üzerinde aşağı yönlü baskı oluşturabilir. Piyasalar, Fed'in gelecekteki adımlarına ilişkin ipuçları için yakından izlemeye devam edecektir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed yorumları doları güçlendirerek EURUSD paritesini aşağı çekti.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "ABD Doları/Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed yorumları doları güçlendirerek USDJPY paritesini yukarı taşıdı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed duruşu ve potansiyel yüksek faiz oranları, hisse senedi piyasaları için olumsuz bir ortam yaratır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz oranları, büyüme odaklı teknoloji şirketlerinin değerlemelerini olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar ve yükselen faiz beklentileri, getirisi olmayan altın için cazibeyi azaltır.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:29:28.592921+00:00"
   }
 ]

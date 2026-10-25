@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Falling towards key support",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Ana desteğe doğru düşüş",
     "content_en": "Title: USDJPY H4 | Falling towards key support Type: Bullish bounce Preference: The price is falling towards the pivot at 156.10, an overlap resistance that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st re...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Ana desteğe doğru düşüş. Tip: Yükseliş sıçraması. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 156.10'daki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-falling-towards-key-support-23rd-september-2026",
     "published_at": "Wed, 23 Sep 2026 12:01:00 +0000",
     "fetched_at": "2026-09-23T04:56:15.831659+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDJPY'nin ana destek seviyesine düşüşü, piyasada bir toparlanma beklentisi yaratıyor. Bu durum, Japon Yeni'nin kısa vadede değer kazanabileceği, ancak sonrasında tekrar zayıflayabileceği bir senaryoyu işaret ediyor. Yatırımcılar bu seviyeden gelecek tepkiyi izleyecektir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "USD/JPY",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 156.10'daki ana destek ve %38.2 Fibonacci seviyesinden yükseliş sıçraması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:30:25.214424+00:00"
   },
   {
     "id": "eurjpy-h4-bullish-bounce-at-pullback-support-23rd-september-2026",
@@ -21,13 +33,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURJPY H4 | Bullish bounce at pullback support",
-    "title_tr": "",
+    "title_tr": "EURJPY H4 | Geri Çekilme Desteğinde Boğa Sıçraması",
     "content_en": "Title: EURJPY H4 | Bullish bounce at pullback support Type: Bullish bounce Preference: The price is falling towards the pivot at 179.45, a pullback support that aligns with the 61.8% Fibonacci retracement. A bounce from this level could lead the price toward the 1s...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURJPY H4 | Geri Çekilme Desteğinde Boğa Sıçraması Tür: Boğa sıçraması Tercih: Fiyat, %61.8 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme desteği olan 179.45'teki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1'lere doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/eurjpy-h4-bullish-bounce-at-pullback-support-23rd-september-2026",
     "published_at": "Wed, 23 Sep 2026 12:05:00 +0000",
     "fetched_at": "2026-09-23T04:56:15.831683+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "EURJPY paritesinde önemli bir geri çekilme desteğinden boğa yönlü bir sıçrama bekleniyor. Bu durum, belirtilen destek seviyesinin tutunması halinde paritede yukarı yönlü bir hareket potansiyeline işaret etmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [],
+    "translated_at": "2026-10-25T07:30:36.400648+00:00"
   },
   {
     "id": "usdchf-h4-falling-towards-50-fib-support-23rd-september-2026",
@@ -36,13 +52,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Falling towards 50% Fib support",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | %50 Fib desteğine doğru düşüş",
     "content_en": "Title: USDCHF H4 | Falling towards 50% Fib support Type: Bullish bounce Preference: The price is falling toward the pivot at 0.8162, which is an overlap support that aligns with the 50% Fibonacci retracement. A bounce from this level could lead the price toward the...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | %50 Fib desteğine doğru düşüş Tip: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan bir örtüşme desteği olan 0.8162'deki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ...'ya doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/usdchf-h4-falling-towards-50-fib-support-23rd-september-2026",
     "published_at": "Wed, 23 Sep 2026 11:40:00 +0000",
     "fetched_at": "2026-09-23T04:56:15.831698+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinde önemli bir teknik destek seviyesinden (0.8162) potansiyel bir boğa sıçramasına işaret ediyor. Bu durum, kısa vadede paritede yukarı yönlü bir hareket beklentisi oluşturarak alım fırsatları doğurabilir. Yatırımcılar bu seviyeyi yakından takip edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "%50 Fibonacci ve örtüşen destek seviyesinden (0.8162) boğa sıçraması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:30:45.276773+00:00"
   },
   {
     "id": "xauusd-h4-bullish-bounce-off-23rd-september-2026",
@@ -51,12 +79,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Bullish bounce off",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Boğa sıçraması",
     "content_en": "Title: XAUUSD H4 | Bullish bounce off Type: Bullish bounce Preference: The price has bounced off the pivot at 4,290.01, a pullback support. A rise from this level could lead the price toward the 1st resistance at 4,478, a pullback resistance Alternative Scenario: I...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, 4,290.01 seviyesindeki pivot noktasından, bir geri çekilme desteğinden sıçradı. Bu seviyeden bir yükseliş, fiyatı 4,478 seviyesindeki ilk dirence, bir geri çekilme direncine doğru taşıyabilir. Alternatif Senaryo: Ben...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-bullish-bounce-off-23rd-september-2026",
     "published_at": "Wed, 23 Sep 2026 12:03:00 +0000",
     "fetched_at": "2026-09-23T04:56:15.831715+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD'de teknik bir boğa sıçramasına işaret ediyor. Bu durum, altın fiyatlarında kısa vadede yukarı yönlü bir hareket beklentisini güçlendirebilir ve piyasada risk iştahının azaldığına dair bir sinyal olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın pivot destek seviyesinden sıçrayarak ilk dirence doğru yükselme potansiyeli taşıması.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T07:30:57.144117+00:00"
   }
 ]
