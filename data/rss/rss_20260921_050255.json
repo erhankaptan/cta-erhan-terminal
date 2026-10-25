@@ -8,23 +8,23 @@
     "title_en": "GBPUSD H4 | Bullish rebound underway",
     "title_tr": "GBPUSD H4 | Boğa yönlü toparlanma başladı",
     "content_en": "Title: GBPUSD H4 | Bullish rebound underway Type: Bullish bounce Preference: The price is falling towards the pivot at 1.3370, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.3420, a pullback resistance that aligns w...",
-    "content_tr": "Başlık: GBPUSD H4 | Boğa yönlü toparlanma başladı Tür: Boğa sıçraması Tercih: Fiyat, geri çekilme desteği olan 1.3370'teki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1.3420'deki ilk dirence doğru taşıyabilir; bu da geri çekilme direnciyle uyumlu...",
+    "content_tr": "Başlık: GBPUSD H4 | Boğa yönlü toparlanma başladı. Tip: Boğa yönlü sıçrama. Tercih: Fiyat, 1.3370'teki pivot seviyesine, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1.3420'deki ilk dirence, yani bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-bullish-rebound-underway-21st-september-2026",
     "published_at": "Mon, 21 Sep 2026 10:49:00 +0000",
     "fetched_at": "2026-09-21T05:02:55.408385+00:00",
     "translation_hash": "",
-    "yorum": "Makale, GBPUSD paritesinde boğa yönlü bir toparlanmanın başladığını belirtiyor. Bu durum, İngiliz Sterlini'nin ABD Doları karşısında güç kazanabileceğine işaret ediyor ve kısa vadeli alım fırsatları sunabilir.",
+    "yorum": "GBPUSD paritesinde boğa yönlü bir toparlanma beklentisi hakim. Fiyatın belirtilen destek seviyesinden sıçrayarak dirençlere doğru hareket etmesi öngörülüyor, bu da kısa vadede sterlin lehine bir görünüm sunuyor.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "GBPUSD",
-        "isim": "İngiliz Sterlini / ABD Doları",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
         "yon": "YUKARI",
-        "gerekce": "Fiyatın pivot seviyesi olan 1.3370'ten sıçrayarak 1.3420 direncine doğru yükselmesi bekleniyor.",
+        "gerekce": "Fiyatın 1.3370 destek seviyesinden sıçrayarak 1.3420 direncine doğru yükselmesi bekleniyor.",
         "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-25T00:05:24.036657+00:00"
+    "translated_at": "2026-10-25T01:48:43.413375+00:00"
   },
   {
     "id": "xagusd-h4-falling-towards-50-fib-support-21st-september-2026",
@@ -35,23 +35,23 @@
     "title_en": "XAGUSD H4 | Falling towards 50% Fib support",
     "title_tr": "XAGUSD H4 | %50 Fib desteğine doğru düşüş",
     "content_en": "Title: XAGUSD H4 | Falling towards 50% Fib support Type: Bullish bounce Preference: The price is falling towards the pivot at 64.82, a pullback support that aligns with the 50% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resi...",
-    "content_tr": "Başlık: XAGUSD H4 | %50 Fib desteğine doğru düşüş. Tip: Boğa sıçraması. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 64.82'deki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir...",
+    "content_tr": "Başlık: XAGUSD H4 | %50 Fib desteğine doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme desteği olan 64.82'deki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/xagusd-h4-falling-towards-50-fib-support-21st-september-2026",
     "published_at": "Mon, 21 Sep 2026 10:51:00 +0000",
     "fetched_at": "2026-09-21T05:02:55.408413+00:00",
     "translation_hash": "",
-    "yorum": "Makale, XAGUSD'nin önemli bir Fibonacci destek seviyesinden boğa sıçraması yapabileceğini öngörüyor. Bu durum, gümüş fiyatlarında kısa vadeli bir yükseliş potansiyeline işaret etmektedir. Yatırımcılar bu seviyeyi yakından takip edebilir.",
+    "yorum": "Makale, XAGUSD'de %50 Fibonacci desteğinden potansiyel bir boğa sıçramasına işaret ediyor. Bu durum, kısa vadede gümüş fiyatlarında bir toparlanma beklentisi yaratabilir. Yatırımcılar bu seviyeyi yakından takip etmelidir.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "XAGUSD",
         "isim": "Gümüş",
         "yon": "YUKARI",
-        "gerekce": "Fiyatın %50 Fibonacci desteğinden sıçrayarak yükseleceği beklentisi.",
+        "gerekce": "Fiyatın %50 Fibonacci geri çekilme desteğinden sıçrayarak yükselmesi bekleniyor.",
         "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-25T00:05:34.725614+00:00"
+    "translated_at": "2026-10-25T01:48:51.454828+00:00"
   },
   {
     "id": "usdjpy-h4-bullish-bounce-at-key-support-21st-september-2026",
@@ -62,22 +62,22 @@
     "title_en": "USDJPY H4 | Bullish bounce at key support",
     "title_tr": "USDJPY H4 | Kilit destekte boğa sıçraması",
     "content_en": "Title: USDJPY H4 | Bullish bounce at key support Type: Bullish bounce Preference: The price is falling towards the pivot at 156.10, an overlap support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st res...",
-    "content_tr": "Başlık: USDJPY H4 | Kilit destekte boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle uyumlu olan 156.10'daki pivot noktasına, bir örtüşme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir...",
+    "content_tr": "Başlık: USDJPY H4 | Kilit destekte boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 156.10'daki pivot noktasına, bir örtüşen desteğe doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-bullish-bounce-at-key-support-21st-september-2026",
     "published_at": "Mon, 21 Sep 2026 10:56:00 +0000",
     "fetched_at": "2026-09-21T05:02:55.408434+00:00",
     "translation_hash": "",
-    "yorum": "Makale, USDJPY paritesinde kilit bir destek seviyesinden boğa yönlü bir sıçrama beklemektedir. Bu durum, paritenin yukarı yönlü hareketini sürdürmesi ve Japon Yeni karşısında ABD Doları'nın güçlenmesi potansiyeline işaret etmektedir. Yatırımcılar, belirtilen destek seviyesini yakından takip etmelidir.",
+    "yorum": "USDJPY paritesinin kilit bir destek seviyesinden yukarı yönlü bir sıçrama yapması bekleniyor. Bu durum, paritede kısa vadede yükseliş potansiyeline işaret ederek alım fırsatları yaratabilir.",
     "genel_yon": "YUKARI",
     "varliklar": [
       {
         "sembol": "USDJPY",
-        "isim": "ABD Doları / Japon Yeni",
+        "isim": "USD/Japon Yeni",
         "yon": "YUKARI",
-        "gerekce": "Fiyatın 156.10'daki kilit destek ve %38.2 Fibonacci seviyesinden yukarı sıçraması bekleniyor.",
-        "skor": 0.7
+        "gerekce": "Fiyatın 156.10'daki kilit destek ve %38.2 Fibonacci geri çekilme seviyesinden boğa sıçraması yapması bekleniyor.",
+        "skor": 0.8
       }
     ],
-    "translated_at": "2026-10-25T00:05:43.983931+00:00"
+    "translated_at": "2026-10-25T01:48:59.788142+00:00"
   }
 ]
