@@ -7,6 +7,7 @@ Wayne Enterprise Kılavuzu Operasyonel Hatırlatmaları Entegre Edilmiştir.
 """
 
 import os
+import sys
 import json
 import re
 import smtplib
@@ -19,6 +20,18 @@ from datetime import datetime, timezone
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 DATA_DIR = PROJECT_ROOT / "data"
 SNAPSHOT_FILE = DATA_DIR / "snapshots" / "latest.json"
+
+# DENETCI KARARI (2026-10-25): Bu script hem `fetch.yml` (PYTHONPATH=
+# github.workspace ayarli) hem de `daily_report.yml` (PYTHONPATH
+# AYARLANMAMIS) tarafindan `python scripts/send_report.py` olarak
+# dogrudan calistiriliyor -- ikinci durumda `core.*` paketi import
+# edilemez. run_weekly_cot.py'deki ayni desenle PROJECT_ROOT'u
+# sys.path'e kendimiz ekliyoruz, PYTHONPATH ortam degiskenine bagimli
+# kalmiyoruz (minimal, tek-noktali bagimlilik).
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from core.notification_schedule import is_periodic_notification_due  # noqa: E402
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
@@ -281,8 +294,22 @@ def main():
     print("Telegram & Mail Rapor (v3) — Wayne Protocol Etkin")
     print("=" * 60)
 
+    # DENETCI KARARI (2026-10-25): ZAMANLAMA / HAFTA SONU FILTRESI --
+    # bildirim SADECE hafta ici 15:00/18:30/21:30 (Europe/Paris, +-7 dk)
+    # penceresinde gider. Bu bir hata degil, normal bir "simdi sira
+    # degil" durumu oldugu icin sessizce (exit 0) cikilir -- fetch.yml
+    # veri toplama/sentez pipeline'i yine de calisir, SADECE bu rapor
+    # gonderim adimi atlanir.
+    now_utc = datetime.now(timezone.utc)
+    if not is_periodic_notification_due(now_utc):
+        print(
+            f"[ZAMANLAMA] Simdi periyodik bildirim penceresinde degil "
+            f"(now_utc={now_utc.isoformat()}) -- Telegram ve Email ATLANIYOR."
+        )
+        return
+
     snapshot = load_snapshot()
-    
+
     # Snapshot boş/eksik olsa bile pipeline ve mail akışı asla çökmez, bilgi verir
     if not snapshot:
         print("[WARN] Snapshot bulunamadı veya analiz zaman aşımına uğradı.")
@@ -298,11 +325,9 @@ def main():
     print(msg[:1200])
     print("--- Gönderiliyor ---")
 
-    send_telegram(msg)
-
     # Mail gönderimi için HTML şablonu sarmalayıcısı
     subject = f"CTA ERHAN RAPORU (Wayne Protocol) - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
-    
+
     html_msg = f"""
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px;">
@@ -313,7 +338,18 @@ def main():
     </html>
     """
 
-    send_email(subject, html_msg)
+    # DENETCI KARARI (2026-10-25): EMAIL GORUNURLUGU -- email ONCE
+    # denenir (Telegram'dan once), basarisiz olursa Telegram mesajinin
+    # SONUNA bir uyari satiri eklenir. html_msg icerigi (email govdesi)
+    # orijinal msg'den uretildigi icin bu uyari EMAIL'IN kendi icine
+    # SIZMAZ -- sadece Telegram'a gider.
+    email_basarili = send_email(subject, html_msg)
+
+    telegram_msg = msg
+    if not email_basarili:
+        telegram_msg = telegram_msg + "\n\n⚠️ EMAIL GÖNDERİMİ BAŞARISIZ"
+
+    send_telegram(telegram_msg)
 
 
 if __name__ == "__main__":

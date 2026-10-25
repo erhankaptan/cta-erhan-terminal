@@ -1,9 +1,18 @@
 name: CTA Terminal - Auto Pipeline
 
 on:
-  # Fransa Saatiyle (UTC+2) seans içi her 3 saatte bir (09:00, 12:00, 15:00, 18:00, 21:00, 00:00)
+  # DENETCI KARARI (2026-10-25): Saatlik tetikleme (GitHub Actions
+  # kotasini asiri tuketmemek icin cok sik degil, 15 dk degil).
+  # Gercek bildirim GONDERME karari artik burada DEGIL --
+  # scripts/send_report.py icindeki core/notification_schedule.py
+  # (zoneinfo.ZoneInfo("Europe/Paris")) tarafindan veriliyor: sadece
+  # hafta ici 15:00/18:30/21:30 (+-7 dk) penceresinde gercekten
+  # gonderiliyor, digerlerinde script sessizce atlar. Boylece DST
+  # (yaz/kis saati) icin cron'u yilda 2 kez elle degistirmeye gerek
+  # kalmiyor -- veri toplama/sentez pipeline'i ise HER saat calisir
+  # (veri tazeligi icin).
   schedule:
-    - cron: '0 7-22/3 * * *'
+    - cron: '0 * * * *'
 
   # Manuel tetikleme (test etmek için)
   workflow_dispatch:

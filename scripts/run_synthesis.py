@@ -11,6 +11,7 @@ Kullanım:
 """
 
 import json
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List
@@ -26,7 +27,16 @@ from core.synthesis_engine import synthesize_all, SynthesisResult
 
 PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 DATA_DIR = PROJECT_ROOT / "data"
-EVIDENCE_DB = DATA_DIR / "evidence.db"
+# DENETCI KARARI (2026-10-25): KOK NEDEN -- build_evidence_pool.py
+# "evidence_pool.db" dosyasina YAZIYOR (her calistirmada sifirdan
+# yeniden uretiyor), ama bu dosya eskiden "evidence.db" OKUYORDU --
+# iki ayri dosya adi. "evidence.db" .gitignore'da (*.db) oldugu icin
+# GitHub Actions'daki taze checkout'ta HICBIR ZAMAN var olmuyordu ->
+# asagidaki EVIDENCE_DB.exists() kontrolu HER SEFERINDE False donuyor
+# ve fonksiyon sessizce return ediyordu (is basarili gorunuyor, ama
+# latest.json 1 aydir hic guncellenmiyordu). Simdi dogru/taze dosyayi
+# okuyor: build_evidence_pool.py'nin YAZDIGI ayni dosya.
+EVIDENCE_DB = DATA_DIR / "evidence_pool.db"
 SNAPSHOTS_DIR = DATA_DIR / "snapshots"
 
 
@@ -49,10 +59,13 @@ def main():
     print("=" * 60)
 
     # Evidence DB kontrol
+    # DENETCI KARARI (2026-10-25): return yerine sys.exit(1) -- gercek bir
+    # hata durumunda GitHub Actions adimi KIRMIZI yansin, "basarili"
+    # gorunup hicbir sey yapmamis olan sessiz return bir daha olmasin.
     if not EVIDENCE_DB.exists():
         print(f"[FATAL] Evidence DB bulunamadı: {EVIDENCE_DB}")
         print("        Önce: python -m scripts.build_evidence_pool")
-        return
+        sys.exit(1)
 
     # Kanıtları yükle
     repo = EvidenceRepository(str(EVIDENCE_DB))
@@ -61,7 +74,7 @@ def main():
 
     if not all_evidences:
         print("[FATAL] Hiç kanıt yok")
-        return
+        sys.exit(1)
 
     # Varlıkları bul
     asset_codes = sorted({e.asset_code for e in all_evidences})
