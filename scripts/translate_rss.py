@@ -22,6 +22,14 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 WAIT_SECONDS = 3
 
+# DENETCI KARARI (2026-10-25): Bu calistirmada en fazla kac YENI oge
+# cevrilsin. Kok neden: 1 aylik donma doneminde 171 cevrilmemis oge
+# birikmisti, hepsini tek calistirmada bitirmeye calismak 3dk (sonra
+# 10dk) timeout'unu asiyordu. Simdi her saatlik calistirma backlog'un
+# bir kismini (en fazla bu kadarini) temizler, birkac calistirmaya
+# yayilir -- bir daha "tek seferde yuzlerce oge" durumu olusmaz.
+MAX_ITEMS_PER_RUN = 40
+
 
 PRODUCT_LIST = """ES, MES, NQ, MNQ, RTY, YM (Endeksler)
 CL, MCL, NG, GC, MGC, SI, HG, PL (Emtialar)
@@ -140,8 +148,15 @@ def process_rss_files():
     new_count = 0
     skip_count = 0
     err_count = 0
+    limit_doldu = False
 
     for fp in files:
+        if new_count >= MAX_ITEMS_PER_RUN:
+            print(f"[LIMIT] Bu çalıştırmada {MAX_ITEMS_PER_RUN} öge sınırına "
+                  f"ulaşıldı -- kalan dosyalar bir sonraki çalıştırmaya bırakılıyor.")
+            limit_doldu = True
+            break
+
         try:
             with open(fp, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -151,9 +166,12 @@ def process_rss_files():
 
         is_list = isinstance(data, list)
         items = data if is_list else [data]
-        updated = False
 
         for item in items:
+            if new_count >= MAX_ITEMS_PER_RUN:
+                limit_doldu = True
+                break
+
             rss_id = item.get("id") or item.get("guid") or ""
             if not rss_id:
                 continue
@@ -185,16 +203,22 @@ def process_rss_files():
 
             processed.add(rss_id)
             new_count += 1
-            updated = True
-            time.sleep(WAIT_SECONDS)
 
-        if updated:
+            # DENETCI KARARI (2026-10-25): OGE BAZLI KAYIT -- eskiden
+            # dosyadaki TUM ogeler bitene kadar diske yazilmiyordu;
+            # timeout ortasinda kesilirse o dosyadaki ilerleme TAMAMEN
+            # kaybolup bir sonraki calistirmada Gemini'ye TEKRAR odeme/
+            # istek gidiyordu. Simdi HER basarili cevirinin hemen
+            # ardindan dosya ve state diske yaziliyor.
             with open(fp, "w", encoding="utf-8") as f:
                 json.dump(items if is_list else items[0], f, ensure_ascii=False, indent=2)
+            state["processed_ids"] = list(processed)
+            save_state(state)
 
-    state["processed_ids"] = list(processed)
-    save_state(state)
-    print(f"\nOK. Yeni: {new_count}, Atlandi: {skip_count}, Hata: {err_count}")
+            time.sleep(WAIT_SECONDS)
+
+    print(f"\nOK. Yeni: {new_count}, Atlandi: {skip_count}, Hata: {err_count}"
+          f"{' (LIMIT nedeniyle erken bitti)' if limit_doldu else ''}")
 
 
 if __name__ == "__main__":

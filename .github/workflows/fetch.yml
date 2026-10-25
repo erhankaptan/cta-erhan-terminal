@@ -66,8 +66,14 @@ jobs:
         run: python scripts/fetch_rss.py
 
       # RSS Çeviri
+      # DENETCI KARARI (2026-10-25): 3dk -> 10dk. Kok neden: 1 aylik
+      # donma doneminde biriken 171 cevrilmemis ogeyi 3dk'da bitirmeye
+      # calisiyordu (sadece sabit sleep'ler 513sn = 8.5dk tutuyordu,
+      # API gecikmesi haric). Artik translate_rss.py'de MAX_ITEMS_PER_RUN
+      # ile zaten batch'lere bolunuyor ama Gemini API gecikmesi de
+      # (bazen yavaş) payi var -- 10dk daha gercekci bir tavan.
       - name: Translate RSS to Turkish
-        timeout-minutes: 3
+        timeout-minutes: 10
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
