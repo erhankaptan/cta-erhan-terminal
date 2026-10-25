@@ -6,12 +6,38 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Finish Line 29/9/26: Pharma & Mining Gains Fade, Policy Risks & Energy Drag",
-    "title_tr": "",
+    "title_tr": "FTSE Bitiş Çizgisi 29/9/26: İlaç ve Madencilik Kazançları Soluyor, Politika Riskleri ve Enerji Baskısı",
     "content_en": "FTSE Finish Line 29/9/26: Pharma & Mining Gains Fade, Policy Risks & Energy Drag The FTSE 100 surrendered early gains on Tuesday to trade firmly in negative territory, down 61.60 points or 0.57% to 10,672.30. An initial uptick driven by gains in pharmaceuti...",
-    "content_tr": "",
+    "content_tr": "FTSE Bitiş Çizgisi 29/9/26: İlaç ve Madencilik Kazançları Soluyor, Politika Riskleri ve Enerji Baskısı. Salı günü FTSE 100, erken kazançlarını geri vererek negatif bölgede işlem gördü ve 61.60 puan veya %0.57 düşüşle 10,672.30 seviyesine geriledi. İlaç sektöründeki kazançların tetiklediği ilk yükseliş...",
     "url": "https://www.tickmill.com/blog/ftse-finish-line-29926-pharma-mining-gains-fade-policy-risks-energy-drag",
     "published_at": "Tue, 29 Sep 2026 16:52:00 +0000",
     "fetched_at": "2026-09-29T18:31:15.230154+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "FTSE 100'deki düşüş, ilaç ve madencilik sektörlerindeki kazançların azalması, politika riskleri ve enerji sektöründeki baskıdan kaynaklanmaktadır. Bu durum, İngiltere piyasasında genel bir temkinli ve aşağı yönlü eğilime işaret etmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks, erken kazançlarını geri vererek %0.57 düşüşle negatif bölgede işlem gördü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'Enerji Baskısı'nın endeksi aşağı çektiği belirtiliyor, bu da enerji ile ilgili varlıklarda zayıflığa işaret edebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'Enerji Baskısı'nın endeksi aşağı çektiği belirtiliyor, bu da enerji ile ilgili varlıklarda zayıflığa işaret edebilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T13:12:38.316489+00:00"
   }
 ]

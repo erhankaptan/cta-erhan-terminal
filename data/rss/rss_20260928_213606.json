@@ -6,12 +6,38 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Mining Slump & Middle East Oil Surge Drag FTSE into the Red",
-    "title_tr": "",
+    "title_tr": "Madencilikteki Düşüş ve Orta Doğu Petrolündeki Artış FTSE'yi Kırmızıya Çekti",
     "content_en": "FTSE Finish Line 28/9/26: Mining Slump & Middle East Oil Surge Drag FTSE into the RedThe FTSE 100 surrendered early morning gains to trade in negative territory on Monday, down 29.40 points or 0.27% to sit around 10,692.70. An initial bounce driven by a governm...",
-    "content_tr": "",
+    "content_tr": "FTSE Bitiş Çizgisi 28/9/26: Madencilikteki Düşüş ve Orta Doğu Petrolündeki Artış FTSE'yi Kırmızıya Çekti. FTSE 100, Pazartesi günü sabahki erken kazançlarını geri vererek negatif bölgede işlem gördü, 29.40 puan veya %0.27 düşüşle 10,692.70 civarında seyretti. Hükümet tarafından yönlendirilen ilk bir sıçrama...",
     "url": "https://www.tickmill.com/blog/mining-slump-middle-east-oil-surge-drag-ftse-into-the-red",
     "published_at": "Mon, 28 Sep 2026 17:55:00 +0000",
     "fetched_at": "2026-09-28T21:36:06.059091+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Madencilik sektöründeki zayıflık ve yükselen petrol fiyatları, İngiliz piyasası FTSE 100 üzerinde baskı oluşturarak endeksin düşüşle kapanmasına neden oldu. Bu durum, küresel ekonomik görünümdeki belirsizlikleri ve enerji maliyetlerinin piyasalar üzerindeki etkisini yansıtmaktadır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Madencilikteki düşüş ve Orta Doğu petrolündeki artışın etkisiyle kayıplar yaşadı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Madencilik sektöründeki düşüş, endüstriyel metaller üzerinde olumsuz baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Orta Doğu'daki petrol arzındaki artış (veya fiyat artışı) petrol fiyatlarını yukarı çekiyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:10:06.445207+00:00"
   }
 ]

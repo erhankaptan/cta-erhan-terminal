@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Swissy Pushes Higher Following SNB Meeting",
-    "title_tr": "",
+    "title_tr": "SNB Toplantısı Sonrası İsviçre Frangı Yükselişte",
     "content_en": "Dovish Hold From The SNBUSDCHF remains firmly higher today after the SNB rates meeting yesterday. The bank held rates unchanged, as expected, but bulls were caught off guard as the bank struck a less hawkish tone in its assessment and guidance. Although the bank’s ...",
-    "content_tr": "",
+    "content_tr": "SNB'den Güvercin Bir Faiz Kararı. Dün gerçekleşen SNB faiz toplantısının ardından USDCHF bugün güçlü bir şekilde yükselişini sürdürüyor. Banka, beklendiği gibi faiz oranlarını değiştirmedi, ancak bankanın değerlendirmesinde ve yönlendirmesinde daha az şahin bir ton kullanması boğaları hazırlıksız yakaladı. Bankanın...",
     "url": "https://www.tickmill.com/blog/swissy-pushes-higher-following-snb-meeting",
     "published_at": "Fri, 25 Sep 2026 09:59:00 +0000",
     "fetched_at": "2026-09-25T12:09:26.433612+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "İsviçre Merkez Bankası'nın (SNB) beklentilerin altında kalan güvercin tonu, İsviçre Frangı'nın değer kaybetmesine neden oldu. Bu durum, USDCHF paritesinde belirgin bir yükselişle sonuçlanarak piyasada CHF'ye yönelik zayıf bir görünüm oluşturdu.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "SNB'nin güvercin tonu nedeniyle İsviçre Frangı'nın zayıflaması, USDCHF paritesini yükseltti.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:06:11.859354+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-25926",
@@ -21,13 +33,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 25/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 25/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 25/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 25/9/26***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) ALINTILANIYOR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Direnç Aralığı 7882 Destek 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-25926",
     "published_at": "Fri, 25 Sep 2026 09:03:00 +0000",
     "fetched_at": "2026-09-25T12:09:26.433647+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli aylık destek, direnç ve boğa/ayı bölgelerini belirtmektedir. Mevcut fiyat seviyesi hakkında bilgi verilmediği için net bir piyasa yönü çıkarılamamaktadır. Yatırımcılar bu seviyeleri potansiyel hareket alanları olarak değerlendirebilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 vadeli işlemleri (ES1!) için aylık destek (7490), direnç (7882) ve boğa/ayı bölgelerini (7440/7400) belirtmektedir. Mevcut fiyat seviyesi hakkında bilgi verilmediği için net bir yön tayini yapılamamaktadır.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, nakit S&P500 (US500) eşdeğer seviyeleri için ES1! referans alınarak aylık destek (7490) ve direnç (7882) noktalarını sunmaktadır. Mevcut fiyat bilgisi eksikliği nedeniyle yön belirsizdir.",
+        "skor": 0.3
+      }
+    ],
+    "translated_at": "2026-10-25T13:06:28.259418+00:00"
   },
   {
     "id": "crude-slides-on-phased-deal-hopes",
@@ -36,13 +67,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Crude Slides On 'Phased Deal' Hopes",
-    "title_tr": "",
+    "title_tr": "Ham Petrol, 'Aşamalı Anlaşma' Umutlarıyla Geriledi",
     "content_en": "Fresh US/Iran Deal HopesOil prices are cooling slightly on Friday as traders once again showed optimism over a possible end to the Iran war, or at least an agreement over reopening the Strait of Hormuz. News broke last night that the US and Iran are considering a p...",
-    "content_tr": "",
+    "content_tr": "Yeni ABD/İran Anlaşması Umutları: Cuma günü petrol fiyatları hafifçe düşüşe geçti. Yatırımcılar, İran savaşının olası bir son bulması veya en azından Hürmüz Boğazı'nın yeniden açılması konusunda bir anlaşmaya varılması yönünde yeniden iyimserlik gösterdi. Dün gece gelen haberlere göre ABD ve İran, aşamalı bir anlaşmayı değerlendiriyor...",
     "url": "https://www.tickmill.com/blog/crude-slides-on-phased-deal-hopes",
     "published_at": "Fri, 25 Sep 2026 10:36:00 +0000",
     "fetched_at": "2026-09-25T12:09:26.433671+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD ile İran arasındaki olası bir anlaşma haberi, piyasada petrol arzının artabileceği veya jeopolitik risklerin azalabileceği beklentisi yarattı. Bu durum, ham petrol fiyatları üzerinde aşağı yönlü bir baskı oluşturarak düşüşe neden oldu.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD/İran anlaşması umutları, arz artışı veya jeopolitik risklerin azalması beklentisiyle fiyatlar geriledi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:06:37.769663+00:00"
   },
   {
     "id": "dollar-higher-as-fed-rate-hike-bets-soar",
@@ -51,13 +94,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Higher As Fed Rate Hike Bets Soar",
-    "title_tr": "",
+    "title_tr": "Dolar Yükselişte, Fed Faiz Artırımı Bahisleri Tavan Yaptı",
     "content_en": "Hawkish Fed-Speak ContinuesThe US Dollar is on course to end the week firmly higher as rising treasury yields underscore the focus on Fed tightening expectations. A raft of hawkish Fed commentary this week has seen market pricing for a hike next month rising from j...",
-    "content_tr": "",
+    "content_tr": "Şahin Fed Konuşmaları Devam Ediyor. ABD Doları, yükselen hazine getirilerinin Fed'in sıkılaştırma beklentilerine odaklanmayı vurgulamasıyla haftayı güçlü bir yükselişle kapatmaya hazırlanıyor. Bu hafta gelen bir dizi şahin Fed yorumu, gelecek ayki faiz artırımı için piyasa fiyatlamasının yükseldiğini gösterdi...",
     "url": "https://www.tickmill.com/blog/dollar-higher-as-fed-rate-hike-bets-soar",
     "published_at": "Fri, 25 Sep 2026 09:35:00 +0000",
     "fetched_at": "2026-09-25T12:09:26.433711+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Fed'in şahin duruşu ve faiz artırımı beklentileri, ABD Doları'nı güçlendirerek haftayı yükselişle kapatmasına neden oluyor. Yükselen hazine getirileri, piyasada sıkılaşma beklentilerini pekiştirerek riskli varlıklar üzerinde baskı oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, Euro karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, Japon Yeni karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, İngiliz Sterlini karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, Avustralya Doları karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, Kanada Doları karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, İsviçre Frangı karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T13:06:56.463045+00:00"
   },
   {
     "id": "daily-market-outlook-september-25-2026",
@@ -66,12 +156,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 25, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 25 Eylül 2026",
     "content_en": "Daily Market Outlook, September 25, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Bonds Bounce As Brent Backs OffGlobal bond markets found some tentative stability in Asia after a sharp two-day selloff pushed yields to mul...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 25 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - Brent Geri Çekilirken Tahviller Toparlanıyor\nKüresel tahvil piyasaları, iki günlük keskin bir satış dalgasının getirileri çoklu seviyelere itmesinin ardından Asya'da bir miktar istikrar buldu...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-25-2026",
     "published_at": "Fri, 25 Sep 2026 09:32:00 +0000",
     "fetched_at": "2026-09-25T12:09:26.433732+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Küresel tahvil piyasalarında iki günlük sert satışların ardından Asya'da sınırlı bir toparlanma gözleniyor. Brent petrol fiyatlarındaki geri çekilme, piyasalarda bir miktar rahatlama sağlayabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede Brent petrol fiyatlarının 'geri çekildiği' belirtiliyor, bu da düşüş eğilimine işaret eder.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:07:08.381864+00:00"
   }
 ]

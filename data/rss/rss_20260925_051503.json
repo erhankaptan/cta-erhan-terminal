@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "AUDUSD H4 | Bullish rebound for the Aussie",
-    "title_tr": "",
+    "title_tr": "AUDUSD H4 | Avustralya Doları için Boğa Yönlü Toparlanma",
     "content_en": "Title: AUDUSD H4 | Bullish rebound for the Aussie Type: Bullish bounce Preference: The price is falling towards the pivot at 0.7002, an overlap support that is slightly above the 78.6% Fibonacci retracement. A bounce from this level could lead the price toward the ...",
-    "content_tr": "",
+    "content_tr": "Başlık: AUDUSD H4 | Avustralya Doları için Boğa Yönlü Toparlanma Tür: Boğa yönlü sıçrama Tercih: Fiyat, 0.7002 seviyesindeki pivot noktasına doğru düşüyor. Bu seviye, %78.6 Fibonacci geri çekilmesinin biraz üzerinde yer alan bir örtüşme desteğidir. Bu seviyeden bir sıçrama, fiyatı yukarı yönlü hareket ettirebilir...",
     "url": "https://www.tickmill.com/blog/audusd-h4-bullish-rebound-for-the-aussie-25th-september-2026",
     "published_at": "Fri, 25 Sep 2026 12:05:00 +0000",
     "fetched_at": "2026-09-25T05:15:03.323879+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, AUDUSD'nin önemli bir destek seviyesinden boğa yönlü bir toparlanma yaşayabileceğini belirtiyor. Bu durum, Avustralya dolarının ABD doları karşısında kısa vadeli güç kazanabileceğine işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 0.7002 pivot/destek seviyesinden boğa yönlü sıçrama yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:26.972512+00:00"
   },
   {
     "id": "chfjpy-h4-bullish-bounce-in-play-25th-september-2026",
@@ -21,13 +33,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "CHFJPY H4 | Bullish bounce in play",
-    "title_tr": "",
+    "title_tr": "CHFJPY H4 | Boğa sıçraması devrede",
     "content_en": "Title: CHFJPY H4 | Bullish bounce in play Type: Bullish bounce Preference: The price has bounced off the pivot at191.45, which is a pullback support. A bounce from this level could lead the price toward the 1st resistance at 193.50, a pullback resistance that align...",
-    "content_tr": "",
+    "content_tr": "Fiyat, bir geri çekilme desteği olan 191.45'teki pivot seviyesinden sıçradı. Bu seviyeden bir sıçrama, fiyatı 193.50'deki ilk dirence, yani uyumlu bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/chfjpy-h4-bullish-bounce-in-play-25th-september-2026",
     "published_at": "Fri, 25 Sep 2026 11:51:00 +0000",
     "fetched_at": "2026-09-25T05:15:03.323905+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "CHFJPY paritesinde gözlemlenen boğa sıçraması, İsviçre Frangı'nın Japon Yeni karşısında değer kazanma potansiyeline işaret etmektedir. Bu durum, piyasada risk iştahının artması veya Japon Yeni'ne olan talebin azalmasıyla ilişkilendirilebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "CHFJPY paritesinde gözlemlenen boğa sıçraması, İsviçre Frangı'nın Japon Yeni karşısında değer kazanma potansiyeline işaret etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "CHFJPY paritesinde İsviçre Frangı'nın değer kazanması, Japon Yeni'nin diğer para birimleri karşısında zayıflayabileceğini ima etmektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:39.032964+00:00"
   },
   {
     "id": "xauusd-h4-key-resistance-ahead-25th-september-2026",
@@ -36,13 +67,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Key resistance ahead",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Önemli direnç önde",
     "content_en": "Title: XAUUSD H4 | Key resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 4,291.48, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 4,162.33, a pullback support. Alternative S...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Önemli direnç önde. Tür: Ayı piyasası dönüşü. Tercih: Fiyat, geri çekilme direnci olan 4.291,48 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı geri çekilme desteği olan 4.162,33 seviyesindeki ilk desteğe doğru yönlendirebilir. Alternatif S...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-key-resistance-ahead-25th-september-2026",
     "published_at": "Fri, 25 Sep 2026 12:03:00 +0000",
     "fetched_at": "2026-09-25T05:15:03.323922+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD'de (altın) önemli bir direnç seviyesinden ayı piyasası dönüşü bekliyor. Bu durum, altının kısa vadede düşüş eğilimi gösterebileceğine işaret etmektedir. Yatırımcıların bu direnç seviyesini dikkatle izlemesi önerilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın önemli bir direnç seviyesinden (4.291,48) geri dönerek ilk desteğe (4.162,33) düşmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:49.031338+00:00"
   },
   {
     "id": "usdcad-h4-bearish-reversal-at-pullback-resistance-25th-september-2026",
@@ -51,12 +94,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Geri çekilme direncinde düşüş yönlü dönüş",
     "content_en": "Title: USDCAD H4 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price is rising towards the pivot at 1.4164, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 1.4075, a pullback suppor...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Geri çekilme direncinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, bir geri çekilme direnci olan 1.4164'teki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı bir geri çekilme desteği olan 1.4075'teki ilk desteğe doğru yönlendirebilir...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-bearish-reversal-at-pullback-resistance-25th-september-2026",
     "published_at": "Fri, 25 Sep 2026 12:00:00 +0000",
     "fetched_at": "2026-09-25T05:15:03.323941+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, USDCAD paritesinde kısa vadeli bir düşüş beklentisine işaret ediyor. Geri çekilme direncinden olası bir dönüş, Kanada Doları'nın ABD Doları karşısında değer kazanabileceğini gösteriyor. Bu durum, diğer USD çaprazlarında ve emtia piyasalarında dolaylı etkiler yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "USD/Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın geri çekilme direncinden (1.4164) düşüş yönlü bir dönüş yaparak 1.4075 desteğine inmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:58.483715+00:00"
   }
 ]

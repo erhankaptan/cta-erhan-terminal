@@ -6,12 +6,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Mixed amid Middle East Caution and Oil Pressure",
-    "title_tr": "",
+    "title_tr": "FTSE Orta Doğu İhtiyatı ve Petrol Baskısı Ortasında Karışık Seyretti",
     "content_en": "FTSE Finish Line 24/9/2026 : FTSE Mixed amid Middle East Caution and Oil PressureU.K. stocks turned in another mixed performance on Thursday, as investors weighed ongoing Middle East security risks and firming oil prices against a distinct lack of meaningful progre...",
-    "content_tr": "",
+    "content_tr": "FTSE Finish Line 24/9/2026: FTSE Orta Doğu İhtiyatı ve Petrol Baskısı Ortasında Karışık Seyretti. İngiltere hisse senetleri Perşembe günü yine karışık bir performans sergiledi; yatırımcılar devam eden Orta Doğu güvenlik risklerini ve yükselen petrol fiyatlarını, anlamlı bir ilerlemenin belirgin eksikliğine karşı değerlendirdi.",
     "url": "https://www.tickmill.com/blog/ftse-mixed-amid-middle-east-caution-and-oil-pressure",
     "published_at": "Thu, 24 Sep 2026 16:49:00 +0000",
     "fetched_at": "2026-09-24T17:27:23.240105+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, Orta Doğu'daki güvenlik endişeleri ve yükselen petrol fiyatları nedeniyle karışık bir seyir izledi. Bu durum, yatırımcıların risk iştahını azaltırken, enerji sektöründe yukarı yönlü bir baskı oluşturdu. Genel olarak belirsizlik hakim.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Orta Doğu güvenlik riskleri ve genel piyasa baskısı nedeniyle petrol fiyatları yükseliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:17.972325+00:00"
   }
 ]

@@ -6,12 +6,115 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights: Credit Agricole FX Weekly 25/9/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal FX Analizleri: Credit Agricole FX Haftalık 25/9/26",
     "content_en": "G10 FX & CROSS-ASSET STRATEGY BRIEFING: USD RALLY RESUMPTIONDesk Analysis: Macro Rates, FX Options & Seasonal FlowsTHE TAKE: FRONT-END US RATES DRIVING G10 REALIGNMENTThe US Dollar (USD) rally has re-accelerated in lockstep with a sharp, global expansion in...",
-    "content_tr": "",
+    "content_tr": "G10 Döviz ve Çapraz Varlık Strateji Brifingi: USD Rallisi Yeniden Başlıyor. Masa Analizi: Makro Faiz Oranları, FX Opsiyonları ve Mevsimsel Akışlar. ÖNEMLİ NOT: Kısa Vadeli ABD Faiz Oranları G10 Yeniden Hizalanmasını Tetikliyor. ABD Doları (USD) rallisi, keskin, küresel bir genişleme ile eş zamanlı olarak yeniden hızlandı...",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-credit-agricole-fx-weekly-25926",
     "published_at": "Fri, 25 Sep 2026 13:49:00 +0000",
     "fetched_at": "2026-09-25T17:30:12.588778+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, ABD Doları'nın kısa vadeli ABD faiz oranlarındaki artışla birlikte güçlenmeye devam ettiğini vurguluyor. Bu durum, G10 para birimleri arasında önemli bir yeniden hizalanmaya yol açarak, USD karşısındaki diğer majör para birimlerinde düşüş baskısı yaratabilir. Piyasalar, ABD faiz politikalarına odaklanmaya devam edecektir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro/ABD Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, EURUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "ABD Doları/Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDJPY paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini/ABD Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, GBPUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları/ABD Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, AUDUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "ABD Doları/Kanada Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDCAD paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "ABD Doları/İsviçre Frangı Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDCHF paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, EURUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, GBPUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları/Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDJPY paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, AUDUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi, NZDUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları/Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDCAD paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları/İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın güçlenmesi, USDCHF paritesini yukarı iter.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makale, ABD Doları'nın rallisinin yeniden hızlandığını belirtiyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T13:07:33.155493+00:00"
   }
 ]

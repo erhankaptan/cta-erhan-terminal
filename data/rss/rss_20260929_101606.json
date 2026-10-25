@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURJPY H1 | Bearish reversal at 50% Fib resistance",
-    "title_tr": "",
+    "title_tr": "EURJPY H1 | %50 Fib direnç seviyesinde düşüş yönlü dönüş",
     "content_en": "Title: EURJPY H1 | Bearish reversal at 50% Fib resistance Type: Bearish reversal Preference: The price is rising towards the pivot at 179.60, an overlap resistance. A reversal from this level could lead the price toward the 1st support at 178.60, an overlap support...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURJPY H1 | %50 Fib direnç seviyesinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, bir çakışma direnci olan 179.60'taki pivot seviyesine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı bir çakışma desteği olan 178.60'taki ilk destek seviyesine doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/eurjpy-h1-bearish-reversal-at-50-fib-resistance-29th-september-2026",
     "published_at": "Tue, 29 Sep 2026 11:09:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105503+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, EURJPY paritesinde %50 Fib direnç seviyesinden düşüş yönlü bir dönüş sinyali veriyor. Bu durum, paritenin kısa vadede 179.60 seviyesinden satış baskısıyla karşılaşarak 178.60 desteğine doğru gerileyebileceğini gösteriyor. Yatırımcılar, bu seviyelerde potansiyel bir düşüş trendi için pozisyon almayı değerlendirebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURJPY",
+        "isim": "Euro / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "%50 Fib direnci ve 179.60 pivot seviyesinden düşüş yönlü dönüş bekleniyor, fiyatın 178.60 desteğine gerilemesi öngörülüyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:10:16.557747+00:00"
   },
   {
     "id": "xauusd-h4-bears-hold-the-advantage-29th-september-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Bears hold the advantage",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Ayılar avantajı elinde tutuyor",
     "content_en": "Title: XAUUSD H4 | Bears hold the advantage Type: Bearish reversal Preference: The price could rise toward the pivot at 4,146.85, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 4,022.31, a pullback support. Alternat...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Ayılar avantajı elinde tutuyor. Tip: Ayı piyasası dönüşü. Tercih: Fiyat, geri çekilme direnci olan 4.146,85 seviyesindeki pivot noktasına doğru yükselebilir. Bu seviyeden bir geri dönüş, fiyatı geri çekilme desteği olan 4.022,31 seviyesindeki ilk desteğe doğru yönlendirebilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-bears-hold-the-advantage-29th-september-2026",
     "published_at": "Tue, 29 Sep 2026 11:06:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105533+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD için ayı piyasası dönüşü beklemektedir. Bu durum, kısa vadeli bir yükselişin ardından altın fiyatlarında düşüş beklentisini işaret eder. Piyasa genelinde risk iştahında azalma veya doların güçlenmesi gibi faktörler bu beklentiyi destekleyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın geri çekilme direnci sonrası düşüşle ilk desteğe yönelmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:10:27.334501+00:00"
   },
   {
     "id": "usdjpy-h4-bullish-momentum-builds-as-buyers-retain-control-29th-september-2026",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Bullish momentum builds as buyers retain control",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Alıcılar kontrolü elinde tutarken yükseliş momentumu artıyor",
     "content_en": "Title: USDJPY H4 | Bullish momentum builds as buyers retain control Type: Bullish bounce Preference: The price is falling towards the pivot at 156.39, a pullback support slightly below the 38.2% Fibonacci retracement. A bounce from this level could lead the price t...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Alıcılar kontrolü elinde tutarken yükseliş momentumu artıyor. Tip: Yükseliş sıçraması. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesinin biraz altında, 156.39'daki pivot seviyesine, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı daha yüksek seviyelere taşıyabilir.",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-bullish-momentum-builds-as-buyers-retain-control-29th-september-2026",
     "published_at": "Tue, 29 Sep 2026 11:03:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105554+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDJPY'de yükseliş momentumunun devam etmesi bekleniyor. Fiyatın belirtilen destek seviyesinden sıçraması halinde, paritede yukarı yönlü hareketin sürmesi muhtemeldir. Bu durum, Japon Yeni'nin Dolar karşısında değer kaybetme eğiliminin devam edebileceğine işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "USDJPY",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 156.39 pivot desteğinden sıçrayarak yükselişini sürdürmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:10:38.478960+00:00"
   },
   {
     "id": "bitcoin-bulls-looking-to-defend-rally",
@@ -51,13 +87,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Bulls Looking To Defend Rally",
-    "title_tr": "",
+    "title_tr": "Bitcoin Boğaları Ralliyi Savunmaya Çalışıyor",
     "content_en": "Bitcoin Holding GainsDespite the strength in USD and the rise in Fed tightening expectations, Bitcoin has shown good resilience on the back of the recent breakout move through $83k. Hawkish Fed expectations, and subsequent USD strength, sank BTC at several differen...",
-    "content_tr": "",
+    "content_tr": "Bitcoin, USD'deki güce ve Fed'in sıkılaşma beklentilerindeki artışa rağmen son 83 bin doların üzerindeki kırılma hareketinin ardından iyi bir direnç gösterdi ve kazançlarını koruyor. Şahin Fed beklentileri ve ardından gelen USD gücü, Bitcoin'i çeşitli zamanlarda düşürmüştü...",
     "url": "https://www.tickmill.com/blog/bitcoin-bulls-looking-to-defend-rally",
     "published_at": "Tue, 29 Sep 2026 10:11:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105575+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bitcoin'in güçlü dolar ve şahin Fed beklentilerine rağmen direnç göstermesi, kripto piyasasında pozitif bir ayrışmaya işaret ediyor. Bu durum, yatırımcıların risk iştahının arttığını ve Bitcoin'e olan güvenin sürdüğünü gösteriyor. Kısa vadede Bitcoin'de yukarı yönlü hareketlerin devam etmesi beklenebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "USD gücüne ve Fed sıkılaşma beklentilerine rağmen kazançlarını koruyor ve 83 bin doların üzerine çıktı.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'USD gücü' ve 'ardından gelen USD gücü' olarak belirtilmiştir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:10:49.641332+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-29926",
@@ -66,13 +121,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 29/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 29/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 29/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 29/9/26***ES1!(Z VADELİ SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Direnç Aralığı 7882 Destek 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-29926",
     "published_at": "Tue, 29 Sep 2026 08:32:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105605+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için kritik teknik seviyeleri (destek, direnç ve boğa/ayı bölgeleri) belirterek kısa vadeli piyasa hareketlerine odaklanmaktadır. Bu seviyeler, yatırımcıların fiyat hareketlerine dayalı alım satım kararları almasına yardımcı olacak potansiyel giriş ve çıkış noktalarını sunar. Piyasa katılımcıları, belirtilen bölgelere göre stratejilerini ayarlayabilirler.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 vadeli işlemleri için aylık boğa/ayı bölgeleri (7440/7400) ile direnç (7882) ve destek (7490) seviyelerini belirtmektedir. Bu seviyeler, piyasanın potansiyel hareket alanlarını tanımlar ancak net bir yön belirtmez.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "ES1! vadeli işlem seviyeleri, nakit S&P 500 (US500) eşdeğer seviyeleri olarak kullanıldığı için, endeks için de benzer boğa/ayı bölgeleri ve destek/direnç seviyeleri geçerlidir. Makale, endeks için belirli bir yön yerine teknik seviyeler sunmaktadır.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T13:11:04.883130+00:00"
   },
   {
     "id": "usdchf-h4-bulls-aim-higher-29th-september-2026",
@@ -81,13 +155,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Bulls aim higher",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | Boğalar daha yükseği hedefliyor",
     "content_en": "Title: USDCHF H4 | Bulls aim higher Type: Bullish bounce Preference: The price could fall towards the pivot at 0.8258, which is a pullback support. A bounce from this level could lead the price toward the 1stresistance at 0.8377, a resistance level near the 61.8% ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | Boğalar daha yükseği hedefliyor. Tip: Boğa sıçraması. Tercih: Fiyat, geri çekilme desteği olan 0.8258'deki pivot seviyesine düşebilir. Bu seviyeden bir sıçrama, fiyatı %61.8'lik bir direnç seviyesine yakın olan 0.8377'deki ilk dirence taşıyabilir.",
     "url": "https://www.tickmill.com/blog/usdchf-h4-bulls-aim-higher-29th-september-2026",
     "published_at": "Tue, 29 Sep 2026 10:47:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105624+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinde potansiyel bir geri çekilmenin ardından boğa yönlü bir sıçrama beklemektedir. Bu durum, teknik analiz bazında kısa vadeli bir alım fırsatına işaret ederek paritede yukarı yönlü bir hareket beklentisi oluşturmaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "USD/İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın pivot seviyesinden sıçrayarak ilk dirence doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:11:15.517791+00:00"
   },
   {
     "id": "gold-falls-on-oil-usd-strength",
@@ -96,13 +182,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Gold Falls On Oil & USD Strength",
-    "title_tr": "",
+    "title_tr": "Altın, Petrol ve USD Gücüyle Düşüyor",
     "content_en": "Gold PlungesGold prices are on watch today after the futures market plunged to fresh lows for the month yesterday amidst the ongoing USD rally. A hawkish shift in traders’ Fed expectations has weighed heavily on gold. The market is now pricing in a more than 70% ch...",
-    "content_tr": "",
+    "content_tr": "Altın Fiyatları Düşüşte. Vadeli piyasada altın fiyatları, devam eden USD rallisi ortasında dün ayın en düşük seviyelerine geriledi. Yatırımcıların Fed beklentilerindeki şahinleşme, altın üzerinde ağır bir baskı oluşturdu. Piyasa, yaklaşan FOMC toplantısında 25 baz puanlık bir faiz artırımı olasılığını %70'in üzerinde fiyatlıyor, hatta bazıları 50 baz puanlık bir artırımı bile speküle ediyor. Fed'in enflasyon endişeleriyle desteklenen bu agresif duruşu, altın gibi getiri sağlamayan varlıkları daha az çekici hale getiriyor. Bu arada, jeopolitik gerilimler ve arz endişeleriyle desteklenen ham petrol fiyatları yükselişini sürdürüyor. Gelişmekte olan piyasalardan gelen güçlü talep de petrol piyasasındaki boğa eğilimine katkıda bulunuyor. Yüksek petrol fiyatları genellikle enflasyonist baskıları işaret eder, bu da Fed'in şahin duruşunu daha da sağlamlaştırarak dolaylı olarak altını baskılar. Doların başlıca para birimleri karşısındaki gücünü ölçen DXY de önemli kazançlar elde ederek son ayların en yüksek seviyelerine ulaştı. Güçlü bir dolar, altın gibi dolar cinsinden emtiaları diğer para birimi sahipleri için daha pahalı hale getirerek talebi azaltır. Yatırımcılar, Fed'in para politikası yolu hakkında daha fazla ipucu için enflasyon raporları ve istihdam rakamları dahil olmak üzere yaklaşan ekonomik verileri yakından izliyor. Enflasyonun hafiflediğine dair herhangi bir işaret altın için bir miktar rahatlama sağlayabilir, ancak şimdilik görünüm düşüş yönlü kalmaya devam ediyor.",
     "url": "https://www.tickmill.com/blog/gold-falls-on-oil-usd-strength",
     "published_at": "Tue, 29 Sep 2026 09:13:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105650+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, güçlü dolar, Fed'in şahin duruşu ve yükselen petrol fiyatlarının etkisiyle altın fiyatlarındaki düşüşü ele alıyor. Bu faktörler, altının cazibesini azaltarak piyasada düşüş eğilimini destekliyor. Yaklaşan ekonomik veriler ve Fed'in kararları piyasanın yönünü belirlemede kritik olacak.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü USD, Fed'in şahin duruşu ve yükselen petrol fiyatları nedeniyle düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in şahin beklentileri ve genel piyasa koşullarıyla ralli yapıyor, çok aylık zirvelere ulaştı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik gerilimler, arz endişeleri ve güçlü talep nedeniyle yükselişini sürdürüyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:11:32.738938+00:00"
   },
   {
     "id": "xauusd-testing-corrective-targets-whats-next",
@@ -111,13 +223,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD Testing Corrective Targets, What's Next?",
-    "title_tr": "",
+    "title_tr": "XAUUSD Düzeltme Hedeflerini Test Ediyor, Sırada Ne Var?",
     "content_en": "XAUUSD Testing Corrective Targets: What's Next?In this update we review the recent roice action in Gold and identify some high-probability trading opportunities and price objectives to target. To review today's analysis, click here!...",
-    "content_tr": "",
+    "content_tr": "XAUUSD Düzeltme Hedeflerini Test Ediyor: Sırada Ne Var? Bu güncellemede Altın'daki son fiyat hareketini inceliyor ve hedeflenecek yüksek olasılıklı işlem fırsatları ile fiyat hedeflerini belirliyoruz. Bugünkü analizi incelemek için buraya tıklayın!...",
     "url": "https://www.tickmill.com/blog/xauusd-testing-corrective-targets-whats-next",
     "published_at": "Tue, 29 Sep 2026 11:10:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105681+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, altın fiyatlarındaki düzeltme hareketinin kritik bir noktaya ulaştığını belirtiyor. Yatırımcıların, olası yeni işlem fırsatları ve fiyat hedefleri için piyasayı yakından takip etmeleri gerektiği vurgulanıyor. Bu durum, altın piyasasında yakın zamanda önemli bir yön tayininin beklendiğine işaret ediyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Altın, düzeltme hedeflerini test ediyor ve yeni işlem fırsatları belirlenmeye çalışılıyor, bu da piyasanın bir karar noktasında olduğunu gösteriyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-25T13:11:45.584700+00:00"
   },
   {
     "id": "daily-market-outlook-september-29-2026",
@@ -126,13 +250,74 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 29, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 29 Eylül 2026",
     "content_en": "Daily Market Outlook, September 29, 2026 Patrick Munnelly, Partner: Market Strategy, Tickmill Group Munnelly’s Macro Missive - Risk Retreats As Rates RepriceGlobal equities slipped to their lowest level in a week as rising oil prices and renewed Federal Reserve tig...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 29 Eylül 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mektubu - Faizler Yeniden Fiyatlanırken Risk Geri Çekiliyor. Küresel hisse senetleri, yükselen petrol fiyatları ve yenilenen Federal Rezerv sıkılaştırma beklentileri nedeniyle bir haftanın en düşük seviyesine geriledi.",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-29-2026",
     "published_at": "Tue, 29 Sep 2026 09:17:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105703+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, yükselen petrol fiyatları ve Fed'in sıkılaştırma politikalarına ilişkin beklentilerle riskten kaçınma eğiliminde. Bu durum, küresel hisse senedi piyasalarında düşüşe yol açarken, petrol fiyatlarında yükselişi destekliyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düşüşte.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatları yükselişte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatları yükselişte.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T13:12:04.461703+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-sp500-positioning-key-levles-29926",
@@ -141,12 +326,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs SP500 Positioning & Key Levles 29/9/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs SP500 Konumlandırması ve Anahtar Seviyeler 29/9/26",
     "content_en": "EQUITY POSITIONING & DERIVATIVES DESK BRIEFINGTHE TAKE: SYSTEMATIC BUYING ATTEMPT VS. RECORD PENSION REBALANCING SELL SUPPLYGlobal positioning metrics highlight a major structural tug-of-war across systematic models and institutional rebalancing desks. CTAs rem...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ KONUMLANDIRMASI & TÜREV MASASI BİLGİLENDİRMESİ ÖZET: SİSTEMATİK ALIM GİRİŞİMİNE KARŞI REKOR EMEKLİLİK FONU YENİDEN DENGELEME SATIŞ ARZI. Küresel konumlandırma metrikleri, sistematik modeller ve kurumsal yeniden dengeleme masaları arasında büyük bir yapısal çekişmeye işaret ediyor. CTA'lar...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-sp500-positioning-key-levles-29926",
     "published_at": "Tue, 29 Sep 2026 11:20:00 +0000",
     "fetched_at": "2026-09-29T10:16:06.105725+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, sistematik alım girişimleri ile emeklilik fonlarından gelen rekor seviyede yeniden dengeleme satış arzı arasında önemli bir çekişme yaşıyor. Bu durum, piyasada artan oynaklık ve belirsizliğe yol açarak yukarı yönlü momentumu sınırlayabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Sistematik alım girişimlerine karşın, rekor seviyede emeklilik fonu yeniden dengeleme satış arzı nedeniyle piyasada büyük bir çekişme yaşanıyor. Bu durum, yukarı yönlü potansiyeli sınırlayabilir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-25T13:12:21.314309+00:00"
   }
 ]

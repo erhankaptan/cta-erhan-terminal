@@ -6,13 +6,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Big Week For USD: NFP On Watch",
-    "title_tr": "",
+    "title_tr": "USD İçin Büyük Hafta: NFP Göz Önünde",
     "content_en": "Hawkish Fed ExpectationsThe US Dollar is on watch this week as traders brace for the latest NFP report on Friday. Pricing for a Fed rate hike in October rose to around 70% last week from just above 50% at the start of the week, fuelled by a raft of hawkish Fed comm...",
-    "content_tr": "",
+    "content_tr": "Şahin Fed Beklentileri ABD Doları bu hafta dikkatle izleniyor, zira yatırımcılar Cuma günü açıklanacak en son NFP raporuna hazırlanıyor. Ekim ayında Fed faiz artırımı fiyatlaması, geçen hafta başında %50'nin biraz üzerindeyken, geçen hafta %70 civarına yükseldi. Bu yükseliş, bir dizi şahin Fed yorumuyla desteklendi...",
     "url": "https://www.tickmill.com/blog/big-week-for-usd-nfp-on-watch",
     "published_at": "Mon, 28 Sep 2026 09:29:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591019+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, ABD Doları'nın güçlü seyrine işaret eden şahin Fed beklentilerini ve yaklaşan NFP raporunun önemini vurguluyor. Faiz artırımı olasılığının yükselmesi, Dolar'ı desteklerken, diğer varlıklar üzerinde baskı oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed beklentileri ve faiz artırımı olasılığının artması Dolar'ı destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları ve yükselen faiz beklentileri altın üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yükselen faiz beklentileri ve şahin Fed duruşu hisse senedi piyasaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın güçlenmesi beklentisi EURUSD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed beklentileri ve faiz artırımı olasılığı tahvil getirilerini yükseltir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:08:27.165649+00:00"
   },
   {
     "id": "gbpusd-bouncing-on-hawkish-boe-comments",
@@ -21,13 +61,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD Bouncing on Hawkish BOE Comments",
-    "title_tr": "",
+    "title_tr": "GBPUSD Şahin BOE Yorumlarıyla Yükselişte",
     "content_en": "Hawkish BOE ExpectationsGBPUSD is edging higher today as traders respond to hawkish comments from BIE governor Bailey. Speaking at joint New York Fed/ Oxford University event, Bailey warned that the longer inflation remains elevated the harder it is to believe that...",
-    "content_tr": "",
+    "content_tr": "Şahin BOE Beklentileri: GBPUSD, BOE Başkanı Bailey'nin şahin yorumlarına tepki olarak bugün yükselişte. New York Fed/Oxford Üniversitesi ortak etkinliğinde konuşan Bailey, enflasyonun ne kadar uzun süre yüksek kalırsa, o kadar zorlaşacağını belirtti...",
     "url": "https://www.tickmill.com/blog/gbpusd-bouncing-on-hawkish-boe-comments",
     "published_at": "Mon, 28 Sep 2026 10:20:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591069+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "BOE Başkanı Bailey'nin şahin açıklamaları, İngiltere Merkez Bankası'nın enflasyonla mücadelede daha sıkı bir duruş sergileyeceği beklentilerini artırdı. Bu durum, İngiliz Sterlini'nin diğer para birimleri karşısında değer kazanmasına neden olarak GBPUSD paritesini yukarı yönlü hareket ettirdi. Piyasa, faiz artırımı olasılıklarını fiyatlamaya devam edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "BOE Başkanı Bailey'nin şahin yorumları, faiz artırımı beklentilerini artırarak Sterlin'i güçlendirdi ve pariteyi yukarı taşıdı.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:08:36.402115+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-28926",
@@ -36,13 +88,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 28/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 28/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 28/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 28/9/26***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnci 7882 Desteği 7490Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-28926",
     "published_at": "Mon, 28 Sep 2026 08:42:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591121+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli aylık ve haftalık teknik seviyeleri belirtmektedir. Bu seviyeler, piyasa katılımcılarına potansiyel destek, direnç ve trend dönüş noktaları hakkında bilgi sağlayarak kısa vadeli işlem kararlarını etkileyebilir. Belirtilen boğa/ayı bölgeleri, piyasanın genel yönü hakkında ipuçları sunmaktadır.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgeleri (7440/7400) ve destek/direnç seviyeleri (7882/7490) belirterek her iki yöne de potansiyel hareket olduğunu göstermektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:08:47.478601+00:00"
   },
   {
     "id": "institutional-inishgts-goldman-sachs-market-has-bad-breadth",
@@ -51,13 +115,116 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Inishgts: Goldman Sachs 'Market Has Bad Breadth'",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs 'Piyasanın Genişliği Kötü'",
     "content_en": "EQUITY POSITIONING & MARKET BREADTH BRIEFING: THIS MARKET HAS BAD BREADTH |THE TAKE: AI MASKING DOT-COM ERA BREADTH DIVERGENCE & GEOPOLITICAL DRAGHeadline S&P 500 resilience masks extreme internal market fragility as geopolitical friction and rate press...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ KONUMLANDIRMASI & PİYASA GENİŞLİĞİ BRİFİNGİ: BU PİYASANIN GENİŞLİĞİ KÖTÜ | YORUM: YAPAY ZEKA, DOT-COM DÖNEMİ GENİŞLİK FARKLILIĞINI VE JEOPOLİTİK SÜRÜKLEMEYİ MASKELİYOR. Manşet S&P 500'ün direnci, jeopolitik sürtüşme ve faiz baskısı nedeniyle aşırı iç piyasa kırılganlığını gizliyor...",
     "url": "https://www.tickmill.com/blog/institutional-inishgts-goldman-sachs-market-has-bad-breadth",
     "published_at": "Mon, 28 Sep 2026 09:45:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591164+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P 500'ün manşet direncine rağmen piyasanın içsel kırılganlığına ve kötü genişliğine dikkat çekiyor. Yapay zeka odaklı yükselişin, jeopolitik gerilimler ve faiz baskısı altında yatan sorunları maskelediği belirtiliyor. Bu durum, genel piyasada temkinli bir duruşu ve potansiyel düzeltme riskini işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasanın kötü genişliği, içsel kırılganlık, jeopolitik gerilimler ve faiz baskısı, S&P 500 için olumsuz bir görünüm sunuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zekanın, dot-com dönemi benzeri genişlik farklılığını maskelediği belirtiliyor, bu da teknoloji odaklı yükselişin kırılgan olabileceğine işaret ediyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zekanın, dot-com dönemi benzeri genişlik farklılığını maskelediği belirtiliyor, bu da teknoloji odaklı yükselişin kırılgan olabileceğine işaret ediyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kötü piyasa genişliği ve faiz baskısı, küçük ölçekli şirketlerin performansını olumsuz etkileyerek Russell 2000'de düşüşe yol açabilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel piyasa genişliğinin kötü olması ve içsel kırılganlık, Dow Jones gibi daha geniş endeksleri de olumsuz etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik sürtüşme ve piyasadaki içsel kırılganlık, güvenli liman varlığı olan altına talebi artırabilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mini Altın",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik sürtüşme ve piyasadaki içsel kırılganlık, güvenli liman varlığı olan altına talebi artırabilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik sürtüşme ve piyasadaki içsel kırılganlık, güvenli liman varlığı olan gümüşe talebi artırabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek Euro'nun Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek Japon Yeni'nin Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek İngiliz Sterlini'nin Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek Avustralya Doları'nın Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek Kanada Doları'nın Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış eğilimi, jeopolitik gerilimler ve faiz baskısı, genellikle ABD Doları'nı güçlendirerek İsviçre Frangı'nın Dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:09:12.892469+00:00"
   },
   {
     "id": "copper-drops-on-hawkish-fed-speak-weak-china-data",
@@ -66,13 +233,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Drops On Hawkish Fed-Speak & Weak China Data",
-    "title_tr": "",
+    "title_tr": "Bakır, Şahin Fed Açıklamaları ve Zayıf Çin Verileriyle Düştü",
     "content_en": "Copper Sinks on MondayCopper prices have started the week under heavy selling pressure with the futures market down around 2.7% on the session as traders digest weak data from China and mull its implications for the demand outlook there. Monthly industrial profits ...",
-    "content_tr": "",
+    "content_tr": "Bakır Pazartesi Günü Çakıldı. Bakır fiyatları haftaya yoğun satış baskısıyla başladı; vadeli işlem piyasası, yatırımcıların Çin'den gelen zayıf verileri sindirmesi ve bunun oradaki talep görünümü üzerindeki etkilerini değerlendirmesiyle seans içinde yaklaşık %2,7 düştü. Aylık sanayi kârları...",
     "url": "https://www.tickmill.com/blog/copper-drops-on-hawkish-fed-speak-weak-china-data",
     "published_at": "Mon, 28 Sep 2026 09:51:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591206+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Şahin Fed söylemleri ve Çin'den gelen zayıf ekonomik veriler, küresel talep endişelerini artırarak emtia piyasaları üzerinde baskı oluşturmuştur. Özellikle bakır gibi endüstriyel metaller olumsuz etkilenirken, bu durum genel piyasa risk iştahını azaltabilir ve doları güçlendirebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Zayıf Çin verileri ve şahin Fed söylemleri küresel talep endişelerini artırarak fiyatları düşürdü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed söylemleri, faiz artırımı beklentilerini yükselterek doları güçlendirdi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Zayıf Çin verileri, küresel enerji talebi görünümüne ilişkin endişeleri artırdı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed ve zayıf Çin verileri, küresel büyüme ve şirket karları üzerinde olumsuz baskı oluşturdu.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar ve genel emtia piyasasındaki zayıflık, altın üzerinde baskı oluşturdu.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T13:09:30.128920+00:00"
   },
   {
     "id": "daily-market-outlook-september-28-2026",
@@ -81,12 +288,38 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 28, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 28 Eylül 2026",
     "content_en": "Daily Market Outlook, September 28, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Crude & Curves Clip ConfidenceBonds and equities started the week on the defensive as renewed US-Iran tensions pushed oil higher and for...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 28 Eylül 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Grubu\nMunnelly'nin Makro Mesajı - Ham Petrol ve Eğriler Güveni Kırptı\nTahviller ve hisse senetleri haftaya savunmada başladı, zira yenilenen ABD-İran gerilimleri petrolü yukarı itti ve...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-28-2026",
     "published_at": "Mon, 28 Sep 2026 09:25:00 +0000",
     "fetched_at": "2026-09-28T14:22:18.591233+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yenilenen ABD-İran gerilimleri petrol fiyatlarını yükselterek piyasalarda savunmacı bir duruşa neden olmuştur. Tahviller ve hisse senetleri bu durumdan olumsuz etkilenirken, genel piyasa güveni zayıflamıştır. Jeopolitik riskler ön plandadır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Yenilenen ABD-İran gerilimleri petrol fiyatlarını yükseltti.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasa güveninin azalması ve savunmacı duruş nedeniyle hisse senetleri baskı altında.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasa güveninin azalması ve savunmacı duruş nedeniyle hisse senetleri baskı altında.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T13:09:50.780314+00:00"
   }
 ]

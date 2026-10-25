@@ -101,13 +101,67 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Slides Back From Fresh Record Highs",
-    "title_tr": "",
+    "title_tr": "Bakır Yeni Rekor Seviyelerinden Geri Çekiliyor",
     "content_en": "Copper ReversesCopper prices continue to slide back today after the reversal from fresh highs printed on Tuesday. Copper futures spiked to record highs of 6.9285 before collapsing lower by almost 3%. The reversal comes amidst the ongoing rally in USD as focus rever...",
-    "content_tr": "",
+    "content_tr": "Bakır Geri Dönüyor. Bakır fiyatları, Salı günü kaydedilen yeni zirvelerden geri dönüşün ardından bugün düşüşünü sürdürüyor. Bakır vadeli işlemleri 6.9285 ile rekor seviyelere yükseldikten sonra neredeyse %3 oranında düşüş yaşadı. Bu geri dönüş, USD'deki devam eden yükselişin ortasında gerçekleşiyor...",
     "url": "https://www.tickmill.com/blog/copper-slides-back-from-fresh-record-highs",
     "published_at": "Thu, 24 Sep 2026 11:27:00 +0000",
     "fetched_at": "2026-09-24T12:02:55.886226+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bakır fiyatlarındaki keskin düşüş, endüstriyel metallerdeki kar satışlarını ve küresel ekonomik büyüme endişelerini yansıtmaktadır. Güçlü USD, emtia fiyatları üzerinde baskı oluşturarak dolar bazlı varlıkların cazibesini artırmaktadır. Bu durum, emtia piyasalarında genel bir aşağı yönlü baskıya işaret edebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yeni rekor seviyelerinden %3'e yakın düşüş yaşadı, USD rallisi baskı oluşturdu.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'deki devam eden yükseliş, EURUSD üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Dolar/Yen",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki devam eden yükseliş, USDJPY'yi destekliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "Sterlin/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'deki devam eden yükseliş, GBPUSD üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'deki devam eden yükseliş, AUDUSD üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Dolar/Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki devam eden yükseliş, USDCAD'i destekliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "Dolar/İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki devam eden yükseliş, USDCHF'yi destekliyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:04:39.103738+00:00"
   },
   {
     "id": "institutional-insights-deutsche-bank-trump-xii-the-main-event",
@@ -311,12 +365,192 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 24, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 24 Eylül 2026",
     "content_en": "Daily Market Outlook, September 24, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Resilient PMIs Revive Rate FearsGlobal bonds remain under pressure as stronger US economic data and weak demand at a five-year Treasury auct...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 24 Eylül 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mektubu - Dirençli PMI'lar Faiz Oranı Korkularını Canlandırdı. Güçlü ABD ekonomik verileri ve beş yıllık Hazine ihalesindeki zayıf talep nedeniyle küresel tahviller baskı altında kalmaya devam ediyor...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-24-2026",
     "published_at": "Thu, 24 Sep 2026 09:45:00 +0000",
     "fetched_at": "2026-09-24T12:02:55.886290+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Güçlü ABD ekonomik verileri ve tahvil ihalesindeki zayıf talep, faiz artırımı endişelerini yeniden canlandırarak küresel tahviller üzerinde baskı oluşturuyor. Bu durum, piyasalarda risk iştahını azaltarak hisse senetleri, değerli metaller ve dolar dışındaki para birimleri üzerinde aşağı yönlü bir baskı yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri hisse senetleri üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "S&P 500 Mikro E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri hisse senetleri üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri, büyüme odaklı teknoloji hisselerini olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Nasdaq 100 Mikro E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri, büyüme odaklı teknoloji hisselerini olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri, küçük sermayeli hisse senetleri üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen tahvil getirileri hisse senetleri üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen getiriler, faiz getirmeyen altın üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen getiriler, faiz getirmeyen altın üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen getiriler, faiz getirmeyen gümüş üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri ve yükselen getiriler, faiz getirmeyen platin üzerinde baskı yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir yön belirtilmemiştir; güçlü ABD verileri talep için olumlu, faiz endişeleri ise olumsuz olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir yön belirtilmemiştir; güçlü ABD verileri talep için olumlu, faiz endişeleri ise olumsuz olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğalgaz",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğalgaz için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir yön belirtilmemiştir; güçlü ABD verileri talep için olumlu, faiz endişeleri ise olumsuz olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllar için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllar için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllar için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllar için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllar için doğrudan bir yön belirtilmemiştir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken Euro'yu zayıflatıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken Yen'i zayıflatıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken Sterlini zayıflatıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken Avustralya Doları'nı zayıflatıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken Kanada Doları'nı zayıflatıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü ABD verileri ve faiz artırımı endişeleri doları desteklerken İsviçre Frangı'nı zayıflatıyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T13:05:06.373933+00:00"
   }
 ]
