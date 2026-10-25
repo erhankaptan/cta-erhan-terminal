@@ -21,13 +21,200 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD Lower After Lagarde Comments",
-    "title_tr": "",
+    "title_tr": "Lagarde'ın Yorumları Sonrası EURUSD Düşüşte",
     "content_en": "Warning From LagardeThe Euro is struggling to capitalise on USD weakness today following some commentary from ECB chief Lagarde this week. The ECB head warned that the global economy was getting harder to anticipate as a result of fluctuating energy prices, geopoli...",
-    "content_tr": "",
+    "content_tr": "Lagarde'dan Uyarı: Euro, bu hafta ECB Başkanı Lagarde'ın yorumlarının ardından USD zayıflığından faydalanmakta zorlanıyor. Lagarde, dalgalanan enerji fiyatları ve jeopolitik faktörler nedeniyle küresel ekonominin gidişatını tahmin etmenin zorlaştığı konusunda uyardı.",
     "url": "https://www.tickmill.com/blog/eurusd-lower-after-lagarde-comments",
     "published_at": "Wed, 14 Oct 2026 10:29:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507646+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ECB Başkanı Lagarde'ın küresel ekonomiye dair belirsizlik ve risk uyarıları, Euro'nun ABD Doları'ndaki zayıflıktan yararlanmasını engelledi. Bu durum, piyasalarda artan riskten kaçış eğilimini ve ekonomik görünümdeki endişeleri yansıtmaktadır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ECB Başkanı Lagarde'ın küresel ekonomiye dair belirsizlik ve enerji fiyatları uyarıları Euro'yu baskıladı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ECB Başkanı Lagarde'ın küresel ekonomiye dair belirsizlik uyarıları Euro'yu baskıladı.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri hisse senedi piyasaları üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri hisse senedi piyasaları üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri teknoloji ağırlıklı endeksler üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri teknoloji ağırlıklı endeksler üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri küçük ölçekli şirketler üzerinde daha fazla baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve risk faktörleri hisse senedi piyasaları üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve jeopolitik riskler güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve jeopolitik riskler güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve jeopolitik riskler güvenli liman talebini artırabilir, ancak endüstriyel talep de etkileyebilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Dalgalanan enerji fiyatları bir risk faktörü olarak belirtilse de, makalede petrol fiyatları için net bir yön belirtilmemiştir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Dalgalanan enerji fiyatları bir risk faktörü olarak belirtilse de, makalede petrol fiyatları için net bir yön belirtilmemiştir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Dalgalanan enerji fiyatları bir risk faktörü olarak belirtilse de, makalede doğal gaz fiyatları için net bir yön belirtilmemiştir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve yavaşlama beklentileri endüstriyel metal talebini azaltabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Küresel ekonomideki belirsizlikler endüstriyel talebi olumsuz etkilerken, güvenli liman özelliği sınırlı destek sağlayabilir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara doğrudan bir atıf bulunmamaktadır. Enerji ve jeopolitik faktörler maliyetleri ve arzı etkileyebilir ancak net bir yön belirtilmemiştir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara doğrudan bir atıf bulunmamaktadır. Enerji ve jeopolitik faktörler maliyetleri ve arzı etkileyebilir ancak net bir yön belirtilmemiştir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara doğrudan bir atıf bulunmamaktadır. Enerji ve jeopolitik faktörler maliyetleri ve arzı etkileyebilir ancak net bir yön belirtilmemiştir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara doğrudan bir atıf bulunmamaktadır. Enerji ve jeopolitik faktörler maliyetleri ve arzı etkileyebilir ancak net bir yön belirtilmemiştir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara doğrudan bir atıf bulunmamaktadır. Enerji ve jeopolitik faktörler maliyetleri ve arzı etkileyebilir ancak net bir yön belirtilmemiştir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve jeopolitik riskler Japon Yeni'ne olan güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve riskten kaçış eğilimi sterlin üzerinde baskı yaratabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve büyüme endişeleri emtia para birimi olan Avustralya Doları'nı zayıflatabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve enerji fiyatlarındaki dalgalanmalar emtia para birimi olan Kanada Doları'nı zayıflatabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ekonomideki belirsizlikler ve jeopolitik riskler İsviçre Frangı'na olan güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T17:38:10.456838+00:00"
   },
   {
     "id": "cadjpy-h1-bullish-bounce-at-pullback-support-14th-october-2026",
@@ -66,13 +253,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "CADCHF H1 | Heading toward 50% Fib resistance",
-    "title_tr": "",
+    "title_tr": "CADCHF H1 | %50 Fib direnç seviyesine doğru ilerliyor",
     "content_en": "Title: CADCHF H1 | Heading toward 50% Fib resistance Type: Bullish bounce Preference: The price is rising towards the pivot at 0.58458, a pullback support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st...",
-    "content_tr": "",
+    "content_tr": "Başlık: CADCHF H1 | %50 Fib direnç seviyesine doğru ilerliyor Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci geri çekilme seviyesiyle uyumlu olan 0.58458'deki pivot noktasına, bir geri çekilme desteğine doğru yükseliyor. Bu seviyeden bir sıçrama, fiyatı ilk...",
     "url": "https://www.tickmill.com/blog/cadchf-h1-heading-toward-50-fib-resistance-14th-october-2026",
     "published_at": "Wed, 14 Oct 2026 13:58:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507697+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, CADCHF için boğa yönlü bir sıçrama öngörerek, önemli bir Fibonacci geri çekilme seviyesinden yukarı yönlü potansiyel bir harekete işaret ediyor. Bu durum, teknik faktörlerin etkisiyle CAD'nin CHF karşısında kısa vadede pozitif bir görünüm sergileyebileceğini gösteriyor. Destek seviyesi tutunursa yatırımcılar alım fırsatları arayabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [],
+    "translated_at": "2026-10-25T17:38:22.933666+00:00"
   },
   {
     "id": "aussie-jumps-on-hawkish-rba-mins",
@@ -81,13 +272,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Aussie Jumps on Hawkish RBA Mins",
-    "title_tr": "",
+    "title_tr": "Avustralya Doları Şahin RBA Tutanaklarıyla Yükseldi",
     "content_en": "AUD Bouncing MidweekThe Aussie is benefiting firmly from the USD weakness we’ve seen over the last 24 hours with the pair rising to two-week highs today. Hawkish signals from the RBA have helped revive AUD demand this week with the RBA minute showing that policymak...",
-    "content_tr": "",
+    "content_tr": "AUD hafta ortasında toparlanıyor. Avustralya doları, son 24 saatte gördüğümüz USD zayıflığından güçlü bir şekilde faydalanarak bugün iki haftanın en yüksek seviyelerine çıktı. RBA'dan gelen şahin sinyaller, RBA tutanaklarının politika yapıcıların...",
     "url": "https://www.tickmill.com/blog/aussie-jumps-on-hawkish-rba-mins",
     "published_at": "Wed, 14 Oct 2026 10:01:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507711+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Avustralya Merkez Bankası'nın (RBA) şahin tutanakları ve ABD dolarındaki zayıflık, Avustralya dolarının değer kazanmasına neden oldu. Bu durum, AUD'ye olan talebi artırarak paritenin iki haftanın en yüksek seviyelerine çıkmasını sağladı.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları (AUD/USD)",
+        "yon": "YUKARI",
+        "gerekce": "USD zayıflığı ve RBA'dan gelen şahin sinyaller AUD talebini artırarak paritenin iki haftanın en yüksek seviyelerine çıkmasına neden oldu.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-10-25T17:38:35.698454+00:00"
   },
   {
     "id": "daily-market-outlook-october-14-2026",

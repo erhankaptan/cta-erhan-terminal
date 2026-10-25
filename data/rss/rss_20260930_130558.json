@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Oil Lower As Middle East Supply Fears Fade",
-    "title_tr": "",
+    "title_tr": "Petrol, Orta Doğu Tedarik Endişeleri Azalırken Düştü",
     "content_en": "Oil Lower MidweekOil prices are lower midweek after a sharp fall yesterday as focus turned to easing supply concerns. Crude futures plunged lower on Tuesday as the latest data showed an uptick in outflows from the Middle East despite the ongoing conflict and supply...",
-    "content_tr": "",
+    "content_tr": "Petrol fiyatları, tedarik endişelerinin azalmasına odaklanılmasıyla dün yaşanan keskin düşüşün ardından hafta ortasında daha düşük seyrediyor. Ham petrol vadeli işlemleri Salı günü, devam eden çatışmalara rağmen Orta Doğu'dan çıkan akışlarda bir artış olduğunu gösteren son verilerle birlikte sert bir düşüş yaşadı.",
     "url": "https://www.tickmill.com/blog/oil-lower-as-middle-east-supply-fears-fade",
     "published_at": "Wed, 30 Sep 2026 09:30:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027587+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Orta Doğu'dan gelen petrol tedarik endişelerinin azalması, küresel piyasalarda ham petrol fiyatları üzerinde aşağı yönlü baskı oluşturuyor. Bu durum, enerji maliyetlerinin düşmesine ve enflasyonist baskıların hafiflemesine katkıda bulunabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Orta Doğu'dan tedarik endişelerinin azalmasıyla petrol fiyatları düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Orta Doğu'dan tedarik endişelerinin azalmasıyla petrol fiyatları düştü.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T17:32:00.364319+00:00"
   },
   {
     "id": "dollar-rally-pauses-on-soft-data",
@@ -21,13 +40,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Rally Pauses On Soft Data",
-    "title_tr": "",
+    "title_tr": "Dolar Rallisi Zayıf Verilerle Durakladı",
     "content_en": "DXY StallsThe US Dollar is lower today amidst a downturn in Fed rate hike expectations on the back of softer US data yesterday. Weak US consumer sentiment and JOLTS job openings numbers saw market pricing for an October hike plunge to around 50% from above 70% prio...",
-    "content_tr": "",
+    "content_tr": "DXY durakladı. ABD Doları, dün açıklanan zayıf ABD verilerinin ardından Fed'in faiz artırımı beklentilerindeki düşüşle bugün geriledi. Zayıf ABD tüketici güveni ve JOLTS iş açığı verileri, Ekim ayı faiz artırımı olasılığının %70'in üzerinden yaklaşık %50'ye düşmesine neden oldu.",
     "url": "https://www.tickmill.com/blog/dollar-rally-pauses-on-soft-data",
     "published_at": "Wed, 30 Sep 2026 09:49:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027610+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Zayıf ABD verileri ve Fed'in faiz artırım beklentilerindeki düşüş, dolar üzerinde baskı oluşturuyor. Bu durum, riskli varlıklar için olumlu bir ortam yaratabilirken, doların değer kaybetmesine neden oluyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Zayıf ABD verileri ve Fed faiz artırım beklentilerinin düşmesiyle değer kaybediyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:32:15.251284+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-30926",
@@ -36,13 +67,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 30/9/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 30/9/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 30/9/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7882 SUP 7490WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 30/9/26***ES1!(Z VADELİ SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ALINTILANMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK ARALIK DİRENÇ 7882 DESTEK 7490HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-30926",
     "published_at": "Wed, 30 Sep 2026 09:13:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027632+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli teknik seviyeleri (boğa/ayı bölgeleri, direnç, destek) belirtmektedir. Bu seviyeler, yatırımcıların piyasa duyarlılığını ve potansiyel hareket alanlarını anlamaları için kritik öneme sahiptir. Özellikle aylık boğa/ayı bölgesi ve direnç/destek seviyeleri, endeksin kısa ve orta vadeli yönünü belirlemede etkili olabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgeleri, direnç ve destek seviyeleri sunarak teknik analiz referans noktaları sağlamaktadır.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T17:32:29.820750+00:00"
   },
   {
     "id": "silver-holding-bull-trend-line-for-now",
@@ -51,13 +94,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Silver Holding Bull Trend Line For Now",
-    "title_tr": "",
+    "title_tr": "Gümüş Şimdilik Boğa Trend Çizgisini Koruyor",
     "content_en": "Shifting Fed ExpectationsSilver prices are stabilising today following continued declines this week. The market has been knocked heavily lower this month amidst rising Fed tightening expectations. Hawkish comments and dot plot forecasts at the latest FOMC meeting, ...",
-    "content_tr": "",
+    "content_tr": "Değişen Fed Beklentileri. Gümüş fiyatları bu hafta devam eden düşüşlerin ardından bugün stabilize oluyor. Piyasa, artan Fed sıkılaştırma beklentileri ortasında bu ay ağır bir şekilde aşağı çekildi. Son FOMC toplantısındaki şahin yorumlar ve dot plot tahminleri, ...",
     "url": "https://www.tickmill.com/blog/silver-holding-bull-trend-line-for-now",
     "published_at": "Wed, 30 Sep 2026 10:31:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027673+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Fed'in şahin duruşu ve sıkılaştırma beklentileri, gümüş fiyatları üzerinde baskı oluşturarak bu ay sert düşüşlere neden oldu. Ancak gümüşün şimdilik boğa trend çizgisini koruması, kısa vadede bir miktar toparlanma potansiyeli sunabilirken, genel eğilim aşağı yönlü kalmaya devam ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in sıkılaştırma beklentileri ve şahin duruşu nedeniyle bu ay sert düşüşler yaşadı; şimdilik boğa trend çizgisini korusa da temel baskı devam ediyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in sıkılaştırma beklentileri ve faiz artırımı olasılığı, genellikle altın fiyatları üzerinde baskı oluşturur ve gümüşle benzer bir yön izlemesi beklenir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in şahin duruşu ve faiz artırımı beklentileri, ABD dolarını güçlendirerek endeksin yükselmesine neden olur.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:32:45.091326+00:00"
   },
   {
     "id": "btcusd-looking-for-intraday-channel-resolution",
@@ -66,13 +135,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "BTCUSD Looking For Intraday Channel Resolution",
-    "title_tr": "",
+    "title_tr": "BTCUSD Gün İçi Kanal Çözümü Arıyor",
     "content_en": "BTCUSD Looking For Intraday Channel ResolutionTO REVIEW THE TECHNICAL CHART, CLICK HERE!Bitcoin’s higher-timeframe structure remains constructive, especially on the daily chart, where the market appears to be consolidating after a strong bullish move. The weekly ch...",
-    "content_tr": "",
+    "content_tr": "BTCUSD Gün İçi Kanal Çözümü Arıyor. TEKNİK GRAFİĞİ İNCELEMEK İÇİN TIKLAYIN! Bitcoin'in daha yüksek zaman dilimi yapısı, özellikle günlük grafikte, güçlü bir boğa hareketinin ardından piyasanın konsolide olduğu görülürken yapıcı kalmaya devam ediyor. Haftalık g...",
     "url": "https://www.tickmill.com/blog/btcusd-looking-for-intraday-channel-resolution",
     "published_at": "Wed, 30 Sep 2026 14:16:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027688+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bitcoin, güçlü bir yükselişin ardından konsolidasyon sürecinde olup, bu durum kısa vadede bir duraklama veya yeni bir yükseliş öncesi güç toplama olarak yorumlanabilir. Piyasa, mevcut kanalın çözümünü bekleyerek yön arayışında.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "Güçlü bir yükselişin ardından konsolidasyon sürecinde olması ve yüksek zaman dilimi yapısının yapıcı kalması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:32:52.867259+00:00"
   },
   {
     "id": "daily-market-outlook-september-30-2026",
@@ -81,12 +162,73 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, September 30, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 30 Eylül 2026",
     "content_en": "Daily Market Outlook, September 30, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Relife Rally As Rate Volatility Recedes Ahead Of Inflation TestGlobal equity markets mounted a sharp relief rally on Wednesday, pausing a mu...",
-    "content_tr": "",
+    "content_tr": "Patrick Munnelly, Tickmill Group Ortak ve Piyasa Stratejisti: Munnelly'nin Makro Mesajı - Enflasyon Testi Öncesinde Faiz Volatilitesinin Azalmasıyla Rahatlama Rallisi. Küresel hisse senedi piyasaları Çarşamba günü keskin bir rahatlama rallisi başlattı ve bir...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-september-30-2026",
     "published_at": "Wed, 30 Sep 2026 09:46:00 +0000",
     "fetched_at": "2026-09-30T13:05:58.027703+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, faiz oranı volatilitesinin azalmasıyla bir rahatlama rallisi yaşadı. Ancak, yaklaşan enflasyon testi belirsizlik yaratabilir ve bu rallinin sürdürülebilirliğini etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarında keskin bir rahatlama rallisi yaşanması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarında keskin bir rahatlama rallisi yaşanması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarında keskin bir rahatlama rallisi yaşanması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarında keskin bir rahatlama rallisi yaşanması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artması ve hisse senedi rallisiyle birlikte talep beklentilerinin yükselmesi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Rahatlama rallisi risk iştahını artırsa da, yaklaşan enflasyon testi altın için potansiyel bir destek oluşturabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artmasıyla doların zayıflama eğilimi göstermesi beklentisi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk iştahının artmasıyla doların zayıflama eğilimi göstermesi beklentisi.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T17:33:09.347680+00:00"
   }
 ]

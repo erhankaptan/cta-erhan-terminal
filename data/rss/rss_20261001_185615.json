@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Tumbles to Four-Month Lows on Surging Oil and Hawkish BoE Rhetoric",
-    "title_tr": "",
+    "title_tr": "FTSE Petrol Fiyatlarındaki Yükseliş ve Şahin BoE Retoriğiyle Dört Ayın En Düşüğüne Geriledi",
     "content_en": "FTSE Tumbles to Four-Month Lows on Surging Oil and Hawkish BoE RhetoricU.K. stocks tumbled on Thursday, sending the benchmark FTSE 100 down 174.80 points, or 1.65%, to 10,430.00 to hit its lowest level since June. Rebounding crude oil prices reignited global inflat...",
-    "content_tr": "",
+    "content_tr": "Birleşik Krallık hisse senetleri Perşembe günü düşüş yaşayarak gösterge FTSE 100 endeksini 174.80 puan veya %1.65 oranında düşürerek 10,430.00 seviyesine çekti ve Haziran ayından bu yana en düşük seviyesine ulaştı. Yükselen ham petrol fiyatları küresel enflasyon endişelerini yeniden alevlendirdi ve şahin İngiltere Merkez Bankası (BoE) retoriği piyasalar üzerinde baskı oluşturdu.",
     "url": "https://www.tickmill.com/blog/ftse-tumbles-to-four-month-lows-on-surging-oil-and-hawkish-boe-rhetoric",
     "published_at": "Thu, 01 Oct 2026 17:13:00 +0000",
     "fetched_at": "2026-10-01T18:56:15.776368+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yükselen petrol fiyatları ve şahin merkez bankası politikaları, hisse senedi piyasaları üzerinde ciddi bir baskı oluşturarak ekonomik yavaşlama ve enflasyon endişelerini artırıyor. Bu durum, piyasalarda oynaklığın devam edebileceğine ve yatırımcıların temkinli kalması gerektiğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatlarındaki yükseliş ve şahin BoE retoriğiyle dört ayın en düşük seviyesine geriledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Yükselen ham petrol fiyatları küresel enflasyon endişelerini yeniden alevlendirdi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:35:12.709714+00:00"
   },
   {
     "id": "institutional-insights-jpmorgan-us-mid-terms-trading-update",
@@ -21,13 +40,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: JPMorgan US Mid Terms Trading Update",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: JPMorgan ABD Ara Seçim Ticaret Güncellemesi",
     "content_en": "JPMORGAN US MARKET INTELLIGENCE: 2026 MIDTERM ELECTION BRIEFINGSource Document: J.P. Morgan Data Assets & Alpha Group (Andrew Tyler et al.)Publication Date: September 30, 2026THE TAKE: BLUE WAVE ODDS SURGE TO 62% AS MAP EXPANDS; GRIDLOCK REMAINS BULLISHJPMorgan...",
-    "content_tr": "",
+    "content_tr": "JPMorgan ABD Piyasası İstihbaratı: 2026 Ara Seçim Brifingi. Kaynak Belgesi: J.P. Morgan Veri Varlıkları ve Alfa Grubu (Andrew Tyler ve diğerleri). Yayın Tarihi: 30 Eylül 2026. ÖZET: Harita genişledikçe Mavi Dalga (Demokratların kazanma) olasılığı %62'ye yükseldi; siyasi tıkanıklık (gridlock) piyasa için hala boğa eğilimli olmaya devam ediyor. JPMorgan...",
     "url": "https://www.tickmill.com/blog/institutional-insights-jpmorgan-us-mid-terms-trading-update",
     "published_at": "Thu, 01 Oct 2026 12:31:00 +0000",
     "fetched_at": "2026-10-01T18:56:15.776412+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "JPMorgan'ın analizi, 2026 ara seçimlerinde Demokratların kazanma olasılığının artmasına rağmen, ortaya çıkacak siyasi tıkanıklığın ABD piyasaları için olumlu bir sinyal olduğunu belirtiyor. Bu durum, yatırımcıların radikal politika değişikliklerinden kaçınan bölünmüş bir hükümeti tercih ettiğini ve bunun piyasa istikrarına katkıda bulunabileceğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "JPMorgan, ara seçim sonrası siyasi tıkanıklığın ABD piyasaları için boğa eğilimli olduğunu belirtiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "ABD piyasaları için boğa eğilimli beklenti, teknoloji ağırlıklı endeksleri de olumlu etkileyebilir.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "YUKARI",
+        "gerekce": "Genel ABD piyasası için olumlu beklenti, küçük sermayeli şirketleri içeren bu endeksi de destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow",
+        "yon": "YUKARI",
+        "gerekce": "JPMorgan'ın ABD piyasaları için boğa eğilimli görüşü, Dow Jones endeksini de kapsar.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:35:25.419632+00:00"
   },
   {
     "id": "tlt-downside-targets-implied-10y-yield-read-throughs",
@@ -36,12 +88,16 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "TLT Downside Targets & Implied 10Y Yield Read-Throughs",
-    "title_tr": "",
+    "title_tr": "TLT Düşüş Hedefleri ve Zımni 10 Yıllık Getiri Yorumları",
     "content_en": "TLT Downside Targets & Implied 10Y Yield Read-ThroughsTO REVIEW THE TECHNICAL CHART, CLICK HERETLT Downside Targets & Implied 10Y Yield Read-Throughs TLT Target 1: 63.5 | Implied 10Y Yield: 5.60% – 6.10% TLT Target 2: 55.5 | Implied 10Y Yield: 6.30% – 7.00%...",
-    "content_tr": "",
+    "content_tr": "Makale, TLT ETF'si için düşüş hedeflerini ve buna bağlı olarak 10 yıllık ABD Hazine tahvili getirilerindeki potansiyel artışı analiz etmektedir. Teknik grafik incelemesi için bir bağlantı sunulmaktadır. Belirlenen ilk TLT düşüş hedefi 63.5 seviyesidir ve bu durum, 10 yıllık tahvil getirisinin %5.60 ile %6.10 aralığına yükselebileceği anlamına gelmektedir. İkinci ve daha derin bir düşüş hedefi ise TLT için 55.5 olarak belirtilmiştir; bu senaryoda 10 yıllık tahvil getirilerinin %6.30 ile %7.00 aralığına çıkması beklenmektedir. Bu analiz, tahvil piyasasında önemli bir düşüş ve getirilerde keskin bir yükseliş beklentisini ortaya koymaktadır.",
     "url": "https://www.tickmill.com/blog/tlt-downside-targets-implied-10y-yield-read-throughs",
     "published_at": "Thu, 01 Oct 2026 14:59:00 +0000",
     "fetched_at": "2026-10-01T18:56:15.776480+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, tahvil piyasasında önemli bir düşüş ve getirilerde keskin bir yükseliş beklentisini işaret ediyor. Yükselen tahvil getirileri, genellikle hisse senedi piyasaları üzerinde baskı yaratabilir ve borçlanma maliyetlerini artırarak ekonomik büyümeyi yavaşlatabilir. Ayrıca, ABD doları üzerinde güçlendirici bir etki yaratma potansiyeli taşır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-10-25T17:35:40.081181+00:00"
   }
 ]

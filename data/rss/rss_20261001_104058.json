@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Bearish reversal at 50% Fib resistance",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | %50 Fib direnci seviyesinde düşüş yönlü dönüş",
     "content_en": "Title: USOUSD H4 | Bearish reversal at 50% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 95.48, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | %50 Fib direnci seviyesinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, %50 Fibonacci geri çekilme seviyesiyle uyumlu olan 95.48'deki pivot noktasına, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı ...'ye doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/usousd-h4-bearish-reversal-at-50-fib-resistance-1st-october-2026",
     "published_at": "Thu, 01 Oct 2026 10:08:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663443+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, USOUSD'de düşüş yönlü bir dönüş beklediğini belirtiyor. Petrol fiyatlarında beklenen bu geri çekilme, enerji piyasalarında kısa vadeli bir aşağı yönlü baskıya işaret edebilir ve enflasyonist endişeleri bir miktar hafifletebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol ETF'i",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın %50 Fibonacci geri çekilme seviyesi ve 95.48 pivot direncinden düşüş yönlü bir dönüş yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:33:20.638127+00:00"
   },
   {
     "id": "gbpcad-h4-falling-towards-key-support-1st-october-2026",
@@ -21,13 +33,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPCAD H4 | Falling towards key support",
-    "title_tr": "",
+    "title_tr": "GBPCAD H4 | Ana desteğe doğru düşüş",
     "content_en": "Title: GBPCAD H4 | Falling towards key support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.8796, which is a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.8908, a pullback resistance t...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPCAD H4 | Ana desteğe doğru düşüş. Tip: Boğa sıçraması. Tercih: Fiyat, geri çekilme desteği olan 1.8796 seviyesindeki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı geri çekilme direnci olan 1.8908 seviyesindeki ilk dirence doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/gbpcad-h4-falling-towards-key-support-1st-october-2026",
     "published_at": "Thu, 01 Oct 2026 09:55:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663492+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPCAD paritesinde önemli bir destek seviyesinden potansiyel bir boğa sıçramasına işaret ediyor. Bu durum, destek seviyesinin korunması halinde kısa vadeli bir alım fırsatı sunabilir ve paritede yukarı yönlü bir hareket beklentisi yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6B",
+        "isim": "Sterlin Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "GBPCAD paritesinde beklenen boğa sıçraması, Sterlin'in Kanada Doları karşısında güçlenmesini ima eder. Bu durum, Sterlin'in genel olarak güçlü seyrine işaret edebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "GBPCAD paritesinde beklenen boğa sıçraması, Kanada Doları'nın Sterlin karşısında zayıflamasını ima eder. Bu durum, Kanada Doları'nın genel olarak zayıf seyrine işaret edebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:33:40.556399+00:00"
   },
   {
     "id": "daily-market-outlook-october-1-2026",
@@ -36,13 +67,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 1, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 1 Ekim 2026",
     "content_en": "Daily Market Outlook, October 1, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Tech Lifts The Tape, Rates Keep The ReinsUS equity futures pushed higher on Thursday morning as Micron’s stellar outlook reignited appetite for...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 1 Ekim 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mektubu - Teknoloji Piyasayı Yükseltiyor, Faizler Dizginleri Tutuyor. ABD hisse senedi vadeli işlemleri Perşembe sabahı Micron'un mükemmel görünümünün iştahı yeniden canlandırmasıyla yükseldi...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-1-2026",
     "published_at": "Thu, 01 Oct 2026 09:16:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663520+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Teknoloji hisselerindeki olumlu görünüm, ABD hisse senedi vadeli işlemlerini yukarı taşıdı. Ancak faiz oranlarının piyasa üzerindeki etkisi devam ediyor, bu da yükselişin sınırlı kalabileceğine işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Micron'un güçlü görünümü ve teknoloji hisselerinin piyasayı yukarı çekmesi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Genel ABD hisse senedi vadeli işlemlerindeki yükseliş eğilimi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:33:51.297576+00:00"
   },
   {
     "id": "usdchf-h4-heading-towards-fib-resistance-1st-october-2026",
@@ -51,13 +101,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Heading towards Fib resistance",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | Fib direnç seviyesine doğru ilerliyor",
     "content_en": "Title: USDCHF H4 | Heading towards Fib resistance Type: Bearish reversal Preference: The price is rising towards the pivot at 0.8377, a resistance level at the 61.8% and the 100% Fibonacci projection. A reversal from this level could lead the price toward the 1st s...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | Fib direnç seviyesine doğru ilerliyor Tip: Ayı piyasası dönüşü Tercih: Fiyat, 0.8377'deki pivot noktasına, %61.8 ve %100 Fibonacci projeksiyonundaki bir direnç seviyesine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı 1. destek seviyesine doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/usdchf-h4-heading-towards-fib-resistance-1st-october-2026",
     "published_at": "Thu, 01 Oct 2026 10:06:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663542+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinin güçlü bir direnç seviyesine yaklaştığını ve buradan bir ayı piyasası dönüşü beklediğini belirtiyor. Bu durum, ABD dolarının İsviçre frangı karşısında değer kaybetme potansiyeline işaret ediyor ve piyasada düşüş eğilimi yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, güçlü Fibonacci direnç seviyelerine yaklaşıyor ve buradan bir ayı piyasası dönüşü bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:34:00.964120+00:00"
   },
   {
     "id": "dollar-higher-despite-drop-in-october-hike-pricing",
@@ -66,13 +128,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Higher Despite Drop in October Hike Pricing",
-    "title_tr": "",
+    "title_tr": "Dolar, Ekim Ayı Faiz Artırımı Fiyatlamasındaki Düşüşe Rağmen Yükseldi",
     "content_en": "Soft PCE Data, Stronger GDPThe US Dollar is continuing to push higher today despite further data weakness seen yesterday and a fresh drop in market pricing for an October rate hike. Yesterday, monthly core PCE was seen at 0.2%, below the 0.3% the market was looking...",
-    "content_tr": "",
+    "content_tr": "Yumuşak PCE Verileri, Daha Güçlü GSYİH. ABD Doları, dün görülen ek veri zayıflığına ve Ekim ayı faiz artırımı için piyasa fiyatlamasındaki yeni bir düşüşe rağmen bugün yükselmeye devam ediyor. Dün, aylık çekirdek PCE %0,2 olarak görüldü, bu da piyasanın beklediği %0,3'ün altındaydı...",
     "url": "https://www.tickmill.com/blog/dollar-higher-despite-drop-in-october-hike-pricing",
     "published_at": "Thu, 01 Oct 2026 09:20:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663562+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Doların zayıf verilere ve faiz artırımı beklentilerindeki düşüşe rağmen yükselmesi, piyasada dolar talebinin güçlü kaldığını gösteriyor. Bu durum, dolar bazlı emtialar üzerinde baskı yaratabilir ve risk iştahını sınırlayabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Zayıf PCE verilerine ve faiz artırımı beklentilerindeki düşüşe rağmen ABD Doları yükselişini sürdürüyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Dolarının güçlenmesi, Euro karşısında değer kaybetmesine neden olur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD Doları, dolar bazlı emtiaların fiyatlarını düşürerek altın üzerinde baskı yaratır.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T17:34:19.236192+00:00"
   },
   {
     "id": "gbpusd-h4-pullback-resistance-ahead-1st-october-2026",
@@ -81,13 +169,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Pullback resistance ahead",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Geri çekilme direnci yaklaşıyor",
     "content_en": "Title: GBPUSD H4 | Pullback resistance ahead Type: Bearish reversal Preference: The price is rising towards the pivot at 1.3342, a pullback resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward the 1st s...",
-    "content_tr": "",
+    "content_tr": "Tip: Ayı piyasası dönüşü. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 1.3342 seviyesindeki pivot noktasına, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı ilk destek seviyesine doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-pullback-resistance-ahead-1st-october-2026",
     "published_at": "Thu, 01 Oct 2026 10:11:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663580+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPUSD paritesinde potansiyel bir ayı piyasası dönüşüne işaret ediyor. Belirtilen direnç seviyesinden bir geri çekilme, paritede düşüş eğilimini tetikleyebilir ve yatırımcılar için satış fırsatları yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 1.3342 seviyesindeki geri çekilme direncine yaklaşıyor ve bu seviyeden bir ayı piyasası dönüşü bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:34:28.195164+00:00"
   },
   {
     "id": "eurusd-hits-17-month-lows",
@@ -96,13 +196,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD Hits 17-Month Lows",
-    "title_tr": "",
+    "title_tr": "EURUSD 17 Ayın En Düşük Seviyelerine Geriledi",
     "content_en": "ECB/Fed Divergence GrowingEURUSD has hit 17-month lows today as a combination of weakened ECB tightening expectations and a stronger Dollar weigh on the pair. While both the Fed and the ECB are expected to hike rates again, the market is judging the ECB to be less ...",
-    "content_tr": "",
+    "content_tr": "ECB/Fed Ayrışması Büyüyor. EURUSD bugün, zayıflayan ECB sıkılaştırma beklentileri ve daha güçlü Dolar'ın birleşimiyle 17 ayın en düşük seviyelerine geriledi. Hem Fed hem de ECB'nin faiz artırımlarına devam etmesi beklenirken, piyasa ECB'yi daha az...",
     "url": "https://www.tickmill.com/blog/eurusd-hits-17-month-lows",
     "published_at": "Thu, 01 Oct 2026 10:06:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663599+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ECB ve Fed arasındaki politika ayrışması, EURUSD paritesini 17 ayın en düşük seviyelerine çekti. Zayıflayan Euro ve güçlenen Dolar, küresel piyasalarda Dolar bazlı varlıkları desteklerken, Euro Bölgesi'nde risk iştahını azaltabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "ECB'nin sıkılaştırma beklentilerinin zayıflaması ve Dolar'ın güçlenmesiyle 17 ayın en düşük seviyelerine geriledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "EURUSD'deki düşüşe paralel olarak, zayıflayan Euro beklentileri Euro vadeli işlemlerini olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede belirtilen 'daha güçlü Dolar' ifadesi ve EURUSD'nin düşüşü Dolar Endeksi'nin yükselişini destekliyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-25T17:34:44.729388+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-11026",
@@ -111,12 +237,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 1/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 1/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 1/10/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7976 SUP 7549WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 1/10/26***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1! (Z VADELİ SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK ARALIK DİRENÇ 7976 DESTEK 7549HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-11026",
     "published_at": "Thu, 01 Oct 2026 09:55:00 +0000",
     "fetched_at": "2026-10-01T10:40:58.663635+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için kritik teknik seviyeleri (destek, direnç, boğa/ayı bölgeleri) belirtmektedir. Bu seviyeler, kısa vadeli işlem stratejileri için önemli referans noktaları sunarak piyasa katılımcılarına yön göstermeyi amaçlamaktadır. Belirtilen aralıklar, potansiyel trend dönüşleri veya devamları hakkında ipuçları verebilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgeleri, direnç ve destek seviyeleri belirterek işlem alanlarını tanımlamaktadır.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, nakit US500 eşdeğer seviyeleri için ES1! (ES) vadeli sözleşme seviyelerini referans almaktadır.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:34:57.090596+00:00"
   }
 ]

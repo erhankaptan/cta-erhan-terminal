@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H1 | Heading toward 50% Fib reistance",
-    "title_tr": "",
+    "title_tr": "GBPUSD H1 | %50 Fib direncine doğru ilerliyor",
     "content_en": "Title: GBPUSD H1 | Heading toward 50% Fib reistance Type: Bearish reversalPreference: The price is rising towards the pivot at 1.3229, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward the 1...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H1 | %50 Fib direncine doğru ilerliyor. Tip: Ayı piyasası dönüşü. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 1.3229'daki pivot noktasına, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı aşağı yönlü hareket ettirebilir.",
     "url": "https://www.tickmill.com/blog/gbpusd-h1-heading-toward-50-fib-reistance-13th-october-2026",
     "published_at": "Tue, 13 Oct 2026 14:21:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363796+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD paritesinde 1.3229 seviyesindeki %50 Fibonacci direncinden bir ayı piyasası dönüşü bekliyor. Bu durum, İngiliz Sterlini'nin Amerikan Doları karşısında değer kaybedebileceğine işaret ediyor ve yatırımcılar bu seviyelerde satış fırsatları arayabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın %50 Fibonacci direnci olan 1.3229 seviyesinden ayı piyasası dönüşü yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:35:50.261896+00:00"
   },
   {
     "id": "usousd-h4-potential-bearish-reversal-13th-october-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Potential bearish reversal",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | Potansiyel düşüş yönlü dönüş",
     "content_en": "Title: USOUSD H4 | Potential bearish reversal Type: Bearish reversal Preference: The price is rising toward the pivot at 95.57, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 89.19, a pullback support. Alternative S...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | Potansiyel düşüş yönlü dönüş. Tür: Düşüş yönlü dönüş. Tercih: Fiyat, geri çekilme direnci olan 95.57'deki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı geri çekilme desteği olan 89.19'daki ilk desteğe doğru götürebilir. Alternatif S...",
     "url": "https://www.tickmill.com/blog/usousd-h4-potential-bearish-reversal-13th-october-2026",
     "published_at": "Tue, 13 Oct 2026 14:25:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363825+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USOUSD'de potansiyel bir düşüş yönlü dönüşe işaret ediyor. Bu durum, petrol fiyatlarında kısa vadede bir geri çekilme veya düşüş beklentisi yaratabilir. Piyasa katılımcıları, belirtilen direnç seviyesini yakından takip etmelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "USOUSD",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın pivot dirençten düşüş yönlü bir dönüş yapması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:00.231080+00:00"
   },
   {
     "id": "institutional-insights-nomura-mcelligott-binaries",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Nomura McElligott - BINARIES",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Nomura McElligott - İKİLİLER",
     "content_en": "EQUITY VOLATILITY & DERIVATIVES DESK BRIEFING: RUNNING TO STAND STILLSource: Charlie McElligott / Nomura Volatility StrategyTHE TAKE: ROLLING CORRECTION BENEATH INDEX COMPRESSION & THE RIGHT-TAIL CHASES&P 500 index-level volatility metrics remain pinned...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ VOLATİLİTESİ & TÜREV ÜRÜNLER MASASI BİLGİLENDİRMESİ: YERİNDE SAYMAK. Kaynak: Charlie McElligott / Nomura Volatilite Stratejisi. DEĞERLENDİRME: ENDEKS SIKIŞMASI ALTINDA YUVARLANAN DÜZELTME VE SAĞ KUYRUK KOVALAMALARI. S&P 500 endeks seviyesi volatilite metrikleri sabit kalmaya devam ediyor...",
     "url": "https://www.tickmill.com/blog/institutional-insights-nomura-mcelligott-binaries",
     "published_at": "Tue, 13 Oct 2026 16:06:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363849+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P 500'deki endeks sıkışması ve düşük volatiliteye rağmen devam eden düzeltmelere dikkat çekiyor. Bu durum, piyasada bir konsolidasyon ve potansiyel ani yukarı yönlü hareketler için zemin hazırlıyor. Genel olarak temkinli ancak yukarı yönlü potansiyeli olan bir piyasa görünümü hakim.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "S&P 500 endeksinde volatilite düşük kalırken, endeks sıkışması altında düzeltmeler ve yukarı yönlü hareket arayışları (sağ kuyruk kovalamaları) gözlemleniyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:13.617255+00:00"
   },
   {
     "id": "gold-holding-steady-ahead-of-us-cpi-tomorrow",
@@ -51,13 +87,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Gold Holding Steady Ahead of US CPI Tomorrow",
-    "title_tr": "",
+    "title_tr": "Altın, Yarınki ABD TÜFE Verileri Öncesinde İstikrarlı Seyrediyor",
     "content_en": "Pause Ahead of CPI ReleaseGold prices are holding at the foot of the recent declines for now with price having settled into a block of consolidation over recent sessions. Mostly, this price action reflects uncertainty ahead of tomorrow’s headline CPI data (and Thur...",
-    "content_tr": "",
+    "content_tr": "TÜFE Açıklaması Öncesi Duraklama\nAltın fiyatları şimdilik son düşüşlerin dip seviyelerinde tutunuyor ve fiyat son seanslarda bir konsolidasyon bloğuna yerleşmiş durumda. Çoğunlukla, bu fiyat hareketi yarınki manşet TÜFE verileri (ve Perşembe...) öncesindeki belirsizliği yansıtıyor.",
     "url": "https://www.tickmill.com/blog/gold-holding-steady-ahead-of-us-cpi-tomorrow",
     "published_at": "Tue, 13 Oct 2026 09:49:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363875+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, ABD TÜFE verileri öncesinde belirsizlik içinde bir bekleme modunda. Altın fiyatlarındaki bu konsolidasyon, verilerin açıklanmasının ardından piyasalarda önemli bir volatilite yaşanabileceğine işaret ediyor. Enflasyon verileri, altın ve diğer varlıkların kısa vadeli yönünü belirleyecek ana faktör olacak.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Son düşüşlerin dip seviyelerinde tutunuyor ve TÜFE verileri öncesi konsolidasyon içinde, belirsizlik hakim.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:24.291977+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-131026",
@@ -66,13 +114,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 13/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 13/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 13/10/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 13/10/26***ES1! (Z VADELİ SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ALINTILANMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7440/7400 AYLIK ARALIK DİRENÇ 7960 DESTEK 7663 HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-131026",
     "published_at": "Tue, 13 Oct 2026 08:51:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363904+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için teknik analiz seviyelerini sunmaktadır. Aylık boğa/ayı bölgeleri ve direnç/destek seviyeleri belirtilerek kısa vadeli piyasa hareketlerine odaklanılmıştır. Bu seviyeler, yatırımcılar için potansiyel giriş ve çıkış noktaları sağlayabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Aylık boğa/ayı bölgeleri (7440/7400) ve direnç (7960) ile destek (7663) seviyeleri belirtilmiş olup, mevcut fiyatın bu seviyelere göre konumu net değildir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:36.713084+00:00"
   },
   {
     "id": "usdchf-h1-bullish-bounce-at-pullback-support-13th-october-2026",
@@ -81,13 +141,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H1 | Bullish bounce at pullback support",
-    "title_tr": "",
+    "title_tr": "USDCHF H1 | Geri çekilme desteğinde boğa sıçraması",
     "content_en": "Title: USDCHF H1 | Bullish bounce at pullback support Type: Bullish bounce Preference: The price is falling toward the pivot at 0.8316, a pullback support that aligns with the 50% Fibonacci retracement and the 100% Fibonacci projection. A bounce from this level co...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H1 | Geri çekilme desteğinde boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesi ve %100 Fibonacci projeksiyonu ile hizalanan 0.8316'daki pivot seviyesine, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama...",
     "url": "https://www.tickmill.com/blog/usdchf-h1-bullish-bounce-at-pullback-support-13th-october-2026",
     "published_at": "Tue, 13 Oct 2026 14:14:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363924+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, USDCHF paritesinde önemli bir destek seviyesinden boğa yönlü bir sıçrama bekliyor. Bu durum, parite için kısa vadede yukarı yönlü bir hareket potansiyeline işaret ediyor. Yatırımcılar, 0.8316 seviyesinde bir geri dönüş bekleyerek uzun pozisyonlar arayabilirler.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "USD/İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 0.8316'daki güçlü geri çekilme desteğinden boğa yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:46.147547+00:00"
   },
   {
     "id": "bitcoin-recovering-despite-huge-etf-outflows",
@@ -96,13 +168,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Recovering Despite Huge ETF Outflows",
-    "title_tr": "",
+    "title_tr": "Büyük ETF Çıkışlarına Rağmen Bitcoin Toparlanıyor",
     "content_en": "BTC Pushing HigherBitcoin prices are pushing higher again today with the futures market fighting to get back above the $84,385 following the correction lower from the October highs. The push higher comes despite a further exodus of capital from BTC ETFs. The latest...",
-    "content_tr": "",
+    "content_tr": "Bitcoin fiyatları bugün yeniden yükselişe geçerek, Ekim ayı zirvelerinden yaşanan düzeltmenin ardından vadeli işlem piyasasında 84.385 doların üzerine çıkmak için mücadele ediyor. Bu yükseliş, BTC ETF'lerinden sermaye çıkışlarının devam etmesine rağmen gerçekleşiyor. En son...",
     "url": "https://www.tickmill.com/blog/bitcoin-recovering-despite-huge-etf-outflows",
     "published_at": "Tue, 13 Oct 2026 09:25:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363942+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, büyük ETF çıkışlarına rağmen Bitcoin'in yükselişini sürdürdüğünü belirtiyor. Bu durum, kripto piyasasında güçlü bir temel talebin veya kısa pozisyon kapanışlarının olduğunu, varlığın dirençli yapısını gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatlar, büyük ETF çıkışlarına rağmen yükselişe geçerek Ekim zirvelerinden sonra toparlanma gösteriyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:36:56.300768+00:00"
   },
   {
     "id": "eurusd-h1-bearish-continuation-for-the-fiber-13th-october-2026",
@@ -111,13 +195,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD H1 | Bearish continuation for the fiber",
-    "title_tr": "",
+    "title_tr": "EURUSD H1 | Fiber için düşüş eğilimi devam ediyor",
     "content_en": "Title: EURUSD H1 | Bearish continuation for the fiber Type: Bearish reversal Preference: The price is rising toward the pivot at 1.1187, a pullback resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward t...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURUSD H1 | Fiber için düşüş eğilimi devam ediyor Tip: Ayı piyasası dönüşü Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme direnci olan 1.1187'deki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı şuraya doğru yönlendirebilir...",
     "url": "https://www.tickmill.com/blog/eurusd-h1-bearish-continuation-for-the-fiber-13th-october-2026",
     "published_at": "Tue, 13 Oct 2026 14:28:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363963+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, EURUSD paritesinde düşüş yönlü bir dönüş beklemektedir. Belirtilen direnç seviyesinden bir geri çekilme, paritede aşağı yönlü baskı oluşturabilir ve kısa pozisyon fırsatları yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 1.1187 pivot direncinden düşüş yönlü bir geri dönüş yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:37:06.150842+00:00"
   },
   {
     "id": "daily-market-outlook-october-13-2026",
@@ -126,13 +222,81 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 13, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 13 Ekim 2026",
     "content_en": "Daily Market Outlook, October 13, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - AI Wobbles, Bonds BidGlobal equities fell Tuesday as renewed concerns around the AI complex hit sentiment and pushed investors toward safer as...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 13 Ekim 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Grubu. Munnelly'nin Makro Mesajı - Yapay Zeka Sallanıyor, Tahviller Talep Görüyor. Küresel hisse senetleri Salı günü düştü, zira yapay zeka kompleksi etrafındaki yenilenen endişeler piyasa duyarlılığını olumsuz etkiledi ve yatırımcıları daha güvenli varlıklara yöneltti...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-13-2026",
     "published_at": "Tue, 13 Oct 2026 09:28:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.363984+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yapay zeka sektöründeki endişeler küresel hisse senetlerinde düşüşe neden oldu. Yatırımcılar güvenli limanlara yönelerek tahvil talebini artırdı. Bu durum, piyasada riskten kaçınma eğiliminin hakim olduğunu gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka endişeleri piyasa duyarlılığını olumsuz etkiledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka endişeleri piyasa duyarlılığını olumsuz etkiledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düştü, riskten kaçınma eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düştü, riskten kaçınma eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düştü, riskten kaçınma eğilimi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri düştü, riskten kaçınma eğilimi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Yatırımcılar güvenli limanlara yöneldi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "YUKARI",
+        "gerekce": "Yatırımcılar güvenli limanlara yöneldi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Güvenli liman talebinden faydalanma potansiyeli.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-25T17:37:24.804579+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-sp500-flows-positioning-update-131026",
@@ -141,12 +305,59 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs SP500 Flows & Positioning Update 13/10/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs SP500 Akışları ve Pozisyon Güncellemesi 26/10/13",
     "content_en": "EQUITY POSITIONING & DERIVATIVES DESK BRIEFINGTHE TAKE: CTA LONG DELEVERAGING VS. Q3 EARNINGS BLACKOUT INFLECTIONSystematic trend-following funds continue to cut aggregate equity exposure sharply. Global CTA equity length is modeled down to ~$43.5B (from $125B ...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ POZİSYONLARI & TÜREV ÜRÜNLER MASASI BİLGİLENDİRMESİ. ÖZET: CTA UZUN POZİSYONLARIN AZALTILMASI (DELEVERAGING) VE 3. ÇEYREK KAZANÇ DÖNEMİ ÖNCESİ SESSİZLİK DÖNEMİ DÖNÜM NOKTASI. Sistematik trend takip eden fonlar, toplam hisse senedi pozisyonlarını keskin bir şekilde azaltmaya devam ediyor. Küresel CTA hisse senedi uzun pozisyonları, 125 milyar dolardan yaklaşık 43.5 milyar dolara düşürülmüş durumda.",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-sp500-flows-positioning-update-131026",
     "published_at": "Tue, 13 Oct 2026 12:19:00 +0000",
     "fetched_at": "2026-10-14T05:10:21.364005+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "CTA fonlarının hisse senedi pozisyonlarını keskin bir şekilde azaltması, piyasada risk iştahının düştüğünü ve temkinli bir duruş sergilendiğini gösteriyor. Bu durum, özellikle 3. çeyrek kazanç dönemi öncesinde hisse senedi piyasaları üzerinde aşağı yönlü baskı oluşturabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "CTA fonları, S&P 500'ü temsil eden hisse senedi pozisyonlarını keskin bir şekilde azaltıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi pozisyon azaltımı, S&P 500'ün mikro versiyonunu da etkiler.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi piyasalarındaki genel pozisyon azaltımı, teknoloji ağırlıklı Nasdaq'ı da olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi pozisyon azaltımı, Nasdaq'ın mikro versiyonunu da etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi piyasalarındaki genel pozisyon azaltımı, küçük sermayeli şirketleri de kapsar.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi piyasalarındaki genel pozisyon azaltımı, Dow Jones endeksini de etkiler.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-25T17:37:38.696992+00:00"
   }
 ]
