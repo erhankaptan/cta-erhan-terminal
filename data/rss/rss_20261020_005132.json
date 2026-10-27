@@ -6,13 +6,74 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Higher Amidst USD Pullback",
-    "title_tr": "",
+    "title_tr": "Bitcoin, USD Geri Çekilmesi Ortamında Yükseliyor",
     "content_en": "BTC Rallying on MondayBitcoin prices are pushing higher today, benefiting from the continues weakness in USD, as bulls try to get futures prices back above the $83,385 level following last week’s reversal. The market has been fairly resilient against the hawkish sh...",
-    "content_tr": "",
+    "content_tr": "Pazartesi günü Bitcoin yükselişte. Bitcoin fiyatları bugün, USD'deki devam eden zayıflıktan faydalanarak yükseliyor. Boğalar, geçen haftaki geri dönüşün ardından vadeli işlem fiyatlarını 83.385 dolar seviyesinin üzerine çıkarmaya çalışıyor. Piyasa, şahin...",
     "url": "https://www.tickmill.com/blog/bitcoin-higher-amidst-usd-pullback",
     "published_at": "Mon, 19 Oct 2026 10:16:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159124+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bitcoin, ABD Doları'ndaki zayıflıktan destek bularak yükselişini sürdürüyor. Bu durum, risk iştahının arttığını ve yatırımcıların alternatif varlıklara yöneldiğini gösteriyor. USD'deki düşüş eğilimi devam ederse, Bitcoin ve diğer riskli varlıklar için pozitif bir ortam oluşabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "YUKARI",
+        "gerekce": "USD zayıflığından faydalanarak yükselişini sürdürüyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede devam eden zayıflığından bahsediliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, Euro'nun dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, Japon Yeni'nin dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, Sterlin'in dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, Avustralya Doları'nın dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, Kanada Doları'nın dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki zayıflık, İsviçre Frangı'nın dolar karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:45:08.833730+00:00"
   },
   {
     "id": "ai-hangover-keeping-dollar-down",
@@ -21,13 +82,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "AI Hangover Keeping Dollar Down",
-    "title_tr": "",
+    "title_tr": "Yapay Zeka Sarhoşluğu Doları Baskılıyor",
     "content_en": "USD Still Soft on MondayThe US Dollar starts the week on a softer footing as last week’s uncertainty around AI-company debt levels remains a key threat to the hawkish Fed picture. AI stocks were seen plunging last week, dragging US stock markets lower, as questions...",
-    "content_tr": "",
+    "content_tr": "Pazartesi günü USD hala zayıf. ABD Doları haftaya daha zayıf bir başlangıç yapıyor, zira geçen haftaki yapay zeka şirketlerinin borç seviyeleri etrafındaki belirsizlik, şahin Fed görünümüne yönelik önemli bir tehdit olmaya devam ediyor. Yapay zeka hisseleri geçen hafta düşüş yaşayarak ABD borsalarını aşağı çekti, çünkü sorular...",
     "url": "https://www.tickmill.com/blog/ai-hangover-keeping-dollar-down",
     "published_at": "Mon, 19 Oct 2026 09:33:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159149+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yapay zeka hisselerindeki düşüş ve şirket borçlarına dair belirsizlik, ABD Doları üzerinde baskı oluşturarak haftaya zayıf başlamasına neden oldu. Bu durum, Fed'in şahin duruşuna yönelik endişeleri artırırken, ABD hisse senedi piyasalarında genel bir aşağı yönlü baskı yarattı.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Doları Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka şirketlerinin borç seviyelerindeki belirsizlik ve hisse senedi piyasalarındaki düşüş nedeniyle zayıfladı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş, genel ABD hisse senedi piyasalarını aşağı çekti.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüşün genel ABD hisse senedi piyasalarını aşağı çekmesiyle etkilendi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:45:25.658092+00:00"
   },
   {
     "id": "usousd-h4-bullish-momentum-to-continue-19th-october-2026",
@@ -36,13 +123,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Bullish momentum to continue",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | Yükseliş momentumu devam edecek",
     "content_en": "Title: USOUSD H4 | Bullish momentum to continue Type: Bullish bounce Preference: The price is falling toward the pivot at 98.67, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 104.42, a pullback resistance. Alternativ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | Yükseliş momentumu devam edecek Tip: Yükseliş sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 98.67'deki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı bir geri çekilme direnci olan 104.42'deki ilk dirence doğru taşıyabilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/usousd-h4-bullish-momentum-to-continue-19th-october-2026",
     "published_at": "Mon, 19 Oct 2026 12:14:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159162+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, petrol fiyatlarında kısa vadeli bir yükseliş beklentisini işaret ediyor. USOUSD'nin belirtilen destek seviyesinden sıçraması, enerji piyasalarında yukarı yönlü bir ivme yaratabilir. Bu durum, genel enflasyonist baskıları artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın pivot destek seviyesi olan 98.67'den sıçrayarak ilk direnç seviyesi olan 104.42'ye doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:45:34.373623+00:00"
   },
   {
     "id": "insitutional-insights-goldman-sachs-heightened-protection-demand",
@@ -51,13 +150,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Insitutional Insights: Goldman Sachs: Heightened Protection Demand",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs: Artan Koruma Talebi",
     "content_en": "EQUITY DERIVATIVES & POSITIONING BRIEFING: HEIGHTENED DEMAND FOR PROTECTIONTHE TAKE: PANIC PROTECTION DEMAND VS. 5-YEAR POSITIONING LOWSFriday's session marked the first acute signs of index-level downside panic in protection markets, following weeks of se...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ TÜREVLERİ VE POZİSYONLANDIRMA BRİFİNGİ: ARTAN KORUMA TALEBİ. DEĞERLENDİRME: PANİK KORUMA TALEBİ VS. 5 YILLIK EN DÜŞÜK POZİSYONLANMA. Cuma günkü seans, haftalar süren... ardından koruma piyasalarında endeks düzeyinde aşağı yönlü paniğin ilk keskin işaretlerini gösterdi.",
     "url": "https://www.tickmill.com/blog/insitutional-insights-goldman-sachs-heightened-protection-demand",
     "published_at": "Mon, 19 Oct 2026 13:48:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159182+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Goldman Sachs raporu, piyasalarda hisse senedi endeksleri için artan bir aşağı yönlü panik ve koruma talebi olduğunu gösteriyor. Bu durum, yatırımcıların riskten kaçınma eğiliminde olduğunu ve yakın vadede hisse senedi piyasalarında düşüş beklentisi taşıdığını işaret ediyor. Genel piyasa hissiyatı olumsuz.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks düzeyinde aşağı yönlü panik ve artan koruma talebi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:45:47.661445+00:00"
   },
   {
     "id": "daily-market-outlook-october-19-2026",
@@ -66,13 +212,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 19, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 19 Ekim 2026",
     "content_en": "Daily Market Outlook, October 19, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive – AI Earnings Test Meets K-Shaped DemandUS equity futures bounced after last week’s technology selloff, as investors looked ahead to a crucial e...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 19 Ekim 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Grubu. Munnelly'nin Makro Mesajı – Yapay Zeka Kazanç Testi K Şekilli Taleple Buluşuyor. ABD hisse senedi vadeli işlemleri, geçen haftaki teknoloji satışının ardından toparlandı, yatırımcılar kritik bir...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-19-2026",
     "published_at": "Mon, 19 Oct 2026 09:37:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159194+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD hisse senedi vadeli işlemleri, teknoloji sektöründeki satışların ardından toparlanma gösteriyor. Bu durum, piyasada kısa vadeli bir iyimserliğe işaret etse de, \"K-şekilli talep\" ve yaklaşan yapay zeka kazanç testleri sektörler arası farklılıklar ve potansiyel oynaklık yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Geçen haftaki teknoloji satışının ardından toparlanma gösterdi. Yapay zeka kazançları beklentisi var.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD hisse senedi vadeli işlemlerinin genel toparlanma eğilimine katıldı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD hisse senedi vadeli işlemlerinin genel toparlanma eğilimine katıldı.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-27T23:46:02.283710+00:00"
   },
   {
     "id": "gbpusd-h4-bearish-reversal-in-play-19th-october-2026",
@@ -81,13 +253,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Bearish reversal in play",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Ayı piyasası dönüşü devrede",
     "content_en": "Title: GBPUSD H4 | Bearish reversal in play Type: Bearish reversal Preference: The price is rising towards the pivot at 1.3347, a pullback resistance that aligns with the 161.8% Fibonacci extension. A reversal from this level could lead the price toward the 1st sup...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Ayı piyasası dönüşü devrede Tür: Ayı piyasası dönüşü Tercih: Fiyat, %161.8 Fibonacci uzantısıyla hizalanan bir geri çekilme direnci olan 1.3347'deki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı 1. destek seviyesine doğru yönlendirebilir...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-bearish-reversal-in-play-19th-october-2026",
     "published_at": "Mon, 19 Oct 2026 12:01:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159205+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPUSD paritesinde ayı piyasası dönüşü beklediğini belirtiyor. Fiyatın önemli bir direnç seviyesinden geri dönerek düşüşe geçebileceği öngörülüyor. Bu durum, İngiliz Sterlini'nin ABD Doları karşısında değer kaybedebileceğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 1.3347 pivot direnç seviyesinden geri dönerek düşüşe geçmesi bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:46:12.587369+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-191026",
@@ -96,13 +280,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 19/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 19/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 19/10/26 MONTHLY OPEX***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WE...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 19/10/26 AYLIK OPEX***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMAKTADIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnci 7960 Desteği 7663BİZ...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-191026",
     "published_at": "Mon, 19 Oct 2026 08:34:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159223+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için aylık opsiyon vadesine odaklanarak önemli teknik seviyeler sunmaktadır. Belirlenen boğa/ayı bölgesi ve aylık destek/direnç seviyeleri, bu noktalar etrafında potansiyel oynaklık ve kritik fiyat hareketleri olabileceğini göstermektedir. Yatırımcılar, yön tayini için bu seviyeleri yakından takip edecektir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için kritik boğa/ayı bölgesi (7440/7400) ve aylık destek (7663) / direnç (7960) seviyeleri belirtmektedir. Mevcut fiyatın bu seviyelere göre konumu hakkında bilgi verilmediği için net bir yön tayini yapılamamaktadır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "ES vadeli işlemleriyle eşdeğer nakit US500 seviyelerinden bahsedilmekte olup, endeks için de benzer kritik seviyeler geçerlidir. Mevcut yön hakkında net bir bilgi bulunmamaktadır.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:46:28.555005+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-earnings-test-versus-positioning",
@@ -111,13 +314,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs 'Earnings Test Versus Positioning'",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs 'Kazanç Testi Pozisyonlamaya Karşı'",
     "content_en": "WEEKLY MACRO & POSITIONING BRIEFING: MONDAY MORNING \"GREEN DOT\" SETUPDesk Analysis: Global Banking & Markets FICC & EquitiesTHE TAKE: EARNINGS TEST VS. EXTREME POSITIONING CAPITULATIONFollowing last week's historic technology liquidation—...",
-    "content_tr": "",
+    "content_tr": "HAFTALIK MAKRO & POZİSYONLAMA BRİFİNGİ: PAZARTESİ SABAHI \"YEŞİL NOKTA\" KURULUMU. Masa Analizi: Küresel Bankacılık ve Piyasalar FICC & Hisse Senetleri. ÖZET: KAZANÇ TESTİNE KARŞI AŞIRI POZİSYON KAPİTÜLASYONU. Geçen haftaki tarihi teknoloji tasfiyesinin ardından—...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-earnings-test-versus-positioning",
     "published_at": "Mon, 19 Oct 2026 10:55:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159242+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, teknoloji sektöründeki tarihi tasfiyenin ardından, kazanç raporlarının aşırı piyasa pozisyonlamasına karşı bir test niteliğinde olduğunu belirtiyor. Bu durum, piyasalarda yüksek oynaklık ve belirsizlik potansiyeli taşıyor, kazançların hayal kırıklığı yaratması halinde düşüşlerin devam edebileceğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'tarihi teknoloji tasfiyesi' ve 'aşırı pozisyon kapitülasyonu' Nasdaq endeksini olumsuz etkileyecektir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Geniş piyasa kapitülasyonu ve teknoloji sektöründeki zayıflığın genel piyasa üzerindeki olumsuz etkisi nedeniyle düşüş beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Aşırı pozisyon kapitülasyonu ve genel piyasa belirsizliği Dow endeksi üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Piyasadaki belirsizlik, tasfiye ve kapitülasyon dönemlerinde güvenli liman talebinin artması beklenir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-27T23:46:49.581255+00:00"
   },
   {
     "id": "european-unrest-and-geopolitical-escalation-drag-ftse-down-over-1",
@@ -126,13 +362,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "European Unrest and Geopolitical Escalation Drag FTSE Down Over 1%",
-    "title_tr": "",
+    "title_tr": "Avrupa'daki Huzursuzluk ve Jeopolitik Gerilimler FTSE'yi %1'den Fazla Aşağı Çekti",
     "content_en": "European Unrest and Geopolitical Escalation Drag FTSE Down Over 1%London's benchmark FTSE 100 shed significant ground on Monday, tracking broad weakness across European markets as widespread civil unrest in continental Europe and escalating geopolitical confli...",
-    "content_tr": "",
+    "content_tr": "Avrupa'daki huzursuzluk ve jeopolitik gerilimler FTSE'yi %1'den fazla aşağı çekti. Londra'nın gösterge endeksi FTSE 100, Pazartesi günü Avrupa piyasalarındaki genel zayıflığı takip ederek önemli ölçüde değer kaybetti. Bu düşüş, kıta Avrupa'sındaki yaygın sivil huzursuzluk ve tırmanan jeopolitik çatışmalar nedeniyle yaşandı.",
     "url": "https://www.tickmill.com/blog/european-unrest-and-geopolitical-escalation-drag-ftse-down-over-1",
     "published_at": "Mon, 19 Oct 2026 17:32:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159255+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Avrupa'daki sivil huzursuzluk ve jeopolitik gerilimler, bölge piyasalarında risk iştahını azaltarak FTSE 100 endeksinde belirgin bir düşüşe neden oldu. Bu durum, yatırımcıların güvenli limanlara yönelme eğilimini artırabilir ve küresel piyasalarda oynaklığı tetikleyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Avrupa'daki sivil huzursuzluk ve jeopolitik gerilimler nedeniyle %1'den fazla değer kaybetti.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-27T23:47:02.328308+00:00"
   },
   {
     "id": "crude-slips-as-trump-waives-russia-sanctions",
@@ -141,12 +389,45 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Crude Slips As Trump Waives Russia Sanctions",
-    "title_tr": "",
+    "title_tr": "Ham Petrol, Trump'ın Rusya Yaptırımlarını Kaldırmasıyla Geriledi",
     "content_en": "Oil Lower on MondayOil prices are pushing lower on Monday on the back of news that President Trump has waived some sanctions against Russia after agreeing a diesel export deal with Moscow. Trump explained that the move is aimed at bolstering chances of peace betwee...",
-    "content_tr": "",
+    "content_tr": "Pazartesi günü petrol fiyatları düşüşte. Başkan Trump'ın Moskova ile bir dizel ihracat anlaşması yapmasının ardından Rusya'ya yönelik bazı yaptırımları kaldırdığı haberleri üzerine petrol fiyatları Pazartesi günü düşüşe geçti. Trump, bu hamlenin barış şansını artırmayı amaçladığını açıkladı...",
     "url": "https://www.tickmill.com/blog/crude-slips-as-trump-waives-russia-sanctions",
     "published_at": "Mon, 19 Oct 2026 10:07:00 +0000",
     "fetched_at": "2026-10-20T00:51:32.159266+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu haber, küresel petrol arzında potansiyel bir artışa işaret ederek ham petrol fiyatları üzerinde aşağı yönlü baskı oluşturmuştur. Jeopolitik risklerin azalması, piyasada genel bir rahatlama hissi yaratabilir ancak petrol fiyatları için olumsuz bir gelişmedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Trump'ın Rusya'ya yönelik yaptırımları kaldırması ve dizel ihracat anlaşması nedeniyle fiyatlar düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Trump'ın Rusya'ya yönelik yaptırımları kaldırması ve dizel ihracat anlaşması nedeniyle fiyatlar düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Petrol Fonu",
+        "yon": "AŞAĞI",
+        "gerekce": "Ham petrol fiyatlarındaki düşüşe paralel olarak gerilemesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel petrol piyasasındaki genel düşüş eğilimine katılması beklenir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:47:22.280426+00:00"
   }
 ]

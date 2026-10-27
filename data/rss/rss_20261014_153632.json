@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Bulls pushing toward resistance",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | Boğalar dirence doğru itiyor",
     "content_en": "Title: USOUSD H4 | Bulls pushing toward resistance Type: Bearish reversal Preference: The price is reacting off the pivot at 95.57, an overlap resistance. A reversal from this level could lead the price toward the 1st support at 91.73, a pullback support. Alternati...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | Boğalar dirence doğru itiyor Tip: Ayı dönüşü Tercih: Fiyat, 95.57'deki pivot noktasından, bir örtüşme direncinden tepki veriyor. Bu seviyeden bir dönüş, fiyatı 91.73'teki ilk desteğe, bir geri çekilme desteğine doğru götürebilir. Alternati...",
     "url": "https://www.tickmill.com/blog/usousd-h4-bulls-pushing-toward-resistance-14th-october-2026",
     "published_at": "Wed, 14 Oct 2026 14:01:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507623+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USOUSD'de (ABD Petrol ETF'si) potansiyel bir ayı dönüşüne işaret ediyor. Bu durum, kısa vadede petrol fiyatlarında bir zayıflamaya yol açabilir ve enerji piyasaları üzerinde aşağı yönlü bir baskı oluşturabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Petrol ETF'si",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, 95.57'deki direnç seviyesinden tepki veriyor ve makale 'ayı dönüşü' tercihini belirtiyor, fiyatın 91.73'teki desteğe doğru hareket etmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:39:29.272964+00:00"
   },
   {
     "id": "eurusd-lower-after-lagarde-comments",
@@ -223,13 +235,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "CADJPY H1 | Bullish bounce at pullback support",
-    "title_tr": "",
+    "title_tr": "CADJPY H1 | Geri çekilme desteğinde yükseliş sıçraması",
     "content_en": "Title: CADJPY H1 | Bullish bounce at pullback support Type: Bullish bounce Preference: The price is falling toward the pivot at 111.23, a pullback support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1s...",
-    "content_tr": "",
+    "content_tr": "Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 111.23 seviyesindeki geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı daha yüksek seviyelere taşıyabilir.",
     "url": "https://www.tickmill.com/blog/cadjpy-h1-bullish-bounce-at-pullback-support-14th-october-2026",
     "published_at": "Wed, 14 Oct 2026 13:50:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507659+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, CADJPY paritesinde önemli bir destek seviyesinden yükseliş potansiyeline işaret ediyor. Eğer 111.23 seviyesi tutunursa, paritede yukarı yönlü bir hareket ve Kanada Doları'nda güçlenme beklenebilir. Bu durum, Japon Yeni'nin diğer para birimleri karşısında zayıflamasına yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "CADJPY paritesinde beklenen yükseliş, Kanada Doları'nın güçleneceğine işaret etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "CADJPY paritesinde beklenen yükseliş, Japon Yeni'nin zayıflayacağına işaret etmektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:39:41.441360+00:00"
   },
   {
     "id": "daily-trade-setups-trading-us-cpi",
@@ -238,13 +269,67 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Trade Setups: Trading US CPI",
-    "title_tr": "",
+    "title_tr": "Günlük İşlem Kurulumları: ABD TÜFE İşlemleri",
     "content_en": "MACRO, CPI PREVIEW & DERIVATIVES DESK BRIEFINGTHE TAKE: CPI CATALYST TESTS HAWKISH FED PRICING AND 7,810 GAMMA PIVOTAs markets approach the US September CPI release—sitting just two weeks ahead of the upcoming FOMC rate decision—a hawkish shift has re-emerged a...",
-    "content_tr": "",
+    "content_tr": "MAKRO, TÜFE ÖN İNCELEMESİ & TÜREV MASASI BRİFİNGİ ÖZET: TÜFE KATALİZÖRÜ ŞAHİN FED FİYATLAMASINI VE 7.810 GAMMA PİVOTUNU TEST EDİYOR. Piyasalar, yaklaşan FOMC faiz kararından sadece iki hafta önce gerçekleşecek olan ABD Eylül TÜFE açıklanmasına yaklaşırken, şahin bir değişim yeniden ortaya çıktı...",
     "url": "https://www.tickmill.com/blog/daily-trade-setups-trading-us-cpi",
     "published_at": "Wed, 14 Oct 2026 12:30:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507684+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, ABD Eylül TÜFE verisinin, piyasalardaki şahin Fed beklentilerini ve mevcut fiyatlamaları test edeceğini belirtiyor. Şahin eğilimin yeniden güçlenmesi, riskli varlıklar üzerinde baskı yaratabilir ve doları destekleyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve yüksek faiz oranları riskli varlıklar üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve yüksek faiz oranları teknoloji hisseleri üzerinde daha fazla baskı oluşturabilir.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed ve güçlü dolar beklentisi, faiz getirisi olmayan altın için olumsuz bir faktördür.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentisi ABD dolarını güçlendirerek Euro/USD paritesini aşağı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentisi ABD dolarını güçlendirerek Yen/USD paritesini aşağı çekebilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentisi ABD dolarını güçlendirerek Sterlin/USD paritesini aşağı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentisi ABD dolarını güçlendirerek Avustralya Doları/USD paritesini aşağı çekebilir ve risk iştahını azaltabilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:40:04.302561+00:00"
   },
   {
     "id": "cadchf-h1-heading-toward-50-fib-resistance-14th-october-2026",
@@ -299,13 +384,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 14, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 14 Ekim 2026",
     "content_en": "Daily Market Outlook, October 14, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - CPI Test Meets Easier ConditionsAsian equities recovered ahead of today’s crucial US inflation data, with the MSCI Asia Pacific Index rising 0...",
-    "content_tr": "",
+    "content_tr": "Tickmill Group'tan Patrick Munnelly'nin 14 Ekim 2026 tarihli günlük piyasa görünümü. Munnelly'nin Makro Mektubu - TÜFE Testi Daha Kolay Koşullarla Buluşuyor. Asya hisse senetleri, bugünkü kritik ABD enflasyon verileri öncesinde toparlandı ve MSCI Asya Pasifik Endeksi %0 yükseldi...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-14-2026",
     "published_at": "Wed, 14 Oct 2026 09:45:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507725+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, ABD enflasyon verilerini beklerken temkinli bir iyimserlik sergiliyor. Asya piyasalarındaki toparlanma ve 'daha kolay koşullar' beklentisi, olumlu bir TÜFE raporu umudunu yansıtıyor. Ancak, verilerin açıklanmasıyla piyasalarda önemli hareketlilik yaşanabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "JP225",
+        "isim": "Nikkei 225 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede Asya hisse senetlerinin kritik ABD enflasyon verileri öncesinde toparlandığı belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "ABD enflasyon verilerinin 'daha kolay koşullar' yaratması beklentisi, risk iştahını artırarak ABD endekslerini destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "'Daha kolay koşullar' beklentisi, doların zayıflamasına yol açarak altın fiyatlarını destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD enflasyon verilerinin 'daha kolay koşullar'a işaret etmesi, ABD dolarının diğer majör para birimleri karşısında değer kaybetmesine neden olabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-27T23:40:21.286359+00:00"
   },
   {
     "id": "usd-softens-as-traders-await-key-inflation-data",
@@ -314,13 +432,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USD Softens As Traders Await Key Inflation Data",
-    "title_tr": "",
+    "title_tr": "Traderlar Önemli Enflasyon Verilerini Beklerken USD Zayıflıyor",
     "content_en": "Inflation Up NextThe Dollar is on watch today as traders brace for the latest set of US inflation readings due this afternoon. Ahead of the data USD is cooling a little with the DXY pulling back further from yesterday’s highs, suggesting some trepidation that we mi...",
-    "content_tr": "",
+    "content_tr": "Enflasyon Sırada. Traderlar bu öğleden sonra açıklanacak en son ABD enflasyon verilerine hazırlanırken Dolar bugün gözlem altında. Veriler öncesinde USD biraz soğuyor ve DXY dünkü zirvelerden daha da geri çekiliyor, bu da bir miktar endişe olduğunu gösteriyor.",
     "url": "https://www.tickmill.com/blog/usd-softens-as-traders-await-key-inflation-data",
     "published_at": "Wed, 14 Oct 2026 09:33:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507742+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD enflasyon verileri öncesinde Dolar'daki zayıflama, piyasada belirsizliğin ve temkinli bir bekleyişin hakim olduğunu gösteriyor. Verilerin açıklanmasıyla birlikte piyasalarda önemli hareketlilikler yaşanabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Enflasyon verileri öncesinde dünkü zirvelerden geri çekilerek zayıflama gösteriyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:40:31.831455+00:00"
   },
   {
     "id": "trading-the-nasdaq-corrective-cycle",
@@ -329,13 +459,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Trading The Nasdaq Corrective Cycle",
-    "title_tr": "",
+    "title_tr": "Nasdaq Düzeltme Döngüsünde İşlem Yapmak",
     "content_en": "Nasdaq Futures —Trading AnalysisNasdaq futures continue to look vulnerable in the short term, with price action still favouring a double corrective sequence lower before a more durable rebound attempt can develop. The immediate focus is the 30465 area, which is a h...",
-    "content_tr": "",
+    "content_tr": "Nasdaq Vadeli İşlemleri — İşlem Analizi. Nasdaq vadeli işlemleri kısa vadede kırılgan görünmeye devam ediyor. Fiyat hareketleri, daha kalıcı bir toparlanma girişimi gelişmeden önce, çift düzeltici bir aşağı yönlü dizilimi destekliyor. Acil odak noktası 30465 bölgesidir, ki bu bir y...",
     "url": "https://www.tickmill.com/blog/trading-the-nasdaq-corrective-cycle",
     "published_at": "Wed, 14 Oct 2026 13:28:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507756+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Nasdaq vadeli işlemlerinde kısa vadede aşağı yönlü bir düzeltme beklenmektedir. Bu durum, teknoloji ağırlıklı endekslerde düşüş baskısı yaratabilir ve yatırımcıların temkinli olmasını gerektirebilir. Daha kalıcı bir toparlanma için mevcut düzeltmenin tamamlanması beklenmelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kısa vadede kırılgan görünüm ve aşağı yönlü düzeltme beklentisi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:40:42.476453+00:00"
   },
   {
     "id": "nzdjpy-h4-potential-reversal-at-resistance-14th-october-2026",
@@ -344,12 +486,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "NZDJPY H4 | Potential reversal at resistance",
-    "title_tr": "",
+    "title_tr": "NZDJPY H4 | Dirençte Potansiyel Geri Dönüş",
     "content_en": "Title: NZDJPY H4 | Potential reversal at resistance Type: Bullish bounce Preference: The price is falling toward the pivot at 88.86, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 89.58, a pullback resistance. Alterna...",
-    "content_tr": "",
+    "content_tr": "Başlık: NZDJPY H4 | Dirençte Potansiyel Geri Dönüş Tür: Boğa sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 88.86'daki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı bir geri çekilme direnci olan 89.58'deki ilk dirence doğru taşıyabilir. Alterna...",
     "url": "https://www.tickmill.com/blog/nzdjpy-h4-potential-reversal-at-resistance-14th-october-2026",
     "published_at": "Wed, 14 Oct 2026 14:04:00 +0000",
     "fetched_at": "2026-10-14T15:36:32.507768+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "NZDJPY paritesinde kısa vadede destek seviyesinden bir toparlanma bekleniyor. Bu durum, paritenin yukarı yönlü bir hareketle direnç seviyelerini test etmesine yol açabilir. Piyasa katılımcıları, belirtilen pivot seviyesini yakından takip etmelidir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NZDJPY",
+        "isim": "Yeni Zelanda Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 88.86'daki pivot destek seviyesinden sıçrayarak 89.58'deki ilk dirence doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:40:52.499643+00:00"
   }
 ]

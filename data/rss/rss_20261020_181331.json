@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Bearish momentum building",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | Ayı piyasası momentumu oluşuyor",
     "content_en": "Title: USDCHF H4 | Bearish momentum building Type: Bearish reversal Preference: The price is rising toward the pivot at 0.8306, a pullback resistance that is near the 50% Fibonacci retracement and the 78.6% Fibonacci projection. A reversal from this level could lea...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | Ayı piyasası momentumu oluşuyor Tip: Ayı piyasası dönüşü Tercih: Fiyat, %50 Fibonacci geri çekilmesi ve %78.6 Fibonacci projeksiyonuna yakın olan 0.8306'daki pivot noktasına, bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatın daha düşük destek seviyelerine doğru düşüşüne yol açabilir.",
     "url": "https://www.tickmill.com/blog/usdchf-h4-bearish-momentum-building-20th-october-2026",
     "published_at": "Tue, 20 Oct 2026 11:30:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522360+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinde teknik göstergelerin ayı piyasası dönüşüne işaret ettiğini belirtiyor. Bu durum, paritenin mevcut yükseliş trendinin sona ererek düşüşe geçebileceğine dair bir beklenti oluşturmaktadır. Piyasa katılımcıları bu seviyeyi önemli bir direnç olarak izleyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "USD/İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın önemli bir direnç seviyesinden ayı piyasası dönüşü yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:47:31.751231+00:00"
   },
   {
     "id": "gbpusd-h4-falling-toward-fib-support-20th-october-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Falling toward Fib support",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Fib destek seviyesine düşüş",
     "content_en": "Title: GBPUSD H4 | Falling toward Fib support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3274, a pullback support that aligns with the 38.2% Fibonacci retracement and the 61.8% Fibonacci projection. A bounce from this level could le...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Fib destek seviyesine düşüş Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci geri çekilmesi ve %61.8 Fibonacci projeksiyonu ile uyumlu olan 1.3274'teki pivot seviyesine, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-falling-toward-fib-support-20th-october-2026",
     "published_at": "Tue, 20 Oct 2026 11:15:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522387+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "GBPUSD'nin önemli bir Fibonacci destek seviyesine yaklaştığı belirtiliyor. Bu seviyeden beklenen bir 'boğa sıçraması', paritede kısa vadeli yukarı yönlü bir hareket potansiyeline işaret ediyor. Yatırımcılar bu destek seviyesini yakından takip edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın önemli bir Fibonacci destek seviyesinden 'boğa sıçraması' yapması bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-10-27T23:47:40.978476+00:00"
   },
   {
     "id": "top-5-tips-for-trading-spacex-cfds",
@@ -36,13 +60,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Top 5 Tips for Trading SpaceX CFDs",
-    "title_tr": "",
+    "title_tr": "SpaceX CFD'lerinde İşlem Yapmak İçin En İyi 5 İpucu",
     "content_en": "While there are many anti-Musk investors avoiding SpaceX and criticising the polarising and provocative figure of Elon Musk, there are just as many, if not many more, investors who support Musk, forming a growing loyal fan base. Among them is Australia’s richest pe...",
-    "content_tr": "",
+    "content_tr": "Elon Musk'ın kutuplaştırıcı ve provokatif figürünü eleştiren ve SpaceX'ten kaçınan birçok Musk karşıtı yatırımcı olsa da, Musk'ı destekleyen, büyüyen sadık bir hayran kitlesi oluşturan en az o kadar, hatta daha fazla yatırımcı var. Bunların arasında Avustralya'nın en zengin kişisi...",
     "url": "https://www.tickmill.com/blog/top-5-tips-for-trading-spacex-cfds",
     "published_at": "Tue, 20 Oct 2026 12:07:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522411+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Elon Musk ve SpaceX'e yönelik yatırımcı duyarlılığını, eleştirilere rağmen büyüyen bir destekçi kitlesini vurgulamaktadır. Ancak, belirli finansal veriler veya piyasa geneli etkileri sunmadığından, daha geniş piyasa hareketlerini çıkarmak zordur.",
+    "genel_yon": "NÖTR",
+    "varliklar": [],
+    "translated_at": "2026-10-27T23:47:53.086324+00:00"
   },
   {
     "id": "common-mistakes-traders-make-when-trading-spacex-cfds",
@@ -51,13 +79,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Common Mistakes Traders Make When Trading SpaceX CFDs",
-    "title_tr": "",
+    "title_tr": "Traderların SpaceX CFD'lerini İşlem Yaparken Yaptığı Yaygın Hatalar",
     "content_en": "SpaceX's long-awaited Nasdaq debut has quickly evolved from a landmark public offering into one of the defining market stories of the year. The stock's arrival has attracted intense institutional and retail participation, with investors attempting to asse...",
-    "content_tr": "",
+    "content_tr": "SpaceX'in uzun zamandır beklenen Nasdaq'a girişi, kısa sürede dönüm noktası niteliğindeki bir halka arzdan yılın belirleyici piyasa hikayelerinden birine dönüştü. Hissenin piyasaya sürülmesi, yatırımcıların değerlendirme yapmaya çalışmasıyla yoğun kurumsal ve bireysel katılımı kendine çekti...",
     "url": "https://www.tickmill.com/blog/common-mistakes-traders-make-when-trading-spacex-cfds",
     "published_at": "Tue, 20 Oct 2026 11:57:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522439+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, SpaceX'in Nasdaq'a girişinin piyasada büyük ilgi uyandırdığını ve yılın önemli olaylarından biri haline geldiğini belirtmektedir. Şirketin halka arzı, hem kurumsal hem de bireysel yatırımcıların yoğun katılımını çekmiştir. Ancak, bu kısa metin genel piyasa yönü veya belirli varlıklar hakkında yeterli bilgi sunmamaktadır.",
+    "genel_yon": "NÖTR",
+    "varliklar": [],
+    "translated_at": "2026-10-27T23:48:05.673601+00:00"
   },
   {
     "id": "usdcad-h4-potential-bullish-bounce-20th-october-2026",
@@ -66,13 +98,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Potential bullish bounce",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Potansiyel boğa sıçraması",
     "content_en": "Title: USDCAD H4 | Potential bullish bounce Type: Bullish bounce Preference: The price is falling towards the pivot at 1.4077, a pullback support that is slightly below the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward the 1st ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Potansiyel boğa sıçraması. Tip: Boğa sıçraması. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesinin biraz altında bir geri çekilme desteği olan 1.4077'deki pivot noktasına doğru düşüyor. Bu seviyeden bir geri dönüş, fiyatı 1. hedefe doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-potential-bullish-bounce-20th-october-2026",
     "published_at": "Tue, 20 Oct 2026 11:24:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522464+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDCAD paritesinde 1.4077 seviyesinden potansiyel bir boğa sıçraması bekleniyor. Bu durum, ABD dolarının Kanada doları karşısında değer kazanabileceğine işaret ediyor ve piyasada kısa vadeli bir yükseliş trendi oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.4077 pivot seviyesinden ve %38.2 Fibonacci geri çekilmesinden yukarı yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:48:15.429778+00:00"
   },
   {
     "id": "ftse-edges-late-gain-into-close-as-utility-and-energy-strength-offsets-mining-slump",
@@ -81,13 +125,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Edges Late Gain into Close as Utility and Energy Strength Offsets Mining Slump",
-    "title_tr": "",
+    "title_tr": "FTSE Kapanışa Doğru Son Dakika Kazançlarını Artırdı; Kamu Hizmetleri ve Enerji Gücü Madencilikteki Düşüşü Telafi Etti",
     "content_en": "FTSE Edges Late Gain into Close as Utility and Energy Strength Offsets Mining SlumpLondon’s benchmark FTSE 100 mounted a late recovery into the close to finish in positive territory on Tuesday, up 11.70 points or 0.11% at 10,745.40 GBP. While earlier intraday weakn...",
-    "content_tr": "",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Salı günü kapanışa doğru son dakika toparlanmasıyla pozitif bölgede tamamladı ve 11.70 puan veya %0.11 artışla 10.745,40 GBP seviyesinde kapandı. Gün içi erken saatlerdeki zayıflığa rağmen...",
     "url": "https://www.tickmill.com/blog/ftse-edges-late-gain-into-close-as-utility-and-energy-strength-offsets-mining-slump",
     "published_at": "Tue, 20 Oct 2026 17:26:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522487+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "FTSE 100 endeksi, kamu hizmetleri ve enerji sektörlerindeki güçlü performansın madencilik sektöründeki düşüşü dengelemesiyle günü pozitif bölgede tamamladı. Bu durum, piyasada sektörel rotasyonun ve belirli alanlardaki güçlü talebin endeksi yukarı taşıdığını gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Endeks, kapanışa doğru toparlanarak pozitif bölgede tamamladı.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'Enerji Gücü'nden bahsedilmesi, enerji varlıkları için olumlu bir sinyaldir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-27T23:48:32.447248+00:00"
   },
   {
     "id": "crude-rallies-despite-trumprussia-news",
@@ -96,13 +159,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Crude Rallies Despite Trump/Russia News",
-    "title_tr": "",
+    "title_tr": "Ham Petrol, Trump/Rusya Haberlerine Rağmen Yükseliyor",
     "content_en": "Crude Bounces BackCrude futures are pushing higher again today with sentiment quickly reversing in the wake of Trump waiving sanctions on Russia. Oil prices had softened yesterday, initially, in response to news of Trump’s diesel export agreement with Russia, which...",
-    "content_tr": "",
+    "content_tr": "Ham petrol vadeli işlemleri bugün yeniden yükselişe geçiyor; Trump'ın Rusya'ya yönelik yaptırımları kaldırmasının ardından piyasa duyarlılığı hızla tersine döndü. Petrol fiyatları dün, başlangıçta, Trump'ın Rusya ile yaptığı dizel ihracat anlaşması haberlerine tepki olarak yumuşamıştı...",
     "url": "https://www.tickmill.com/blog/crude-rallies-despite-trumprussia-news",
     "published_at": "Tue, 20 Oct 2026 09:43:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522507+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Trump'ın Rusya'ya yönelik yaptırımları kaldırması ve dizel ihracat anlaşmasının ham petrol piyasasında güçlü bir yükselişe neden olduğunu belirtiyor. Bu durum, küresel enerji arzı ve jeopolitik gelişmelerin emtia fiyatları üzerindeki anlık etkisini gösteriyor. Petrol fiyatlarındaki bu artış, enerji şirketlerinin hisselerini olumlu etkileyebilirken, genel enflasyonist baskıları artırma potansiyeli taşıyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Trump'ın Rusya'ya yönelik yaptırımları kaldırması ve dizel ihracat anlaşması sonrası ham petrol vadeli işlemleri yükselişe geçti.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-27T23:48:40.737220+00:00"
   },
   {
     "id": "daily-market-outlook-october-20-2026",

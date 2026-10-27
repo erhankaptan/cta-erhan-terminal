@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Gold Benefits From USD Dip on AI Funding Fears",
-    "title_tr": "",
+    "title_tr": "Altın, Yapay Zeka Finansman Endişeleriyle USD Düşüşünden Faydalanıyor",
     "content_en": "Weak USD Boost GoldGold prices are rising today amidst the pullback in USD as focus shifts from US inflation data yesterday to concerns over funding levels in the AI sector. AI corporate bonds have come under pressure this week fuelling fears that investment in the...",
-    "content_tr": "",
+    "content_tr": "Zayıf USD Altını Destekliyor. Altın fiyatları bugün, ABD enflasyon verilerinden yapay zeka sektöründeki finansman seviyelerine ilişkin endişelere kayan odaklanma ile USD'deki geri çekilmenin ortasında yükseliyor. Yapay zeka şirket tahvilleri bu hafta baskı altına girerek yatırımlara yönelik korkuları körüklüyor...",
     "url": "https://www.tickmill.com/blog/gold-benefits-from-usd-dip-on-ai-funding-fears",
     "published_at": "Thu, 15 Oct 2026 11:23:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760587+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yapay zeka sektöründeki finansman endişeleri, risk iştahını azaltarak USD'de düşüşe neden olmuştur. Bu durum, güvenli liman varlığı olan altının değer kazanmasına yol açmıştır. Piyasalar, teknoloji sektöründeki potansiyel sıkıntılara karşı temkinli bir duruş sergilemektedir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "USD'deki düşüş ve yapay zeka finansman endişeleriyle artan güvenli liman talebi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka sektöründeki finansman endişeleri ve risk iştahındaki azalma nedeniyle geri çekilme.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:41:07.161127+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-151026",
@@ -21,13 +40,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 15/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 15/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 15/10/26***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 15/10/26***ES1! (Z SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN KOTEDİLMEKTEDİR, FARK PUANINI ÇIKARINIZ***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnci 7960 Desteği 7663Haftalık Boğa Ayı...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-151026",
     "published_at": "Thu, 15 Oct 2026 08:53:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760635+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 endeksi için önemli teknik seviyeleri, destek ve direnç noktalarını belirtmektedir. Bu seviyeler, yatırımcılar için potansiyel alım/satım bölgelerini ve piyasanın genel eğilimini anlamak adına kritik bilgiler sunar. Analiz, piyasada belirli bir yöne işaret etmekten ziyade, olası hareket alanlarını belirlemeye odaklanmıştır.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P 500 nakit endeksi için referans olarak ES1! vadeli işlem seviyelerini kullanmaktadır ve hem destek hem de direnç seviyeleri sunmaktadır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, endeks için aylık boğa/ayı bölgesi, direnç ve destek seviyeleri sunmaktadır, ancak belirli bir yön belirtmemektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:41:20.908318+00:00"
   },
   {
     "id": "ftse-rallies-gdp-growth-defies-contraction-forecasts",
@@ -36,13 +74,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Rallies GDP Growth Defies Contraction Forecasts",
-    "title_tr": "",
+    "title_tr": "FTSE Yükseldi, GSYİH Büyümesi Daralma Tahminlerine Meydan Okudu",
     "content_en": "FTSE Rallies GDP Growth Defies Contraction ForecastsLondon's benchmark FTSE 100 rallied strongly on Thursday, powered by positive market sentiment following a better-than-expected domestic economic growth reading. The i The FTSE 100 closed around 10,850, addin...",
-    "content_tr": "",
+    "content_tr": "FTSE Yükseldi, GSYİH Büyümesi Daralma Tahminlerine Meydan Okudu. Londra'nın gösterge endeksi FTSE 100, beklenenden iyi gelen yurt içi ekonomik büyüme verilerinin ardından olumlu piyasa duyarlılığıyla Perşembe günü güçlü bir yükseliş kaydetti. FTSE 100, yaklaşık 10.850 seviyesinde kapanarak...",
     "url": "https://www.tickmill.com/blog/ftse-rallies-gdp-growth-defies-contraction-forecasts",
     "published_at": "Thu, 15 Oct 2026 17:09:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760654+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Beklenenden iyi gelen GSYİH büyüme verileri, İngiltere piyasasında güçlü bir yükselişe neden oldu. Bu durum, ekonomik toparlanmaya dair iyimserliği artırarak hisse senedi piyasalarında pozitif bir ivme yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Beklenenden iyi gelen GSYİH büyüme verileri ve olumlu piyasa duyarlılığı ile güçlü bir yükseliş kaydetti.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-27T23:41:31.147077+00:00"
   },
   {
     "id": "daily-market-outlook-october-15-2026",
@@ -51,13 +101,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 15, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 15 Ekim 2026",
     "content_en": "Daily Market Outlook, October 15, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Chips Crack, Bonds RallyGlobal equities sold off sharply as the chip sector came under renewed pressure, raising fresh doubts about the durabi...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 15 Ekim 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mektubu - Çipler Çatladı, Tahviller Yükseldi Küresel hisse senetleri, çip sektörünün yeniden baskı altına girmesiyle keskin bir düşüş yaşadı ve dayanıklılık konusunda yeni şüpheler uyandırdı...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-15-2026",
     "published_at": "Thu, 15 Oct 2026 09:52:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760676+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Küresel hisse senetleri piyasaları, özellikle çip sektöründeki yoğun satış baskısıyla keskin bir düşüş yaşadı. Bu durum, piyasada riskten kaçınma eğilimini artırarak tahvillerin değer kazanmasına neden oldu. Genel piyasa hissiyatı olumsuz ve belirsizlik hakim.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri ve çip sektöründeki keskin düşüşten etkilendi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri ve çip sektöründeki keskin düşüşten etkilendi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Özellikle 'çip sektörü'nün baskı altında olması nedeniyle teknoloji ağırlıklı endeks olumsuz etkilendi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro Nasdaq 100 E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Özellikle 'çip sektörü'nün baskı altında olması nedeniyle teknoloji ağırlıklı endeks olumsuz etkilendi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri ve çip sektöründeki keskin düşüşten etkilendi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetleri ve çip sektöründeki keskin düşüşten etkilendi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-27T23:41:44.431481+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-flow-of-funds-update-151026",
@@ -66,13 +163,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs Flow of Funds Update 15/10/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs Fon Akışları Güncellemesi 15/10/26",
     "content_en": "EQUITY FLOWS, CORPORATE BUYBACKS & SYSTEMATIC POSITIONING BRIEFINgTHE TAKE: BUYBACK SECTOR DISPERSION & THE POST-MIDTERM LIQUIDITY RAMPCorporate share buyback activity reflects extreme sector-level divergence across S&P 500 constituents. While total exe...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ AKIŞLARI, KURUMSAL GERİ ALIMLAR VE SİSTEMATİK KONUMLANDIRMA BRİFİNGİ. ÖZET: GERİ ALIM SEKTÖRÜ DAĞILIMI VE ORTA DÖNEM SONRASI LİKİDİTE ARTIŞI. Kurumsal hisse geri alım faaliyetleri, S&P 500 bileşenleri arasında sektör düzeyinde aşırı bir farklılaşmayı yansıtmaktadır. Toplam icra...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-flow-of-funds-update-151026",
     "published_at": "Thu, 15 Oct 2026 10:35:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760695+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, kurumsal hisse geri alımlarının S&P 500'deki sektörler arası farklılaşmasına ve orta dönem sonrası beklenen likidite artışına dikkat çekiyor. Geri alımlar ve likidite artışı genel olarak hisse senedi piyasalarını destekleyici nitelikte olsa da, sektörler arası ayrışma seçici hareketlere yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlem",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal hisse geri alımları ve orta dönem sonrası beklenen likidite artışı S&P 500 endeksini destekleyici faktörlerdir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "S&P 500 Mikro E-mini Vadeli İşlem",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal hisse geri alımları ve orta dönem sonrası beklenen likidite artışı S&P 500 endeksini destekleyici faktörlerdir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal hisse geri alımları ve orta dönem sonrası beklenen likidite artışı S&P 500 endeksini destekleyici faktörlerdir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:42:00.295101+00:00"
   },
   {
     "id": "why-is-usd-plunging-despite-cpi-jump",
@@ -81,13 +204,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Why Is USD Plunging Despite CPI Jump?",
-    "title_tr": "",
+    "title_tr": "TÜFE Artışına Rağmen USD Neden Düşüyor?",
     "content_en": "Inflation Higher AgainWe’re seeing interesting price action today with the US Dollar down sharply, reversing from the initial spike higher seen in response to yesterday’s hotter-than-forecast inflation report. Headline annualised CPI for September printed 3.7% from...",
-    "content_tr": "",
+    "content_tr": "Enflasyon Yeniden Yükseldi. Dün açıklanan beklentilerin üzerindeki enflasyon raporuna verilen ilk yükseliş tepkisinin ardından bugün ABD Doları'nda keskin bir düşüşle ilginç bir fiyat hareketi görüyoruz. Eylül ayı manşet yıllık TÜFE %3,7 olarak açıklandı...",
     "url": "https://www.tickmill.com/blog/why-is-usd-plunging-despite-cpi-jump",
     "published_at": "Thu, 15 Oct 2026 09:47:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760714+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Beklentilerin üzerinde gelen enflasyon verilerine rağmen ABD Doları'nın keskin düşüşü, piyasaların enflasyonun zirve yaptığına veya Fed'in faiz artırım döngüsünün sonuna yaklaştığına dair bir sinyal olarak algıladığını gösteriyor. Bu durum, dolar endeksinde düşüşe ve emtia ile riskli varlıklarda potansiyel yükselişe yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Beklentilerin üzerindeki enflasyona rağmen dolar keskin bir düşüş yaşadı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın genel zayıflığı, EURUSD paritesini destekler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Doların düşüşü ve yüksek enflasyon, altını destekleyici faktörlerdir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Doların düşüşü, Fed'in faiz artırımı beklentilerini azaltarak ve risk iştahını artırarak hisse senedi piyasalarını destekleyebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:42:22.882349+00:00"
   },
   {
     "id": "copper-drops-on-hawkish-fed-repricing",
@@ -96,13 +252,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Drops On Hawkish Fed Repricing",
-    "title_tr": "",
+    "title_tr": "Şahin Fed Fiyatlamasıyla Bakır Düştü",
     "content_en": "Hawkish Fed ImpactCopper prices remain sold today as the futures market heads for a third consecutive day in the red. The move lower comes amidst the hawkish shift in traders’ Fed outlook amidst the latest US CPI increase seen yesterday. Selling had begun ahead of ...",
-    "content_tr": "",
+    "content_tr": "Şahin Fed Etkisi: Bakır fiyatları bugün de satıcılı seyrediyor ve vadeli işlem piyasası art arda üçüncü gününü düşüşle kapatmaya hazırlanıyor. Bu düşüş, dün açıklanan son ABD TÜFE artışının ardından yatırımcıların Fed beklentilerindeki şahinleşme ile birlikte geldi. Satışlar daha önce başlamıştı...",
     "url": "https://www.tickmill.com/blog/copper-drops-on-hawkish-fed-repricing",
     "published_at": "Thu, 15 Oct 2026 10:33:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760731+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD TÜFE verilerinin ardından Fed'in şahinleşme beklentisi, bakır gibi emtia fiyatları üzerinde baskı oluşturuyor. Yüksek faiz beklentisi, risk iştahını azaltarak ve doları güçlendirerek emtia piyasalarını olumsuz etkileyebilir. Bu durum, genel piyasada temkinli bir havaya işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve ABD TÜFE artışı nedeniyle üçüncü gün üst üste düşüş yaşıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed beklentileri ve yüksek ABD TÜFE verileri doları destekleyerek değerini artırıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed politikaları, yükselen faiz oranları ve güçlü dolar, faiz getirisi olmayan altın üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed politikaları ve artan faiz beklentileri, hisse senedi piyasaları üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-27T23:42:41.019848+00:00"
   },
   {
     "id": "ftse-rallies-gdp-growth-defies-forecasts",
@@ -111,12 +300,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Rallies GDP Growth Defies Forecasts",
-    "title_tr": "",
+    "title_tr": "FTSE Yükseldi, GSYİH Büyümesi Tahminlere Meydan Okudu",
     "content_en": "FTSE Rallies GDP Growth Defies ForecastsLondon's benchmark FTSE 100 rallied strongly on Thursday, powered by positive market sentiment following a better-than-expected domestic economic growth reading. The i The FTSE 100 closed around 10,850, adding 1.6% on th...",
-    "content_tr": "",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100 Perşembe günü, beklenenden iyi gelen yurt içi ekonomik büyüme verilerinin ardından pozitif piyasa duyarlılığıyla güçlü bir şekilde yükseldi. FTSE 100, %1,6 ekleyerek 10.850 civarında kapandı.",
     "url": "https://www.tickmill.com/blog/ftse-rallies-gdp-growth-defies-forecasts",
     "published_at": "Thu, 15 Oct 2026 16:57:00 +0000",
     "fetched_at": "2026-10-15T15:34:17.760750+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Beklenenden iyi gelen GSYİH verileri, piyasada olumlu bir hava yaratarak FTSE 100'ün güçlü bir yükseliş kaydetmesine neden oldu. Bu durum, genel olarak risk iştahını artırarak küresel hisse senedi piyasalarını da destekleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "YUKARI",
+        "gerekce": "Beklenenden iyi gelen GSYİH verileri ve pozitif piyasa duyarlılığı ile %1,6 yükselerek güçlü bir ralli yaptı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-27T23:42:52.797094+00:00"
   }
 ]
