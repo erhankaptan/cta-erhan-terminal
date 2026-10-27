@@ -31,7 +31,8 @@ SNAPSHOT_FILE = DATA_DIR / "snapshots" / "latest.json"
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from core.notification_schedule import is_periodic_notification_due  # noqa: E402
+from core.notification_schedule import PARIS_TZ, get_due_slot  # noqa: E402
+from core.notification_state import mark_slot_sent, slot_already_sent  # noqa: E402
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
@@ -295,16 +296,34 @@ def main():
     print("=" * 60)
 
     # DENETCI KARARI (2026-10-25): ZAMANLAMA / HAFTA SONU FILTRESI --
-    # bildirim SADECE hafta ici 15:00/18:30/21:30 (Europe/Paris, +-7 dk)
-    # penceresinde gider. Bu bir hata degil, normal bir "simdi sira
-    # degil" durumu oldugu icin sessizce (exit 0) cikilir -- fetch.yml
-    # veri toplama/sentez pipeline'i yine de calisir, SADECE bu rapor
-    # gonderim adimi atlanir.
+    # bildirim SADECE hafta ici 15:00/18:30/21:30 (Europe/Paris) penceresinde
+    # gider. Bu bir hata degil, normal bir "simdi sira degil" durumu
+    # oldugu icin sessizce (exit 0) cikilir -- fetch.yml veri toplama/
+    # sentez pipeline'i yine de calisir, SADECE bu rapor gonderim adimi
+    # atlanir.
+    #
+    # ACİL DÜZELTME (2026-10-27) -- bkz. core/notification_schedule.py VE
+    # core/notification_state.py dosya-basi durustluk notlari: pencere
+    # +-7dk'dan +-90dk'ya genisletildi (GERCEK GH Actions run gecikmesi
+    # 53-59+ dk olarak olculdu, eski pencere bunu kacirip bildirimleri
+    # GUNLERCE SESSIZCE dusuruyordu) VE ayrica "bu slot BUGUN zaten
+    # gonderildi mi?" kontrolu eklendi (genisletilmis pencere icinde
+    # saatlik cron iki kere ateslerse CIFTE bildirimi onlemek icin).
     now_utc = datetime.now(timezone.utc)
-    if not is_periodic_notification_due(now_utc):
+    due_slot = get_due_slot(now_utc)
+    if due_slot is None:
         print(
             f"[ZAMANLAMA] Simdi periyodik bildirim penceresinde degil "
             f"(now_utc={now_utc.isoformat()}) -- Telegram ve Email ATLANIYOR."
+        )
+        return
+
+    today_paris = now_utc.astimezone(PARIS_TZ).date().isoformat()
+    if slot_already_sent(due_slot, today_paris):
+        print(
+            f"[ZAMANLAMA] Slot {due_slot.strftime('%H:%M')} bugun ({today_paris}) "
+            f"icin ZATEN gonderilmis -- Telegram ve Email ATLANIYOR (cifte "
+            f"bildirim onlendi)."
         )
         return
 
@@ -350,6 +369,15 @@ def main():
         telegram_msg = telegram_msg + "\n\n⚠️ EMAIL GÖNDERİMİ BAŞARISIZ"
 
     send_telegram(telegram_msg)
+
+    # ACİL DÜZELTME (2026-10-27) -- gonderim denendikten HEMEN SONRA bu
+    # slot'u "bugun gonderildi" olarak isaretle (bkz. core/notification_
+    # state.py). Email/Telegram'dan biri basarisiz olsa bile isaretlenir
+    # -- amac mukemmel teslimati garanti etmek degil, AYNI slot icin
+    # TEKRAR TEKRAR denemeyi (ve basariliysa CIFTE bildirimi) onlemek;
+    # kalici bir SMTP/Telegram hatasi zaten her iki fonksiyonun kendi
+    # [ERR] loglarinda gorunur.
+    mark_slot_sent(due_slot, today_paris)
 
 
 if __name__ == "__main__":
