@@ -309,23 +309,42 @@ def main():
     # GUNLERCE SESSIZCE dusuruyordu) VE ayrica "bu slot BUGUN zaten
     # gonderildi mi?" kontrolu eklendi (genisletilmis pencere icinde
     # saatlik cron iki kere ateslerse CIFTE bildirimi onlemek icin).
+    #
+    # AYRICA bu turda EKLENDI: workflow_dispatch (Reis'in elle "Run
+    # workflow" ile tetiklemesi, GitHub Actions bunu GITHUB_EVENT_NAME
+    # ortam degiskenine yazar) HER ZAMAN pencereyi VE "zaten gonderildi"
+    # kontrolunu ATLAR -- boylece Reis istedigi an, zamanlama penceresi
+    # disinda bile, "test bildirimi" gonderip SMTP/Telegram kimlik
+    # bilgilerinin hala gecerli oldugunu dogrulayabilir (GOZLEM'deki
+    # (kurumsal-makro-gozlem-terminali) check_schedule.py'de ZATEN
+    # kullanilan AYNI desen).
+    is_manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
     now_utc = datetime.now(timezone.utc)
-    due_slot = get_due_slot(now_utc)
-    if due_slot is None:
-        print(
-            f"[ZAMANLAMA] Simdi periyodik bildirim penceresinde degil "
-            f"(now_utc={now_utc.isoformat()}) -- Telegram ve Email ATLANIYOR."
-        )
-        return
-
     today_paris = now_utc.astimezone(PARIS_TZ).date().isoformat()
-    if slot_already_sent(due_slot, today_paris):
+
+    if is_manual:
+        due_slot = get_due_slot(now_utc)
         print(
-            f"[ZAMANLAMA] Slot {due_slot.strftime('%H:%M')} bugun ({today_paris}) "
-            f"icin ZATEN gonderilmis -- Telegram ve Email ATLANIYOR (cifte "
-            f"bildirim onlendi)."
+            f"[ZAMANLAMA] Manuel tetikleme (workflow_dispatch) -- pencere VE "
+            f"'zaten gonderildi' kontrolu ATLANIYOR, bildirim HER HALUKARDA "
+            f"gonderiliyor (now_utc={now_utc.isoformat()})."
         )
-        return
+    else:
+        due_slot = get_due_slot(now_utc)
+        if due_slot is None:
+            print(
+                f"[ZAMANLAMA] Simdi periyodik bildirim penceresinde degil "
+                f"(now_utc={now_utc.isoformat()}) -- Telegram ve Email ATLANIYOR."
+            )
+            return
+
+        if slot_already_sent(due_slot, today_paris):
+            print(
+                f"[ZAMANLAMA] Slot {due_slot.strftime('%H:%M')} bugun ({today_paris}) "
+                f"icin ZATEN gonderilmis -- Telegram ve Email ATLANIYOR (cifte "
+                f"bildirim onlendi)."
+            )
+            return
 
     snapshot = load_snapshot()
 
@@ -376,8 +395,12 @@ def main():
     # -- amac mukemmel teslimati garanti etmek degil, AYNI slot icin
     # TEKRAR TEKRAR denemeyi (ve basariliysa CIFTE bildirimi) onlemek;
     # kalici bir SMTP/Telegram hatasi zaten her iki fonksiyonun kendi
-    # [ERR] loglarinda gorunur.
-    mark_slot_sent(due_slot, today_paris)
+    # [ERR] loglarinda gorunur. Manuel (workflow_dispatch) test gonderimleri
+    # GUN+SLOT kaydini KIRLETMEMELI -- due_slot gercek bir zamanlanmis
+    # slot DEGILSE (manuel calistirma pencere disindaysa None olabilir)
+    # de isaretleme atlanir.
+    if not is_manual and due_slot is not None:
+        mark_slot_sent(due_slot, today_paris)
 
 
 if __name__ == "__main__":
