@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Crude Rallies on Saudi Oil Field Attack",
-    "title_tr": "",
+    "title_tr": "Suudi Petrol Sahası Saldırısı Sonrası Ham Petrol Yükseldi",
     "content_en": "Saudi Oil Field StrikeOil prices are pushing higher again today with the crude futures market rallying on news of a drone attack on Saudi Aramco’s Shaybah oil field. The move comes amidst intensifying fighting between Saudi Arabia and Houthi militants backed by Ira...",
-    "content_tr": "",
+    "content_tr": "Suudi petrol sahasına yapılan saldırı nedeniyle petrol fiyatları bugün yeniden yükselişe geçti. Suudi Aramco'nun Shaybah petrol sahasına düzenlenen insansız hava aracı saldırısı haberleri üzerine ham petrol vadeli işlem piyasası ralli yapıyor. Bu hareket, Suudi Arabistan ile İran destekli Husi militanları arasındaki çatışmaların yoğunlaşmasıyla birlikte geliyor.",
     "url": "https://www.tickmill.com/blog/crude-rallies-on-saudi-oil-field-attack",
     "published_at": "Thu, 22 Oct 2026 11:02:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.114933+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu gelişme, Orta Doğu'daki jeopolitik risklerin arttığını ve petrol arzında potansiyel kesintilere ilişkin endişeleri yansıtmaktadır. Ham petrol fiyatlarındaki yükseliş, enerji maliyetleri üzerinde yukarı yönlü baskı oluşturarak küresel enflasyonist baskıları artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Suudi petrol sahasına yapılan saldırı haberleri üzerine ham petrol vadeli işlem piyasası ralli yapıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Suudi petrol sahasına yapılan saldırı haberleri üzerine ham petrol vadeli işlem piyasası ralli yapıyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-28T04:46:36.731375+00:00"
   },
   {
     "id": "nzdusd-h4-potential-bullish-bounce-22nd-october-2026",
@@ -21,13 +40,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "NZDUSD H4 | Potential bullish bounce",
-    "title_tr": "",
+    "title_tr": "NZDUSD H4 | Potansiyel boğa sıçraması",
     "content_en": "Title: NZDUSD H4 | Potential bullish bounce Type: Bullish bounce Preference: The price is falling towards the pivot at 0.5675, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 0.5746, an overlap resistance. Alternative ...",
-    "content_tr": "",
+    "content_tr": "Başlık: NZDUSD H4 | Potansiyel boğa sıçraması Tip: Boğa sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 0.5675'teki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı bir örtüşme direnci olan 0.5746'daki ilk dirence doğru taşıyabilir. Alternatif ...",
     "url": "https://www.tickmill.com/blog/nzdusd-h4-potential-bullish-bounce-22nd-october-2026",
     "published_at": "Thu, 22 Oct 2026 12:46:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.114962+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, NZDUSD paritesinde önemli bir destek seviyesinden potansiyel bir yükseliş hareketine işaret ediyor. Bu durum, Yeni Zelanda dolarında kısa vadeli bir toparlanma beklentisi yaratabilir ve piyasada risk iştahının artmasına bağlı olarak diğer riskli varlıkları da etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 0.5675 pivot desteğinden sıçrayarak 0.5746 direncine yükselmesi bekleniyor.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-10-28T04:46:44.930556+00:00"
   },
   {
     "id": "institutional-insights-bofa-extreme-outflows-week",
@@ -36,13 +67,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: BofA \"Extreme Outflows Week'",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: BofA 'Aşırı Çıkışlar Haftası'",
     "content_en": "EQUITY FLOWS & CLIENT POSITIONING BRIEFING: BofA EQUITY CLIENT FLOW TRENDSTHE TAKE: RECORD SINGLE-STOCK OUTFLOWS DRIVEN BY HISTORIC MUTUAL FUND TAX-LOSS SELLINGBank of America Securities equity client flows revealed extreme institutional risk-off activity, head...",
-    "content_tr": "",
+    "content_tr": "Hisse Senedi Akışları ve Müşteri Konumlandırma Brifingi: BofA Hisse Senedi Müşteri Akış Trendleri. ÖZET: Tarihi yatırım fonu vergi kaybı satışlarının tetiklediği rekor tekil hisse senedi çıkışları. Bank of America Securities'in hisse senedi müşteri akışları, aşırı kurumsal riskten kaçınma aktivitesini ortaya koydu, baş...",
     "url": "https://www.tickmill.com/blog/institutional-insights-bofa-extreme-outflows-week",
     "published_at": "Thu, 22 Oct 2026 13:25:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.114984+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, kurumsal yatırımcıların hisse senedi piyasalarından aşırı derecede riskten kaçındığını ve rekor çıkışlar yaşandığını belirtiyor. Bu durum, piyasada olumsuz bir havaya işaret ederek hisse senedi endekslerinde düşüş baskısı yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal riskten kaçınma ve rekor hisse senedi çıkışları nedeniyle olumsuz beklenti.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-10-28T04:47:01.310697+00:00"
   },
   {
     "id": "xauusd-h1-bearish-reversal-at-pullback-resistance-22nd-october-2026",
@@ -51,13 +129,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H1 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "XAUUSD H1 | Geri çekilme direncinde düşüş yönlü dönüş",
     "content_en": "Title: XAUUSD H1 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price could rise toward the pivot at 4,113.90, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 4,068.64, a pullback su...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H1 | Geri çekilme direncinde düşüş yönlü dönüş\nTip: Düşüş yönlü dönüş\nTercih: Fiyat, bir geri çekilme direnci olan 4.113,90 seviyesindeki pivot noktasına doğru yükselebilir. Bu seviyeden bir dönüş, fiyatı bir geri çekilme desteği olan 4.068,64 seviyesindeki ilk desteğe doğru yönlendirebilir...",
     "url": "https://www.tickmill.com/blog/xauusd-h1-bearish-reversal-at-pullback-resistance-22nd-october-2026",
     "published_at": "Thu, 22 Oct 2026 12:51:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115004+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD'de (Altın) geri çekilme direncinden düşüş yönlü bir dönüş beklentisini ortaya koymaktadır. Piyasa, belirtilen pivot seviyesine yükselişin ardından satış baskısıyla karşılaşabilir ve bu da fiyatın destek seviyelerine gerilemesine neden olabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Geri çekilme direncinden (4.113,90) düşüş yönlü bir dönüş bekleniyor ve fiyatın ilk desteğe (4.068,64) gerilemesi öngörülüyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:47:12.598926+00:00"
   },
   {
     "id": "copper-dragged-lower-by-ai-stock-plunge",
@@ -66,13 +156,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Dragged Lower By AI Stock Plunge",
-    "title_tr": "",
+    "title_tr": "Bakır, Yapay Zeka Hisselerindeki Düşüşle Aşağı Çekildi",
     "content_en": "Copper Plunges on ThursdayCopper prices have come under heavy selling pressure today, hitting their lowest point in over a month, as a wave of risk aversion grips markets. The AI stock rout resumed this week after both Tesla and Meta missed EPS targets in yesterday...",
-    "content_tr": "",
+    "content_tr": "Bakır Perşembe Günü Düştü. Bakır fiyatları bugün yoğun satış baskısı altına girerek bir aydan uzun sürenin en düşük seviyesine geriledi. Bu durum, piyasaları saran riskten kaçınma dalgasından kaynaklandı. Yapay zeka hisselerindeki düşüş bu hafta yeniden başladı; hem Tesla hem de Meta dün açıklanan EPS hedeflerini kaçırdı...",
     "url": "https://www.tickmill.com/blog/copper-dragged-lower-by-ai-stock-plunge",
     "published_at": "Thu, 22 Oct 2026 09:48:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115021+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yapay zeka hisselerindeki düşüş ve artan riskten kaçınma, bakır fiyatlarını olumsuz etkiledi. Bu durum, genel piyasa duyarlılığının zayıfladığını ve yatırımcıların daha güvenli limanlara yönelebileceğini gösteriyor. Emtia piyasalarında kısa vadeli baskı devam edebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş ve riskten kaçınma nedeniyle fiyatları bir ayın en düşük seviyesine geriledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş ve genel riskten kaçınma, teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel riskten kaçınma dalgası ve büyük şirketlerin beklentileri karşılayamaması endeksi aşağı çekiyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasalardaki riskten kaçınma eğilimi ve olumsuz şirket haberleri endeksi baskılıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Piyasalardaki riskten kaçınma dalgası, yatırımcıları güvenli liman varlığı olan altına yönlendirebilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T04:47:25.815217+00:00"
   },
   {
     "id": "yen-soars-on-safe-haven-rally",
@@ -81,13 +211,53 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Yen Soars on Safe Haven Rally",
-    "title_tr": "",
+    "title_tr": "Yen Güvenli Liman Rallisiyle Yükseliyor",
     "content_en": "USD Plunge Boost YenThe Japanese Yen is roaring back today, on course for its biggest single-day rally in over a month, as USD weakness and risk aversion drag USDJPY lower. The greenback is falling harder today on the back of some weakness in big tech earnings yest...",
-    "content_tr": "",
+    "content_tr": "USD Düşüşü Yen'i Destekliyor. Japon Yeni bugün geri dönüyor ve USD zayıflığı ile riskten kaçınma USDJPY'yi aşağı çekerken, bir aydan uzun süredir en büyük tek günlük rallisine doğru ilerliyor. Dolar, dün büyük teknoloji şirketlerinin kazançlarındaki bazı zayıflıkların ardından bugün daha sert düşüyor...",
     "url": "https://www.tickmill.com/blog/yen-soars-on-safe-haven-rally",
     "published_at": "Thu, 22 Oct 2026 10:24:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115037+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USD zayıflığı ve artan riskten kaçınma eğilimi nedeniyle Japon Yeni'nin güçlendiğini belirtiyor. Bu durum, piyasalarda güvenli liman arayışının arttığını ve riskli varlıklardan çıkış olduğunu gösteriyor. Büyük teknoloji şirketlerinin kazançlarındaki zayıflık, bu risk iştahı düşüşünü tetikleyen faktörlerden biri.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Güvenli liman arayışı ve USD zayıflığı nedeniyle değer kazanıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "USD/JPY",
+        "yon": "AŞAĞI",
+        "gerekce": "USD zayıflığı ve riskten kaçınma nedeniyle düşüyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçınma ve büyük teknoloji şirketlerinin kazançlarındaki zayıflık nedeniyle baskı altında.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Artan riskten kaçınma ve güvenli liman arayışı nedeniyle talep görüyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "Doların genel zayıflığı nedeniyle Euro karşısında değer kazanıyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:47:39.670617+00:00"
   },
   {
     "id": "usdchf-h4-falling-toward-overlap-support-22nd-october-2026",
@@ -96,13 +266,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Falling toward overlap support",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | Çakışan destek seviyesine doğru düşüş",
     "content_en": "Title: USDCHF H4 | Falling toward overlap support Type: Bullish bounce Preference: The price is falling toward the pivot at 0.8202, an overlap support. A bounce from this level could lead the price toward the 1st resistance at 0.8259, an overlap resistance. Altern...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | Çakışan destek seviyesine doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, 0.8202'deki pivot noktasına, yani çakışan bir destek seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 0.8259'daki ilk dirence, yani çakışan bir dirence doğru taşıyabilir. Altern...",
     "url": "https://www.tickmill.com/blog/usdchf-h4-falling-toward-overlap-support-22nd-october-2026",
     "published_at": "Thu, 22 Oct 2026 12:41:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115053+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, USDCHF paritesinde belirtilen destek seviyesinden bir boğa sıçraması bekliyor. Bu durum, paritede kısa vadeli bir yükseliş potansiyeline işaret etmektedir. Yatırımcılar bu seviyeyi yakından takip edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "İsviçre Frangı Karşısında Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın çakışan destek seviyesi olan 0.8202'den yukarı sıçraması ve ilk dirence (0.8259) doğru hareket etmesi bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:47:50.102290+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-221026",
@@ -111,13 +293,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 22/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 22/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 22/10/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BE...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 22/10/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7440/7400 AYLIK DİRENÇ ARALIĞI 7960 DESTEK 7663 HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-221026",
     "published_at": "Thu, 22 Oct 2026 09:00:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115080+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için belirli teknik seviyeleri (destek, direnç ve boğa/ayı bölgeleri) belirleyerek piyasa katılımcılarına potansiyel hareket alanları sunmaktadır. Bu seviyeler, kısa vadeli işlem stratejileri için önemli referans noktaları olabilir. Piyasa, bu seviyeler etrafında konsolidasyon veya yön tayini arayışında olabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 vadeli işlemleri (ES1!) için aylık boğa/ayı bölgesi olarak 7440/7400 seviyelerini, aylık direnç olarak 7960 ve destek olarak 7663 seviyelerini belirterek potansiyel işlem aralıklarını sunmaktadır.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T04:48:04.342837+00:00"
   },
   {
     "id": "audusd-h4-falling-toward-key-support-22nd-october-2026",
@@ -126,13 +320,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "AUDUSD H4 | Falling toward key support",
-    "title_tr": "",
+    "title_tr": "AUDUSD H4 | Ana desteğe doğru düşüş",
     "content_en": "Title: AUDUSD H4 | Falling toward key support Type: Bullish bounce Preference: The price is falling toward the pivot at 0.7002, an overlap support. A reversal bounce from this level could lead the price toward the 1st resistance at 0.7069, a pullback resistance tha...",
-    "content_tr": "",
+    "content_tr": "Başlık: AUDUSD H4 | Ana desteğe doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, 0.7002'deki pivot noktasına, bir çakışma desteğine doğru düşüyor. Bu seviyeden olası bir geri dönüş sıçraması, fiyatı 0.7069'daki ilk dirence, bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/audusd-h4-falling-toward-key-support-22nd-october-2026",
     "published_at": "Thu, 22 Oct 2026 12:55:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115097+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, AUDUSD'nin önemli bir destek seviyesinden potansiyel bir boğa sıçraması yapabileceğini öne sürüyor. Destek seviyesinin tutunması durumunda paritede kısa vadeli yukarı yönlü bir hareket beklenebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın ana destek seviyesinden (0.7002) yukarı yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:48:12.839238+00:00"
   },
   {
     "id": "daily-market-outlook-october-22-2026",
@@ -141,12 +347,45 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 22, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 22 Ekim 2026",
     "content_en": "Daily Market Outlook, October 22, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Oil Shock Returns As AI Momentum FaltersGlobal financial markets adopted a defensive stance overnight as escalating Middle East geopolitical r...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 22 Ekim 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mesajı - Yapay Zeka Momentumunun Zayıflamasıyla Petrol Şoku Geri Dönüyor\nKüresel finans piyasaları, Orta Doğu'daki jeopolitik gerilimin tırmanmasıyla bir gecede savunmacı bir duruş sergiledi...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-22-2026",
     "published_at": "Thu, 22 Oct 2026 09:26:00 +0000",
     "fetched_at": "2026-10-22T12:51:47.115115+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, Orta Doğu'daki jeopolitik risklerin artması ve yapay zeka momentumunun zayıflamasıyla savunmacı bir duruş sergiliyor. Bu durum, petrol fiyatlarında yükselişe ve riskli varlıklarda düşüşe işaret ediyor. Yatırımcılar güvenli limanlara yöneliyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'Petrol Şoku Geri Dönüyor' ifadesiyle Orta Doğu'daki jeopolitik gerilimlerin petrol fiyatlarını artırdığı belirtiliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Yapay Zeka Momentumunun Zayıflaması' ifadesi, teknoloji ağırlıklı endekslerde düşüş beklentisini gösteriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel piyasaların 'savunmacı duruşu' ve Orta Doğu'daki jeopolitik riskler, altını güvenli liman olarak öne çıkarıyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel finans piyasalarının 'savunmacı bir duruş sergilemesi' ve artan jeopolitik riskler genel hisse senedi piyasalarında düşüşe neden oluyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:48:29.373087+00:00"
   }
 ]

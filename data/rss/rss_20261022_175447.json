@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights BofA ' USD & Equity Breadth'",
-    "title_tr": "",
+    "title_tr": "Kurumsal FX Analizleri BofA 'USD ve Hisse Senedi Yayılımı'",
     "content_en": "BOFA GLOBAL RESEARCH FX & RATES STRATEGY BRIEFING: EQUITY BREADTH & THE US DOLLARTHE TAKE: EQUITY BREADTH IS A STATISTICALLY SIGNIFICANT USD DRIVERBank of America Rates & Currencies Research demonstrates that US equity market breadth is a statistically ...",
-    "content_tr": "",
+    "content_tr": "BOFA KÜRESEL ARAŞTIRMA FX & FAİZ STRATEJİSİ BİLGİLENDİRMESİ: HİSSE SENEDİ YAYILIMI VE ABD DOLARI. ÖZET: HİSSE SENEDİ YAYILIMI, İSTATİSTİKSEL OLARAK ÖNEMLİ BİR USD SÜRÜCÜSÜDÜR. Bank of America Faiz ve Para Birimleri Araştırması, ABD hisse senedi piyasası yayılımının istatistiksel olarak...",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-bofa-usd-equity-breadth",
     "published_at": "Thu, 22 Oct 2026 14:22:00 +0000",
     "fetched_at": "2026-10-22T17:54:47.806228+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, ABD hisse senedi piyasası yayılımının ABD doları için önemli bir gösterge olduğunu belirtiyor. Geniş tabanlı bir hisse senedi yükselişi USD'yi desteklerken, dar bir yükseliş dolar üzerinde baskı yaratabilir. Yatırımcılar, doların yönünü tahmin etmek için hisse senedi piyasasının genel sağlığını yakından izlemelidir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, ABD hisse senedi piyasası yayılımının USD için istatistiksel olarak önemli bir sürücü olduğunu belirtiyor, ancak mevcut yön hakkında bilgi vermiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, ABD hisse senedi piyasası yayılımının USD için önemli bir sürücü olduğunu belirtiyor, ancak hisse senedi piyasasının mevcut yönü veya yayılımının durumu hakkında bilgi vermiyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:48:43.415136+00:00"
   },
   {
     "id": "ftse-rebounds-late-as-energy-surges-above-112-rentokil-rally-offsets-banking-drag",
@@ -21,12 +40,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Rebounds Late as Energy Surges Above $112, Rentokil Rally Offsets Banking Drag",
-    "title_tr": "",
+    "title_tr": "FTSE Geç Saatte Toparlandı, Enerji 112 Doların Üzerine Çıktı, Rentokil Rallisi Bankacılık Baskısını Telafi Etti",
     "content_en": "FTSE Rebounds Late as Energy Surges Above $112, Rentokil Rally Offsets Banking DragLondon's benchmark FTSE 100 mounted a late-day recovery on Thursday to turn green on the session, overcoming an initial drop to one-week lows. An early sell-off driven by bank e...",
-    "content_tr": "",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Perşembe günü seansı yeşilde kapatmak için geç saatlerde bir toparlanma yaşadı ve bir haftanın en düşük seviyelerine gerilediği ilk düşüşü aştı. Banka kaynaklı erken bir satış dalgası...",
     "url": "https://www.tickmill.com/blog/ftse-rebounds-late-as-energy-surges-above-112-rentokil-rally-offsets-banking-drag",
     "published_at": "Thu, 22 Oct 2026 16:58:00 +0000",
     "fetched_at": "2026-10-22T17:54:47.806374+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Londra piyasasının enerji sektöründeki güçlü yükseliş ve bazı şirketlerin rallisiyle bankacılık sektöründeki olumsuzluğa rağmen günü pozitif kapattığını belirtiyor. Bu durum, piyasada sektörel ayrışmaların yaşandığını ve genel endeksin dirençli olduğunu gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Enerji fiyatlarının 112 doların üzerine çıkarak güçlü bir yükseliş kaydetmesi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Endeksin gün içinde düşüş yaşasa da kapanışa doğru toparlanarak yeşilde kalması ve bir haftalık düşük seviyelerden dönmesi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:48:56.579706+00:00"
   }
 ]

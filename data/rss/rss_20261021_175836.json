@@ -6,12 +6,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Flat as Hotter CPI and Widening Deficit Offset Energy Gains",
-    "title_tr": "",
+    "title_tr": "FTSE, Yüksek Enflasyon ve Artan Açık Enerji Kazançlarını Dengelerken Yatay Seyretti",
     "content_en": "FTSE Flat as Hotter CPI and Widening Deficit Offset Energy GainsLondon’s benchmark FTSE 100 turned in a mixed performance on Wednesday, oscillating between marginal gains and losses to close essentially flat, down just 3.40 points or 0.03% at 10,753.60 GBP. Investo...",
-    "content_tr": "",
+    "content_tr": "FTSE, yüksek enflasyon ve artan açık enerji kazançlarını dengelerken yatay seyretti. Londra'nın gösterge endeksi FTSE 100 Çarşamba günü karışık bir performans sergiledi, marjinal kazançlar ve kayıplar arasında gidip gelerek esasen yatay kapandı, sadece 3.40 puan veya %0.03 düşüşle 10,753.60 GBP seviyesinde işlem gördü. Investo...",
     "url": "https://www.tickmill.com/blog/ftse-flat-as-hotter-cpi-and-widening-deficit-offset-energy-gains",
     "published_at": "Wed, 21 Oct 2026 17:14:00 +0000",
     "fetched_at": "2026-10-21T17:58:36.330249+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "FTSE 100, yüksek enflasyon ve artan bütçe açığı gibi olumsuz makroekonomik faktörlerin, enerji sektöründeki kazançları dengelemesiyle yatay bir seyir izledi. Bu durum, piyasada belirsizliğin ve farklı sektörler arasındaki performans ayrışmasının devam ettiğini gösteriyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "NÖTR",
+        "gerekce": "Yüksek enflasyon ve artan açık ile enerji kazançlarının dengelenmesiyle yatay kapandı.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'enerji kazançları' olarak belirtilen pozitif performansa işaret ediyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:46:27.006206+00:00"
   }
 ]

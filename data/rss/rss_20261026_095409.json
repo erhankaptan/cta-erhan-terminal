@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Possible move higher",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Olası Yükseliş Hareketi",
     "content_en": "Title: USDCAD H4 | Possible move higher Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3995, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.4073, a pullback resistance. Alternative Scen...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Olası Yükseliş Hareketi. Tip: Boğa sıçraması. Tercih: Fiyat, geri çekilme desteği olan 1.3995'teki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı geri çekilme direnci olan 1.4073'teki ilk dirence doğru taşıyabilir. Alternatif Sen...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-possible-move-higher-26th-october-2026",
     "published_at": "Mon, 26 Oct 2026 10:46:00 +0000",
     "fetched_at": "2026-10-26T09:54:09.614995+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDCAD paritesinde destek seviyesinden bir sıçrama bekleniyor. Bu durum, ABD dolarının Kanada doları karşısında güçlenerek yükseliş eğilimi gösterebileceğine işaret etmektedir. Piyasa katılımcıları bu seviyeyi yakından takip edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "Amerikan Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.3995 pivot desteğinden sıçrayarak 1.4073 direncine doğru yükselmesi bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:50.367490+00:00"
   },
   {
     "id": "usdjpy-h4-potential-bullish-bounce-26th-october-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Potential bullish bounce",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Potansiyel yükseliş sıçraması",
     "content_en": "Title: USDJPY H4 | Potential bullish bounce Type: Bullish bounce Preference: The price is falling towards the pivot at 156.39, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 157.54, an overlap pullback resistance. Alt...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Potansiyel yükseliş sıçraması Tür: Yükseliş sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 156.39'daki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı bir örtüşme geri çekilme direnci olan 157.54'teki ilk dirence doğru taşıyabilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-potential-bullish-bounce-26th-october-2026",
     "published_at": "Mon, 26 Oct 2026 11:01:00 +0000",
     "fetched_at": "2026-10-26T09:54:09.615022+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDJPY paritesi için 156.39 seviyesinden potansiyel bir yükseliş sıçraması bekleniyor. Bu durum, paritenin kısa vadede yukarı yönlü bir hareket sergileyebileceğini ve 157.54 direncini hedefleyebileceğini gösteriyor. Yatırımcılar bu seviyelerdeki fiyat hareketlerini yakından takip etmelidir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "USD/JPY",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 156.39 pivot desteğinden sıçrayarak 157.54 direncine doğru hareket etmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:59.278603+00:00"
   },
   {
     "id": "gbpusd-h4-support-bounce-opportunity-26th-october-2026",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Support bounce opportunity",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Destek sıçrama fırsatı",
     "content_en": "Title: GBPUSD H4 | Support bounce opportunity Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3351, an overlap support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resista...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Destek sıçrama fırsatı Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan bir çakışma desteği olan 1.3351'deki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-support-bounce-opportunity-26th-october-2026",
     "published_at": "Mon, 26 Oct 2026 11:08:00 +0000",
     "fetched_at": "2026-10-26T09:54:09.615042+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD için önemli bir destek seviyesinden boğa yönlü bir sıçrama fırsatı olduğunu belirtiyor. Bu durum, parite için kısa vadeli yukarı yönlü bir hareket potansiyeline işaret ediyor. Destek seviyesi tutunursa, yatırımcılar uzun pozisyonlar arayabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın %38.2 Fibonacci geri çekilmesiyle hizalanan 1.3351'deki pivot destek seviyesinden boğa yönlü bir sıçrama bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:51:09.415373+00:00"
   },
   {
     "id": "daily-market-outlook-october-26-2026",
@@ -51,13 +87,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 26, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 26 Ekim 2026",
     "content_en": "Daily Market Outlook, October 26, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Oil Eases, But Central Bank Week Keeps Markets On EdgeGlobal markets opened the week cautiously as oil retreated from six-month highs, but inv...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 26 Ekim 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - Petrol Rahatladı, Ancak Merkez Bankası Haftası Piyasaları Tedirgin Tutuyor\nKüresel piyasalar haftaya temkinli başladı; petrol altı ayın zirvelerinden geri çekilirken, ancak yatı...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-26-2026",
     "published_at": "Mon, 26 Oct 2026 08:49:00 +0000",
     "fetched_at": "2026-10-26T09:54:09.615067+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, petrol fiyatlarının altı ayın zirvelerinden geri çekilmesiyle bir miktar rahatlama yaşasa da, merkez bankası haftasının getirdiği belirsizlik nedeniyle temkinli bir seyir izliyor. Bu durum, genel piyasada tedirginlik ve potansiyel oynaklık yaratabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol, altı ayın zirvelerinden geri çekilerek rahatladı.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:51:19.471209+00:00"
   },
   {
     "id": "wtiusd-h4-bearish-reversal-at-pullback-resistance-26th-october-2026",
@@ -66,12 +114,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "WTIUSD H4 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "WTIUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş",
     "content_en": "Title: WTIUSD H4 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price has rejected the pivot at 101.96, a pullback resistance. A drop from this level could lead the price toward the 1st support at 97.13, a pullback support. Alterna...",
-    "content_tr": "",
+    "content_tr": "Başlık: WTIUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, geri çekilme direnci olan 101.96 seviyesindeki pivotu reddetti. Bu seviyeden bir düşüş, fiyatı geri çekilme desteği olan 97.13 seviyesindeki ilk desteğe doğru götürebilir. Alterna...",
     "url": "https://www.tickmill.com/blog/wtiusd-h4-bearish-reversal-at-pullback-resistance-26th-october-2026",
     "published_at": "Mon, 26 Oct 2026 11:05:00 +0000",
     "fetched_at": "2026-10-26T09:54:09.615085+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, WTIUSD'de geri çekilme direncinden düşüş yönlü bir dönüş sinyali veriyor. Bu durum, petrol fiyatlarında kısa vadede aşağı yönlü bir baskı oluşturabilir ve enerji piyasasında temkinli bir duruşa işaret edebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, geri çekilme direnci olan 101.96 seviyesindeki pivotu reddederek düşüş yönlü bir dönüş sinyali verdi ve 97.13 seviyesindeki ilk desteğe doğru düşüş bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:51:30.387637+00:00"
   }
 ]

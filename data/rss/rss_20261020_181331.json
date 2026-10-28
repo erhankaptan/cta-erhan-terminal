@@ -186,13 +186,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 20, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 20 Ekim 2026",
     "content_en": "Daily Market Outlook, October 20, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - AI Jitters Return As UK Labour Data Runs HotTechnology stocks are again under pressure as investors reassess the durability of the AI-led equi...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 20 Ekim 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - İngiltere İşgücü Verileri Güçlü Gelirken Yapay Zeka Endişeleri Geri Döndü\nYatırımcılar yapay zeka liderliğindeki hisse senetlerinin dayanıklılığını yeniden değerlendirirken teknoloji hisseleri yine baskı altında...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-20-2026",
     "published_at": "Tue, 20 Oct 2026 09:17:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522530+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Yapay zeka sektöründeki endişelerin yeniden yükselmesi ve teknoloji hisselerinin baskı altında kalması, piyasalarda risk iştahının azaldığına işaret ediyor. İngiltere'den gelen güçlü işgücü verileri ise enflasyonist baskıları artırarak merkez bankalarının şahin duruşunu destekleyebilir. Bu durum, özellikle büyüme odaklı hisseler üzerinde aşağı yönlü bir baskı oluşturabilirken, sterlin gibi bazı para birimlerini destekleyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka endişelerinin geri dönmesi ve teknoloji hisselerinin baskı altında olması nedeniyle.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji hisselerindeki baskı ve genel piyasa risk iştahındaki düşüşün S&P 500'ü de etkilemesi bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel piyasa risk iştahındaki düşüş ve teknoloji sektöründeki olumsuz havanın yansıması olarak.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "İngiltere'den gelen güçlü işgücü verileri, faiz artırımı beklentilerini artırarak sterlini destekleyebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:43:19.686184+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-20102",
@@ -201,13 +234,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 20/10/2",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 20/10/2",
     "content_en": "S&P500 Daily Action Areas & Price Targets 20/10/26 MONTHLY OPEX***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WE...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 20/10/26 AYLIK OPEX***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMAKTADIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK DİRENÇ ARALIĞI 7960 DESTEK 7663BİZ...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-20102",
     "published_at": "Tue, 20 Oct 2026 08:20:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522557+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 (ES) için aylık opsiyon vadesi öncesinde önemli teknik seviyeler sunmaktadır. Belirtilen boğa/ayı bölgesi (7440/7400), direnç (7960) ve destek (7663) seviyeleri, piyasanın potansiyel hareket alanlarını göstermektedir. Bu seviyeler, özellikle aylık opsiyon vadesi (OPEX) döneminde artan volatilite ile birlikte yatırımcılar için kritik referans noktaları olacaktır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Aylık direnç seviyesi (7960) destek (7663) ve boğa/ayı bölgesinin (7440/7400) oldukça üzerinde yer alarak yukarı yönlü potansiyele işaret etmektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:43:36.023430+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-tech-liquidation-retial-etf-chase",
@@ -216,12 +261,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs 'Tech Liquidation & Retail ETF Chase'",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs 'Teknoloji Tasfiyesi ve Perakende ETF Kovalamacası'",
     "content_en": "EQUITY FLOWS & POSITIONING BRIEFING: HISTORIC TECH LIQUIDATION VS. RETAIL-LEVERED ETF CHASETHE TAKE: INSTITUTIONAL -2 SD DE-GROSSING MEETS RECORD RETAIL LEVERED ETF INFLOWSGlobal equity markets experienced an extraordinary institutional de-risking event last we...",
-    "content_tr": "",
+    "content_tr": "HİSSE SENEDİ AKIŞLARI VE KONUMLANDIRMA BRİFİNGİ: TARİHİ TEKNOLOJİ TASFİYESİNE KARŞI PERAKENDE KALDIRAÇLI ETF KOVALAMACASI. ÖZET: KURUMSAL -2 SD RİSK AZALTMA REKOR PERAKENDE KALDIRAÇLI ETF GİRİŞLERİYLE BULUŞUYOR. Küresel hisse senedi piyasaları geçen hafta olağanüstü bir kurumsal risk azaltma olayı yaşadı...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-tech-liquidation-retial-etf-chase",
     "published_at": "Tue, 20 Oct 2026 11:11:00 +0000",
     "fetched_at": "2026-10-20T18:13:31.522577+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, kurumsal yatırımcıların teknoloji hisselerinde tarihi bir tasfiye ve genel piyasada risk azaltma eğiliminde olduğunu belirtiyor. Buna karşılık, perakende yatırımcıların kaldıraçlı ETF'lere rekor girişler yapması, piyasada zıt yönlü bir duyarlılık ve konumlanma olduğunu gösteriyor. Bu durum, kısa vadede piyasada oynaklığa ve belirsizliğe yol açabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal yatırımcıların teknoloji hisselerinde tarihi tasfiye yapması ve risk azaltma eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında kurumsal risk azaltma (de-risking) yaşanması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:43:49.576480+00:00"
   }
 ]

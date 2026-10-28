@@ -6,13 +6,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Bitcoin Lower Ahead of FOMC",
-    "title_tr": "",
+    "title_tr": "FOMC Öncesi Bitcoin Düşüşte",
     "content_en": "BTC Lower on MondayBitcoin prices have slipped back at the start of the week with the futures market breaking below a key support level. The move comes as traders brace for the October FOMC on Wednesday amidst concerns that the Fed will signal a forthcoming rate hi...",
-    "content_tr": "",
+    "content_tr": "Pazartesi günü BTC düşüşte. Bitcoin fiyatları haftanın başında geriledi ve vadeli işlem piyasası önemli bir destek seviyesinin altına düştü. Bu hareket, yatırımcıların Çarşamba günkü Ekim FOMC toplantısına hazırlanırken, Fed'in yaklaşan bir faiz artırımına işaret edeceği endişeleriyle birlikte geliyor...",
     "url": "https://www.tickmill.com/blog/bitcoin-lower-ahead-of-fomc",
     "published_at": "Mon, 26 Oct 2026 11:08:00 +0000",
     "fetched_at": "2026-10-26T16:39:11.410431+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "FOMC toplantısından faiz artırımı sinyali beklentisi, riskli varlıklarda satış baskısı yaratıyor. Özellikle Bitcoin gibi volatil enstrümanlar, Fed'in şahin duruşu karşısında değer kaybedebilir. Bu durum, genel piyasa risk iştahını olumsuz etkileyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "AŞAĞI",
+        "gerekce": "FOMC'den faiz artırımı sinyali beklentisiyle düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri riskli varlıkları ve endeksleri olumsuz etkiliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentisi teknoloji hisselerini ve büyüme odaklı endeksleri baskılıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı endişeleri genel piyasa risk iştahını azaltıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'den faiz artırımı sinyali beklentisi doları destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentisi ve doların güçlenmesi altın üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T04:51:43.579772+00:00"
   },
   {
     "id": "fomc-inflation-ai-stock-plunge-in-focus",

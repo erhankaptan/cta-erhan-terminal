@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD Rallying As UK Inflation Soars",
-    "title_tr": "",
+    "title_tr": "GBPUSD, İngiltere Enflasyonu Yükselirken Ralli Yapıyor",
     "content_en": "UK Inflation Jumps AgainGBP is continuing to push higher today, boosted by ongoing USD weakness and a fresh jump in UK inflation as reported this morning. On the data front, annualised headline CPI for September was seen surging to 3.5% from 3.1% prior, above the 3...",
-    "content_tr": "",
+    "content_tr": "İngiltere Enflasyonu Yeniden Yükseldi. GBP, bugün devam eden USD zayıflığı ve bu sabah açıklanan İngiltere enflasyonundaki yeni sıçrama ile yükselişini sürdürüyor. Veri cephesinde, Eylül ayı yıllık manşet TÜFE'nin bir önceki %3.1'den %3.5'e yükseldiği görüldü ve %3...",
     "url": "https://www.tickmill.com/blog/gbpusd-rallying-as-uk-inflation-soars",
     "published_at": "Wed, 21 Oct 2026 09:50:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048414+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "İngiltere'de enflasyonun yükselmesi, İngiltere Merkez Bankası'nın faiz artırımı beklentilerini güçlendirerek GBP'yi destekliyor. Ayrıca, devam eden USD zayıflığı da GBP'nin değer kazanmasına katkıda bulunuyor. Bu durum, İngiltere ekonomisine yönelik faiz artırımı beklentilerini artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "İngiltere enflasyonunun yükselmesi ve USD zayıflığı nedeniyle değer kazanıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'devam eden USD zayıflığı' olarak belirtilmiştir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:44:01.300156+00:00"
   },
   {
     "id": "daily-market-outlook-october-21-2026",
@@ -21,13 +40,67 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 21, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 21 Ekim 2026",
     "content_en": "Daily Market Outlook, October 21, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - AI Relief Rally Runs Into Energy Inflation Risk Global risk assets found firmer footing on Wednesday as robust technology earnings revived con...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 21 Ekim 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Grubu. Munnelly'nin Makro Mektubu - Yapay Zeka Destekli Rahatlama Rallisi Enerji Enflasyonu Riskiyle Karşılaştı. Küresel risk varlıkları Çarşamba günü sağlam teknoloji kazançlarının canlanmasıyla daha sağlam bir zemin buldu. Ancak bu olumlu hava, enerji fiyatlarındaki artıştan kaynaklanan enflasyon riskiyle gölgeleniyor. Piyasa, teknoloji sektöründeki güçlü performansı takdir ederken, enerji maliyetlerinin genel ekonomik görünüm üzerindeki potansiyel etkilerini de dikkatle izliyor.",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-21-2026",
     "published_at": "Wed, 21 Oct 2026 09:29:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048448+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, güçlü teknoloji kazançlarıyla desteklenen bir rahatlama rallisi yaşarken, enerji enflasyonu riski yukarı yönlü hareketi sınırlayabilir. Yatırımcılar, teknoloji sektöründeki pozitif ivme ile artan enerji maliyetlerinin genel ekonomik etkileri arasındaki dengeyi gözlemleyecek.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Sağlam teknoloji kazançları ve yapay zeka destekli rahatlama rallisi beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel risk varlıklarının daha sağlam bir zemin bulması ve teknoloji sektörünün genel piyasayı desteklemesi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Enerji enflasyonu riski ve enerji fiyatlarındaki artış beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Enerji enflasyonu riskinin artması, altını enflasyona karşı bir korunma aracı olarak cazip kılabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk varlıklarının daha sağlam bir zemin bulması ve piyasadaki rahatlama rallisi, oynaklığı azaltabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Sağlam teknoloji kazançları ve yapay zeka destekli rahatlama rallisi beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Petrol ETF'i",
+        "yon": "YUKARI",
+        "gerekce": "Enerji enflasyonu riski ve enerji fiyatlarındaki artış beklentisi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:44:20.229942+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-211026",
@@ -36,13 +109,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 21/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 21/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 21/10/26 VIX OPEX ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKL...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 21/10/26 VIX OPEX ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMAKTADIR, FARK PUANINI ÇIKARINIZ*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7440/7400 AYLIK DİRENÇ ARALIĞI 7960 DESTEK 7663 HAFTAL...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-211026",
     "published_at": "Wed, 21 Oct 2026 08:28:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048480+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli teknik seviyeler sunarak potansiyel destek ve direnç bölgelerini belirtmektedir. 'Boğa Ayı Bölgesi'nin varlığı, piyasa yönü için kritik bir eşiğe işaret etmektedir. VIX OPEX'in bahsedilmesi, opsiyon vadesi dolumu etrafında artan volatilite beklentisini düşündürmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P500 / US500",
+        "yon": "YUKARI",
+        "gerekce": "Belirtilen aylık destek seviyesi (7663), boğa/ayı bölgesinin (7440/7400) üzerinde yer almakta olup, yukarı yönlü bir eğilime işaret etmektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "S&P500 ile aynı seviyeleri referans almakta olup, destek seviyesinin boğa/ayı bölgesinin üzerinde olması yukarı yönlü potansiyeli göstermektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "VIX",
+        "isim": "VIX Volatilite Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "VIX OPEX (opsiyon vadesi) belirtilmiş olup, doğrudan bir fiyat yönü yerine volatilite potansiyeline işaret etmektedir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-28T04:44:41.790861+00:00"
   },
   {
     "id": "gbpusd-h4-bullish-rise-21st-october-2026",
@@ -51,13 +150,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Bullish rise",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Boğa Yükselişi",
     "content_en": "Title: GBPUSD H4 | Bullish rise Type: Bullish bounce Preference: The price is falling towards the pivot at 1.3351, an overlap support. A bounce from this level could lead the price toward the 1st resistance at 1.3443, a pullback resistance that aligns with the 61.8...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Boğa yükselişi Tür: Boğa sıçraması Tercih: Fiyat, 1.3351'deki pivot noktasına, bir örtüşme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı %61.8 ile uyumlu olan 1.3443'teki ilk dirence, bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-bullish-rise-21st-october-2026",
     "published_at": "Wed, 21 Oct 2026 12:28:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048502+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD paritesinde potansiyel bir yükseliş sıçramasına işaret ediyor. Destek seviyesinden bir toparlanma bekleniyor, bu da paritenin kısa vadede yukarı yönlü hareket edebileceğini gösteriyor. Bu durum, İngiliz Sterlini'nin ABD Doları karşısında değer kazanabileceği beklentisini yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın destek seviyesinden sıçrayarak dirence doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:44:49.859025+00:00"
   },
   {
     "id": "eurusd-daily-monthly-market-dynamics",
@@ -66,13 +177,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD Daily & Monthly Market Dynamics",
-    "title_tr": "",
+    "title_tr": "EURUSD Günlük ve Aylık Piyasa Dinamikleri",
     "content_en": "EURUSD Daily & Monthly Market DynamicsTO REVIEW THE TECHNICAL CHARTS, CLICK HERE!Technical Scenario Analysis: Daily & Monthly Market Dynamics **Bullish Scenario: Potential Inverse Head & Shoulders (H&S) Reversal** * Pattern Dynamics: The daily chart...",
-    "content_tr": "",
+    "content_tr": "EURUSD Günlük ve Aylık Piyasa Dinamikleri. TEKNİK GRAFİKLERİ İNCELEMEK İÇİN TIKLAYIN! Teknik Senaryo Analizi: Günlük ve Aylık Piyasa Dinamikleri **Boğa Senaryosu: Potansiyel Ters Omuz Baş Omuz (TOBO) Formasyonu Reversalı** * Formasyon Dinamikleri: Günlük grafik...",
     "url": "https://www.tickmill.com/blog/eurusd-daily-monthly-market-dynamics",
     "published_at": "Wed, 21 Oct 2026 13:35:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048526+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, EURUSD paritesinde potansiyel bir Ters Omuz Baş Omuz (TOBO) formasyonu ile güçlü bir yükseliş senaryosuna işaret ediyor. Bu durum, paritede yukarı yönlü bir hareket beklentisi yaratırken, dolar endeksi (DXY) üzerinde baskı oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Günlük grafikte potansiyel Ters Omuz Baş Omuz (TOBO) formasyonu ile güçlü bir yükseliş senaryosu belirtilmiştir.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-28T04:45:00.966396+00:00"
   },
   {
     "id": "audusd-h4-bearish-reversal-at-382-fib-resistance-21st-october-2026",
@@ -81,13 +204,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "AUDUSD H4 | Bearish reversal at 38.2% Fib resistance",
-    "title_tr": "",
+    "title_tr": "AUDUSD H4 | %38.2 Fib Direncinde Ayı Piyasası Geri Dönüşü",
     "content_en": "Title: AUDUSD H4 | Bearish reversal at 38.2% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 0.7026, a pullback resistance that is near the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward...",
-    "content_tr": "",
+    "content_tr": "Başlık: AUDUSD H4 | %38.2 Fib direncinde ayı piyasası geri dönüşü. Tip: Ayı piyasası geri dönüşü. Tercih: Fiyat, %38.2 Fibonacci geri çekilme seviyesine yakın olan 0.7026'daki pivot noktasına, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı aşağı yönlü hareket ettirebilir...",
     "url": "https://www.tickmill.com/blog/audusd-h4-bearish-reversal-at-382-fib-resistance-21st-october-2026",
     "published_at": "Wed, 21 Oct 2026 12:35:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048545+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, AUDUSD paritesinde %38.2 Fibonacci direncinde potansiyel bir ayı piyasası geri dönüşüne işaret ediyor. Bu durum, paritede kısa vadeli bir düşüş beklentisi yaratırken, ABD dolarının diğer majör para birimleri karşısında güç kazanabileceğine dair sinyaller verebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "%38.2 Fibonacci direncinde ayı piyasası geri dönüşü bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:45:12.421363+00:00"
   },
   {
     "id": "eurusd-h4-bullish-momentum-building-21st-october-2026",
@@ -96,13 +231,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURUSD H4 | Bullish momentum building",
-    "title_tr": "",
+    "title_tr": "EURUSD H4 | Yükseliş momentumu oluşuyor",
     "content_en": "Title: EURUSD H4 | Bullish momentum building Type: Bullish bounce Preference: The price has bounced off the pivot at 1.1208, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.1314, a pullback resistance that aligns wi...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURUSD H4 | Yükseliş momentumu oluşuyor Tür: Boğa sıçraması Tercih: Fiyat, 1.1208'deki pivot noktasından, bir geri çekilme desteğinden sıçradı. Bu seviyeden bir sıçrama, fiyatı 1.1314'teki ilk dirence, yani uyumlu bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/eurusd-h4-bullish-momentum-building-21st-october-2026",
     "published_at": "Wed, 21 Oct 2026 12:23:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048563+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, EURUSD'de önemli bir destek seviyesinden yükseliş sıçraması bekliyor. Bu durum, kısa vadede teknik faktörlerle desteklenen yukarı yönlü bir hareket potansiyeline işaret ediyor. Yatırımcılar direnç seviyesini hedefleyerek uzun pozisyonlar arayabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "Fiyat, önemli bir destek seviyesinden sıçrayarak yükseliş momentumu gösteriyor ve ilk dirence doğru ilerlemesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:45:20.411462+00:00"
   },
   {
     "id": "dollar-drift-continues-tech-earnings-next",
@@ -111,13 +258,123 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Drift Continues - Tech Earnings Next",
-    "title_tr": "",
+    "title_tr": "Doların Düşüşü Devam Ediyor - Sırada Teknoloji Kazançları Var",
     "content_en": "Tech Earnings & AIUSD remains soft midweek as traders await clarity on several factors. The recent AI stock rout has left USD vulnerable with a big hit to near-term Fed tightening expectations despite the recent strength in US inflation data. AI funding fears r...",
-    "content_tr": "",
+    "content_tr": "Dolar, yatırımcıların çeşitli faktörler hakkında netlik beklediği hafta ortasında zayıf kalmaya devam ediyor. Son yapay zeka hisse senedi düşüşü, ABD enflasyon verilerindeki son güce rağmen, yakın vadeli Fed sıkılaştırma beklentilerine büyük bir darbe vurarak doları savunmasız bıraktı. Yapay zeka fonlama korkuları r...",
     "url": "https://www.tickmill.com/blog/dollar-drift-continues-tech-earnings-next",
     "published_at": "Wed, 21 Oct 2026 10:37:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048586+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, doların zayıflığını ve yapay zeka hisselerindeki düşüşü vurgulayarak piyasalarda belirsizliğe işaret ediyor. Fed'in faiz artırım beklentilerinin azalması, altın gibi güvenli limanları desteklerken, teknoloji hisselerindeki satış baskısı genel piyasa risk iştahını olumsuz etkiliyor. Bu durum, hisse senedi piyasalarında düşüş eğilimini sürdürebilirken, dolar dışındaki para birimleri ve değerli metaller için yukarı yönlü potansiyel sunuyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş genel piyasa risk iştahını azaltıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş genel piyasa risk iştahını azaltıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki sert düşüş teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki sert düşüş teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel piyasa risk iştahındaki azalma küçük ölçekli şirketleri de etkiliyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka hisselerindeki düşüş genel piyasa risk iştahını azaltıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Zayıf dolar ve düşen Fed faiz artırım beklentileri altını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Zayıf dolar ve düşen Fed faiz artırım beklentileri altını destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Zayıf dolar ve düşen Fed faiz artırım beklentileri gümüşü destekliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri (EURUSD)",
+        "yon": "YUKARI",
+        "gerekce": "Doların zayıflığı Euro karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri (USDJPY)",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların zayıflığı Japon Yeni karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri (GBPUSD)",
+        "yon": "YUKARI",
+        "gerekce": "Doların zayıflığı Sterlin karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri (AUDUSD)",
+        "yon": "YUKARI",
+        "gerekce": "Doların zayıflığı Avustralya Doları karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri (USDCAD)",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların zayıflığı Kanada Doları karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri (USDCHF)",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların zayıflığı İsviçre Frangı karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:45:50.648645+00:00"
   },
   {
     "id": "wtiusd-h4-bullish-momentum-to-continue-21st-october-2026",
@@ -126,13 +383,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "WTIUSD H4 | Bullish momentum to continue",
-    "title_tr": "",
+    "title_tr": "WTIUSD H4 | Yükseliş momentumu devam edecek",
     "content_en": "Title: WTIUSD H4 | Bullish momentum to continue Type: Bullish bounce Preference: The price is falling toward the pivot at 95.74, a pullback support that aligns with the 50% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resistan...",
-    "content_tr": "",
+    "content_tr": "Başlık: WTIUSD H4 | Yükseliş momentumu devam edecek. Tip: Yükseliş sıçraması. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme desteği olan 95.74'teki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk direnç seviyesine doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/wtiusd-h4-bullish-momentum-to-continue-21st-october-2026",
     "published_at": "Wed, 21 Oct 2026 12:31:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048606+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, WTIUSD (ham petrol) için yükseliş yönlü bir sıçrama ve momentumun devam etmesini bekliyor. Bu durum, enerji piyasalarında yukarı yönlü bir baskıya işaret ederek, petrol fiyatlarının artmasıyla enflasyon beklentilerini ve enerji şirketlerinin hisselerini olumlu etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "WTIUSD'nin 95.74 pivot seviyesinden sıçrayarak yükseliş momentumunu sürdürmesi bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:46:03.870454+00:00"
   },
   {
     "id": "nasdaq-on-the-brink-ahead-of-major-tech-earnings-today",
@@ -141,12 +410,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Nasdaq On Watch Into Major Tech Earnings Today",
-    "title_tr": "",
+    "title_tr": "Nasdaq Bugün Büyük Teknoloji Kazançları Öncesinde Gözlem Altında",
     "content_en": "Support From SpaceXThe NASDAQ is on watch today as traders brace for a round of major tech names to report earnings with IBM, Tesla and Meta all on deck later. Yesterday, a blowout set of earnings from SpaceX helped stock prices stabilise following the rout we saw ...",
-    "content_tr": "",
+    "content_tr": "SpaceX'ten Destek: NASDAQ, bugün IBM, Tesla ve Meta gibi büyük teknoloji şirketlerinin kazanç raporlarını açıklaması beklenirken yatırımcıların odağında. Dün, SpaceX'in beklentileri aşan kazançları, daha önce gördüğümüz düşüşün ardından hisse senedi fiyatlarının stabilize olmasına yardımcı oldu.",
     "url": "https://www.tickmill.com/blog/nasdaq-on-the-brink-ahead-of-major-tech-earnings-today",
     "published_at": "Wed, 21 Oct 2026 10:11:00 +0000",
     "fetched_at": "2026-10-21T12:48:30.048626+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, büyük teknoloji şirketlerinin kazanç raporları öncesinde temkinli bir bekleyiş içinde. SpaceX'in güçlü performansı genel piyasada bir miktar istikrar sağlasa da, ana teknoloji şirketlerinin sonuçları piyasanın kısa vadeli yönünü belirleyecek.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Büyük teknoloji şirketlerinin kazanç raporları beklenirken piyasa gözlem altında. SpaceX'in güçlü kazançları hisse senedi fiyatlarını stabilize etti.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "TSLA",
+        "isim": "Tesla",
+        "yon": "NÖTR",
+        "gerekce": "Bugün açıklanacak kazanç raporları öncesinde gözlem altında. Şirketin kendi kazançları yönünü belirleyecek.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-28T04:46:15.552648+00:00"
   }
 ]

@@ -6,13 +6,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 23/10/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 23/10/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 23/10/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BE...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 23/10/26 makalesi, nakit US500 eşdeğer seviyeleri için ES1! (Z vadeli sözleşme seviyeleri) referans alınarak hazırlanmıştır; fark puanının çıkarılması gerekmektedir. Analiz, aylık, haftalık ve günlük seviyeleri içermektedir. Aylık boğa-ayı bölgesi 7440/7400 olarak belirlenmiştir. Aylık aralık direnci 7960, desteği ise 7663'tür. Haftalık boğa-ayı seviyeleri de belirtilmiştir.",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-231026",
     "published_at": "Fri, 23 Oct 2026 06:43:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858680+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu teknik analiz, S&P500 için önemli destek ve direnç seviyelerini belirleyerek kısa vadeli piyasa hareketlerine ışık tutmaktadır. Belirtilen boğa-ayı bölgeleri, yatırımcıların pozisyonlarını ayarlamaları için kritik eşikler sunmaktadır. Piyasa, bu seviyeler etrafında dalgalanabilir ve yön tayini için bu bölgeler yakından izlenmelidir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa-ayı bölgeleri (7440/7400) ve direnç (7960) ile destek (7663) seviyelerini belirtmektedir. Bu seviyeler, piyasanın belirli bir aralıkta hareket edebileceğini göstermektedir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, nakit US500 eşdeğer seviyeleri için ES1! (Z vadeli sözleşme seviyeleri) referans alındığını belirtmektedir. Bu, S&P500 ile aynı teknik seviyelerin geçerli olduğunu gösterir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-10-28T04:49:12.445747+00:00"
   },
   {
     "id": "nasdaq-plunges-on-ai-spending-concerns",
@@ -21,13 +40,39 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Nasdaq Plunges On AI Spending Concerns",
-    "title_tr": "",
+    "title_tr": "Nasdaq, Yapay Zeka Harcamaları Endişeleriyle Çakıldı",
     "content_en": "Tech Stocks FallingThe Nasdaq is on course to end the week heavily lower after a fresh plunge yesterday. Geopolitical risks, rising oil prices and rising fears of elevated capex levels among major tech names are combing to weigh on stock market sentiment this week....",
-    "content_tr": "",
+    "content_tr": "Teknoloji hisseleri düşüyor. Nasdaq, dün yaşanan yeni bir düşüşün ardından haftayı büyük kayıplarla kapatmaya hazırlanıyor. Jeopolitik riskler, yükselen petrol fiyatları ve büyük teknoloji şirketleri arasındaki yüksek sermaye harcamaları (capex) seviyelerine ilişkin artan endişeler, bu hafta borsa duyarlılığını olumsuz etkiliyor.",
     "url": "https://www.tickmill.com/blog/nasdaq-plunges-on-ai-spending-concerns",
     "published_at": "Fri, 23 Oct 2026 10:50:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858699+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, teknoloji hisselerindeki düşüşü, jeopolitik riskleri ve yükselen petrol fiyatlarını vurgulayarak piyasalarda olumsuz bir hava olduğunu belirtiyor. Özellikle teknoloji sektörü ve genel hisse senedi piyasaları üzerinde aşağı yönlü baskı devam edebilir. Yükselen petrol fiyatları enflasyon endişelerini artırabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka harcamaları endişeleri ve jeopolitik riskler nedeniyle keskin düşüş yaşadı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel borsa duyarlılığı, jeopolitik riskler ve teknoloji sektörü endişeleriyle olumsuz etkilendi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'yükselen petrol fiyatları' olarak belirtilmiş, jeopolitik risklerle bağlantılı olabilir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:49:27.208930+00:00"
   },
   {
     "id": "daily-market-outlook-october-23-2026",
@@ -36,13 +81,74 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 23, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 23 Ekim 2026",
     "content_en": "Daily Market Outlook, October 23, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive – AI De-Risking Drives Global Bond RallyGlobal equity benchmarks remained under heavy pressure on Friday as institutional investors accelerated ...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 23 Ekim 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mesajı – Yapay Zeka Risk Azaltma Küresel Tahvil Rallisini Tetikliyor. Küresel hisse senedi göstergeleri Cuma günü kurumsal yatırımcılar hızlandırırken ağır baskı altında kaldı...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-23-2026",
     "published_at": "Fri, 23 Oct 2026 08:59:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858713+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, yapay zeka ile ilgili risk azaltma çabaları nedeniyle riskten kaçış moduna girmiş durumda. Bu durum, küresel tahvil piyasasında bir ralliye yol açarken, hisse senedi piyasaları üzerinde ciddi bir baskı oluşturuyor. Genel olarak temkinli ve düşüş eğilimli bir hava hakim.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi göstergeleri ağır baskı altında.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka risk azaltma ve hisse senedi piyasalarındaki ağır baskı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi göstergeleri ağır baskı altında.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi göstergeleri ağır baskı altında.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Riskten kaçış ortamında güvenli liman talebi artışı.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel tahvil rallisi, tahvil fiyatları yükselirken getiriler düşüyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi göstergeleri ağır baskı altında.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka risk azaltma ve hisse senedi piyasalarındaki ağır baskı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-10-28T04:49:48.079621+00:00"
   },
   {
     "id": "usdjpy-h4-potential-bullish-bounce-23rd-october-2026",
@@ -51,13 +157,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Potential bullish bounce",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Potansiyel boğa sıçraması",
     "content_en": "Title: USDJPY H4 | Potential bullish bounce Type: Bullish bounce Preference: The price is falling towards the pivot at 156.39, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 157.54, an overlap pullback resistance. Alt...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Potansiyel boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, geri çekilme desteği olan 156.39'daki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı çakışma geri çekilme direnci olan 157.54'teki ilk dirence doğru taşıyabilir. Alt...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-potential-bullish-bounce-23rd-october-2026",
     "published_at": "Fri, 23 Oct 2026 12:35:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858725+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDJPY paritesinde 156.39 seviyesinden potansiyel bir yükseliş sıçraması bekliyor. Bu durum, Japon Yeni'nin ABD Doları karşısında değer kaybetme eğiliminde olabileceğini ve paritede kısa vadeli bir yükseliş potansiyeli olduğunu gösteriyor. Yatırımcılar bu seviyeleri destek olarak izleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 156.39 pivot desteğinden sıçrayarak 157.54 direncine yükselebileceği belirtiliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:49:56.778712+00:00"
   },
   {
     "id": "gbpusd-h4-support-bounce-opportunity-23rd-october-2026",
@@ -66,13 +184,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Support bounce opportunity",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Destek sıçrama fırsatı",
     "content_en": "Title: GBPUSD H4 | Support bounce opportunity Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3351, an overlap support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resista...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Destek sıçrama fırsatı Tür: Boğa sıçraması Tercih: Fiyat, %38.2 Fibonacci düzeltmesiyle hizalanan bir çakışma desteği olan 1.3351'deki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-support-bounce-opportunity-23rd-october-2026",
     "published_at": "Fri, 23 Oct 2026 12:53:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858735+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD için önemli bir destek seviyesinden boğa sıçraması fırsatı olduğunu belirtiyor. Bu durum, desteğin tutunması halinde paritede kısa vadeli yukarı yönlü bir hareket potansiyeline işaret ediyor. Yatırımcılar 1.3351 seviyesi civarında uzun pozisyonlar arayabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.3351'deki önemli destek seviyesinden sıçrayarak yukarı yönlü hareket etme potansiyeli bulunuyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:05.861586+00:00"
   },
   {
     "id": "crude-higher-on-renewed-usiran-fears",
@@ -81,13 +211,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Crude Higher On Renewed US/Iran Fears",
-    "title_tr": "",
+    "title_tr": "Ham Petrol, Yenilenen ABD/İran Korkularıyla Yükseldi",
     "content_en": "Middle East Fears Boosting PriceOil prices remain supported into the weekend with crude futures finishing the week firmly higher as fears of a fresh US/Iran escalation take hold. There have been fresh reports that the US and Israeli military are drawing up plans to...",
-    "content_tr": "",
+    "content_tr": "Orta Doğu'daki korkular fiyatları yükseltiyor. Ham petrol fiyatları, ABD/İran arasında yeni bir gerilimin tırmanacağı endişeleriyle hafta sonuna doğru destekli kalmaya devam etti ve ham petrol vadeli işlemleri haftayı güçlü bir yükselişle tamamladı. ABD ve İsrail ordusunun planlar hazırladığına dair yeni raporlar var...",
     "url": "https://www.tickmill.com/blog/crude-higher-on-renewed-usiran-fears",
     "published_at": "Fri, 23 Oct 2026 09:54:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858745+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD ve İran arasındaki gerilimin tırmanma endişeleri, ham petrol fiyatlarını yukarı yönlü desteklemiştir. Jeopolitik risklerin artması, enerji piyasalarında volatiliteyi artırırken, güvenli liman varlıklarına olan talebi de yükseltebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD/İran gerilimi endişeleri ham petrol fiyatlarını güçlü bir şekilde yükseltti.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD/İran gerilimi endişeleri ham petrol fiyatlarını güçlü bir şekilde yükseltti.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Orta Doğu'daki jeopolitik gerilimler güvenli liman talebini artırabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "YUKARI",
+        "gerekce": "Orta Doğu'daki jeopolitik gerilimler güvenli liman talebini artırabilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:15.582040+00:00"
   },
   {
     "id": "wtiusd-h4-bearish-reversal-at-pullback-resistance-23rd-october-2026",
@@ -96,13 +259,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "WTIUSD H4 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "WTIUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş",
     "content_en": "Title: WTIUSD H4 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price has rejected the pivot at 101.96, a pullback resistance. A drop from this level could lead the price toward the 1st support at 97.13, a pullback support. Alterna...",
-    "content_tr": "",
+    "content_tr": "Başlık: WTIUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, geri çekilme direnci olan 101.96'daki pivotu reddetti. Bu seviyeden bir düşüş, fiyatı geri çekilme desteği olan 97.13'teki ilk desteğe doğru götürebilir. Alterna...",
     "url": "https://www.tickmill.com/blog/wtiusd-h4-bearish-reversal-at-pullback-resistance-23rd-october-2026",
     "published_at": "Fri, 23 Oct 2026 12:48:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858754+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, WTIUSD'de geri çekilme direncinde düşüş yönlü bir dönüş sinyali veriyor. Bu durum, ham petrol fiyatlarında kısa vadede aşağı yönlü bir baskı oluşturabilir ve enerji piyasalarında temkinli bir duruşa işaret edebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, geri çekilme direnci olan 101.96'daki pivotu reddetti ve 97.13'teki desteğe doğru düşüş bekleniyor.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:29.847608+00:00"
   },
   {
     "id": "usdcad-h4-possible-move-higher-23rd-october-2026",
@@ -111,12 +286,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Possible move higher",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Olası Yükseliş Hareketi",
     "content_en": "Title: USDCAD H4 | Possible move higher Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3995, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.4073, a pullback resistance. Alternative Scen...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Olası Yükseliş Hareketi. Tip: Boğa sıçraması. Tercih: Fiyat, geri çekilme desteği olan 1.3995'teki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı geri çekilme direnci olan 1.4073'teki ilk dirence doğru taşıyabilir. Alternatif Sen...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-possible-move-higher-23rd-october-2026",
     "published_at": "Fri, 23 Oct 2026 12:32:00 +0000",
     "fetched_at": "2026-10-23T12:29:33.858766+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDCAD paritesinde potansiyel bir yükseliş sıçraması öngörüyor. Bu durum, ABD dolarının Kanada doları karşısında güçlenebileceğine işaret ediyor. Belirtilen pivot seviyesinden bir toparlanma, paritenin direnç seviyelerine doğru hareketini tetikleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.3995 pivot seviyesinden sıçrayarak 1.4073 direncine yönelebileceği beklentisi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T04:50:40.891155+00:00"
   }
 ]
