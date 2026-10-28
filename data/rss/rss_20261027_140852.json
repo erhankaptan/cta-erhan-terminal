@@ -6,13 +6,74 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, October 27, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 27 Ekim 2026",
     "content_en": "Daily Market Outlook, October 27, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - AI Earnings Face The Oil And Rates Reality CheckAsian equities rebounded overnight as technology shares in South Korea and Japan recovered, he...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 27 Ekim 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mesajı - Yapay Zeka Kazançları Petrol ve Faiz Oranları Gerçeklik Kontrolüyle Karşı Karşıya\nAsya borsaları, Güney Kore ve Japonya'daki teknoloji hisselerinin toparlanmasıyla bir gecede yükselişe geçti, o...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-october-27-2026",
     "published_at": "Tue, 27 Oct 2026 08:28:00 +0000",
     "fetched_at": "2026-10-27T14:08:52.097135+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, Asya'daki teknoloji hisselerinin öncülüğünde genel bir toparlanma eğilimi gösterse de, petrol fiyatları ve faiz oranlarına ilişkin endişeler bu yükselişi sınırlayabilir. Yatırımcılar, yapay zeka kazançlarının güçlü seyrine rağmen makroekonomik gerçekleri göz önünde bulundurarak temkinli hareket etmelidir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya'daki teknoloji hisselerinin toparlanması, küresel teknoloji piyasalarında olumlu bir hava yaratıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya'daki teknoloji hisselerinin toparlanması, küresel teknoloji piyasalarında olumlu bir hava yaratıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya borsalarının toparlanması genel piyasa duyarlılığını olumlu etkiliyor.",
+        "skor": 0.55
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mini S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya borsalarının toparlanması genel piyasa duyarlılığını olumlu etkiliyor.",
+        "skor": 0.55
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya borsalarının toparlanması genel piyasa duyarlılığını olumlu etkiliyor.",
+        "skor": 0.55
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Asya borsalarının toparlanması genel piyasa duyarlılığını olumlu etkiliyor.",
+        "skor": 0.55
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "'Petrol ve Faiz Oranları Gerçeklik Kontrolü' ifadesi, petrol fiyatlarının piyasalar için bir endişe kaynağı olabileceğini ima ediyor.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "'Petrol ve Faiz Oranları Gerçeklik Kontrolü' ifadesi, petrol fiyatlarının piyasalar için bir endişe kaynağı olabileceğini ima ediyor.",
+        "skor": 0.4
+      }
+    ],
+    "translated_at": "2026-10-28T11:09:25.746807+00:00"
   },
   {
     "id": "dollar-rebounding-higher-on-tuesday",
@@ -21,13 +82,95 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Rebounding Higher on Tuesday",
-    "title_tr": "",
+    "title_tr": "Dolar Salı Günü Yükselişe Geçiyor",
     "content_en": "Dollar Rallying Pre-FOMCThe Dollar is pushing higher today as traders await the October FOMC meeting tomorrow. While no change in rates is expected, risks of a hawkish signal from the Fed for December are well understood. The recent surge in US inflation as well th...",
-    "content_tr": "",
+    "content_tr": "Dolar FOMC Öncesi Yükselişte. Dolar, yatırımcılar yarınki Ekim FOMC toplantısını beklerken bugün yükselişe geçiyor. Faiz oranlarında bir değişiklik beklenmese de, Fed'den Aralık ayı için şahin bir sinyal gelme riskleri iyi anlaşılmış durumda. ABD enflasyonundaki son artış da...",
     "url": "https://www.tickmill.com/blog/dollar-rebounding-higher-on-tuesday",
     "published_at": "Tue, 27 Oct 2026 09:51:00 +0000",
     "fetched_at": "2026-10-27T14:08:52.097245+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Doların FOMC öncesi yükselişi, Fed'den gelebilecek şahin sinyal beklentileriyle destekleniyor. Bu durum, faiz artırımı olasılığını güçlendirerek doları desteklerken, diğer varlıklar üzerinde baskı yaratabilir. Enflasyon endişeleri piyasaların ana gündemi olmaya devam ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makale, doların FOMC öncesi yükselişini ve şahin Fed beklentilerini vurguluyor.",
+        "skor": 1.0
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "YUKARI",
+        "gerekce": "Şahin Fed sinyali ve enflasyon endişeleri tahvil getirilerini yükseltir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar karşısında Euro'nun değer kaybetmesi beklenir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar karşısında Japon Yeni'nin değer kaybetmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar ve yükselen faiz beklentileri, faiz getirmeyen altın için olumsuzdur.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed ve yüksek faiz beklentileri hisse senedi piyasaları için olumsuzdur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz beklentileri, özellikle büyüme odaklı teknoloji hisselerini olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar ve potansiyel ekonomik yavaşlama endişeleri petrol talebini etkileyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed ve yüksek faiz beklentileri, küçük sermayeli şirketleri olumsuz etkiler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar ve potansiyel ekonomik yavaşlama endişeleri endüstriyel metalleri baskılar.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen dolar, emtiaları uluslararası alıcılar için daha pahalı hale getirir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T11:09:53.833433+00:00"
   },
   {
     "id": "copper-jumps-as-ai-sentiment-improves",
@@ -36,12 +179,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Jumps As AI Sentiment Improves",
-    "title_tr": "",
+    "title_tr": "Bakır, Yapay Zeka Duyarlılığı İyileşirken Yükseldi",
     "content_en": "Copper Bouncing BackCopper prices are bouncing back firmly today with the futures market up around as AI sentiment rebounds. The move higher comes despite the strength we’re seeing in USD today, which would typically act as a headwind for higher copper prices. The ...",
-    "content_tr": "",
+    "content_tr": "Bakır Fiyatları Geri Dönüyor: Bakır fiyatları bugün yapay zeka duyarlılığının toparlanmasıyla vadeli piyasada güçlü bir şekilde yükseliyor. Bu yükseliş, normalde bakır fiyatları için bir engel teşkil edecek olan USD'deki bugünkü güce rağmen gerçekleşiyor.",
     "url": "https://www.tickmill.com/blog/copper-jumps-as-ai-sentiment-improves",
     "published_at": "Tue, 27 Oct 2026 10:23:00 +0000",
     "fetched_at": "2026-10-27T14:08:52.097265+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, yapay zeka sektöründeki olumlu gelişmelerin bakır talebini artırarak fiyatları yukarı çektiğini belirtiyor. USD'nin gücüne rağmen bakırın yükselmesi, bu talebin ne kadar güçlü olduğunu gösteriyor. Bu durum, endüstriyel metaller ve teknoloji hisseleri için olumlu bir sinyal olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Yapay zeka duyarlılığının iyileşmesiyle bakır fiyatları güçlü bir şekilde yükseliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede USD'nin güçlü olduğu belirtiliyor, bu da EURUSD paritesinin düşüşünü işaret eder.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T11:10:07.054653+00:00"
   }
 ]

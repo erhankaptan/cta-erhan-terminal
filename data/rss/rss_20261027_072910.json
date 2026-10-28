@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş",
     "content_en": "Title: XAUUSD H4 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 4,080.06, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price tow...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Geri çekilme direncinde düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 4.080,06 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı aşağı yönlü hareket ettirebilir...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-bearish-reversal-at-pullback-resistance-27th-october-2026",
     "published_at": "Tue, 27 Oct 2026 12:02:00 +0000",
     "fetched_at": "2026-10-27T07:29:10.359085+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD'nin önemli bir direnç seviyesinden düşüş yönlü bir dönüş yapabileceğini öne sürüyor. Bu durum, altın fiyatlarında kısa vadede aşağı yönlü bir baskı oluşturabilir ve yatırımcıların dikkatli olmasını gerektirebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 4.080,06 seviyesindeki dirençten düşüş yönlü bir dönüş yapabilir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:08:37.187246+00:00"
   },
   {
     "id": "usdjpy-h4-bearish-reversal-setup-27th-october-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Bearish reversal setup",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Ayı yönlü dönüş kurulumu",
     "content_en": "Title: USDJPY H4 | Bearish reversal setup Type: Bearish reversal Preference: The price is rising towards the pivot at 157.75, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 156.38, an overlap support. Alternative Sc...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Ayı yönlü dönüş kurulumu. Tür: Ayı yönlü dönüş. Tercih: Fiyat, bir geri çekilme direnci olan 157.75 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı bir örtüşme desteği olan 156.38 seviyesindeki ilk desteğe doğru yönlendirebilir. Alternatif Sen...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-bearish-reversal-setup-27th-october-2026",
     "published_at": "Tue, 27 Oct 2026 11:59:00 +0000",
     "fetched_at": "2026-10-27T07:29:10.359111+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDJPY paritesinde ayı yönlü bir dönüş beklemektedir. Bu durum, ABD Doları'nın Japon Yeni karşısında potansiyel bir zayıflık yaşayabileceğine işaret etmektedir. Beklenen dönüş gerçekleşirse, güçlü dolar trendinde kısa vadeli bir değişim görülebilir ve bu durum diğer USD paritelerini veya güvenli liman akışlarını etkileyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 157.75 direncinden dönerek 156.38 desteğine gerilemesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:08:48.004646+00:00"
   },
   {
     "id": "nzdusd-h4-bullish-bounce-at-618-fibonacci-support-27th-october-2026",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "NZDUSD H4 | Bullish bounce at 61.8% Fibonacci support",
-    "title_tr": "",
+    "title_tr": "NZDUSD H4 | %61.8 Fibonacci desteğinde boğa sıçraması",
     "content_en": "Title: NZDUSD H4 | Bullish bounce at 61.8% Fibonacci support Type: Bullish bounce Preference: The price is falling toward the pivot at 0.5627, a pullback support that aligns with the 61.8% Fibonacci retracement. A bounce from this level could lead the price toward ...",
-    "content_tr": "",
+    "content_tr": "Başlık: NZDUSD H4 | %61.8 Fibonacci desteğinde boğa sıçraması. Tip: Boğa sıçraması. Tercih: Fiyat, %61.8 Fibonacci geri çekilmesiyle hizalanan 0.5627 pivot seviyesindeki geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı yukarı yönlü hareket ettirebilir.",
     "url": "https://www.tickmill.com/blog/nzdusd-h4-bullish-bounce-at-618-fibonacci-support-27th-october-2026",
     "published_at": "Tue, 27 Oct 2026 12:04:00 +0000",
     "fetched_at": "2026-10-27T07:29:10.359127+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "NZDUSD paritesinde %61.8 Fibonacci desteğinden beklenen boğa sıçraması, Yeni Zelanda Doları'nda ABD Doları karşısında potansiyel bir güçlenmeye işaret ediyor. Bu durum, paritede kısa vadeli yukarı yönlü bir hareketlilik yaratabilir ve yatırımcılar için alım fırsatları sunabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın %61.8 Fibonacci desteği olan 0.5627 seviyesinden boğa sıçraması yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:08:57.103804+00:00"
   },
   {
     "id": "usdchf-h4-rising-toward-50-fib-resistance-27th-october-2026",
@@ -51,12 +87,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Rising toward 50% Fib resistance",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | %50 Fib Direncine Doğru Yükseliyor",
     "content_en": "Title: USDCHF H4 | Rising toward 50% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 0.8283, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward the ...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | %50 Fib Direncine Doğru Yükseliyor. Tür: Düşüş yönlü dönüş tercihi. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan 0.8283'teki pivot noktasına, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı aşağı yönlü hareket ettirebilir.",
     "url": "https://www.tickmill.com/blog/usdchf-h4-rising-toward-50-fib-resistance-27th-october-2026",
     "published_at": "Tue, 27 Oct 2026 11:46:00 +0000",
     "fetched_at": "2026-10-27T07:29:10.359144+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDCHF paritesinde %50 Fibonacci direncine doğru bir yükseliş gözlemleniyor. Ancak, bu seviyeden düşüş yönlü bir dönüş bekleniyor, bu da paritede aşağı yönlü bir hareket potansiyeli olduğunu gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "USD/İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın %50 Fibonacci direncinden düşüş yönlü bir dönüş yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:09:05.658961+00:00"
   }
 ]

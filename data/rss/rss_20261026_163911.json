@@ -68,13 +68,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FOMC: Inflation & AI Stock Plunge In Focus",
-    "title_tr": "",
+    "title_tr": "FOMC: Enflasyon ve Yapay Zeka Hisseleri Düşüşü Odakta",
     "content_en": "FOMC Up NextThe US Dollar is on watch this week as traders brace for the latest Fed rates decision on Wednesday at the October FOMC meeting. The market is widely expecting the Fed to keep rates on hold and, therefore, the bigger focus will be on the forward guidanc...",
-    "content_tr": "",
+    "content_tr": "FOMC Sırada ABD Doları, yatırımcıların Çarşamba günü Ekim FOMC toplantısında Fed'in son faiz kararına hazırlanmasıyla bu hafta izleniyor. Piyasa, Fed'in faizleri sabit tutmasını geniş ölçüde bekliyor ve bu nedenle daha büyük odak noktası ileriye dönük yönlendirme...",
     "url": "https://www.tickmill.com/blog/fomc-inflation-ai-stock-plunge-in-focus",
     "published_at": "Mon, 26 Oct 2026 09:46:00 +0000",
     "fetched_at": "2026-10-26T16:39:11.410560+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasa, Fed'in faiz kararını ve ileriye dönük yönlendirmesini bekliyor. Faizlerin sabit tutulması beklense de, gelecekteki para politikasına dair ipuçları ABD Doları ve diğer varlıklar üzerinde önemli etki yaratabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "NÖTR",
+        "gerekce": "Fed'in faiz kararı ve ileriye dönük yönlendirmesi ABD Doları'nın yönünü belirleyecek, şu an için belirsizlik hakim.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Başlıkta belirtilen yapay zeka hisselerindeki düşüş, teknoloji ağırlıklı endeksler üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T11:08:15.628435+00:00"
   },
   {
     "id": "trump-comments-fuel-fresh-oil-spike",
@@ -83,12 +102,31 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Trump Comments Fuel Fresh Oil Spike",
-    "title_tr": "",
+    "title_tr": "Trump Yorumları Yeni Bir Petrol Fiyatı Sıçramasını Tetikliyor",
     "content_en": "US/Iran FearsOil prices are starting the week a little softer with the crude futures market in the red so far following a retreat from Friday’s highs. The market ended last week firmly higher as fears of a fresh escalation in the US/Iran war drove prices higher. On...",
-    "content_tr": "",
+    "content_tr": "ABD/İran Korkuları Petrol fiyatları, Cuma günkü zirvelerden geri çekilmenin ardından ham petrol vadeli işlem piyasasının şu ana kadar kırmızıda olmasıyla haftaya biraz daha yumuşak başlıyor. Piyasa, ABD/İran savaşında yeni bir tırmanış korkusunun fiyatları yukarı çekmesiyle geçen haftayı güçlü bir yükselişle tamamladı. Üzerinde...",
     "url": "https://www.tickmill.com/blog/trump-comments-fuel-fresh-oil-spike",
     "published_at": "Mon, 26 Oct 2026 10:44:00 +0000",
     "fetched_at": "2026-10-26T16:39:11.410584+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, ABD-İran gerilimlerinin petrol piyasası üzerindeki etkisini vurguluyor. Jeopolitik riskler, kısa vadeli geri çekilmelere rağmen petrol fiyatlarında genel bir yükseliş eğilimini destekliyor. Bu durum, enerji maliyetlerinde artış beklentisi yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD-İran gerilimi ve jeopolitik riskler petrol fiyatlarını yukarı yönlü destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD-İran gerilimi ve jeopolitik riskler petrol fiyatlarını yukarı yönlü destekliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:08:27.788388+00:00"
   }
 ]

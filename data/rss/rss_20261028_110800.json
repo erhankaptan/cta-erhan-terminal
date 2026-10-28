@@ -1,0 +1,98 @@
+[
+  {
+    "id": "daily-market-outlook-october-28-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, October 28, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 28 Ekim 2026",
+    "content_en": "Daily Market Outlook, October 28, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - RBNZ Surprise Tests Global Hike Bets Ahead Of Fed And UK BudgetGlobal markets entered a blockbuster policy day with an abrupt reminder that ce...",
+    "content_tr": "Günlük Piyasa Görünümü, 28 Ekim 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - RBNZ Sürprizi, Fed ve İngiltere Bütçesi Öncesi Küresel Faiz Artırımı Bahislerini Test Ediyor\nKüresel piyasalar, ani bir hatırlatma ile büyük bir politika gününe girdi...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-october-28-2026",
+    "published_at": "Wed, 28 Oct 2026 07:53:00 +0000",
+    "fetched_at": "2026-10-28T11:08:00.827913+00:00",
+    "translation_hash": "",
+    "yorum": "RBNZ'nin sürpriz kararı, Fed ve İngiltere bütçesi öncesinde küresel faiz artırımı beklentilerini sorgulatıyor. Bu durum, piyasalarda belirsizliği artırarak volatiliteye yol açabilir. Yatırımcılar, gelecek politika kararlarını dikkatle izleyecektir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "NÖTR",
+        "gerekce": "RBNZ'nin sürpriz kararı, Yeni Zelanda doları üzerinde belirsizlik ve volatilite yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel faiz artırımı beklentilerinin sorgulanması ve Fed öncesi belirsizlik, hisse senedi piyasaları için olumsuz.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Fed'in faiz artırımı beklentilerindeki belirsizlik, dolar üzerinde karışık bir etki yaratabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Küresel piyasalardaki belirsizlik ve riskten kaçış eğilimi, güvenli liman altına talebi artırabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "İngiltere bütçesi öncesi belirsizlik ve küresel faiz beklentilerinin sorgulanması sterlin üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-28T11:11:07.499599+00:00"
+  },
+  {
+    "id": "dollar-rallying-into-fomc-tonight",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Rallying Into FOMC Tonight",
+    "title_tr": "Dolar Bu Akşamki FOMC Öncesinde Yükselişte",
+    "content_en": "FOMC On WatchThe US Dollar remains firmly bid today ahead of the FOMC meeting this evening. A rebound in AI sentiment following strong Q3 earnings from Korean chipmaker SQ HYNIX has helped the USD recovery midweek. Given the importance of AI investment in the broad...",
+    "content_tr": "FOMC Gözetiminde: ABD Doları, bu akşamki FOMC toplantısı öncesinde bugün güçlü bir şekilde talep görmeye devam ediyor. Koreli çip üreticisi SQ HYNIX'in güçlü 3. çeyrek kazançlarının ardından yapay zeka (AI) duyarlılığındaki toparlanma, hafta ortasında USD'nin toparlanmasına yardımcı oldu. Yapay zeka yatırımlarının geniş çapta önemi göz önüne alındığında...",
+    "url": "https://www.tickmill.com/blog/dollar-rallying-into-fomc-tonight",
+    "published_at": "Wed, 28 Oct 2026 10:32:00 +0000",
+    "fetched_at": "2026-10-28T11:08:00.827951+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, FOMC toplantısı öncesinde ABD Doları'nın gücünü ve yapay zeka sektöründeki olumlu duyarlılığın doları desteklediğini belirtiyor. Bu durum, Fed'den şahin bir ton beklentisini veya en azından güvercin sürprizlerin olmayacağını işaret ederek doların değer kazanmaya devam edebileceğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "FOMC öncesi güçlü talep ve yapay zeka duyarlılığındaki toparlanma doları destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro/ABD Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın FOMC öncesi güçlü seyri, EUR karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "ABD Doları/Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın FOMC öncesi güçlü seyri, JPY karşısında değer kazanmasına neden oluyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:11:28.095064+00:00"
+  }
+]

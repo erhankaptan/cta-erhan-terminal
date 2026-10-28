@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Falling toward Fib support",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Fib destek seviyesine doğru düşüş",
     "content_en": "Title: GBPUSD H4 | Falling toward Fib support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3273, a pullback support that aligns with the 50% Fibonacci retracement and the 100% Fibonacci projection. A bounce from this level could lead ...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPUSD H4 | Fib destek seviyesine doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesi ve %100 Fibonacci projeksiyonu ile hizalanan 1.3273'teki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, ...",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-falling-toward-fib-support-28th-october-2026",
     "published_at": "Wed, 28 Oct 2026 10:50:00 +0000",
     "fetched_at": "2026-10-28T04:43:05.084360+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPUSD'nin önemli bir Fibonacci destek seviyesinden yukarı yönlü bir sıçrama yapabileceğini öngörüyor. Bu durum, paritede kısa vadeli bir yükseliş potansiyeline işaret etmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın %50 Fibonacci geri çekilmesi ve %100 Fibonacci projeksiyonu ile hizalanan destek seviyesinden yukarı sıçraması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-28T11:10:17.274544+00:00"
   },
   {
     "id": "usdchf-h4-pullback-resistance-ahead-28th-october-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCHF H4 | Pullback resistance ahead",
-    "title_tr": "",
+    "title_tr": "USDCHF H4 | Geri çekilme direnci yaklaşıyor",
     "content_en": "Title: USDCHF H4 | Pullback resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 0.8318, a pullback resistance that aligns with the 61.8% Fibonacci retracement. A reversal from this level could lead the price toward the 1st su...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCHF H4 | Geri çekilme direnci yaklaşıyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, 61.8% Fibonacci geri çekilmesiyle hizalanan 0.8318'deki bir geri çekilme direnci olan pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı 1. destek seviyesine doğru yönlendirebilir...",
     "url": "https://www.tickmill.com/blog/usdchf-h4-pullback-resistance-ahead-28th-october-2026",
     "published_at": "Wed, 28 Oct 2026 11:02:00 +0000",
     "fetched_at": "2026-10-28T04:43:05.084388+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, USDCHF paritesinde önemli bir direnç seviyesinden (0.8318) potansiyel bir ayı piyasası dönüşüne işaret ediyor. Eğer bu direnç seviyesi tutunursa, paritede aşağı yönlü bir hareket ve satış baskısı beklenebilir. Yatırımcılar bu seviyeyi yakından takip etmelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 0.8318 seviyesindeki geri çekilme direncinden (61.8% Fibonacci) ayı piyasası dönüşü yapması bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-10-28T11:10:27.934607+00:00"
   },
   {
     "id": "usousd-h4-could-we-see-a-bounce-from-here-28th-october-2026",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Could we see a bounce from here",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | Buradan bir sıçrama görebilir miyiz?",
     "content_en": "Title: USOUSD H4 | Could we see a bounce from here Type: Bullish bounce Preference: The price is falling toward the pivot at 98.75, a pullback support that aligns with the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the 1st res...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | Buradan bir sıçrama görebilir miyiz? Tip: Yükseliş sıçraması. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle uyumlu olan 98.75'teki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/usousd-h4-could-we-see-a-bounce-from-here-28th-october-2026",
     "published_at": "Wed, 28 Oct 2026 10:59:00 +0000",
     "fetched_at": "2026-10-28T04:43:05.084408+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USOUSD'nin önemli bir destek seviyesinden potansiyel bir yükseliş sıçraması yapabileceğini öne sürüyor. Bu durum, ham petrol fiyatları için kısa vadede olumlu bir görünüm sunarak enerji sektörü hisselerini ve enflasyon beklentilerini etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "USOUSD",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın %38.2 Fibonacci geri çekilmesi ve pivot desteği olan 98.75 seviyesinden bir sıçrama yapması bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-10-28T11:10:39.363644+00:00"
   },
   {
     "id": "usdcad-h4-bullish-bounce-in-play-28th-october-2026",
@@ -51,12 +87,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Bullish bounce in play",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Boğa sıçraması devrede",
     "content_en": "Title: USDCAD H4 | Bullish bounce in play Type: Bullish bounce Preference: The price has bounced off the pivot at 1.3992, a pullback support. A rise from this level could lead the price toward the 1st resistance at 1.4121, a pullback resistance that aligns with the...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Boğa sıçraması devrede Tür: Boğa sıçraması Tercih: Fiyat, 1.3992'deki pivot noktasından, bir geri çekilme desteğinden sıçradı. Bu seviyeden bir yükseliş, fiyatı 1.4121'deki ilk dirence, yani bir geri çekilme direncine doğru taşıyabilir ve bu direnç...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-bullish-bounce-in-play-28th-october-2026",
     "published_at": "Wed, 28 Oct 2026 10:56:00 +0000",
     "fetched_at": "2026-10-28T04:43:05.084428+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDCAD paritesinde boğa sıçraması beklentisi, ABD dolarının Kanada doları karşısında güçlenebileceğine işaret ediyor. Bu durum, Kanada ekonomisi için olumsuz, ABD ekonomisi için ise olumlu bir sinyal olarak yorumlanabilir. Yatırımcılar, paritedeki yükseliş potansiyelini değerlendirebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.3992 pivot desteğinden sıçrayarak 1.4121 direncine doğru yükselme potansiyeli.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-28T11:10:49.721464+00:00"
   }
 ]
