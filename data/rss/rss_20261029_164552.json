@@ -1,0 +1,139 @@
+[
+  {
+    "id": "copper-slides-as-ai-fears-return",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Copper Slides As AI Fears Return",
+    "title_tr": "Yapay Zeka Korkuları Geri Döndükçe Bakır Geriledi",
+    "content_en": "AI WeaknessCopper prices have come under pressure today as AI sentiment weakened once more on the back of disappointing earnings from Alphabet and Samsung this week. The tech giants added to the recent run of underperformance we’ve seen following misses from Tesla ...",
+    "content_tr": "Yapay Zeka Zayıflığı: Bakır fiyatları bugün, Alphabet ve Samsung'dan bu hafta gelen hayal kırıklığı yaratan kazanç raporlarının ardından yapay zeka duyarlılığının bir kez daha zayıflamasıyla baskı altına girdi. Teknoloji devleri, Tesla'dan gelen kaçırılan beklentilerin ardından gördüğümüz son dönemdeki düşük performans serisine eklendi...",
+    "url": "https://www.tickmill.com/blog/copper-slides-as-ai-fears-return",
+    "published_at": "Thu, 29 Oct 2026 10:31:00 +0000",
+    "fetched_at": "2026-10-29T16:45:52.310338+00:00",
+    "translation_hash": "",
+    "yorum": "Yapay zeka sektöründeki zayıflayan duyarlılık ve büyük teknoloji şirketlerinin hayal kırıklığı yaratan kazançları, piyasalarda risk iştahını azaltıyor. Bu durum, bakır gibi endüstriyel metaller üzerinde aşağı yönlü baskı oluşturarak genel ekonomik büyüme endişelerini artırabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka duyarlılığının zayıflaması ve büyük teknoloji şirketlerinin hayal kırıklığı yaratan kazançları nedeniyle baskı altında.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "TSLA",
+        "isim": "Tesla",
+        "yon": "AŞAĞI",
+        "gerekce": "Kazanç beklentilerini kaçırarak düşük performans serisine katkıda bulundu.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GOOGL",
+        "isim": "Alphabet (Google)",
+        "yon": "AŞAĞI",
+        "gerekce": "Hayal kırıklığı yaratan kazanç raporları nedeniyle yapay zeka duyarlılığının zayıflamasına neden oldu.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka duyarlılığının zayıflaması ve büyük teknoloji şirketlerinin hayal kırıklığı yaratan kazançları, teknoloji ağırlıklı endeksler üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka duyarlılığının zayıflaması ve büyük teknoloji şirketlerinin hayal kırıklığı yaratan kazançları, teknoloji ağırlıklı endeksler üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-29T16:46:03.609355+00:00"
+  },
+  {
+    "id": "ftse-climbs-as-shell-profits-and-defence-strength-counter-banking-slump",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Climbs as Shell Profits and Defence Strength Counter Banking Slump",
+    "title_tr": "FTSE, Shell Kârları ve Savunma Gücü Bankacılık Düşüşünü Telafi Ederken Yükseldi",
+    "content_en": "FTSE Climbs as Shell Profits and Defence Strength Counter Banking SlumpLondon's benchmark FTSE 100 gained ground on Thursday, trading up around 0.34% . Robust earnings and upgraded shareholder returns from energy giant Shell buoyed broader risk appetite, helpi...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100 Perşembe günü %0,34 civarında yükseldi. Enerji devi Shell'in güçlü kazançları ve artırılan hissedar getirileri, genel risk iştahını destekleyerek bankacılık sektöründeki düşüşü ve savunma sektöründeki gücü dengeledi.",
+    "url": "https://www.tickmill.com/blog/ftse-climbs-as-shell-profits-and-defence-strength-counter-banking-slump",
+    "published_at": "Thu, 29 Oct 2026 16:24:00 +0000",
+    "fetched_at": "2026-10-29T16:45:52.310384+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, FTSE 100'ün Shell'in güçlü kazançları ve savunma sektöründeki olumlu performansla yükseldiğini belirtiyor. Bu durum, bankacılık sektöründeki zayıflığa rağmen piyasada seçici bir risk iştahının olduğunu gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Shell'in güçlü kazançları ve artan risk iştahı ile %0,34 yükseldi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-10-29T16:46:18.723931+00:00"
+  },
+  {
+    "id": "usd-higher-after-hawkish-fomc-meeting",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USD Higher After Hawkish FOMC Meeting",
+    "title_tr": "Şahin FOMC Toplantısı Sonrası USD Yükseldi",
+    "content_en": "Hawkish Hold from FedThe Dollar is rising again this morning on the back of the FOMC meeting yesterday. The Fed kept rates on hold, as expected, but was broadly hawkish in its messaging citing elevated inflation and strength in the US economy. The initial reaction ...",
+    "content_tr": "Fed'den Şahin Durum. Dolar, dünkü FOMC toplantısının ardından bu sabah yeniden yükselişte. Fed, beklendiği gibi faiz oranlarını sabit tuttu, ancak yüksek enflasyon ve ABD ekonomisindeki gücü gerekçe göstererek genel olarak şahin bir mesaj verdi. İlk tepki...",
+    "url": "https://www.tickmill.com/blog/usd-higher-after-hawkish-fomc-meeting",
+    "published_at": "Thu, 29 Oct 2026 09:37:00 +0000",
+    "fetched_at": "2026-10-29T16:45:52.310402+00:00",
+    "translation_hash": "",
+    "yorum": "Fed'in faizleri sabit tutmasına rağmen şahin duruşu, sıkı para politikası beklentilerini güçlendirdi. Bu durum Dolar'ı desteklerken, riskli varlıklar üzerinde baskı oluşturabilir ve piyasalarda temkinli bir havaya yol açabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in şahin duruşu Dolar'ı güçlendirerek EUR karşısında değer kaybetmesine neden oldu.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Futures",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in şahin duruşu Dolar'ı güçlendirerek Yen karşısında değer kazanmasına neden oldu.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen Dolar ve Fed'in şahin duruşu (yüksek faiz beklentisi) altın fiyatları üzerinde baskı oluşturur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Endeks Futures",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in şahin duruşu ve potansiyel olarak daha yüksek faiz oranları hisse senedi piyasaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen Dolar ve Fed'in sıkılaşma sinyalleri küresel ekonomik büyümeyi yavaşlatarak petrol talebini etkileyebilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-10-29T16:46:38.718712+00:00"
+  }
+]
