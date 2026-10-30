@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ftse-trims-early-rally-to-close-near-flat-first-monthly-gain-in-three-months",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Trims Early Rally to Close Near Flat, First Monthly Gain in Three Months",
+    "title_tr": "FTSE Erken Ralliyi Kısarak Neredeyse Yatay Kapandı, Üç Ay Sonra İlk Aylık Kazanç",
+    "content_en": "FTSE Trims Early Rally to Close Near Flat, First Monthly Gain in Three MonthsLondon's benchmark FTSE 100 gave up the bulk of its early morning gains on Friday to close near the flat line. An initial rally—driven by blockbuster quarterly earnings from AstraZene...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Cuma günü sabahki erken kazançlarının büyük kısmını geri vererek neredeyse yatay kapandı. AstraZeneca'dan gelen gişe rekorları kıran üç aylık kazançların yönlendirdiği ilk ralli...",
+    "url": "https://www.tickmill.com/blog/ftse-trims-early-rally-to-close-near-flat-first-monthly-gain-in-three-months",
+    "published_at": "Fri, 30 Oct 2026 16:08:00 +0000",
+    "fetched_at": "2026-10-30T20:33:33.511641+00:00",
+    "translation_hash": "",
+    "yorum": "FTSE 100'ün üç ay sonra ilk aylık kazancını elde etmesi, piyasada olumlu bir sinyal olarak algılanabilir. Ancak günlük bazda kazançların geri verilmesi, yatırımcıların temkinli duruşunu gösteriyor. Bu durum, genel piyasa toparlanmasının kırılgan olabileceğine işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Günlük kazançlarını geri vererek yatay kapansa da, üç ay sonra ilk aylık kazancını elde ederek toparlanma sinyali verdi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-10-30T20:33:44.908319+00:00"
+  }
+]
