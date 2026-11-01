@@ -1,0 +1,128 @@
+[
+  {
+    "tweet_id": "2102511718966456530",
+    "username": "misterpuertas",
+    "text": "Cierra Wall Street mixto: SPX +0,00%, NDX +0,82%, Dow -0,36%, Russell +0,51%. La dispersión de los índices es la protagonista hoy: el NDX alcanzó nuevos máximos históricos gracias al buen desempeño de la IA, mientras que el Dow Jones cayó, arrastrado por el sector financiero. El SPX cerró sin cambios, ya que la toma de ganancias de última hora borró las ganancias impulsadas por Trump y el petróleo. Por ahora, las acciones de IA siguen superando a las tradicionales, con un cuarto día consecutivo de un rendimiento notablemente superior. Durante seis días consecutivos en el S&P 500, los nuevos mínimos han superado a los nuevos máximos. La demanda inicial de bonos del Tesoro se fue reduciendo gradualmente durante la mañana y la tarde en Estados Unidos, a medida que el petróleo se recuperaba de sus mínimos del día. Además, una subasta de bonos a dos años y una intensa actividad de emisión de deuda en dólares aumentaron la presión a la baja sobre los bonos del Tesoro. Al cierre, los rendimientos se mantuvieron prácticamente estables, aunque con el tramo largo al alza. Hablando de emisiones, el crédito de los grandes proveedores de servicios en la nube volvió a empeorar hoy, y las acciones de estas compañías siguieron la misma tendencia a la baja. El dólar estuvo volátil, subiendo y bajando durante la sesión, para finalmente terminar en su nivel más alto desde principios de agosto. A pesar de la fortaleza del dólar, el oro terminó al alza, repuntando ligeramente un 0,33%. Bitcoin experimentó un ligero descenso tras alcanzar máximos de 87.000 dólares durante la noche. Los precios del petróleo Brent cayeron por debajo de los 100 dólares al cierre de Wall Street.",
+    "images": [],
+    "analyzed_at": "2026-11-01T09:03:54.649000+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102658183126773818",
+    "username": "JuanJesusMontoy",
+    "text": "Mesa GS DERIVADOS: el mercado está mostrando más apetito por la tecnología y la IA, especialmente en el Nasdaq, que volvió a marcar máximos históricos. Sin embargo, el S&P 500 terminó prácticamente plano. Lo más interesante es que la volatilidad del Nasdaq empieza a despertar después de meses muy tranquila. Es decir, aunque la bolsa sigue fuerte, los operadores comienzan a pagar algo más por las opciones, anticipando que podrían llegar movimientos mayores. En el S&P 500 ocurrió lo contrario: la volatilidad bajó y también se redujo bastante el precio relativo de las puts de protección. En el VIX hubo movimientos llamativos: se compraron unos 20.000 straddles de octubre en strike 17 y unas 20.000 puts strike 18. Además, la mesa considera interesantes las calls VIX de octubre strike 20, porque creen que ofrecen una forma relativamente barata de beneficiarse de un posible repunte de volatilidad ante el calendario de eventos que viene. Por sectores, los financieros estuvieron débiles por el posible impacto de la IA agéntica, mientras que en semiconductores sigue entrando dinero buscando subidas. En resumen: el mercado sigue fuerte, especialmente tecnología y semiconductores, pero empieza a aparecer más demanda de volatilidad y de protección de cara a octubre. Para la próxima sesión, las opciones descuentan un movimiento relativamente pequeño del S&P 500, de aproximadamente ±0,40%.",
+    "images": [],
+    "analyzed_at": "2026-11-01T09:04:06.673549+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102721422036504742",
+    "username": "misterpuertas",
+    "text": "La Reserva Estratégica de Petróleo de Estados Unidos ha caído hasta los 285 millones de barriles, apenas por encima del mínimo histórico de 277 millones registrado por última vez en septiembre de 1982, según McElligott, de Nomura. El mensaje del gráfico lo resume: “DRENAJE DE LA SPR DE EEUU = SE ESTÁN QUEDANDO SIN PALANCAS QUE UTILIZAR”.",
+    "images": [
+      "https://pbs.twimg.com/media/HS5d_LKXUAAh97y.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:04:18.800136+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102705318253805756",
+    "username": "misterpuertas",
+    "text": "Al analizar 60 años de relación entre el S&P 500 y el bono estadounidense a 10 años, aparece un nivel clave: cuando la rentabilidad del bono a 10 años supera aproximadamente el 5,25%, la correlación entre ambos pasa a ser de forma bastante consistente positiva, alrededor de +0,35/+0,40. Por debajo de ese nivel, la relación es mucho más variable y puede llegar hasta -0,70. En otras palabras: tener acciones y bonos no siempre aporta la misma diversificación. Cuando los tipos están suficientemente altos, ambos pueden moverse en la misma dirección, reduciendo el efecto protector de combinar ambos activos. Por eso, un escenario de tipos altos durante más tiempo puede hacer que la clásica diversificación entre acciones y bonos funcione mucho peor. Vía GS",
+    "images": [
+      "https://pbs.twimg.com/media/HS5PV7IWEAASIr7.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:04:31.643630+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102698766830575690",
+    "username": "misterpuertas",
+    "text": "Prácticamente todos los activos sufren cuando aumenta la volatilidad de los tipos de interés. Los más sensibles son los MBS, con una relación cercana a -0,78. Después aparecen el inmobiliario, el S&P 500, el private equity y el high yield, alrededor de -0,51. Las materias primas son las menos afectadas, cerca de -0,29.",
+    "images": [
+      "https://pbs.twimg.com/media/HS5JYnOWYAAp66c.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:04:44.463392+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102690718418432342",
+    "username": "misterpuertas",
+    "text": "Los bancos siguen registrando malos resultados: el BKX ha caído más de un 2% ayer, situándose más de un 10% por debajo de su máximo de los últimos 30 días. Mientras que el SPX se encuentra a menos del 1% de su máximo de 52 semanas, una dinámica que no se veía desde enero de 2000. Vía BTIG",
+    "images": [
+      "https://pbs.twimg.com/media/HS5CEKYWMAAxPpZ.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:04:57.278724+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102678185301131271",
+    "username": "misterpuertas",
+    "text": "Estamos viendo dispersión en el SPX: seis días consecutivos con más mínimos de 52 semanas que máximos, incluso cuando el índice se ha recuperado hasta cerca de máximos históricos. Vía ZH",
+    "images": [
+      "https://pbs.twimg.com/media/HS42qjLW4AACxKG.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:05:09.336513+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102675773651841078",
+    "username": "misterpuertas",
+    "text": "El SOX está aproximadamente un 14% por debajo de sus máximos de junio, pero solo tres valores del índice están más cerca de sus máximos que el propio SOX. Diez de las treinta empresas que componen el índice SOX siguen con una caída superior al 30% respecto a sus máximos de las últimas 52 semanas , y la media de las empresas ha bajado aproximadamente un 26%. Vía BTIG",
+    "images": [
+      "https://pbs.twimg.com/media/HS40dppXEAAsVmb.jpg"
+    ],
+    "analyzed_at": "2026-11-01T09:05:21.388203+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102673237117485317",
+    "username": "misterpuertas",
+    "text": "RT @carpatos: Apertura en video Fuertes divergencias en medio de la euforia agentica de la IA https://youtu.be/4mVlMwUE8nI",
+    "images": [
+      "https://pbs.twimg.com/card_img/2102662585778581504/zZb6K4U5?format=jpg&name=800x320_1"
+    ],
+    "analyzed_at": "2026-11-01T09:05:32.737693+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2102672949300043998",
+    "username": "misterpuertas",
+    "text": "R to @misterpuertas: Disponible también en Spotify: https://open.spotify.com/episode/2SGNnpW5CSEBemBTJAJ9O7?si=MYAqBgW1QTCAHpxx9LirtQ&utm_source=copy-link",
+    "images": [
+      "https://pbs.twimg.com/card_img/2102672991654227968/NLsjcDuW?format=jpg&name=800x419"
+    ],
+    "analyzed_at": "2026-11-01T09:05:43.012214+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "Sağlanan tweet metninde veya belirtilen görsellerde (Wayne Enterprise CTA panosu sağlanmadı) herhangi bir finansal varlık veya piyasa göstergesi bulunmamaktadır. Bu nedenle analiz edilecek bir varlık mevcut değildir.",
+    "confidence": 1.0
+  }
+]
