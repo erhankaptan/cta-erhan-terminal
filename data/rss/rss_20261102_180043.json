@@ -1,0 +1,724 @@
+[
+  {
+    "id": "institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs 'All Eyes On The Mid Terms'",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs 'Tüm Gözler Ara Seçimlerde'",
+    "content_en": "THE GOLDMAN TAKE: POLITICAL REALIGNMENT VS. EARNINGS DECELERATION & CRUDE RISK PREMIAGlobal markets open the first week of November facing a confluence of political, energy, and fundamental cross-currents. All eyes are on the US Midterm Elections on Tuesday, No...",
+    "content_tr": "GOLDMAN'IN YORUMU: SİYASİ YENİDEN YAPILANMA VS. KAZANÇLARDA YAVAŞLAMA & HAM PETROL RİSK PRİMİ\nKüresel piyasalar Kasım ayının ilk haftasına siyasi, enerji ve temel çapraz akımların birleşimiyle giriyor. Tüm gözler Salı günü yapılacak ABD Ara Seçimlerinde...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms",
+    "published_at": "Mon, 02 Nov 2026 11:08:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951485+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD ara seçimleri, kurumsal kazançlardaki yavaşlama ve ham petrol risk primi gibi önemli faktörlerin küresel piyasalar üzerindeki belirsizliğini vurguluyor. Bu durum, özellikle hisse senedi piyasalarında aşağı yönlü baskı yaratırken, güvenli liman varlıklarına ve enerji emtialarına ilgiyi artırabilir. Genel piyasa duyarlılığı temkinli ve volatilite beklentisi yüksek.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GER40",
+        "isim": "DAX 40",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "JP225",
+        "isim": "Nikkei 225",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve siyasi belirsizlik hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "TSLA",
+        "isim": "Tesla Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "AAPL",
+        "isim": "Apple Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MSFT",
+        "isim": "Microsoft Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "AMZN",
+        "isim": "Amazon Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GOOGL",
+        "isim": "Alphabet Hissesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Kurumsal kazançlarda beklenen yavaşlama ve genel piyasa belirsizliği hisse senedi performansını olumsuz etkileyebilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik ve arz riskleri nedeniyle ham petrol fiyatlarında risk primi oluşumu bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik ve arz riskleri nedeniyle ham petrol fiyatlarında risk primi oluşumu bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Ham Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik ve arz riskleri nedeniyle ham petrol fiyatlarında risk primi oluşumu bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Ham Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik ve arz riskleri nedeniyle ham petrol fiyatlarında risk primi oluşumu bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimleri ve genel siyasi belirsizlik, güvenli liman varlıklarına talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimleri ve genel siyasi belirsizlik, güvenli liman varlıklarına talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimleri ve genel siyasi belirsizlik, güvenli liman varlıklarına talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Spot Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimleri ve genel siyasi belirsizlik, güvenli liman varlıklarına talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "XAGUSD",
+        "isim": "Spot Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimleri ve genel siyasi belirsizlik, güvenli liman varlıklarına talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GBPUSD",
+        "isim": "Sterlin/Dolar",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "Dolar/Yen",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları/Dolar",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları/Dolar",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "USDCAD",
+        "isim": "Dolar/Kanada Doları",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "USDCHF",
+        "isim": "Dolar/İsviçre Frangı",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, döviz piyasaları üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "ABD ara seçimleri siyasi belirsizlik yaratırken, dolar üzerindeki net yön henüz belirtilmemiştir. Volatilite artabilir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-02T18:01:20.262092+00:00"
+  },
+  {
+    "id": "gold-bouncing-off-1-yr-lows-ahead-of-us-mid-terms",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Gold Bouncing Off 1-yr Lows Ahead of US Midterms",
+    "title_tr": "Altın, ABD Ara Seçimleri Öncesi 1 Yıllık Düşük Seviyelerden Toparlanıyor",
+    "content_en": "Gold Hits 1-Year LowsGold prices are seeing better bidding action today with the futures market in the green after plunging to fresh one-year lows on Friday. The slide in prices at the end of last week comes amidst the recent surge in energy prices and hotter US in...",
+    "content_tr": "Altın 1 Yıllık Düşük Seviyelere Geriledi. Cuma günü bir yıllık yeni düşük seviyelere düşen altın fiyatları, bugün vadeli piyasada daha iyi bir alım hareketiyle yeşil bölgede seyrediyor. Geçen hafta sonundaki fiyat düşüşü, enerji fiyatlarındaki son artış ve ABD'deki daha yüksek enflasyon/faiz oranları beklentileri ortamında yaşandı.",
+    "url": "https://www.tickmill.com/blog/gold-bouncing-off-1-yr-lows-ahead-of-us-mid-terms",
+    "published_at": "Mon, 02 Nov 2026 10:46:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951507+00:00",
+    "translation_hash": "",
+    "yorum": "Altın, ABD ara seçimleri öncesinde bir yıllık düşük seviyelerden toparlanma eğiliminde. Ancak, enerji fiyatlarındaki artış ve ABD'deki enflasyon endişeleri, uzun vadeli yönü üzerinde baskı oluşturmaya devam edebilir. Kısa vadeli toparlanma, piyasada bir miktar rahatlama yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Cuma günü 1 yıllık düşük seviyelere gerilemesinin ardından bugün vadeli piyasada toparlanma ve alım hareketi görüyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'enerji fiyatlarındaki son artış' olarak belirtilmiştir, bu da ham petrol fiyatlarının yükseldiğini gösterir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-02T18:01:43.062371+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-21126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 2/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 2/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 2/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 2/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7440/7400AYLIK DİRENÇ ARALIĞI 7960 DESTEK 7663HAFTALIK BOĞA AYI...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-21126",
+    "published_at": "Mon, 02 Nov 2026 08:26:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951535+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için günlük hareket alanları ve fiyat hedefleri sunmaktadır. Belirtilen aylık boğa/ayı bölgeleri, direnç ve destek seviyeleri, piyasanın kısa vadeli teknik görünümünü belirlemede önemli referans noktaları sağlamaktadır. Bu seviyeler, yatırımcıların potansiyel alım/satım noktalarını ve risk yönetimini planlamalarına yardımcı olabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgeleri (7440/7400), direnç (7960) ve destek (7663) seviyeleri belirleyerek teknik bir çerçeve sunmaktadır. Doğrudan bir yön tahmini yerine, potansiyel hareket alanlarını ve hedefleri tanımlamaktadır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, nakit US500 eşdeğer seviyeleri için ES1! (E-mini S&P 500 Vadeli İşlemleri) seviyelerini referans almaktadır. ES ile aynı teknik seviyeleri ve hareket alanlarını paylaştığı için yönü NÖTR olarak değerlendirilmiştir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-02T18:02:11.152119+00:00"
+  },
+  {
+    "id": "dollar-sliding-at-start-of-busy-week",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Sliding At Start of Busy Week",
+    "title_tr": "Yoğun Haftanın Başında Dolar Kayıyor",
+    "content_en": "US Midterms This WeekThe US Dollar is down sharply through early European trading on Monday as traders brace for a busy week in the markets. The US midterms tomorrow, RBA rate decision, Eurozone CPI, BOE rate decision and the US NFP release will all take place this...",
+    "content_tr": "ABD Ara Seçimleri Bu Hafta. Pazartesi günü erken Avrupa işlemlerinde ABD Doları keskin bir düşüş yaşadı, zira yatırımcılar piyasalarda yoğun bir haftaya hazırlanıyor. Yarınki ABD ara seçimleri, RBA faiz kararı, Euro Bölgesi TÜFE, BOE faiz kararı ve ABD tarım dışı istihdam (NFP) verisi bu hafta gerçekleşecek...",
+    "url": "https://www.tickmill.com/blog/dollar-sliding-at-start-of-busy-week",
+    "published_at": "Mon, 02 Nov 2026 09:40:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951555+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD Doları'nın yoğun bir ekonomik veri ve olay takvimi öncesinde keskin bir düşüş yaşadığını belirtiyor. Bu durum, dolar üzerinde kısa vadede aşağı yönlü baskının devam edebileceğine ve piyasalarda yüksek oynaklığın beklendiğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Euro'yu destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GBPUSD",
+        "isim": "Sterlin / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Sterlin'i destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Avustralya Doları'nı destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Yeni Zelanda Doları'nı destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları / İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Euro'yu destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Japon Yeni'ni destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Sterlin'i destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Avustralya Doları'nı destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, Kanada Doları'nı destekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın yoğun hafta öncesi keskin düşüşü, İsviçre Frangı'nı destekliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-02T18:02:29.622965+00:00"
+  },
+  {
+    "id": "institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs 'RISK APPETITE, POSITIONING ASYMMETRY & AI FINANCING REALITY",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs 'RİSK İŞTAHI, POZİSYONLAMA ASİMETRİSİ & YAPAY ZEKA FİNANSMAN GERÇEKLİĞİ'",
+    "content_en": "GOLDMAN SACHS STRATEGY & FLOW BRIEFING: RISK APPETITE CRASH, POSITIONING ASYMMETRY & AI FINANCING REALITYTHE TAKE: LARGEST RISK APPETITE DROP SINCE 2021 LEAVES WIDE TAIL-RISK BANDOctober recorded the largest collapse in global risk appetite since November 2...",
+    "content_tr": "GOLDMAN SACHS STRATEJİ VE AKIŞ BRİFİNGİ: RİSK İŞTAHI ÇÖKÜŞÜ, POZİSYONLAMA ASİMETRİSİ VE YAPAY ZEKA FİNANSMAN GERÇEKLİĞİ. ÖZET: 2021'DEN BU YANA EN BÜYÜK RİSK İŞTAHI DÜŞÜŞÜ GENİŞ BİR KUYRUK RİSKİ BANDI BIRAKIYOR. Ekim ayında küresel risk iştahında 2 Kasım'dan bu yana en büyük çöküş kaydedildi...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality",
+    "published_at": "Mon, 02 Nov 2026 13:50:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951579+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, küresel risk iştahında 2021'den bu yana en büyük düşüşü vurgulayarak piyasalarda riskten kaçınma eğiliminin arttığını belirtiyor. Bu durum, riskli varlıklarda düşüşe, güvenli liman varlıklarında ise yükselişe işaret edebilir. Genel piyasa görünümü olumsuz.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki çöküş, hisse senedi endeksleri üzerinde baskı yaratır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki çöküş, hisse senedi endeksleri üzerinde baskı yaratır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek beta teknoloji hisselerinin yoğun olduğu endeks, riskten kaçınma dönemlerinde daha fazla düşüş yaşar.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek beta teknoloji hisselerinin yoğun olduğu endeks, riskten kaçınma dönemlerinde daha fazla düşüş yaşar.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küçük sermayeli şirketler, ekonomik belirsizlik ve riskten kaçınma dönemlerinde daha hassastır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki düşüş, hisse senedi endeksleri üzerinde baskı yaratır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki düşüş, ekonomik büyüme ve enerji talebi endişelerini artırarak petrol fiyatlarını düşürür.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Micro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki düşüş, ekonomik büyüme ve enerji talebi endişelerini artırarak petrol fiyatlarını düşürür.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel riskten kaçınma eğilimi ve endüstriyel talep beklentilerindeki düşüş doğal gazı olumsuz etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahındaki çöküş, yatırımcıları güvenli liman varlığı olan altına yönlendirir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Micro Altın",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahındaki çöküş, yatırımcıları güvenli liman varlığı olan altına yönlendirir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Altın gibi güvenli liman özelliği taşısa da endüstriyel talebe daha duyarlı olduğu için yükselişi daha ılımlı olabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Endüstriyel bir metal olarak küresel ekonomik büyüme endişelerinden olumsuz etkilenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "AŞAĞI",
+        "gerekce": "Hem endüstriyel hem de değerli metal olmasına rağmen, riskten kaçınma ortamında endüstriyel talep düşüşü ağır basabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama beklentileri ve riskten kaçınma, tarım emtiaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama beklentileri ve riskten kaçınma, tarım emtiaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama beklentileri ve riskten kaçınma, tarım emtiaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama beklentileri ve riskten kaçınma, tarım emtiaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama beklentileri ve riskten kaçınma, tarım emtiaları üzerinde baskı yaratabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri (EUR/USD)",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçınma dönemlerinde ABD Doları güvenli liman olarak güçlenirken, Euro zayıflar.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri (JPY/USD)",
+        "yon": "YUKARI",
+        "gerekce": "Japon Yeni, küresel riskten kaçınma dönemlerinde geleneksel bir güvenli liman para birimidir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri (GBP/USD)",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçınma dönemlerinde ABD Doları güçlenirken, İngiliz Sterlini zayıflar.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri (AUD/USD)",
+        "yon": "AŞAĞI",
+        "gerekce": "Avustralya Doları, emtia fiyatlarına ve küresel risk iştahına duyarlı bir para birimidir, riskten kaçınma onu zayıflatır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri (CAD/USD)",
+        "yon": "AŞAĞI",
+        "gerekce": "Kanada Doları, petrol fiyatlarına ve küresel risk iştahına duyarlı bir para birimidir, riskten kaçınma onu zayıflatır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri (CHF/USD)",
+        "yon": "YUKARI",
+        "gerekce": "İsviçre Frangı, küresel riskten kaçınma dönemlerinde geleneksel bir güvenli liman para birimidir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-02T18:02:57.365791+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-2-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 2, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 2 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 2, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Tech Stabilises As Oil Relief Lifts Risk AppetiteGlobal risk assets opened the week on a firmer footing as a sharp retreat in crude prices and...",
+    "content_tr": "Günlük Piyasa Görünümü, 2 Kasım 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mesajı - Petroldeki Rahatlama Risk İştahını Artırırken Teknoloji İstikrara Kavuştu\nKüresel risk varlıkları, ham petrol fiyatlarındaki keskin bir geri çekilme ile haftaya daha güçlü bir başlangıç yaptı ve...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-2-2026",
+    "published_at": "Mon, 02 Nov 2026 09:06:00 +0000",
+    "fetched_at": "2026-11-02T18:00:43.951662+00:00",
+    "translation_hash": "",
+    "yorum": "Petrol fiyatlarındaki düşüş, küresel risk iştahını artırarak piyasalara olumlu bir hava katmıştır. Teknoloji sektöründeki istikrar da bu yükselişi desteklemektedir. Bu durum, hisse senedi piyasalarında genel bir güçlenmeye işaret etmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji sektöründe istikrar gözlemlenirken, artan risk iştahı endeksi desteklemektedir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Ham petrol fiyatlarında keskin bir geri çekilme yaşanmıştır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Petrol fiyatlarındaki düşüşün risk iştahını artırması ve küresel risk varlıklarının daha güçlü bir başlangıç yapması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-02T18:03:14.690519+00:00"
+  }
+]
