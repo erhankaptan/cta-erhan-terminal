@@ -1,0 +1,179 @@
+[
+  {
+    "id": "institutional-insights-goldman-sachs-sp500-flows-positioning-update-31126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs SP500 Flows & Positioning Update 3/11/26",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs SP500 Akışları ve Konumlandırma Güncellemesi 11/03/26",
+    "content_en": "THE GOLDMAN TAKE: ASYMMETRIC 1-MONTH CTA TAILS & THE NOVEMBER BUYBACK LIQUIDITY RAMPGoldman Sachs positioning and execution metrics show a market characterized by extreme systematic convexity and the onset of structural corporate bid support. While projected sy...",
+    "content_tr": "GOLDMAN'IN YORUMU: ASİMETRİK 1 AYLIK CTA KUYRUKLARI VE KASIM AYI GERİ ALIM LİKİDİTE ARTIŞI. Goldman Sachs'ın konumlandırma ve işlem metrikleri, piyasanın aşırı sistematik konveksite ve yapısal kurumsal alım desteğinin başlangıcı ile karakterize edildiğini gösteriyor. Projeksiyonlara göre...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-sp500-flows-positioning-update-31126",
+    "published_at": "Tue, 03 Nov 2026 09:18:00 +0000",
+    "fetched_at": "2026-11-03T15:57:34.051450+00:00",
+    "translation_hash": "",
+    "yorum": "Goldman Sachs'ın analizi, piyasada kurumsal geri alımların yarattığı yapısal alım desteğinin başladığını ve likidite artışını işaret ediyor. Bu durum, özellikle Kasım ayında hisse senedi piyasaları için yukarı yönlü bir ivme potansiyeli sunuyor. Aşırı sistematik konveksite ise kısa vadeli oynaklık risklerini beraberinde getirebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Goldman Sachs, SP500'de kurumsal geri alımların ve yapısal alım desteğinin likiditeyi artırarak piyasayı desteklediğini belirtiyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-03T15:57:44.110490+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-3-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 3, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 3 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 3, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Chip Rout Pushes Nasdaq Into Correction As Split RBA HikesGlobal risk assets retreated sharply on Tuesday as an accelerating liquidation acros...",
+    "content_tr": "Günlük Piyasa Görünümü, 3 Kasım 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mesajı - Çip Çöküşü Nasdaq'ı Düzeltmeye İtti, RBA Bölünmüş Şekilde Faiz Artırdı. Küresel risk varlıkları Salı günü hızlanan bir tasfiye ile keskin bir şekilde geri çekildi...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-3-2026",
+    "published_at": "Tue, 03 Nov 2026 09:08:00 +0000",
+    "fetched_at": "2026-11-03T15:57:34.051510+00:00",
+    "translation_hash": "",
+    "yorum": "Çip sektöründeki düşüş ve Avustralya Merkez Bankası'nın (RBA) faiz artırımı, küresel risk varlıklarında keskin bir geri çekilmeye neden oldu. Özellikle Nasdaq'ın düzeltme bölgesine girmesiyle piyasalarda olumsuz bir hava hakim.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Çip sektöründeki düşüş nedeniyle düzeltme bölgesine girdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıklarındaki keskin geri çekilmeden etkilendi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıklarındaki keskin geri çekilmeden etkilendi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk varlıklarındaki keskin geri çekilmeden etkilendi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-03T15:57:56.497101+00:00"
+  },
+  {
+    "id": "aussie-tanks-on-divided-rba-hike",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Aussie Tanks On Divided RBA Hike",
+    "title_tr": "Avustralya Doları, Bölünmüş RBA Faiz Artışı Sonrası Çakıldı",
+    "content_en": "Post-Hike Sell-OffThe Aussie Dollar is seeing heavy selling today on the back of the November RBA rate decision overnight. The bank hiked rates, as expected, lifting the headline cash rate to 2.85% from 2.6% prior. However, the move was well signalled and well expe...",
+    "content_tr": "Faiz Artışı Sonrası Satış Dalgası: Avustralya Doları, dün geceki Kasım RBA faiz kararı sonrası bugün yoğun satış görüyor. Banka, beklendiği gibi faizleri artırarak ana nakit faiz oranını önceki %2,6'dan %2,85'e yükseltti. Ancak bu hareket iyi sinyal verilmiş ve iyi beklenmişti...",
+    "url": "https://www.tickmill.com/blog/aussie-tanks-on-divided-rba-hike",
+    "published_at": "Tue, 03 Nov 2026 09:43:00 +0000",
+    "fetched_at": "2026-11-03T15:57:34.051530+00:00",
+    "translation_hash": "",
+    "yorum": "Avustralya Merkez Bankası'nın (RBA) faiz artırımına rağmen Avustralya Doları'nın değer kaybetmesi, piyasanın bu artırımı zaten fiyatladığını veya gelecekteki ekonomik görünümle ilgili endişeleri yansıttığını göstermektedir. Bu durum, \"söylentiyi al, haberi sat\" prensibine uygun bir tepki olarak yorumlanabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "RBA faiz artırımına rağmen yoğun satış baskısı altında kalması.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-03T15:58:07.818557+00:00"
+  },
+  {
+    "id": "bitcoin-plunging-as-etf-outflows-soar",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Bitcoin Plunging As ETF Outflows Soar",
+    "title_tr": "ETF Çıkışları Artarken Bitcoin Düşüşte",
+    "content_en": "BTC PlungingBitcoin prices remain heavily weaker at the start of November after BTC futures posted their weakest October returns in 12 years. ‘UPtober’ has it has been named among crypto fans, failed to materialise this year as AI funding fears, a crash in risk ass...",
+    "content_tr": "Kasım ayının başında Bitcoin fiyatları oldukça zayıf seyretmeye devam ediyor. BTC vadeli işlemleri, son 12 yılın en zayıf Ekim getirilerini kaydetti. Kripto hayranları arasında 'UPtober' olarak adlandırılan bu dönem, yapay zeka finansmanı korkuları ve riskli varlıklardaki çöküş nedeniyle bu yıl gerçekleşemedi...",
+    "url": "https://www.tickmill.com/blog/bitcoin-plunging-as-etf-outflows-soar",
+    "published_at": "Tue, 03 Nov 2026 10:47:00 +0000",
+    "fetched_at": "2026-11-03T15:57:34.051544+00:00",
+    "translation_hash": "",
+    "yorum": "Bitcoin, Ekim ayında 12 yılın en kötü performansını sergileyerek Kasım'a zayıf başladı. Yapay zeka finansmanı endişeleri ve riskli varlıklardaki genel düşüş, kripto piyasasında olumsuz bir hava yaratıyor. Bu durum, yatırımcıların riskli varlıklardan uzaklaşma eğiliminde olduğunu gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "AŞAĞI",
+        "gerekce": "Ekim ayında 12 yılın en zayıf getirilerini kaydederek düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'riskli varlıklardaki çöküş' ve genel riskten kaçış eğilimi nedeniyle.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'riskli varlıklardaki çöküş' ve genel riskten kaçış eğilimi nedeniyle.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-03T15:58:24.146965+00:00"
+  },
+  {
+    "id": "volatile-crude-moves-amidst-conflicting-usiran-headlines",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Volatile Crude Moves Amidst Conflicting US/Iran Headlines",
+    "title_tr": "Çelişkili ABD/İran Haberleri Ortasında Volatil Ham Petrol Hareketleri",
+    "content_en": "Fresh US/Iran AttacksIt’s been a choppy start to the week for oil markets and the action looks to only just be getting started. Crude futures plunged heavily lower yesterday midst reports of progress in US/Iran talks. However, reports of fresh attacks from the US o...",
+    "content_tr": "Yeni ABD/İran Saldırıları. Petrol piyasaları için haftaya dalgalı bir başlangıç oldu ve hareketlilik daha yeni başlıyor gibi görünüyor. Ham petrol vadeli işlemleri dün ABD/İran görüşmelerinde ilerleme raporları ortasında sert bir düşüş yaşadı. Ancak, ABD'den gelen yeni saldırı raporları...",
+    "url": "https://www.tickmill.com/blog/volatile-crude-moves-amidst-conflicting-usiran-headlines",
+    "published_at": "Tue, 03 Nov 2026 10:04:00 +0000",
+    "fetched_at": "2026-11-03T15:57:34.051556+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ve İran arasındaki çelişkili haberler, petrol piyasalarında yüksek volatiliteye neden oluyor. Görüşmelerdeki ilerleme beklentisi düşüşe yol açarken, yeni saldırı haberleri fiyatları tekrar etkileyebilir. Bu durum, ham petrol fiyatlarında belirsizliğin ve dalgalanmaların süreceğini gösteriyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "ABD/İran görüşmelerindeki ilerleme haberleriyle düşüş yaşanırken, yeni saldırı raporları fiyatları tekrar etkileyebilir, bu da yüksek volatilite ve belirsizlik yaratıyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "ABD/İran görüşmelerindeki ilerleme haberleriyle düşüş yaşanırken, yeni saldırı raporları fiyatları tekrar etkileyebilir, bu da yüksek volatilite ve belirsizlik yaratıyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-03T15:58:37.563648+00:00"
+  }
+]
