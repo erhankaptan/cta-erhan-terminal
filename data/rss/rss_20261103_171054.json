@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ftse-slips-as-falling-oil-and-us-midterm-jitters-weigh-on-risk",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Slips as Falling Oil and U.S. Midterm Jitters Weigh on Risk",
+    "title_tr": "FTSE, Düşen Petrol ve ABD Ara Seçim Endişeleriyle Risk İştahını Baskıladı",
+    "content_en": "FTSE Slips as Falling Oil and U.S. Midterm Jitters Weigh on RiskLondon's benchmark FTSE 100 drifted lower on Tuesday as global markets adopted a defensive posture ahead of the U.S. midterm elections. A sharp decline in crude oil prices—triggered by remarks fro...",
+    "content_tr": "FTSE, Düşen Petrol ve ABD Ara Seçim Endişeleriyle Risk İştahını Baskıladı. Londra'nın gösterge endeksi FTSE 100, ABD ara seçimleri öncesinde küresel piyasaların defansif bir duruş sergilemesiyle Salı günü geriledi. Ham petrol fiyatlarındaki keskin düşüş—'dan gelen açıklamalarla tetiklendi...",
+    "url": "https://www.tickmill.com/blog/ftse-slips-as-falling-oil-and-us-midterm-jitters-weigh-on-risk",
+    "published_at": "Tue, 03 Nov 2026 16:57:00 +0000",
+    "fetched_at": "2026-11-03T17:10:54.071511+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD ara seçimleri öncesi siyasi belirsizlik ve düşen petrol fiyatlarının küresel piyasalarda risk iştahını azalttığını belirtiyor. Bu durum, hisse senedi piyasalarında düşüşe ve yatırımcıların daha defansif pozisyonlar almasına neden olabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD ara seçim endişeleri ve düşen petrol fiyatları nedeniyle geriledi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "'dan gelen açıklamalarla tetiklenen keskin düşüş yaşadı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-03T17:11:08.174524+00:00"
+  }
+]
