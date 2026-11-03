@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sp500-daily-action-areas-price-targets-31126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 3/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 3/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 3/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 3/11/26. Bu seviyeler, nakit US500 eşdeğeri için ES1! (Z vadeli sözleşme seviyeleri) baz alınarak verilmiştir; fark puanını çıkarmanız gerekmektedir. Aylık, haftalık ve günlük seviyeler şunlardır: Aylık Boğa/Ayı Bölgesi 7440/7400. Aylık Aralık Direnci 7960, Desteği 7663. Haftalık Boğa/Ayı...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-31126",
+    "published_at": "Tue, 03 Nov 2026 08:15:00 +0000",
+    "fetched_at": "2026-11-03T07:42:29.388906+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 (ES) için Mart 2026'ya yönelik önemli fiyat seviyeleri ve hareket alanları sunmaktadır. Belirtilen yüksek seviyeler (7400-7960), endeks için güçlü bir yükseliş beklentisine işaret etmektedir. Bu durum, önümüzdeki dönemde ekonomik büyüme ve şirket karlarında artış öngörüldüğünü düşündürmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makale, Mart 2026 için 7400-7960 aralığında yüksek direnç ve destek seviyeleri belirleyerek güçlü bir yükseliş potansiyeli öngörmektedir.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-03T07:42:41.501109+00:00"
+  },
+  {
+    "id": "eurusd-h1-falling-toward-key-support-3rd-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURUSD H1 | Falling toward key support",
+    "title_tr": "EURUSD H1 | Ana desteğe doğru düşüş",
+    "content_en": "Title: EURUSD H1 | Falling toward key support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.1158, an overlap support. A bounce from this level could lead the price toward the 1st resistance at 1.1200, a pullback resistance. Alternativ...",
+    "content_tr": "Başlık: EURUSD H1 | Ana desteğe doğru düşüş Tip: Boğa sıçraması Tercih: Fiyat, 1.1158'deki pivot noktasına, bir çakışma desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1.1200'deki ilk dirence, bir geri çekilme direncine doğru taşıyabilir. Alternatif...",
+    "url": "https://www.tickmill.com/blog/eurusd-h1-falling-toward-key-support-3rd-november-2026",
+    "published_at": "Tue, 03 Nov 2026 12:34:00 +0000",
+    "fetched_at": "2026-11-03T07:42:29.388934+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, EURUSD'nin önemli bir destek seviyesine (1.1158) yaklaştığını ve bu seviyeden yukarı yönlü bir sıçrama beklediğini belirtiyor. Bu durum, paritede kısa vadeli bir toparlanma potansiyeline işaret etmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın ana destek seviyesinden (1.1158) yukarı yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-03T07:42:50.725677+00:00"
+  },
+  {
+    "id": "usdchf-h4-strong-resistance-ahead-3rd-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USDCHF H4 | Strong resistance ahead",
+    "title_tr": "USDCHF H4 | Güçlü direnç ileride",
+    "content_en": "Title: USDCHF H4 | Strong resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 0.8203, an overlap resistance. A reversal from this level could lead the price toward the 1st support at 0.8148, a pullback support that aligns wit...",
+    "content_tr": "Başlık: USDCHF H4 | Güçlü direnç ileride Tür: Ayı piyasası dönüşü Tercih: Fiyat, 0.8203'teki pivot noktasına, bir çakışma direncine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı 0.8148'deki ilk desteğe, yani bir geri çekilme desteğine doğru yönlendirebilir ve bu destek 61.8% Fibonacci geri çekilmesiyle uyumludur.",
+    "url": "https://www.tickmill.com/blog/usdchf-h4-strong-resistance-ahead-3rd-november-2026",
+    "published_at": "Tue, 03 Nov 2026 12:45:00 +0000",
+    "fetched_at": "2026-11-03T07:42:29.388954+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinde 0.8203 seviyesinde güçlü bir dirençle karşılaşılacağını ve buradan bir ayı piyasası dönüşü beklendiğini belirtiyor. Bu durum, İsviçre Frangı karşısında ABD Doları'nda potansiyel bir zayıflığa işaret ediyor. Yatırımcılar, direnç seviyesi civarında satış fırsatları arayabilirler.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "Amerikan Doları / İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 0.8203'teki güçlü dirençten geri dönerek 0.8148'deki desteğe doğru düşmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-03T07:43:01.007343+00:00"
+  },
+  {
+    "id": "usousd-h4-potential-bullish-recovery-3rd-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USOUSD H4 | Potential bullish recovery",
+    "title_tr": "USOUSD H4 | Potansiyel boğa toparlanması",
+    "content_en": "Title: USOUSD H4 | Potential bullish recovery Type: Bullish bounce Preference: The price is falling toward the pivot at 95.47, a pullback support that aligns with the 61.8% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resistan...",
+    "content_tr": "Başlık: USOUSD H4 | Potansiyel boğa toparlanması Tür: Boğa sıçraması Tercih: Fiyat, %61.8 Fibonacci geri çekilmesiyle uyumlu olan 95.47 seviyesindeki pivot, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. dirence doğru taşıyabilir.",
+    "url": "https://www.tickmill.com/blog/usousd-h4-potential-bullish-recovery-3rd-november-2026",
+    "published_at": "Tue, 03 Nov 2026 12:47:00 +0000",
+    "fetched_at": "2026-11-03T07:42:29.388975+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, USOUSD'de (Petrol) potansiyel bir boğa toparlanmasına işaret ediyor. Bu durum, enerji piyasalarında olumlu bir hava yaratabilir ve küresel enflasyon beklentilerini etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 95.47 seviyesindeki pivot ve %61.8 Fibonacci desteğinden toparlanarak yukarı yönlü bir sıçrama yapması bekleniyor.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-11-03T07:43:10.303493+00:00"
+  },
+  {
+    "id": "gbpcad-h4-could-we-see-a-reversal-from-here-3rd-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPCAD H4 | Could we see a reversal from here",
+    "title_tr": "GBPCAD H4 | Buradan bir geri dönüş görebilir miyiz?",
+    "content_en": "Title: GBPCAD H4 | Could we see a reversal from here? Type: Bearish reversal Preference: The price is rising toward the pivot at 1.8762, a pullback resistance that aligns with the 61.8% Fibonacci retracement. A reversal from this level could lead the price toward t...",
+    "content_tr": "Fiyat, 1.8762 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviye, %61.8 Fibonacci geri çekilmesiyle uyumlu bir geri çekilme direncidir. Bu seviyeden olası bir düşüş eğilimli geri dönüş, fiyatı aşağı yönlü hareket ettirebilir.",
+    "url": "https://www.tickmill.com/blog/gbpcad-h4-could-we-see-a-reversal-from-here-3rd-november-2026",
+    "published_at": "Tue, 03 Nov 2026 12:50:00 +0000",
+    "fetched_at": "2026-11-03T07:42:29.388999+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, GBPCAD paritesinde potansiyel bir düşüş eğilimli geri dönüşe işaret ediyor. Belirtilen direnç seviyesinden bir geri çekilme gerçekleşirse, paritede kısa vadeli bir düşüş beklenebilir. Bu durum, İngiliz Sterlini'nin Kanada Doları karşısında değer kaybetmesi anlamına gelir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPCAD",
+        "isim": "İngiliz Sterlini / Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, %61.8 Fibonacci geri çekilmesiyle uyumlu 1.8762 pivot direncine yaklaşıyor ve buradan düşüş eğilimli bir geri dönüş bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-03T07:43:19.013966+00:00"
+  }
+]
