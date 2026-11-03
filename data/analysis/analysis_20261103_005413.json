@@ -1,0 +1,59 @@
+[
+  {
+    "tweet_id": "2101961300158955955",
+    "username": "JuanJesusMontoy",
+    "text": "INFORME SEMANAL JJ. MONTOYA. + 🧠 MORNING NOTE DE 21 SEPTIEMBRE – SPX: recupera el Volatility Trigger y vuelve a poner los 7.800 en el radar. https://jjmontoya.substack.com/p/morning-note-de-18-septiembre-spx?r=3q4ztp&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true ⚡ TL;DR El SPX cerró la última sesión en 7.651 puntos (+0,2%), mientras la volatilidad continuó relajándose. El VIX cayó un 4%, hasta la zona de 14, el VVIX terminó en 87 (-0,4%) y las volatilidades implícitas a strike fijo descendieron entre 1 y 3 puntos adicionales. Esta mañana el tono mejora todavía más: el SPX avanza alrededor de un 0,60%, hasta 7.690, recuperando el Volatility Trigger de 7.675. Al mismo tiempo, el WTI cae hasta 98 dólares y la rentabilidad del Treasury a 10 años retrocede hasta el 4,96%. 👉 La combinación es constructiva: SPX por encima del VT, petróleo a la baja, yields relajándose y volatilidad comprimida. Mientras 7.675 aguante, la siguiente zona relevante se sitúa en 7.700 y, posteriormente, en la Call Wall de 7.800.",
+    "images": [],
+    "analyzed_at": "2026-11-03T00:53:26.524474+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2101934279185867161",
+    "username": "JuanJesusMontoy",
+    "text": "RT by @JuanJesusMontoy: Disponible también en Spotify: https://open.spotify.com/episode/33ktc0VoWDPJTZRB5JdrAo?si=U5FkO-7qSNuKJWwgWpgRHg&utm_source=copy-link",
+    "images": [],
+    "analyzed_at": "2026-11-03T00:53:38.101499+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2117334069130195445",
+    "username": "JuanJesusMontoy",
+    "text": "🧠 MORNING NOTE 2 DE NOVIEMBRE – SPX: rebote hacia los 7.650, pero la gamma negativa mantiene el riesgo de movimientos bruscos. https://jjmontoya.substack.com/p/morning-note-2-de-noviembre-spx-rebote?r=3q4ztp&utm_campaign=post-expanded-share&utm_medium=web ⚡ TL;DR El SPX comienza la semana con una subida del 0,40%, hasta los 7.610 puntos, recuperando parte de las pérdidas del viernes. El VIX retrocede un 3,3%, hasta la zona de 19, mientras que el petróleo WTI cae un 3,17%, hasta aproximadamente 100 dólares por barril. La combinación de renta variable al alza, volatilidad a la baja y petróleo retrocediendo proporciona cierto alivio al mercado. Sin embargo, las volatilidades implícitas del SPX a strikes fijos están repuntando ligeramente en los vencimientos más cortos, hasta el viernes 6 de noviembre, mientras que los plazos más largos presentan pequeños descensos. Esta divergencia sugiere que los operadores siguen incorporando una prima de riesgo ante los acontecimientos inmediatos, aunque no estamos observando un encarecimiento generalizado de la volatilidad en toda la curva. En el mapa de gamma, los niveles más importantes son 7.550 como primer soporte, 7.500 como Put Wall y 7.650 como Volatility Trigger. 👉 Mi lectura: el rebote es positivo, pero seguimos en un entorno de gamma negativa. Mientras el SPX no recupere los 7.650 y posteriormente los 7.700, mantendría cierta cautela, porque los movimientos pueden amplificarse rápidamente en ambas direcciones.",
+    "images": [
+      "http://nitter.meowing.monster/pic/media%2FHWG8XzLWYAAB6bd.jpg"
+    ],
+    "analyzed_at": "2026-11-03T00:53:50.984575+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2117331427914076297",
+    "username": "JuanJesusMontoy",
+    "text": "La volatilidad implícita a strikes fijos está subiendo en toda la curva de vencimientos. Al mediodía, el repunte se limitaba a las opciones que vencen esta semana, y ahora también se extiende a los plazos más largos, lo que sugiere que el mercado de opciones está descontando mayores movimientos y más incertidumbre. Podríamos ver una compresión de volatilidad una vez pasados los catalizadores, pero, por ahora, si los rebotes del SPX siguen acompañados de una subida de la volatilidad implícita, habría que tomarlos con cautela….",
+    "images": [],
+    "analyzed_at": "2026-11-03T00:54:02.579139+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  },
+  {
+    "tweet_id": "2117328516723380323",
+    "username": "JuanJesusMontoy",
+    "text": "El SPX se encuentra en gamma negativa por debajo de los 7700 puntos aproximadamente, con grandes posiciones de puts vendidas por los dealers en los strikes 7600, 7550 y 7500. Una ruptura fuerte de los 7500 puntos podría acelerar las caídas, ya que los ajustes de cobertura de los dealers podrían generar fuertes ventas de futuros y amplificar el movimiento bajista.",
+    "images": [],
+    "analyzed_at": "2026-11-03T00:54:13.763502+00:00",
+    "varliklar": [],
+    "genel_yon": "NÖTR",
+    "ozet": "",
+    "confidence": 0.0
+  }
+]
