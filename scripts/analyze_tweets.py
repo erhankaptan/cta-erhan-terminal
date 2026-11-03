@@ -1,15 +1,15 @@
 """
-CTA ERHAN TERMİNALİ — Gemini Analiz v9 (google-genai) — Fast & Timeout Safe
+CTA ERHAN TERMİNALİ — Gemini Analiz v9.5 (Batch API Entegrasyonlu)
 =============================================================================
-Yeni SDK: google-genai
+Yeni SDK: google-genai (Batch API ile %50 Maliyet Tasarrufu)
 Wayne Enterprise CTA Panosu Değerlendirme Entegrasyonlu
-Zaman aşımı ve takılma korumaları optimize edildi.
 """
 
 import os
 import json
 import time
 import re
+import base64
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -18,12 +18,12 @@ from google import genai
 from google.genai import types
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-MODEL_NAME = "gemini-2.5-flash"
-REQUEST_DELAY = 1.5  # Bekleme süresi düşürüldü
+MODEL_NAME = "gemini-2.5-flash"  # Veya projede kullandığın model
 
 DATA_DIR = Path("data")
 TWEETS_DIR = DATA_DIR / "tweets"
 ANALYSIS_DIR = DATA_DIR / "analysis"
+STATE_DIR = DATA_DIR / "state"  # Veya mevcut state dosyası konumu
 STATE_FILE = DATA_DIR / "analysis_state.json"
 
 PRIORITY_ACCOUNTS = ["wayneterprises", "JuanJesusMontoy", "misterpuertas"]
@@ -63,17 +63,16 @@ def load_tweets(filepath):
         return json.load(f)
 
 
-def download_image(url: str):
-    """Hızlı görsel indirme (Maksimum 4 saniye timeout)."""
+def download_image_as_base64(url: str):
+    """Görseli indirir ve Batch API için Base64 formatına çevirir."""
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         response = requests.get(url, timeout=4, headers=headers, allow_redirects=True)
         if response.status_code == 200:
             ct = response.headers.get("Content-Type", "").lower()
             if "image" in ct and "html" not in ct:
-                return response.content, ct
-            else:
-                return None, None
+                encoded = base64.b64encode(response.content).decode("utf-8")
+                return encoded, ct
     except Exception as e:
         print(f"    [IMG] Atlandı (Timeout/Hata): {e}")
     return None, None
@@ -104,28 +103,7 @@ WAYNE ENTERPRISE CTA PANOSU DEĞERLENDİRME VE AKIŞ KURALLARI (KESİN UYULACAK)
 - Tweet kısa olsa bile, ima etse bile, dolaylı konuşsa bile varlık çıkar.
 - Hashtag (#gold, #SPX, #BTC) ve kısaltma ($ES, $GC, $SPX) varsa mutlaka yakala.
 - Tweet'te şirket adı geçiyorsa (Nvidia, Tesla, Apple) → hisse sembolü olarak al (NVDA, TSLA, AAPL).
-- Tweet İspanyolca/İngilizce/Türkçe olabilir, hepsini işle.
-- Tweet "FED faiz kararı" diyorsa → DXY, US10Y, XAUUSD çıkar.
-- Tweet "Çin ekonomisi" diyorsa → HG, ES, SPX500 çıkar.
-- Tweet "petrol" diyorsa → CL, MCL, USOUSD çıkar.
-- GÖRSEL: Varsa tablo/grafik oku. Wayne Enterprise tablosundaki her satırı (ürünü/emtiayı) ayrı ayrı çıkar ve yukarıdaki kurallara göre değerlendir.
-
-VARLIK LİSTESİ:
-VADELİ:
-- Endeks: ES, MES, NQ, MNQ, RTY, YM
-- Emtia: CL, MCL, NG, GC, MGC, SI, HG, PL
-- Tahıl: ZC, ZS, ZW, ZL, ZM
-- Döviz: 6E, 6J, 6B, 6A, 6C, 6S
-
-SPOT / İZLEME DIŞI:
-- Değerli: XAUUSD, XAGUSD
-- Forex: EURUSD, GBPUSD, USDJPY, AUDUSD, NZDUSD, USDCAD, USDCHF
-- Kripto: BTCUSD, ETHUSD, SOL
-- Endeks: SPX500, NAS100, GER40, UK100, JP225, DXY, VIX
-- Petrol: USOUSD, UKOIL
-- Tahvil: US10Y
-- Hisse: NVDA, TSLA, AAPL, MSFT, AMZN, GOOGL, META
-- HK: 700 HK, 9988 HK, 1299 HK, 1810 HK, HSTECH, HSI
+- Varlık listesinden uygun olanları kesinlikle eşleştir.
 
 Tweet metni:
 {text}
@@ -158,52 +136,12 @@ KURALLAR:
 Şimdi analiz et:"""
 
 
-def analyze_with_gemini(text: str, username: str, image_urls: list, client):
-    prompt = PROMPT.format(text=(text or "")[:1500], username=username)
-
-    contents = [prompt]
-    for img_url in image_urls[:2]:  # En fazla 2 görsel
-        img_bytes, mime_type = download_image(img_url)
-        if img_bytes:
-            contents.append(
-                types.Part.from_bytes(data=img_bytes, mime_type=mime_type or "image/jpeg")
-            )
-
-    try:
-        # Chat oturumu üzerinden gönderiyoruz
-        chat = client.chats.create(
-            model=MODEL_NAME,
-            config=types.GenerateContentConfig(
-                temperature=0.2,
-                max_output_tokens=2048,
-            )
-        )
-        
-        response = chat.send_message(contents)
-        raw = (response.text or "").strip()
-
-        # Markdown blok işaretlerini temizle (örn: ```json ... ```)
-        if raw.startswith("```"):
-            parts = raw.split("```")
-            if len(parts) >= 2:
-                raw = parts[1]
-                if raw.startswith("json"):
-                    raw = raw[4:]
-        raw = raw.strip()
-
-        # Süslü parantez dışındaki fazlalıkları ayıkla
-        if not raw.startswith("{"):
-            m = re.search(r'\{.*\}', raw, re.DOTALL)
-            if m:
-                raw = m.group(0)
-
-        # JSON olarak parse et ve sözlük olarak döndür
-        return json.loads(raw)
-
-    except Exception as e:
-        print(f"    [HATA DETAYI]: {e}")
-        return {"varliklar": [], "hata": str(e)}
-
+def parse_gemini_json(raw: str) -> dict:
+    """Gemini çıktısındaki JSON'ı güvenli şekilde temizler ve parse eder."""
+    if not raw:
+        return {"varliklar": [], "ozet": "Boş yanıt"}
+    
+    raw = raw.strip()
     if raw.startswith("```"):
         parts = raw.split("```")
         if len(parts) >= 2:
@@ -219,34 +157,19 @@ def analyze_with_gemini(text: str, username: str, image_urls: list, client):
 
     try:
         return json.loads(raw)
-    except json.JSONDecodeError:
+    except Exception:
         pass
 
-    cleaned = re.sub(r',\s*([}\]])', r'\1', raw)
     try:
+        cleaned = re.sub(r',\s*([}\]])', r'\1', raw)
         return json.loads(cleaned)
-    except json.JSONDecodeError:
-        pass
-
-    return None
-
-
-def analyze_with_retry(text, username, images, client, max_retries=1):
-    """Maksimum 1 retry ile hızlı geçiş."""
-    for attempt in range(max_retries):
-        try:
-            result = analyze_with_gemini(text, username, images, client)
-            if result is not None:
-                return result
-        except Exception as e:
-            print(f"    [RETRY] {type(e).__name__}: {str(e)[:80]}")
-            time.sleep(1)
-    return None
+    except Exception:
+        return {"varliklar": [], "ozet": "JSON parse edilemedi", "raw": raw[:200]}
 
 
 def main():
     print("=" * 60)
-    print("Gemini Analiz v9 (google-genai) — Fast & Timeout Safe")
+    print("CTA Erhan Terminali — Gemini Batch Analiz v9.5")
     print(f"Zaman: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
 
@@ -285,72 +208,163 @@ def main():
 
     new_tweets = [t for t in unique_tweets if str(t.get("id")) not in analyzed_ids]
     
-    # KİLİTLENMEYİ ÖNLEMEK İÇİN BATCH SINIRI (Maksimum son 10 yeni tweet)
-    if len(new_tweets) > 10:
-        print(f"[INFO] Toplam {len(new_tweets)} yeni tweet var, en son 10 tanesi işlenecek.")
-        new_tweets = new_tweets[-10:]
+    # Güvenlik sınırı (Maksimum son 15 yeni tweet)
+    if len(new_tweets) > 15:
+        print(f"[INFO] Toplam {len(new_tweets)} yeni tweet var, en son 15 tanesi işlenecek.")
+        new_tweets = new_tweets[-15:]
 
-    print(f"[INFO] İşlenecek taze tweet sayısı: {len(new_tweets)}")
+    print(f"[INFO] İşlenecek taze tweet sayısı (Batch kuyruğuna eklenecek): {len(new_tweets)}")
 
     if not new_tweets:
         print("[DONE] İşlenecek yeni tweet yok")
         return
 
-    results = []
-    success = 0
-    failed = 0
-    total_assets = 0
+    # 1. BATCH İSTEKLERİNİ JSONL FORMATINDA HAZIRLA
+    jsonl_lines = []
+    tweet_map = {} # custom_id eşleştirmesi için
 
-    for i, tweet in enumerate(new_tweets, 1):
+    for tweet in new_tweets:
         tweet_id = str(tweet.get("id", ""))
         username = tweet.get("username", "")
         text = tweet.get("text", "")
         images = tweet.get("images", [])
 
-        print(f"\n[{i}/{len(new_tweets)}] @{username} — {text[:50]}...")
+        tweet_map[tweet_id] = tweet
 
-        analysis = analyze_with_retry(text, username, images, client)
+        prompt = PROMPT.format(text=(text or "")[:1500], username=username)
+        parts = [{"text": prompt}]
 
-        if analysis:
-            varliklar = analysis.get("varliklar", [])
-            result = {
-                "tweet_id": tweet_id,
-                "username": username,
-                "text": text,
-                "images": images,
-                "analyzed_at": datetime.now(timezone.utc).isoformat(),
-                "varliklar": varliklar,
-                "genel_yon": analysis.get("genel_yon", "NÖTR"),
-                "ozet": analysis.get("ozet", ""),
-                "confidence": analysis.get("confidence", 0.0),
+        # Görselleri ekle (varsa)
+        for img_url in images[:2]:
+            img_base64, mime_type = download_image_as_base64(img_url)
+            if img_base64:
+                parts.append({
+                    "inline_data": {
+                        "mime_type": mime_type or "image/jpeg",
+                        "data": img_base64
+                    }
+                })
+
+        # Batch API İstek Yapısı
+        request_obj = {
+            "custom_id": tweet_id,
+            "request": {
+                "contents": [
+                    {
+                        "role": "user",
+                        "parts": parts
+                    }
+                ],
+                "generation_config": {
+                    "temperature": 0.2,
+                    "max_output_tokens": 2048
+                }
             }
-            results.append(result)
-            analyzed_ids.add(tweet_id)
-            success += 1
-            total_assets += len(varliklar)
-            print(f"    [OK] {len(varliklar)} varlık çıkarıldı")
-        else:
-            failed += 1
-            print(f"    [FAIL] Atlandı")
+        }
+        jsonl_lines.append(json.dumps(request_obj))
 
-        if i < len(new_tweets):
-            time.sleep(REQUEST_DELAY)
+    # JSONL dosyasını yerel olarak yaz
+    batch_file_path = "batch_requests.jsonl"
+    with open(batch_file_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(jsonl_lines) + "\n")
 
-    if results:
-        timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-        output_file = ANALYSIS_DIR / f"analysis_{timestamp}.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-        print(f"\n[SAVE] {output_file.name}")
+    try:
+        # 2. DOSYAYI GEMINI'YE YÜKLE (%50 İndirim Başlangıcı)
+        print(">>> Batch istek dosyası Google'a yükleniyor...")
+        uploaded_file = client.files.upload(
+            file=batch_file_path,
+            config={'mime_type': 'jsonl'}
+        )
 
-    state["analyzed_ids"] = list(analyzed_ids)
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
+        # 3. BATCH JOB BAŞLAT
+        batch_job = client.batches.create(
+            model=MODEL_NAME,
+            src=uploaded_file.file_name,
+            config={'display_name': 'cta_tweets_batch_job'}
+        )
+        print(f">>> Batch Job başarıyla başlatıldı! Job ID: {batch_job.name}")
 
-    print(f"\n{'=' * 60}")
-    print(f"Başarılı: {success}, Başarısız: {failed}")
-    print(f"Toplam varlık çıkarıldı: {total_assets}")
-    print(f"{'=' * 60}")
+        # 4. TAMAMLANMASINI BEKLE (3 saatlik döngü için güvenli döngü)
+        print(">>> Batch işleme alındı, sonuçlar bekleniyor...")
+        while True:
+            job_status = client.batches.get(name=batch_job.name)
+            state_name = job_status.state.name
+            print(f"    Durum: {state_name}")
+
+            if state_name in ['JOB_STATE_SUCCEEDED', 'JOB_STATE_FAILED', 'JOB_STATE_CANCELLED']:
+                break
+            time.sleep(20)  # 20 saniyede bir kontrol et
+
+        if job_status.state.name != 'JOB_STATE_SUCCEEDED':
+            print(f"[FATAL] Batch Job başarısız oldu veya iptal edildi: {job_status.state.name}")
+            return
+
+        # 5. SONUÇLARI İNDİR VE İŞLE
+        print(">>> Batch sonuçları indiriliyor...")
+        result_bytes = client.files.download(file=job_status.dest.file.name)
+        result_lines = result_bytes.decode('utf-8').splitlines()
+
+        results = []
+        success = 0
+        failed = 0
+        total_assets = 0
+
+        for line in result_lines:
+            if not line.strip():
+                continue
+            res_json = json.loads(line)
+            custom_id = res_json.get("custom_id")
+            
+            # Yanıt metnini güvenli al
+            response_candidate = res_json.get("response", {}).get("candidates", [{}])[0]
+            raw_text = ""
+            for part in response_candidate.get("content", {}).get("parts", []):
+                if "text" in part:
+                    raw_text += part["text"]
+
+            tweet = tweet_map.get(custom_id, {})
+            analysis = parse_gemini_json(raw_text)
+
+            if analysis and "varliklar" in analysis:
+                varliklar = analysis.get("varliklar", [])
+                result = {
+                    "tweet_id": custom_id,
+                    "username": tweet.get("username", ""),
+                    "text": tweet.get("text", ""),
+                    "images": tweet.get("images", []),
+                    "analyzed_at": datetime.now(timezone.utc).isoformat(),
+                    "varliklar": varliklar,
+                    "genel_yon": analysis.get("genel_yon", "NÖTR"),
+                    "ozet": analysis.get("ozet", ""),
+                    "confidence": analysis.get("confidence", 0.0),
+                }
+                results.append(result)
+                analyzed_ids.add(custom_id)
+                success += 1
+                total_assets += len(varliklar)
+            else:
+                failed += 1
+
+        # Sonuçları dosyaya kaydet
+        if results:
+            timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+            output_file = ANALYSIS_DIR / f"analysis_{timestamp}.json"
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
+            print(f"\n[SAVE] Sonuçlar kaydedildi: {output_file.name}")
+
+        # State güncelle
+        state["analyzed_ids"] = list(analyzed_ids)
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+
+        print(f"\n{'=' * 60}")
+        print(f"Batch İşlem Tamamlandı — Başarılı: {success}, Başarısız: {failed}")
+        print(f"Toplam çıkarılan varlık: {total_assets}")
+        print(f"{'=' * 60}")
+
+    except Exception as e:
+        print(f"[HATA] Batch çalıştırma sırasında hata oluştu: {e}")
 
 
 if __name__ == "__main__":
