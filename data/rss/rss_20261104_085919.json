@@ -60,13 +60,102 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, November 4, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 4 Kasım 2026",
     "content_en": "recent equity correction has particularly exposed the technology sector, puttingDaily Market Outlook, November 4, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Democrat Sweep Tests Tech, Dollar And Fiscal TradesA decisive ...",
-    "content_tr": "",
+    "content_tr": "Son dönemdeki hisse senedi düzeltmesi, teknoloji sektörünü özellikle açığa çıkardı. Demokratların olası bir zaferi, teknoloji, dolar ve mali işlemleri test ediyor.",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-november-4-2026",
     "published_at": "Wed, 04 Nov 2026 09:14:00 +0000",
     "fetched_at": "2026-11-04T08:59:19.395248+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, son hisse senedi düzeltmesinin teknoloji sektörünü olumsuz etkilediğini ve Demokratların olası bir zaferinin teknoloji, dolar ve mali piyasalar üzerinde baskı yaratabileceğini belirtiyor. Bu durum, piyasalarda belirsizliğe ve aşağı yönlü bir eğilime işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi düzeltmesi ve Demokratların zaferinin teknoloji sektörünü test etmesi nedeniyle olumsuz etki bekleniyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mini Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi düzeltmesi ve Demokratların zaferinin teknoloji sektörünü test etmesi nedeniyle olumsuz etki bekleniyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi düzeltmesi ve teknoloji sektöründeki zayıflığın piyasayı aşağı çekmesi bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mini S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi düzeltmesi ve teknoloji sektöründeki zayıflığın piyasayı aşağı çekmesi bekleniyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi düzeltmesi ve piyasadaki olumsuz havanın küçük sermayeli şirketleri etkilemesi bekleniyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi düzeltmesi ve piyasadaki olumsuz havanın endeksi etkilemesi bekleniyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve EUR/USD paritesini yukarı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve JPY/USD paritesini (veya USD/JPY'nin tersini) yukarı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve GBP/USD paritesini yukarı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve AUD/USD paritesini yukarı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve CAD/USD paritesini (veya USD/CAD'in tersini) yukarı çekebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Demokratların zaferinin doları test etmesi, dolar üzerinde baskı yaratabilir ve CHF/USD paritesini (veya USD/CHF'nin tersini) yukarı çekebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-04T17:05:17.941823+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-41126",

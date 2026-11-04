@@ -1,0 +1,235 @@
+[
+  {
+    "id": "ftse-surges-over-2-as-us-midterm-results-softening-yields-and-mining-rally-ignite-broad-buying",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Surges Over 2% as U.S. Midterm Results, Softening Yields, and Mining Rally Ignite Broad Buying",
+    "title_tr": "FTSE, ABD Ara Seçim Sonuçları, Yumuşayan Getiriler ve Madencilik Rallisiyle %2'nin Üzerinde Yükselerek Geniş Çaplı Alımları Tetikledi",
+    "content_en": "FTSE Surges Over 2% as U.S. Midterm Results, Softening Yields, and Mining Rally Ignite Broad BuyingLondon’s benchmark FTSE 100 rallied sharply on Wednesday, surging alongside broader European markets following the dramatic outcome of the U.S. midterm elections. Aft...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, ABD ara seçimlerinin dramatik sonucunun ardından Çarşamba günü Avrupa piyasalarıyla birlikte keskin bir yükseliş gösterdi. Endeks, yumuşayan tahvil getirileri ve madencilik sektöründeki ralliyle desteklenerek %2'nin üzerinde değer kazandı ve geniş çaplı alımları tetikledi.",
+    "url": "https://www.tickmill.com/blog/ftse-surges-over-2-as-us-midterm-results-softening-yields-and-mining-rally-ignite-broad-buying",
+    "published_at": "Wed, 04 Nov 2026 17:18:00 +0000",
+    "fetched_at": "2026-11-04T17:04:56.361236+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ara seçim sonuçları, düşen tahvil getirileri ve madencilik sektöründeki güçlü performans, piyasalarda risk iştahını artırarak Avrupa endekslerinde geniş çaplı bir yükselişe neden oldu. Bu durum, yatırımcıların belirsizliklerin azalması ve ekonomik koşulların iyileşmesi beklentisiyle hisse senedi piyasalarına yöneldiğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede FTSE 100'ün %2'nin üzerinde keskin bir yükseliş gösterdiği açıkça belirtilmiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'yumuşayan getiriler' ifadesi, tahvil getirilerinin düştüğünü ima etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Madencilik sektöründeki ralli, ilgili emtialara olan talebin veya fiyat beklentilerinin arttığına işaret etmektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Madencilik sektöründeki ralli, ilgili emtialara olan talebin veya fiyat beklentilerinin arttığına işaret etmektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Madencilik sektöründeki ralli, ilgili emtialara olan talebin veya fiyat beklentilerinin arttığına işaret etmektedir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "Madencilik sektöründeki ralli, ilgili emtialara olan talebin veya fiyat beklentilerinin arttığına işaret etmektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-04T17:05:41.187079+00:00"
+  },
+  {
+    "id": "institutional-insights-jpmorgan-all-about-midterms",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: JPMorgan 'All About MidTerms'",
+    "title_tr": "Kurumsal Bakış Açıları: JPMorgan 'Ara Seçimler Hakkında Her Şey'",
+    "content_en": "MACRO, MIDTERMS & GLOBAL STRATEGY BRIEFING: \"BLUE TSUNAMI\" CLEARING EVENT & TECH WHIPSAWTHE JPM TAKE: BLUE WAVE CLEARING EVENT LIFTS ASIA & NDX FUTURES OFF LOWSThe US midterm elections culminated in a decisive \"Blue Tsunami,\" with De...",
+    "content_tr": "MAKRO, ARA SEÇİMLER VE KÜRESEL STRATEJİ BRİFİNGİ: \"MAVİ TSUNAMİ\" TEMİZLEME OLAYI VE TEKNOLOJİDEKİ SERT DALGALANMALAR. JPM YORUMU: MAVİ DALGA TEMİZLEME OLAYI ASYA VE NDX VADELİ İŞLEMLERİNİ DÜŞÜK SEVİYELERDEN YUKARI TAŞIYOR. ABD ara seçimleri, De...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-jpmorgan-all-about-midterms",
+    "published_at": "Wed, 04 Nov 2026 11:16:00 +0000",
+    "fetched_at": "2026-11-04T17:04:56.361255+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ara seçimlerinin net bir \"Mavi Tsunami\" ile sonuçlanması, piyasalardaki belirsizliği azaltarak bir rahatlama rallisine yol açmıştır. Özellikle teknoloji ağırlıklı endeksler ve Asya piyasaları bu durumdan olumlu etkilenerek düşük seviyelerden toparlanma göstermiştir. Bu durum, kısa vadede risk iştahını artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimlerindeki 'Mavi Dalga' sonucunun belirsizliği gidermesi ve Nasdaq vadeli işlemlerini düşük seviyelerden yukarı taşıması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçimlerindeki 'Mavi Dalga' sonucunun belirsizliği gidermesi ve Nasdaq vadeli işlemlerini düşük seviyelerden yukarı taşıması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-04T17:05:53.895614+00:00"
+  },
+  {
+    "id": "eurusd-rebounding-following-midterms",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURUSD Rebounding Following Midterms",
+    "title_tr": "Ara Seçimlerin Ardından EURUSD Toparlanıyor",
+    "content_en": "Weak USD Boost EUREURUSD is rising firmly today, benefiting from the US Dollar weakness we’ve seen amidst the US midterms fallout, and bullish eurozone inflation data today. On the US front, the Democratic sweep has hit the US Dollar hard, and the greenback has roo...",
+    "content_tr": "Zayıf USD, EUR'yu Destekliyor. EURUSD bugün, ABD ara seçimlerinin ardından görülen Dolar zayıflığından ve Euro Bölgesi'nden gelen güçlü enflasyon verilerinden faydalanarak güçlü bir yükseliş sergiliyor. ABD cephesinde, Demokratların zaferi ABD Doları'nı sert vurdu ve yeşil para birimi...",
+    "url": "https://www.tickmill.com/blog/eurusd-rebounding-following-midterms",
+    "published_at": "Wed, 04 Nov 2026 10:29:00 +0000",
+    "fetched_at": "2026-11-04T17:04:56.361306+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ara seçim sonuçları ve Euro Bölgesi enflasyon verileri, Dolar'da zayıflığa yol açarak EURUSD paritesini yukarı taşıdı. Bu durum, küresel piyasalarda Dolar bazlı varlıklarda bir miktar rahatlama ve Euro Bölgesi'ne yönelik iyimserliği artırabilir. Ancak Dolar'daki zayıflığın kalıcılığı, Fed'in gelecekteki para politikası adımlarına bağlı olacaktır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları zayıflığı ve Euro Bölgesi'ndeki güçlü enflasyon verileri nedeniyle yükseliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD ara seçim sonuçları ve Demokratların zaferi Dolar'ı zayıflattı.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-04T17:06:05.114287+00:00"
+  },
+  {
+    "id": "gold-spikes-higher-on-usd-drop",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Gold Spikes Higher on USD Drop",
+    "title_tr": "Altın, USD Düşüşüyle Yükselişe Geçti",
+    "content_en": "Gold Spikes on WednesdayGold prices are sharply higher today on the back of the USD weakness we’ve seen from the US midterms outcome. The so-called ‘Blue Tsunami’ (Democrats have control of both houses) has hit USD today with stocks and commodities rallying accordi...",
+    "content_tr": "Çarşamba günü Altın Yükselişe Geçti. ABD ara seçim sonuçlarının ardından gördüğümüz USD zayıflığıyla altın fiyatları bugün keskin bir şekilde yükseldi. 'Mavi Tsunami' olarak adlandırılan durum (Demokratların her iki mecliste de kontrolü ele geçirmesi) bugün USD'yi vurdu ve hisse senetleri ile emtialar buna paralel olarak yükselişe geçti...",
+    "url": "https://www.tickmill.com/blog/gold-spikes-higher-on-usd-drop",
+    "published_at": "Wed, 04 Nov 2026 09:54:00 +0000",
+    "fetched_at": "2026-11-04T17:04:56.361349+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ara seçim sonuçlarının dolar üzerinde yarattığı zayıflık, altın ve diğer emtiaların yükselişini tetiklemiştir. Demokratların meclislerde kontrolü ele geçirmesi piyasalarda risk iştahını artırmış görünmektedir. Bu durum, doların kısa vadede baskı altında kalabileceğine işaret ediyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD ara seçim sonuçları sonrası USD zayıflığıyla keskin bir yükseliş gösterdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD ara seçim sonuçlarının yarattığı 'Mavi Tsunami' etkisiyle zayıfladı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD zayıflığı ve genel piyasa risk iştahının artmasıyla yükselişe geçti.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Genel emtia piyasası yükselişine paralel olarak USD zayıflığından destek buldu.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-04T17:06:18.550230+00:00"
+  },
+  {
+    "id": "dollar-plunges-on-us-midterms-blue-tsunami",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Plunges On US Midterms 'Blue Tsunami'",
+    "title_tr": "Dolar, ABD Ara Seçimlerindeki 'Mavi Tsunami' Nedeniyle Çakıldı",
+    "content_en": "Dollar Down MidweekThe US Dollar is down firmly today after the US midterms delivered a stunning victory for the Democrats who took both houses. For once it seems opinion polls were on the money, having signalled such an outcome was expected, but we’ve seen a visce...",
+    "content_tr": "Dolar Hafta Ortasında Düşüşte. ABD doları, ABD ara seçimlerinde her iki meclisi de ele geçiren Demokratların şaşırtıcı zaferinin ardından bugün güçlü bir düşüş yaşadı. Görünüşe göre kamuoyu yoklamaları bu kez doğru çıktı ve böyle bir sonucun beklendiğini işaret etti, ancak biz bir...",
+    "url": "https://www.tickmill.com/blog/dollar-plunges-on-us-midterms-blue-tsunami",
+    "published_at": "Wed, 04 Nov 2026 09:35:00 +0000",
+    "fetched_at": "2026-11-04T17:04:56.361364+00:00",
+    "translation_hash": "",
+    "yorum": "Demokratların ABD ara seçimlerinde zafer kazanması dolar üzerinde güçlü bir baskı yarattı. Bu durum, doların küresel piyasalarda değer kaybetmesine ve diğer para birimleri ile emtiaların dolar karşısında güçlenmesine neden olabilir. Piyasalarda belirsizliğin azalması risk iştahını artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD dolarının ara seçim sonuçları nedeniyle değer kaybetmesi, Euro'yu dolar karşısında güçlendirir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD dolarının ara seçim sonuçları nedeniyle değer kaybetmesi, Japon Yeni'ni dolar karşısında güçlendirir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD dolarının ara seçim sonuçları nedeniyle değer kaybetmesi, İngiliz Sterlini'ni dolar karşısında güçlendirir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Doların değer kaybetmesi, dolar cinsinden fiyatlanan altın için alım gücünü artırarak fiyatları yukarı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Doların zayıflaması, dolar cinsinden fiyatlanan petrolün diğer para birimleri için daha ucuz hale gelmesini sağlayarak talebi artırabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-04T17:06:34.359386+00:00"
+  }
+]
