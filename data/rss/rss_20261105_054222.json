@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nzdusd-h1-bullish-bounce-in-play-5th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "NZDUSD H1 | Bullish bounce in play",
+    "title_tr": "NZDUSD H1 | Yükseliş eğilimli sıçrama devrede",
+    "content_en": "Title: NZDUSD H1 | Bullish bounce in play Type: Bullish bounce Preference: The price has bounced off the pivot at 0.5628, a pullback support. A rise from this level could lead the price toward the 1st resistance at 0.70, an overlap resistance. Alternative Scenario:...",
+    "content_tr": "Başlık: NZDUSD H1 | Yükseliş eğilimli sıçrama devrede Tip: Yükseliş eğilimli sıçrama Tercih: Fiyat, 0.5628'deki pivot noktasından, bir geri çekilme desteğinden sıçradı. Bu seviyeden bir yükseliş, fiyatı 0.70'deki ilk dirence, bir örtüşme direncine doğru taşıyabilir. Alternatif Senaryo:...",
+    "url": "https://www.tickmill.com/blog/nzdusd-h1-bullish-bounce-in-play-5th-november-2026",
+    "published_at": "Thu, 05 Nov 2026 11:42:00 +0000",
+    "fetched_at": "2026-11-05T05:42:22.965314+00:00",
+    "translation_hash": "",
+    "yorum": "NZDUSD'deki yükseliş eğilimli sıçrama, Yeni Zelanda Doları'nın ABD Doları karşısında güç kazanabileceğine işaret ediyor. Bu durum, risk iştahının arttığı bir piyasa ortamını yansıtabilir ve diğer riskli varlıklar üzerinde de olumlu bir etki yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyat, 0.5628 pivot desteğinden sıçradı ve 0.70 direncine doğru yükseliş bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-05T05:42:30.251778+00:00"
+  },
+  {
+    "id": "eurusd-h1-bullish-momentum-to-continue-5th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURUSD H1 | Bullish momentum to continue",
+    "title_tr": "EURUSD H1 | Yükseliş momentumu devam edecek",
+    "content_en": "Title: EURUSD H1 | Bullish momentum to continue Type: Bullish bounce Preference: The price is falling toward the pivot at 1.1197, a pullback support that aligns with the 78.6% Fibonacci retracement. A bounce from this level could lead the price toward the 1st resis...",
+    "content_tr": "Başlık: EURUSD H1 | Yükseliş momentumu devam edecek Tip: Boğa sıçraması Tercih: Fiyat, %78.6 Fibonacci geri çekilmesiyle uyumlu olan 1.1197'deki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 1. direnç seviyesine doğru taşıyabilir...",
+    "url": "https://www.tickmill.com/blog/eurusd-h1-bullish-momentum-to-continue-5th-november-2026",
+    "published_at": "Thu, 05 Nov 2026 11:29:00 +0000",
+    "fetched_at": "2026-11-05T05:42:22.965342+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, EURUSD paritesinde önemli bir destek seviyesinden yükselişin devam etme potansiyeline işaret ediyor. Bu durum, paritede kısa vadeli alım fırsatları arayan yatırımcılar için olumlu bir sinyal olarak yorumlanabilir. Piyasa, belirtilen destek seviyesinden bir toparlanma bekleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın önemli bir destek seviyesinden (1.1197 pivot, %78.6 Fibonacci) sıçrayarak yükseliş momentumunu sürdürmesi bekleniyor.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-11-05T05:42:39.146675+00:00"
+  },
+  {
+    "id": "gbpusd-h4-fibonacci-confluence-ahead-5th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPUSD H4 | Fibonacci confluence ahead",
+    "title_tr": "GBPUSD H4 | Fibonacci birleşimi yaklaşıyor",
+    "content_en": "Title: GBPUSD H4 | Fibonacci confluence ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 1.3537, a pullback resistance near the 78.6% Fibonacci retracement, 100% Fibonacci projection, and the 127.2% Fibonacci extension. A reversal fr...",
+    "content_tr": "Başlık: GBPUSD H4 | Fibonacci birleşimi yaklaşıyor. Tip: Düşüş yönlü dönüş. Tercih: Fiyat, 1.3537'deki pivot noktasına, %78.6 Fibonacci geri çekilmesi, %100 Fibonacci projeksiyonu ve %127.2 Fibonacci uzatmasının yakınındaki bir geri çekilme direncine doğru yükseliyor. Bir dönüş...",
+    "url": "https://www.tickmill.com/blog/gbpusd-h4-fibonacci-confluence-ahead-5th-november-2026",
+    "published_at": "Thu, 05 Nov 2026 11:35:00 +0000",
+    "fetched_at": "2026-11-05T05:42:22.965361+00:00",
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPUSD paritesinde düşüş yönlü bir dönüş potansiyeline işaret ediyor. Fiyatın önemli bir direnç seviyesine yaklaşmasıyla birlikte, bu seviyeden bir geri çekilme veya düşüş bekleniyor. Yatırımcılar için kısa pozisyon fırsatları doğurabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın önemli Fibonacci direnç seviyelerine yaklaşması ve düşüş yönlü dönüş beklentisi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-05T05:42:49.866758+00:00"
+  },
+  {
+    "id": "xagusd-h4-heading-toward-50-fib-resistance-5th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "XAGUSD H4 | Heading toward 50% Fib resistance",
+    "title_tr": "XAGUSD H4 | %50 Fib direncine doğru ilerliyor",
+    "content_en": "Title: XAGUSD H4 | Heading toward 50% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 54.82, a pullback resistance that aligns with the 50% Fibonacci retracement. A reversal from this level could lead the price toward the 1...",
+    "content_tr": "Başlık: XAGUSD H4 | %50 Fib direncine doğru ilerliyor. Tip: Düşüş yönlü dönüş. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme direnci olan 54.82'deki pivot noktasına doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı 1... seviyesine doğru yönlendirebilir.",
+    "url": "https://www.tickmill.com/blog/xagusd-h4-heading-toward-50-fib-resistance-5th-november-2026",
+    "published_at": "Thu, 05 Nov 2026 11:39:00 +0000",
+    "fetched_at": "2026-11-05T05:42:22.965382+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, gümüşün önemli bir direnç seviyesine yaklaştığını ve buradan düşüş yönlü bir dönüş beklediğini belirtiyor. Bu durum, kısa vadede gümüş piyasasında satış baskısının artabileceğine işaret etmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAGUSD",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, %50 Fibonacci direnci ve pivot seviyesi olan 54.82'ye yükseliyor; bu seviyeden düşüş yönlü bir dönüş bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-11-05T05:43:01.612437+00:00"
+  }
+]
