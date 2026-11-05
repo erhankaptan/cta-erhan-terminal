@@ -1,0 +1,409 @@
+[
+  {
+    "id": "copper-price-struggling-for-direction",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Copper Price Struggling For Direction",
+    "title_tr": "Bakır Fiyatı Yön Bulmakta Zorlanıyor",
+    "content_en": "Copper Congestion ContinuesCopper prices Are caught between conflicting market signals at the moment. On the one hand, the soaring physical demand in China and weakened output from global supply leader Chile are continuing to support prices. However, the recent AI ...",
+    "content_tr": "Bakır Sıkışıklığı Devam Ediyor. Bakır fiyatları şu anda çelişkili piyasa sinyalleri arasında sıkışmış durumda. Bir yandan, Çin'deki artan fiziksel talep ve küresel tedarik lideri Şili'den gelen zayıflamış üretim fiyatları desteklemeye devam ediyor. Ancak, son yapay zeka...",
+    "url": "https://www.tickmill.com/blog/copper-price-struggling-for-direction",
+    "published_at": "Thu, 05 Nov 2026 09:33:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371004+00:00",
+    "translation_hash": "",
+    "yorum": "Bakır fiyatları, Çin'deki güçlü talep ve Şili'deki üretim düşüşü gibi destekleyici faktörlerle, henüz belirtilmeyen yeni bir etken arasında yön arıyor. Bu durum, piyasada belirsizliğe yol açarak fiyatların sıkışık bir bantta hareket etmesine neden olabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "NÖTR",
+        "gerekce": "Çin'deki güçlü talep ve Şili'deki üretim düşüşü fiyatları desteklerken, belirtilmeyen yeni bir faktör belirsizlik yaratıyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-05T14:14:56.636083+00:00"
+  },
+  {
+    "id": "gbp-bulls-need-boe-to-deliver",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBP Bulls Need BOE to Deliver",
+    "title_tr": "GBP Boğaları BOE'nin Beklentileri Karşılamasına İhtiyaç Duyuyor",
+    "content_en": "BOE Hike ExpectedThe British Pound is on watch today as traders brace for the latest BOE rates meeting. The bank is widely expected to hike rates by a further .25% and these hawkish expectations have been a key driver of the upside we’ve seen in GBP off the October...",
+    "content_tr": "BOE Faiz Artırımı Bekleniyor İngiliz Sterlini, yatırımcıların son BOE faiz toplantısına hazırlanmasıyla bugün dikkatle izleniyor. Bankanın %0.25 daha faiz artırması yaygın olarak bekleniyor ve bu şahin beklentiler, Ekim ayından bu yana GBP'de gördüğümüz yükselişin temel itici gücü oldu...",
+    "url": "https://www.tickmill.com/blog/gbp-bulls-need-boe-to-deliver",
+    "published_at": "Thu, 05 Nov 2026 11:00:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371021+00:00",
+    "translation_hash": "",
+    "yorum": "BOE'den beklenen faiz artırımı, İngiliz Sterlini üzerinde yukarı yönlü bir baskı oluşturuyor. Eğer BOE beklentileri karşılarsa, GBP'de yükseliş devam edebilir; aksi takdirde, hayal kırıklığı düşüşe neden olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "YUKARI",
+        "gerekce": "BOE'den beklenen faiz artırımı ve şahin beklentiler GBP'yi destekliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-05T14:15:05.852938+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-5-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 5, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 5 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 5, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Chip Rout Spreads On Midterm AI Curbs As Crude Plunge Eases YieldsGlobal financial markets underwent a violent post-midterm rotation on Thursd...",
+    "content_tr": "Günlük Piyasa Görünümü, 5 Kasım 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mektubu - Yarı Dönem Yapay Zeka Kısıtlamalarıyla Çip Düşüşü Yayılırken Ham Petrol Düşüşü Getirileri Hafifletti. Küresel finans piyasaları Perşembe günü yarı dönem sonrası şiddetli bir rotasyon geçirdi...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-5-2026",
+    "published_at": "Thu, 05 Nov 2026 09:49:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371044+00:00",
+    "translation_hash": "",
+    "yorum": "Yarı dönem sonrası yapay zeka kısıtlamaları çip sektöründe düşüşe neden olurken, ham petrol fiyatlarındaki düşüş tahvil getirilerini hafifletti. Bu durum, teknoloji ve yapay zeka ile ilgili varlıklar üzerinde baskı yaratırken, genel piyasada faiz baskısının azaldığına işaret ediyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı dönem yapay zeka kısıtlamaları ve çip sektöründeki düşüş, teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yarı dönem yapay zeka kısıtlamaları ve çip sektöründeki düşüş, teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji sektöründeki düşüş ve genel piyasadaki şiddetli rotasyon S&P 500 üzerinde baskı yaratıyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel piyasa volatilitesi ve riskten kaçış eğilimi küçük sermayeli şirketleri olumsuz etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Genel piyasa rotasyonu ve volatiliteye rağmen, teknoloji dışı sektörlerin ağırlığı nedeniyle doğrudan olumsuz etki daha sınırlı olabilir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede ham petrol fiyatlarında 'düşüş' yaşandığı açıkça belirtilmiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede ham petrol fiyatlarında 'düşüş' yaşandığı açıkça belirtilmiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Tahvil getirilerinin hafiflemesi, faiz getirisi olmayan altın için destekleyici bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mini Altın",
+        "yon": "YUKARI",
+        "gerekce": "Tahvil getirilerinin hafiflemesi, faiz getirisi olmayan altın için destekleyici bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Altın ile benzer şekilde, tahvil getirilerinin hafiflemesi gümüş için de destekleyici olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "YUKARI",
+        "gerekce": "Tahvil getirilerinin hafiflemesi, dolar üzerinde baskı yaratarak Euro'yu destekleyebilir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-05T14:15:33.097150+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-51126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 5/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 11/05/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 5/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 11/05/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARINIZ*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7440/7400 AYLIK ARALIK DİRENÇ 7960 DESTEK 7663 HAFTALIK BOĞA AYI...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-51126",
+    "published_at": "Thu, 05 Nov 2026 08:32:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371062+00:00",
+    "translation_hash": "",
+    "yorum": "Bu analiz, S&P500 (ES) için aylık boğa/ayı bölgeleri, direnç ve destek gibi önemli teknik seviyeleri sunmaktadır. Belirtilen direnç seviyesi, mevcut destek ve boğa/ayı bölgesinin oldukça üzerinde olup, yukarı yönlü bir hareket potansiyeli veya güçlü bir aralık sinyali vermektedir. Yatırımcılar, olası kırılmalar veya geri dönüşler için bu seviyeleri yakından takip etmelidir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Aylık direnç seviyesi (7960), destek (7663) ve boğa/ayı bölgesinin (7440/7400) üzerinde olup, yukarı yönlü potansiyel işaret etmektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-05T14:15:47.766162+00:00"
+  },
+  {
+    "id": "democrat-sweep-sends-crude-south",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Democrat Sweep Sends Crude South",
+    "title_tr": "Demokratların Zaferi Ham Petrolü Düşüşe Geçirdi",
+    "content_en": "Heavy Oil SellingCrude prices hit their lowest levels in over two months today following a sharp plunge lower in crude futures which fell by more than 10%. The move lower comes amidst rising hopes for easing geopolitical tensions on the back of the Democrat sweep i...",
+    "content_tr": "Bugün ham petrol fiyatları, vadeli işlemlerin %10'dan fazla keskin bir düşüşle gerilemesinin ardından son iki ayın en düşük seviyelerine indi. Bu düşüş, Demokratların zaferinin jeopolitik gerilimleri hafifleteceği yönündeki artan umutların ortasında gerçekleşti.",
+    "url": "https://www.tickmill.com/blog/democrat-sweep-sends-crude-south",
+    "published_at": "Thu, 05 Nov 2026 08:49:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371075+00:00",
+    "translation_hash": "",
+    "yorum": "Demokratların seçim zaferi, jeopolitik gerilimlerin azalacağı beklentisiyle ham petrol piyasasında güçlü bir satış baskısı yarattı. Bu durum, CL ve MCL gibi ham petrol vadeli işlemlerinde %10'un üzerinde düşüşle sonuçlanarak fiyatları son iki ayın en düşük seviyelerine çekti.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Demokratların zaferi ve jeopolitik gerilimlerin azalması beklentisiyle %10'dan fazla düşüş yaşadı.",
+        "skor": 1.0
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mini Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Ham petrol vadeli işlemlerindeki genel düşüş eğiliminden etkilendi.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-05T14:15:58.343277+00:00"
+  },
+  {
+    "id": "institutional-insights-nomura-post-midterm-clearing",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Nomura 'POST-MIDTERM CLEARING'",
+    "title_tr": "Kurumsal İçgörüler: Nomura 'ARA SEÇİM SONRASI TEMİZLİK'",
+    "content_en": "NOMURA CROSS-ASSET STRATEGY BRIEFING: \"USE YOUR WORDS\" — POST-MIDTERM CLEARING & RATES COMPLEXITYTHE TAKE: STANDARD VOL MONETIZATION MEETS \"NARRATIVE MODERATION\"The cross-asset rally across equities and bonds alongside the US Dollar selloff ...",
+    "content_tr": "NOMURA ÇEŞİTLİ VARLIK STRATEJİ BRİFİNGİ: \"KELİMELERİNİZİ KULLANIN\" — ARA SEÇİM SONRASI TEMİZLİK VE FAİZ ORANLARI KARMAŞIKLIĞI. YORUM: STANDART VOLATİLİTE PARA KAZANMA YÖNTEMLERİ \"ANLATIM ILIMLILAŞMASI\" İLE BULUŞUYOR. Hisse senetleri ve tahviller genelinde çapraz varlık rallisi, ABD Doları'ndaki satışlarla birlikte...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-nomura-post-midterm-clearing",
+    "published_at": "Thu, 05 Nov 2026 09:55:00 +0000",
+    "fetched_at": "2026-11-05T14:14:50.371088+00:00",
+    "translation_hash": "",
+    "yorum": "Nomura'nın analizi, ABD ara seçimleri sonrası piyasalarda genel bir risk iştahı artışına ve dolar zayıflığına işaret ediyor. Hisse senetleri ve tahvillerde görülen ralli, yatırımcıların belirsizliğin azalmasıyla daha riskli varlıklara yöneldiğini gösteriyor. Bu durum, piyasalarda kısa vadeli bir rahatlama dönemine işaret edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinde çapraz varlık rallisi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar emtia fiyatlarını destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar emtia fiyatlarını destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar emtia fiyatlarını destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar altın fiyatlarını destekler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar altın fiyatlarını destekler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar gümüş fiyatlarını destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar ve genel risk iştahı bakırı destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar platin fiyatlarını destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar tarım emtialarını destekler.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar tarım emtialarını destekler.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar tarım emtialarını destekler.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar tarım emtialarını destekler.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar tarım emtialarını destekler.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar EUR/USD paritesini yükseltir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar JPY'yi USD karşısında güçlendirir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar GBP/USD paritesini yükseltir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar AUD/USD paritesini yükseltir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar CAD'ı USD karşısında güçlendirir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'ndaki satışlar CHF'yi USD karşısında güçlendirir.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-05T14:16:18.203680+00:00"
+  }
+]
