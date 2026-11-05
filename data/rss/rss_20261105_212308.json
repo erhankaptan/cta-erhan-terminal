@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ftse-reverses-turning-red-as-boe-delivers-hawkish-hike-to-400",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Reverses Turning Red as BoE Delivers Hawkish Hike to 4.00%",
+    "title_tr": "BoE Şahin Faiz Artırımıyla %4.00'e Çıkınca FTSE Kırmızıya Dönerek Geri Çekildi",
+    "content_en": "FTSE Reverses Turning Red as BoE Delivers Hawkish Hike to 4.00%London's benchmark FTSE 100 surrendered an early morning advance to finish in negative territory on Thursday, tracking a sharp afternoon reversal across Wall Street that wiped out yesterday's ...",
+    "content_tr": "BoE'nin şahin bir faiz artırımıyla faizi %4.00'e çıkarmasının ardından FTSE kırmızıya dönerek geri çekildi. Londra'nın gösterge endeksi FTSE 100, Perşembe günü erken saatlerdeki yükselişini öğleden sonra Wall Street'teki keskin bir geri çekilmeyi takip ederek negatif bölgede tamamladı ve dünkü kazançları sildi.",
+    "url": "https://www.tickmill.com/blog/ftse-reverses-turning-red-as-boe-delivers-hawkish-hike-to-400",
+    "published_at": "Thu, 05 Nov 2026 16:54:00 +0000",
+    "fetched_at": "2026-11-05T21:23:08.266462+00:00",
+    "translation_hash": "",
+    "yorum": "BoE'nin şahin faiz artırımı, küresel piyasalardaki genel düşüş eğilimiyle birleşerek hisse senedi piyasaları üzerinde baskı oluşturdu. Bu durum, merkez bankalarının enflasyonla mücadelesinin ekonomik büyümeyi olumsuz etkileyeceği endişelerini artırıyor. Yatırımcılar, sıkılaşan para politikalarının riskli varlıklar üzerindeki etkilerini yakından izlemeye devam edecek.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "UK100",
+        "yon": "AŞAĞI",
+        "gerekce": "BoE'nin şahin faiz artırımı ve Wall Street'teki düşüşü takiben negatif bölgede kapandı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "SPX500",
+        "yon": "AŞAĞI",
+        "gerekce": "Öğleden sonra keskin bir geri çekilme yaşayarak küresel piyasalardaki düşüşe öncülük etti.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "NAS100",
+        "yon": "AŞAĞI",
+        "gerekce": "Wall Street'teki genel düşüş eğilimini yansıttı ve teknoloji hisseleri üzerinde baskı oluştu.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Wall Street'teki keskin geri çekilme, S&P 500 vadeli işlemlerinde düşüşe işaret etti.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Wall Street'teki genel düşüş, teknoloji ağırlıklı Nasdaq 100 vadeli işlemlerini de olumsuz etkiledi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Wall Street'teki genel piyasa geri çekilmesi, Dow Jones vadeli işlemlerinde de düşüşe neden oldu.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-05T21:23:22.560712+00:00"
+  }
+]
