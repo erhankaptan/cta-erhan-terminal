@@ -1,0 +1,229 @@
+[
+  {
+    "id": "dollar-surging-higher-ahead-of-nfp-today",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Surging Higher Ahead of NFP Today",
+    "title_tr": "Dolar, Bugünki Tarım Dışı İstihdam Verileri Öncesinde Yükselişte",
+    "content_en": "USD Rallying on FridayThe US Dollar is bouncing back firmly today with the DXY up almost 1% now off the week’s lows. The fresh surge higher comes amidst the stock market chaos we saw yesterday as equities plunged lower on a fresh AI rout following the US midterms r...",
+    "content_tr": "Cuma günü USD yükselişte. ABD Doları bugün haftanın en düşük seviyelerinden yaklaşık %1 yükselen DXY ile güçlü bir şekilde toparlanıyor. Bu yeni yükseliş, dün hisse senetlerinin ABD ara seçimleri sonrası yeni bir yapay zeka düşüşüyle sert bir şekilde gerilemesiyle gördüğümüz borsa kaosunun ortasında gerçekleşiyor...",
+    "url": "https://www.tickmill.com/blog/dollar-surging-higher-ahead-of-nfp-today",
+    "published_at": "Fri, 06 Nov 2026 10:29:00 +0000",
+    "fetched_at": "2026-11-06T17:50:31.923673+00:00",
+    "translation_hash": "",
+    "yorum": "Dolar, güçlü ekonomik veriler beklentisi ve hisse senedi piyasalarındaki düşüşle güvenli liman talebiyle yükseliyor. Bu durum, özellikle teknoloji hisselerindeki satış baskısının devam etmesiyle risk iştahının azaldığını gösteriyor. Tarım Dışı İstihdam verileri, doların yönünü daha da belirleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede DXY'nin %1 yükseldiği ve doların güçlü bir şekilde toparlandığı açıkça belirtiliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senetlerinin 'sert bir şekilde gerilediği' ve 'borsa kaosunun' yaşandığı belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Yapay zeka düşüşü' (AI rout) özellikle teknoloji ağırlıklı Nasdaq'ı etkileyeceğinden, hisse senetlerindeki genel düşüşe ek olarak belirtilmiştir.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-11-06T17:50:43.855322+00:00"
+  },
+  {
+    "id": "institutional-fx-insights-credit-agricole-fx-61126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional FX Insights: Credit Agricole FX 6/11/26",
+    "title_tr": "Kurumsal FX Analizleri: Credit Agricole FX 6/11/26",
+    "content_en": "MACRO & FX STRATEGY BRIEFING: POST-MIDTERM USD EROSION, AI BOOM FRICTION & FISCAL CLIFFS THE TAKE: THE UNRAVELING OF \"TECH EXCEPTIONALISM\" PIERCES THE USD SAFE-HAVEN SHIELDThe decisive Democratic capture of Congress creates a multi-front structura...",
+    "content_tr": "MAKRO & FX STRATEJİ BRİFİNGİ: ARA SEÇİM SONRASI USD EROZYONU, YAPAY ZEKA PATLAMASI SÜRTÜNMELERİ VE MALİ UÇURUMLAR. ÖZET: \"TEKNOLOJİ İSTİSNALILIĞININ\" ÇÖZÜLMESİ USD'NİN GÜVENLİ LİMAN KALKANINI DELİYOR. Demokratların Kongre'yi kararlı bir şekilde ele geçirmesi, çok cepheli yapısal sorunlar yaratıyor. Makro ve döviz stratejisi brifingi, ara seçimler sonrası ABD Doları'nda (USD) beklenen erozyona, yapay zeka (AI) sektöründeki büyüme sürtünmelerine ve olası mali uçurumlara dikkat çekiyor. Analiz, \"teknoloji istisnalılığı\" kavramının çözülmeye başlamasının, USD'nin geleneksel güvenli liman statüsünü zayıflattığını ve bu kalkanı deldiğini vurguluyor. Bu durum, piyasalarda yeni dinamikler yaratabilir ve yatırımcıların risk algısını değiştirebilir.",
+    "url": "https://www.tickmill.com/blog/institutional-fx-insights-credit-agricole-fx-61126",
+    "published_at": "Fri, 06 Nov 2026 12:01:00 +0000",
+    "fetched_at": "2026-11-06T17:50:31.923694+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD Doları'nın güvenli liman özelliğini kaybetmeye başladığını ve teknoloji sektöründeki sorunların piyasaları olumsuz etkileyeceğini belirtiyor. Bu durum, USD'de değer kaybına ve teknoloji endekslerinde düşüşe yol açabilir. Yatırımcılar, alternatif güvenli limanlara yönelebilir veya riskten kaçınma eğilimi gösterebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin erozyona uğraması ve güvenli liman özelliğini kaybetmesi EUR karşısında değerini yükseltecektir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin zayıflaması, JPY karşısında değer kaybetmesine neden olacaktır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini FX",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin erozyona uğraması ve güvenli liman özelliğini kaybetmesi GBP karşısında değerini yükseltecektir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları FX",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin erozyona uğraması ve güvenli liman özelliğini kaybetmesi AUD karşısında değerini yükseltecektir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları FX",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin zayıflaması, CAD karşısında değer kaybetmesine neden olacaktır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı FX",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin zayıflaması, CHF karşısında değer kaybetmesine neden olacaktır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "\"Teknoloji istisnalılığının çözülmesi\" ve \"yapay zeka patlaması sürtünmeleri\" teknoloji ağırlıklı endeksi olumsuz etkileyecektir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "NQ ile aynı gerekçelerle teknoloji ağırlıklı endeksi olumsuz etkileyecektir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin güvenli liman özelliğini kaybetmesi, yatırımcıları alternatif güvenli limanlara, özellikle altına yönlendirebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "YUKARI",
+        "gerekce": "GC ile aynı gerekçelerle yatırımcıları altına yönlendirebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-06T17:51:06.752057+00:00"
+  },
+  {
+    "id": "institutional-insights-goldman-sachs-regime-shock-factor-drawdown-systematic-de-leveraging",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs 'REGIME SHOCK, FACTOR DRAWDOWN & SYSTEMATIC DE-LEVERAGING'",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs 'REJİM ŞOKU, FAKTÖR GERİ ÇEKİLMESİ & SİSTEMATİK KALDIRAÇ AZALTMASI'",
+    "content_en": "GLOBAL EQUITIES, DERIVATIVES & FLOW BRIEFING: SHOCKING REGIME, FACTOR DOWNTURN & SYSTEMATIC DE-LEVERAGINGDesk Insights: Institutional Equity Sales Trading & Cross-Asset Volatility Strategy Data Snapshot: Bloomberg / Desk Data as of Friday, November 6, 2...",
+    "content_tr": "KÜRESEL HİSSE SENETLERİ, TÜREV ÜRÜNLER & AKIŞ ÖZETİ: ŞOK EDİCİ REJİM, FAKTÖR DÜŞÜŞÜ & SİSTEMATİK KALDIRAÇ AZALTMASI. Masa İçgörüleri: Kurumsal Hisse Senedi Satış Ticareti & Çapraz Varlık Volatilite Stratejisi Veri Anlık Görüntüsü: Bloomberg / Masa Verileri, 6 Kasım Cuma, 2...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-regime-shock-factor-drawdown-systematic-de-leveraging",
+    "published_at": "Fri, 06 Nov 2026 14:11:00 +0000",
+    "fetched_at": "2026-11-06T17:50:31.923719+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, küresel piyasalarda bir 'rejim şoku', 'faktör geri çekilmesi' ve 'sistematik kaldıraç azaltması' yaşandığına dikkat çekiyor. Bu durum, hisse senetleri ve riskli varlıklar üzerinde aşağı yönlü baskı oluşturarak piyasalarda artan volatilite ve belirsizliğe işaret etmektedir. Yatırımcıların riskten kaçınma eğilimine girmesi beklenir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinde 'rejim şoku', 'faktör düşüşü' ve 'sistematik kaldıraç azaltması' beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinde 'rejim şoku', 'faktör düşüşü' ve 'sistematik kaldıraç azaltması' beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinde 'rejim şoku', 'faktör düşüşü' ve 'sistematik kaldıraç azaltması' beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinde 'rejim şoku', 'faktör düşüşü' ve 'sistematik kaldıraç azaltması' beklentisi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "'Rejim şoku' ve 'çapraz varlık volatilite stratejisi' ifadeleri piyasada artan volatiliteye işaret ediyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T17:51:22.973151+00:00"
+  },
+  {
+    "id": "gbpusd-strong-usd-outshines-boe-rate-hike",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPUSD: Strong USD Outshines BOE Rate Hike",
+    "title_tr": "GBPUSD: Güçlü USD, BOE Faiz Artışını Gölgede Bıraktı",
+    "content_en": "BOE Hikes AgainGBPUSD is lower today following the November BOE meeting yesterday, though this is more a function of the current strength we’re seeing in USD on the back of yesterday’s stock market wipeout. Indeed, the BOE meeting as firmly hawkish with the bank hi...",
+    "content_tr": "İngiltere Merkez Bankası (BOE) yeniden faiz artırdı. GBPUSD, dünkü Kasım BOE toplantısının ardından bugün düşüşte, ancak bu daha çok dünkü borsa çöküşünün ardından ABD Doları'nda (USD) gördüğümüz mevcut gücün bir işlevi. Gerçekten de, BOE toplantısı bankanın kesinlikle şahin bir duruş sergilediğini gösterdi...",
+    "url": "https://www.tickmill.com/blog/gbpusd-strong-usd-outshines-boe-rate-hike",
+    "published_at": "Fri, 06 Nov 2026 10:09:00 +0000",
+    "fetched_at": "2026-11-06T17:50:31.923741+00:00",
+    "translation_hash": "",
+    "yorum": "İngiltere Merkez Bankası'nın faiz artırımına rağmen, küresel piyasalardaki riskten kaçış ve borsa düşüşleri nedeniyle ABD Doları'nın güçlenmesi GBPUSD paritesini aşağı çekti. Bu durum, şahin merkez bankası politikalarının bile güçlü dolar karşısında etkisiz kalabileceğini gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "BOE faiz artırımına rağmen güçlü USD ve borsa çöküşü nedeniyle düşüşte.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Dünkü borsa çöküşü sonrası riskten kaçışla güçlendiği belirtiliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'borsa çöküşü' genel piyasa düşüşünü işaret ediyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T17:51:35.468656+00:00"
+  }
+]
