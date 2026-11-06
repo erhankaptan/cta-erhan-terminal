@@ -1,0 +1,435 @@
+[
+  {
+    "id": "usdchf-h4-strong-resistance-ahead-6th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USDCHF H4 | Strong resistance ahead",
+    "title_tr": "USDCHF H4 | Güçlü direnç ileride",
+    "content_en": "Title: USDCHF H4 | Strong resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 0.8203, an overlap resistance. A reversal from this level could lead the price toward the 1st support at 0.8122, a pullback support that aligns wit...",
+    "content_tr": "Tip: Ayı piyasası dönüşü. Tercih: Fiyat, 0.8203'teki pivot noktasına, bir çakışma direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı 0.8122'deki ilk desteğe, geri çekilme desteğine doğru yönlendirebilir...",
+    "url": "https://www.tickmill.com/blog/usdchf-h4-strong-resistance-ahead-6th-november-2026",
+    "published_at": "Fri, 06 Nov 2026 12:35:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358061+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, USDCHF paritesinde ayı piyasası dönüşü bekliyor. Bu durum, ABD Doları'nın İsviçre Frangı karşısında zayıflayabileceğine işaret ediyor. Direnç seviyesinin tutması halinde kısa pozisyonlar değerlendirilebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USDCHF",
+        "isim": "Amerikan Doları / İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın güçlü dirençten dönerek düşüşe geçmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T10:31:18.255146+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-6-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 6, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 6 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 6, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Tech Rout Triggers Asian Circuit BreakersGlobal financial markets were gripped by a violent liquidation across semiconductors and AI adjacenci...",
+    "content_tr": "Küresel finans piyasaları, yarı iletkenler ve yapay zeka ile ilgili sektörlerde şiddetli bir tasfiye ile sarsıldı ve özellikle Tayvan ve Güney Kore'deki Asya piyasalarında devre kesicileri tetikledi. Teknoloji düşüşü, ABD Hazine tahvil getirilerinin yükselmesiyle (US10Y %5.25'e ulaştı) ve daha güçlü bir dolarla (DXY 107.50'nin üzerinde) şiddetlendi. Bu kombinasyon, riskten kaçış ortamı yaratarak yatırımcıları güvenli liman varlıklarına yöneltti. Altın (XAUUSD) önemli girişler gördü, 2000$/ons üzerine çıktı, gümüş (XAGUSD) de yükseldi. Ham petrol (USOUSD, UKOIL) fiyatları, potansiyel küresel ekonomik yavaşlamadan kaynaklanan talep endişeleriyle keskin bir düşüş yaşadı. SPX500, NAS100, GER40 ve UK100 gibi hisse senedi endekslerinin daha düşük açılması bekleniyor. Kripto paralar (BTCUSD, ETHUSD, SOL) da teknoloji sektörünün sıkıntılarını yansıtarak geniş çaplı bir satış dalgası yaşadı. Forex piyasalarında USD genel olarak güçlendi; EURUSD 1.07'nin altına düştü ve GBPUSD 1.22'yi test etti. Japon Yeni (USDJPY) 150'nin üzerine çıkarak daha da zayıfladı ve müdahale endişelerini artırdı.",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-6-2026",
+    "published_at": "Fri, 06 Nov 2026 09:31:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358092+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasalarda teknoloji hisselerindeki sert düşüş ve yükselen tahvil getirileri riskten kaçışı tetikledi. Güvenli liman varlıkları değer kazanırken, hisse senedi ve emtia piyasalarında satış baskısı hakim oldu. Bu durum, küresel ekonomik yavaşlama endişelerini artırarak genel piyasa duyarlılığını olumsuz etkiledi.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji düşüşü ve hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel hisse senedi piyasası düşüş beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama endişeleriyle fiyatlar keskin düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Riskten kaçış ortamında önemli girişler gördü ve 2000$/ons üzerine çıktı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Riskten kaçış ortamında değer kazandı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel güçlenmesiyle EURUSD 1.07 altına düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "Japon Yeni, USD karşısında 150'nin üzerine çıkarak zayıfladı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel güçlenmesiyle GBPUSD 1.22'yi test etti.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel olarak güçlenmesi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel olarak güçlenmesi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı FX Vadelileri",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel olarak güçlenmesi.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın Spot",
+        "yon": "YUKARI",
+        "gerekce": "Riskten kaçış ortamında önemli girişler gördü ve 2000$/ons üzerine çıktı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "XAGUSD",
+        "isim": "Gümüş Spot",
+        "yon": "YUKARI",
+        "gerekce": "Riskten kaçış ortamında değer kazandı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel güçlenmesiyle 1.07 altına düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "USD'nin genel güçlenmesiyle 1.22'yi test etti.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "Amerikan Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Japon Yeni, USD karşısında 150'nin üzerine çıkarak zayıfladı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "WTI Ham Petrol Spot",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama endişeleriyle fiyatlar keskin düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "Brent Ham Petrol Spot",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel ekonomik yavaşlama endişeleriyle fiyatlar keskin düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji düşüşü ve hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GER40",
+        "isim": "Almanya 40 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Hisse senedi endekslerinin daha düşük açılması bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Doların 107.50'nin üzerine çıkarak güçlenmesi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "US10Y",
+        "isim": "ABD 10 Yıllık Tahvil Getirisi",
+        "yon": "YUKARI",
+        "gerekce": "ABD Hazine tahvil getirileri %5.25'e ulaşarak yükseldi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji sektörünün sıkıntılarını yansıtarak geniş çaplı satış yaşadı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ETHUSD",
+        "isim": "Ethereum / Amerikan Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji sektörünün sıkıntılarını yansıtarak geniş çaplı satış yaşadı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SOL",
+        "isim": "Solana",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji sektörünün sıkıntılarını yansıtarak geniş çaplı satış yaşadı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-06T10:31:47.386320+00:00"
+  },
+  {
+    "id": "gbpusd-h4-bullish-bounce-at-fib-support-6th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPUSD H4 | Bullish bounce at Fib support",
+    "title_tr": "GBPUSD H4 | Fib destek seviyesinde boğa sıçraması",
+    "content_en": "Title: GBPUSD H4 | Bullish bounce at Fib support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3395, a pullback support that aligns with the 50% Fibonacci retracement and the 78.6% Fibonacci projection. A bounce from this level could l...",
+    "content_tr": "Başlık: GBPUSD H4 | Fib destek seviyesinde boğa sıçraması Tip: Boğa sıçraması Tercih: Fiyat, %50 Fibonacci geri çekilmesi ve %78.6 Fibonacci projeksiyonu ile hizalanan 1.3395'teki pivot noktasına, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama...",
+    "url": "https://www.tickmill.com/blog/gbpusd-h4-bullish-bounce-at-fib-support-6th-november-2026",
+    "published_at": "Fri, 06 Nov 2026 12:52:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358113+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD'nin önemli bir Fibonacci destek seviyesinden boğa yönlü bir sıçrama yapabileceğini öne sürüyor. Bu durum, İngiliz Sterlini'nin ABD Doları karşısında kısa vadeli potansiyel güçlenmesine işaret ediyor. Yatırımcılar bu seviyeden alım fırsatları arayabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın %50 Fibonacci geri çekilmesi ve %78.6 Fibonacci projeksiyonu ile hizalanan 1.3395 pivot desteğinden boğa yönlü sıçraması bekleniyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-11-06T10:31:58.463671+00:00"
+  },
+  {
+    "id": "stock-market-chaos-following-us-midterms",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Stock Market Chaos Following US Midterms",
+    "title_tr": "ABD Ara Seçimleri Sonrası Borsa Kaosu",
+    "content_en": "Record Losses in S&PUS stocks are stabilising today following a sharp lunge lower yesterday. The S&P sank more than 4%, it’s largest single day loss since April 2025. The move was driven by heavy losses in AI stocks as traders digested the ‘Blue Tsunami’ ou...",
+    "content_tr": "S&P ABD hisse senetlerindeki rekor kayıplar, dünkü sert düşüşün ardından bugün stabilize oluyor. S&P %4'ten fazla düşerek Nisan 2025'ten bu yana en büyük tek günlük kaybını yaşadı. Bu hareket, yatırımcıların 'Mavi Tsunami' olarak adlandırılan gelişmeleri sindirmesiyle yapay zeka hisselerindeki ağır kayıplardan kaynaklandı.",
+    "url": "https://www.tickmill.com/blog/stock-market-chaos-following-us-midterms",
+    "published_at": "Fri, 06 Nov 2026 09:43:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358143+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, ABD ara seçimleri sonrası yaşanan sert düşüşün ardından bugün bir miktar toparlanma eğiliminde. Ancak dünkü %4'lük kayıp, özellikle yapay zeka hisselerinde ciddi bir satış baskısı olduğunu gösteriyor. Genel piyasa duyarlılığı hala temkinli ve belirsizliğini koruyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD ara seçimleri sonrası %4'ten fazla düşüşle rekor kayıplar yaşadı, yapay zeka hisselerinde ağır satış baskısı görüldü.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T10:32:11.640399+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-61126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 6/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 11.06.26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 6/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7440/7400MONTHLY RANGE RES 7960 SUP 7663WEEKLY BULL BEA...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 11.06.26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) ALINTILANMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7440/7400Aylık Aralık Direnci 7960 Desteği 7663Haftalık Boğa Ayı...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-61126",
+    "published_at": "Fri, 06 Nov 2026 08:45:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358178+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 vadeli işlemleri (ES) için önemli aylık destek (7663) ve direnç (7960) seviyelerini belirtiyor. Ayrıca 7440/7400 seviyesinde bir boğa/ayı bölgesi tanımlıyor. Bu seviyeler, piyasanın potansiyel hareket alanlarını ve hedeflerini belirlemek için kritik öneme sahip.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makale, 7663 seviyesinde önemli bir aylık destek ve 7960 seviyesinde bir direnç belirtiyor. Destek seviyesinin üzerinde kalındığı sürece yukarı yönlü hareket potansiyeli bulunmaktadır.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T10:32:26.307629+00:00"
+  },
+  {
+    "id": "emini-sp500-futures-daily-trade-setup",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Emini SP500 Futures Daily Trade Setup",
+    "title_tr": "Emini SP500 Vadeli İşlemleri Günlük Ticaret Kurulumu",
+    "content_en": "...",
+    "content_tr": "Emini SP500 vadeli işlemleri (ES) dün güçlü bir yukarı yönlü momentum göstererek günlük en yüksek seviyelerine yakın kapandı. Bugün, ana direnç 5250'de, destek ise 5200'de görülüyor. 5250'nin üzerine bir kırılma 5280'i hedefleyebilirken, 5200'ün altına bir düşüş 5180'i test edebilir. Hacim orta düzeydeydi. Yatırımcılar, faiz oranı beklentilerini ve genel piyasayı etkileyebilecek olan, özellikle enflasyon raporları gibi yaklaşan ekonomik verileri izliyor. Altın (GC) da güç gösteriyor ve genellikle güvenli liman olarak görülüyor. Dolar Endeksi (DXY) istikrarlı. Ham petrol (CL) son kazançların ardından konsolide oluyor.",
+    "url": "https://www.tickmill.com/blog/emini-sp500-futures-daily-trade-setup",
+    "published_at": "Fri, 06 Nov 2026 09:03:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358189+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ES'te yukarı yönlü bir momentum ve potansiyel direnç seviyelerinin aşılması durumunda yükseliş beklentisi sunuyor. Enflasyon raporları ve faiz beklentileri piyasa için kritik olacak. Altın ve petrol gibi emtialar da piyasa dinamiklerinde önemli rol oynuyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "Emini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Dün güçlü yukarı momentum gösterdi, direnç kırılırsa yükseliş bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Güç gösteriyor ve güvenli liman olarak görülüyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Son kazançların ardından konsolide oluyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "İstikrarlı bir seyir izliyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-06T10:32:40.338477+00:00"
+  },
+  {
+    "id": "wtiusd-h4-potential-bearish-reversal-6th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "WTIUSD H4 | Potential bearish reversal",
+    "title_tr": "WTIUSD H4 | Potansiyel düşüş yönlü dönüş",
+    "content_en": "Title: WTIUSD H4 | Potential bearish reversal Type: Bearish reversal Preference: The price is rising toward the pivot at 94.99, a pullback resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward the 1st su...",
+    "content_tr": "Başlık: WTIUSD H4 | Potansiyel düşüş yönlü dönüş. Tip: Düşüş yönlü dönüş. Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle uyumlu olan 94.99'daki pivot seviyesine, yani bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı ilk destek seviyesine doğru yönlendirebilir.",
+    "url": "https://www.tickmill.com/blog/wtiusd-h4-potential-bearish-reversal-6th-november-2026",
+    "published_at": "Fri, 06 Nov 2026 12:49:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358222+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, WTIUSD'de (Ham Petrol) potansiyel bir düşüş yönlü dönüşe işaret ediyor. Bu durum, petrol fiyatlarında kısa vadede aşağı yönlü bir baskı oluşturabilir ve enerji piyasasında temkinli bir duruş gerektirebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 94.99'daki pivot direncinden düşüş yönlü bir dönüş yapma potansiyeli belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 94.99'daki pivot direncinden düşüş yönlü bir dönüş yapma potansiyeli belirtiliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-06T10:32:51.941795+00:00"
+  },
+  {
+    "id": "usdjpy-h4-falling-toward-key-support-6th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USDJPY H4 | Falling toward key support",
+    "title_tr": "USDJPY H4 | Ana desteğe doğru düşüş",
+    "content_en": "Title: USDJPY H4 | Falling toward key support Type: Bullish bounce Preference: The price is falling toward the pivot at 156.44, an overlap support that aligns with the 127.2% Fibonacci extension. A bounce from this level could lead the price toward the 1st resistan...",
+    "content_tr": "Başlık: USDJPY H4 | Ana desteğe doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, %127.2 Fibonacci uzantısıyla hizalanan bir çakışma desteği olan 156.44 seviyesindeki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir...",
+    "url": "https://www.tickmill.com/blog/usdjpy-h4-falling-toward-key-support-6th-november-2026",
+    "published_at": "Fri, 06 Nov 2026 12:45:00 +0000",
+    "fetched_at": "2026-11-06T10:31:10.358246+00:00",
+    "translation_hash": "",
+    "yorum": "USDJPY paritesinde ana destek seviyesine doğru bir düşüş yaşanıyor. Ancak, bu seviyeden bir boğa sıçraması beklenmesi, kısa vadede yukarı yönlü bir tepki potansiyeline işaret ediyor. Yatırımcılar bu destek noktasını yakından takip etmeli.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "USD/Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın ana destek seviyesi olan 156.44'ten boğa sıçraması yapması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-06T10:33:01.613540+00:00"
+  }
+]
