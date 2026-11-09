@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-09T05:13:32.007457+00:00",
+  "generated_at": "2026-11-09T15:35:18.799765+00:00",
   "total_assets": 133,
   "state_counts": {
     "INSUFFICIENT": 77,
-    "NEUTRAL": 22,
-    "CONFLICT": 19,
-    "BULLISH": 5,
-    "BEARISH": 10
+    "NEUTRAL": 24,
+    "CONFLICT": 20,
+    "BEARISH": 8,
+    "BULLISH": 4
   },
   "results": {
     "1093 HK": {
@@ -26,7 +26,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1093 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999103+00:00"
+      "generated_at": "2026-11-09T15:35:18.792803+00:00"
     },
     "1196 HK": {
       "asset_code": "1196 HK",
@@ -45,7 +45,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1196 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999168+00:00"
+      "generated_at": "2026-11-09T15:35:18.792858+00:00"
     },
     "1299 HK": {
       "asset_code": "1299 HK",
@@ -66,7 +66,7 @@
         "x_2099252230914523469_1299 hk",
         "x_2101391122417541582_1299 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999241+00:00"
+      "generated_at": "2026-11-09T15:35:18.792920+00:00"
     },
     "1347 HK": {
       "asset_code": "1347 HK",
@@ -85,7 +85,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1347 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999275+00:00"
+      "generated_at": "2026-11-09T15:35:18.792948+00:00"
     },
     "1801 HK": {
       "asset_code": "1801 HK",
@@ -104,7 +104,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1801 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999306+00:00"
+      "generated_at": "2026-11-09T15:35:18.792974+00:00"
     },
     "1810 HK": {
       "asset_code": "1810 HK",
@@ -125,7 +125,7 @@
         "x_2099252230914523469_1810 hk",
         "x_2101391122417541582_1810 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999352+00:00"
+      "generated_at": "2026-11-09T15:35:18.793014+00:00"
     },
     "1888 HK": {
       "asset_code": "1888 HK",
@@ -144,7 +144,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1888 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999383+00:00"
+      "generated_at": "2026-11-09T15:35:18.793040+00:00"
     },
     "189 HK": {
       "asset_code": "189 HK",
@@ -163,7 +163,7 @@
       "evidence_ids": [
         "x_2101391122417541582_189 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999424+00:00"
+      "generated_at": "2026-11-09T15:35:18.793074+00:00"
     },
     "2285 HK": {
       "asset_code": "2285 HK",
@@ -182,7 +182,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2285 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999454+00:00"
+      "generated_at": "2026-11-09T15:35:18.793099+00:00"
     },
     "2431 HK": {
       "asset_code": "2431 HK",
@@ -201,7 +201,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2431 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999483+00:00"
+      "generated_at": "2026-11-09T15:35:18.793125+00:00"
     },
     "2562 HK": {
       "asset_code": "2562 HK",
@@ -220,7 +220,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2562 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999512+00:00"
+      "generated_at": "2026-11-09T15:35:18.793150+00:00"
     },
     "2587 HK": {
       "asset_code": "2587 HK",
@@ -239,7 +239,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2587 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999542+00:00"
+      "generated_at": "2026-11-09T15:35:18.793188+00:00"
     },
     "2591 HK": {
       "asset_code": "2591 HK",
@@ -258,7 +258,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2591 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999573+00:00"
+      "generated_at": "2026-11-09T15:35:18.793212+00:00"
     },
     "2609 HK": {
       "asset_code": "2609 HK",
@@ -277,7 +277,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2609 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999602+00:00"
+      "generated_at": "2026-11-09T15:35:18.793237+00:00"
     },
     "2616 HK": {
       "asset_code": "2616 HK",
@@ -296,7 +296,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2616 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999631+00:00"
+      "generated_at": "2026-11-09T15:35:18.793262+00:00"
     },
     "2648 HK": {
       "asset_code": "2648 HK",
@@ -315,7 +315,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2648 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999659+00:00"
+      "generated_at": "2026-11-09T15:35:18.793286+00:00"
     },
     "2650 HK": {
       "asset_code": "2650 HK",
@@ -334,7 +334,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2650 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999687+00:00"
+      "generated_at": "2026-11-09T15:35:18.793310+00:00"
     },
     "2661 HK": {
       "asset_code": "2661 HK",
@@ -353,7 +353,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2661 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999716+00:00"
+      "generated_at": "2026-11-09T15:35:18.793334+00:00"
     },
     "2800 HK": {
       "asset_code": "2800 HK",
@@ -372,7 +372,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2800 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999744+00:00"
+      "generated_at": "2026-11-09T15:35:18.793357+00:00"
     },
     "3308 HK": {
       "asset_code": "3308 HK",
@@ -391,7 +391,7 @@
       "evidence_ids": [
         "x_2101391122417541582_3308 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999772+00:00"
+      "generated_at": "2026-11-09T15:35:18.793382+00:00"
     },
     "3808 HK": {
       "asset_code": "3808 HK",
@@ -410,7 +410,7 @@
       "evidence_ids": [
         "x_2101391122417541582_3808 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999800+00:00"
+      "generated_at": "2026-11-09T15:35:18.793406+00:00"
     },
     "639 HK": {
       "asset_code": "639 HK",
@@ -429,7 +429,7 @@
       "evidence_ids": [
         "x_2101391122417541582_639 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999837+00:00"
+      "generated_at": "2026-11-09T15:35:18.793437+00:00"
     },
     "6869 HK": {
       "asset_code": "6869 HK",
@@ -448,7 +448,7 @@
       "evidence_ids": [
         "x_2101391122417541582_6869 hk"
       ],
-      "generated_at": "2026-11-09T05:13:31.999866+00:00"
+      "generated_at": "2026-11-09T15:35:18.793461+00:00"
     },
     "6A": {
       "asset_code": "6A",
@@ -492,7 +492,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_3_6a",
         "rss_daily-market-outlook-november-6-2026_9_6a"
       ],
-      "generated_at": "2026-11-09T05:13:31.999972+00:00"
+      "generated_at": "2026-11-09T15:35:18.793547+00:00"
     },
     "6B": {
       "asset_code": "6B",
@@ -541,7 +541,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_2_6b",
         "rss_daily-market-outlook-november-6-2026_8_6b"
       ],
-      "generated_at": "2026-11-09T05:13:32.000082+00:00"
+      "generated_at": "2026-11-09T15:35:18.793629+00:00"
     },
     "6C": {
       "asset_code": "6C",
@@ -585,26 +585,27 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_4_6c",
         "rss_daily-market-outlook-november-6-2026_10_6c"
       ],
-      "generated_at": "2026-11-09T05:13:32.000167+00:00"
+      "generated_at": "2026-11-09T15:35:18.793699+00:00"
     },
     "6E": {
       "asset_code": "6E",
-      "state": "NEUTRAL",
-      "score": -0.1902,
-      "confidence": 52,
-      "uncertainty": 48,
-      "evidence_count": 39,
+      "state": "CONFLICT",
+      "score": -0.1599,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 40,
       "source_type_count": 2,
-      "total_weight": 4.7379,
-      "bull_weight": 1.7326,
+      "total_weight": 4.8616,
+      "bull_weight": 1.8564,
       "bear_weight": 2.634,
       "reasons": [
-        "Kanıt sayısı: 39",
+        "Kanıt sayısı: 40",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.190",
-        "Yukarı ağırlık: 1.733",
+        "Yön skoru: -0.160",
+        "Yukarı ağırlık: 1.856",
         "Aşağı ağırlık: 2.634",
-        "Toplam ağırlık: 4.738"
+        "Toplam ağırlık: 4.862",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.70)"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_6_6e",
@@ -633,6 +634,7 @@
         "rss_institutional-inishgts-goldman-sachs-market-has-bad-breadth_8_6e",
         "rss_fomc-inflation-ai-stock-plunge-in-focus_0_6e",
         "rss_bitcoin-higher-amidst-usd-pullback_2_6e",
+        "rss_dollar-slips-following-nfp-rally_0_6e",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_19_6e",
         "rss_eurgbp-h4-bearish-momentum-to-extend-2nd-november-2026_0_6e",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_26_6e",
@@ -647,27 +649,27 @@
         "rss_daily-market-outlook-november-6-2026_6_6e",
         "x_2101386089537650838_6e"
       ],
-      "generated_at": "2026-11-09T05:13:32.000290+00:00"
+      "generated_at": "2026-11-09T15:35:18.793804+00:00"
     },
     "6J": {
       "asset_code": "6J",
       "state": "CONFLICT",
-      "score": 0.0606,
-      "confidence": 34,
-      "uncertainty": 66,
-      "evidence_count": 33,
+      "score": 0.0294,
+      "confidence": 33,
+      "uncertainty": 67,
+      "evidence_count": 34,
       "source_type_count": 1,
-      "total_weight": 4.0841,
+      "total_weight": 4.2078,
       "bull_weight": 2.1039,
-      "bear_weight": 1.8564,
+      "bear_weight": 1.9802,
       "reasons": [
-        "Kanıt sayısı: 33",
+        "Kanıt sayısı: 34",
         "Kaynak türü: RSS",
-        "Yön skoru: +0.061",
+        "Yön skoru: +0.029",
         "Yukarı ağırlık: 2.104",
-        "Aşağı ağırlık: 1.856",
-        "Toplam ağırlık: 4.084",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.88)"
+        "Aşağı ağırlık: 1.980",
+        "Toplam ağırlık: 4.208",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.94)"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_7_6j",
@@ -692,6 +694,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_20_6j",
         "rss_institutional-inishgts-goldman-sachs-market-has-bad-breadth_9_6j",
         "rss_bitcoin-higher-amidst-usd-pullback_3_6j",
+        "rss_dollar-slips-following-nfp-rally_1_6j",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_20_6j",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_27_6j",
         "rss_dollar-sliding-at-start-of-busy-week_9_6j",
@@ -704,7 +707,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_1_6j",
         "rss_daily-market-outlook-november-6-2026_7_6j"
       ],
-      "generated_at": "2026-11-09T05:13:32.000398+00:00"
+      "generated_at": "2026-11-09T15:35:18.793892+00:00"
     },
     "6S": {
       "asset_code": "6S",
@@ -746,7 +749,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_5_6s",
         "rss_daily-market-outlook-november-6-2026_11_6s"
       ],
-      "generated_at": "2026-11-09T05:13:32.000476+00:00"
+      "generated_at": "2026-11-09T15:35:18.793958+00:00"
     },
     "700 HK": {
       "asset_code": "700 HK",
@@ -767,7 +770,7 @@
         "x_2099252230914523469_700 hk",
         "x_2101391122417541582_700 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000520+00:00"
+      "generated_at": "2026-11-09T15:35:18.793994+00:00"
     },
     "780 HK": {
       "asset_code": "780 HK",
@@ -786,7 +789,7 @@
       "evidence_ids": [
         "x_2101391122417541582_780 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000557+00:00"
+      "generated_at": "2026-11-09T15:35:18.794025+00:00"
     },
     "941 HK": {
       "asset_code": "941 HK",
@@ -805,7 +808,7 @@
       "evidence_ids": [
         "x_2101391122417541582_941 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000593+00:00"
+      "generated_at": "2026-11-09T15:35:18.794055+00:00"
     },
     "9678 HK": {
       "asset_code": "9678 HK",
@@ -824,7 +827,7 @@
       "evidence_ids": [
         "x_2101391122417541582_9678 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000627+00:00"
+      "generated_at": "2026-11-09T15:35:18.794079+00:00"
     },
     "981 HK": {
       "asset_code": "981 HK",
@@ -843,7 +846,7 @@
       "evidence_ids": [
         "x_2101391122417541582_981 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000663+00:00"
+      "generated_at": "2026-11-09T15:35:18.794109+00:00"
     },
     "9988 HK": {
       "asset_code": "9988 HK",
@@ -864,7 +867,7 @@
         "x_2099252230914523469_9988 hk",
         "x_2101391122417541582_9988 hk"
       ],
-      "generated_at": "2026-11-09T05:13:32.000701+00:00"
+      "generated_at": "2026-11-09T15:35:18.794138+00:00"
     },
     "AAPL": {
       "asset_code": "AAPL",
@@ -897,7 +900,7 @@
         "x_2099495801856917664_aapl",
         "x_2097758922023284832_aapl"
       ],
-      "generated_at": "2026-11-09T05:13:32.000762+00:00"
+      "generated_at": "2026-11-09T15:35:18.794194+00:00"
     },
     "AGI": {
       "asset_code": "AGI",
@@ -916,7 +919,7 @@
       "evidence_ids": [
         "x_2098088204415189100_agi"
       ],
-      "generated_at": "2026-11-09T05:13:32.000798+00:00"
+      "generated_at": "2026-11-09T15:35:18.794224+00:00"
     },
     "AMD": {
       "asset_code": "AMD",
@@ -935,7 +938,7 @@
       "evidence_ids": [
         "x_2100184704137748866_amd"
       ],
-      "generated_at": "2026-11-09T05:13:32.000832+00:00"
+      "generated_at": "2026-11-09T15:35:18.794253+00:00"
     },
     "AMZN": {
       "asset_code": "AMZN",
@@ -968,7 +971,7 @@
         "x_2100184704137748866_amzn",
         "x_2099495801856917664_amzn"
       ],
-      "generated_at": "2026-11-09T05:13:32.000889+00:00"
+      "generated_at": "2026-11-09T15:35:18.794300+00:00"
     },
     "ANT": {
       "asset_code": "ANT",
@@ -987,7 +990,7 @@
       "evidence_ids": [
         "x_2115009106595467727_ant"
       ],
-      "generated_at": "2026-11-09T05:13:32.000924+00:00"
+      "generated_at": "2026-11-09T15:35:18.794329+00:00"
     },
     "AUDUSD": {
       "asset_code": "AUDUSD",
@@ -1021,7 +1024,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-weekly-25926_9_audusd",
         "rss_audusd-h4-bullish-rebound-for-the-aussie-25th-september-2026_0_audusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.000986+00:00"
+      "generated_at": "2026-11-09T15:35:18.794382+00:00"
     },
     "AVGO": {
       "asset_code": "AVGO",
@@ -1040,7 +1043,7 @@
       "evidence_ids": [
         "x_2100184704137748866_avgo"
       ],
-      "generated_at": "2026-11-09T05:13:32.001016+00:00"
+      "generated_at": "2026-11-09T15:35:18.794408+00:00"
     },
     "BABA": {
       "asset_code": "BABA",
@@ -1059,26 +1062,27 @@
       "evidence_ids": [
         "x_2099923632776724521_baba"
       ],
-      "generated_at": "2026-11-09T05:13:32.001072+00:00"
+      "generated_at": "2026-11-09T15:35:18.794434+00:00"
     },
     "BTCUSD": {
       "asset_code": "BTCUSD",
-      "state": "NEUTRAL",
-      "score": 0.2308,
-      "confidence": 42,
-      "uncertainty": 58,
-      "evidence_count": 13,
+      "state": "CONFLICT",
+      "score": 0.1429,
+      "confidence": 38,
+      "uncertainty": 62,
+      "evidence_count": 14,
       "source_type_count": 1,
-      "total_weight": 1.6089,
+      "total_weight": 1.7326,
       "bull_weight": 0.9901,
-      "bear_weight": 0.6188,
+      "bear_weight": 0.7426,
       "reasons": [
-        "Kanıt sayısı: 13",
+        "Kanıt sayısı: 14",
         "Kaynak türü: RSS",
-        "Yön skoru: +0.231",
+        "Yön skoru: +0.143",
         "Yukarı ağırlık: 0.990",
-        "Aşağı ağırlık: 0.619",
-        "Toplam ağırlık: 1.609"
+        "Aşağı ağırlık: 0.743",
+        "Toplam ağırlık: 1.733",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.75)"
       ],
       "evidence_ids": [
         "rss_btcusd-looking-for-intraday-channel-resolution_0_btcusd",
@@ -1092,10 +1096,11 @@
         "rss_bitcoin-lower-ahead-of-fomc_0_btcusd",
         "rss_bitcoin-eyeing-test-of-key-pivot_0_btcusd",
         "rss_bitcoin-higher-amidst-usd-pullback_0_btcusd",
+        "rss_bitcoin-drops-on-massive-etf-outflows_0_btcusd",
         "rss_bitcoin-rebounding-on-tech-rally-boost_0_btcusd",
         "rss_daily-market-outlook-november-6-2026_25_btcusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.001140+00:00"
+      "generated_at": "2026-11-09T15:35:18.794490+00:00"
     },
     "CIBR": {
       "asset_code": "CIBR",
@@ -1114,7 +1119,7 @@
       "evidence_ids": [
         "x_2101241193245868131_cibr"
       ],
-      "generated_at": "2026-11-09T05:13:32.001170+00:00"
+      "generated_at": "2026-11-09T15:35:18.794515+00:00"
     },
     "CL": {
       "asset_code": "CL",
@@ -1232,7 +1237,7 @@
         "x_2101386089537650838_cl",
         "x_2100124619495628940_cl"
       ],
-      "generated_at": "2026-11-09T05:13:32.001398+00:00"
+      "generated_at": "2026-11-09T15:35:18.794701+00:00"
     },
     "CNXT": {
       "asset_code": "CNXT",
@@ -1251,7 +1256,7 @@
       "evidence_ids": [
         "x_2099485723246395586_cnxt"
       ],
-      "generated_at": "2026-11-09T05:13:32.001429+00:00"
+      "generated_at": "2026-11-09T15:35:18.794727+00:00"
     },
     "CRM": {
       "asset_code": "CRM",
@@ -1270,7 +1275,7 @@
       "evidence_ids": [
         "x_2100866191891783967_crm"
       ],
-      "generated_at": "2026-11-09T05:13:32.001462+00:00"
+      "generated_at": "2026-11-09T15:35:18.794756+00:00"
     },
     "CRWD": {
       "asset_code": "CRWD",
@@ -1289,7 +1294,7 @@
       "evidence_ids": [
         "x_2100516396144755094_crwd"
       ],
-      "generated_at": "2026-11-09T05:13:32.001492+00:00"
+      "generated_at": "2026-11-09T15:35:18.794781+00:00"
     },
     "CSCO": {
       "asset_code": "CSCO",
@@ -1308,7 +1313,7 @@
       "evidence_ids": [
         "x_2100184704137748866_csco"
       ],
-      "generated_at": "2026-11-09T05:13:32.001521+00:00"
+      "generated_at": "2026-11-09T15:35:18.794806+00:00"
     },
     "CSI1000": {
       "asset_code": "CSI1000",
@@ -1327,26 +1332,26 @@
       "evidence_ids": [
         "x_2099924455904718965_csi1000"
       ],
-      "generated_at": "2026-11-09T05:13:32.001550+00:00"
+      "generated_at": "2026-11-09T15:35:18.794830+00:00"
     },
     "DXY": {
       "asset_code": "DXY",
-      "state": "BULLISH",
-      "score": 0.3836,
-      "confidence": 61,
-      "uncertainty": 39,
-      "evidence_count": 83,
+      "state": "NEUTRAL",
+      "score": 0.3303,
+      "confidence": 58,
+      "uncertainty": 42,
+      "evidence_count": 85,
       "source_type_count": 2,
-      "total_weight": 6.1891,
+      "total_weight": 6.4366,
       "bull_weight": 3.859,
-      "bear_weight": 1.4851,
+      "bear_weight": 1.7326,
       "reasons": [
-        "Kanıt sayısı: 83",
+        "Kanıt sayısı: 85",
         "Kaynak türü: RSS, X",
-        "Yön skoru: +0.384",
+        "Yön skoru: +0.330",
         "Yukarı ağırlık: 3.859",
-        "Aşağı ağırlık: 1.485",
-        "Toplam ağırlık: 6.189"
+        "Aşağı ağırlık: 1.733",
+        "Toplam ağırlık: 6.437"
       ],
       "evidence_ids": [
         "rss_silver-holding-bull-trend-line-for-now_2_dxy",
@@ -1377,6 +1382,8 @@
         "rss_bitcoin-lower-ahead-of-fomc_4_dxy",
         "rss_bitcoin-higher-amidst-usd-pullback_1_dxy",
         "rss_ai-hangover-keeping-dollar-down_0_dxy",
+        "rss_bitcoin-drops-on-massive-etf-outflows_1_dxy",
+        "rss_copper-bounces-off-lows-on-monday_1_dxy",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_39_dxy",
         "rss_dollar-sliding-at-start-of-busy-week_0_dxy",
         "rss_strong-us-gdp-fails-to-lift-dollar_0_dxy",
@@ -1433,27 +1440,27 @@
         "x_2099894826732839274_dxy",
         "x_2101262710268657843_dxy"
       ],
-      "generated_at": "2026-11-09T05:13:32.001762+00:00"
+      "generated_at": "2026-11-09T15:35:18.794998+00:00"
     },
     "ES": {
       "asset_code": "ES",
       "state": "CONFLICT",
-      "score": -0.1092,
+      "score": -0.0898,
       "confidence": 45,
       "uncertainty": 55,
-      "evidence_count": 169,
+      "evidence_count": 173,
       "source_type_count": 2,
-      "total_weight": 15.0573,
-      "bull_weight": 5.0128,
+      "total_weight": 15.5523,
+      "bull_weight": 5.2604,
       "bear_weight": 6.6567,
       "reasons": [
-        "Kanıt sayısı: 169",
+        "Kanıt sayısı: 173",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.109",
-        "Yukarı ağırlık: 5.013",
+        "Yön skoru: -0.090",
+        "Yukarı ağırlık: 5.260",
         "Aşağı ağırlık: 6.657",
-        "Toplam ağırlık: 15.057",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.75)"
+        "Toplam ağırlık: 15.552",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.79)"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_0_es",
@@ -1538,6 +1545,10 @@
         "rss_daily-market-outlook-october-19-2026_1_es",
         "rss_ai-hangover-keeping-dollar-down_2_es",
         "rss_sp500-daily-action-areas-price-targets-191026_0_es",
+        "rss_institutional-insights-deutsche-bank-investor-flows-positioning-91126_2_es",
+        "rss_dollar-slips-following-nfp-rally_3_es",
+        "rss_daily-market-outlook-november-9-2026_3_es",
+        "rss_sp500-daily-action-areas-price-targets-91126_0_es",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_0_es",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_0_es",
         "rss_daily-market-outlook-november-2-2026_2_es",
@@ -1626,7 +1637,7 @@
         "x_2101262710268657843_es",
         "x_2100484213787013153_es"
       ],
-      "generated_at": "2026-11-09T05:13:32.002164+00:00"
+      "generated_at": "2026-11-09T15:35:18.795320+00:00"
     },
     "ETHUSD": {
       "asset_code": "ETHUSD",
@@ -1645,7 +1656,7 @@
       "evidence_ids": [
         "rss_daily-market-outlook-november-6-2026_26_ethusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.002203+00:00"
+      "generated_at": "2026-11-09T15:35:18.795353+00:00"
     },
     "EURJPY": {
       "asset_code": "EURJPY",
@@ -1670,7 +1681,7 @@
         "rss_eurjpy-h1-bearish-reversal-at-50-fib-resistance-29th-september-2026_0_eurjpy",
         "rss_eurjpy-h4-heading-towards-50-fib-resistance-22nd-september-2026_0_eurjpy"
       ],
-      "generated_at": "2026-11-09T05:13:32.002247+00:00"
+      "generated_at": "2026-11-09T15:35:18.795389+00:00"
     },
     "EURUSD": {
       "asset_code": "EURUSD",
@@ -1723,7 +1734,7 @@
         "x_2099933329487212645_eurusd",
         "x_2100605488341676401_eurusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.002343+00:00"
+      "generated_at": "2026-11-09T15:35:18.795469+00:00"
     },
     "EWJ": {
       "asset_code": "EWJ",
@@ -1742,7 +1753,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewj"
       ],
-      "generated_at": "2026-11-09T05:13:32.002378+00:00"
+      "generated_at": "2026-11-09T15:35:18.795498+00:00"
     },
     "EWT": {
       "asset_code": "EWT",
@@ -1761,7 +1772,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewt"
       ],
-      "generated_at": "2026-11-09T05:13:32.002413+00:00"
+      "generated_at": "2026-11-09T15:35:18.795528+00:00"
     },
     "EWY": {
       "asset_code": "EWY",
@@ -1780,7 +1791,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewy"
       ],
-      "generated_at": "2026-11-09T05:13:32.002447+00:00"
+      "generated_at": "2026-11-09T15:35:18.795557+00:00"
     },
     "FXI": {
       "asset_code": "FXI",
@@ -1801,7 +1812,7 @@
         "x_2099923632776724521_fxi",
         "x_2099485723246395586_fxi"
       ],
-      "generated_at": "2026-11-09T05:13:32.002485+00:00"
+      "generated_at": "2026-11-09T15:35:18.795589+00:00"
     },
     "GBPCAD": {
       "asset_code": "GBPCAD",
@@ -1820,7 +1831,7 @@
       "evidence_ids": [
         "rss_gbpcad-h4-could-we-see-a-reversal-from-here-3rd-november-2026_0_gbpcad"
       ],
-      "generated_at": "2026-11-09T05:13:32.002521+00:00"
+      "generated_at": "2026-11-09T15:35:18.795620+00:00"
     },
     "GBPCHF": {
       "asset_code": "GBPCHF",
@@ -1839,7 +1850,7 @@
       "evidence_ids": [
         "rss_gbpchf-h4-bearish-momentum-building-22nd-september-2026_0_gbpchf"
       ],
-      "generated_at": "2026-11-09T05:13:32.002557+00:00"
+      "generated_at": "2026-11-09T15:35:18.795650+00:00"
     },
     "GBPJPY": {
       "asset_code": "GBPJPY",
@@ -1864,7 +1875,7 @@
         "rss_gbpjpy-h4-could-we-see-a-reversal-from-here-4th-november-2026_0_gbpjpy",
         "rss_gbpjpy-h4-bullish-bounce-setup-24th-september-2026_0_gbpjpy"
       ],
-      "generated_at": "2026-11-09T05:13:32.002599+00:00"
+      "generated_at": "2026-11-09T15:35:18.795685+00:00"
     },
     "GBPUSD": {
       "asset_code": "GBPUSD",
@@ -1911,26 +1922,26 @@
         "x_2100680188094808325_gbpusd",
         "x_2099969862466469958_gbpusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.002684+00:00"
+      "generated_at": "2026-11-09T15:35:18.795754+00:00"
     },
     "GC": {
       "asset_code": "GC",
       "state": "NEUTRAL",
-      "score": 0.2761,
-      "confidence": 56,
-      "uncertainty": 44,
-      "evidence_count": 63,
+      "score": 0.313,
+      "confidence": 57,
+      "uncertainty": 43,
+      "evidence_count": 66,
       "source_type_count": 2,
-      "total_weight": 6.9093,
-      "bull_weight": 4.2053,
+      "total_weight": 7.2806,
+      "bull_weight": 4.5766,
       "bear_weight": 2.2977,
       "reasons": [
-        "Kanıt sayısı: 63",
+        "Kanıt sayısı: 66",
         "Kaynak türü: RSS, X",
-        "Yön skoru: +0.276",
-        "Yukarı ağırlık: 4.205",
+        "Yön skoru: +0.313",
+        "Yukarı ağırlık: 4.577",
         "Aşağı ağırlık: 2.298",
-        "Toplam ağırlık: 6.909"
+        "Toplam ağırlık: 7.281"
       ],
       "evidence_ids": [
         "rss_xauusd-h4-bullish-bounce-in-play-30th-september-2026_0_gc",
@@ -1973,6 +1984,9 @@
         "rss_bitcoin-lower-ahead-of-fomc_5_gc",
         "rss_institutional-insights-deutsche-bank-positioning-flows-update-21926_8_gc",
         "rss_institutional-insights-goldman-sachs-earnings-test-versus-positioning_3_gc",
+        "rss_xauusd-h4-bullish-breakout-setup-9th-november-2026_0_gc",
+        "rss_dollar-slips-following-nfp-rally_2_gc",
+        "rss_daily-trade-setup-gold-mid-terms-sesonality_0_gc",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_9_gc",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_21_gc",
         "rss_gold-bouncing-off-1-yr-lows-ahead-of-us-mid-terms_0_gc",
@@ -1997,35 +2011,36 @@
         "x_2101262710268657843_gc",
         "x_2100484213787013153_gc"
       ],
-      "generated_at": "2026-11-09T05:13:32.002852+00:00"
+      "generated_at": "2026-11-09T15:35:18.795894+00:00"
     },
     "GER40": {
       "asset_code": "GER40",
-      "state": "BEARISH",
-      "score": -0.8014,
-      "confidence": 69,
-      "uncertainty": 31,
-      "evidence_count": 5,
+      "state": "NEUTRAL",
+      "score": -0.3333,
+      "confidence": 51,
+      "uncertainty": 49,
+      "evidence_count": 6,
       "source_type_count": 2,
-      "total_weight": 0.3525,
-      "bull_weight": 0.035,
+      "total_weight": 0.4763,
+      "bull_weight": 0.1588,
       "bear_weight": 0.3175,
       "reasons": [
-        "Kanıt sayısı: 5",
+        "Kanıt sayısı: 6",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.801",
-        "Yukarı ağırlık: 0.035",
+        "Yön skoru: -0.333",
+        "Yukarı ağırlık: 0.159",
         "Aşağı ağırlık: 0.318",
-        "Toplam ağırlık: 0.353"
+        "Toplam ağırlık: 0.476"
       ],
       "evidence_ids": [
+        "rss_daily-market-outlook-november-9-2026_6_ger40",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_8_ger40",
         "rss_daily-market-outlook-november-6-2026_21_ger40",
         "x_2101386089537650838_ger40",
         "x_2100878795649474742_ger40",
         "x_2099933329487212645_ger40"
       ],
-      "generated_at": "2026-11-09T05:13:32.002899+00:00"
+      "generated_at": "2026-11-09T15:35:18.795933+00:00"
     },
     "GOOGL": {
       "asset_code": "GOOGL",
@@ -2058,27 +2073,27 @@
         "x_2099779043033862288_googl",
         "x_2099495801856917664_googl"
       ],
-      "generated_at": "2026-11-09T05:13:32.002954+00:00"
+      "generated_at": "2026-11-09T15:35:18.795979+00:00"
     },
     "HG": {
       "asset_code": "HG",
       "state": "CONFLICT",
-      "score": -0.0326,
-      "confidence": 45,
-      "uncertainty": 55,
-      "evidence_count": 37,
+      "score": 0.0111,
+      "confidence": 44,
+      "uncertainty": 56,
+      "evidence_count": 38,
       "source_type_count": 2,
-      "total_weight": 2.8039,
-      "bull_weight": 1.1626,
+      "total_weight": 2.9277,
+      "bull_weight": 1.2863,
       "bear_weight": 1.2538,
       "reasons": [
-        "Kanıt sayısı: 37",
+        "Kanıt sayısı: 38",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.033",
-        "Yukarı ağırlık: 1.163",
+        "Yön skoru: +0.011",
+        "Yukarı ağırlık: 1.286",
         "Aşağı ağırlık: 1.254",
-        "Toplam ağırlık: 2.804",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.93)"
+        "Toplam ağırlık: 2.928",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.97)"
       ],
       "evidence_ids": [
         "rss_dollar-pushing-higher-on-hawkish-fed-speak_13_hg",
@@ -2097,6 +2112,7 @@
         "rss_mining-slump-middle-east-oil-surge-drag-ftse-into-the-red_1_hg",
         "rss_copper-drops-on-hawkish-fed-speak-weak-china-data_0_hg",
         "rss_is-copper-on-the-verge-of-a-fresh-breakout_0_hg",
+        "rss_copper-bounces-off-lows-on-monday_0_hg",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_12_hg",
         "x_2103132990402449845_hg",
         "x_2101706726105833943_hg",
@@ -2119,7 +2135,7 @@
         "x_2099850071575765447_hg",
         "x_2100168608965914827_hg"
       ],
-      "generated_at": "2026-11-09T05:13:32.003084+00:00"
+      "generated_at": "2026-11-09T15:35:18.796078+00:00"
     },
     "HO1": {
       "asset_code": "HO1",
@@ -2138,7 +2154,7 @@
       "evidence_ids": [
         "x_2097680790025093570_ho1"
       ],
-      "generated_at": "2026-11-09T05:13:32.003120+00:00"
+      "generated_at": "2026-11-09T15:35:18.796116+00:00"
     },
     "HSBIO": {
       "asset_code": "HSBIO",
@@ -2157,7 +2173,7 @@
       "evidence_ids": [
         "x_2099806214636933609_hsbio"
       ],
-      "generated_at": "2026-11-09T05:13:32.003152+00:00"
+      "generated_at": "2026-11-09T15:35:18.796146+00:00"
     },
     "HSCEI": {
       "asset_code": "HSCEI",
@@ -2178,7 +2194,7 @@
         "x_2099924455904718965_hscei",
         "x_2099923632776724521_hscei"
       ],
-      "generated_at": "2026-11-09T05:13:32.003187+00:00"
+      "generated_at": "2026-11-09T15:35:18.796186+00:00"
     },
     "HSI": {
       "asset_code": "HSI",
@@ -2212,7 +2228,7 @@
         "x_2099842902151373089_hsi",
         "x_2099849459396235640_hsi"
       ],
-      "generated_at": "2026-11-09T05:13:32.003249+00:00"
+      "generated_at": "2026-11-09T15:35:18.796237+00:00"
     },
     "HSTECH": {
       "asset_code": "HSTECH",
@@ -2251,7 +2267,7 @@
         "x_2099849459396235640_hstech",
         "x_2101390870801252712_hstech"
       ],
-      "generated_at": "2026-11-09T05:13:32.003322+00:00"
+      "generated_at": "2026-11-09T15:35:18.796299+00:00"
     },
     "HUBS": {
       "asset_code": "HUBS",
@@ -2270,29 +2286,30 @@
       "evidence_ids": [
         "x_2100866191891783967_hubs"
       ],
-      "generated_at": "2026-11-09T05:13:32.003353+00:00"
+      "generated_at": "2026-11-09T15:35:18.796324+00:00"
     },
     "JP225": {
       "asset_code": "JP225",
       "state": "NEUTRAL",
-      "score": 0.0711,
-      "confidence": 40,
-      "uncertainty": 60,
-      "evidence_count": 9,
+      "score": 0.2576,
+      "confidence": 51,
+      "uncertainty": 49,
+      "evidence_count": 10,
       "source_type_count": 2,
-      "total_weight": 0.4925,
-      "bull_weight": 0.2638,
+      "total_weight": 0.6163,
+      "bull_weight": 0.3875,
       "bear_weight": 0.2288,
       "reasons": [
-        "Kanıt sayısı: 9",
+        "Kanıt sayısı: 10",
         "Kaynak türü: RSS, X",
-        "Yön skoru: +0.071",
-        "Yukarı ağırlık: 0.264",
+        "Yön skoru: +0.258",
+        "Yukarı ağırlık: 0.388",
         "Aşağı ağırlık: 0.229",
-        "Toplam ağırlık: 0.493"
+        "Toplam ağırlık: 0.616"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-october-14-2026_0_jp225",
+        "rss_daily-market-outlook-november-9-2026_8_jp225",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_10_jp225",
         "x_2100936341928513720_jp225",
         "x_2099969862466469958_jp225",
@@ -2302,7 +2319,7 @@
         "x_2099842564405030912_jp225",
         "x_2099849459396235640_jp225"
       ],
-      "generated_at": "2026-11-09T05:13:32.003406+00:00"
+      "generated_at": "2026-11-09T15:35:18.796373+00:00"
     },
     "KSTR": {
       "asset_code": "KSTR",
@@ -2321,7 +2338,7 @@
       "evidence_ids": [
         "x_2099485723246395586_kstr"
       ],
-      "generated_at": "2026-11-09T05:13:32.003436+00:00"
+      "generated_at": "2026-11-09T15:35:18.796400+00:00"
     },
     "KWEB": {
       "asset_code": "KWEB",
@@ -2342,7 +2359,7 @@
         "x_2099923632776724521_kweb",
         "x_2099485723246395586_kweb"
       ],
-      "generated_at": "2026-11-09T05:13:32.003471+00:00"
+      "generated_at": "2026-11-09T15:35:18.796429+00:00"
     },
     "LA1": {
       "asset_code": "LA1",
@@ -2361,7 +2378,7 @@
       "evidence_ids": [
         "x_2097680790025093570_la1"
       ],
-      "generated_at": "2026-11-09T05:13:32.003505+00:00"
+      "generated_at": "2026-11-09T15:35:18.796457+00:00"
     },
     "LN1": {
       "asset_code": "LN1",
@@ -2380,7 +2397,7 @@
       "evidence_ids": [
         "x_2097680790025093570_ln1"
       ],
-      "generated_at": "2026-11-09T05:13:32.003538+00:00"
+      "generated_at": "2026-11-09T15:35:18.796485+00:00"
     },
     "LULU": {
       "asset_code": "LULU",
@@ -2399,7 +2416,7 @@
       "evidence_ids": [
         "x_2098088204415189100_lulu"
       ],
-      "generated_at": "2026-11-09T05:13:32.003568+00:00"
+      "generated_at": "2026-11-09T15:35:18.796511+00:00"
     },
     "MCL": {
       "asset_code": "MCL",
@@ -2456,7 +2473,7 @@
         "x_2100935575255515273_mcl",
         "x_2100141950443626633_mcl"
       ],
-      "generated_at": "2026-11-09T05:13:32.003672+00:00"
+      "generated_at": "2026-11-09T15:35:18.796595+00:00"
     },
     "MES": {
       "asset_code": "MES",
@@ -2502,7 +2519,7 @@
         "x_2101748477520998591_mes",
         "x_2101692653117001881_mes"
       ],
-      "generated_at": "2026-11-09T05:13:32.003753+00:00"
+      "generated_at": "2026-11-09T15:35:18.796662+00:00"
     },
     "META": {
       "asset_code": "META",
@@ -2532,7 +2549,7 @@
         "x_2100333199557877983_meta",
         "x_2099495801856917664_meta"
       ],
-      "generated_at": "2026-11-09T05:13:32.003802+00:00"
+      "generated_at": "2026-11-09T15:35:18.796704+00:00"
     },
     "MGC": {
       "asset_code": "MGC",
@@ -2571,26 +2588,26 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_9_mgc",
         "x_2101965933841383709_mgc"
       ],
-      "generated_at": "2026-11-09T05:13:32.003868+00:00"
+      "generated_at": "2026-11-09T15:35:18.796761+00:00"
     },
     "MNQ": {
       "asset_code": "MNQ",
       "state": "BEARISH",
-      "score": -0.5882,
-      "confidence": 70,
-      "uncertainty": 30,
-      "evidence_count": 25,
+      "score": -0.5254,
+      "confidence": 67,
+      "uncertainty": 33,
+      "evidence_count": 26,
       "source_type_count": 2,
-      "total_weight": 3.0052,
-      "bull_weight": 0.6188,
+      "total_weight": 3.129,
+      "bull_weight": 0.7426,
       "bear_weight": 2.3864,
       "reasons": [
-        "Kanıt sayısı: 25",
+        "Kanıt sayısı: 26",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.588",
-        "Yukarı ağırlık: 0.619",
+        "Yön skoru: -0.525",
+        "Yukarı ağırlık: 0.743",
         "Aşağı ağırlık: 2.386",
-        "Toplam ağırlık: 3.005"
+        "Toplam ağırlık: 3.129"
       ],
       "evidence_ids": [
         "rss_dollar-pushing-higher-on-hawkish-fed-speak_18_mnq",
@@ -2614,12 +2631,13 @@
         "rss_institutional-insights-deutsche-bank-positioning-flows-update-21926_3_mnq",
         "rss_daily-market-outlook-september-21-2026_5_mnq",
         "rss_insitutional-insights-goldman-sachs-heightened-protection-demand_3_mnq",
+        "rss_institutional-insights-deutsche-bank-investor-flows-positioning-91126_1_mnq",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_3_mnq",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_3_mnq",
         "rss_institutional-fx-insights-credit-agricole-fx-61126_7_mnq",
         "x_2101692653117001881_mnq"
       ],
-      "generated_at": "2026-11-09T05:13:32.003967+00:00"
+      "generated_at": "2026-11-09T15:35:18.796832+00:00"
     },
     "MRVL": {
       "asset_code": "MRVL",
@@ -2638,7 +2656,7 @@
       "evidence_ids": [
         "x_2100184704137748866_mrvl"
       ],
-      "generated_at": "2026-11-09T05:13:32.003998+00:00"
+      "generated_at": "2026-11-09T15:35:18.796858+00:00"
     },
     "MSFT": {
       "asset_code": "MSFT",
@@ -2673,7 +2691,7 @@
         "x_2099779043033862288_msft",
         "x_2099495801856917664_msft"
       ],
-      "generated_at": "2026-11-09T05:13:32.004067+00:00"
+      "generated_at": "2026-11-09T15:35:18.796908+00:00"
     },
     "MXCN": {
       "asset_code": "MXCN",
@@ -2692,33 +2710,34 @@
       "evidence_ids": [
         "x_2099924455904718965_mxcn"
       ],
-      "generated_at": "2026-11-09T05:13:32.004098+00:00"
+      "generated_at": "2026-11-09T15:35:18.796935+00:00"
     },
     "NAS100": {
       "asset_code": "NAS100",
       "state": "CONFLICT",
-      "score": -0.0012,
-      "confidence": 43,
-      "uncertainty": 57,
-      "evidence_count": 41,
+      "score": 0.0534,
+      "confidence": 45,
+      "uncertainty": 55,
+      "evidence_count": 42,
       "source_type_count": 2,
-      "total_weight": 2.1451,
-      "bull_weight": 1.0013,
+      "total_weight": 2.2688,
+      "bull_weight": 1.125,
       "bear_weight": 1.0038,
       "reasons": [
-        "Kanıt sayısı: 41",
+        "Kanıt sayısı: 42",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.001",
-        "Yukarı ağırlık: 1.001",
+        "Yön skoru: +0.053",
+        "Yukarı ağırlık: 1.125",
         "Aşağı ağırlık: 1.004",
-        "Toplam ağırlık: 2.145",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 1.00)"
+        "Toplam ağırlık: 2.269",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.89)"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-october-21-2026_5_nas100",
         "rss_institutional-insights-goldman-sachs-sp500-positioning-key-levels-22926_4_nas100",
         "rss_daily-market-outlook-september-22-2026_5_nas100",
         "rss_ftse-reverses-turning-red-as-boe-delivers-hawkish-hike-to-400_2_nas100",
+        "rss_daily-market-outlook-november-9-2026_0_nas100",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_7_nas100",
         "rss_daily-market-outlook-october-30-2026_0_nas100",
         "rss_daily-market-outlook-october-23-2026_7_nas100",
@@ -2757,7 +2776,7 @@
         "x_2099495801856917664_nas100",
         "x_2101241193245868131_nas100"
       ],
-      "generated_at": "2026-11-09T05:13:32.004220+00:00"
+      "generated_at": "2026-11-09T15:35:18.797047+00:00"
     },
     "NBIS": {
       "asset_code": "NBIS",
@@ -2776,7 +2795,7 @@
       "evidence_ids": [
         "x_2098088204415189100_nbis"
       ],
-      "generated_at": "2026-11-09T05:13:32.004250+00:00"
+      "generated_at": "2026-11-09T15:35:18.797074+00:00"
     },
     "NG": {
       "asset_code": "NG",
@@ -2814,7 +2833,7 @@
         "x_2100605488341676401_ng",
         "x_2101386089537650838_ng"
       ],
-      "generated_at": "2026-11-09T05:13:32.004322+00:00"
+      "generated_at": "2026-11-09T15:35:18.797136+00:00"
     },
     "NOW": {
       "asset_code": "NOW",
@@ -2833,26 +2852,26 @@
       "evidence_ids": [
         "x_2100866191891783967_now"
       ],
-      "generated_at": "2026-11-09T05:13:32.004355+00:00"
+      "generated_at": "2026-11-09T15:35:18.797175+00:00"
     },
     "NQ": {
       "asset_code": "NQ",
       "state": "BEARISH",
-      "score": -0.384,
-      "confidence": 61,
-      "uncertainty": 39,
-      "evidence_count": 97,
+      "score": -0.3561,
+      "confidence": 59,
+      "uncertainty": 41,
+      "evidence_count": 100,
       "source_type_count": 2,
-      "total_weight": 9.1644,
-      "bull_weight": 2.6639,
-      "bear_weight": 6.183,
+      "total_weight": 9.5357,
+      "bull_weight": 2.9114,
+      "bear_weight": 6.3067,
       "reasons": [
-        "Kanıt sayısı: 97",
+        "Kanıt sayısı: 100",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.384",
-        "Yukarı ağırlık: 2.664",
-        "Aşağı ağırlık: 6.183",
-        "Toplam ağırlık: 9.164"
+        "Yön skoru: -0.356",
+        "Yukarı ağırlık: 2.911",
+        "Aşağı ağırlık: 6.307",
+        "Toplam ağırlık: 9.536"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_1_nq",
@@ -2908,6 +2927,9 @@
         "rss_institutional-insights-goldman-sachs-earnings-test-versus-positioning_0_nq",
         "rss_daily-market-outlook-october-19-2026_0_nq",
         "rss_ai-hangover-keeping-dollar-down_1_nq",
+        "rss_institutional-insights-deutsche-bank-investor-flows-positioning-91126_0_nq",
+        "rss_bitcoin-drops-on-massive-etf-outflows_2_nq",
+        "rss_daily-market-outlook-november-9-2026_1_nq",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_2_nq",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_2_nq",
         "rss_daily-market-outlook-november-2-2026_0_nq",
@@ -2953,7 +2975,7 @@
         "x_2101241193245868131_nq",
         "x_2101262710268657843_nq"
       ],
-      "generated_at": "2026-11-09T05:13:32.004586+00:00"
+      "generated_at": "2026-11-09T15:35:18.797371+00:00"
     },
     "NVDA": {
       "asset_code": "NVDA",
@@ -3002,7 +3024,7 @@
         "x_2099564370527236412_nvda",
         "x_2101314942137733431_nvda"
       ],
-      "generated_at": "2026-11-09T05:13:32.004695+00:00"
+      "generated_at": "2026-11-09T15:35:18.797443+00:00"
     },
     "NZDJPY": {
       "asset_code": "NZDJPY",
@@ -3021,7 +3043,7 @@
       "evidence_ids": [
         "rss_nzdjpy-h4-potential-reversal-at-resistance-14th-october-2026_0_nzdjpy"
       ],
-      "generated_at": "2026-11-09T05:13:32.004737+00:00"
+      "generated_at": "2026-11-09T15:35:18.797473+00:00"
     },
     "NZDUSD": {
       "asset_code": "NZDUSD",
@@ -3055,7 +3077,7 @@
         "rss_nzdusd-h1-bullish-bounce-in-play-30th-october-2026_0_nzdusd",
         "rss_institutional-fx-insights-credit-agricole-fx-weekly-25926_10_nzdusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.004796+00:00"
+      "generated_at": "2026-11-09T15:35:18.797524+00:00"
     },
     "OPEN": {
       "asset_code": "OPEN",
@@ -3074,7 +3096,7 @@
       "evidence_ids": [
         "x_2098088204415189100_open"
       ],
-      "generated_at": "2026-11-09T05:13:32.004827+00:00"
+      "generated_at": "2026-11-09T15:35:18.797550+00:00"
     },
     "PL": {
       "asset_code": "PL",
@@ -3105,7 +3127,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_13_pl",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_13_pl"
       ],
-      "generated_at": "2026-11-09T05:13:32.004883+00:00"
+      "generated_at": "2026-11-09T15:35:18.797596+00:00"
     },
     "QQQ": {
       "asset_code": "QQQ",
@@ -3124,7 +3146,7 @@
       "evidence_ids": [
         "x_2100938629032055000_qqq"
       ],
-      "generated_at": "2026-11-09T05:13:32.004916+00:00"
+      "generated_at": "2026-11-09T15:35:18.797625+00:00"
     },
     "QS1": {
       "asset_code": "QS1",
@@ -3143,26 +3165,26 @@
       "evidence_ids": [
         "x_2097680790025093570_qs1"
       ],
-      "generated_at": "2026-11-09T05:13:32.004949+00:00"
+      "generated_at": "2026-11-09T15:35:18.797654+00:00"
     },
     "RTY": {
       "asset_code": "RTY",
       "state": "BEARISH",
-      "score": -0.472,
-      "confidence": 65,
-      "uncertainty": 35,
-      "evidence_count": 38,
+      "score": -0.3878,
+      "confidence": 61,
+      "uncertainty": 39,
+      "evidence_count": 40,
       "source_type_count": 2,
-      "total_weight": 4.0816,
-      "bull_weight": 1.0601,
+      "total_weight": 4.3291,
+      "bull_weight": 1.3076,
       "bear_weight": 2.9865,
       "reasons": [
-        "Kanıt sayısı: 38",
+        "Kanıt sayısı: 40",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.472",
-        "Yukarı ağırlık: 1.060",
+        "Yön skoru: -0.388",
+        "Yukarı ağırlık: 1.308",
         "Aşağı ağırlık: 2.986",
-        "Toplam ağırlık: 4.082"
+        "Toplam ağırlık: 4.329"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_2_rty",
@@ -3191,6 +3213,8 @@
         "rss_institutional-insights-deutsche-bank-positioning-flows-update-21926_4_rty",
         "rss_daily-market-outlook-september-21-2026_6_rty",
         "rss_insitutional-insights-goldman-sachs-heightened-protection-demand_4_rty",
+        "rss_institutional-insights-deutsche-bank-investor-flows-positioning-91126_4_rty",
+        "rss_daily-market-outlook-november-9-2026_5_rty",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_4_rty",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_4_rty",
         "rss_daily-market-outlook-october-23-2026_3_rty",
@@ -3204,7 +3228,7 @@
         "x_2099601023924875583_rty",
         "x_2099754168340602922_rty"
       ],
-      "generated_at": "2026-11-09T05:13:32.005070+00:00"
+      "generated_at": "2026-11-09T15:35:18.797748+00:00"
     },
     "SAP": {
       "asset_code": "SAP",
@@ -3223,7 +3247,7 @@
       "evidence_ids": [
         "x_2100866191891783967_sap"
       ],
-      "generated_at": "2026-11-09T05:13:32.005105+00:00"
+      "generated_at": "2026-11-09T15:35:18.797776+00:00"
     },
     "SH000905": {
       "asset_code": "SH000905",
@@ -3242,7 +3266,7 @@
       "evidence_ids": [
         "x_2099924455904718965_sh000905"
       ],
-      "generated_at": "2026-11-09T05:13:32.005133+00:00"
+      "generated_at": "2026-11-09T15:35:18.797803+00:00"
     },
     "SHSN300": {
       "asset_code": "SHSN300",
@@ -3261,7 +3285,7 @@
       "evidence_ids": [
         "x_2099924455904718965_shsn300"
       ],
-      "generated_at": "2026-11-09T05:13:32.005164+00:00"
+      "generated_at": "2026-11-09T15:35:18.797827+00:00"
     },
     "SI": {
       "asset_code": "SI",
@@ -3301,7 +3325,7 @@
         "x_2097680790025093570_si",
         "x_2099850071575765447_si"
       ],
-      "generated_at": "2026-11-09T05:13:32.005240+00:00"
+      "generated_at": "2026-11-09T15:35:18.797890+00:00"
     },
     "SOL": {
       "asset_code": "SOL",
@@ -3321,27 +3345,26 @@
         "rss_daily-market-outlook-november-6-2026_27_sol",
         "x_2101390870801252712_sol"
       ],
-      "generated_at": "2026-11-09T05:13:32.005277+00:00"
+      "generated_at": "2026-11-09T15:35:18.797921+00:00"
     },
     "SPX500": {
       "asset_code": "SPX500",
-      "state": "CONFLICT",
-      "score": 0.1132,
-      "confidence": 45,
-      "uncertainty": 55,
-      "evidence_count": 89,
+      "state": "NEUTRAL",
+      "score": 0.134,
+      "confidence": 49,
+      "uncertainty": 51,
+      "evidence_count": 90,
       "source_type_count": 2,
-      "total_weight": 5.1565,
-      "bull_weight": 2.0776,
+      "total_weight": 5.2802,
+      "bull_weight": 2.2014,
       "bear_weight": 1.4938,
       "reasons": [
-        "Kanıt sayısı: 89",
+        "Kanıt sayısı: 90",
         "Kaynak türü: RSS, X",
-        "Yön skoru: +0.113",
-        "Yukarı ağırlık: 2.078",
+        "Yön skoru: +0.134",
+        "Yukarı ağırlık: 2.201",
         "Aşağı ağırlık: 1.494",
-        "Toplam ağırlık: 5.156",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.72)"
+        "Toplam ağırlık: 5.280"
       ],
       "evidence_ids": [
         "rss_sp500-daily-action-areas-price-targets-211026_0_spx500",
@@ -3360,6 +3383,7 @@
         "rss_sp500-daily-action-areas-price-targets-11026_0_spx500",
         "rss_sp500-daily-action-areas-price-targets-21926_1_spx500",
         "rss_sp500-daily-action-areas-price-targets-191026_1_spx500",
+        "rss_daily-market-outlook-november-9-2026_2_spx500",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_6_spx500",
         "rss_sp500-daily-action-areas-price-targets-301026_1_spx500",
         "rss_sp500-daily-action-areas-price-targets-25926_1_spx500",
@@ -3434,7 +3458,7 @@
         "x_2100162066757689550_spx500",
         "x_2101241193245868131_spx500"
       ],
-      "generated_at": "2026-11-09T05:13:32.005491+00:00"
+      "generated_at": "2026-11-09T15:35:18.798106+00:00"
     },
     "SPY": {
       "asset_code": "SPY",
@@ -3453,7 +3477,7 @@
       "evidence_ids": [
         "x_2100938629032055000_spy"
       ],
-      "generated_at": "2026-11-09T05:13:32.005526+00:00"
+      "generated_at": "2026-11-09T15:35:18.798135+00:00"
     },
     "TEAM": {
       "asset_code": "TEAM",
@@ -3472,7 +3496,7 @@
       "evidence_ids": [
         "x_2100866191891783967_team"
       ],
-      "generated_at": "2026-11-09T05:13:32.005560+00:00"
+      "generated_at": "2026-11-09T15:35:18.798171+00:00"
     },
     "TLT": {
       "asset_code": "TLT",
@@ -3491,7 +3515,7 @@
       "evidence_ids": [
         "x_2098120943273119801_tlt"
       ],
-      "generated_at": "2026-11-09T05:13:32.005593+00:00"
+      "generated_at": "2026-11-09T15:35:18.798201+00:00"
     },
     "TSLA": {
       "asset_code": "TSLA",
@@ -3524,7 +3548,7 @@
         "x_2099601023924875583_tsla",
         "x_2099606357783515395_tsla"
       ],
-      "generated_at": "2026-11-09T05:13:32.005649+00:00"
+      "generated_at": "2026-11-09T15:35:18.798248+00:00"
     },
     "TZT1": {
       "asset_code": "TZT1",
@@ -3543,27 +3567,27 @@
       "evidence_ids": [
         "x_2097680790025093570_tzt1"
       ],
-      "generated_at": "2026-11-09T05:13:32.005679+00:00"
+      "generated_at": "2026-11-09T15:35:18.798273+00:00"
     },
     "UK100": {
       "asset_code": "UK100",
       "state": "CONFLICT",
-      "score": 0.0,
-      "confidence": 32,
-      "uncertainty": 68,
-      "evidence_count": 20,
+      "score": 0.0476,
+      "confidence": 34,
+      "uncertainty": 66,
+      "evidence_count": 21,
       "source_type_count": 1,
-      "total_weight": 2.4752,
-      "bull_weight": 1.1138,
+      "total_weight": 2.599,
+      "bull_weight": 1.2376,
       "bear_weight": 1.1138,
       "reasons": [
-        "Kanıt sayısı: 20",
+        "Kanıt sayısı: 21",
         "Kaynak türü: RSS",
-        "Yön skoru: +0.000",
-        "Yukarı ağırlık: 1.114",
+        "Yön skoru: +0.048",
+        "Yukarı ağırlık: 1.238",
         "Aşağı ağırlık: 1.114",
-        "Toplam ağırlık: 2.475",
-        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 1.00)"
+        "Toplam ağırlık: 2.599",
+        "ÇELİŞKİ: her iki taraf da anlamlı güçte (oran: 0.90)"
       ],
       "evidence_ids": [
         "rss_ftse-trades-mixed-as-weak-pmi-data-offsets-oil-recovery_0_uk100",
@@ -3582,12 +3606,13 @@
         "rss_ftse-tumbles-to-four-month-lows-on-surging-oil-and-hawkish-boe-rhetoric_0_uk100",
         "rss_mining-slump-middle-east-oil-surge-drag-ftse-into-the-red_0_uk100",
         "rss_european-unrest-and-geopolitical-escalation-drag-ftse-down-over-1_0_uk100",
+        "rss_daily-market-outlook-november-9-2026_7_uk100",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_9_uk100",
         "rss_ftse-trims-early-rally-to-close-near-flat-first-monthly-gain-in-three-months_0_uk100",
         "rss_ftse-caps-best-week-since-april_0_uk100",
         "rss_daily-market-outlook-november-6-2026_22_uk100"
       ],
-      "generated_at": "2026-11-09T05:13:32.005752+00:00"
+      "generated_at": "2026-11-09T15:35:18.798336+00:00"
     },
     "UKOIL": {
       "asset_code": "UKOIL",
@@ -3621,7 +3646,7 @@
         "x_2097680790025093570_ukoil",
         "x_2099850071575765447_ukoil"
       ],
-      "generated_at": "2026-11-09T05:13:32.005806+00:00"
+      "generated_at": "2026-11-09T15:35:18.798384+00:00"
     },
     "US10Y": {
       "asset_code": "US10Y",
@@ -3702,7 +3727,7 @@
         "x_2099894826732839274_us10y",
         "x_2101262710268657843_us10y"
       ],
-      "generated_at": "2026-11-09T05:13:32.005954+00:00"
+      "generated_at": "2026-11-09T15:35:18.798512+00:00"
     },
     "US500": {
       "asset_code": "US500",
@@ -3721,31 +3746,32 @@
       "evidence_ids": [
         "rss_sp500-daily-action-areas-price-targets-21126_1_us500"
       ],
-      "generated_at": "2026-11-09T05:13:32.005985+00:00"
+      "generated_at": "2026-11-09T15:35:18.798539+00:00"
     },
     "USDCAD": {
       "asset_code": "USDCAD",
       "state": "BULLISH",
-      "score": 0.4444,
-      "confidence": 52,
-      "uncertainty": 48,
-      "evidence_count": 9,
+      "score": 0.5,
+      "confidence": 54,
+      "uncertainty": 46,
+      "evidence_count": 10,
       "source_type_count": 1,
-      "total_weight": 1.1138,
-      "bull_weight": 0.7426,
+      "total_weight": 1.2376,
+      "bull_weight": 0.8663,
       "bear_weight": 0.2475,
       "reasons": [
-        "Kanıt sayısı: 9",
+        "Kanıt sayısı: 10",
         "Kaynak türü: RSS",
-        "Yön skoru: +0.444",
-        "Yukarı ağırlık: 0.743",
+        "Yön skoru: +0.500",
+        "Yukarı ağırlık: 0.866",
         "Aşağı ağırlık: 0.248",
-        "Toplam ağırlık: 1.114"
+        "Toplam ağırlık: 1.238"
       ],
       "evidence_ids": [
         "rss_usdcad-h4-bullish-bounce-in-play-28th-october-2026_0_usdcad",
         "rss_usdcad-h4-potential-bullish-bounce-20th-october-2026_0_usdcad",
         "rss_usdcad-h4-possible-move-higher-26th-october-2026_0_usdcad",
+        "rss_usdcad-h4-potential-bullish-rise-9th-november-2026_0_usdcad",
         "rss_usdcad-h4-signs-of-a-bullish-reversal-2nd-november-2026_0_usdcad",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_37_usdcad",
         "rss_dollar-sliding-at-start-of-busy-week_6_usdcad",
@@ -3753,7 +3779,7 @@
         "rss_usdcad-h4-bearish-reversal-at-pullback-resistance-25th-september-2026_0_usdcad",
         "rss_usdcad-h4-possible-move-higher-23rd-october-2026_0_usdcad"
       ],
-      "generated_at": "2026-11-09T05:13:32.006052+00:00"
+      "generated_at": "2026-11-09T15:35:18.798589+00:00"
     },
     "USDCHF": {
       "asset_code": "USDCHF",
@@ -3792,7 +3818,7 @@
         "rss_swissy-pushes-higher-following-snb-meeting_0_usdchf",
         "rss_usdchf-h4-strong-resistance-ahead-6th-november-2026_0_usdchf"
       ],
-      "generated_at": "2026-11-09T05:13:32.006118+00:00"
+      "generated_at": "2026-11-09T15:35:18.798650+00:00"
     },
     "USDJPY": {
       "asset_code": "USDJPY",
@@ -3840,7 +3866,7 @@
         "x_2100211641115697543_usdjpy",
         "x_2099969862466469958_usdjpy"
       ],
-      "generated_at": "2026-11-09T05:13:32.006205+00:00"
+      "generated_at": "2026-11-09T15:35:18.798723+00:00"
     },
     "USOUSD": {
       "asset_code": "USOUSD",
@@ -3893,7 +3919,7 @@
         "x_2098120943273119801_usousd",
         "x_2099894826732839274_usousd"
       ],
-      "generated_at": "2026-11-09T05:13:32.006303+00:00"
+      "generated_at": "2026-11-09T15:35:18.798805+00:00"
     },
     "VIX": {
       "asset_code": "VIX",
@@ -3939,7 +3965,7 @@
         "x_2099815020443943051_vix",
         "x_2099880715236135080_vix"
       ],
-      "generated_at": "2026-11-09T05:13:32.006387+00:00"
+      "generated_at": "2026-11-09T15:35:18.798876+00:00"
     },
     "VVIX": {
       "asset_code": "VVIX",
@@ -3958,7 +3984,7 @@
       "evidence_ids": [
         "x_2098844844298993784_vvix"
       ],
-      "generated_at": "2026-11-09T05:13:32.006418+00:00"
+      "generated_at": "2026-11-09T15:35:18.798903+00:00"
     },
     "WDAY": {
       "asset_code": "WDAY",
@@ -3977,7 +4003,7 @@
       "evidence_ids": [
         "x_2100866191891783967_wday"
       ],
-      "generated_at": "2026-11-09T05:13:32.006448+00:00"
+      "generated_at": "2026-11-09T15:35:18.798930+00:00"
     },
     "XAGUSD": {
       "asset_code": "XAGUSD",
@@ -4006,7 +4032,7 @@
         "rss_daily-market-outlook-november-6-2026_13_xagusd",
         "x_2099850071575765447_xagusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.006498+00:00"
+      "generated_at": "2026-11-09T15:35:18.798973+00:00"
     },
     "XAUUSD": {
       "asset_code": "XAUUSD",
@@ -4083,7 +4109,7 @@
         "x_2100208410771747060_xauusd",
         "x_2099894826732839274_xauusd"
       ],
-      "generated_at": "2026-11-09T05:13:32.006646+00:00"
+      "generated_at": "2026-11-09T15:35:18.799096+00:00"
     },
     "XB1": {
       "asset_code": "XB1",
@@ -4102,7 +4128,7 @@
       "evidence_ids": [
         "x_2097680790025093570_xb1"
       ],
-      "generated_at": "2026-11-09T05:13:32.006681+00:00"
+      "generated_at": "2026-11-09T15:35:18.799125+00:00"
     },
     "XIN9I": {
       "asset_code": "XIN9I",
@@ -4121,26 +4147,26 @@
       "evidence_ids": [
         "x_2099924455904718965_xin9i"
       ],
-      "generated_at": "2026-11-09T05:13:32.006711+00:00"
+      "generated_at": "2026-11-09T15:35:18.799154+00:00"
     },
     "YM": {
       "asset_code": "YM",
-      "state": "BEARISH",
-      "score": -0.4041,
-      "confidence": 62,
-      "uncertainty": 38,
-      "evidence_count": 46,
+      "state": "NEUTRAL",
+      "score": -0.3398,
+      "confidence": 59,
+      "uncertainty": 41,
+      "evidence_count": 48,
       "source_type_count": 2,
-      "total_weight": 5.1604,
-      "bull_weight": 1.3964,
+      "total_weight": 5.4079,
+      "bull_weight": 1.6439,
       "bear_weight": 3.4815,
       "reasons": [
-        "Kanıt sayısı: 46",
+        "Kanıt sayısı: 48",
         "Kaynak türü: RSS, X",
-        "Yön skoru: -0.404",
-        "Yukarı ağırlık: 1.396",
+        "Yön skoru: -0.340",
+        "Yukarı ağırlık: 1.644",
         "Aşağı ağırlık: 3.482",
-        "Toplam ağırlık: 5.160"
+        "Toplam ağırlık: 5.408"
       ],
       "evidence_ids": [
         "rss_daily-market-outlook-september-30-2026_3_ym",
@@ -4176,6 +4202,8 @@
         "rss_insitutional-insights-goldman-sachs-heightened-protection-demand_5_ym",
         "rss_institutional-insights-goldman-sachs-earnings-test-versus-positioning_2_ym",
         "rss_daily-market-outlook-october-19-2026_2_ym",
+        "rss_institutional-insights-deutsche-bank-investor-flows-positioning-91126_3_ym",
+        "rss_daily-market-outlook-november-9-2026_4_ym",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_5_ym",
         "rss_institutional-insights-goldman-sachs-all-eyes-on-the-mid-terms_5_ym",
         "rss_daily-market-outlook-october-23-2026_2_ym",
@@ -4190,7 +4218,7 @@
         "x_2099969862466469958_ym",
         "x_2099601023924875583_ym"
       ],
-      "generated_at": "2026-11-09T05:13:32.006844+00:00"
+      "generated_at": "2026-11-09T15:35:18.799275+00:00"
     },
     "ZC": {
       "asset_code": "ZC",
@@ -4224,7 +4252,7 @@
         "x_2097680790025093570_zc",
         "x_2099850071575765447_zc"
       ],
-      "generated_at": "2026-11-09T05:13:32.006910+00:00"
+      "generated_at": "2026-11-09T15:35:18.799328+00:00"
     },
     "ZL": {
       "asset_code": "ZL",
@@ -4253,7 +4281,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_17_zl",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_17_zl"
       ],
-      "generated_at": "2026-11-09T05:13:32.006967+00:00"
+      "generated_at": "2026-11-09T15:35:18.799373+00:00"
     },
     "ZM": {
       "asset_code": "ZM",
@@ -4282,7 +4310,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_18_zm",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_18_zm"
       ],
-      "generated_at": "2026-11-09T05:13:32.007025+00:00"
+      "generated_at": "2026-11-09T15:35:18.799417+00:00"
     },
     "ZS": {
       "asset_code": "ZS",
@@ -4314,7 +4342,7 @@
         "x_2097680790025093570_zs",
         "x_2099850071575765447_zs"
       ],
-      "generated_at": "2026-11-09T05:13:32.007092+00:00"
+      "generated_at": "2026-11-09T15:35:18.799466+00:00"
     },
     "ZW": {
       "asset_code": "ZW",
@@ -4346,7 +4374,7 @@
         "x_2097680790025093570_zw",
         "x_2099850071575765447_zw"
       ],
-      "generated_at": "2026-11-09T05:13:32.007151+00:00"
+      "generated_at": "2026-11-09T15:35:18.799515+00:00"
     }
   },
   "protocol_rules": {
