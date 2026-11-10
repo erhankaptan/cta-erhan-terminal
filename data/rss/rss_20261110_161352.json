@@ -1,0 +1,373 @@
+[
+  {
+    "id": "institutional-insights-jpmorgan-institutional-contrarian-buy-signal",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: JPMorgan Institutional Contrarian Buy Signal",
+    "title_tr": "Kurumsal İçgörüler: JPMorgan Kurumsal Zıt Yönlü Alım Sinyali",
+    "content_en": "...",
+    "content_tr": "JPMorgan'ın son kurumsal müşteri anketi, aşırı derecede düşüş eğilimli bir duyarlılık seviyesi ortaya koyarak nadir bir 'zıt yönlü alım sinyali' tetikledi. Tarihsel olarak, kurumsal yatırımcılar arasındaki bu denli yaygın karamsarlık, genellikle önemli piyasa diplerine işaret etmiş ve ardından güçlü ralliler gelmiştir. Sinyal, piyasanın aşırı satılmış olabileceğini ve akıllı paranın bir toparlanma beklentisiyle pozisyon biriktirmeye başlayabileceğini gösteriyor. Enflasyon endişeleri ve potansiyel resesyon riskleri dahil olmak üzere makroekonomik belirsizlikler devam etse de, mevcut duyarlılık göstergesi riskli varlıklar için potansiyel bir dönüm noktasına işaret ediyor. Özellikle büyüme odaklı sektörlerdeki hisse senetleri, bu zıt yönlü sinyalin gerçekleşmesi durumunda faydalanacak varlıklar olarak öne çıkıyor. Yatırımcılara, likiditede iyileşme ve merkez bankası söyleminde potansiyel bir değişim işaretlerini izlemeleri tavsiye ediliyor; bu durum toparlanmayı daha da hızlandırabilir.",
+    "url": "https://www.tickmill.com/blog/institutional-insights-jpmorgan-institutional-contrarian-buy-signal",
+    "published_at": "Tue, 10 Nov 2026 15:29:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052422+00:00",
+    "translation_hash": "",
+    "yorum": "JPMorgan'ın kurumsal alım sinyali, piyasada aşırı karamsarlığın bir toparlanma potansiyeline işaret ettiğini gösteriyor. Bu durum, özellikle hisse senetleri gibi riskli varlıklarda kısa-orta vadede yukarı yönlü bir hareketlilik beklentisi yaratabilir. Ancak, makroekonomik belirsizlikler nedeniyle volatilite devam edebilir ve yatırımcıların dikkatli olması gerekmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal alım sinyali, hisse senedi piyasasında toparlanma beklentisini güçlendiriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro E-mini S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal alım sinyali, hisse senedi piyasasında toparlanma beklentisini güçlendiriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Büyüme odaklı sektörlerin toparlanma potansiyeli, kurumsal alım sinyali ile destekleniyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro E-mini Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Büyüme odaklı sektörlerin toparlanma potansiyeli, kurumsal alım sinyali ile destekleniyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi, küçük ölçekli şirketlerin performansını olumlu etkileyebilir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow",
+        "yon": "YUKARI",
+        "gerekce": "Kurumsal alım sinyali, genel hisse senedi piyasasında toparlanma beklentisini destekliyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi, enerji talebini artırarak petrol fiyatlarını destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi, enerji talebini artırarak petrol fiyatlarını destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi, gümüşün endüstriyel talebini artırabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi, platinin endüstriyel talebini artırabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Piyasa toparlanma sinyali risk iştahını artırsa da, makroekonomik belirsizlikler altının güvenli liman özelliğini koruyabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "NÖTR",
+        "gerekce": "Piyasa toparlanma sinyali risk iştahını artırsa da, makroekonomik belirsizlikler altının güvenli liman özelliğini koruyabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artması ve potansiyel USD zayıflığı, Euro'yu destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artması ve potansiyel USD zayıflığı, İngiliz Sterlini'ni destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi ve artan risk iştahı, emtia para birimi olan AUD'yi destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma beklentisi ve artan risk iştahı, emtia para birimi olan CAD'yi destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk iştahının artması, güvenli liman Japon Yeni'ne olan talebi azaltarak değer kaybetmesine neden olabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Risk iştahının artması, güvenli liman İsviçre Frangı'na olan talebi azaltarak değer kaybetmesine neden olabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-10T16:14:24.201239+00:00"
+  },
+  {
+    "id": "crude-plunging-on-usiran-peace-hopes",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Crude Plunging On US/Iran Peace Hopes",
+    "title_tr": "ABD/İran Barış Umutlarıyla Ham Petrol Düşüşte",
+    "content_en": "Peace Hopes ReturnCrude prices are continuing to push lower on Tuesday with the futures market now down at its lowest level since mid-August. The continued slide comes amidst rising optimism over diplomatic efforts to end the conflict between the US and Iran. Trump...",
+    "content_tr": "Barış Umutları Geri Döndü. Ham petrol fiyatları Salı günü düşüşünü sürdürüyor ve vadeli işlem piyasası şu anda Ağustos ortasından bu yana en düşük seviyesinde. Bu devam eden düşüş, ABD ile İran arasındaki çatışmayı sona erdirmeye yönelik diplomatik çabalara ilişkin artan iyimserliğin ortasında geliyor. Trump...",
+    "url": "https://www.tickmill.com/blog/crude-plunging-on-usiran-peace-hopes",
+    "published_at": "Tue, 10 Nov 2026 09:57:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052450+00:00",
+    "translation_hash": "",
+    "yorum": "ABD ve İran arasındaki barış umutları, jeopolitik gerilimin azalması beklentisiyle ham petrol fiyatlarında önemli bir düşüşe neden olmuştur. Bu durum, küresel piyasalar için olumlu bir sinyal olarak algılanabilirken, petrol üreticileri üzerinde baskı yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD ve İran arasındaki barış umutları, jeopolitik gerilimi azaltarak petrol arzı endişelerini hafiflettiği için fiyatlar düşüşte.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-10T16:14:35.886169+00:00"
+  },
+  {
+    "id": "dollar-stays-down-ahead-of-cpi",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Stays Down Ahead of CPI",
+    "title_tr": "Dolar TÜFE Öncesi Düşüşünü Sürdürüyor",
+    "content_en": "Monthly CPI DueThe US Dollar remains weak today ahead of the keenly awaited monthly October CPI readings this afternoon. Interestingly, the market is looking for core CPI to cool from 0.3% to 0.2% and headline to drop from 0.6% to 0.3%. Given the rise we saw in ann...",
+    "content_tr": "Aylık TÜFE Bekleniyor. ABD Doları, bu öğleden sonra merakla beklenen aylık Ekim TÜFE verileri öncesinde bugün zayıf kalmaya devam ediyor. İlginç bir şekilde, piyasa çekirdek TÜFE'nin %0,3'ten %0,2'ye soğumasını ve manşet TÜFE'nin %0,6'dan %0,3'e düşmesini bekliyor. Yıllık bazda gördüğümüz artış göz önüne alındığında...",
+    "url": "https://www.tickmill.com/blog/dollar-stays-down-ahead-of-cpi",
+    "published_at": "Tue, 10 Nov 2026 09:34:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052471+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD Doları'nın TÜFE verileri öncesindeki zayıflığına odaklanıyor. Beklentilerin altında gelecek bir TÜFE, Dolar'daki düşüşü hızlandırabilir ve Fed'in daha güvercin bir duruş sergilemesine yol açarak riskli varlıkları destekleyebilir. Aksi takdirde Dolar güçlenebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "TÜFE verileri öncesi zayıf seyrediyor; piyasa TÜFE'nin soğumasını bekliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Zayıf Dolar ve düşük TÜFE beklentisi altın fiyatlarını destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Düşük TÜFE beklentisi ve Dolar zayıflığı risk iştahını artırarak hisse senedi piyasalarını destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "ABD Doları'nın zayıflaması beklentisi Euro'yu güçlendirebilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-10T16:14:53.318234+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-10-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 10, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 10 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 10, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Asia’s AI Rebound Tests Froth From FundamentalsAsian equity markets extended their sharp relief rally on Tuesday as tumbling energy costs, bl...",
+    "content_tr": "Günlük Piyasa Görünümü, 10 Kasım 2026Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill GroupMunnelly'nin Makro Mektubu - Asya'nın Yapay Zeka Toparlanması Temellerden Gelen Köpüğü Test EdiyorAsya hisse senedi piyasaları Salı günü düşen enerji maliyetleri nedeniyle keskin rahatlama rallisini genişletti, bl...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-10-2026",
+    "published_at": "Tue, 10 Nov 2026 09:56:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052496+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, Asya hisse senedi piyasalarında yapay zeka odaklı güçlü bir toparlanmaya işaret ederken, düşen enerji maliyetlerinin bu rahatlama rallisini desteklediğini belirtiyor. Bu durum, hisse senetleri için olumlu, enerji emtiaları için ise olumsuz bir görünüm sunmaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Asya hisse senedi piyasalarındaki 'yapay zeka toparlanması' ve genel 'keskin rahatlama rallisi' teknoloji ağırlıklı endeksler için olumlu bir sinyaldir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'düşen enerji maliyetleri', ham petrol fiyatları üzerinde aşağı yönlü baskı oluşturmaktadır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel 'düşen enerji maliyetleri' ifadesi, doğal gaz gibi diğer enerji emtiaları için de olumsuz bir görünüm sunmaktadır.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-10T16:15:04.821791+00:00"
+  },
+  {
+    "id": "institutional-insights-goldman-sachs-sp500-positioning-levels-update-10911",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs SP500 Positioning & Levels Update 10/9/11",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs SP500 Pozisyonlama ve Seviyeler Güncellemesi 10/9/11",
+    "content_en": "SYSTEMATIC SUPPLY BIAS SITS DIRECTLY AGAINST ACCELERATING CORPORATE ABSORPTION.Goldman Sachs positioning and execution desks reveal a market navigating an acute structural tug-of-war. Fundamental Long/Short net leverage has cratered into historic single-digit perce...",
+    "content_tr": "SİSTEMATİK ARZ YANLILIĞI, HIZLANAN KURUMSAL ALIMIN TAM KARŞISINDA YER ALIYOR. Goldman Sachs'ın pozisyonlama ve işlem masaları, piyasanın keskin bir yapısal çekişme içinde olduğunu gösteriyor. Temel Uzun/Kısa net kaldıraç, tarihi tek haneli yüzdelere düşerek büyük ölçüde azaldı...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-sp500-positioning-levels-update-10911",
+    "published_at": "Tue, 10 Nov 2026 10:04:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052551+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, sistematik arz baskısı ile hızlanan kurumsal alım arasında bir çekişme yaşıyor. Temel uzun/kısa kaldıraçtaki tarihi düşüş, kurumsal yatırımcılar arasında temkinli bir havayı işaret ediyor. Bu durum, kurumsal alımların arzı dengelemesi halinde potansiyel bir toparlanmaya zemin hazırlayabilir, ancak genel belirsizlik devam ediyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Piyasa, sistematik arz baskısı ve hızlanan kurumsal alım arasında keskin bir çekişme içinde. Temel kaldıraç tarihi düşük seviyelerde, bu da belirsizliğe rağmen potansiyel bir denge veya toparlanma sinyali veriyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-10T16:15:23.281090+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-101126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 10/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 10/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 10/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 10/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7275/35 AYLIK DİRENÇ ARALIĞI 7980 DESTEK 7361 HAFTALIK BOĞA AYI...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-101126",
+    "published_at": "Tue, 10 Nov 2026 08:48:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052615+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli teknik seviyeler sunarak, piyasa katılımcılarına potansiyel destek ve direnç noktaları hakkında bilgi vermektedir. Belirtilen aylık boğa/ayı bölgesi ve yüksek direnç seviyeleri, endeksin orta vadeli yönü için güçlü bir yükseliş potansiyeline işaret etmektedir. Bu seviyeler, yatırımcıların işlem stratejilerini belirlemede ve risk yönetiminde kullanabileceği önemli göstergelerdir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Aylık direnç seviyesi (7980) destek seviyesinin (7361) oldukça üzerinde olup, yukarı yönlü potansiyeli veya mevcut yükseliş trendini işaret etmektedir. Destek seviyesi, boğa/ayı bölgesinin üzerinde yer almaktadır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "ES vadeli işlemlerine atıfta bulunularak, endeks için belirlenen direnç seviyeleri destek seviyelerinin üzerinde olup, yükseliş potansiyelini göstermektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-10T16:15:44.411097+00:00"
+  },
+  {
+    "id": "institutional-fx-insights-ubs-cpi-to-test-usd-staying-power",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional FX Insights: UBS CPI To Test USD Staying Power",
+    "title_tr": "Kurumsal FX Analizleri: UBS TÜFE, USD'nin Dayanıklılığını Test Edecek",
+    "content_en": "UBS FX & MACRO DESK BRIEFING: OCTOBER CPI & USD STAYING POWERTHE UBS TAKE: USD UNDER PRESSURE AS CPI DISINFLATION TESTS RATE BUFFERThe US Dollar faces immediate pressure as foreign exchange desks position for the October Consumer Price Index release. Both h...",
+    "content_tr": "UBS FX & MAKRO MASASI BİLGİLENDİRMESİ: EKİM TÜFE VE USD'NİN DAYANIKLILIĞI. UBS'İN GÖRÜŞÜ: TÜFE'DEKİ DİSİNFLASYON ORAN TAMPONUNU TEST EDERKEN USD BASKI ALTINDA. ABD Doları, döviz masaları Ekim Tüketici Fiyat Endeksi (TÜFE) açıklanması için pozisyon alırken anında baskıyla karşı karşıya.",
+    "url": "https://www.tickmill.com/blog/institutional-fx-insights-ubs-cpi-to-test-usd-staying-power",
+    "published_at": "Tue, 10 Nov 2026 14:01:00 +0000",
+    "fetched_at": "2026-11-10T16:13:52.052638+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, Ekim TÜFE verilerinin ABD Doları üzerinde baskı oluşturduğunu ve disinflasyonun faiz oranı beklentilerini zayıflattığını belirtiyor. Bu durum, USD'nin diğer majör para birimleri karşısında değer kaybetmesine neden olabilir. Piyasalar, Fed'in gelecekteki para politikası adımlarına ilişkin ipuçları için TÜFE verilerini yakından takip edecek.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makale, Ekim TÜFE disinflasyonunun USD üzerinde baskı oluşturduğunu ve faiz oranı tamponunu test ettiğini belirtiyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin baskı altında olması ve zayıflaması, Euro'nun USD karşısında değer kazanmasına yol açarak 6E'yi destekler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin zayıflaması beklentisi, EURUSD paritesinin yükselmesine neden olur.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "USD'nin baskı altında olması, Japon Yeni'nin USD karşısında güçlenmesine ve 6J vadeli işlemlerinin yükselmesine yol açar.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-10T16:16:04.675546+00:00"
+  }
+]
