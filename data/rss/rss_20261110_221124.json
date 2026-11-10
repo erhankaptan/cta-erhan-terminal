@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ftse-reverses-into-the-red-hot-us-inflation-hawkish-fed-and-boe-warnings-weigh",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Reverses into the Red Hot U.S. Inflation, Hawkish Fed, and BoE Warnings Weigh",
+    "title_tr": "FTSE, Kızgın ABD Enflasyonu, Şahin Fed ve BoE Uyarılarının Baskısıyla Kırmızıya Döndü",
+    "content_en": "FTSE Reverses into the Red Hot U.S. Inflation, Hawkish Fed, and BoE Warnings WeighLondon's benchmark FTSE 100 surrendered an initial morning advance to slip back below the flatline on Tuesday, heading into the close down nearly 0.5% after closing at 10,782.87 ...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Salı günü sabahki ilk yükselişini geri vererek düşüşe geçti ve 10.782,87 seviyesinden kapanışa doğru yaklaşık %0,5 düşüşle günü tamamladı. Bu düşüşte kızgın ABD enflasyonu, şahin Fed ve BoE uyarıları etkili oldu.",
+    "url": "https://www.tickmill.com/blog/ftse-reverses-into-the-red-hot-us-inflation-hawkish-fed-and-boe-warnings-weigh",
+    "published_at": "Tue, 10 Nov 2026 16:28:00 +0000",
+    "fetched_at": "2026-11-10T22:11:24.207416+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD'deki yüksek enflasyon ve merkez bankalarının (Fed ve BoE) şahin duruşunun küresel piyasalarda risk iştahını azalttığını ve hisse senedi piyasaları üzerinde baskı oluşturduğunu göstermektedir. Bu durum, özellikle İngiliz endeksi FTSE 100'de gözlemlenen düşüşle piyasalarda olumsuz bir hava yaratmıştır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede FTSE 100'ün %0,5 düşüşle kapandığı açıkça belirtilmiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kızgın ABD enflasyonu ve şahin Fed duruşu, ABD hisse senedi piyasaları için olumsuz bir sinyaldir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Kızgın ABD enflasyonu ve şahin Fed duruşu, özellikle büyüme odaklı teknoloji hisselerini içeren Nasdaq için olumsuz bir sinyaldir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed duruşu, ABD Doları'nı güçlendirerek EUR/USD paritesini aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "BoE uyarıları ve şahin Fed'in ABD Doları'nı güçlendirmesi GBP/USD paritesi üzerinde baskı oluşturur.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-10T22:11:39.987711+00:00"
+  }
+]
