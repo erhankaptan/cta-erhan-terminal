@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ftse-rebounds-on-mining-surge-as-sub-97-crude-and-softening-yields-ease-pressure",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Rebounds on Mining Surge as Sub-$97 Crude and Softening Yields Ease Pressure",
+    "title_tr": "FTSE, Madencilikteki Yükselişle Toparlanıyor; 97 Dolar Altı Ham Petrol ve Yumuşayan Getiriler Baskıyı Azaltıyor",
+    "content_en": "FTSE Rebounds on Mining Surge as Sub-$97 Crude and Softening Yields Ease PressureLondon's benchmark FTSE 100 opened the trading week on the front foot, climbing 84.82 points or 0.79% to reach 10,758.76 by late morning. Broad risk appetite was buoyed by a sharp...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, işlem haftasına güçlü bir başlangıç yaparak öğleden sonra 84.82 puan veya %0.79 artışla 10.758.76 seviyesine ulaştı. Geniş risk iştahı, keskin bir yükselişle desteklendi...",
+    "url": "https://www.tickmill.com/blog/ftse-rebounds-on-mining-surge-as-sub-97-crude-and-softening-yields-ease-pressure",
+    "published_at": "Mon, 09 Nov 2026 16:27:00 +0000",
+    "fetched_at": "2026-11-10T00:00:18.582340+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, FTSE 100'ün madencilik sektöründeki yükseliş ve düşen ham petrol fiyatları ile tahvil getirilerinin etkisiyle toparlandığını belirtiyor. Bu durum, piyasada risk iştahının arttığını ve genel olarak hisse senedi piyasaları için olumlu bir hava oluştuğunu gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "FTSE 100, madencilik sektöründeki yükseliş ve genel risk iştahı ile %0.79 artış göstererek toparlandı.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Ham petrol fiyatlarının 97 dolar altına düşmesi, piyasa üzerindeki baskıyı azaltarak genel risk iştahını destekledi, bu da petrol için düşüş anlamına gelir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-10T00:00:39.519581+00:00"
+  }
+]
