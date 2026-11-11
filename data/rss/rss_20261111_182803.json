@@ -1,0 +1,209 @@
+[
+  {
+    "id": "institutional-insights-jpmorgan-market-intel-morning-update-equity-strategy-111126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: JPMorgan Market Intel Morning Update & Equity Strategy 11/11/26",
+    "title_tr": "Kurumsal İçgörüler: JPMorgan Piyasa İstihbaratı Sabah Güncellemesi ve Hisse Senedi Stratejisi 11/11/26",
+    "content_en": "JPMORGAN MARKET INTEL & STRATEGY BRIEFING: MORNING TECH SURGE, DUBRAVKO 8,000 SPX TARGET & BEAR FLATTENING RE-PRICINGTHE TAKE: TECH PRE-MARKET ERUPTS AS BEAR FLATTENING TESTS VALUATION RESILIENCEUS equity futures are staging an aggressive, tech-led morning ...",
+    "content_tr": "JPMORGAN PİYASA İSTİHBARATI VE STRATEJİ BRİFİNGİ: SABAH TEKNOLOJİ YÜKSELİŞİ, DUBRAVKO'NUN 8.000 SPX HEDEFİ VE AYI PİYASASINDAKİ DÜZLEŞMENİN YENİDEN FİYATLANMASI. ÖZET: AYI PİYASASINDAKİ DÜZLEŞME DEĞERLEME DİRENCİNİ TEST EDERKEN TEKNOLOJİ PİYASA ÖNCESİNDE PATLAMA YAŞIYOR. ABD hisse senedi vadeli işlemleri, teknoloji liderliğinde agresif bir sabah sergiliyor...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-jpmorgan-market-intel-morning-update-equity-strategy-111126",
+    "published_at": "Wed, 11 Nov 2026 13:33:00 +0000",
+    "fetched_at": "2026-11-11T18:28:03.511046+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, teknoloji hisselerinin öncülüğünde güçlü bir başlangıç yapıyor ve JPMorgan'ın S&P 500 için belirlediği yüksek hedef iyimserliği artırıyor. Ancak, tahvil piyasasındaki ayı piyasası düzleşmesi, değerlemelerin sürdürülebilirliği konusunda bazı endişeler yaratıyor. Bu durum, kısa vadeli yükseliş eğilimine rağmen uzun vadeli risklere dikkat çekiyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'US equity futures' ve 'SPX target' olarak bahsedilen S&P 500'ün 8.000 hedefi ve teknoloji liderliğindeki agresif yükseliş, genel olarak pozitif bir yönü işaret ediyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "'MORNING TECH SURGE' ve 'tech-led morning' ifadeleri, teknoloji hisselerinin ve dolayısıyla Nasdaq'ın güçlü bir yükseliş yaşadığını açıkça belirtiyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "'US equity futures' genel ifadesi içinde yer alıyor ve piyasanın teknoloji liderliğinde agresif bir yükseliş sergilediği belirtiliyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "'US equity futures' genel ifadesi içinde yer alıyor ve piyasanın teknoloji liderliğinde agresif bir yükseliş sergilediği belirtiliyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-11T18:28:17.665552+00:00"
+  },
+  {
+    "id": "usdjpy-hits-two-month-highs",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USDJPY Hits Two-Month Highs",
+    "title_tr": "USDJPY İki Ayın Zirvesine Ulaştı",
+    "content_en": "Dollar Rallying MidweekUSDJPY is threatening to break out above the 159 level which has capped the market over the last two months. The move comes amidst a fresh push higher in USD following hotter-than-forecast inflation data yesterday and a slew of hawkish Fed co...",
+    "content_tr": "Hafta ortasında dolar yükselişte. USDJPY, son iki aydır piyasayı sınırlayan 159 seviyesinin üzerine çıkma tehdidinde bulunuyor. Bu hareket, dün beklenenden daha yüksek gelen enflasyon verileri ve bir dizi şahin Fed yorumunun ardından ABD dolarında yeni bir yükselişle birlikte geliyor.",
+    "url": "https://www.tickmill.com/blog/usdjpy-hits-two-month-highs",
+    "published_at": "Wed, 11 Nov 2026 11:27:00 +0000",
+    "fetched_at": "2026-11-11T18:28:03.511138+00:00",
+    "translation_hash": "",
+    "yorum": "Beklenenden yüksek enflasyon ve şahin Fed söylemleri, ABD dolarını güçlendirerek USDJPY'nin iki ayın zirvesine çıkmasına neden oldu. Bu durum, dolar endeksini yukarı çekerken, diğer majör para birimleri karşısında doların değer kazanmasına yol açtı. Piyasalar, Fed'in faiz politikasına ilişkin beklentilerini yeniden şekillendirebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları/Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "ABD doları, beklenenden yüksek enflasyon ve şahin Fed yorumları ile güçlenerek JPY karşısında iki ayın zirvesine çıktı.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Beklenenden yüksek enflasyon verileri ve şahin Fed yorumları ABD dolarını genel olarak güçlendiriyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Euro karşısında değer kazanıyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Sterlin karşısında değer kazanıyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "AUDUSD",
+        "isim": "Avustralya Doları/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Avustralya doları karşısında değer kazanıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları/ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Yeni Zelanda doları karşısında değer kazanıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları/Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Güçlenen ABD doları, Kanada doları karşısında değer kazanıyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "USDCHF",
+        "isim": "ABD Doları/İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Güçlenen ABD doları, İsviçre Frangı karşısında değer kazanıyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Euro'nun değer kaybetmesine neden oluyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları ve USDJPY'nin yükselişi, Japon Yeni'nin değer kaybetmesine neden oluyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Sterlin'in değer kaybetmesine neden oluyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Avustralya dolarının değer kaybetmesine neden oluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, Kanada dolarının değer kaybetmesine neden oluyor.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlenen ABD doları, İsviçre Frangı'nın değer kaybetmesine neden oluyor.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-11-11T18:28:43.034909+00:00"
+  },
+  {
+    "id": "ftse-posts-modest-gains-as-energy-and-mining-rebound-offsets-sticky-inflation-outlook",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Posts Modest Gains as Energy and Mining Rebound Offsets Sticky Inflation Outlook",
+    "title_tr": "FTSE, Enerji ve Madencilikteki Toparlanmanın Yapışkan Enflasyon Görünümünü Telafi Etmesiyle Mütevazı Kazançlar Elde Etti",
+    "content_en": "FTSE Posts Modest Gains as Energy and Mining Rebound Offsets Sticky Inflation OutlookLondon's benchmark FTSE 100 posted modest gains on Wednesday, buoyed by a broad recovery across energy majors and mining heavyweights as crude oil and bullion prices staged a ...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Çarşamba günü ham petrol ve külçe fiyatlarının önemli bir toparlanma sergilemesiyle enerji devleri ve madencilik ağırlıklı şirketlerdeki geniş çaplı bir iyileşmeyle desteklenerek mütevazı kazançlar kaydetti.",
+    "url": "https://www.tickmill.com/blog/ftse-posts-modest-gains-as-energy-and-mining-rebound-offsets-sticky-inflation-outlook",
+    "published_at": "Wed, 11 Nov 2026 17:13:00 +0000",
+    "fetched_at": "2026-11-11T18:28:03.511207+00:00",
+    "translation_hash": "",
+    "yorum": "İngiltere piyasası, enerji ve madencilik sektörlerindeki güçlü toparlanma sayesinde enflasyon endişelerine rağmen pozitif bir gün geçirdi. Ham petrol ve altın fiyatlarındaki yükseliş, FTSE 100'ün mütevazı kazançlar elde etmesini sağladı. Bu durum, emtia piyasalarındaki hareketliliğin genel piyasa duyarlılığını olumlu etkileyebileceğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere FTSE 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Enerji ve madencilik sektörlerindeki toparlanma ile hafif kazançlar kaydetti.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Enerji sektöründeki toparlanma ve fiyatlardaki yükselişle desteklendi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Madencilik sektöründeki toparlanma ve fiyatlardaki yükselişle desteklendi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-11T18:28:55.233130+00:00"
+  }
+]
