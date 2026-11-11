@@ -163,7 +163,23 @@ with st.sidebar:
 # ============================================================
 all_tweets = load_json_files(TWEETS_DIR, "tweets_*.json")
 all_analysis = load_json_files(ANALYSIS_DIR, "analysis_*.json")
-all_rss = load_json_files(RSS_DIR, "rss_*.json")
+# DUZELTME (2026-11-11, Reis'in "tickmill tamamen yanlis" bulgusu): ESKIDEN
+# "rss_*.json" deseni data/rss/ altindaki "rss_latest.json" adli, artik
+# hicbir script tarafindan uretilmeyen/yazilmayan ESKI/KALINTI bir dosyayi
+# da yakaliyordu -- o dosyanin 33. kayitindan itibaren icerigi gercek
+# Tickmill makalesi DEGIL, Nitter uzerinden cekilmis Ispanyolca Twitter/X
+# retweet'leriydi (source: "misterpuertas"/"juanjesusmontoy"), ve bu yuzden
+# TICKMILL YORUMLARI panelinde İspanyolca tweet metinleri goruluyordu.
+# scripts/fetch_rss.py SADECE gercek Tickmill feed'ini (tickmill.com/blog/
+# rss/feed.xml) cekiyor ve HER ZAMAN tarihli "rss_YYYYMMDD_HHMMSS.json"
+# adiyla yaziyor -- bu yuzden desen artik SADECE o tarihli dosyalarla
+# eslesecek sekilde sikilastirildi (rss_latest.json gibi bir kalinti bir
+# daha asla yakalanmaz). Ayrica ikinci bir guvenlik katmani olarak,
+# source alani "tickmill" OLMAYAN hicbir kayit (orn. yanlislikla baska
+# bir pipeline'dan sizan bir X/Twitter kaydi) bu panele asla girmesin diye
+# asagida ayrica filtreleniyor.
+all_rss = load_json_files(RSS_DIR, "rss_2*_*.json")
+all_rss = [a for a in all_rss if str(a.get("source", "")).strip().lower() == "tickmill"]
 synthesis_snapshot = load_synthesis_snapshot()
 
 x_with_assets = [a for a in all_analysis if a.get("varliklar") and len(a.get("varliklar", [])) > 0]
