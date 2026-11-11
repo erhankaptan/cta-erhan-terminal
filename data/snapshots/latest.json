@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:11:45.416343+00:00",
+  "generated_at": "2026-11-11T02:36:19.900317+00:00",
   "total_assets": 133,
   "state_counts": {
     "INSUFFICIENT": 77,
@@ -26,7 +26,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1093 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408610+00:00"
+      "generated_at": "2026-11-11T02:36:19.890034+00:00"
     },
     "1196 HK": {
       "asset_code": "1196 HK",
@@ -45,7 +45,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1196 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408674+00:00"
+      "generated_at": "2026-11-11T02:36:19.890116+00:00"
     },
     "1299 HK": {
       "asset_code": "1299 HK",
@@ -66,7 +66,7 @@
         "x_2099252230914523469_1299 hk",
         "x_2101391122417541582_1299 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408748+00:00"
+      "generated_at": "2026-11-11T02:36:19.890211+00:00"
     },
     "1347 HK": {
       "asset_code": "1347 HK",
@@ -85,7 +85,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1347 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408781+00:00"
+      "generated_at": "2026-11-11T02:36:19.890279+00:00"
     },
     "1801 HK": {
       "asset_code": "1801 HK",
@@ -104,7 +104,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1801 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408813+00:00"
+      "generated_at": "2026-11-11T02:36:19.890346+00:00"
     },
     "1810 HK": {
       "asset_code": "1810 HK",
@@ -125,7 +125,7 @@
         "x_2099252230914523469_1810 hk",
         "x_2101391122417541582_1810 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408856+00:00"
+      "generated_at": "2026-11-11T02:36:19.890426+00:00"
     },
     "1888 HK": {
       "asset_code": "1888 HK",
@@ -144,7 +144,7 @@
       "evidence_ids": [
         "x_2101391122417541582_1888 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408889+00:00"
+      "generated_at": "2026-11-11T02:36:19.890494+00:00"
     },
     "189 HK": {
       "asset_code": "189 HK",
@@ -163,7 +163,7 @@
       "evidence_ids": [
         "x_2101391122417541582_189 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408926+00:00"
+      "generated_at": "2026-11-11T02:36:19.890541+00:00"
     },
     "2285 HK": {
       "asset_code": "2285 HK",
@@ -182,7 +182,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2285 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408957+00:00"
+      "generated_at": "2026-11-11T02:36:19.890581+00:00"
     },
     "2431 HK": {
       "asset_code": "2431 HK",
@@ -201,7 +201,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2431 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.408987+00:00"
+      "generated_at": "2026-11-11T02:36:19.890619+00:00"
     },
     "2562 HK": {
       "asset_code": "2562 HK",
@@ -220,7 +220,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2562 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409016+00:00"
+      "generated_at": "2026-11-11T02:36:19.890655+00:00"
     },
     "2587 HK": {
       "asset_code": "2587 HK",
@@ -239,7 +239,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2587 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409046+00:00"
+      "generated_at": "2026-11-11T02:36:19.890692+00:00"
     },
     "2591 HK": {
       "asset_code": "2591 HK",
@@ -258,7 +258,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2591 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409075+00:00"
+      "generated_at": "2026-11-11T02:36:19.890729+00:00"
     },
     "2609 HK": {
       "asset_code": "2609 HK",
@@ -277,7 +277,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2609 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409105+00:00"
+      "generated_at": "2026-11-11T02:36:19.890766+00:00"
     },
     "2616 HK": {
       "asset_code": "2616 HK",
@@ -296,7 +296,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2616 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409134+00:00"
+      "generated_at": "2026-11-11T02:36:19.890804+00:00"
     },
     "2648 HK": {
       "asset_code": "2648 HK",
@@ -315,7 +315,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2648 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409164+00:00"
+      "generated_at": "2026-11-11T02:36:19.890843+00:00"
     },
     "2650 HK": {
       "asset_code": "2650 HK",
@@ -334,7 +334,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2650 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409193+00:00"
+      "generated_at": "2026-11-11T02:36:19.890885+00:00"
     },
     "2661 HK": {
       "asset_code": "2661 HK",
@@ -353,7 +353,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2661 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409225+00:00"
+      "generated_at": "2026-11-11T02:36:19.890922+00:00"
     },
     "2800 HK": {
       "asset_code": "2800 HK",
@@ -372,7 +372,7 @@
       "evidence_ids": [
         "x_2101391122417541582_2800 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409254+00:00"
+      "generated_at": "2026-11-11T02:36:19.890973+00:00"
     },
     "3308 HK": {
       "asset_code": "3308 HK",
@@ -391,7 +391,7 @@
       "evidence_ids": [
         "x_2101391122417541582_3308 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409283+00:00"
+      "generated_at": "2026-11-11T02:36:19.891011+00:00"
     },
     "3808 HK": {
       "asset_code": "3808 HK",
@@ -410,7 +410,7 @@
       "evidence_ids": [
         "x_2101391122417541582_3808 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409311+00:00"
+      "generated_at": "2026-11-11T02:36:19.891048+00:00"
     },
     "639 HK": {
       "asset_code": "639 HK",
@@ -429,7 +429,7 @@
       "evidence_ids": [
         "x_2101391122417541582_639 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409342+00:00"
+      "generated_at": "2026-11-11T02:36:19.891091+00:00"
     },
     "6869 HK": {
       "asset_code": "6869 HK",
@@ -448,7 +448,7 @@
       "evidence_ids": [
         "x_2101391122417541582_6869 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409370+00:00"
+      "generated_at": "2026-11-11T02:36:19.891129+00:00"
     },
     "6A": {
       "asset_code": "6A",
@@ -494,7 +494,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_3_6a",
         "rss_daily-market-outlook-november-6-2026_9_6a"
       ],
-      "generated_at": "2026-11-10T22:11:45.409459+00:00"
+      "generated_at": "2026-11-11T02:36:19.891241+00:00"
     },
     "6B": {
       "asset_code": "6B",
@@ -546,7 +546,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_2_6b",
         "rss_daily-market-outlook-november-6-2026_8_6b"
       ],
-      "generated_at": "2026-11-10T22:11:45.409546+00:00"
+      "generated_at": "2026-11-11T02:36:19.891357+00:00"
     },
     "6C": {
       "asset_code": "6C",
@@ -591,7 +591,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_4_6c",
         "rss_daily-market-outlook-november-6-2026_10_6c"
       ],
-      "generated_at": "2026-11-10T22:11:45.409633+00:00"
+      "generated_at": "2026-11-11T02:36:19.891458+00:00"
     },
     "6E": {
       "asset_code": "6E",
@@ -659,7 +659,7 @@
         "rss_daily-market-outlook-november-6-2026_6_6e",
         "x_2101386089537650838_6e"
       ],
-      "generated_at": "2026-11-10T22:11:45.409746+00:00"
+      "generated_at": "2026-11-11T02:36:19.891605+00:00"
     },
     "6J": {
       "asset_code": "6J",
@@ -719,7 +719,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_1_6j",
         "rss_daily-market-outlook-november-6-2026_7_6j"
       ],
-      "generated_at": "2026-11-10T22:11:45.409844+00:00"
+      "generated_at": "2026-11-11T02:36:19.891733+00:00"
     },
     "6S": {
       "asset_code": "6S",
@@ -762,7 +762,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_5_6s",
         "rss_daily-market-outlook-november-6-2026_11_6s"
       ],
-      "generated_at": "2026-11-10T22:11:45.409913+00:00"
+      "generated_at": "2026-11-11T02:36:19.891827+00:00"
     },
     "700 HK": {
       "asset_code": "700 HK",
@@ -783,7 +783,7 @@
         "x_2099252230914523469_700 hk",
         "x_2101391122417541582_700 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409953+00:00"
+      "generated_at": "2026-11-11T02:36:19.891879+00:00"
     },
     "780 HK": {
       "asset_code": "780 HK",
@@ -802,7 +802,7 @@
       "evidence_ids": [
         "x_2101391122417541582_780 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.409986+00:00"
+      "generated_at": "2026-11-11T02:36:19.891923+00:00"
     },
     "941 HK": {
       "asset_code": "941 HK",
@@ -821,7 +821,7 @@
       "evidence_ids": [
         "x_2101391122417541582_941 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.410019+00:00"
+      "generated_at": "2026-11-11T02:36:19.891978+00:00"
     },
     "9678 HK": {
       "asset_code": "9678 HK",
@@ -840,7 +840,7 @@
       "evidence_ids": [
         "x_2101391122417541582_9678 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.410050+00:00"
+      "generated_at": "2026-11-11T02:36:19.892017+00:00"
     },
     "981 HK": {
       "asset_code": "981 HK",
@@ -859,7 +859,7 @@
       "evidence_ids": [
         "x_2101391122417541582_981 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.410082+00:00"
+      "generated_at": "2026-11-11T02:36:19.892060+00:00"
     },
     "9988 HK": {
       "asset_code": "9988 HK",
@@ -880,7 +880,7 @@
         "x_2099252230914523469_9988 hk",
         "x_2101391122417541582_9988 hk"
       ],
-      "generated_at": "2026-11-10T22:11:45.410117+00:00"
+      "generated_at": "2026-11-11T02:36:19.892104+00:00"
     },
     "AAPL": {
       "asset_code": "AAPL",
@@ -913,7 +913,7 @@
         "x_2099495801856917664_aapl",
         "x_2097758922023284832_aapl"
       ],
-      "generated_at": "2026-11-10T22:11:45.410171+00:00"
+      "generated_at": "2026-11-11T02:36:19.892175+00:00"
     },
     "AGI": {
       "asset_code": "AGI",
@@ -932,7 +932,7 @@
       "evidence_ids": [
         "x_2098088204415189100_agi"
       ],
-      "generated_at": "2026-11-10T22:11:45.410205+00:00"
+      "generated_at": "2026-11-11T02:36:19.892218+00:00"
     },
     "AMD": {
       "asset_code": "AMD",
@@ -951,7 +951,7 @@
       "evidence_ids": [
         "x_2100184704137748866_amd"
       ],
-      "generated_at": "2026-11-10T22:11:45.410237+00:00"
+      "generated_at": "2026-11-11T02:36:19.892259+00:00"
     },
     "AMZN": {
       "asset_code": "AMZN",
@@ -984,7 +984,7 @@
         "x_2100184704137748866_amzn",
         "x_2099495801856917664_amzn"
       ],
-      "generated_at": "2026-11-10T22:11:45.410295+00:00"
+      "generated_at": "2026-11-11T02:36:19.892332+00:00"
     },
     "ANT": {
       "asset_code": "ANT",
@@ -1003,7 +1003,7 @@
       "evidence_ids": [
         "x_2115009106595467727_ant"
       ],
-      "generated_at": "2026-11-10T22:11:45.410327+00:00"
+      "generated_at": "2026-11-11T02:36:19.892375+00:00"
     },
     "AUDUSD": {
       "asset_code": "AUDUSD",
@@ -1038,7 +1038,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-weekly-25926_9_audusd",
         "rss_audusd-h4-bullish-rebound-for-the-aussie-25th-september-2026_0_audusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.410382+00:00"
+      "generated_at": "2026-11-11T02:36:19.892449+00:00"
     },
     "AVGO": {
       "asset_code": "AVGO",
@@ -1057,7 +1057,7 @@
       "evidence_ids": [
         "x_2100184704137748866_avgo"
       ],
-      "generated_at": "2026-11-10T22:11:45.410415+00:00"
+      "generated_at": "2026-11-11T02:36:19.892489+00:00"
     },
     "BABA": {
       "asset_code": "BABA",
@@ -1076,7 +1076,7 @@
       "evidence_ids": [
         "x_2099923632776724521_baba"
       ],
-      "generated_at": "2026-11-10T22:11:45.410445+00:00"
+      "generated_at": "2026-11-11T02:36:19.892528+00:00"
     },
     "BTCUSD": {
       "asset_code": "BTCUSD",
@@ -1114,7 +1114,7 @@
         "rss_bitcoin-rebounding-on-tech-rally-boost_0_btcusd",
         "rss_daily-market-outlook-november-6-2026_25_btcusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.410506+00:00"
+      "generated_at": "2026-11-11T02:36:19.892609+00:00"
     },
     "CIBR": {
       "asset_code": "CIBR",
@@ -1133,7 +1133,7 @@
       "evidence_ids": [
         "x_2101241193245868131_cibr"
       ],
-      "generated_at": "2026-11-10T22:11:45.410537+00:00"
+      "generated_at": "2026-11-11T02:36:19.892649+00:00"
     },
     "CL": {
       "asset_code": "CL",
@@ -1255,7 +1255,7 @@
         "x_2101386089537650838_cl",
         "x_2100124619495628940_cl"
       ],
-      "generated_at": "2026-11-10T22:11:45.410753+00:00"
+      "generated_at": "2026-11-11T02:36:19.892920+00:00"
     },
     "CNXT": {
       "asset_code": "CNXT",
@@ -1274,7 +1274,7 @@
       "evidence_ids": [
         "x_2099485723246395586_cnxt"
       ],
-      "generated_at": "2026-11-10T22:11:45.410785+00:00"
+      "generated_at": "2026-11-11T02:36:19.892973+00:00"
     },
     "CRM": {
       "asset_code": "CRM",
@@ -1293,7 +1293,7 @@
       "evidence_ids": [
         "x_2100866191891783967_crm"
       ],
-      "generated_at": "2026-11-10T22:11:45.410817+00:00"
+      "generated_at": "2026-11-11T02:36:19.893015+00:00"
     },
     "CRWD": {
       "asset_code": "CRWD",
@@ -1312,7 +1312,7 @@
       "evidence_ids": [
         "x_2100516396144755094_crwd"
       ],
-      "generated_at": "2026-11-10T22:11:45.410848+00:00"
+      "generated_at": "2026-11-11T02:36:19.893054+00:00"
     },
     "CSCO": {
       "asset_code": "CSCO",
@@ -1331,7 +1331,7 @@
       "evidence_ids": [
         "x_2100184704137748866_csco"
       ],
-      "generated_at": "2026-11-10T22:11:45.410879+00:00"
+      "generated_at": "2026-11-11T02:36:19.893093+00:00"
     },
     "CSI1000": {
       "asset_code": "CSI1000",
@@ -1350,7 +1350,7 @@
       "evidence_ids": [
         "x_2099924455904718965_csi1000"
       ],
-      "generated_at": "2026-11-10T22:11:45.410909+00:00"
+      "generated_at": "2026-11-11T02:36:19.893130+00:00"
     },
     "DXY": {
       "asset_code": "DXY",
@@ -1460,7 +1460,7 @@
         "x_2099894826732839274_dxy",
         "x_2101262710268657843_dxy"
       ],
-      "generated_at": "2026-11-10T22:11:45.411099+00:00"
+      "generated_at": "2026-11-11T02:36:19.893379+00:00"
     },
     "ES": {
       "asset_code": "ES",
@@ -1662,7 +1662,7 @@
         "x_2101262710268657843_es",
         "x_2100484213787013153_es"
       ],
-      "generated_at": "2026-11-10T22:11:45.411448+00:00"
+      "generated_at": "2026-11-11T02:36:19.893839+00:00"
     },
     "ETHUSD": {
       "asset_code": "ETHUSD",
@@ -1681,7 +1681,7 @@
       "evidence_ids": [
         "rss_daily-market-outlook-november-6-2026_26_ethusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.411484+00:00"
+      "generated_at": "2026-11-11T02:36:19.893885+00:00"
     },
     "EURJPY": {
       "asset_code": "EURJPY",
@@ -1706,7 +1706,7 @@
         "rss_eurjpy-h1-bearish-reversal-at-50-fib-resistance-29th-september-2026_0_eurjpy",
         "rss_eurjpy-h4-heading-towards-50-fib-resistance-22nd-september-2026_0_eurjpy"
       ],
-      "generated_at": "2026-11-10T22:11:45.411523+00:00"
+      "generated_at": "2026-11-11T02:36:19.893949+00:00"
     },
     "EURUSD": {
       "asset_code": "EURUSD",
@@ -1760,7 +1760,7 @@
         "x_2099933329487212645_eurusd",
         "x_2100605488341676401_eurusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.411619+00:00"
+      "generated_at": "2026-11-11T02:36:19.894066+00:00"
     },
     "EWJ": {
       "asset_code": "EWJ",
@@ -1779,7 +1779,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewj"
       ],
-      "generated_at": "2026-11-10T22:11:45.411653+00:00"
+      "generated_at": "2026-11-11T02:36:19.894109+00:00"
     },
     "EWT": {
       "asset_code": "EWT",
@@ -1798,7 +1798,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewt"
       ],
-      "generated_at": "2026-11-10T22:11:45.411686+00:00"
+      "generated_at": "2026-11-11T02:36:19.894150+00:00"
     },
     "EWY": {
       "asset_code": "EWY",
@@ -1817,7 +1817,7 @@
       "evidence_ids": [
         "x_2099485723246395586_ewy"
       ],
-      "generated_at": "2026-11-10T22:11:45.411717+00:00"
+      "generated_at": "2026-11-11T02:36:19.894191+00:00"
     },
     "FXI": {
       "asset_code": "FXI",
@@ -1838,7 +1838,7 @@
         "x_2099923632776724521_fxi",
         "x_2099485723246395586_fxi"
       ],
-      "generated_at": "2026-11-10T22:11:45.411753+00:00"
+      "generated_at": "2026-11-11T02:36:19.894238+00:00"
     },
     "GBPCAD": {
       "asset_code": "GBPCAD",
@@ -1857,7 +1857,7 @@
       "evidence_ids": [
         "rss_gbpcad-h4-could-we-see-a-reversal-from-here-3rd-november-2026_0_gbpcad"
       ],
-      "generated_at": "2026-11-10T22:11:45.411785+00:00"
+      "generated_at": "2026-11-11T02:36:19.894281+00:00"
     },
     "GBPCHF": {
       "asset_code": "GBPCHF",
@@ -1876,7 +1876,7 @@
       "evidence_ids": [
         "rss_gbpchf-h4-bearish-momentum-building-22nd-september-2026_0_gbpchf"
       ],
-      "generated_at": "2026-11-10T22:11:45.411817+00:00"
+      "generated_at": "2026-11-11T02:36:19.894324+00:00"
     },
     "GBPJPY": {
       "asset_code": "GBPJPY",
@@ -1901,7 +1901,7 @@
         "rss_gbpjpy-h4-could-we-see-a-reversal-from-here-4th-november-2026_0_gbpjpy",
         "rss_gbpjpy-h4-bullish-bounce-setup-24th-september-2026_0_gbpjpy"
       ],
-      "generated_at": "2026-11-10T22:11:45.411853+00:00"
+      "generated_at": "2026-11-11T02:36:19.894374+00:00"
     },
     "GBPUSD": {
       "asset_code": "GBPUSD",
@@ -1949,7 +1949,7 @@
         "x_2100680188094808325_gbpusd",
         "x_2099969862466469958_gbpusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.411929+00:00"
+      "generated_at": "2026-11-11T02:36:19.894478+00:00"
     },
     "GC": {
       "asset_code": "GC",
@@ -2040,7 +2040,7 @@
         "x_2101262710268657843_gc",
         "x_2100484213787013153_gc"
       ],
-      "generated_at": "2026-11-10T22:11:45.412081+00:00"
+      "generated_at": "2026-11-11T02:36:19.894683+00:00"
     },
     "GER40": {
       "asset_code": "GER40",
@@ -2069,7 +2069,7 @@
         "x_2100878795649474742_ger40",
         "x_2099933329487212645_ger40"
       ],
-      "generated_at": "2026-11-10T22:11:45.412129+00:00"
+      "generated_at": "2026-11-11T02:36:19.894746+00:00"
     },
     "GOOGL": {
       "asset_code": "GOOGL",
@@ -2102,7 +2102,7 @@
         "x_2099779043033862288_googl",
         "x_2099495801856917664_googl"
       ],
-      "generated_at": "2026-11-10T22:11:45.412180+00:00"
+      "generated_at": "2026-11-11T02:36:19.894815+00:00"
     },
     "HG": {
       "asset_code": "HG",
@@ -2164,7 +2164,7 @@
         "x_2099850071575765447_hg",
         "x_2100168608965914827_hg"
       ],
-      "generated_at": "2026-11-10T22:11:45.412288+00:00"
+      "generated_at": "2026-11-11T02:36:19.894968+00:00"
     },
     "HO1": {
       "asset_code": "HO1",
@@ -2183,7 +2183,7 @@
       "evidence_ids": [
         "x_2097680790025093570_ho1"
       ],
-      "generated_at": "2026-11-10T22:11:45.412321+00:00"
+      "generated_at": "2026-11-11T02:36:19.895012+00:00"
     },
     "HSBIO": {
       "asset_code": "HSBIO",
@@ -2202,7 +2202,7 @@
       "evidence_ids": [
         "x_2099806214636933609_hsbio"
       ],
-      "generated_at": "2026-11-10T22:11:45.412352+00:00"
+      "generated_at": "2026-11-11T02:36:19.895052+00:00"
     },
     "HSCEI": {
       "asset_code": "HSCEI",
@@ -2223,7 +2223,7 @@
         "x_2099924455904718965_hscei",
         "x_2099923632776724521_hscei"
       ],
-      "generated_at": "2026-11-10T22:11:45.412387+00:00"
+      "generated_at": "2026-11-11T02:36:19.895098+00:00"
     },
     "HSI": {
       "asset_code": "HSI",
@@ -2257,7 +2257,7 @@
         "x_2099842902151373089_hsi",
         "x_2099849459396235640_hsi"
       ],
-      "generated_at": "2026-11-10T22:11:45.412442+00:00"
+      "generated_at": "2026-11-11T02:36:19.895170+00:00"
     },
     "HSTECH": {
       "asset_code": "HSTECH",
@@ -2296,7 +2296,7 @@
         "x_2099849459396235640_hstech",
         "x_2101390870801252712_hstech"
       ],
-      "generated_at": "2026-11-10T22:11:45.412508+00:00"
+      "generated_at": "2026-11-11T02:36:19.895256+00:00"
     },
     "HUBS": {
       "asset_code": "HUBS",
@@ -2315,7 +2315,7 @@
       "evidence_ids": [
         "x_2100866191891783967_hubs"
       ],
-      "generated_at": "2026-11-10T22:11:45.412539+00:00"
+      "generated_at": "2026-11-11T02:36:19.895295+00:00"
     },
     "JP225": {
       "asset_code": "JP225",
@@ -2348,7 +2348,7 @@
         "x_2099842564405030912_jp225",
         "x_2099849459396235640_jp225"
       ],
-      "generated_at": "2026-11-10T22:11:45.412600+00:00"
+      "generated_at": "2026-11-11T02:36:19.895364+00:00"
     },
     "KSTR": {
       "asset_code": "KSTR",
@@ -2367,7 +2367,7 @@
       "evidence_ids": [
         "x_2099485723246395586_kstr"
       ],
-      "generated_at": "2026-11-10T22:11:45.412631+00:00"
+      "generated_at": "2026-11-11T02:36:19.895403+00:00"
     },
     "KWEB": {
       "asset_code": "KWEB",
@@ -2388,7 +2388,7 @@
         "x_2099923632776724521_kweb",
         "x_2099485723246395586_kweb"
       ],
-      "generated_at": "2026-11-10T22:11:45.412666+00:00"
+      "generated_at": "2026-11-11T02:36:19.895448+00:00"
     },
     "LA1": {
       "asset_code": "LA1",
@@ -2407,7 +2407,7 @@
       "evidence_ids": [
         "x_2097680790025093570_la1"
       ],
-      "generated_at": "2026-11-10T22:11:45.412698+00:00"
+      "generated_at": "2026-11-11T02:36:19.895492+00:00"
     },
     "LN1": {
       "asset_code": "LN1",
@@ -2426,7 +2426,7 @@
       "evidence_ids": [
         "x_2097680790025093570_ln1"
       ],
-      "generated_at": "2026-11-10T22:11:45.412731+00:00"
+      "generated_at": "2026-11-11T02:36:19.895537+00:00"
     },
     "LULU": {
       "asset_code": "LULU",
@@ -2445,7 +2445,7 @@
       "evidence_ids": [
         "x_2098088204415189100_lulu"
       ],
-      "generated_at": "2026-11-10T22:11:45.412762+00:00"
+      "generated_at": "2026-11-11T02:36:19.895576+00:00"
     },
     "MCL": {
       "asset_code": "MCL",
@@ -2503,7 +2503,7 @@
         "x_2100935575255515273_mcl",
         "x_2100141950443626633_mcl"
       ],
-      "generated_at": "2026-11-10T22:11:45.412854+00:00"
+      "generated_at": "2026-11-11T02:36:19.895701+00:00"
     },
     "MES": {
       "asset_code": "MES",
@@ -2550,7 +2550,7 @@
         "x_2101748477520998591_mes",
         "x_2101692653117001881_mes"
       ],
-      "generated_at": "2026-11-10T22:11:45.412929+00:00"
+      "generated_at": "2026-11-11T02:36:19.895800+00:00"
     },
     "META": {
       "asset_code": "META",
@@ -2580,7 +2580,7 @@
         "x_2100333199557877983_meta",
         "x_2099495801856917664_meta"
       ],
-      "generated_at": "2026-11-10T22:11:45.412978+00:00"
+      "generated_at": "2026-11-11T02:36:19.895862+00:00"
     },
     "MGC": {
       "asset_code": "MGC",
@@ -2620,7 +2620,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_9_mgc",
         "x_2101965933841383709_mgc"
       ],
-      "generated_at": "2026-11-10T22:11:45.413041+00:00"
+      "generated_at": "2026-11-11T02:36:19.895960+00:00"
     },
     "MNQ": {
       "asset_code": "MNQ",
@@ -2670,7 +2670,7 @@
         "rss_institutional-fx-insights-credit-agricole-fx-61126_7_mnq",
         "x_2101692653117001881_mnq"
       ],
-      "generated_at": "2026-11-10T22:11:45.413121+00:00"
+      "generated_at": "2026-11-11T02:36:19.896066+00:00"
     },
     "MRVL": {
       "asset_code": "MRVL",
@@ -2689,7 +2689,7 @@
       "evidence_ids": [
         "x_2100184704137748866_mrvl"
       ],
-      "generated_at": "2026-11-10T22:11:45.413151+00:00"
+      "generated_at": "2026-11-11T02:36:19.896107+00:00"
     },
     "MSFT": {
       "asset_code": "MSFT",
@@ -2724,7 +2724,7 @@
         "x_2099779043033862288_msft",
         "x_2099495801856917664_msft"
       ],
-      "generated_at": "2026-11-10T22:11:45.413210+00:00"
+      "generated_at": "2026-11-11T02:36:19.896186+00:00"
     },
     "MXCN": {
       "asset_code": "MXCN",
@@ -2743,7 +2743,7 @@
       "evidence_ids": [
         "x_2099924455904718965_mxcn"
       ],
-      "generated_at": "2026-11-10T22:11:45.413240+00:00"
+      "generated_at": "2026-11-11T02:36:19.896227+00:00"
     },
     "NAS100": {
       "asset_code": "NAS100",
@@ -2809,7 +2809,7 @@
         "x_2099495801856917664_nas100",
         "x_2101241193245868131_nas100"
       ],
-      "generated_at": "2026-11-10T22:11:45.413359+00:00"
+      "generated_at": "2026-11-11T02:36:19.896383+00:00"
     },
     "NBIS": {
       "asset_code": "NBIS",
@@ -2828,7 +2828,7 @@
       "evidence_ids": [
         "x_2098088204415189100_nbis"
       ],
-      "generated_at": "2026-11-10T22:11:45.413392+00:00"
+      "generated_at": "2026-11-11T02:36:19.896426+00:00"
     },
     "NG": {
       "asset_code": "NG",
@@ -2867,7 +2867,7 @@
         "x_2100605488341676401_ng",
         "x_2101386089537650838_ng"
       ],
-      "generated_at": "2026-11-10T22:11:45.413458+00:00"
+      "generated_at": "2026-11-11T02:36:19.896512+00:00"
     },
     "NOW": {
       "asset_code": "NOW",
@@ -2886,7 +2886,7 @@
       "evidence_ids": [
         "x_2100866191891783967_now"
       ],
-      "generated_at": "2026-11-10T22:11:45.413491+00:00"
+      "generated_at": "2026-11-11T02:36:19.896554+00:00"
     },
     "NQ": {
       "asset_code": "NQ",
@@ -3012,7 +3012,7 @@
         "x_2101241193245868131_nq",
         "x_2101262710268657843_nq"
       ],
-      "generated_at": "2026-11-10T22:11:45.413728+00:00"
+      "generated_at": "2026-11-11T02:36:19.896844+00:00"
     },
     "NVDA": {
       "asset_code": "NVDA",
@@ -3061,7 +3061,7 @@
         "x_2099564370527236412_nvda",
         "x_2101314942137733431_nvda"
       ],
-      "generated_at": "2026-11-10T22:11:45.413813+00:00"
+      "generated_at": "2026-11-11T02:36:19.896967+00:00"
     },
     "NZDJPY": {
       "asset_code": "NZDJPY",
@@ -3080,7 +3080,7 @@
       "evidence_ids": [
         "rss_nzdjpy-h4-potential-reversal-at-resistance-14th-october-2026_0_nzdjpy"
       ],
-      "generated_at": "2026-11-10T22:11:45.413847+00:00"
+      "generated_at": "2026-11-11T02:36:19.897012+00:00"
     },
     "NZDUSD": {
       "asset_code": "NZDUSD",
@@ -3114,7 +3114,7 @@
         "rss_nzdusd-h1-bullish-bounce-in-play-30th-october-2026_0_nzdusd",
         "rss_institutional-fx-insights-credit-agricole-fx-weekly-25926_10_nzdusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.413906+00:00"
+      "generated_at": "2026-11-11T02:36:19.897083+00:00"
     },
     "OPEN": {
       "asset_code": "OPEN",
@@ -3133,7 +3133,7 @@
       "evidence_ids": [
         "x_2098088204415189100_open"
       ],
-      "generated_at": "2026-11-10T22:11:45.413936+00:00"
+      "generated_at": "2026-11-11T02:36:19.897123+00:00"
     },
     "PL": {
       "asset_code": "PL",
@@ -3165,7 +3165,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_13_pl",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_13_pl"
       ],
-      "generated_at": "2026-11-10T22:11:45.413987+00:00"
+      "generated_at": "2026-11-11T02:36:19.897190+00:00"
     },
     "QQQ": {
       "asset_code": "QQQ",
@@ -3184,7 +3184,7 @@
       "evidence_ids": [
         "x_2100938629032055000_qqq"
       ],
-      "generated_at": "2026-11-10T22:11:45.414020+00:00"
+      "generated_at": "2026-11-11T02:36:19.897232+00:00"
     },
     "QS1": {
       "asset_code": "QS1",
@@ -3203,7 +3203,7 @@
       "evidence_ids": [
         "x_2097680790025093570_qs1"
       ],
-      "generated_at": "2026-11-10T22:11:45.414050+00:00"
+      "generated_at": "2026-11-11T02:36:19.897273+00:00"
     },
     "RTY": {
       "asset_code": "RTY",
@@ -3267,7 +3267,7 @@
         "x_2099601023924875583_rty",
         "x_2099754168340602922_rty"
       ],
-      "generated_at": "2026-11-10T22:11:45.414156+00:00"
+      "generated_at": "2026-11-11T02:36:19.897415+00:00"
     },
     "SAP": {
       "asset_code": "SAP",
@@ -3286,7 +3286,7 @@
       "evidence_ids": [
         "x_2100866191891783967_sap"
       ],
-      "generated_at": "2026-11-10T22:11:45.414186+00:00"
+      "generated_at": "2026-11-11T02:36:19.897457+00:00"
     },
     "SH000905": {
       "asset_code": "SH000905",
@@ -3305,7 +3305,7 @@
       "evidence_ids": [
         "x_2099924455904718965_sh000905"
       ],
-      "generated_at": "2026-11-10T22:11:45.414215+00:00"
+      "generated_at": "2026-11-11T02:36:19.897495+00:00"
     },
     "SHSN300": {
       "asset_code": "SHSN300",
@@ -3324,7 +3324,7 @@
       "evidence_ids": [
         "x_2099924455904718965_shsn300"
       ],
-      "generated_at": "2026-11-10T22:11:45.414243+00:00"
+      "generated_at": "2026-11-11T02:36:19.897533+00:00"
     },
     "SI": {
       "asset_code": "SI",
@@ -3365,7 +3365,7 @@
         "x_2097680790025093570_si",
         "x_2099850071575765447_si"
       ],
-      "generated_at": "2026-11-10T22:11:45.414310+00:00"
+      "generated_at": "2026-11-11T02:36:19.897623+00:00"
     },
     "SOL": {
       "asset_code": "SOL",
@@ -3385,7 +3385,7 @@
         "rss_daily-market-outlook-november-6-2026_27_sol",
         "x_2101390870801252712_sol"
       ],
-      "generated_at": "2026-11-10T22:11:45.414342+00:00"
+      "generated_at": "2026-11-11T02:36:19.897671+00:00"
     },
     "SPX500": {
       "asset_code": "SPX500",
@@ -3499,7 +3499,7 @@
         "x_2100162066757689550_spx500",
         "x_2101241193245868131_spx500"
       ],
-      "generated_at": "2026-11-10T22:11:45.414541+00:00"
+      "generated_at": "2026-11-11T02:36:19.897947+00:00"
     },
     "SPY": {
       "asset_code": "SPY",
@@ -3518,7 +3518,7 @@
       "evidence_ids": [
         "x_2100938629032055000_spy"
       ],
-      "generated_at": "2026-11-10T22:11:45.414581+00:00"
+      "generated_at": "2026-11-11T02:36:19.897990+00:00"
     },
     "TEAM": {
       "asset_code": "TEAM",
@@ -3537,7 +3537,7 @@
       "evidence_ids": [
         "x_2100866191891783967_team"
       ],
-      "generated_at": "2026-11-10T22:11:45.414613+00:00"
+      "generated_at": "2026-11-11T02:36:19.898030+00:00"
     },
     "TLT": {
       "asset_code": "TLT",
@@ -3556,7 +3556,7 @@
       "evidence_ids": [
         "x_2098120943273119801_tlt"
       ],
-      "generated_at": "2026-11-10T22:11:45.414644+00:00"
+      "generated_at": "2026-11-11T02:36:19.898071+00:00"
     },
     "TSLA": {
       "asset_code": "TSLA",
@@ -3589,7 +3589,7 @@
         "x_2099601023924875583_tsla",
         "x_2099606357783515395_tsla"
       ],
-      "generated_at": "2026-11-10T22:11:45.414693+00:00"
+      "generated_at": "2026-11-11T02:36:19.898145+00:00"
     },
     "TZT1": {
       "asset_code": "TZT1",
@@ -3608,7 +3608,7 @@
       "evidence_ids": [
         "x_2097680790025093570_tzt1"
       ],
-      "generated_at": "2026-11-10T22:11:45.414723+00:00"
+      "generated_at": "2026-11-11T02:36:19.898185+00:00"
     },
     "UK100": {
       "asset_code": "UK100",
@@ -3655,7 +3655,7 @@
         "rss_ftse-caps-best-week-since-april_0_uk100",
         "rss_daily-market-outlook-november-6-2026_22_uk100"
       ],
-      "generated_at": "2026-11-10T22:11:45.414794+00:00"
+      "generated_at": "2026-11-11T02:36:19.898278+00:00"
     },
     "UKOIL": {
       "asset_code": "UKOIL",
@@ -3689,7 +3689,7 @@
         "x_2097680790025093570_ukoil",
         "x_2099850071575765447_ukoil"
       ],
-      "generated_at": "2026-11-10T22:11:45.414847+00:00"
+      "generated_at": "2026-11-11T02:36:19.898350+00:00"
     },
     "US10Y": {
       "asset_code": "US10Y",
@@ -3770,7 +3770,7 @@
         "x_2099894826732839274_us10y",
         "x_2101262710268657843_us10y"
       ],
-      "generated_at": "2026-11-10T22:11:45.414994+00:00"
+      "generated_at": "2026-11-11T02:36:19.898538+00:00"
     },
     "US500": {
       "asset_code": "US500",
@@ -3789,7 +3789,7 @@
       "evidence_ids": [
         "rss_sp500-daily-action-areas-price-targets-21126_1_us500"
       ],
-      "generated_at": "2026-11-10T22:11:45.415024+00:00"
+      "generated_at": "2026-11-11T02:36:19.898578+00:00"
     },
     "USDCAD": {
       "asset_code": "USDCAD",
@@ -3822,7 +3822,7 @@
         "rss_usdcad-h4-bearish-reversal-at-pullback-resistance-25th-september-2026_0_usdcad",
         "rss_usdcad-h4-possible-move-higher-23rd-october-2026_0_usdcad"
       ],
-      "generated_at": "2026-11-10T22:11:45.415075+00:00"
+      "generated_at": "2026-11-11T02:36:19.898645+00:00"
     },
     "USDCHF": {
       "asset_code": "USDCHF",
@@ -3862,7 +3862,7 @@
         "rss_swissy-pushes-higher-following-snb-meeting_0_usdchf",
         "rss_usdchf-h4-strong-resistance-ahead-6th-november-2026_0_usdchf"
       ],
-      "generated_at": "2026-11-10T22:11:45.415136+00:00"
+      "generated_at": "2026-11-11T02:36:19.898727+00:00"
     },
     "USDJPY": {
       "asset_code": "USDJPY",
@@ -3910,7 +3910,7 @@
         "x_2100211641115697543_usdjpy",
         "x_2099969862466469958_usdjpy"
       ],
-      "generated_at": "2026-11-10T22:11:45.415212+00:00"
+      "generated_at": "2026-11-11T02:36:19.898829+00:00"
     },
     "USOUSD": {
       "asset_code": "USOUSD",
@@ -3963,7 +3963,7 @@
         "x_2098120943273119801_usousd",
         "x_2099894826732839274_usousd"
       ],
-      "generated_at": "2026-11-10T22:11:45.415298+00:00"
+      "generated_at": "2026-11-11T02:36:19.898960+00:00"
     },
     "VIX": {
       "asset_code": "VIX",
@@ -4009,7 +4009,7 @@
         "x_2099815020443943051_vix",
         "x_2099880715236135080_vix"
       ],
-      "generated_at": "2026-11-10T22:11:45.415372+00:00"
+      "generated_at": "2026-11-11T02:36:19.899057+00:00"
     },
     "VVIX": {
       "asset_code": "VVIX",
@@ -4028,7 +4028,7 @@
       "evidence_ids": [
         "x_2098844844298993784_vvix"
       ],
-      "generated_at": "2026-11-10T22:11:45.415404+00:00"
+      "generated_at": "2026-11-11T02:36:19.899097+00:00"
     },
     "WDAY": {
       "asset_code": "WDAY",
@@ -4047,7 +4047,7 @@
       "evidence_ids": [
         "x_2100866191891783967_wday"
       ],
-      "generated_at": "2026-11-10T22:11:45.415434+00:00"
+      "generated_at": "2026-11-11T02:36:19.899136+00:00"
     },
     "XAGUSD": {
       "asset_code": "XAGUSD",
@@ -4078,7 +4078,7 @@
         "rss_daily-market-outlook-november-6-2026_13_xagusd",
         "x_2099850071575765447_xagusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.415484+00:00"
+      "generated_at": "2026-11-11T02:36:19.899201+00:00"
     },
     "XAUUSD": {
       "asset_code": "XAUUSD",
@@ -4155,7 +4155,7 @@
         "x_2100208410771747060_xauusd",
         "x_2099894826732839274_xauusd"
       ],
-      "generated_at": "2026-11-10T22:11:45.415630+00:00"
+      "generated_at": "2026-11-11T02:36:19.899377+00:00"
     },
     "XB1": {
       "asset_code": "XB1",
@@ -4174,7 +4174,7 @@
       "evidence_ids": [
         "x_2097680790025093570_xb1"
       ],
-      "generated_at": "2026-11-10T22:11:45.415664+00:00"
+      "generated_at": "2026-11-11T02:36:19.899419+00:00"
     },
     "XIN9I": {
       "asset_code": "XIN9I",
@@ -4193,7 +4193,7 @@
       "evidence_ids": [
         "x_2099924455904718965_xin9i"
       ],
-      "generated_at": "2026-11-10T22:11:45.415695+00:00"
+      "generated_at": "2026-11-11T02:36:19.899459+00:00"
     },
     "YM": {
       "asset_code": "YM",
@@ -4265,7 +4265,7 @@
         "x_2099969862466469958_ym",
         "x_2099601023924875583_ym"
       ],
-      "generated_at": "2026-11-10T22:11:45.415818+00:00"
+      "generated_at": "2026-11-11T02:36:19.899615+00:00"
     },
     "ZC": {
       "asset_code": "ZC",
@@ -4299,7 +4299,7 @@
         "x_2097680790025093570_zc",
         "x_2099850071575765447_zc"
       ],
-      "generated_at": "2026-11-10T22:11:45.415873+00:00"
+      "generated_at": "2026-11-11T02:36:19.899687+00:00"
     },
     "ZL": {
       "asset_code": "ZL",
@@ -4328,7 +4328,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_17_zl",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_17_zl"
       ],
-      "generated_at": "2026-11-10T22:11:45.415920+00:00"
+      "generated_at": "2026-11-11T02:36:19.899751+00:00"
     },
     "ZM": {
       "asset_code": "ZM",
@@ -4357,7 +4357,7 @@
         "rss_institutional-insights-nomura-post-midterm-clearing_18_zm",
         "rss_institutional-insights-goldman-sachs-risk-appetite-positioning-asymmetry-ai-financing-reality_18_zm"
       ],
-      "generated_at": "2026-11-10T22:11:45.415964+00:00"
+      "generated_at": "2026-11-11T02:36:19.899811+00:00"
     },
     "ZS": {
       "asset_code": "ZS",
@@ -4389,7 +4389,7 @@
         "x_2097680790025093570_zs",
         "x_2099850071575765447_zs"
       ],
-      "generated_at": "2026-11-10T22:11:45.416013+00:00"
+      "generated_at": "2026-11-11T02:36:19.899884+00:00"
     },
     "ZW": {
       "asset_code": "ZW",
@@ -4421,7 +4421,7 @@
         "x_2097680790025093570_zw",
         "x_2099850071575765447_zw"
       ],
-      "generated_at": "2026-11-10T22:11:45.416065+00:00"
+      "generated_at": "2026-11-11T02:36:19.899968+00:00"
     }
   },
   "protocol_rules": {
