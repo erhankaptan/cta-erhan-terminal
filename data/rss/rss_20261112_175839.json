@@ -1,0 +1,473 @@
+[
+  {
+    "id": "eurusd-tactical-countertrend-bounce-on-5-wave-exhaustion",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EUR/USD: Tactical Countertrend Bounce on 5-Wave Exhaustion",
+    "title_tr": "EUR/USD: 5 Dalgalı Tükeniş Üzerine Taktiksel Karşı Trend Sıçraması",
+    "content_en": "EUR/USD: Tactical Countertrend Bounce on 5-Wave ExhaustionFX TECHNICALS | EUR/USD: Tactical Countertrend Bounce on 5-Wave Exhaustion *Spot Ref: ~1.1099* EUR/USD is flashing classic late-cycle exhaustion. A 5-wave impulsive selloff appears complete, underpinned by b...",
+    "content_tr": "EUR/USD: 5 Dalgalı Tükeniş Üzerine Taktiksel Karşı Trend Sıçraması. FX TEKNİK ANALİZLER | EUR/USD: 5 Dalgalı Tükeniş Üzerine Taktiksel Karşı Trend Sıçraması. *Spot Referans: ~1.1099* EUR/USD klasik geç döngü tükenişi sinyalleri veriyor. 5 dalgalı itkisel bir satış dalgası tamamlanmış görünüyor ve b...",
+    "url": "https://www.tickmill.com/blog/eurusd-tactical-countertrend-bounce-on-5-wave-exhaustion",
+    "published_at": "Thu, 12 Nov 2026 12:00:00 +0000",
+    "fetched_at": "2026-11-12T17:58:39.803725+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, EUR/USD paritesinde önemli bir satış dalgasının ardından taktiksel bir yükseliş beklentisi olduğunu belirtiyor. Bu durum, Euro'nun Dolar karşısında kısa vadeli bir güçlenme yaşayabileceğine işaret ederek, döviz piyasalarında geçici bir toparlanma potansiyeli sunuyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "EUR/USD'de 5 dalgalı itkisel satışın tamamlandığı ve geç döngü tükenişi belirtileri gösterdiği, taktiksel bir karşı trend sıçraması beklendiği belirtiliyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-12T17:58:49.771232+00:00"
+  },
+  {
+    "id": "institutional-insights-ubs-sales-trading-update-121126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: UBS Sales & Trading Update 12/11/26",
+    "title_tr": "Kurumsal İçgörüler: UBS Satış ve Ticaret Güncellemesi 12/11/26",
+    "content_en": "UBS TECHNICAL STRATEGY BRIEFING: SEMICONDUCTOR UPSIDE BACK IN PLAY & SIX CROSS-ASSET DEMARK SIGNALSTechnical setups across major global indices and cross-asset benchmarks point toward an extended risk-on recovery. The Philadelphia Semiconductor Index (SOX) has ...",
+    "content_tr": "UBS TEKNİK STRATEJİ BRİFİNGİ: YARI İLETKENLERDE YÜKSELİŞ YENİDEN GÜNDEMDE & ALTI ÇAPRAZ VARLIK DEMARK SİNYALİ. Başlıca küresel endeksler ve çapraz varlık göstergelerindeki teknik kurulumlar, genişletilmiş bir risk iştahı toparlanmasına işaret ediyor. Philadelphia Yarı İletken Endeksi (SOX) ...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-ubs-sales-trading-update-121126",
+    "published_at": "Thu, 12 Nov 2026 10:55:00 +0000",
+    "fetched_at": "2026-11-12T17:58:39.803788+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, küresel piyasalarda risk iştahının arttığı ve toparlanmanın devam edeceği yönünde güçlü sinyaller veriyor. Özellikle yarı iletken sektöründeki yükseliş beklentisi, teknoloji ağırlıklı endeksleri destekleyebilir. Bu durum, genel olarak hisse senedi piyasaları için olumlu bir görünüm sunmaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Genişletilmiş risk iştahı toparlanması ve genel piyasa yükselişi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Genişletilmiş risk iştahı toparlanması ve genel piyasa yükselişi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Yarı iletken sektöründeki güçlü yükseliş beklentisi ve teknoloji ağırlıklı endekslerin liderliği.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Yarı iletken sektöründeki güçlü yükseliş beklentisi ve teknoloji ağırlıklı endekslerin liderliği.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Geniş tabanlı risk iştahı toparlanması ve küçük sermayeli şirketlerin performansı.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Genişletilmiş risk iştahı toparlanması ve genel piyasa yükselişi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma ve artan risk iştahı ile enerji talebinde artış beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma ve artan risk iştahı ile enerji talebinde artış beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir yönlendirme yok, genel risk iştahı etkisi belirsiz.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Risk iştahının artması güvenli liman talebini azaltabilir, ancak genel toparlanma belirsizliği koruyor.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "NÖTR",
+        "gerekce": "Risk iştahının artması güvenli liman talebini azaltabilir, ancak genel toparlanma belirsizliği koruyor.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "NÖTR",
+        "gerekce": "Endüstriyel talep artışı potansiyeli olsa da, güvenli liman özelliği nedeniyle risk iştahı ortamında nötr kalabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik toparlanma ve endüstriyel aktivitedeki artış beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "YUKARI",
+        "gerekce": "Endüstriyel talep artışı ve ekonomik toparlanma beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara özel bir yönlendirme bulunmamaktadır.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara özel bir yönlendirme bulunmamaktadır.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara özel bir yönlendirme bulunmamaktadır.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara özel bir yönlendirme bulunmamaktadır.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede tahıllara özel bir yönlendirme bulunmamaktadır.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro/USD",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artmasıyla doların zayıflaması ve EUR'nun güçlenmesi beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni/USD",
+        "yon": "AŞAĞI",
+        "gerekce": "Japon Yeni'nin güvenli liman özelliği nedeniyle risk iştahı ortamında değer kaybetmesi beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "Sterlin/USD",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artmasıyla doların zayıflaması ve GBP'nin güçlenmesi beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları/USD",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahına duyarlı bir para birimi olarak ekonomik toparlanmadan faydalanması beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "USD/Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Petrol fiyatlarındaki yükseliş ve risk iştahı ile CAD'ın güçlenmesi, USDCAD'ın düşmesi beklentisi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı/USD",
+        "yon": "AŞAĞI",
+        "gerekce": "İsviçre Frangı'nın güvenli liman özelliği nedeniyle risk iştahı ortamında değer kaybetmesi beklentisi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-12T17:59:15.613616+00:00"
+  },
+  {
+    "id": "crude-lower-despite-irans-threat-to-trump",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Crude Lower Despite Iran's Threat to Trump",
+    "title_tr": "İran'ın Trump'a Yönelik Tehdidine Rağmen Ham Petrol Düşüşte",
+    "content_en": "Oil Consolidating at LowsStill no movement in oil prices as we move through the back end of the week. The market pushed heavily lower at the start of the week as traders eyed a stronger likelihood of the US/Iran war being brought to an end soon. While we’ve seen no...",
+    "content_tr": "Haftanın sonuna yaklaşırken petrol fiyatlarında hala bir hareketlilik yok. ABD/İran savaşının yakında sona erme olasılığının güçlendiğini düşünen yatırımcılar nedeniyle piyasa haftanın başında ağır bir düşüş yaşadı. Henüz bir gelişme görmemiş olsak da, petrol fiyatları düşük seviyelerde konsolide oluyor.",
+    "url": "https://www.tickmill.com/blog/crude-lower-despite-irans-threat-to-trump",
+    "published_at": "Thu, 12 Nov 2026 09:45:00 +0000",
+    "fetched_at": "2026-11-12T17:58:39.803813+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD-İran geriliminin azalma beklentisiyle ham petrol fiyatlarının düştüğünü ve düşük seviyelerde konsolide olduğunu belirtiyor. Bu durum, jeopolitik risk priminin azaldığını ve piyasanın arz endişelerinden çok, barış beklentilerine odaklandığını gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD-İran geriliminin sona erme olasılığı nedeniyle piyasa haftanın başında ağır bir düşüş yaşadı ve düşük seviyelerde konsolide oluyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-12T17:59:24.520263+00:00"
+  },
+  {
+    "id": "institutional-insights-nomura-higher-vix-floor-no-vix-squeeze-exotics-positive-vol-correlation",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Nomura ' HIGHER VIX FLOOR, NO VIX SQUEEZE & EXOTICS POSITIVE VOL CORRELATION'",
+    "title_tr": "Kurumsal İçgörüler: Nomura 'DAHA YÜKSEK VIX TABANI, VIX SIKIŞMASI YOK & EGZOTİK VARLIKLARDA POZİTİF VOLATİLİTE KORELASYONU'",
+    "content_en": "NOMURA CROSS-ASSET STRATEGY BRIEFING: \"NOTICING\" — HIGHER VIX FLOOR, NO VIX SQUEEZE & EXOTICS POSITIVE VOL CORRELATIONRecent historic extremes in the realized volatility of \"vol of vol\" (VVIX) alongside a credible macro/market regime rethink...",
+    "content_tr": "NOMURA ÇAPRAZ VARLIK STRATEJİ BRİFİNGİ: \"FARK ETMEK\" — DAHA YÜKSEK VIX TABANI, VIX SIKIŞMASI YOK & EGZOTİK VARLIKLARDA POZİTİF VOLATİLİTE KORELASYONU. Son dönemdeki \"volatilite volatilitesi\" (VVIX) gerçekleşen volatilitesindeki tarihi aşırılıklar ve güvenilir bir makro/piyasa rejimi yeniden düşünme süreciyle birlikte...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-nomura-higher-vix-floor-no-vix-squeeze-exotics-positive-vol-correlation",
+    "published_at": "Thu, 12 Nov 2026 09:46:00 +0000",
+    "fetched_at": "2026-11-12T17:58:39.803860+00:00",
+    "translation_hash": "",
+    "yorum": "Nomura'nın analizi, piyasada daha yüksek bir temel volatilite seviyesinin kalıcı olacağını öngörüyor. Bu durum, hisse senetleri için aşağı yönlü riskleri artırırken, güvenli liman varlıklarına olan talebi destekleyebilir. Genel piyasa belirsizliğinin artması beklenmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro Nasdaq 100 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones E-mini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek VIX tabanı ve artan piyasa belirsizliği, hisse senedi piyasaları için aşağı yönlü baskı oluşturur.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Artan piyasa belirsizliği ve riskten kaçış eğilimi, altın gibi güvenli liman varlıklarına talebi artırır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Micro Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Artan piyasa belirsizliği ve riskten kaçış eğilimi, altın gibi güvenli liman varlıklarına talebi artırır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Artan piyasa belirsizliği ve riskten kaçış eğilimi, gümüş gibi güvenli liman varlıklarına talebi artırır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Genel piyasa belirsizliği ve potansiyel ekonomik yavaşlama endişeleri petrol talebini olumsuz etkileyebilir, ancak makalede doğrudan bir yön belirtilmiyor.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Micro Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Genel piyasa belirsizliği ve potansiyel ekonomik yavaşlama endişeleri petrol talebini olumsuz etkileyebilir, ancak makalede doğrudan bir yön belirtilmiyor.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makaledeki genel volatilite teması doğal gaz fiyatları üzerinde doğrudan ve güçlü bir etki yaratmaz; daha çok arz-talep ve hava koşulları belirleyicidir.",
+        "skor": 0.2
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Endüstriyel bir metal olarak küresel ekonomik büyüme beklentilerine duyarlıdır. Artan belirsizlik ve potansiyel yavaşlama bakır talebini azaltabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Hem endüstriyel hem de değerli metal özellikleri taşır. Genel belirsizlik endüstriyel talebi düşürürken, güvenli liman özelliği sınırlı destek sağlayabilir.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Tarım ürünleri fiyatları genellikle hava koşulları, küresel arz-talep dengesi ve jeopolitik gelişmelerden etkilenir; genel piyasa volatilitesi ile doğrudan güçlü bir korelasyonu yoktur.",
+        "skor": 0.1
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Tarım ürünleri fiyatları genellikle hava koşulları, küresel arz-talep dengesi ve jeopolitik gelişmelerden etkilenir; genel piyasa volatilitesi ile doğrudan güçlü bir korelasyonu yoktur.",
+        "skor": 0.1
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Tarım ürünleri fiyatları genellikle hava koşulları, küresel arz-talep dengesi ve jeopolitik gelişmelerden etkilenir; genel piyasa volatilitesi ile doğrudan güçlü bir korelasyonu yoktur.",
+        "skor": 0.1
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Tarım ürünleri fiyatları genellikle hava koşulları, küresel arz-talep dengesi ve jeopolitik gelişmelerden etkilenir; genel piyasa volatilitesi ile doğrudan güçlü bir korelasyonu yoktur.",
+        "skor": 0.1
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Tarım ürünleri fiyatları genellikle hava koşulları, küresel arz-talep dengesi ve jeopolitik gelişmelerden etkilenir; genel piyasa volatilitesi ile doğrudan güçlü bir korelasyonu yoktur.",
+        "skor": 0.1
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Artan küresel belirsizlik ve riskten kaçış eğilimi genellikle ABD Doları'nı güçlendirir. Bu durum, EURUSD paritesini (ve dolayısıyla 6E'yi) aşağı çeker.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Japon Yeni, küresel belirsizlik dönemlerinde geleneksel bir güvenli liman para birimidir. Riskten kaçış, JPY'ye olan talebi artırır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Euro'ya benzer şekilde, küresel belirsizlik ve riskten kaçış, GBPUSD paritesini (ve dolayısıyla 6B'yi) aşağı yönlü baskılar.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Emtia para birimi olarak küresel büyüme beklentilerine duyarlıdır. Artan belirsizlik ve riskten kaçış, AUD'yi zayıflatır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Emtia para birimi (özellikle petrol) ve ABD ekonomisine yakınlığı nedeniyle, küresel belirsizlik ve riskten kaçış CAD'yi zayıflatır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı FX Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "İsviçre Frangı, küresel belirsizlik dönemlerinde güçlü bir güvenli liman para birimi olarak kabul edilir. Riskten kaçış, CHF'ye olan talebi artırır.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-12T17:59:57.704023+00:00"
+  },
+  {
+    "id": "ftse-pares-early-gains-to-finish-modestly-higher-as-q3-gdp-offset-mining-slump",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Pares Early Gains to Finish Modestly Higher as Q3 GDP Offset Mining Slump",
+    "title_tr": "FTSE, Üçüncü Çeyrek GSYİH'nin Madencilikteki Düşüşü Telafi Etmesiyle Erken Kazançlarını Kısmen Geri Vererek Hafif Yükselişle Kapandı",
+    "content_en": "FTSE Pares Early Gains to Finish Modestly Higher as Q3 GDP Offset Mining SlumpLondon's benchmark FTSE 100 climbed to a four-day intraday high of 10,886.06 on Thursday before paring much of its early advance into the afternoon, settling modestly higher around 1...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Perşembe günü gün içi dört günlük zirvesi olan 10.886,06'ya tırmandı. Ancak öğleden sonra erken kazançlarının çoğunu geri vererek günü hafif bir yükselişle kapattı. Bu durum, üçüncü çeyrek GSYİH verilerinin madencilik sektöründeki düşüşü telafi etmesiyle gerçekleşti.",
+    "url": "https://www.tickmill.com/blog/ftse-pares-early-gains-to-finish-modestly-higher-as-q3-gdp-offset-mining-slump",
+    "published_at": "Thu, 12 Nov 2026 16:42:00 +0000",
+    "fetched_at": "2026-11-12T17:58:39.803886+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, güçlü başlangıca rağmen kazançlarını koruyamadı, bu da yatırımcıların temkinli olduğunu gösteriyor. GSYİH verileri olumlu olsa da, madencilik sektöründeki zayıflık genel yükselişi sınırladı.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Erken kazançlarını geri verse de günü hafif yükselişle tamamladı.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-12T18:00:12.230105+00:00"
+  }
+]
