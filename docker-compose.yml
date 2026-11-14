@@ -1,0 +1,89 @@
+services:
+  cta_erhan_ui:
+    build: .
+    image: otuken/cta_erhan:latest
+    container_name: cta_erhan_ui
+    command: ["ui"]
+    env_file:
+      - .env
+    environment:
+      - CTA_ERHAN_PROJECT_ROOT=/app
+      - CTA_ERHAN_UI_PORT=8504
+      - CTA_ERHAN_MERKEZ_COT_EXPORT_PATH=/mnt/cta_terminal/cme_cot_raw_export.json
+      # TREND/EWMAC -- (2026-11-12, Reis'in "hepsi docker'da calisacak"
+      # talimati): artik native C:\cta_terminal DEGIL, CTA Terminal'in
+      # (ayri Docker stack'i) KENDI runtime_state volume'une yazdigi
+      # cta_kokboru_export.json'u koprulecegiz (COT'ta yapilanin ayni yontemi).
+      - CTA_ERHAN_KOKBORU_EXPORT_PATH=/mnt/cta_terminal_kokboru/cta_kokboru_export.json
+    ports:
+      - "8504:8504"
+    volumes:
+      - cta_erhan_data:/app/data
+      - cta_erhan_data_store:/app/data_store
+      - cta_erhan_logs:/app/logs
+      # COT -- (2026-11-07, Reis'in talimati: "hersey docker da olacak"):
+      # artik native C:\cta_terminal DEGIL, MERKEZ'in merkez_cftc
+      # servisinin yazdigi Docker volume alt klasoru (subpath).
+      - type: volume
+        source: merkez_data
+        target: /mnt/cta_terminal
+        read_only: true
+        volume:
+          nocopy: true
+          subpath: cta_terminal_bridge
+      # TREND/EWMAC koprusu -- CTA Terminal (docker_terminals/cta_terminal)
+      # kendi cycle15/cycle_hourly container'larinda bu dosyayi kendi
+      # runtime_state volume'une yaziyor; biz burada SADECE o tek dosyayi
+      # salt-okunur subpath ile alip CTA ERHAN'a bagliyoruz.
+      - type: volume
+        source: cta_terminal_state
+        target: /mnt/cta_terminal_kokboru/cta_kokboru_export.json
+        read_only: true
+        volume:
+          nocopy: true
+          subpath: cta_kokboru_export.json
+    restart: unless-stopped
+
+  cta_erhan_sync:
+    build: .
+    image: otuken/cta_erhan:latest
+    container_name: cta_erhan_sync
+    command: ["sync"]
+    env_file:
+      - .env
+    environment:
+      - CTA_ERHAN_PROJECT_ROOT=/app
+      - CTA_ERHAN_SYNC_INTERVAL_MIN=30
+    volumes:
+      - cta_erhan_data:/app/data
+      - cta_erhan_data_store:/app/data_store
+      - cta_erhan_logs:/app/logs
+    restart: unless-stopped
+
+  cta_erhan_cot_weekly:
+    build: .
+    image: otuken/cta_erhan:latest
+    container_name: cta_erhan_cot_weekly
+    command: ["cot_weekly"]
+    env_file:
+      - .env
+    environment:
+      - CTA_ERHAN_PROJECT_ROOT=/app
+      - CTA_ERHAN_COT_WEEKLY_TIME=23:30
+      - CTA_ERHAN_COT_WEEKLY_DAY=friday
+    volumes:
+      - cta_erhan_data:/app/data
+      - cta_erhan_data_store:/app/data_store
+      - cta_erhan_logs:/app/logs
+    restart: unless-stopped
+
+volumes:
+  cta_erhan_data:
+  cta_erhan_data_store:
+  cta_erhan_logs:
+  merkez_data:
+    external: true
+    name: merkez_merkez_data
+  cta_terminal_state:
+    external: true
+    name: cta_terminal_cta_terminal_runtime_state

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/
+data_store/
+data_sync/
+logs/
+*.log
+*.db
+.git/
+.gitignore
+.github/
+__pycache__

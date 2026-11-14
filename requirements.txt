@@ -7,3 +7,8 @@ google-genai
 Pillow==11.0.0
 pytesseract==0.3.13
 streamlit==1.40.0
+# GOZLEM-tarzi eksik bagimlilik bulgusu (2026-11-06): veri_cekici.py
+# "from dotenv import load_dotenv" kullaniyor ama hic listelenmemisti --
+# native'de muhtemelen baska bir paketin transitive bagimliligi olarak
+# sessizce kuruluydu.
+python-dotenv==1.0.1

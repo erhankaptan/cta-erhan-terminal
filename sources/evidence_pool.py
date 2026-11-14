@@ -1,5 +1,6 @@
 # sources/evidence_pool.py
 from __future__ import annotations
+import os
 import sqlite3
 import json
 from pathlib import Path
@@ -19,8 +20,12 @@ class EvidencePool:
         if getattr(self, "_initialized", False):
             return
         
-        # Doğrudan senin masaüstündeki tam mutlak yolunu sabitliyoruz
-        PROJECT_ROOT = Path(r"C:\Users\erhan\Desktop\CTA ERHAN PYTHON DOSYASI\erhan_proje\erhan")
+        # Native'deki sabit masaüstü yolu -- Docker'da CTA_ERHAN_PROJECT_ROOT
+        # ortam değişkeniyle override edilebiliyor, tanımsızsa native fallback.
+        PROJECT_ROOT = Path(os.environ.get(
+            "CTA_ERHAN_PROJECT_ROOT",
+            r"C:\Users\erhan\Desktop\CTA ERHAN PYTHON DOSYASI\erhan_proje\erhan",
+        ))
         DATA_DIR = PROJECT_ROOT / "data"
         default_db = DATA_DIR / "evidence.db"
         

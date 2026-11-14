@@ -5,7 +5,9 @@ CTA ERHAN TERMİNALİ — app.py (v22 - KARAR MOTORU + LOG + KOYU TEMA)
 import streamlit as st
 import json
 import sqlite3
+import html as _html
 from pathlib import Path
+from datetime import datetime, timezone
 import streamlit.components.v1 as components
 
 st.set_page_config(
@@ -70,8 +72,15 @@ def load_cot_for_product(product):
     try:
         with sqlite3.connect(str(COT_DB)) as conn:
             conn.row_factory = sqlite3.Row
+            # DUZELTME (2026-10-27, Reis'in "Karar Motoru: ES hep eski COT
+            # raporunu gosteriyor" raporu sonrasi): ORDER BY YOKTU -- SQLite
+            # siralama belirtilmeden satirlari ekleme (rowid) sirasina gore
+            # donduruyordu, yani haftalardir EN ESKI kayit (orn. 22 Eylul) hep
+            # basta geliyordu ve asagidaki next(...) onu seciyordu. CFTC/MERKEZ
+            # veri kaynaklari TAZEYDI (dogrulandi), sorun sadece bu siralamaydi.
             rows = conn.execute(
-                "SELECT * FROM evidence WHERE source_type = 'COT' AND product = ?",
+                "SELECT * FROM evidence WHERE source_type = 'COT' AND product = ? "
+                "ORDER BY published_at DESC",
                 (product.upper().strip(),)
             ).fetchall()
             results = []
@@ -205,39 +214,109 @@ def soften_score(score, cap=0.75):
 
 
 def build_segments_for(code):
+    """
+    DUZELTME (2026-11-12, Reis'in "rakamlar karisik, MGC CONFLICT yaziyor
+    ama skor +0.570" bulgusu + "tazeligi nasil goreyim" sorusu uzerine):
+    her segmente artik o kanitin kendi zaman damgasi da ekleniyor
+    (X analizi icin "analyzed_at", Tickmill RSS icin "published_at") ki
+    SON KANIT sutunu bundan hesaplanabilsin.
+    """
     segments = []
     code_u = code.upper().strip()
     for item in all_analysis:
         username = (item.get("username") or "").strip()
+        ts = item.get("analyzed_at", "")
         for v in (item.get("varliklar") or []):
             sembol = (v.get("sembol") or "").upper().strip()
             if sembol == code_u:
-                segments.append((v.get("yon", "NÖTR"), "@" + username if username else "X"))
+                segments.append((v.get("yon", "NÖTR"), "@" + username if username else "X", ts))
     for item in all_rss:
+        ts = item.get("published_at", "")
         for v in (item.get("varliklar") or []):
             sembol = (v.get("sembol") or "").upper().strip()
             if sembol == code_u:
-                segments.append((v.get("yon", "NÖTR"), "tickmill"))
+                segments.append((v.get("yon", "NÖTR"), "tickmill", ts))
     return segments
 
 
-def compute_state_from_segments(segments, fallback="INSUFFICIENT"):
-    if not segments:
-        return fallback
-    bull = bear = 0
-    for y, _ in segments:
-        yu = str(y).upper()
-        if "YUKARI" in yu or "BULL" in yu or "LONG" in yu:
-            bull += 1
-        elif "AŞAĞI" in yu or "BEAR" in yu or "SHORT" in yu:
-            bear += 1
-    if bull > 0 and bear > 0:
-        return "CONFLICT"
-    if bull > 0:
-        return "BULLISH"
-    if bear > 0:
-        return "BEARISH"
-    return "NEUTRAL"
+def _parse_any_dt(ts):
+    """ISO (X analizleri) VEYA RFC2822 (Tickmill RSS 'published_at') tarih
+    formatlarini tek bir timezone-aware datetime'a cevirir. Ayristiramazsa
+    None doner (exception firlatmaz)."""
+    if not ts:
+        return None
+    try:
+        t = str(ts).replace("Z", "+00:00")
+        dt = datetime.fromisoformat(t)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except Exception:
+        pass
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(str(ts))
+        if dt is None:
+            return None
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except Exception:
+        return None
+
+
+def freshness_label(segments):
+    """
+    YENI (2026-11-12): bir urunun skoruna katki yapan kanitlarin EN YENISI
+    ne kadar once geldi -- saat/gun cinsinden, renkli nokta ile birlikte.
+    Reis'in "ben nasil anlayabilirim ki" sorusuna cevap: CTA RADARI
+    tablosu tek basina bunu hic gostermiyordu, artik SON KANIT sutununda
+    gosteriliyor.
+      🟢 < 6 saat   🟡 6-24 saat   🔴 > 24 saat (gun cinsinden)
+    Hic kanit/tarih yoksa "—" doner.
+    """
+    newest = None
+    for seg in segments:
+        ts = seg[2] if len(seg) > 2 else None
+        dt = _parse_any_dt(ts)
+        if dt and (newest is None or dt > newest):
+            newest = dt
+    if newest is None:
+        return "⚫", "—"
+    age_hours = max(0.0, (datetime.now(timezone.utc) - newest).total_seconds() / 3600.0)
+    if age_hours < 6:
+        dot = "🟢"
+    elif age_hours < 24:
+        dot = "🟡"
+    else:
+        dot = "🔴"
+    if age_hours < 1:
+        text = f"{max(1, int(round(age_hours * 60)))}dk önce"
+    elif age_hours < 24:
+        text = f"{int(age_hours)}s önce"
+    else:
+        text = f"{int(age_hours // 24)}g önce"
+    return dot, text
+
+
+# DUZELTME (2026-11-12, Reis'in "rakamlar karisik degil mi" bulgusu):
+# ESKIDEN bu tablonun renkli DURUM etiketi (asagida kaldirilan
+# compute_state_from_segments ile) skordan TAMAMEN BAGIMSIZ, kendi basina
+# ham bull/bear SAYIM mantigiyla hesaplaniyordu -- tek bir eski/zit yonlu
+# tweet bile yeterliydi hep "CONFLICT" damgasi vurmaya, ve bu yuzden bir
+# urun (orn. MGC) ekranda "CONFLICT" gorunurken yaninda +0.570 gibi
+# guclu bir skor gosterebiliyordu -- etiket ile sayi birbirini YALANLIYORDU.
+# Artik DURUM, skorun KENDISINI ureten synthesis_engine.py'nin dondurdugu
+# "state" alanindan okunuyor (ayni agirlik+tazelik+gercek celiski-orani
+# mantigi) -- yani etiket ve sayi artik HER ZAMAN birbirini dogruluyor.
+# Ayrica tum durum etiketleri artik Turkce gosteriliyor.
+DURUM_TR = {
+    "BULLISH": "YUKARI",
+    "BEARISH": "AŞAĞI",
+    "NEUTRAL": "NÖTR",
+    "CONFLICT": "ÇELİŞKİLİ",
+    "INSUFFICIENT": "YETERSİZ",
+}
 
 
 def state_color(state, score=0.0):
@@ -250,6 +329,28 @@ def state_color(state, score=0.0):
     if state == "NEUTRAL":
         return "#FFC107"
     return "#333333"
+
+
+# DUZELTME (2026-11-12, Reis'in "rakamlar hic bir anlam ifade etmiyor"
+# bulgusu): Ham ondalikli skor (+0.467, -0.174 gibi) okuyucuya hicbir sey
+# anlatmiyordu. Onun yerine yon + siddet gosteren bir ok rozeti kullaniyoruz:
+# YUKARI -> yesil yukari ok (siddetliyse cift ok), AŞAĞI -> kirmizi asagi ok
+# (siddetliyse cift ok), NÖTR -> sari yatay ok, ÇELİŞKİLİ/YETERSİZ -> ok yok
+# (yon zaten belirsiz/yok). Esik degeri synthesis_engine.py'nin kendi
+# SCORE_THRESHOLD=0.35 siniflandirmasiyla uyumlu olacak sekilde secildi:
+# |skor| >= 0.65 -> "cok guclu" (cift ok), aksi halde tek ok.
+ARROW_STRONG_THRESHOLD = 0.65
+
+
+def arrow_for(state, score):
+    abs_score = abs(score)
+    if state == "BULLISH":
+        return "▲▲" if abs_score >= ARROW_STRONG_THRESHOLD else "▲"
+    if state == "BEARISH":
+        return "▼▼" if abs_score >= ARROW_STRONG_THRESHOLD else "▼"
+    if state == "NEUTRAL":
+        return "➡"
+    return ""
 
 
 def offlist_products():
@@ -364,17 +465,25 @@ with tab_pano:
                     raw_score = r.get("score", 0.0)
                     score = soften_score(raw_score, cap=0.75)
                     segments = build_segments_for(code)
-                    state = compute_state_from_segments(segments, r.get("state", "INSUFFICIENT"))
+                    # DUZELTME (2026-11-12): DURUM artik segmentlerden ayri/ham
+                    # bir sayimla DEGIL, skorun kendisini ureten synthesis
+                    # engine'in "state" alanindan okunuyor -- bkz. yukarida
+                    # DURUM_TR tanimindaki aciklama.
+                    state = r.get("state", "INSUFFICIENT")
                     emoji = STATE_ICONS.get(state, "⚫")
+                    durum_tr = DURUM_TR.get(state, state)
 
                     kaynak_set = []
                     seen_k = set()
-                    for _, kaynak in segments:
+                    for seg in segments:
+                        kaynak = seg[1]
                         if kaynak not in seen_k:
                             seen_k.add(kaynak)
                             kaynak_set.append(kaynak)
                     kanit = len(kaynak_set)
-                    kaynak_str = ", ".join(kaynak_set) if kaynak_set else "—"
+                    kaynak_str = _html.escape(", ".join(kaynak_set)) if kaynak_set else "—"
+
+                    fresh_dot, fresh_text = freshness_label(segments)
 
                     color = state_color(state, score)
                     pct = min(100, abs(score) * 100) if state != "INSUFFICIENT" else 0
@@ -389,13 +498,22 @@ with tab_pano:
                             '</div>'
                         )
                     else:
+                        arrow = arrow_for(state, score)
+                        if state == "BULLISH":
+                            arrow_color = "#00E676"
+                        elif state == "BEARISH":
+                            arrow_color = "#FF3B3B"
+                        elif state == "NEUTRAL":
+                            arrow_color = "#FFC107"
+                        else:
+                            arrow_color = "#888"
                         durum_html = (
                             '<div style="display:flex;align-items:center;gap:10px;">'
-                            f'<span style="font-size:14px;font-weight:700;color:#FFF;min-width:110px;">{emoji} {state}</span>'
+                            f'<span style="font-size:14px;font-weight:700;color:#FFF;min-width:110px;">{emoji} {durum_tr}</span>'
                             f'<div style="flex:1;background:#1a1a1a;height:16px;border-radius:3px;overflow:hidden;border:1px solid #1E4FA8;">'
                             f'<div style="width:{pct:.0f}%;height:100%;background:{color};"></div>'
                             '</div>'
-                            f'<span style="color:#FFF;font-weight:800;font-size:13px;min-width:60px;text-align:right;">{score:+.3f}</span>'
+                            f'<span style="color:{arrow_color};font-weight:800;font-size:16px;min-width:30px;text-align:right;">{arrow}</span>'
                             '</div>'
                         )
 
@@ -405,6 +523,7 @@ with tab_pano:
                         <td style="padding:6px 8px;border-bottom:1px solid #1E4FA8;">{durum_html}</td>
                         <td style="color:#FFF;font-size:14px;font-weight:800;padding:6px 4px;border-bottom:1px solid #1E4FA8;text-align:center;width:45px;">{kanit}</td>
                         <td style="color:#B8D4FF;font-size:12px;font-weight:600;padding:6px 6px;border-bottom:1px solid #1E4FA8;width:130px;word-break:break-word;">{kaynak_str}</td>
+                        <td style="color:#DDD;font-size:12px;font-weight:700;padding:6px 6px;border-bottom:1px solid #1E4FA8;width:90px;white-space:nowrap;text-align:center;">{fresh_dot} {fresh_text}</td>
                     </tr>
                     """
 
@@ -417,6 +536,7 @@ with tab_pano:
                             <th style="color:#FFF;font-size:14px;font-weight:800;padding:8px 8px;text-align:left;border-bottom:2px solid #00E5FF;">DURUM</th>
                             <th style="color:#FFF;font-size:14px;font-weight:800;padding:8px 4px;text-align:center;border-bottom:2px solid #00E5FF;">KANIT</th>
                             <th style="color:#FFF;font-size:14px;font-weight:800;padding:8px 6px;text-align:left;border-bottom:2px solid #00E5FF;">KAYNAK</th>
+                            <th style="color:#FFF;font-size:14px;font-weight:800;padding:8px 6px;text-align:center;border-bottom:2px solid #00E5FF;">SON KANIT</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -473,23 +593,31 @@ with tab_pano:
             st.caption("Henüz RSS makalesi yok.")
         else:
             rss_html = ""
+            # DUZELTME (2026-10-27, "components.v1.html" cokme hatasi sonrasi):
+            # RSS/Tickmill'den gelen basliklar, yorumlar ve icerik metinleri
+            # HTML-ESCAPE EDILMEDEN dogrudan f-string ile HTML'e gomuluyordu.
+            # Haber metninde "<", ">", '"' gibi karakterler gecerse (ozellikle
+            # linkli/alintili makalelerde cok olasi) uretilen HTML bozuluyor,
+            # tarayici bunu "h<\div><div style=" gibi anlamsiz bir statik
+            # dosya yoluna cevirip OSError/ASGI exception'i tetikliyordu. Tum
+            # disaridan gelen metin alanlari simdi _html.escape() ile temizleniyor.
             for article in all_rss[-15:][::-1]:
-                title_tr = article.get("title_tr", "").strip()
-                title_en = article.get("title_en", "").strip()
+                title_tr = _html.escape(article.get("title_tr", "").strip())
+                title_en = _html.escape(article.get("title_en", "").strip())
                 display_title = title_tr or title_en
-                content_tr = article.get("content_tr", "").strip()
-                content_en = article.get("content_en", "").strip()
-                yorum = article.get("yorum", "").strip()
+                content_tr = _html.escape(article.get("content_tr", "").strip())
+                content_en = _html.escape(article.get("content_en", "").strip())
+                yorum = _html.escape(article.get("yorum", "").strip())
                 varliklar = article.get("varliklar", [])
-                published = article.get("published_at", "")
+                published = _html.escape(str(article.get("published_at", "")))
 
                 varlik_html = ""
                 for v in varliklar:
-                    sembol = v.get("sembol", "?")
-                    isim = v.get("isim", "")
+                    sembol = _html.escape(str(v.get("sembol", "?")))
+                    isim = _html.escape(str(v.get("isim", "")))
                     vyon = v.get("yon", "NÖTR")
                     skor = v.get("skor", 0.5)
-                    gerekce = v.get("gerekce", "")
+                    gerekce = _html.escape(str(v.get("gerekce", "")))
                     bar = make_bar_html(vyon, skor)
                     varlik_html += (
                         f'<div style="background:#0a0a0a;border:1px solid #1E4FA8;border-radius:4px;padding:8px 12px;margin:6px 0;">'
@@ -563,6 +691,10 @@ with tab_pano:
             _cot_s = _sig.get("cot_score", 0)
             _radar_s = _sig.get("radar_score", 0)
             _tm_s = _sig.get("tickmill_score", 0)
+            _trend_s = _sig.get("trend_score", 0)
+            _trend_fresh = _sig.get("trend_freshness", "UNAVAILABLE")
+            _trend_persist = _sig.get("trend_persistence", 0)
+            _trend_div = _sig.get("trend_divergence", "NONE")
             _is_conflict = _sig.get("is_conflict", False)
             _conflict_src = _sig.get("conflict_sources", [])
             _signal_type = _sig.get("signal_type", "mixed")
@@ -587,16 +719,61 @@ with tab_pano:
             </div>
             """, unsafe_allow_html=True)
 
-            col_s1, col_s2, col_s3 = st.columns(3)
+            col_s1, col_s2, col_s3, col_s4 = st.columns(4)
             with col_s1:
                 st.metric("COT", f"{_cot_s:+.3f}")
+                # DUZELTME (2026-11-12, Reis onayli): ekstremite AYRI bir
+                # baglam gostergesi -- KARAR MOTORU skoruna karismaz, sadece
+                # "bu pozisyon kendi son haftalarina gore ne kadar gergin"
+                # sorusunu cevaplar. Yeterli gecmis (4 hafta) birikene kadar
+                # durust bir gecis notu gosterilir, sahte sayi uretilmez.
+                try:
+                    from core.signal_engine import get_cot_extremity_info
+                    _extremity = get_cot_extremity_info(selected_product)
+                except Exception:
+                    _extremity = {"extremity_level": None, "weeks_available": 0, "status": "YETERSIZ"}
+                if _extremity.get("status") == "OK":
+                    st.caption(f"Ekstremite: %{_extremity['extremity_level']:.0f} "
+                               f"(son {_extremity['weeks_available']} hafta)")
+                else:
+                    st.caption(f"⏳ Ekstremite oluşuyor ({_extremity.get('weeks_available', 0)}/4 hafta)")
             with col_s2:
                 st.metric("Radar", f"{_radar_s:+.3f}")
             with col_s3:
                 st.metric("Tickmill", f"{_tm_s:+.3f}")
+            with col_s4:
+                if _trend_fresh == "OK":
+                    st.metric("Trend (EWMAC)", f"{_trend_s:+.3f}", help=f"Süreklilik: {_trend_persist} periyot")
+                else:
+                    st.metric("Trend (EWMAC)", "veri yok")
 
             if _is_conflict:
                 st.warning(f"⚠️ ÇELİŞKİLİ SİNYAL — {' + '.join(_conflict_src)} ters yönde")
+
+            if _trend_div == "HARD":
+                st.error("⛔ FİYAT TRENDİYLE TAM ÇELİŞKİ — pozisyonlama/sentiment ters yönde ama fiyat "
+                         f"{_trend_persist} periyottur güçlü şekilde tersine gidiyor. Sinyal BEKLE'ye zorlandı.")
+            elif _trend_div == "SOFT":
+                st.warning(f"⚠️ Fiyat trendi sinyalin tersine ({_trend_persist} periyottur) — "
+                           "\"GÜÇLÜ\" etiketi bu yüzden bastırıldı, normal AL/SAT'a düşürüldü.")
+            elif _trend_div == "WEAK":
+                st.caption("ℹ️ Fiyat trendi sinyalin tersine ama henüz kısa/zayıf — izlemeye değer.")
+
+            # YENI (2026-10-28): misterpuertas (CTA Flow) + juanjesusmontoy (SPX Gamma)
+            _cta_flow_s = _sig.get("cta_flow_score")
+            _gamma_regime = _sig.get("gamma_regime")
+            _gamma_levels = _sig.get("gamma_levels")
+            if _cta_flow_s is not None:
+                st.caption(f"📊 misterpuertas CTA Flow (1W baz senaryo): {_cta_flow_s:+.3f} (skora harmanlandı)")
+            if _gamma_regime:
+                _gcolor = "🔴" if _gamma_regime == "negative" else "🟢"
+                _gtxt = "NEGATİF (kırılgan/oynak)" if _gamma_regime == "negative" else "POZİTİF (stabilize edici)"
+                st.caption(f"{_gcolor} JJ Montoya — SPX Gamma Rejimi: {_gtxt} | Güven çarpanı: "
+                           f"×{_sig.get('gamma_confidence_mult', 1.0):.2f}")
+                if _gamma_levels:
+                    st.caption(f"   Put Wall {_gamma_levels.get('put_wall')} | "
+                               f"Gamma Flip {_gamma_levels.get('gamma_flip')} | "
+                               f"Call Wall {_gamma_levels.get('call_wall')}")
 
             st.caption(f"Skor: {_skor:+.4f} | Sinyal Tipi: {_signal_type}")
 
@@ -644,8 +821,36 @@ with tab_pano:
             with col_c:
                 st.metric("Konsensüs", consensus)
 
+            # DUZELTME (2026-11-12, Reis'in "ham kod cikiyor" bulgusu):
+            # ESKIDEN bu uyari, sources/cot_interpreter.py'nin ic degisken
+            # adini (orn. "TERS_INDIKATOR_UYARI_ASIRI_IYIMSER") DOGRUDAN
+            # ekrana basiyordu -- Turkce bir cumle degil, programin kendi
+            # sabit adi. CTA RADARI'deki DURUM etiketiyle AYNI hata sinifi
+            # (ham/cevrilmemis kod gorunmesi), burada da ayni disiplinle
+            # duzeltildi: anlamli, Turkce bir aciklamaya cevriliyor.
+            NON_REPORTABLE_TR = {
+                "TERS_INDIKATOR_UYARI_ASIRI_IYIMSER": (
+                    "Küçük yatırımcı (Non-Reportable) aşırı iyimser ve "
+                    "pozisyonunu artırıyor — tarihsel olarak bu bir ters "
+                    "(contrarian) uyarı sinyalidir."
+                ),
+                "TERS_INDIKATOR_UYARI_ASIRI_KOTUMSER": (
+                    "Küçük yatırımcı (Non-Reportable) aşırı kötümser ve "
+                    "pozisyonunu artırıyor (şortluyor) — tarihsel olarak "
+                    "bu bir ters (contrarian) uyarı sinyalidir."
+                ),
+                "TERS_INDIKATOR_UYARI_POZITIF": (
+                    "Küçük yatırımcı (Non-Reportable) net pozitif (long) "
+                    "pozisyonda."
+                ),
+                "TERS_INDIKATOR_UYARI_NEGATIF": (
+                    "Küçük yatırımcı (Non-Reportable) net negatif (short) "
+                    "pozisyonda."
+                ),
+            }
+
             if "TERS_INDIKATOR" in non_rep:
-                st.warning(f"⚠️ TERS İNDİKATÖR: {non_rep}")
+                st.warning(f"⚠️ TERS İNDİKATÖR: {NON_REPORTABLE_TR.get(non_rep, non_rep)}")
             elif non_rep == "NOTR":
                 st.info("ℹ️ Non-Reportable: Nötr")
             elif non_rep == "YOK":

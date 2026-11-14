@@ -2,13 +2,23 @@ import os
 import requests
 import json
 import re
+import calendar
 import feedparser
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from core.signal_engine import apply_wayne_handbook_rules
 
-# ⚠️ BURAYA KENDİ GEMINI API ANAHTARINI YAPIŞTIR
-GEMINI_API_KEY = "SENIN_GEMINI_API_KEYIN"
+# .env dosyasındaki gizli değişkenleri yükle
+load_dotenv()
+
+# API anahtarını .env dosyasından oku
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not GEMINI_API_KEY:
+    print("HATA: GEMINI_API_KEY bulunamadi! Lutfen .env dosyasini kontrol edin.")
+    exit(1)
+
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 def download_image(image_url: str, save_path: str = "temp_table.jpg") -> str:
@@ -82,20 +92,96 @@ def x_verilerini_cek():
         try:
             req = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
             feed = feedparser.parse(req.text)
-            
-            if feed.entries:
+
+            if not feed.entries:
+                print(f"[{isim}] RSS beslemesinde tweet bulunamadi.")
+                continue
+
+            if isim == "misterpuertas":
+                # DUZELTME (2026-10-28, Reis'in "sadece Wayne degil, o uc
+                # hesaptan gelen bilgiler de skora dahil olsun" talebi):
+                # onceden burada sadece "resim var mi" kontrol edilip
+                # GECILIYORDU, hicbir icerik islenmiyordu. Artik gercekten
+                # isleniyor (bkz. sources/x_extra_accounts.py).
+                from sources.x_extra_accounts import (
+                    pick_latest_entry, process_misterpuertas_entry,
+                    save_misterpuertas_analysis,
+                )
+                entry = pick_latest_entry(feed.entries, max_scan=20)
+                if not entry:
+                    print(f"[{isim}] Islenecek girdi bulunamadi.")
+                    continue
+                data = process_misterpuertas_entry(entry)
+                if data:
+                    save_misterpuertas_analysis(data)
+                    print(f"[{isim}] CTA Flow senaryosu islendi -> {entry.get('title','')[:70]!r}")
+                else:
+                    print(f"[{isim}] Tweet islenemedi (veri cikarilamadi).")
+                continue
+
+            if isim == "juanjesusmontoy":
+                from sources.x_extra_accounts import (
+                    pick_latest_entry, process_montoya_entry,
+                    save_montoya_analysis,
+                )
+                entry = pick_latest_entry(feed.entries, max_scan=20)
+                if not entry:
+                    print(f"[{isim}] Islenecek girdi bulunamadi.")
+                    continue
+                data = process_montoya_entry(entry)
+                if data:
+                    save_montoya_analysis(data)
+                    print(f"[{isim}] SPX gamma raporu islendi -> {entry.get('title','')[:70]!r}")
+                else:
+                    print(f"[{isim}] Tweet islenemedi (veri cikarilamadi).")
+                continue
+
+            if isim != "wayneterprises":
+                # (bilinmeyen/ileride eklenebilecek baska bir hesap icin
+                # eski guvenli davranis: sadece resim kontrolu.)
                 entry = feed.entries[0]
                 summary = entry.get("summary", "")
                 resim_linkleri = re.findall(r'<img src="([^"]+)"', summary)
-                
                 print(f"[{isim}] Son tweet okundu. Icinde resim var mi? {'EVET' if resim_linkleri else 'HAYIR'}")
-                
-                if resim_linkleri and isim == "wayneterprises":
-                    print(f"📸 {isim} yeni bir tablo paylasti! Isleniyor...")
-                    extract_and_process_wayne_image(resim_linkleri[0])
-            else:
-                print(f"[{isim}] RSS beslemesinde tweet bulunamadi.")
-                    
+                continue
+
+            # DUZELTME (2026-10-27, Reis'in "6 saat once tweet atti hala
+            # gorunmuyor" raporu sonrasi): GERCEK KOK SEBEP -- nitter RSS'i
+            # girdileri yayin SAATINE gore degil, kendi ic sirasina gore
+            # donduruyor (entries[0] en yeni OLMAYABILIR -- dogrulandi:
+            # check_wayne_rss.py ciktisinda entries[0] saat 16:59, entries[1]
+            # saat 17:17, entries[2] -- asil aradigimiz "CTA signal" tablosu --
+            # saat 16:22'de ama 3. sirada). Simdi SADECE entries[0]'a degil,
+            # ilk 20 girdiyi tarayip BASLIGINDA "cta signal" gecen VE gorseli
+            # olan tweetler arasindan EN YENI YAYIN TARIHLI olani seciyoruz --
+            # sira degil, gercek saat belirleyici.
+            adaylar = []
+            for entry in feed.entries[:20]:
+                title = (entry.get("title") or "").lower()
+                if "cta signal" not in title:
+                    continue
+                summary = entry.get("summary", "")
+                resim_linkleri = re.findall(r'<img src="([^"]+)"', summary)
+                if not resim_linkleri:
+                    continue
+                published_struct = entry.get("published_parsed")
+                # time.struct_time'i karsilastirilabilir bir sayiya (epoch
+                # saniyesi) ceviriyoruz -- None gelirse (nadir) 0 kullanilir,
+                # boylece farkli tiplerin karsilastirilmasi (TypeError) riski
+                # ortadan kalkar.
+                epoch = calendar.timegm(published_struct) if published_struct else 0
+                adaylar.append((epoch, entry.get("title", ""), resim_linkleri[0]))
+
+            if not adaylar:
+                print(f"[{isim}] Son 20 girdi arasinda gorselli 'CTA signal' tablosu bulunamadi "
+                      f"-- muhtemelen henuz yeni bir tablo paylasilmamis.")
+                continue
+
+            adaylar.sort(key=lambda t: t[0], reverse=True)
+            secilen_epoch, secilen_baslik, secilen_resim = adaylar[0]
+            print(f"📸 {isim}: en yeni 'CTA signal' tablosu bulundu -> {secilen_baslik[:70]!r}. Isleniyor...")
+            extract_and_process_wayne_image(secilen_resim)
+
         except Exception as e:
             print(f"HATA: {isim} -> {e}")
 
