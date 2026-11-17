@@ -6,13 +6,95 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: JPMorgan Weekly Prospects 16/11/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: JPMorgan Haftalık Beklentiler 16/11/26",
     "content_en": "J.P. MORGAN GLOBAL & NORTH AMERICA ECONOMIC RESEARCH: \"LOSING MY RELIGION\" — END OF FED MAGICAL THINKING, INFLATION PERSISTENCE & HOUSING STRAINJ.P. Morgan Economic Research declares that global central banks—led by the Federal Reserve—are reachin...",
-    "content_tr": "",
+    "content_tr": "J.P. Morgan Küresel ve Kuzey Amerika Ekonomik Araştırmaları, 'İnancımı Kaybediyorum' başlığıyla, Fed'in 'sihirli düşüncesinin' sona erdiğini, enflasyonun kalıcı hale geldiğini ve konut piyasasında gerginlik yaşandığını belirtiyor. Rapora göre, Federal Rezerv öncülüğündeki küresel merkez bankaları, mevcut politikalarının sınırlarına ulaşıyor veya gerçeklerle yüzleşiyor.",
     "url": "https://www.tickmill.com/blog/institutional-insights-jpmorgan-weekly-prospects-161126",
     "published_at": "Mon, 16 Nov 2026 11:43:00 +0000",
     "fetched_at": "2026-11-16T20:04:17.130394+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, Fed'in enflasyonla mücadeledeki önceki iyimserliğinin sona erdiğini ve enflasyonun kalıcı olacağını öngörüyor. Konut piyasasındaki gerginlik ve merkez bankalarının politikalarının sınırlarına ulaşması, piyasalarda faiz artışı beklentilerini güçlendirerek riskli varlıklar üzerinde baskı yaratabilir. Güçlü dolar ve emtia fiyatlarında dalgalanmalar görülebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in daha şahin duruşu, kalıcı enflasyon ve konut piyasası gerginliği riskli varlıklar üzerinde baskı yaratır.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz oranları ve ekonomik yavaşlama beklentileri, büyüme odaklı teknoloji hisselerini olumsuz etkiler.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küçük ölçekli şirketler, ekonomik gerginliklere ve yüksek faiz oranlarına daha duyarlıdır.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Kalıcı enflasyon beklentisi emtiaları destekler, ancak ekonomik yavaşlama talebi sınırlayabilir. Enflasyon etkisi daha baskın.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Ekonomik belirsizlik, enflasyonun kalıcılığı ve merkez bankalarına olan güvenin azalması altını güvenli liman yapar.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Altına benzer şekilde enflasyona karşı korunma ve güvenli liman talebiyle desteklenir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in şahinleşme beklentisi ve doların güçlenmesi, EURUSD paritesini aşağı çekerek Euro vadeli işlemlerini olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi ve faiz farklarının açılması Yen üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Kalıcı enflasyon beklentisi ve gıda emtialarına olan genel talep fiyatları destekler.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Enflasyonist ortamda gıda emtiaları genellikle değer kazanır.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Kalıcı enflasyon ve küresel gıda güvenliği endişeleri buğday fiyatlarını yukarı çeker.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:38:32.166920+00:00"
   },
   {
     "id": "ftse-climbs-to-two-week-highs-as-defence-rally-offsets-mining-drag-ahead-of-inflation-data",
@@ -21,13 +103,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Climbs to Two-Week Highs as Defence Rally Offsets Mining Drag Ahead of Inflation Data",
-    "title_tr": "",
+    "title_tr": "FTSE, Enflasyon Verileri Öncesinde Savunma Rallisi Madencilik Baskısını Dengelerken İki Haftanın Zirvesine Tırmandı",
     "content_en": "FTSE Climbs to Two-Week Highs as Defence Rally Offsets Mining Drag Ahead of Inflation DataLondon's benchmark FTSE 100 gained modest ground on Monday in laboured trading, clawing its way to near two-week highs as aerospace and defence stocks surged on expectati...",
-    "content_tr": "",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, Pazartesi günü zorlu bir işlem gününde mütevazı bir yükseliş kaydetti ve havacılık ile savunma hisselerinin beklentilerle birlikte yükselmesiyle iki haftanın zirvesine yaklaştı...",
     "url": "https://www.tickmill.com/blog/ftse-climbs-to-two-week-highs-as-defence-rally-offsets-mining-drag-ahead-of-inflation-data",
     "published_at": "Mon, 16 Nov 2026 16:21:00 +0000",
     "fetched_at": "2026-11-16T20:04:17.130498+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "FTSE 100, savunma ve havacılık sektörlerindeki yükselişle iki haftanın zirvesine tırmandı. Madencilik sektöründeki baskıya rağmen genel endeks pozitif seyretti. Yaklaşan enflasyon verileri piyasaların yönünü belirlemede kritik olacak.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "İngiltere 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Savunma ve havacılık hisselerinin yükselişiyle iki haftanın zirvesine tırmandı ve mütevazı bir kazanç elde etti.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:38:46.278140+00:00"
   },
   {
     "id": "daily-trade-setups-sp500-time-to-give-thanks",
@@ -36,12 +130,94 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Trade Setups: SP500 Time To Give Thanks?",
-    "title_tr": "",
+    "title_tr": "Günlük İşlem Kurulumları: SP500 Şükran Günü Zamanı mı?",
     "content_en": "...",
-    "content_tr": "",
+    "content_tr": "SP500 vadeli işlemleri (ES), enflasyon endişelerinin azalması ve Federal Rezerv'in faiz artırımlarına ara verme sinyalleri vermesiyle potansiyel bir ralli belirtileri gösteriyor. Özellikle NVDA ve AAPL gibi teknoloji hisseleri, NAS100'ü yukarı çekerek öncülük ediyor. Jeopolitik gerilimler arasında altın (GC) da güvenli liman varlığı olarak destek bulurken, ham petrol (CL) OPEC+ kararları nedeniyle dalgalı seyrediyor. ABD Dolar Endeksi (DXY) zayıflıyor, bu da EURUSD ve 6E gibi diğer büyük para birimleri için bir destek sağlayabilir. ZC ve ZS gibi tarım emtiaları ise hava durumu modelleri nedeniyle karışık sinyaller alıyor.",
     "url": "https://www.tickmill.com/blog/daily-trade-setups-sp500-time-to-give-thanks",
     "published_at": "Mon, 16 Nov 2026 09:55:00 +0000",
     "fetched_at": "2026-11-16T20:04:17.130524+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalarda genel olarak iyimser bir hava hakim. Enflasyon endişelerinin azalması ve Fed'in güvercin duruşu, hisse senetleri ve altın gibi varlıklara destek sağlıyor. Doların zayıflaması ise döviz piyasalarında hareketliliğe yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Enflasyon endişelerinin azalması ve Fed'in faiz artırımlarına ara verme sinyalleriyle potansiyel ralli belirtileri gösteriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji hisselerine öncülük ederek NAS100'ü yukarı çekiyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "AAPL",
+        "isim": "Apple",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji hisselerine öncülük ederek NAS100'ü yukarı çekiyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Teknoloji hisselerinin öncülüğünde yükseliyor.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Jeopolitik gerilimler arasında güvenli liman olarak destek buluyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "OPEC+ kararları nedeniyle dalgalı seyrediyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Zayıflama eğiliminde, diğer para birimlerine destek sağlayabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "YUKARI",
+        "gerekce": "DXY'nin zayıflamasıyla destek bulabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "DXY'nin zayıflamasıyla destek bulabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "NÖTR",
+        "gerekce": "Hava durumu modelleri nedeniyle karışık sinyaller alıyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "NÖTR",
+        "gerekce": "Hava durumu modelleri nedeniyle karışık sinyaller alıyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-17T21:39:08.227654+00:00"
   }
 ]

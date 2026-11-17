@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPNZD H4 | Potential bullish bounce",
-    "title_tr": "",
+    "title_tr": "GBPNZD H4 | Potansiyel boğa sıçraması",
     "content_en": "Title: GBPNZD H4 | Potential bullish bounce Type: Bullish bounce Preference: The price is is falling toward the pivot at 1.8830, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.8901, a pullback resistance that aligns...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPNZD H4 | Potansiyel boğa sıçraması Tür: Boğa sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 1.8830'daki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı, bir geri çekilme direnci olan ve hizalanan 1.8901'deki 1. dirence doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/gbpnzd-h4-potential-bullish-bounce-16th-november-2026",
     "published_at": "Mon, 16 Nov 2026 12:28:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626840+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPNZD paritesinde teknik bir geri çekilme desteğinden potansiyel bir boğa sıçraması beklemektedir. Fiyatın belirtilen pivot seviyesinden yukarı yönlü tepki vermesi durumunda, kısa vadeli bir yükseliş hareketi gözlemlenebilir. Bu durum, paritede alım yönlü pozisyonlar için fırsat yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "YUKARI",
+        "gerekce": "GBPNZD paritesinde beklenen boğa sıçraması, İngiliz Sterlini'nin Yeni Zelanda Doları karşısında değer kazanacağını işaret etmektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:36:56.380385+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-161126",
@@ -21,13 +33,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 16/11/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 16/11/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 16/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 16/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER. AYLIK BOĞA AYI BÖLGESİ 7275/35. AYLIK DİRENÇ 7980. AYLIK DESTEK 7361. HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-161126",
     "published_at": "Mon, 16 Nov 2026 08:30:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626871+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 vadeli işlemleri (ES) için aylık bazda önemli teknik seviyeler sunmaktadır. Bu seviyeler, piyasanın boğa veya ayı bölgelerini, direnç ve destek noktalarını belirleyerek yatırımcılara potansiyel hareket alanları hakkında bilgi verir. Nakit endeks ile vadeli işlemler arasındaki farkın ayarlanması gerektiği vurgulanmıştır.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, ES1! için aylık boğa/ayı bölgeleri (7275/35), direnç (7980) ve destek (7361) seviyeleri sunmaktadır. Mevcut fiyat bilgisi olmadan bu seviyelere göre net bir yön belirlenemez.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, ES1! seviyelerinin nakit US500 (SPX500) eşdeğerleri için kullanılabileceğini belirtmektedir. Ancak, mevcut fiyat bilgisi olmadan yön belirlenemez.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:37:14.136414+00:00"
   },
   {
     "id": "daily-market-outlook-november-16-2026",
@@ -36,13 +67,67 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, November 16, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 16 Kasım 2026",
     "content_en": "Daily Market Outlook, November 16, 2026 Patrick Munnelly, Partner: Market Strategy, Tickmill Group Munnelly’s Macro Missive - Tech De-Risks Ahead Of Nvidia Test As Sticky Inflation Locks In Rates Global equity markets opened the week with a defensive bias as instit...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 16 Kasım 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mektubu - Yapışkan Enflasyon Faizleri Sabitlerken Nvidia Testi Öncesi Teknoloji Riskleri Azaltıyor. Küresel hisse senedi piyasaları haftaya savunmacı bir eğilimle başladı...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-november-16-2026",
     "published_at": "Mon, 16 Nov 2026 09:08:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626890+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Piyasalar, yapışkan enflasyonun faiz oranlarını yüksek tutacağı beklentisiyle haftaya savunmacı bir tavırla başladı. Özellikle teknoloji hisselerinde Nvidia testi öncesi risk azaltma eğilimi gözlenirken, küresel hisse senedi piyasalarında genel bir düşüş baskısı hakim. Bu durum, yatırımcıların riskli varlıklardan kaçınarak güvenli limanlara yöneldiğini gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Nvidia testi öncesi teknoloji hisselerinde risk azaltma eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında savunmacı eğilim ve yüksek faiz beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji hisselerinde risk azaltma ve genel savunmacı piyasa eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında savunmacı eğilim ve yüksek faiz beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Yapışkan enflasyon ve piyasalardaki savunmacı eğilim güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Yapışkan enflasyonun faizleri yüksek tutması doları destekler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek faiz beklentileri ABD Dolarını desteklerken Euro üzerinde baskı oluşturabilir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:37:35.383902+00:00"
   },
   {
     "id": "gbpjpy-h1-bearish-momentum-building-16th-november-2026",
@@ -51,13 +136,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPJPY H1 | Bearish momentum building",
-    "title_tr": "",
+    "title_tr": "GBPJPY H1 | Ayı piyasası momentumu oluşuyor",
     "content_en": "Title: GBPJPY H1 | Bearish momentum building Type: Bearish reversal Preference: The price is rising toward the pivot at 211.22, an overlap support. A bounce from this level could lead the price toward the 1st support a210.58,0, an overlap support. Alternative Scena...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPJPY H1 | Ayı piyasası momentumu oluşuyor Tip: Ayı piyasası dönüşü Tercih: Fiyat, 211.22'deki pivot seviyesine, bir örtüşen desteğe doğru yükseliyor. Bu seviyeden bir geri çekilme, fiyatı 210.58'deki ilk desteğe, bir örtüşen desteğe doğru yönlendirebilir. Alternatif Senaryo...",
     "url": "https://www.tickmill.com/blog/gbpjpy-h1-bearish-momentum-building-16th-november-2026",
     "published_at": "Mon, 16 Nov 2026 12:44:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626907+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPJPY paritesinde ayı piyasası dönüşü beklentisiyle düşüş yönlü bir momentumun oluştuğunu belirtiyor. Bu durum, paritede kısa pozisyon arayan veya mevcut uzun pozisyonlarını hedge etmek isteyen yatırımcılar için önemli bir sinyal olabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPJPY",
+        "isim": "İngiliz Sterlini / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın pivot seviyesinden geri çekilerek ilk destek seviyesine doğru düşüş eğilimi göstermesi ve ayı piyasası dönüşü beklentisi.",
+        "skor": 0.75
+      }
+    ],
+    "translated_at": "2026-11-17T21:37:45.496497+00:00"
   },
   {
     "id": "usousd-h4-bullish-rebound-ahead-16th-november-2026",
@@ -66,13 +163,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USOUSD H4 | Bullish rebound ahead",
-    "title_tr": "",
+    "title_tr": "USOUSD H4 | Boğa yönlü toparlanma bekleniyor",
     "content_en": "Title: USOUSD H4 | Bullish rebound ahead Type: Bullish bounce Preference: The price is falling toward the pivot at 87.40, an overlap support. A bounce from this level could lead the price toward the 1st resistance at 92.08, a pullback resistance that aligns with th...",
-    "content_tr": "",
+    "content_tr": "Başlık: USOUSD H4 | Boğa yönlü toparlanma bekleniyor Tip: Boğa yönlü sıçrama Tercih: Fiyat, 87.40'taki pivot seviyesine, bir örtüşme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 92.08'deki ilk dirence, yani bir geri çekilme direncine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/usousd-h4-bullish-rebound-ahead-16th-november-2026",
     "published_at": "Mon, 16 Nov 2026 12:40:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626931+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, USOUSD'de boğa yönlü bir toparlanma bekleyerek petrol fiyatlarında potansiyel bir yükselişe işaret ediyor. Bu durum, enerji piyasalarında kısa vadeli bir iyimserlik yaratabilir ve enflasyonist baskıları artırabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 87.40 pivot desteğinden sıçrayarak 92.08 direncine doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:37:54.814984+00:00"
   },
   {
     "id": "usdjpy-h4-bullish-breakout-confirmed-16th-november-2026",
@@ -81,12 +190,24 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDJPY H4 | Bullish breakout confirmed",
-    "title_tr": "",
+    "title_tr": "USDJPY H4 | Boğa kırılımı onaylandı",
     "content_en": "Title: USDJPY H4 | Bullish breakout confirmed Type: Bullish bounce Preference: The price is falling toward the pivot at 158.98, an overlap support that aligns with the 50% and the 38.2% Fibonacci retracement. A bounce from this level could lead the price toward the...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDJPY H4 | Boğa kırılımı onaylandı Tür: Boğa sıçraması Tercih: Fiyat, %50 ve %38.2 Fibonacci geri çekilme seviyeleriyle uyumlu bir örtüşen destek olan 158.98'deki pivot seviyesine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı şuraya doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/usdjpy-h4-bullish-breakout-confirmed-16th-november-2026",
     "published_at": "Mon, 16 Nov 2026 12:35:00 +0000",
     "fetched_at": "2026-11-16T09:09:14.626946+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, USDJPY'nin önemli bir destek seviyesinden boğa yönlü bir sıçrama yapabileceğini öne sürüyor. Bu durum, kısa vadede Japon Yeni'nin ABD Doları karşısında zayıflayabileceğine işaret ederek diğer döviz çiftlerini veya risk iştahını etkileyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 158.98 pivot seviyesindeki güçlü destekten boğa yönlü sıçrama yapması bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:38:05.296992+00:00"
   }
 ]

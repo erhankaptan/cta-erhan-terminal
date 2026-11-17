@@ -6,12 +6,45 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "FTSE Edges Higher to Cap Strong Weekly Gains as Aviva and Energy Counter Tech Jitters",
-    "title_tr": "",
+    "title_tr": "FTSE, Aviva ve Enerji Sektörünün Teknoloji Endişelerini Dengelemesiyle Güçlü Haftalık Kazançları Tamamlamak İçin Yükseldi",
     "content_en": "FTSE Edges Higher to Cap Strong Weekly Gains as Aviva and Energy Counter Tech JittersLondon's benchmark FTSE 100 edged slightly higher on Friday, gaining roughly 0.14% to trade near 10,878 points (after touching an intraday high of 10,897.99) and locking in it...",
-    "content_tr": "",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100 Cuma günü hafifçe yükselerek yaklaşık %0,14 artışla 10.878 puan civarında işlem gördü (gün içi en yüksek seviyesi olan 10.897,99'a dokunduktan sonra) ve güçlü haftalık kazançlarını pekiştirdi...",
     "url": "https://www.tickmill.com/blog/ftse-edges-higher-to-cap-strong-weekly-gains-as-aviva-and-energy-counter-tech-jitters",
     "published_at": "Fri, 13 Nov 2026 16:05:00 +0000",
     "fetched_at": "2026-11-13T21:15:37.924293+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, FTSE 100'ün haftalık güçlü kazançlarla yükselişini sürdürdüğünü belirtiyor. Enerji ve sigorta sektöründeki şirketlerin performansı, teknoloji hisselerindeki endişeleri dengeleyerek piyasaya destek oldu. Bu durum, sektörler arası rotasyonun piyasa dinamiklerini etkilediğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "YUKARI",
+        "gerekce": "Endeks, Cuma günü hafifçe yükselerek güçlü haftalık kazançlarını pekiştirdi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Makalede 'Enerji' sektörünün teknoloji endişelerini dengelediği belirtiliyor, bu da enerji emtialarına olan talebin güçlü olduğunu ima ediyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "YUKARI",
+        "gerekce": "'Enerji' sektörünün teknoloji endişelerini dengelediği ifadesi, enerji emtialarının genel olarak olumlu bir performans sergilediğini gösteriyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'Teknoloji Endişeleri'nden bahsedilmesi, teknoloji ağırlıklı endekslerin baskı altında olduğunu gösteriyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:36:44.711147+00:00"
   }
 ]

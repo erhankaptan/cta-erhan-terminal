@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAUUSD H4 | Bearish reversal setup",
-    "title_tr": "",
+    "title_tr": "XAUUSD H4 | Ayı Yönlü Tersine Dönüş Kurulumu",
     "content_en": "Title: XAUUSD H4 | Bearish reversal setup Type: Bearish reversal Preference: The price is rising toward the pivot at 3,960.48, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 3,870.33, a pullback support. Alternative...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAUUSD H4 | Ayı Yönlü Tersine Dönüş Kurulumu Tür: Ayı yönlü tersine dönüş Tercih: Fiyat, geri çekilme direnci olan 3.960,48 seviyesindeki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı geri çekilme desteği olan 3.870,33 seviyesindeki ilk desteğe doğru yönlendirebilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/xauusd-h4-bearish-reversal-setup-13th-november-2026",
     "published_at": "Fri, 13 Nov 2026 12:22:00 +0000",
     "fetched_at": "2026-11-13T05:39:38.814948+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, XAUUSD'de (Altın) ayı yönlü bir tersine dönüş potansiyeline işaret ediyor. Eğer belirtilen direnç seviyesi tutunursa, altın fiyatlarında düşüş beklenebilir. Yatırımcılar bu pivot seviyesinde kısa pozisyonları değerlendirebilir veya uzun pozisyonlarından kar alabilirler.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın pivot dirençten geri dönerek ilk desteğe düşmesi bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:00.103336+00:00"
   },
   {
     "id": "gbpnzd-h4-bearish-reversal-at-pullback-resistance-13th-november-2026",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPNZD H4 | Bearish reversal at pullback resistance",
-    "title_tr": "",
+    "title_tr": "GBPNZD H4 | Geri Çekilme Direncinde Ayı Piyasası Tersine Dönüşü",
     "content_en": "Title: GBPNZD H4 | Bearish reversal at pullback resistance Type: Bearish reversal Preference: The price is reacting off the pivot at 2.3883, a pullback resistance that aligns with the 23.6% Fibonacci retracement. A reversal from this level could lead the price tow...",
-    "content_tr": "",
+    "content_tr": "Başlık: GBPNZD H4 | Geri Çekilme Direncinde Ayı Piyasası Tersine Dönüşü Tür: Ayı piyasası tersine dönüşü Tercih: Fiyat, 2.3883 seviyesindeki pivot noktasından tepki veriyor. Bu nokta, %23.6 Fibonacci geri çekilmesiyle uyumlu bir geri çekilme direncidir. Bu seviyeden bir tersine dönüş, fiyatı...",
     "url": "https://www.tickmill.com/blog/gbpnzd-h4-bearish-reversal-at-pullback-resistance-13th-november-2026",
     "published_at": "Fri, 13 Nov 2026 12:05:00 +0000",
     "fetched_at": "2026-11-13T05:39:38.814973+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Bu analiz, GBPNZD paritesinde potansiyel bir ayı piyasası tersine dönüşüne işaret ediyor. Sterlin'in Yeni Zelanda Doları karşısında değer kaybetme olasılığı, ilgili piyasalarda satış baskısı yaratabilir. Yatırımcılar bu seviyeden aşağı yönlü hareketleri izlemelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "GBPNZD paritesinde geri çekilme direncinden ayı piyasası tersine dönüşü beklentisi, Sterlin'in değer kaybetme potansiyeline işaret ediyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:13.586107+00:00"
   },
   {
     "id": "gbpusd-h4-could-we-see-a-rebound-from-here-13th-november-2026",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "GBPUSD H4 | Could we see a rebound from here",
-    "title_tr": "",
+    "title_tr": "GBPUSD H4 | Buradan bir toparlanma görebilir miyiz?",
     "content_en": "Title: GBPUSD H4 | Could we see a rebound from here? Type: Bullish bounce Preference: The price is falling toward the pivot at 1.3194, a pullback support that is near the 127.2% Fibonacci extension. A bounce from this level could lead the price toward the 1st resis...",
-    "content_tr": "",
+    "content_tr": "GBPUSD H4 grafiğinde, fiyat 1.3194 seviyesindeki pivot noktasına, yani %127.2 Fibonacci uzatmasına yakın bir geri çekilme desteğine doğru düşüyor. Bu seviyeden olası bir boğa sıçraması (bullish bounce), fiyatı ilk dirence doğru taşıyabilir.",
     "url": "https://www.tickmill.com/blog/gbpusd-h4-could-we-see-a-rebound-from-here-13th-november-2026",
     "published_at": "Fri, 13 Nov 2026 12:24:00 +0000",
     "fetched_at": "2026-11-13T05:39:38.814993+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, GBPUSD paritesinde önemli bir destek seviyesinden potansiyel bir yükseliş sinyali veriyor. Bu durum, paritede kısa vadeli alım fırsatları yaratabilir ve piyasada yukarı yönlü bir hareket beklentisi oluşturabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.3194 pivot seviyesinden, %127.2 Fibonacci uzatmasına yakın bir destekten toparlanma beklentisi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:21.840589+00:00"
   },
   {
     "id": "usdcad-h4-bullish-momentum-to-continue-13th-november-2026",
@@ -51,13 +87,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "USDCAD H4 | Bullish momentum to continue",
-    "title_tr": "",
+    "title_tr": "USDCAD H4 | Yükseliş momentumu devam edecek",
     "content_en": "Title: USDCAD H4 | Bullish momentum to continue Type: Bullish bounce Preference: The price is falling toward the pivot at 1.4197, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 1.4285, a pullback resistance. Alternati...",
-    "content_tr": "",
+    "content_tr": "Başlık: USDCAD H4 | Yükseliş momentumu devam edecek Tür: Boğa sıçraması Tercih: Fiyat, bir geri çekilme desteği olan 1.4197'deki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı bir geri çekilme direnci olan 1.4285'teki ilk dirence doğru taşıyabilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/usdcad-h4-bullish-momentum-to-continue-13th-november-2026",
     "published_at": "Fri, 13 Nov 2026 12:17:00 +0000",
     "fetched_at": "2026-11-13T05:39:38.815009+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "USDCAD paritesinde yükseliş momentumunun devam edeceği beklentisi, ABD dolarının Kanada doları karşısında güç kazanabileceğine işaret ediyor. Belirtilen destek seviyesinden bir sıçrama, paritenin yukarı yönlü hareketini tetikleyebilir ve yatırımcılar için alım fırsatları sunabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDCAD",
+        "isim": "ABD Doları / Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 1.4197 pivot desteğinden sıçrayarak 1.4285 direncine doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:29.674949+00:00"
   },
   {
     "id": "dollar-hits-new-highs-for-2026",
@@ -66,12 +114,59 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Hits New Highs for 2026",
-    "title_tr": "",
+    "title_tr": "Dolar 2026 İçin Yeni Zirvelere Ulaştı",
     "content_en": "New Highs For USDThe US Dollar is on watch today following a breakout to fresh highs for the year on the DXY earlier this session following a strong rally yesterday. The greenback is softening a touch now but focus remains firmly fixed on further upside given the s...",
-    "content_tr": "",
+    "content_tr": "USD için Yeni Zirveler. ABD Doları, dün yaşanan güçlü rallinin ardından bu seansın başlarında DXY'de yılın yeni zirvelerine çıkmasıyla bugün dikkatleri üzerine çekiyor. Dolar şu anda biraz yumuşasa da, odak noktası, verilen s... nedeniyle daha fazla yükseliş üzerinde sabit kalmaya devam ediyor.",
     "url": "https://www.tickmill.com/blog/dollar-hits-new-highs-for-2026",
     "published_at": "Thu, 12 Nov 2026 09:38:00 +0000",
     "fetched_at": "2026-11-13T05:39:38.815096+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD Doları'nın DXY endeksinde yılın yeni zirvelerine ulaşması, küresel piyasalarda dolar bazlı varlıklar üzerinde baskı yaratabilir. Doların yükseliş eğilimini sürdürmesi, emtia ve diğer para birimleri üzerinde aşağı yönlü bir etki yaratırken, ABD'ye yönelik sermaye akışını destekleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makale, DXY'nin yılın yeni zirvelerine çıktığını ve daha fazla yükseliş beklendiğini açıkça belirtiyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi, Euro gibi diğer majör para birimlerinin dolar karşısında değer kaybetmesine neden olur.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, genellikle dolar bazlı emtiaların fiyatlarını aşağı çeker ve güvenli liman olarak altının cazibesini azaltabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların yükselmesi, dolarla fiyatlanan petrolü diğer para birimleri için daha pahalı hale getirerek talebi düşürebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale doğrudan ABD endeksleri hakkında bilgi vermemekle birlikte, güçlü doların ihracatçı şirketler üzerinde hafif olumsuz etkisi olabilir. Ancak genel piyasa yönü belirsiz.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi, dolar bazlı tarım emtialarının fiyatlarını aşağı yönlü etkiler.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:46.370685+00:00"
   }
 ]

@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs \"Our Thoughts On Nvidia'",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Goldman Sachs 'Nvidia Hakkındaki Düşüncelerimiz'",
     "content_en": "GOLDMAN SACHS EQUITY RESEARCH BRIEFING: NVIDIA CORP. (NVDA) — LEADERSHIP TRANSITION, MULTIPLE COMPRESSION & BUY RATING REITERATIONLEADERSHIP TRANSITION TRIGGERS MULTIPLE COMPRESSION TO ~10X CY27 EPS; BUY RETAINED AT $220 PTOn November 12, 2026, Nvidia’s Board o...",
-    "content_tr": "",
+    "content_tr": "GOLDMAN SACHS HİSSE SENEDİ ARAŞTIRMA RAPORU: NVIDIA CORP. (NVDA) — LİDERLİK GEÇİŞİ, ÇARPAN SIKIŞMASI VE AL TAVSİYESİNİN YENİLENMESİ. Liderlik geçişi, 2027 mali yılı EPS'nin yaklaşık 10 katına kadar çarpan sıkışmasını tetikliyor; 220 dolarlık fiyat hedefiyle 'AL' tavsiyesi korunuyor. 12 Kasım 2026 tarihinde Nvidia Yönetim Kurulu...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-our-thoughts-on-nvidia",
     "published_at": "Fri, 13 Nov 2026 11:36:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777736+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Goldman Sachs'ın Nvidia için 'AL' tavsiyesini koruması ve 220 dolarlık fiyat hedefini sürdürmesi, liderlik değişimi ve çarpan sıkışmasına rağmen hisse senedi için olumlu bir sinyaldir. Bu durum, teknoloji sektöründeki belirli şirketlere yönelik güçlü kurumsal güveni yansıtmaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Goldman Sachs, liderlik geçişi ve çarpan sıkışmasına rağmen NVDA için 'AL' tavsiyesini ve 220 dolarlık fiyat hedefini koruyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:34:57.614209+00:00"
   },
   {
     "id": "institutional-inisghts-pictet-slaes-trading-correction-not-yet-contagion",
@@ -21,13 +33,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Inisghts: Pictet Slaes & Trading 'Correction, Not Yet Contagion'",
-    "title_tr": "",
+    "title_tr": "Kurumsal Bakış Açıları: Pictet Satış ve Ticaret 'Düzeltme, Henüz Bulaşma Değil'",
     "content_en": "PICTET TRADING STRATEGY BRIEFING: OPTIONS RISK REPRICING & S&P 500 TECHNICAL CORRIDOR ELEVATED OPTIONS STRESS WITHOUT CAPITULATION EXTREMES AS SPX TESTS FIBONACCI RESISTANCEPictet Trading Strategy’s options and technical indicators point to a constructive, ...",
-    "content_tr": "",
+    "content_tr": "PICTET TİCARET STRATEJİSİ BİLGİLENDİRMESİ: OPSİYON RİSKİNİN YENİDEN FİYATLANMASI & S&P 500 TEKNİK KORİDORU. SPX Fibonacci direncini test ederken, aşırı teslimiyet olmadan artan opsiyon stresi yaşanıyor. Pictet Ticaret Stratejisinin opsiyon ve teknik göstergeleri yapıcı bir duruma işaret ediyor.",
     "url": "https://www.tickmill.com/blog/institutional-inisghts-pictet-slaes-trading-correction-not-yet-contagion",
     "published_at": "Fri, 13 Nov 2026 11:15:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777753+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, piyasada bir düzeltme yaşandığını ancak bunun henüz bulaşıcı bir krize dönüşmediğini belirtiyor. Artan opsiyon stresine rağmen, aşırı bir teslimiyet görülmemesi ve göstergelerin 'yapıcı' olması, piyasanın dirençli olduğunu ve potansiyel bir toparlanma veya yukarı yönlü hareket beklentisini destekliyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Makale, S&P 500'ün Fibonacci direncini test etmesine ve opsiyon stresine rağmen, piyasanın 'yapıcı' olduğunu ve düzeltmenin henüz bulaşıcı olmadığını belirtiyor. Bu durum, endeksin yukarı yönlü potansiyelini koruduğunu gösteriyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "S&P 500 Micro E-mini",
+        "yon": "YUKARI",
+        "gerekce": "Makale, S&P 500'ün Fibonacci direncini test etmesine ve opsiyon stresine rağmen, piyasanın 'yapıcı' olduğunu ve düzeltmenin henüz bulaşıcı olmadığını belirtiyor. Bu durum, endeksin yukarı yönlü potansiyelini koruduğunu gösteriyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:35:11.850723+00:00"
   },
   {
     "id": "daily-market-outlook-november-13-2026",
@@ -36,13 +67,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook: November 13, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü: 13 Kasım 2026",
     "content_en": "Daily Market Outlook: November 13, 2026 By Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive: Nvidia's Leadership Shake-Up and Oil Volatility Global equity markets experienced a tumultuous session as investors reacted to the un...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü: 13 Kasım 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mesajı: Nvidia'nın Liderlik Değişimi ve Petrol Volatilitesi Küresel hisse senedi piyasaları, yatırımcıların beklenmedik gelişmelere tepki vermesiyle çalkantılı bir seans yaşadı...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-november-13-2026",
     "published_at": "Fri, 13 Nov 2026 09:09:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777772+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, küresel hisse senedi piyasalarında Nvidia'daki liderlik değişimi ve petrol volatilitesi nedeniyle çalkantılı bir seans yaşandığını belirtiyor. Bu durum, riskli varlıklar üzerinde aşağı yönlü baskı ve piyasalarda genel bir belirsizlik olduğunu gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Liderlik değişimi belirsizlik yaratarak hisse senedi üzerinde baskı oluşturdu.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Petrol piyasalarında yüksek volatilite yaşanıyor, ancak makale yön belirtmiyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasaları çalkantılı bir seans geçirdi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasaları çalkantılı bir seans geçirdi, özellikle teknoloji hisseleri etkilendi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:35:24.609133+00:00"
   },
   {
     "id": "dollar-rally-outshines-hawkish-boe-comments",
@@ -51,13 +115,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Dollar Rally Outshines Hawkish BOE Comments",
-    "title_tr": "",
+    "title_tr": "Dolar Rallisi Şahin BOE Yorumlarını Gölgede Bıraktı",
     "content_en": "USD Pressuring GBPGBPUSD is ending the week heavily lower, pushed down by the sizeable Dollar rally we’ve seen this week amidst strengthening December rate hike expectations. A strong showing in recent NFP and CPI data, accompanied by hawkish Fed commentary, has se...",
-    "content_tr": "",
+    "content_tr": "USD, GBP'yi Baskılıyor. GBPUSD, bu hafta görülen önemli Dolar rallisi ve güçlenen Aralık ayı faiz artırımı beklentileriyle haftayı büyük düşüşle kapatıyor. Son NFP (Tarım Dışı İstihdam) ve TÜFE (Tüketici Fiyat Endeksi) verilerindeki güçlü performans, şahin Fed yorumlarıyla birleşince Dolar'ın yükselişini destekledi.",
     "url": "https://www.tickmill.com/blog/dollar-rally-outshines-hawkish-boe-comments",
     "published_at": "Fri, 13 Nov 2026 10:04:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777842+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Doların güçlü performansı ve Fed'in şahin duruşu, küresel piyasalarda Dolar bazlı varlıkların cazibesini artırırken, diğer para birimleri üzerinde baskı oluşturmaktadır. Bu durum, özellikle faiz artırımı beklentilerinin güçlenmesiyle risk iştahını azaltabilir ve Dolar dışındaki varlıklarda düşüşlere yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü Dolar rallisi ve Fed'in şahin duruşu nedeniyle haftayı büyük düşüşle kapatıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Güçlenen Aralık ayı faiz artırımı beklentileri, güçlü NFP/CPI verileri ve şahin Fed yorumları Dolar rallisini destekliyor.",
+        "skor": 0.95
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel Dolar gücü ve Fed'in şahin duruşu, EUR'yu USD karşısında zayıflatır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Genel Dolar gücü ve Fed'in şahin duruşu, USD'yi JPY karşısında güçlendirir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "GBPUSD'nin düşüşü ve genel Dolar gücü nedeniyle Sterlin vadeli işlemlerinde değer kaybı beklenir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü Dolar rallisi nedeniyle Euro vadeli işlemlerinde değer kaybı beklenir.",
+        "skor": 0.65
+      }
+    ],
+    "translated_at": "2026-11-17T21:35:41.460464+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-131126",
@@ -66,13 +177,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 13/11/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 13/11/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 13/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 13/11/26 ***ES1!(Z VADELİ SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ALINTILANMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAYLIK BOĞA AYI BÖLGESİ 7275/35AYLIK ARALIK DİRENÇ 7980 DESTEK 7361HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-131126",
     "published_at": "Fri, 13 Nov 2026 08:20:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777908+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için günlük hareket alanları ve fiyat hedeflerini belirtmektedir. ES1! vadeli işlem seviyeleri üzerinden nakit US500 eşdeğer seviyeleri sunulmuştur. Aylık boğa/ayı bölgeleri ve direnç/destek seviyeleri tanımlanarak piyasanın potansiyel hareket aralıkları belirlenmiştir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "S&P500 için aylık boğa/ayı bölgeleri (7275/35) ve direnç (7980) / destek (7361) seviyeleri belirlenmiştir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "ES1! vadeli işlem seviyeleri üzerinden nakit US500 eşdeğer seviyeleri sunulmuştur.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:35:56.345985+00:00"
   },
   {
     "id": "copper-hit-hard-by-dollar-rally",
@@ -81,13 +211,109 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Copper Hit Hard By Dollar Rally",
-    "title_tr": "",
+    "title_tr": "Bakır Dolar Rallisiyle Sert Darbe Aldı",
     "content_en": "Copper FallsCopper prices are on course for a heavy loss this week amidst a resurgence in AI uncertainty and fresh USD strength. Concerns over the futures of Nvidia following the recent affair scandal of CEO Huang have hit the company’s stock prices hard this week ...",
-    "content_tr": "",
+    "content_tr": "Bakır Fiyatları Düşüyor\nBakır fiyatları, yapay zeka belirsizliğinin yeniden canlanması ve USD'nin güçlenmesiyle bu hafta ağır kayıplar yaşama yolunda. CEO Huang'ın son skandalının ardından Nvidia'nın geleceğine dair endişeler, şirketin hisse fiyatlarını bu hafta sert bir şekilde vurdu...",
     "url": "https://www.tickmill.com/blog/copper-hit-hard-by-dollar-rally",
     "published_at": "Fri, 13 Nov 2026 10:24:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777921+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, yapay zeka sektöründeki belirsizlik ve güçlü doların emtialar (bakır) ve teknoloji hisseleri (Nvidia) üzerindeki olumsuz etkisini vurguluyor. Bu durum, genel piyasada risk iştahının azaldığını ve güvenli liman arayışının arttığını gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka belirsizliği ve USD gücü nedeniyle bu hafta ağır kayıplar yaşama yolunda.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "CEO skandalı ve yapay zeka belirsizliği nedeniyle hisse fiyatları sert düştü.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle EURUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle JPYUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle GBPUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle AUDUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle CADUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen 'fresh USD strength' (yeni USD gücü) nedeniyle CHFUSD paritesinin düşmesi beklenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka belirsizliği ve Nvidia gibi büyük teknoloji şirketlerinin hisse fiyatlarındaki düşüş, teknoloji ağırlıklı endeksi olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro Nasdaq 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka belirsizliği ve Nvidia gibi büyük teknoloji şirketlerinin hisse fiyatlarındaki düşüş, teknoloji ağırlıklı endeksi olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka belirsizliği ve teknoloji sektöründeki düşüş, genel piyasa endeksi olan S&P 500'ü aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro S&P 500",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka belirsizliği ve teknoloji sektöründeki düşüş, genel piyasa endeksi olan S&P 500'ü aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel piyasa belirsizliği ve risk iştahındaki azalma, Dow Jones endeksini de olumsuz etkiler.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-17T21:36:21.766023+00:00"
   },
   {
     "id": "trump-10-v-20-sp500-dxy",
@@ -96,12 +322,16 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Trump 1.0 V 2.0 SP500 & DXY",
-    "title_tr": "",
+    "title_tr": "Trump 1.0 ve 2.0 SP500 & DXY",
     "content_en": "...",
-    "content_tr": "",
+    "content_tr": "Makale içeriği sağlanmadığı için analiz yapılamamaktadır. Lütfen makale içeriğini ekleyiniz.",
     "url": "https://www.tickmill.com/blog/trump-10-v-20-sp500-dxy",
     "published_at": "Fri, 13 Nov 2026 13:39:00 +0000",
     "fetched_at": "2026-11-13T14:09:29.777927+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale içeriği eksik olduğu için piyasa etkisi veya varlık analizleri hakkında yorum yapılamamaktadır. Analizin tamamlanabilmesi için metnin sağlanması gerekmektedir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [],
+    "translated_at": "2026-11-17T21:36:30.216733+00:00"
   }
 ]

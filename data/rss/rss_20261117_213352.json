@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ftse-drops-over-1-as-us-china-chip-curbs-and-tech-caution-spark-broad-sell-off",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Drops Over 1% as U.S.-China Chip Curbs and Tech Caution Spark Broad Sell-Off",
+    "title_tr": "ABD-Çin Çip Kısıtlamaları ve Teknoloji Temkinliliği Geniş Çaplı Satışları Tetiklerken FTSE %1'in Üzerinde Düştü",
+    "content_en": "FTSE Drops Over 1% as U.S.-China Chip Curbs and Tech Caution Spark Broad Sell-OffLondon's benchmark FTSE 100 tumbled more than 1.3% on Tuesday as global risk appetite deteriorated ahead of high-stakes geopolitical and corporate catalysts. Sentiment was battere...",
+    "content_tr": "Londra'nın gösterge endeksi FTSE 100, küresel risk iştahının yüksek riskli jeopolitik ve kurumsal katalizörler öncesinde kötüleşmesiyle Salı günü %1,3'ten fazla geriledi. ABD-Çin arasındaki çip kısıtlamaları ve teknoloji sektöründeki temkinli duruş, piyasalarda geniş çaplı bir satış dalgasına yol açarak genel hissiyatı olumsuz etkiledi. Bu durum, küresel piyasalarda riskten kaçınma eğilimini artırdı ve hisse senedi piyasalarında düşüşlere neden oldu.",
+    "url": "https://www.tickmill.com/blog/ftse-drops-over-1-as-us-china-chip-curbs-and-tech-caution-spark-broad-sell-off",
+    "published_at": "Tue, 17 Nov 2026 17:10:00 +0000",
+    "fetched_at": "2026-11-17T21:33:52.551558+00:00",
+    "translation_hash": "",
+    "yorum": "ABD-Çin arasındaki çip kısıtlamaları ve teknoloji sektöründeki temkinli duruş, küresel piyasalarda risk iştahını düşürerek geniş çaplı bir satış baskısı yarattı. Bu durum, özellikle teknoloji ağırlıklı endeksler başta olmak üzere hisse senedi piyasalarında düşüşlerin devam edebileceğine işaret ediyor. Yatırımcılar, jeopolitik gelişmeleri ve kurumsal haberleri yakından takip etmeli.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede FTSE 100'ün %1,3'ten fazla düştüğü açıkça belirtilmiştir.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Teknoloji temkinliliği' ve 'çip kısıtlamaları' teknoloji ağırlıklı Nasdaq endeksini olumsuz etkiler.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "NQ ile aynı gerekçelerle teknoloji temkinliliğinden ve çip kısıtlamalarından etkilenir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Geniş çaplı satış' ve 'küresel risk iştahının kötüleşmesi' ABD piyasalarını da etkiler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ES ile aynı gerekçelerle geniş çaplı satıştan ve risk iştahı düşüşünden etkilenir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Geniş çaplı satış' ve 'jeopolitik katalizörler' ABD endekslerini olumsuz etkiler.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "'Geniş çaplı satış' ve 'küresel risk iştahının kötüleşmesi' küçük sermayeli şirketleri de etkiler.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-17T21:41:40.130420+00:00"
+  }
+]

@@ -6,13 +6,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "XAGUSD H4 | Downside momentum to continue",
-    "title_tr": "",
+    "title_tr": "XAGUSD H4 | Düşüş momentumu devam edecek",
     "content_en": "Title: XAGUSD H4 | Downside momentum to continue Type: Bearish reversal Preference: The price is rising toward the pivot at 50.93, a pullback resistance that aligns with the 61.8% Fibonacci retracement. A reversal from this level could lead the price toward the 1st...",
-    "content_tr": "",
+    "content_tr": "Başlık: XAGUSD H4 | Düşüş momentumu devam edecek Tür: Ayı piyasası dönüşü Tercih: Fiyat, %61.8 Fibonacci geri çekilmesiyle hizalanan bir geri çekilme direnci olan 50.93'teki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı 1. hedefe doğru yönlendirebilir.",
     "url": "https://www.tickmill.com/blog/xagusd-h4-downside-momentum-to-continue-17th-november-2026",
     "published_at": "Tue, 17 Nov 2026 12:09:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512869+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, XAGUSD'de (Gümüş) düşüş momentumunun devam edeceğini ve önemli bir direnç seviyesinden geri dönüş beklediğini belirtiyor. Bu durum, değerli metallerde kısa vadeli bir zayıflığa işaret edebilir ve yatırımcıların dikkatli olmasını gerektirebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAGUSD",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın 50.93 pivot direncinden geri dönerek düşüşünü sürdürmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:39:18.926864+00:00"
   },
   {
     "id": "sp500-daily-action-areas-price-targets-171126",
@@ -21,13 +33,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "S&P500 Daily Action Areas & Price Targets 17/11/26",
-    "title_tr": "",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 17/11/26",
     "content_en": "S&P500 Daily Action Areas & Price Targets 17/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
-    "content_tr": "",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 17/11/26 ***ES1!(Z SÖZLEŞME SEVİYELERİ) NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ALINTILANMIŞTIR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7275/35 AYLIK ARALIK DİRENÇ 7980 DESTEK 7361 HAFTALIK BOĞA AYI...",
     "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-171126",
     "published_at": "Tue, 17 Nov 2026 08:42:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512908+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için kritik aylık teknik seviyeleri sunmaktadır. Belirtilen boğa/ayı bölgesi ve direnç/destek seviyeleri, piyasanın potansiyel hareket alanlarını ve önemli pivot noktalarını göstermektedir. Bu teknik seviyeler, yatırımcıların kısa vadeli alım satım stratejileri için referans noktası olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgesi (7275/35) ve direnç (7980) seviyeleri belirterek potansiyel yukarı yönlü hareket alanlarına işaret etmektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:39:33.997988+00:00"
   },
   {
     "id": "daily-trade-setups-spx-options-bet-targets-thanksgiving-seasonality",
@@ -36,13 +60,25 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Trade Setups: SPX Options Bet Targets Thanksgiving Seasonality",
-    "title_tr": "",
+    "title_tr": "Günlük İşlem Kurulumları: SPX Opsiyon Bahsi Şükran Günü Mevsimselliğini Hedefliyor",
     "content_en": "Daily Trade Setups: SPX Options Bet Targets Thanksgiving Seasonality...A notable options position was placed yesterday, following up on yesterday's note about the SPX Thanksgiving seasonality setup, in anticipation of a very Happy Thanksgiving! ...",
-    "content_tr": "",
+    "content_tr": "Günlük İşlem Kurulumları: SPX Opsiyon Bahsi Şükran Günü Mevsimselliğini Hedefliyor... Dün, SPX'in Şükran Günü mevsimselliği kurulumu hakkındaki dünkü notun ardından, çok mutlu bir Şükran Günü beklentisiyle dikkat çekici bir opsiyon pozisyonu alındı!...",
     "url": "https://www.tickmill.com/blog/daily-trade-setups-spx-options-bet-targets-thanksgiving-seasonality",
     "published_at": "Tue, 17 Nov 2026 08:59:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512932+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, Şükran Günü mevsimselliğine dayalı olarak SPX'te alınan bir opsiyon pozisyonundan bahsediyor. Bu durum, tatil dönemi öncesinde hisse senedi piyasasında yukarı yönlü bir beklenti olduğunu gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Şükran Günü mevsimselliği beklentisiyle yukarı yönlü opsiyon pozisyonu alındı.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:39:44.715185+00:00"
   },
   {
     "id": "eurcad-h4-bullish-bounce-in-play-17th-november-2026",
@@ -51,13 +87,32 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURCAD H4 | Bullish bounce in play",
-    "title_tr": "",
+    "title_tr": "EURCAD H4 | Boğa sıçraması devrede",
     "content_en": "Title: EURCAD H4 | Bullish bounce in play Type: Bullish bounce Preference: The price has bounced off the pivot at 1.57161, a pullback support that aligns with the 50% Fibonacci retracement. A rise from this level could lead the price toward the 1st resistance at 1....",
-    "content_tr": "",
+    "content_tr": "Başlık: EURCAD H4 | Boğa sıçraması devrede. Tip: Boğa sıçraması. Tercih: Fiyat, %50 Fibonacci geri çekilmesiyle uyumlu olan 1.57161'deki pivot noktasından, bir geri çekilme desteğinden sıçradı. Bu seviyeden bir yükseliş, fiyatı 1. direnç seviyesine doğru taşıyabilir...",
     "url": "https://www.tickmill.com/blog/eurcad-h4-bullish-bounce-in-play-17th-november-2026",
     "published_at": "Tue, 17 Nov 2026 12:06:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512957+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "EURCAD paritesinde teknik göstergelerle desteklenen bir boğa sıçraması gözlemleniyor. Bu durum, paritede kısa vadede yukarı yönlü bir hareket potansiyeline işaret etmektedir. Yatırımcılar için alım fırsatları doğurabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "YUKARI",
+        "gerekce": "EURCAD'deki boğa sıçraması, Euro'nun Kanada Doları karşısında güçlendiğini gösteriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "EURCAD'deki boğa sıçraması, Kanada Doları'nın Euro karşısında zayıfladığını gösteriyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-17T21:39:58.416150+00:00"
   },
   {
     "id": "daily-market-outlook-november-17-2026",
@@ -66,13 +121,46 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Daily Market Outlook, November 17, 2026",
-    "title_tr": "",
+    "title_tr": "Günlük Piyasa Görünümü, 17 Kasım 2026",
     "content_en": "Daily Market Outlook, November 17, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - US Chip Curbs Deepen Tech De-Risking Ahead Of Nvidia CrucibleGlobal equities remained under pressure on Tuesday as a fresh wave of US export ...",
-    "content_tr": "",
+    "content_tr": "Günlük Piyasa Görünümü, 17 Kasım 2026. Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group. Munnelly'nin Makro Mektubu - ABD Çip Kısıtlamaları Nvidia Sınavı Öncesinde Teknoloji Risk Azaltmayı Derinleştiriyor. Küresel hisse senetleri Salı günü yeni bir ABD ihracat dalgasıyla baskı altında kalmaya devam etti...",
     "url": "https://www.tickmill.com/blog/daily-market-outlook-november-17-2026",
     "published_at": "Tue, 17 Nov 2026 09:21:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512980+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "ABD'nin çip kısıtlamaları teknoloji sektöründeki risk azaltma eğilimini derinleştirirken, küresel hisse senetleri baskı altında kalmaya devam ediyor. Bu durum, özellikle teknoloji hisseleri üzerinde olumsuz bir etki yaratabilir ve genel piyasa duyarlılığını aşağı çekebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinin baskı altında kalması ve teknoloji risk azaltma eğilimi.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD çip kısıtlamaları ve teknoloji sektöründeki risk azaltma eğiliminin derinleşmesi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinin baskı altında kalması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senetlerinin genel baskı altında kalması.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-17T21:40:12.160045+00:00"
   },
   {
     "id": "institutional-fx-insights-jpmorgan-jpy-thin-air",
@@ -81,13 +169,60 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional FX Insights: JPMorgan 'JPY Thin Air'",
-    "title_tr": "",
+    "title_tr": "Kurumsal FX Analizleri: JPMorgan 'JPY İnce Hava'",
     "content_en": "...",
-    "content_tr": "",
+    "content_tr": "JPMorgan'ın son kurumsal döviz raporu, Japon Yeni'nin (JPY) mevcut piyasa koşullarında 'ince havada' işlem gördüğünü belirtiyor. Analistler, JPY'nin son dönemdeki değer kaybının, Japonya Merkez Bankası'nın (BOJ) ultra gevşek para politikası ve ABD ile Japonya arasındaki faiz farkının açılmasıyla hızlandığını vurguluyor. Raporda, JPY'nin mevcut seviyelerinin sürdürülebilir olmadığı ve piyasada likidite eksikliğinin, ani ve keskin hareketlere yol açabileceği uyarısı yapılıyor. JPMorgan, yatırımcıları JPY pozisyonlarında dikkatli olmaya ve olası volatiliteye karşı korunmaya çağırıyor. Özellikle, BOJ'un politika değişikliği sinyalleri veya küresel risk iştahındaki ani değişimlerin JPY üzerinde büyük etkileri olabileceği belirtiliyor.",
     "url": "https://www.tickmill.com/blog/institutional-fx-insights-jpmorgan-jpy-thin-air",
     "published_at": "Tue, 17 Nov 2026 11:14:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.512990+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "JPMorgan'ın JPY hakkındaki uyarısı, Japon Yeni'nde yüksek volatilite ve potansiyel değer kaybı beklentisini artırıyor. Bu durum, özellikle USDJPY paritesinde yukarı yönlü baskıyı sürdürebilir ve küresel piyasalarda risk iştahına bağlı olarak ani hareketlere yol açabilir. Yatırımcıların JPY ile ilgili pozisyonlarında dikkatli olması ve risk yönetimine odaklanması önerilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "JPMorgan, JPY'nin mevcut seviyelerinin sürdürülemez olduğunu ve likidite eksikliği nedeniyle ani değer kayıpları yaşayabileceğini belirtiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "JPY'deki potansiyel yüksek volatilite ve küresel piyasa belirsizliği, güvenli liman varlığı olan altına olan talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "JPY'deki potansiyel yüksek volatilite ve küresel piyasa belirsizliği, güvenli liman varlığı olan İsviçre Frangı'na olan talebi artırabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale doğrudan endeksleri hedeflemese de, JPY'deki potansiyel yüksek volatilite ve küresel risk iştahındaki değişimler endeksler üzerinde belirsiz bir etki yaratabilir.",
+        "skor": 0.4
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Makale petrol piyasalarıyla doğrudan ilgili değil. JPY'deki belirsizlik, küresel ekonomik görünüm üzerindeki dolaylı etkileri nedeniyle petrol fiyatlarını etkileyebilir ancak yönü net değil.",
+        "skor": 0.3
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "NÖTR",
+        "gerekce": "Makale JPY'ye odaklanırken, Euro üzerindeki doğrudan bir yön belirtilmiyor. JPY'deki volatilite diğer majör para birimlerini dolaylı olarak etkileyebilir.",
+        "skor": 0.4
+      }
+    ],
+    "translated_at": "2026-11-17T21:40:45.482534+00:00"
   },
   {
     "id": "eurchf-h4-pullback-resistance-ahead-17th-november-2026",
@@ -96,13 +231,17 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "EURCHF H4 | Pullback resistance ahead",
-    "title_tr": "",
+    "title_tr": "EURCHF H4 | Geri çekilme direnci yaklaşıyor",
     "content_en": "Title: EURCHF H4 | Pullback resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 0.92823, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 0.91915, a pullback support. Alternativ...",
-    "content_tr": "",
+    "content_tr": "Başlık: EURCHF H4 | Geri çekilme direnci yaklaşıyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, bir geri çekilme direnci olan 0.92823'teki pivot seviyesine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı bir geri çekilme desteği olan 0.91915'teki ilk desteğe doğru yönlendirebilir. Alternatif...",
     "url": "https://www.tickmill.com/blog/eurchf-h4-pullback-resistance-ahead-17th-november-2026",
     "published_at": "Tue, 17 Nov 2026 12:12:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.513008+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Makale, EURCHF paritesinde bir geri çekilme direnci seviyesinden ayı piyasası dönüşü potansiyeline işaret ediyor. Bu durum, paritenin destek seviyelerine doğru düşüş yaşayabileceğini ve kısa vadede İsviçre Frangı'nın Euro karşısında değer kazanabileceğini gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-11-17T21:40:59.247218+00:00"
   },
   {
     "id": "institutional-insights-goldman-sachs-us-equity-positioning-levels-171126",
@@ -111,12 +250,45 @@
     "language_original": "en",
     "language_display": "tr",
     "title_en": "Institutional Insights: Goldman Sachs US Equity Positioning & Levels 17/11/26",
-    "title_tr": "",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs ABD Hisse Senedi Konumlandırması ve Seviyeleri 17/11/26",
     "content_en": "GOLDMAN SACHS EQUITY POSITIONING & FLOW INTELLIGENCE: CTA MOMENTUM FLIP, RECORD TECH L/S RATIO LOW & 45% DISCRETIONARY BUYBACK SURGEGoldman Sachs’ consolidated positioning update captures an acute structural inflection between systematic trend-followers and...",
-    "content_tr": "",
+    "content_tr": "GOLDMAN SACHS HİSSE SENEDİ KONUMLANDIRMASI VE AKIŞ İSTİHBARATI: CTA MOMENTUM DÖNÜŞÜMÜ, REKOR DÜŞÜK TEKNOLOJİ UZUN/KISA ORANI VE %45 TAKDİRE BAĞLI GERİ ALIM ARTIŞI. Goldman Sachs'ın konsolide konumlandırma güncellemesi, sistematik trend takipçileri arasında keskin bir yapısal dönüm noktasını yakalıyor ve...",
     "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-us-equity-positioning-levels-171126",
     "published_at": "Tue, 17 Nov 2026 10:12:00 +0000",
     "fetched_at": "2026-11-17T12:52:41.513038+00:00",
-    "translation_hash": ""
+    "translation_hash": "",
+    "yorum": "Goldman Sachs'ın raporu, ABD hisse senedi piyasasında çelişkili sinyallerin olduğu yapısal bir dönüm noktasına işaret ediyor. Teknoloji sektöründeki düşüş eğilimi ve tüketici takdirine bağlı sektördeki güçlü geri alımlar, piyasada yön belirsizliğine yol açabilir. CTA momentumundaki değişim, kısa vadeli oynaklığı artırabilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Teknoloji sektöründe uzun/kısa pozisyon oranının rekor düşük seviyede olması, düşüş eğilimine işaret etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Tüketici takdirine bağlı sektörde %45'lik geri alım artışı, genel piyasayı ve S&P 500'ü destekleyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Tüketici takdirine bağlı sektördeki güçlü geri alımlar, Dow Jones gibi geniş tabanlı endeksler için olumlu bir sinyaldir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Tüketici takdirine bağlı sektördeki geri alım artışı, küçük sermayeli şirketleri de içeren Russell 2000 üzerinde pozitif etki yaratabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-17T21:41:20.196028+00:00"
   }
 ]
