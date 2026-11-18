@@ -1,0 +1,461 @@
+[
+  {
+    "id": "gbpjpy-h4-rising-toward-382-fib-resistance-18th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPJPY H4 | Rising toward 38.2% Fib resistance",
+    "title_tr": "GBPJPY H4 | %38.2 Fib Direncine Doğru Yükseliş",
+    "content_en": "Title: GBPJPY H4 | Rising toward 38.2% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 211.20, a pullback resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward t...",
+    "content_tr": "Başlık: GBPJPY H4 | %38.2 Fib Direncine Doğru Yükseliş Tür: Ayı piyasası dönüşü Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle uyumlu olan 211.20'deki pivot noktasına, bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı şuraya doğru yönlendirebilir...",
+    "url": "https://www.tickmill.com/blog/gbpjpy-h4-rising-toward-382-fib-resistance-18th-november-2026",
+    "published_at": "Wed, 18 Nov 2026 11:13:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225809+00:00",
+    "translation_hash": "",
+    "yorum": "GBPJPY paritesinde kısa vadeli bir yükselişin ardından önemli bir direnç seviyesinden ayı piyasası dönüşü bekleniyor. Bu durum, Japon Yeni'nin İngiliz Sterlini karşısında değer kazanabileceğine işaret ederek piyasada düşüş eğilimi yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-11-18T12:45:10.077933+00:00"
+  },
+  {
+    "id": "copper-plunges-as-hawkish-fed-expectations-build",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Copper Plunges As Hawkish Fed Expectations Build",
+    "title_tr": "Şahin Fed Beklentileri Artarken Bakır Çakıldı",
+    "content_en": "AI Rout Hurts CopperCopper prices are coming under heavy selling pressure today with the futures market down almost 5% so far today. Indeed, the market is now down more than 17% from the year’s high watermark recorded in September. Uncertainty around the AI space a...",
+    "content_tr": "Yapay Zeka Çöküşü Bakırı Vurdu. Bakır fiyatları bugün ağır satış baskısı altında ve vadeli işlem piyasası bugüne kadar neredeyse %5 düştü. Gerçekten de, piyasa Eylül ayında kaydedilen yılın en yüksek seviyesinden %17'den fazla düşüş yaşadı. Yapay zeka alanındaki belirsizlik...",
+    "url": "https://www.tickmill.com/blog/copper-plunges-as-hawkish-fed-expectations-build",
+    "published_at": "Wed, 18 Nov 2026 09:50:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225843+00:00",
+    "translation_hash": "",
+    "yorum": "Şahin Fed beklentileri ve yapay zeka sektöründeki belirsizlik, bakır fiyatlarında keskin bir düşüşe neden oldu. Bu durum, piyasada riskten kaçınma eğiliminin arttığını ve endüstriyel talebin yavaşlayabileceğini gösteriyor. Büyümeye duyarlı emtialar üzerinde olumsuz bir baskı yaratabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve yapay zeka sektöründeki belirsizlik nedeniyle %5 düşüş yaşadı ve Eylül zirvesinden %17'den fazla geriledi.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-18T12:45:24.220794+00:00"
+  },
+  {
+    "id": "dollar-rally-hitting-fresh-highs",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Dollar Rally Hitting Fresh Highs",
+    "title_tr": "Dolar Rallisi Yeni Zirvelere Ulaşıyor",
+    "content_en": "Dollar Rally ContinuesThe US Dollar continues to climb midweek with the DXY at fresh highs for the year through early European trading. Yesterday/s better-than-forecast US retail sales added further fuel to the fire for hawks with a December rate hike now almost fu...",
+    "content_tr": "ABD Doları, hafta ortasında yükselişini sürdürerek Avrupa piyasalarının erken saatlerinde DXY ile yılın en yüksek seviyelerine ulaştı. Dün açıklanan beklentilerin üzerinde gelen ABD perakende satışları, Aralık ayında faiz artırımı beklentilerini neredeyse tamamen fiyatlayan şahinler için ateşe daha fazla yakıt ekledi.",
+    "url": "https://www.tickmill.com/blog/dollar-rally-hitting-fresh-highs",
+    "published_at": "Wed, 18 Nov 2026 09:27:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225863+00:00",
+    "translation_hash": "",
+    "yorum": "ABD Doları'nın güçlenmesi ve faiz artırımı beklentileri, küresel piyasalarda risk iştahını azaltarak hisse senetleri ve emtialar üzerinde baskı oluşturuyor. Özellikle dolar bazlı varlıklar ve faiz oranlarına duyarlı sektörler olumsuz etkilenebilirken, dolar diğer majör para birimleri karşısında değer kazanmaya devam edecektir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Yılın en yüksek seviyelerinde ve perakende satış verileri faiz artırımı beklentilerini güçlendirdi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro E-mini S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar, teknoloji hisseleri üzerinde daha fazla baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro E-mini Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar, teknoloji hisseleri üzerinde daha fazla baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Faiz artırımı beklentileri ve güçlü dolar hisse senedi piyasaları üzerinde baskı oluşturuyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı emtialar için hafif bir olumsuzluktur.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Micro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı emtialar için hafif bir olumsuzluktur.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı emtialar için hafif bir olumsuzluktur.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar ve faiz artırımı beklentileri altın üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Micro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar ve faiz artırımı beklentileri altın üzerinde baskı oluşturuyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar ve faiz artırımı beklentileri gümüş üzerinde baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı endüstriyel emtialar için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı emtialar için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı tarım emtiaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı tarım emtiaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı tarım emtiaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Kanola Yağı",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı tarım emtiaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "AŞAĞI",
+        "gerekce": "Güçlü dolar, dolar bazlı tarım emtiaları için olumsuz bir faktördür.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi Euro karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Doların güçlenmesi Japon Yeni karşısında değer kazanmasına neden oluyor (USDJPY paritesi).",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi Sterlin karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Doların güçlenmesi Avustralya Doları karşısında değer kaybetmesine neden oluyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "YUKARI",
+        "gerekce": "Doların güçlenmesi Kanada Doları karşısında değer kazanmasına neden oluyor (USDCAD paritesi).",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "Doların güçlenmesi İsviçre Frangı karşısında değer kazanmasına neden oluyor (USDCHF paritesi).",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-18T12:45:53.188884+00:00"
+  },
+  {
+    "id": "gold-playing-a-potential-corrective-sequence-possibly-more",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Gold Playing A Potential Corrective Sequence & Possibly More?",
+    "title_tr": "Altın Potansiyel Bir Düzeltme Dizisi mi Oynuyor ve Belki Daha Fazlası mı?",
+    "content_en": "Gold: Playing a Potential Corrective Sequence and Possibly More?Gold Technical Desk Note: Intraday Bottoming Signals Constructive Rebound Within Broader Corrective TrendTo review the technical charts, click here!The Setup Spot gold is finding footing in the high-$3...",
+    "content_tr": "Makale, altının potansiyel bir düzeltme sürecinde olduğunu ve daha fazlasının gelebileceğini belirtiyor. Teknik analiz notuna göre, gün içi dip sinyalleri, daha geniş bir düzeltme eğilimi içinde yapıcı bir toparlanmaya işaret ediyor. Spot altın, yüksek 3 dolar seviyelerinde destek buluyor.",
+    "url": "https://www.tickmill.com/blog/gold-playing-a-potential-corrective-sequence-possibly-more",
+    "published_at": "Wed, 18 Nov 2026 11:30:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225885+00:00",
+    "translation_hash": "",
+    "yorum": "Altın piyasasında kısa vadeli bir toparlanma beklentisi olsa da, genel eğilim hala düzeltme yönünde. Bu durum, yatırımcıların temkinli olmasını ve olası yukarı yönlü hareketlerin sınırlı kalabileceğini gösteriyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Kısa vadede dip sinyalleri ve yapıcı bir toparlanma gösteriyor, ancak daha geniş düzeltme eğilimi içinde hareket ediyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-18T12:46:06.880130+00:00"
+  },
+  {
+    "id": "gbpusd-h4-strong-resistance-ahead-18th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "GBPUSD H4 | Strong resistance ahead",
+    "title_tr": "GBPUSD H4 | Güçlü direnç ileride",
+    "content_en": "Title: GBPUSD H4 | Strong resistance ahead Type: Bearish reversal Preference: The price is rising toward the pivot at 1.3273, an overlap resistance that aligns with the 38.2% Fibonacci retracement. A reversal from this level could lead the price toward the 1st supp...",
+    "content_tr": "Başlık: GBPUSD H4 | Güçlü direnç ileride Tür: Ayı piyasası dönüşü Tercih: Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 1.3273'teki pivot noktasına, yani bir örtüşen dirence doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı 1. destek seviyesine doğru yönlendirebilir.",
+    "url": "https://www.tickmill.com/blog/gbpusd-h4-strong-resistance-ahead-18th-november-2026",
+    "published_at": "Wed, 18 Nov 2026 10:59:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225904+00:00",
+    "translation_hash": "",
+    "yorum": "GBPUSD paritesinde güçlü bir direnç seviyesinden ayı piyasası dönüşü bekleniyor. Bu durum, İngiliz Sterlini'nde zayıflığa ve ABD Doları'nda güçlenmeye işaret edebilir. Yatırımcılar bu seviyeyi yakından takip etmeli.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, %38.2 Fibonacci geri çekilmesiyle hizalanan 1.3273'teki güçlü bir direnç seviyesine yaklaşıyor ve buradan ayı piyasası dönüşü bekleniyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "GBPUSD paritesinde beklenen ayı piyasası dönüşü, İngiliz Sterlini'nin ABD Doları karşısında değer kaybetmesi beklentisini desteklemektedir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-18T12:46:20.931945+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-18-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 18, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 18 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 18, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Nvidia Delivers, But Macro & Governance Cap ReliefGlobal equity markets staged a measured, selective bounce on Wednesday morning as a blo...",
+    "content_tr": "Günlük Piyasa Görünümü, 18 Kasım 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mesajı - Nvidia Teslim Ediyor, Ancak Makro ve Yönetişim Rahatlamayı Sınırlıyor\nKüresel hisse senedi piyasaları Çarşamba sabahı ölçülü, seçici bir toparlanma yaşadı...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-18-2026",
+    "published_at": "Wed, 18 Nov 2026 09:31:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225929+00:00",
+    "translation_hash": "",
+    "yorum": "Nvidia'nın güçlü performansı teknoloji hisselerine destek sağlarken, küresel piyasalardaki toparlanma ölçülü ve seçici kaldı. Makroekonomik ve yönetişim endişeleri genel yükselişi sınırlayarak temkinli bir piyasa ortamına işaret ediyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Şirketin iyi performans gösterdiği belirtiliyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Nvidia'nın güçlü performansı ve piyasalarda seçici toparlanma, teknoloji ağırlıklı endeksi destekliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100",
+        "yon": "YUKARI",
+        "gerekce": "Nvidia'nın güçlü performansı ve piyasalarda seçici toparlanma, teknoloji ağırlıklı endeksi destekliyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Küresel hisse senedi piyasalarında ölçülü ve seçici bir toparlanma yaşanırken, makro ve yönetişim endişeleri yükselişi sınırlıyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "NÖTR",
+        "gerekce": "Küresel hisse senedi piyasalarında ölçülü ve seçici bir toparlanma yaşanırken, makro ve yönetişim endişeleri yükselişi sınırlıyor.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-18T12:46:34.934158+00:00"
+  },
+  {
+    "id": "nzdusd-h4-sellers-remain-under-control-18th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "NZDUSD H4 | Sellers remain under control",
+    "title_tr": "NZDUSD H4 | Satıcılar kontrolü elinde tutmaya devam ediyor",
+    "content_en": "Title: NZDUSD H4 | Sellers remain under control Type: Bearish reversal Preference: The price is rising toward the pivot at 0.5535, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 0.5474, a support level at the 145% F...",
+    "content_tr": "Başlık: NZDUSD H4 | Satıcılar kontrolü elinde tutmaya devam ediyor. Tip: Ayı piyasası dönüşü. Tercih: Fiyat, 0.5535'teki pivot noktasına, bir geri çekilme direncine doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı 0.5474'teki ilk desteğe, %145 F... seviyesindeki bir destek seviyesine doğru yönlendirebilir.",
+    "url": "https://www.tickmill.com/blog/nzdusd-h4-sellers-remain-under-control-18th-november-2026",
+    "published_at": "Wed, 18 Nov 2026 11:07:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225948+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, NZDUSD paritesinde ayı piyasası dönüşü beklentisini vurguluyor. Pivot direnç seviyesinden olası bir geri dönüş, paritenin daha düşük destek seviyelerine gerilemesine neden olabilir. Bu durum, Yeni Zelanda doları üzerinde aşağı yönlü baskı oluşturabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NZDUSD",
+        "isim": "Yeni Zelanda Doları / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Makale, NZDUSD'de satıcıların kontrolü elinde tuttuğunu ve pivot direncinden ayı piyasası dönüşü beklediğini belirtiyor.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-18T12:46:44.520000+00:00"
+  },
+  {
+    "id": "xauusd-h4-bearish-reversal-in-play-18th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "XAUUSD H4 | Bearish reversal in play",
+    "title_tr": "XAUUSD H4 | Ayı piyasası dönüşü devrede",
+    "content_en": "Title: XAUUSD H4 | Bearish reversal in play Type: Bearish reversal Preference: The price has rejected the pivot at 3,877.31, a pullback resistance. A drop from this level could lead the price toward the 1st support at 3,742.51, a support at the 145% Fibonacci exten...",
+    "content_tr": "Başlık: XAUUSD H4 | Ayı piyasası dönüşü devrede. Tip: Ayı piyasası dönüşü. Tercih: Fiyat, 3.877,31 seviyesindeki pivotu (bir geri çekilme direnci) reddetti. Bu seviyeden bir düşüş, fiyatı 3.742,51 seviyesindeki ilk desteğe, yani %145 Fibonacci uzatması seviyesindeki bir desteğe doğru götürebilir.",
+    "url": "https://www.tickmill.com/blog/xauusd-h4-bearish-reversal-in-play-18th-november-2026",
+    "published_at": "Wed, 18 Nov 2026 11:10:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225968+00:00",
+    "translation_hash": "",
+    "yorum": "Bu analiz, XAUUSD'de (Altın) ayı piyasası dönüşü sinyali vererek fiyatlarda düşüş beklentisini ortaya koymaktadır. Yatırımcılar, belirtilen destek seviyelerine doğru bir geri çekilme için pozisyon alabilirler.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyat, 3.877,31 pivot direncini reddetti ve 3.742,51'deki ilk desteğe doğru düşüş bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-18T12:46:55.763200+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-181126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 18/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 18/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 18/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***VIX EXPIRATIONMONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WE...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 18/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***VIX VADESİ AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7275/35 AYLIK ARALIK DİRENÇ 7980 DESTEK 7361 BİZ...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-181126",
+    "published_at": "Wed, 18 Nov 2026 08:14:00 +0000",
+    "fetched_at": "2026-11-18T12:44:59.225995+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için günlük hareket alanları ve fiyat hedefleri sunarak kısa vadeli teknik analiz odaklı bir bakış açısı sağlıyor. Belirtilen destek ve direnç seviyeleri, piyasa katılımcılarına potansiyel giriş/çıkış noktaları ve risk yönetimi için referans olabilir. VIX vadesinin belirtilmesi, volatilite beklentilerinin de dikkate alındığını gösterir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgesi (7275/35), direnç (7980) ve destek (7361) seviyelerini belirterek teknik analiz odaklı bir çerçeve sunmaktadır. Yön belirtilmemiştir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, nakit US500 eşdeğer seviyeleri için ES1! (Z sözleşme seviyeleri) kullanıldığını belirtmektedir. Bu, S&P500 analizinin temelini oluşturur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Makale, VIX vadesinin aylık, haftalık ve günlük seviyelerinin dikkate alındığını belirtmektedir. Bu, piyasa volatilitesi beklentilerinin analize dahil edildiğini gösterir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-18T12:47:10.975482+00:00"
+  }
+]
