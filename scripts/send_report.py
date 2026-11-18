@@ -21,6 +21,15 @@ PROJECT_ROOT = Path(__file__).parent.parent.resolve()
 DATA_DIR = PROJECT_ROOT / "data"
 SNAPSHOT_FILE = DATA_DIR / "snapshots" / "latest.json"
 
+# DUZELTME (2026-11-18, Reis'in "0.156 gibi rakamlar kafa karistiriyor,
+# ne demek belli degil" bulgusu): bir onceki GERCEKTEN GONDERILMIS
+# raporun ozet durumunu burada saklıyoruz -- notification_state.py'nin
+# "hangi slot bugun gonderildi" kaydiyla AYNI desen (fetch.yml zaten
+# `git add data/` yaptigi icin ekstra bir commit adimina gerek yok).
+# Amac: her yeni rapor, SADECE hourly pipeline calismasiyla degil,
+# SON GONDERILEN raporla kiyaslanip "ne degisti" ozetini uretebilsin.
+LAST_REPORTED_FILE = DATA_DIR / "last_reported_snapshot.json"
+
 # DENETCI KARARI (2026-10-25): Bu script hem `fetch.yml` (PYTHONPATH=
 # github.workspace ayarli) hem de `daily_report.yml` (PYTHONPATH
 # AYARLANMAMIS) tarafindan `python scripts/send_report.py` olarak
@@ -91,14 +100,30 @@ def load_snapshot():
         return {}
 
 
-def compute_state(score, evidence_count, has_conflict=False):
+# DUZELTME (2026-11-18): eski compute_state, skor 0.10-0.35 ARASINDA
+# kaldiginda -- ger çek bir "iki taraf da güçlü" durumu olmasa bile --
+# HER ZAMAN "CONFLICT" donduruyordu. Bu yuzden "-0.349" gibi sirf ESIGE
+# YAKIN (ama zayif) skorlar da CONFLICT kovasina dusuyor, "35 CONFLICT"
+# gibi kabarik ve anlamsiz bir grup olusturuyordu -- Reis'in "bir sürü
+# ondalik rakam, ne demek belli degil" sikayetinin asil kok nedeni
+# buydu. Artik GERCEK celiski SADECE core/synthesis_engine.py'deki ile
+# AYNI kural ile belirleniyor: her iki tarafta da (bull_weight VE
+# bear_weight) guclu kanit var VE birbirine yakinlar. Sirf zayif/sinirda
+# kalan skorlar artik BULLISH/BEARISH olarak (dusuk yildizla) gosteriliyor
+# -- "CONFLICT" etiketi artik SADECE gercek cekisme anlamina geliyor.
+MIN_CONFLICT_WEIGHT = 0.35
+CONFLICT_RATIO = 0.70
+NEUTRAL_FLOOR = 0.20   # bunun altindaki |skor| artik yildizsiz NEUTRAL
+
+
+def compute_state(score, evidence_count, bull_weight=0.0, bear_weight=0.0):
     """
-    Skor bazlı state:
+    Skor + agirlik bazli state:
     - Hiç kanıt yok → INSUFFICIENT
-    - |skor| < 0.10 → NEUTRAL
-    - skor >= 0.35 → BULLISH
-    - skor <= -0.35 → BEARISH
-    - arası (0.10 - 0.35) → CONFLICT (zayıf sinyal)
+    - Her iki tarafta da guclu VE birbirine yakin agirlik → CONFLICT (gercek cekisme)
+    - |skor| < 0.20 → NEUTRAL (yildizsiz)
+    - skor > 0 → BULLISH (yildiz sayisi |skor|'e gore)
+    - skor < 0 → BEARISH (yildiz sayisi |skor|'e gore)
     """
     if evidence_count == 0:
         return "INSUFFICIENT"
@@ -106,28 +131,55 @@ def compute_state(score, evidence_count, has_conflict=False):
     if evidence_count == 1 and abs(score) < 0.05:
         return "INSUFFICIENT"
 
-    if abs(score) < 0.10:
-        if has_conflict:
+    if bull_weight >= MIN_CONFLICT_WEIGHT and bear_weight >= MIN_CONFLICT_WEIGHT:
+        max_w = max(bull_weight, bear_weight)
+        min_w = min(bull_weight, bear_weight)
+        if max_w > 0 and (min_w / max_w) >= CONFLICT_RATIO:
             return "CONFLICT"
+
+    if abs(score) < NEUTRAL_FLOOR:
         return "NEUTRAL"
 
-    if score >= 0.35:
-        return "BULLISH"
-    if score <= -0.35:
-        return "BEARISH"
+    return "BULLISH" if score > 0 else "BEARISH"
 
-    return "CONFLICT"
+
+def star_rating(score):
+    """|skor| -> 1-5 yildiz. %20=1, %40=2, %60=3, %80=4, %100=5 (Reis'in talimati)."""
+    a = abs(score)
+    if a >= 0.80:
+        return 5
+    if a >= 0.60:
+        return 4
+    if a >= 0.40:
+        return 3
+    if a >= 0.20:
+        return 2
+    return 1
+
+
+def intensity_tag(score):
+    """Yon oku (renkli emoji, hem Telegram hem email'de HTML'siz calisir)
+    + sari yildizlar. Reis'in talimati: yildizlar sari, yukari ok yesil,
+    asagi ok (dogal olarak) kirmizi -- emoji rengi zaten sabit oldugu
+    icin HTML <span style> gerekmiyor, Telegram'in sinirli HTML seti de
+    bu sekilde bozulmuyor."""
+    arrow = "🟢⬆️" if score > 0 else "🔴⬇️"
+    stars = "⭐" * star_rating(score)
+    return f"{arrow} {stars}"
 
 
 def format_group(title, items):
-    """Bir grup için satırlar üret."""
+    """Bir grup için satırlar üret.
+
+    items: (code, score, state, bull_weight, bear_weight) tuple listesi.
+    """
     if not items:
         return []
 
     groups = {"BULLISH": [], "BEARISH": [], "CONFLICT": [], "NEUTRAL": [], "INSUFFICIENT": []}
-    for code, sc, state in items:
+    for code, sc, state, bw, brw in items:
         if state in groups:
-            groups[state].append((code, sc))
+            groups[state].append((code, sc, bw, brw))
 
     for k in groups:
         groups[k].sort(key=lambda x: abs(x[1]), reverse=True)
@@ -136,35 +188,111 @@ def format_group(title, items):
 
     if groups["BULLISH"]:
         lines.append(f"🟢 <b>BULLISH</b> ({len(groups['BULLISH'])})")
-        for code, sc in groups["BULLISH"][:12]:
-            lines.append(f"  • {code}  <code>{sc:+.3f}</code>")
+        for code, sc, bw, brw in groups["BULLISH"][:12]:
+            lines.append(f"  • {code}  {intensity_tag(sc)}  <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["BEARISH"]:
         lines.append(f"🔴 <b>BEARISH</b> ({len(groups['BEARISH'])})")
-        for code, sc in groups["BEARISH"][:12]:
-            lines.append(f"  • {code}  <code>{sc:+.3f}</code>")
+        for code, sc, bw, brw in groups["BEARISH"][:12]:
+            lines.append(f"  • {code}  {intensity_tag(sc)}  <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["CONFLICT"]:
-        lines.append(f"🟠 <b>CONFLICT</b> ({len(groups['CONFLICT'])})")
-        for code, sc in groups["CONFLICT"][:12]:
-            lines.append(f"  • {code}  <code>{sc:+.3f}</code>")
+        # DUZELTME (2026-11-18): artik burada TEK skor degil, iki tarafin
+        # agirligi gosteriliyor -- "CONFLICT" artik gercekten "iki taraf
+        # da guclu" anlamina geldigi icin hangi tarafin ne kadar guclu
+        # oldugunu gormek, tek bir yaniltici sayidan daha anlamli.
+        lines.append(f"⚡ <b>ÇELİŞKİ</b> ({len(groups['CONFLICT'])})  — iki taraf da güçlü, net yön yok")
+        for code, sc, bw, brw in groups["CONFLICT"][:12]:
+            lines.append(f"  • {code}  Yukarı: <code>{bw:.2f}</code> / Aşağı: <code>{brw:.2f}</code>")
         lines.append("")
 
     if groups["NEUTRAL"]:
-        lines.append(f"⚪ <b>NEUTRAL</b> ({len(groups['NEUTRAL'])})")
-        for code, sc in groups["NEUTRAL"][:12]:
-            lines.append(f"  • {code}  <code>{sc:+.3f}</code>")
+        lines.append(f"⚪ <b>NÖTR</b> ({len(groups['NEUTRAL'])})")
+        codes = ", ".join([c for c, _, _, _ in groups["NEUTRAL"]])
+        lines.append(f"  {codes}")
         lines.append("")
 
     if groups["INSUFFICIENT"]:
-        codes = ", ".join([c for c, _ in groups["INSUFFICIENT"]])
-        lines.append(f"⚫ <b>INSUFFICIENT</b> ({len(groups['INSUFFICIENT'])})")
+        codes = ", ".join([c for c, _, _, _ in groups["INSUFFICIENT"]])
+        lines.append(f"⚫ <b>YETERSİZ VERİ</b> ({len(groups['INSUFFICIENT'])})")
         lines.append(f"  {codes}")
         lines.append("")
 
     return lines
+
+
+def load_last_reported():
+    """Son GERCEKTEN GONDERILMIS raporun ozet durumunu okur (yoksa bos)."""
+    if not LAST_REPORTED_FILE.exists():
+        return {}
+    try:
+        data = json.loads(LAST_REPORTED_FILE.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return {}
+        return data
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_last_reported(assets_summary, generated_at):
+    """Bu raporu 'son gonderilen' olarak kaydeder -- bir sonraki rapor
+    bununla kiyaslanacak."""
+    LAST_REPORTED_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {"generated_at": generated_at, "assets": assets_summary}
+    LAST_REPORTED_FILE.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+
+
+def build_changes_box(prev, current_assets, now_label):
+    """Reis'in talimati (2026-11-18): raporun EN BASINDA, bir onceki
+    GONDERILEN rapora gore ne degisti -- durum degisikligi, yildiz
+    sayisi degisikligi veya CONFLICT'e girip-cikma. Ayni kalanlar
+    gosterilmez (yoksa yine kalabalik/anlamsiz olur)."""
+    if not prev or not prev.get("assets"):
+        return []  # ilk rapor -- kiyaslanacak onceki veri yok
+
+    prev_assets = prev["assets"]
+    prev_label = (prev.get("generated_at") or "—")[:16]
+
+    change_lines = []
+    for code, cur in current_assets.items():
+        old = prev_assets.get(code)
+        if old is None:
+            continue  # yeni varlik, "degisim" sayilmaz
+
+        old_state, new_state = old.get("state"), cur.get("state")
+        old_stars, new_stars = old.get("stars", 0), cur.get("stars", 0)
+
+        if old_state == new_state and old_stars == new_stars:
+            continue  # gercek bir degisim yok, atla
+
+        if new_state == "CONFLICT" and old_state != "CONFLICT":
+            change_lines.append((abs(cur.get("score", 0)), f"  • {code}: yön belirsizleşti → ⚡ ÇELİŞKİ"))
+        elif old_state == "CONFLICT" and new_state != "CONFLICT":
+            tag = intensity_tag(cur.get("score", 0))
+            change_lines.append((abs(cur.get("score", 0)), f"  • {code}: ÇELİŞKİ çözüldü → {tag}"))
+        elif old_state != new_state:
+            change_lines.append((abs(cur.get("score", 0)), f"  • {code}: {old_state} → {new_state}  {intensity_tag(cur.get('score', 0))}"))
+        elif new_stars > old_stars:
+            change_lines.append((abs(cur.get("score", 0)), f"  • {code}: güçlendi, {'⭐' * old_stars} → {intensity_tag(cur.get('score', 0))}"))
+        elif new_stars < old_stars:
+            change_lines.append((abs(cur.get("score", 0)), f"  • {code}: zayıfladı, {'⭐' * old_stars} → {intensity_tag(cur.get('score', 0))}"))
+
+    if not change_lines:
+        return []
+
+    change_lines.sort(key=lambda x: x[0], reverse=True)
+    top = [line for _, line in change_lines[:8]]
+
+    box = [
+        f"📊 <b>SON RAPORDAN BU YANA DEĞİŞENLER</b> ({prev_label} → {now_label})",
+    ]
+    box.extend(top)
+    if len(change_lines) > 8:
+        box.append(f"  … ve {len(change_lines) - 8} değişiklik daha")
+    box.append("")
+    return box
 
 
 def build_message(snapshot):
@@ -173,20 +301,28 @@ def build_message(snapshot):
         return "⚠️ CTA ERHAN RAPORU\n\nSnapshot boş."
 
     now_tr = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+    now_label = snapshot.get("generated_at", "—")[:16]
 
     main_items = []
     us_items = []
     asia_items = []
+    current_assets = {}
 
     for code, r in results.items():
         score = soften(r.get("score", 0.0))
         ev_count = r.get("evidence_count", 0)
-        reasons = " ".join(r.get("reasons", []))
-        has_conflict = "ÇELİŞKİ" in reasons
-        state = compute_state(score, ev_count, has_conflict)
+        bull_weight = r.get("bull_weight", 0.0) or 0.0
+        bear_weight = r.get("bear_weight", 0.0) or 0.0
+        state = compute_state(score, ev_count, bull_weight, bear_weight)
+
+        current_assets[code] = {
+            "state": state,
+            "score": score,
+            "stars": star_rating(score) if state in ("BULLISH", "BEARISH") else 0,
+        }
 
         cat = categorize(code)
-        item = (code, score, state)
+        item = (code, score, state, bull_weight, bear_weight)
 
         if cat == "us_stock":
             us_items.append(item)
@@ -197,11 +333,16 @@ def build_message(snapshot):
 
     total = len(main_items) + len(us_items) + len(asia_items)
 
-    lines = [
+    # DEGISENLER KUTUSU -- onceki GONDERILEN raporla kiyasla, raporun
+    # EN BASINA koy (Reis'in talimati).
+    prev_reported = load_last_reported()
+    lines = build_changes_box(prev_reported, current_assets, now_label)
+
+    lines.extend([
         "📊 <b>CTA ERHAN RAPORU</b> (Wayne Protocol)",
         f"🕐 {now_tr}",
         "",
-    ]
+    ])
 
     # Ana grup
     lines.extend(format_group("VADELİ / FOREX / EMTİA", main_items))
@@ -221,6 +362,13 @@ def build_message(snapshot):
     lines.append("• Sığ saatlerde işlem açılmaz; Pzt/Salı seans açılışı ve Stop Hunt iğnesi beklenir.")
     lines.append("• Tüm pozisyonlar Cuma kapanışında kapatılır.")
     lines.append(f"🔗 {snapshot.get('generated_at', '—')[:16]}")
+
+    # Bu raporu "son gonderilen" olarak kaydet -- bir sonraki rapor
+    # bununla kiyaslanacak. mark_slot_sent() ile AYNI felsefe: gonderim
+    # (email/telegram) basarisiz olsa bile kaydedilir, amac mukemmel
+    # teslimat degil, bir sonraki kiyasin DOGRU referans noktasina
+    # sahip olmasi.
+    save_last_reported(current_assets, now_label)
 
     return "\n".join(lines)
 
