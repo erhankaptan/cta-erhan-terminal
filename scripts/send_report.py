@@ -205,7 +205,17 @@ def format_group(title, items):
         # oldugunu gormek, tek bir yaniltici sayidan daha anlamli.
         lines.append(f"⚡ <b>ÇELİŞKİ</b> ({len(groups['CONFLICT'])})  — iki taraf da güçlü, net yön yok")
         for code, sc, bw, brw in groups["CONFLICT"][:12]:
-            lines.append(f"  • {code}  Yukarı: <code>{bw:.2f}</code> / Aşağı: <code>{brw:.2f}</code>")
+            # DUZELTME (2026-11-18, Reis'in "BULLISH duzeldi ama altinda
+            # yine anlamsiz rakamlar var" bulgusu): ham agirlik toplamlari
+            # (orn. "5.77 / 4.68") kanit sayisi arttikca sinirsiz
+            # buyuyebildigi icin tek basina HICBIR SEY ifade etmiyordu.
+            # Artik iki tarafin TOPLAM icindeki PAYI (yuzde) gosteriliyor
+            # -- "%55 / %45" gibi -- hem sezgisel hem de ne kadar
+            # kiyasiya oldugunu (50/50'ye ne kadar yakin) dogrudan anlatiyor.
+            total = bw + brw
+            pct_up = round(bw / total * 100) if total > 0 else 50
+            pct_down = 100 - pct_up
+            lines.append(f"  • {code}  Yukarı: <code>%{pct_up}</code> / Aşağı: <code>%{pct_down}</code>")
         lines.append("")
 
     if groups["NEUTRAL"]:
