@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ftse-down16-as-hot-inflation-bailey-warnings-and-commodity-rout-batter-blue-chips",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Down1.6% as Hot Inflation, Bailey Warnings, and Commodity Rout Batter Blue Chips",
+    "title_tr": "FTSE %1.6 Düştü: Yüksek Enflasyon, Bailey Uyarıları ve Emtia Düşüşü Mavi Çipleri Vurdu",
+    "content_en": "FTSE Down1.6% as Hot Inflation, Bailey Warnings, and Commodity Rout Batter Blue ChipsLondon's benchmark FTSE 100 extended Tuesday's sell-off on Wednesday, sliding 172.90 points or 1.61% to trade at 10,547.60 near the bottom of its intraday range. Risk app...",
+    "content_tr": "FTSE %1.6 Düştü: Yüksek Enflasyon, Bailey Uyarıları ve Emtia Düşüşü Mavi Çipleri Vurdu. Londra'nın gösterge endeksi FTSE 100, Salı günkü satış dalgasını Çarşamba günü de sürdürerek 172.90 puan veya %1.61 düşüşle gün içi en düşük seviyelerine yakın 10,547.60'tan işlem gördü. Risk iştahı...",
+    "url": "https://www.tickmill.com/blog/ftse-down16-as-hot-inflation-bailey-warnings-and-commodity-rout-batter-blue-chips",
+    "published_at": "Wed, 18 Nov 2026 17:28:00 +0000",
+    "fetched_at": "2026-11-18T20:53:35.544697+00:00",
+    "translation_hash": "",
+    "yorum": "Yüksek enflasyon ve merkez bankası uyarıları küresel piyasalarda risk iştahını azaltarak hisse senetleri ve emtialar üzerinde baskı oluşturdu. Özellikle İngiltere piyasası, FTSE 100'deki sert düşüşle olumsuz etkilendi. Bu durum, yatırımcıların riskli varlıklardan kaçınarak daha güvenli limanlara yönelmesine neden olabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "UK100",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek enflasyon, merkez bankası uyarıları ve emtia düşüşü nedeniyle %1.6 geriledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede belirtilen genel emtia düşüşü (rout) beklentisi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel emtia düşüşü (rout) beklentisi ve riskten kaçış ortamı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Genel emtia düşüşü (rout) beklentisi ve riskten kaçış ortamı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki düşüş ve enflasyon endişelerinin diğer büyük endekslere yayılması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel risk iştahındaki düşüş ve faiz artışı beklentilerine karşı daha hassas olması.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "NÖTR",
+        "gerekce": "Enflasyon ve merkez bankası uyarıları sterlin üzerinde karışık etki yaratabilir; riskten kaçış ve olası faiz artışı beklentileri arasında denge.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-18T20:53:51.541971+00:00"
+  }
+]
