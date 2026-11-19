@@ -11,6 +11,7 @@ import sys
 import json
 import re
 import smtplib
+import unicodedata
 import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -157,6 +158,56 @@ def star_rating(score):
     return 1
 
 
+# ============================================================
+# GORSEL GENISLIK DUZELTMESI (Reis'in 2026-11-19 bulgusu: "siralamalar
+# biraz kaymis", CTA TERMINAL'deki cta_email_sender.py'de AYNI gun
+# yapilan duzeltmeyle PARALEL/AYNI mantik)
+# ============================================================
+#
+# KOK NEDEN: bu dosyada satirlar (orn. "  • USDCAD  🟢⬆️ ⭐⭐⭐  +0.58")
+# HICBIR sabit genislik kullanmiyordu -- kod ismi (USDCAD=6 harf, SI=2
+# harf) ve yildiz sayisi (1-5) satirdan satira degistigi icin ok+yildiz
+# ve skor sutunlari her satirda FARKLI bir yatay konumda basliyordu.
+# Ayrica emoji'ler (🟢⬆️⭐) Python'un len()'ine gore 1 kod noktasi ama
+# cogu monospace/email fontunda 2 sutun genisliginde render ediliyor --
+# bu yuzden duz len()-bazli bir :<N padding'i de tek basina yetmezdi.
+_VARYASYON_SECICI = {"️", "︎"}
+
+
+def _karakter_genislik(ch):
+    if ch in _VARYASYON_SECICI:
+        return 0
+    cp = ord(ch)
+    if (
+        0x1F300 <= cp <= 0x1FAFF
+        or 0x2600 <= cp <= 0x27BF
+        or 0x2190 <= cp <= 0x21FF
+        or cp in (0x2B50, 0x2B55)
+    ):
+        return 2
+    eaw = unicodedata.east_asian_width(ch)
+    if eaw in ("W", "F"):
+        return 2
+    return 1
+
+
+def _gorsel_genislik(s):
+    return sum(_karakter_genislik(ch) for ch in s)
+
+
+def _pad(s, width):
+    """len()-bazli :<N yerine GORSEL genislige gore sola-hizali doldurma."""
+    eksik = width - _gorsel_genislik(s)
+    return s + (" " * eksik if eksik > 0 else "")
+
+
+# Sabit sutun genislikleri -- kod ismi ve ok+yildiz blogu artik HER
+# satirda AYNI yatay konumda basliyor, skor da onlarin ardindan hep ayni
+# yerden.
+_KOD_GENISLIK = 8
+_TAG_GENISLIK = 16  # "🟢⬆️ " (gorsel ~5) + 5 yildiz (gorsel 10) + pay
+
+
 def intensity_tag(score):
     """Yon oku (renkli emoji, hem Telegram hem email'de HTML'siz calisir)
     + sari yildizlar. Reis'in talimati: yildizlar sari, yukari ok yesil,
@@ -189,13 +240,13 @@ def format_group(title, items):
     if groups["BULLISH"]:
         lines.append(f"🟢 <b>BULLISH</b> ({len(groups['BULLISH'])})")
         for code, sc, bw, brw in groups["BULLISH"][:12]:
-            lines.append(f"  • {code}  {intensity_tag(sc)}  <code>{sc:+.2f}</code>")
+            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["BEARISH"]:
         lines.append(f"🔴 <b>BEARISH</b> ({len(groups['BEARISH'])})")
         for code, sc, bw, brw in groups["BEARISH"][:12]:
-            lines.append(f"  • {code}  {intensity_tag(sc)}  <code>{sc:+.2f}</code>")
+            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["CONFLICT"]:
@@ -215,7 +266,7 @@ def format_group(title, items):
             total = bw + brw
             pct_up = round(bw / total * 100) if total > 0 else 50
             pct_down = 100 - pct_up
-            lines.append(f"  • {code}  Yukarı: <code>%{pct_up}</code> / Aşağı: <code>%{pct_down}</code>")
+            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} Yukarı: <code>%{pct_up}</code> / Aşağı: <code>%{pct_down}</code>")
         lines.append("")
 
     if groups["NEUTRAL"]:
