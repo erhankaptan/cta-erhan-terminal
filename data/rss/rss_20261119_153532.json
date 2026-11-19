@@ -1,0 +1,48 @@
+[
+  {
+    "id": "daily-trade-setups-spxes-ny-update",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Trade Setups: SPX/ES NY Update",
+    "title_tr": "Günlük İşlem Kurulumları: SPX/ES New York Güncellemesi",
+    "content_en": "...",
+    "content_tr": "Makale içeriği sağlanmamıştır. Bu nedenle detaylı bir analiz yapılamamaktadır.",
+    "url": "https://www.tickmill.com/blog/daily-trade-setups-spxes-ny-update",
+    "published_at": "Thu, 19 Nov 2026 14:19:00 +0000",
+    "fetched_at": "2026-11-19T15:35:32.125305+00:00",
+    "translation_hash": "",
+    "yorum": "Makale içeriği eksik olduğu için piyasa etkisi hakkında yorum yapılamamaktadır. Sağlanan başlık, SPX ve ES gibi endeksler üzerine günlük işlem kurulumlarına odaklandığını göstermektedir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [],
+    "translated_at": "2026-11-19T15:35:40.840545+00:00"
+  },
+  {
+    "id": "antrhropic-ipo-make-or-break-for-nasdaq",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Anthropic IPO: Make or Break For Nasdaq",
+    "title_tr": "Anthropic Halka Arzı: Nasdaq İçin Dönüm Noktası",
+    "content_en": "Anthropic Hopes Lift NasdaqThe Nasdaq is surging higher pre-market as traders brace for Anthropic’s IPO today, expected to be the largest IPO in history. If seen, this could prove to be crucial timing for tech bulls, helping the Nasdaq recover after a brutal few we...",
+    "content_tr": "Anthropic Umutları Nasdaq'ı Yükseltiyor. Nasdaq, bugün gerçekleşmesi beklenen ve tarihin en büyük halka arzı olması beklenen Anthropic'in halka arzına hazırlanırken piyasa öncesinde yükselişte. Eğer gerçekleşirse, bu durum teknoloji boğaları için kritik bir zamanlama olabilir ve Nasdaq'ın zorlu birkaç haftanın ardından toparlanmasına yardımcı olabilir...",
+    "url": "https://www.tickmill.com/blog/antrhropic-ipo-make-or-break-for-nasdaq",
+    "published_at": "Thu, 19 Nov 2026 11:08:00 +0000",
+    "fetched_at": "2026-11-19T15:35:32.125336+00:00",
+    "translation_hash": "",
+    "yorum": "Anthropic'in beklenen büyük halka arzı, teknoloji hisselerine olan ilgiyi artırarak Nasdaq endeksinde piyasa öncesi yükselişe neden olmuştur. Bu halka arzın başarısı, teknoloji piyasası için önemli bir dönüm noktası olabilir ve endeksin son dönemdeki düşüşlerinden toparlanmasına yardımcı olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Anthropic'in tarihin en büyük halka arzı beklentisiyle piyasa öncesinde yükselişte. Teknoloji boğaları için kritik bir toparlanma fırsatı sunuyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T15:35:52.402541+00:00"
+  }
+]
