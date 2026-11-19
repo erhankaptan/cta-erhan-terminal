@@ -1,0 +1,391 @@
+[
+  {
+    "id": "daily-market-outlook-november-19-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 19, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 19 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 19, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Record Anthropic IPO Sparks Relief Bounce Against Hawkish Fed RealityGlobal equity markets attempted a tentative stabilization on Thursday mo...",
+    "content_tr": "Günlük Piyasa Görünümü, 19 Kasım 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Notu - Rekor Anthropic Halka Arzı, Şahin Fed Gerçekliğine Karşı Bir Rahatlama Sıçraması Başlattı Küresel hisse senedi piyasaları Perşembe günü geçici bir istikrara kavuşmaya çalıştı...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-19-2026",
+    "published_at": "Thu, 19 Nov 2026 09:28:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883629+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, rekor bir halka arzın küresel hisse senedi piyasalarında geçici bir rahatlama sıçraması ve istikrar çabası yarattığını belirtiyor. Ancak, bu olumlu hareketin şahin Fed politikalarının yarattığı temel olumsuz gerçekliğe karşı olduğu vurgulanıyor. Bu durum, piyasalarda kısa vadeli iyimserliğin kırılgan olduğunu ve uzun vadeli endişelerin devam ettiğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Rekor halka arz sonrası rahatlama sıçraması ve geçici istikrar çabası.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Anthropic halka arzı gibi teknoloji odaklı bir olayın doğrudan etkisiyle rahatlama sıçraması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarındaki genel rahatlama sıçraması ve istikrar çabası.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadelileri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel hisse senedi piyasalarındaki genel rahatlama sıçraması ve istikrar çabası.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed politikaları ve yüksek faiz beklentisi, altının cazibesini azaltır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed politikaları ve yüksek faiz beklentisi, altının cazibesini azaltır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, Euro/USD paritesini aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, USD/JPY paritesini yukarı, JPY'yi aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, GBP/USD paritesini aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, AUD/USD paritesini aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, USD/CAD paritesini yukarı, CAD'ı aşağı çeker.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed'in doları güçlendirmesi beklentisi, USD/CHF paritesini yukarı, CHF'yi aşağı çeker.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-19T11:27:48.294678+00:00"
+  },
+  {
+    "id": "usdjpy-h4-bullish-bounce-in-play-19th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USDJPY H4 | Bullish bounce in play",
+    "title_tr": "USDJPY H4 | Yükseliş eğilimli sıçrama devrede",
+    "content_en": "Title: USDJPY H4 | Bullish bounce in play Type: Bullish bounce Preference: The price is falling toward the pivot at 158.98, a pullback support. A bounce from this level could lead the price toward the 1st resistance at 160.39, a pullback resistance. Alternative Sc...",
+    "content_tr": "Başlık: USDJPY H4 | Yükseliş eğilimli sıçrama devrede Tip: Yükseliş eğilimli sıçrama Tercih: Fiyat, 158.98'deki pivot seviyesine, bir geri çekilme desteğine doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı 160.39'daki ilk dirence, bir geri çekilme direncine doğru taşıyabilir.",
+    "url": "https://www.tickmill.com/blog/usdjpy-h4-bullish-bounce-in-play-19th-november-2026",
+    "published_at": "Thu, 19 Nov 2026 13:18:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883657+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, USDJPY paritesinde önemli bir destek seviyesinden yükseliş eğilimli bir sıçrama bekliyor. Bu durum, paritenin kısa vadede yukarı yönlü bir ivme kazanarak direnç seviyelerine doğru hareket edebileceğini gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "USDJPY",
+        "isim": "ABD Doları / Japon Yeni",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 158.98 pivot desteğinden sıçrayarak 160.39 direncine doğru yükselmesi bekleniyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T11:27:57.126107+00:00"
+  },
+  {
+    "id": "crude-hammered-by-surging-us-oil-inventories",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Crude Hammered by Surging US Oil Inventories",
+    "title_tr": "ABD Petrol Stoklarındaki Artışla Ham Petrol Darbe Aldı",
+    "content_en": "Crude Holds Near LowsOil prices remain weak today with the crude futures market reversing lower from initial highs earlier in the session. The market has pushed heavily south this week, currently down almost 9%, including a gap lower at yesterday’s open. The sell o...",
+    "content_tr": "Ham Petrol Düşük Seviyelere Yakın Seyrediyor. Petrol fiyatları bugün zayıf seyrini sürdürüyor; ham petrol vadeli işlem piyasası, seansın başlarındaki ilk yüksek seviyelerden aşağı yönlü bir dönüş yaptı. Piyasa bu hafta ağır bir şekilde güneye doğru itildi ve dünkü açılıştaki aşağı yönlü boşluk da dahil olmak üzere şu anda yaklaşık %9 düşüş yaşadı. Satış...",
+    "url": "https://www.tickmill.com/blog/crude-hammered-by-surging-us-oil-inventories",
+    "published_at": "Thu, 19 Nov 2026 10:09:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883679+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD petrol stoklarındaki artışın ham petrol piyasasında önemli bir düşüşe neden olduğunu belirtiyor. Bu durum, enerji piyasasında arz fazlası endişelerini artırarak genel piyasa duyarlılığını olumsuz etkileyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "ABD petrol stoklarındaki artış ve %9'a varan düşüşle piyasada güçlü satış baskısı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-19T11:28:09.100178+00:00"
+  },
+  {
+    "id": "eurjpy-h4-potential-bearish-reversal-19th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURJPY H4 | Potential bearish reversal",
+    "title_tr": "EURJPY H4 | Potansiyel düşüş yönlü dönüş",
+    "content_en": "Title: EURJPY H4 | Potential bearish reversal Type: Bearish reversal Preference: The price is rising toward the pivot at 175.44, a pullback resistance. A reversal from this level could lead the price toward the 1st support at 173.79, a pullback support. Alternative...",
+    "content_tr": "Başlık: EURJPY H4 | Potansiyel düşüş yönlü dönüş Tür: Düşüş yönlü dönüş Tercih: Fiyat, bir geri çekilme direnci olan 175.44'teki pivot seviyesine doğru yükseliyor. Bu seviyeden bir dönüş, fiyatı bir geri çekilme desteği olan 173.79'daki 1. destek seviyesine doğru yönlendirebilir. Alternatif...",
+    "url": "https://www.tickmill.com/blog/eurjpy-h4-potential-bearish-reversal-19th-november-2026",
+    "published_at": "Thu, 19 Nov 2026 13:22:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883699+00:00",
+    "translation_hash": "",
+    "yorum": "EURJPY paritesinde potansiyel bir düşüş yönlü dönüş sinyali verilmektedir. Fiyatın direnç seviyesinden geri dönerek destek seviyelerine gerilemesi bekleniyor. Bu durum, Euro'nun Japon Yeni karşısında değer kaybetme potansiyeline işaret etmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURJPY",
+        "isim": "Euro / Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede EURJPY paritesinde 175.44 pivot seviyesinden düşüş yönlü bir dönüş ve 173.79 desteğine gerileme beklentisi belirtilmiştir.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-19T11:28:28.699941+00:00"
+  },
+  {
+    "id": "huge-btc-etf-outflows-as-bitcoin-plummets",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Huge BTC ETF Outflows As Bitcoin Plummets",
+    "title_tr": "Bitcoin Düşerken Büyük BTC ETF Çıkışları",
+    "content_en": "BTC Crashing OutIt’s a worrying time for Bitcoin bulls currently as the market continues to suffer heavy losses amidst the resurgence in USD in recent weeks. The futures market is now down almost 30% from the September highs seen around the $87,500-level. The move ...",
+    "content_tr": "BTC Çöküyor. Son haftalarda USD'nin yeniden güçlenmesiyle piyasanın ağır kayıplar yaşamaya devam etmesi nedeniyle Bitcoin boğaları için endişe verici bir dönem. Vadeli işlem piyasası, Eylül ayında görülen 87.500 dolar seviyesindeki zirvelerden bu yana neredeyse %30 düştü. Bu hareket...",
+    "url": "https://www.tickmill.com/blog/huge-btc-etf-outflows-as-bitcoin-plummets",
+    "published_at": "Thu, 19 Nov 2026 09:43:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883720+00:00",
+    "translation_hash": "",
+    "yorum": "Bitcoin'deki sert düşüş ve ETF'lerden çıkan fonlar, kripto piyasasında ciddi bir satış baskısı olduğunu gösteriyor. USD'nin güçlenmesiyle birlikte riskli varlıklardan kaçış eğilimi devam ediyor. Bu durum, genel piyasa duyarlılığının olumsuz yönde olduğunu işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "BTCUSD",
+        "isim": "Bitcoin",
+        "yon": "AŞAĞI",
+        "gerekce": "ETF'lerden büyük çıkışlar ve vadeli işlem piyasasında %30'luk düşüşle güçlü satış baskısı altında.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makalede USD'nin son haftalarda yeniden güçlendiği belirtiliyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T11:28:42.508055+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-191126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 19/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 19/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 19/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 19/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN***AYLIK-HAFTALIK & GÜNLÜK SEVİYELERAylık Boğa Ayı Bölgesi 7275/35Aylık Aralık Direnci 7980 Desteği 7361Haftalık Boğa Ayı...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-191126",
+    "published_at": "Thu, 19 Nov 2026 08:23:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883749+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 vadeli işlemleri için teknik analiz seviyelerini (direnç, destek, boğa/ayı bölgeleri) belirtmektedir. Bu seviyeler, piyasa katılımcılarına potansiyel hareket alanları ve fiyat hedefleri sunarak kısa vadeli işlem kararlarına rehberlik edebilir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 vadeli işlemleri için aylık boğa/ayı bölgeleri, direnç ve destek seviyeleri sunmaktadır. Yön belirtilmemiştir, sadece teknik seviyeler listelenmiştir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-19T11:28:56.111167+00:00"
+  },
+  {
+    "id": "chfjpy-h4-could-we-see-a-recovery-from-here-19th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "CHFJPY H4 | Could we see a recovery from here",
+    "title_tr": "CHFJPY H4 | Buradan bir toparlanma görebilir miyiz?",
+    "content_en": "Title: CHFJPY H4 | Could we see a recovery from here Type: Bullish bounce Preference: The price has bounced off the pivot at 188.77, a pullback support that is slightly above the 127.2% Fibonacci extension. A rise from this level could lead the price toward the 1st...",
+    "content_tr": "Başlık: CHFJPY H4 | Buradan bir toparlanma görebilir miyiz? Tip: Boğa sıçraması. Tercih: Fiyat, 188.77'deki pivot noktasından, yani %127.2 Fibonacci uzatmasının biraz üzerinde yer alan bir geri çekilme desteğinden sıçradı. Bu seviyeden bir yükseliş, fiyatı 1. hedefe doğru taşıyabilir...",
+    "url": "https://www.tickmill.com/blog/chfjpy-h4-could-we-see-a-recovery-from-here-19th-november-2026",
+    "published_at": "Thu, 19 Nov 2026 13:36:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883768+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, CHFJPY paritesinde teknik göstergelerle desteklenen bir boğa sıçraması beklentisini ortaya koyuyor. Bu durum, İsviçre Frangı'nın Japon Yeni karşısında değer kazanabileceğine işaret ederek, paritede yukarı yönlü bir hareketin başlayabileceğini düşündürmektedir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı",
+        "yon": "YUKARI",
+        "gerekce": "CHFJPY paritesinde beklenen boğa sıçraması, İsviçre Frangı'nın Japon Yeni karşısında güçleneceğine işaret etmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "CHFJPY paritesinde beklenen boğa sıçraması, Japon Yeni'nin İsviçre Frangı karşısında zayıflayacağına işaret etmektedir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T11:29:08.521573+00:00"
+  },
+  {
+    "id": "usousd-h4-bearish-momentum-to-extend-19th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "USOUSD H4 | Bearish momentum to extend",
+    "title_tr": "USOUSD H4 | Ayı piyasası momentumu uzayacak",
+    "content_en": "Title: USOUSD H4 | Bearish momentum to extend Type: Bearish reversal Preference: The price has rejected the pivot at 85.72, a pullback resistance. A drop from this level could lead the price toward the 1st support at 80.70, a pullback support. Alternative Scenario:...",
+    "content_tr": "Başlık: USOUSD H4 | Ayı piyasası momentumu uzayacak Tür: Ayı piyasası dönüşü Tercih: Fiyat, 85.72'deki pivotu, bir geri çekilme direncini reddetti. Bu seviyeden bir düşüş, fiyatı 80.70'deki ilk desteğe, bir geri çekilme desteğine doğru yönlendirebilir. Alternatif Senaryo:...",
+    "url": "https://www.tickmill.com/blog/usousd-h4-bearish-momentum-to-extend-19th-november-2026",
+    "published_at": "Thu, 19 Nov 2026 13:28:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883788+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, USOUSD'de güçlü bir ayı piyasası momentumunun devam edeceğini ve fiyatın daha düşük seviyelere gerileyebileceğini öngörüyor. Bu durum, enerji piyasalarında genel bir düşüş eğilimine işaret ederek, petrol fiyatları üzerinde aşağı yönlü baskı oluşturabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Ham Petrol Fonu",
+        "yon": "AŞAĞI",
+        "gerekce": "Fiyatın pivot direncini reddetmesi ve ayı piyasası momentumunun devam etmesi bekleniyor, bu da 80.70 seviyesine doğru bir düşüşe yol açabilir.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T11:29:17.752510+00:00"
+  },
+  {
+    "id": "daily-trade-setups-megacap-ipo-benchmark-performance-scenario-analysis",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Trade Setups: MegaCap IPO & Benchmark Performance Scenario Analysis",
+    "title_tr": "Günlük İşlem Kurulumları: Mega Sermayeli Halka Arz ve Endeks Performansı Senaryo Analizi",
+    "content_en": "...",
+    "content_tr": "Piyasa, yakın tarihin en büyüklerinden biri olması beklenen Mega Sermayeli Halka Arz'ı (IPO) dikkatle izliyor. Analistler, S&P 500 (SPX500) ve Nasdaq 100 (NAS100) gibi büyük endeksler üzerindeki potansiyel etkisini ölçmek için senaryo analizleri yapıyor. Başarılı bir halka arz, piyasaya önemli sermaye enjekte ederek teknoloji hisselerini ve genel hisse senedi endekslerini potansiyel olarak yükseltebilir. Tersine, ılımlı bir karşılama veya fiyatlandırma sorunları piyasa oynaklığına yol açabilir. Bu durumda Altın (GC) ve diğer güvenli liman varlıklarına talep artabilir. Küresel riskten kaçınma artarsa ABD Doları (DXY) güçlenebilir. Hazine getirileri (US10Y) de yatırımcı duyarlılığındaki değişimler açısından izleniyor. Halka arzın başarısı, mevcut yüksek faiz oranı ortamında yatırımcı iştahı için bir gösterge olarak görülüyor. Bu durum, ES ve NQ gibi endeks vadeli işlemlerinde kısa vadeli yön belirsizliği yaratıyor.",
+    "url": "https://www.tickmill.com/blog/daily-trade-setups-megacap-ipo-benchmark-performance-scenario-analysis",
+    "published_at": "Thu, 19 Nov 2026 10:57:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883799+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, büyük bir halka arzın potansiyel etkisini değerlendirirken belirsiz bir dönemden geçiyor. Başarılı bir IPO hisse senedi piyasalarını destekleyebilirken, olumsuz bir sonuç oynaklığı artırabilir ve güvenli limanlara talebi yükseltebilir. Yatırımcılar, genel piyasa duyarlılığı için bu olayı yakından takip ediyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Mega sermayeli halka arzın başarısına bağlı olarak yükseliş veya oynaklık potansiyeli taşıyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "Halka arzın teknoloji hisseleri üzerindeki etkisiyle yön bulacak, hem yükseliş hem de oynaklık riski mevcut.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Piyasa oynaklığının artması durumunda güvenli liman talebiyle yükseliş potansiyeli taşıyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-19T11:29:40.104204+00:00"
+  },
+  {
+    "id": "institutional-fx-insights-abn-amro-fx-volatility-to-persist",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional FX Insights: ABN AMRO \"FX Volatility To Persist\"",
+    "title_tr": "Kurumsal FX Analizleri: ABN AMRO \"FX Volatilitesi Devam Edecek\"",
+    "content_en": "ABN AMRO FX & COMMODITIES STRATEGY BRIEFING: CURRENCY VOLATILITY TO PERSIST — SAFE-HAVEN DOLLAR BID, EUR/USD SUB-1.10 BREAKDOWN & EXTREME SHORT POSITIONINGABN AMRO highlights a rare cross-asset regime: the US Dollar has appreciated sequentially across both ...",
+    "content_tr": "ABN AMRO FX ve Emtia Strateji Brifingi'ne göre, kur volatilitesinin sürmesi bekleniyor. Güvenli liman olarak ABD Doları'na olan talep artarken, EUR/USD paritesinde 1.10 seviyesinin altına bir kırılım yaşandı ve aşırı kısa pozisyonlanma gözlemleniyor. ABN AMRO, ABD Doları'nın varlıklar genelinde değer kazandığı nadir bir varlıklar arası rejime dikkat çekiyor.",
+    "url": "https://www.tickmill.com/blog/institutional-fx-insights-abn-amro-fx-volatility-to-persist",
+    "published_at": "Thu, 19 Nov 2026 11:28:00 +0000",
+    "fetched_at": "2026-11-19T11:27:26.883840+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasalarda kur volatilitesinin yüksek kalması beklenirken, güvenli liman arayışıyla ABD Doları'na olan talep artacaktır. Bu durum, EUR/USD gibi paritelerde düşüş baskısı yaratırken, genel risk iştahını olumsuz etkileyebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Güvenli liman dolar talebi ve varlıklar genelinde değer kazanması.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "1.10 seviyesi altına kırılım ve aşırı kısa pozisyonlanma.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "EUR/USD paritesindeki düşüş ve Euro'nun zayıflığı.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-19T11:30:00.050205+00:00"
+  }
+]
