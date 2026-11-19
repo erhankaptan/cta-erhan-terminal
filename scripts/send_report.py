@@ -492,8 +492,16 @@ def send_email(subject, html_body):
     msg["From"] = user
     msg["To"] = to
     msg["Subject"] = subject
-    msg.attach(MIMEText(html_body, "html", "utf-8"))
+    # DUZELTME (2026-11-19, Reis'in "kalin harfler yok, hizalama da yok"
+    # bulgusu): multipart/alternative'de e-posta istemcisi SON eklenen
+    # parcayi tercih eder/gosterir (RFC 2046 -- parcalar en basitten en
+    # "zengin"e siralanmali). HTML once eklenmisti, duz metin SONRA --
+    # yani Gmail HTML'i degil duz metni gosteriyordu, bu da hem kalin
+    # basliklarin hem de monospace hizalamanin KAYBOLMASINA sebep
+    # oluyordu. CTA TERMINAL ve GOZLEM'de siralama zaten dogruydu
+    # (plain once, html sonra) -- burada da AYNI siraya getirildi.
     msg.attach(MIMEText(plain, "plain", "utf-8"))
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:
         with smtplib.SMTP(smtp_host, smtp_port, timeout=30) as s:
