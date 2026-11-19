@@ -182,7 +182,7 @@ def _karakter_genislik(ch):
         0x1F300 <= cp <= 0x1FAFF
         or 0x2600 <= cp <= 0x27BF
         or 0x2190 <= cp <= 0x21FF
-        or cp in (0x2B50, 0x2B55)
+        or 0x2B00 <= cp <= 0x2BFF  # Misc Symbols & Arrows (⭐⬆⬇ vb.)
     ):
         return 2
     eaw = unicodedata.east_asian_width(ch)
@@ -206,6 +206,16 @@ def _pad(s, width):
 # yerden.
 _KOD_GENISLIK = 8
 _TAG_GENISLIK = 16  # "🟢⬆️ " (gorsel ~5) + 5 yildiz (gorsel 10) + pay
+
+
+def _kod_satirlari(kodlar, basina=8):
+    """Reis'in 2026-11-19 istegi: NOTR/YETERSIZ gibi uzun kod listeleri
+    (40+ kod) tek bir paragrafta ust uste binmesin diye sabit sayida
+    kod iceren satirlara bolunur."""
+    satirlar = []
+    for i in range(0, len(kodlar), basina):
+        satirlar.append("  " + ", ".join(kodlar[i:i + basina]))
+    return satirlar
 
 
 def intensity_tag(score):
@@ -271,14 +281,12 @@ def format_group(title, items):
 
     if groups["NEUTRAL"]:
         lines.append(f"⚪ <b>NÖTR</b> ({len(groups['NEUTRAL'])})")
-        codes = ", ".join([c for c, _, _, _ in groups["NEUTRAL"]])
-        lines.append(f"  {codes}")
+        lines.extend(_kod_satirlari([c for c, _, _, _ in groups["NEUTRAL"]]))
         lines.append("")
 
     if groups["INSUFFICIENT"]:
-        codes = ", ".join([c for c, _, _, _ in groups["INSUFFICIENT"]])
         lines.append(f"⚫ <b>YETERSİZ VERİ</b> ({len(groups['INSUFFICIENT'])})")
-        lines.append(f"  {codes}")
+        lines.extend(_kod_satirlari([c for c, _, _, _ in groups["INSUFFICIENT"]]))
         lines.append("")
 
     return lines
@@ -575,11 +583,24 @@ def main():
     # Mail gönderimi için HTML şablonu sarmalayıcısı
     subject = f"CTA ERHAN RAPORU (Wayne Protocol) - {datetime.now(timezone.utc).strftime('%d %b %Y %H:%M')}"
 
+    # DUZELTME (2026-11-19, Reis'in "basliklar daha kalin/belirgin olsun"
+    # istegi): Telegram sadece <b> (KALIN) destekliyor, BUYUK font-size
+    # DESTEKLEMIYOR (bilinen platform siniri) -- bu yuzden msg (Telegram'a
+    # giden) <b> ile ayniyla kaliyor, SADECE email'in HTML govdesinde
+    # <b>...</b> daha buyuk+kalin bir span'a yukseltiliyor. Bu rapordaki
+    # TUM <b> kullanimlari zaten birer baslik/etiket oldugu icin (skor gibi
+    # veri degerleri <code> ile isaretleniyor, <b> ile DEGIL) kapsamli bir
+    # degisim guvenli.
+    email_msg = re.sub(
+        r"<b>(.*?)</b>",
+        r'<span style="font-size:16px;font-weight:900">\1</span>',
+        msg,
+    )
     html_msg = f"""
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px;">
         <div style="max-width: 650px; margin: 0 auto; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px;">
-          <pre style="font-family: 'Courier New', Courier, monospace; font-size: 13px; white-space: pre-wrap; word-wrap: break-word;">{msg}</pre>
+          <pre style="font-family: 'Courier New', Courier, monospace; font-size: 13px; white-space: pre-wrap; word-wrap: break-word;">{email_msg}</pre>
         </div>
       </body>
     </html>
