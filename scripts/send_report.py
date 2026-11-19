@@ -173,9 +173,58 @@ def star_rating(score):
 # bu yuzden duz len()-bazli bir :<N padding'i de tek basina yetmezdi.
 _VARYASYON_SECICI = {"️", "︎"}
 
+# ============================================================
+# ORTA-DUZEY VURGU + RENK (Reis'in 2026-11-19 ikinci istegi: "urun
+# isimlerini az buyult kalinlastir", "yukari/asagi yazilarinin yanina
+# ok birak, yazilari az buyult kalinlastir", "yuzdelik artis/azalisi
+# yesil/kirmizi yazabilir misin")
+#
+# Telegram HTML'i SADECE b/i/u/s/code/pre/a/tg-spoiler/blockquote
+# destekliyor -- OZEL renk/font-size YOK. Bu yuzden bu 3 yeni vurgu
+# da (orta-boy-kalin, yesil, kirmizi) gorunmez sentinel karakterlerle
+# isaretlenir: Telegram'a giden metinden TAMAMEN silinir (bkz.
+# _telegram_icin_temizle), email HTML'inde ise <span>'e cevrilir
+# (bkz. email_msg insaati). Baslik vurgusu (<b>...</b>, zaten
+# Telegram-safe) ile KARISTIRILMAMALI -- o ayri ve degismedi.
+# ============================================================
+_VURGU2_BASLA = "\x01"
+_VURGU2_BITIR = "\x02"
+_YESIL_BASLA = "\x03"
+_YESIL_BITIR = "\x04"
+_KIRMIZI_BASLA = "\x05"
+_KIRMIZI_BITIR = "\x06"
+_SENTINEL_KARAKTERLERI = {
+    _VURGU2_BASLA, _VURGU2_BITIR, _YESIL_BASLA, _YESIL_BITIR,
+    _KIRMIZI_BASLA, _KIRMIZI_BITIR,
+}
+
+
+def _vurgu2(s):
+    """Orta-duzey vurgu: urun kodlari, 'Yukarı'/'Aşağı' kelimeleri.
+    Baslik vurgusundan (16px/900) kucuk tutuluyor (14px/700) ki her
+    satirin HER YERI baslik gibi gorunmesin."""
+    return f"{_VURGU2_BASLA}{s}{_VURGU2_BITIR}"
+
+
+def _yesil(s):
+    return f"{_YESIL_BASLA}{s}{_YESIL_BITIR}"
+
+
+def _kirmizi(s):
+    return f"{_KIRMIZI_BASLA}{s}{_KIRMIZI_BITIR}"
+
+
+def _telegram_icin_temizle(s):
+    """Email-only sentinel'leri Telegram'a giden metinden siler --
+    Telegram'in HTML parser'i bu karakterleri TANIMAZ, birakilirsa
+    mesaj reddedilebilir veya cop karakter olarak gorunur."""
+    for ch in _SENTINEL_KARAKTERLERI:
+        s = s.replace(ch, "")
+    return s
+
 
 def _karakter_genislik(ch):
-    if ch in _VARYASYON_SECICI:
+    if ch in _VARYASYON_SECICI or ch in _SENTINEL_KARAKTERLERI:
         return 0
     cp = ord(ch)
     if (
@@ -250,13 +299,13 @@ def format_group(title, items):
     if groups["BULLISH"]:
         lines.append(f"🟢 <b>BULLISH</b> ({len(groups['BULLISH'])})")
         for code, sc, bw, brw in groups["BULLISH"][:12]:
-            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
+            lines.append(f"  • {_vurgu2(_pad(code,_KOD_GENISLIK))} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["BEARISH"]:
         lines.append(f"🔴 <b>BEARISH</b> ({len(groups['BEARISH'])})")
         for code, sc, bw, brw in groups["BEARISH"][:12]:
-            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
+            lines.append(f"  • {_vurgu2(_pad(code,_KOD_GENISLIK))} {_pad(intensity_tag(sc),_TAG_GENISLIK)} <code>{sc:+.2f}</code>")
         lines.append("")
 
     if groups["CONFLICT"]:
@@ -276,7 +325,15 @@ def format_group(title, items):
             total = bw + brw
             pct_up = round(bw / total * 100) if total > 0 else 50
             pct_down = 100 - pct_up
-            lines.append(f"  • {_pad(code,_KOD_GENISLIK)} Yukarı: <code>%{pct_up}</code> / Aşağı: <code>%{pct_down}</code>")
+            # Reis'in 2026-11-19 ikinci istegi: "Yukarı"/"Aşağı" yanina ok
+            # birak, yazilari az buyult-kalinlastir, yuzdeyi yesil/kirmizi
+            # yap (sadece email'de renk gorunur, Telegram'da sentinel'ler
+            # silinir -- bkz. _telegram_icin_temizle).
+            lines.append(
+                f"  • {_vurgu2(_pad(code,_KOD_GENISLIK))} "
+                f"🟢⬆️ {_vurgu2('Yukarı')}: <code>{_yesil(f'%{pct_up}')}</code> / "
+                f"🔴⬇️ {_vurgu2('Aşağı')}: <code>{_kirmizi(f'%{pct_down}')}</code>"
+            )
         lines.append("")
 
     if groups["NEUTRAL"]:
@@ -604,6 +661,18 @@ def main():
         r'<span style="font-size:16px;font-weight:900">\1</span>',
         msg,
     )
+    # Reis'in 2026-11-19 ikinci istegi: urun kodlari + "Yukarı"/"Aşağı"
+    # orta-buyuklukte kalin, yukselis/dusus yuzdeleri yesil/kirmizi --
+    # SADECE email HTML'inde (Telegram'da bu sentinel'ler silinir, bkz.
+    # asagidaki _telegram_icin_temizle cagrisi).
+    email_msg = (
+        email_msg.replace(_VURGU2_BASLA, '<span style="font-size:14px;font-weight:700">')
+        .replace(_VURGU2_BITIR, "</span>")
+        .replace(_YESIL_BASLA, '<span style="color:#2e7d32;font-weight:700">')
+        .replace(_YESIL_BITIR, "</span>")
+        .replace(_KIRMIZI_BASLA, '<span style="color:#c62828;font-weight:700">')
+        .replace(_KIRMIZI_BITIR, "</span>")
+    )
     html_msg = f"""
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 20px;">
@@ -621,7 +690,9 @@ def main():
     # SIZMAZ -- sadece Telegram'a gider.
     email_basarili = send_email(subject, html_msg)
 
-    telegram_msg = msg
+    # Telegram'a giden metin bu yeni sentinel'leri TANIMIYOR -- orta-boy-
+    # kalin/yesil/kirmizi SADECE email'e ozel, Telegram'dan tamamen silinir.
+    telegram_msg = _telegram_icin_temizle(msg)
     if not email_basarili:
         telegram_msg = telegram_msg + "\n\n⚠️ EMAIL GÖNDERİMİ BAŞARISIZ"
 
