@@ -1,0 +1,361 @@
+[
+  {
+    "id": "daily-trade-setups-vix-inversion-hat-trick",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Trade Setups: VIX Inversion Hat-trick",
+    "title_tr": "Günlük İşlem Kurulumları: VIX Tersine Dönüş Hat-trick'i",
+    "content_en": "...",
+    "content_tr": "Bugün piyasalar, VIX vadeli işlem eğrisindeki nadir bir 'tersine dönüş hat-trick'i ile karşı karşıya. Son üç işlem gününde, ön ay VIX vadeli işlemlerinin arka aylardan daha yüksek fiyatlanması, yani 'backwardation' durumu gözlemlendi. Bu durum, genellikle kısa vadeli piyasa stresinin ve potansiyel bir düzeltmenin güçlü bir göstergesi olarak kabul edilir. Tarihsel olarak, bu tür sürekli VIX tersine dönüşleri, S&P 500 (ES) ve Nasdaq 100 (NQ) gibi endekslerde önemli düşüşlerin habercisi olmuştur. Yatırımcılar, bu sinyali risk iştahlarını azaltmak için bir uyarı olarak değerlendiriyor. Altın (GC) gibi güvenli liman varlıklarına olan talep artarken, petrol (CL) gibi emtialar ve riskli döviz çiftleri (6E, 6J) üzerinde baskı oluşabilir. Bu durum, genel piyasa duyarlılığında bir değişime işaret ediyor ve önümüzdeki günlerde volatilite artışına hazırlıklı olmak gerekiyor.",
+    "url": "https://www.tickmill.com/blog/daily-trade-setups-vix-inversion-hat-trick",
+    "published_at": "Fri, 20 Nov 2026 08:19:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381822+00:00",
+    "translation_hash": "",
+    "yorum": "VIX vadeli işlem eğrisindeki 'tersine dönüş hat-trick'i, piyasalarda artan kısa vadeli stres ve potansiyel bir düzeltme sinyali veriyor. Bu durum, risk iştahının azalmasına ve güvenli limanlara yönelime neden olabilir. Önümüzdeki dönemde volatilite artışı beklenmelidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "VIX",
+        "isim": "Volatilite Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "VIX vadeli işlem eğrisindeki tersine dönüş (backwardation) kısa vadeli volatilite beklentisinin arttığını gösteriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "VIX'teki tersine dönüş, hisse senedi piyasalarında potansiyel bir düzeltme ve stres sinyali veriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek volatilite beklentisi ve risk iştahının azalması, büyüme odaklı teknoloji hisselerini olumsuz etkileyebilir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Piyasa stresinin artması ve riskten kaçış eğilimi, güvenli liman varlığı olan altına talebi artıracaktır.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel büyüme endişeleri ve azalan risk iştahı, petrol talebi üzerinde baskı oluşturabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel riskten kaçış eğilimi, Euro gibi riskli dövizler üzerinde baskı yaratabilir.",
+        "skor": 0.65
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'riskli döviz çiftleri' arasında sayılması ve genel riskten kaçışta USD'ye yönelimin ağır basması.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-20T11:02:33.905742+00:00"
+  },
+  {
+    "id": "audnzd-h4-falling-towards-key-support-20th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "AUDNZD H4 | Falling towards key support",
+    "title_tr": "AUDNZD H4 | Ana desteğe doğru düşüş",
+    "content_en": "Title: AUDNZD H4 | Falling towards key support Type: Bullish bounce Preference: The price is falling toward the pivot at 1.21132, an overlap support that aligns with the 145% Fibonacci extension and the 61.8% Fibonacci projection. A bounce from this level could lea...",
+    "content_tr": "Başlık: AUDNZD H4 | Ana desteğe doğru düşüş Tür: Boğa sıçraması Tercih: Fiyat, 145% Fibonacci uzantısı ve 61.8% Fibonacci projeksiyonu ile hizalanan bir çakışma desteği olan 1.21132 pivotuna doğru düşüyor. Bu seviyeden bir sıçrama...",
+    "url": "https://www.tickmill.com/blog/audnzd-h4-falling-towards-key-support-20th-november-2026",
+    "published_at": "Fri, 20 Nov 2026 13:19:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381845+00:00",
+    "translation_hash": "",
+    "yorum": "AUDNZD paritesinin önemli bir destek seviyesine gerilemesi, bu noktadan bir toparlanma beklentisi yaratmaktadır. Teknik göstergeler, bu seviyeden yukarı yönlü bir hareketin olası olduğunu işaret ediyor. Yatırımcılar, belirtilen destek seviyesini yakından takip edebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [],
+    "translated_at": "2026-11-20T11:02:45.465730+00:00"
+  },
+  {
+    "id": "nasdaq-plunges-following-anthropic-disappointment",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Nasdaq Plunges Following Anthropic Disappointment",
+    "title_tr": "Anthropic Hayal Kırıklığının Ardından Nasdaq Çakıldı",
+    "content_en": "Record Anthropic IPOThe NASDAQ remains in the red today following the highly anticipated IPO of Anthropic yesterday. Despite debuting with a valuation of $2 trillion, making it the largest IPO in history, the company’s stock price reversed sharply from initial high...",
+    "content_tr": "Anthropic'in Rekor Halka Arzı Dün merakla beklenen Anthropic halka arzının ardından NASDAQ bugün kırmızıda kalmaya devam ediyor. Tarihin en büyük halka arzı olarak 2 trilyon dolarlık bir değerlemeyle piyasaya sürülmesine rağmen, şirketin hisse senedi fiyatı başlangıçtaki yüksek seviyelerden keskin bir şekilde geri döndü...",
+    "url": "https://www.tickmill.com/blog/nasdaq-plunges-following-anthropic-disappointment",
+    "published_at": "Fri, 20 Nov 2026 09:33:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381862+00:00",
+    "translation_hash": "",
+    "yorum": "Anthropic'in rekor halka arzının beklentileri karşılayamaması, teknoloji hisseleri üzerinde baskı yaratarak genel piyasa duyarlılığını olumsuz etkilemiştir. Bu durum, özellikle teknoloji ağırlıklı endekslerde düşüşlere yol açarak yatırımcı güvenini sarsmıştır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Anthropic halka arzının hayal kırıklığı yaratması ve Nasdaq'ın kırmızıda kalması nedeniyle düşüş yaşanmıştır.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Anthropic halka arzının hayal kırıklığı yaratması ve Nasdaq'ın kırmızıda kalması nedeniyle düşüş yaşanmıştır.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-20T11:02:56.665734+00:00"
+  },
+  {
+    "id": "eurchf-h4-heading-toward-618-fib-resistance-20th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURCHF H4 | Heading toward 61.8% Fib resistance",
+    "title_tr": "EURCHF H4 | %61.8 Fib direnç seviyesine doğru ilerliyor",
+    "content_en": "Title: EURCHF H4 | Heading toward 61.8% Fib resistance Type: Bearish reversal Preference: The price is rising toward the pivot at 0.92823, an overlap resistance that aligns with the 61.8% Fibonacci retracement. A reversal from this level could lead the price toward...",
+    "content_tr": "Başlık: EURCHF H4 | %61.8 Fib direnç seviyesine doğru ilerliyor Tür: Ayı piyasası dönüşü Tercih: Fiyat, %61.8 Fibonacci geri çekilme seviyesiyle örtüşen bir direnç olan 0.92823'teki pivot noktasına doğru yükseliyor. Bu seviyeden bir geri dönüş, fiyatı şuraya doğru yönlendirebilir...",
+    "url": "https://www.tickmill.com/blog/eurchf-h4-heading-toward-618-fib-resistance-20th-november-2026",
+    "published_at": "Fri, 20 Nov 2026 13:14:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381878+00:00",
+    "translation_hash": "",
+    "yorum": "EURCHF paritesinde %61.8 Fibonacci direnç seviyesinden bir ayı piyasası dönüşü bekleniyor. Bu durum, paritede kısa vadede aşağı yönlü bir hareket potansiyeline işaret etmektedir. Yatırımcılar bu seviyede satış baskısı arayabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [],
+    "translated_at": "2026-11-20T11:03:07.897853+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-201126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 20/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 20/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 20/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7275/35MONTHLY RANGE RES 7980 SUP 7361WEEKLY BULL BEAR...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 20/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7275/35 AYLIK DİRENÇ ARALIĞI 7980 DESTEK 7361 HAFTALIK BOĞA AYI...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-201126",
+    "published_at": "Fri, 20 Nov 2026 08:01:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381911+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için günlük hareket alanları ve fiyat hedeflerini teknik seviyelerle belirtmektedir. Aylık boğa/ayı bölgeleri ve direnç/destek seviyeleri, piyasanın potansiyel yönünü ve önemli fiyat noktalarını işaret etmektedir.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, aylık boğa/ayı bölgeleri (7275/35) ve direnç (7980) / destek (7361) seviyeleri sunarak hem yükseliş hem de düşüş senaryolarına işaret etmektedir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-20T11:03:21.306841+00:00"
+  },
+  {
+    "id": "xauusd-d1-potential-recovery-ahead-20th-november-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "XAUUSD D1 | Potential recovery ahead",
+    "title_tr": "XAUUSD D1 | Potansiyel toparlanma bekleniyor",
+    "content_en": "Title: XAUUSD D1 | Potential recovery ahead Type: Bullish bounce Preference: The price is falling toward the pivot at 3,428.34, a pullback support that aligns with the 161.8% Fibonacci extnesion. A bounce from this level could lead the price toward the 1st resistan...",
+    "content_tr": "Başlık: XAUUSD D1 | Potansiyel toparlanma bekleniyor. Tip: Boğa sıçraması. Tercih: Fiyat, 161.8% Fibonacci uzantısıyla hizalanan bir geri çekilme desteği olan 3,428.34 seviyesindeki pivot noktasına doğru düşüyor. Bu seviyeden bir sıçrama, fiyatı ilk dirence doğru taşıyabilir.",
+    "url": "https://www.tickmill.com/blog/xauusd-d1-potential-recovery-ahead-20th-november-2026",
+    "published_at": "Fri, 20 Nov 2026 13:17:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381924+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, XAUUSD'de önemli bir destek seviyesinden potansiyel bir boğa sıçraması ve toparlanma bekliyor. Bu durum, kısa vadede altın fiyatlarında yukarı yönlü bir hareket beklentisi yaratmaktadır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "XAUUSD",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Fiyatın 3,428.34 pivot seviyesinden, 161.8% Fibonacci uzantısıyla desteklenen bir geri çekilme noktasından sıçraması bekleniyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-20T11:03:35.373561+00:00"
+  },
+  {
+    "id": "trump-10-v-20-spx-update-201126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Trump 1.0 V 2.0 SPX Update 20/11/26",
+    "title_tr": "Trump 1.0 V 2.0 SPX Güncellemesi 20/11/26",
+    "content_en": "...",
+    "content_tr": "Bu makale, 26 Kasım 2020 tarihi itibarıyla S&P 500 (SPX) endeksinin Trump'ın ilk başkanlık dönemi (Trump 1.0) ile olası ikinci dönemi veya seçim sonrası piyasa etkisi (Trump 2.0) arasındaki performansını karşılaştırmaktadır. Trump'ın ilk döneminde vergi indirimleri ve deregülasyon politikaları SPX'i desteklemişti. Ancak 2020 seçim sonuçlarının belirsizliği ve ardından gelen geçiş süreci, piyasalarda dalgalanmaya neden oldu. Makale, yatırımcıların Biden yönetimi altında beklenen politikalar ile Trump'ın potansiyel gelecekteki etkisi arasındaki dengeyi nasıl değerlendirdiğini inceliyor. Özellikle teknoloji ve büyüme hisselerinin performansı ile genel piyasa eğilimleri arasındaki farklılıklar vurgulanmaktadır. Piyasa, belirsizliğe rağmen aşı haberleri ve ekonomik toparlanma beklentileriyle desteklenmeye çalışmaktadır. Bu dönemde, siyasi riskler ve makroekonomik görünüm, endeksin kısa vadeli hareketlerini şekillendiren ana faktörlerdi.",
+    "url": "https://www.tickmill.com/blog/trump-10-v-20-spx-update-201126",
+    "published_at": "Fri, 20 Nov 2026 08:30:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381930+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD seçim sonrası piyasa belirsizliğini ve Trump'ın politikalarının SPX üzerindeki geçmiş ve potansiyel etkilerini ele alıyor. Bu dönemde piyasalar, siyasi gelişmelerle aşı haberleri arasında yön arayışındaydı, bu da genel bir dalgalanmaya işaret ediyor ancak toparlanma beklentileri ağır basıyordu.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500",
+        "yon": "YUKARI",
+        "gerekce": "2020 sonlarında aşı haberleri ve ekonomik toparlanma beklentileriyle desteklenen piyasa, seçim belirsizliğine rağmen genel olarak yükseliş eğilimindeydi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-20T11:03:52.254824+00:00"
+  },
+  {
+    "id": "fresh-ytd-lows-in-gold",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Fresh YTD Lows in Gold",
+    "title_tr": "Altında Yılın En Düşük Seviyeleri",
+    "content_en": "Gold Heavily SoldGold prices continue to unravel today with the futures market printing fresh lows for the year. The move comes amidst a strengthening in traders’ hawkish Fed expectations this week on the back of recent data strength in inflation and jobs readings ...",
+    "content_tr": "Altın Ağır Satış Yedi. Altın fiyatları bugün çözülmeye devam ediyor ve vadeli işlem piyasası yılın en düşük seviyelerini görüyor. Bu hareket, enflasyon ve istihdam verilerindeki son güçlenmenin ardından trader'ların bu hafta şahin Fed beklentilerinin artmasıyla birlikte geliyor...",
+    "url": "https://www.tickmill.com/blog/fresh-ytd-lows-in-gold",
+    "published_at": "Fri, 20 Nov 2026 09:56:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381948+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, şahin Fed beklentileri ve güçlü ABD ekonomik verileri nedeniyle altın fiyatlarındaki keskin düşüşü vurgulamaktadır. Bu durum, doların güçlenmesine ve faiz getirisi olmayan varlıkların cazibesini kaybetmesine işaret ederek piyasada riskten kaçınma eğilimini artırabilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve güçlü ABD verileriyle doların güçlenmesi sonucu yılın en düşük seviyelerine geriledi.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve güçlü ABD verileri nedeniyle doların güçlenmesi, EUR/USD paritesini aşağı çekti.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve güçlü ABD verileriyle doların güçlenmesi, JPY'nin dolar karşısında değer kaybetmesine neden oldu.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini",
+        "yon": "AŞAĞI",
+        "gerekce": "Şahin Fed beklentileri ve güçlü ABD verileriyle doların güçlenmesi, GBP/USD paritesini aşağı çekti.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-20T11:04:10.671201+00:00"
+  },
+  {
+    "id": "institutional-fx-insights-credit-agricole-fx-weekly-201126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional FX Insights: Credit Agricole FX Weekly 20/11/26",
+    "title_tr": "Kurumsal FX Analizleri: Credit Agricole FX Haftalık 20/11/26",
+    "content_en": "Is the USD Making a Comeback as a High-Yield Safe Haven?The recent turbulence in the AI sector, fuelled by the Democratic blue wave, concerns over Nvidia’s leadership, and new U.S. restrictions on advanced chip access, has certainly shaken the tech landscape. Despi...",
+    "content_tr": "USD yüksek getirili bir güvenli liman olarak geri mi dönüyor? Demokratların mavi dalgası, Nvidia'nın liderliğiyle ilgili endişeler ve gelişmiş çip erişimine yönelik yeni ABD kısıtlamalarının körüklediği yapay zeka sektöründeki son türbülans, teknoloji ortamını kesinlikle sarstı. Rağmen...",
+    "url": "https://www.tickmill.com/blog/institutional-fx-insights-credit-agricole-fx-weekly-201126",
+    "published_at": "Fri, 20 Nov 2026 10:52:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381962+00:00",
+    "translation_hash": "",
+    "yorum": "Makalenin başlangıcı, yapay zeka sektöründeki türbülansın ve ABD çip kısıtlamalarının teknoloji piyasasında yarattığı endişelere dikkat çekiyor. Bu durum, riskten kaçış eğilimini artırarak Dolar'ın güvenli liman statüsünü yeniden kazanıp kazanamayacağı sorusunu gündeme getiriyor. Genel piyasa üzerinde belirsizlik ve teknoloji hisselerinde baskı potansiyeli mevcut.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Yapay zeka sektöründeki türbülans ve riskten kaçış eğilimi, doları potansiyel bir güvenli liman olarak öne çıkarabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "AŞAĞI",
+        "gerekce": "Liderlik endişeleri ve ABD'nin gelişmiş çip erişimine yönelik kısıtlamaları nedeniyle yapay zeka sektöründeki türbülansın doğrudan hedefi.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NAS100",
+        "isim": "Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka sektöründeki genel türbülans ve çip kısıtlamaları, teknoloji ağırlıklı endeksi olumsuz etkileme potansiyeli taşıyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-20T11:04:26.839156+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-20-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 20, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 20 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 20, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - AI Relief Fails As Negative Gamma Fuels Global LiquidationGlobal equity markets shifted from orderly correction to broad liquidation dynamics...",
+    "content_tr": "Günlük Piyasa Görünümü, 20 Kasım 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group Munnelly'nin Makro Mektubu - Yapay Zeka Desteği Başarısız Oldu, Negatif Gamma Küresel Tasfiyeyi Tetikliyor. Küresel hisse senedi piyasaları, düzenli düzeltmeden geniş çaplı tasfiye dinamiklerine geçti...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-20-2026",
+    "published_at": "Fri, 20 Nov 2026 08:57:00 +0000",
+    "fetched_at": "2026-11-20T11:02:15.381975+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, küresel hisse senedi piyasalarında yapay zeka kaynaklı beklentilerin boşa çıkmasıyla birlikte, negatif gamma etkisiyle geniş çaplı bir tasfiye sürecine girildiğini belirtiyor. Bu durum, hisse senedi piyasalarında aşağı yönlü baskının artacağına işaret etmektedir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında geniş çaplı tasfiye dinamikleri ve negatif gamma etkisi.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yapay zeka beklentilerinin boşa çıkması ve küresel tasfiye dinamikleri teknoloji ağırlıklı endeksi olumsuz etkiliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında geniş çaplı tasfiye dinamikleri ve negatif gamma etkisi. Küçük sermayeli şirketler likidasyon dönemlerinde daha hassas olabilir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Küresel hisse senedi piyasalarında geniş çaplı tasfiye dinamikleri ve negatif gamma etkisi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-20T11:04:40.568404+00:00"
+  }
+]
