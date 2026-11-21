@@ -1,0 +1,13 @@
+[
+  {
+    "id": "2124186326748537136",
+    "username": "wayneterprises",
+    "text": "Does the race of the CEO matter? One of the 'moats' Peter Thiel recently talked about was being racist, which might seem confusing but I think he's onto something (see comment). There's got to be some alpha in analyzing race of the CEO, etc. in the stock market as most market participants don't want to be racists despite strong evidence that race does in fact play a role in IQ, etc. I think racial awareness is understood by anyone operating at a high level, though nobody wants to admit it. One caveat is that most if not all CEOs are probably the outliers in IQ, etc. of their respective races, but if ethnic nepotism is a thing, then the racial effects should reveal themselves overtime at each Company. Quick analysis on CEO race vs. stock returns and valuation premium/discount over ~100 different tickers over the last ~7y: Some initial findings: - East Asian CEOs have produced best average CAGRs of ~21.6% (this is despite a lot of dog China stocks in the dataset, offset by companies like $NVDA, $AMD, etc.) - Measured on Sharpe, White CEOs (non-Jewish) are the leaders (0.601 vs. E. Asian CEO Sharpe of 0.58) - Also, while E. Asian CEOs have produced the best returns, E. Asian CEOs are given the worst valuations by far with multiples having compressed by a CAGR of -7.6%. Seeing the issues with $NVDA now $AMD, this might be a trend that's here to stay - Only White non-Jewish CEO companies have had positive multiple expansion (+2.7%) I may have mixed up some White non-Jewish CEOs as being Jewish and vice versa, as I based this on last name origin, and some surface level social media activity where it exists (there are cases where Jewish folks in the US changed their last names, and this analysis does not pick up on those cases). I have Hispanics and Black CEOs in the broader dataset but not enough datapoints for anything conclusive Still a WIP, but thought the initial results were interesting",
+    "url": "http://nitter.mizuki.st/wayneterprises/status/2124186326748537136#m",
+    "published": "Sat, 21 Nov 2026 17:01:00 GMT",
+    "images": [
+      "https://pbs.twimg.com/media/HXgBXJeaEAAWOyt.png"
+    ],
+    "collected_at": "2026-11-21T17:11:24.211022+00:00"
+  }
+]
