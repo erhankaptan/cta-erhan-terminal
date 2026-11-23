@@ -1,0 +1,57 @@
+[
+  {
+    "id": "institutional-insights-goldman-sachs-flows-positioning-update-231126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Goldman Sachs Flows & Positioning Update 23/11/26",
+    "title_tr": "Kurumsal İçgörüler: Goldman Sachs Akış ve Konumlandırma Güncellemesi 23/11/26",
+    "content_en": "GOLDMAN SACHS MULTI-ASSET SALES BRIEFING: THE \"AI CONVICTION CRISIS,\" HISTORIC VOL CAPITULATION & CONVEXITY PLAYBOOKThe market’s violent repricing as an \"AI Conviction Crisis\"—not an abandonment of the AI theme, but a simultaneous interrogat...",
+    "content_tr": "GOLDMAN SACHS ÇOKLU VARLIK SATIŞ BRİFİNGİ: \"Yapay Zeka İnanç Krizi,\" Tarihi Volatilite Kapitülasyonu ve Konveksite Oyun Kitabı. Piyasanın \"Yapay Zeka İnanç Krizi\" olarak şiddetli yeniden fiyatlanması — Yapay Zeka temasının terk edilmesi değil, ancak eş zamanlı bir sorgulama...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-goldman-sachs-flows-positioning-update-231126",
+    "published_at": "Mon, 23 Nov 2026 13:29:00 +0000",
+    "fetched_at": "2026-11-23T14:32:56.314272+00:00",
+    "translation_hash": "",
+    "yorum": "Goldman Sachs raporu, piyasada \"Yapay Zeka İnanç Krizi\" ile birlikte tarihi bir volatilite düşüşüne işaret ediyor. Bu durum, yapay zeka temasının sorgulanmasına rağmen terk edilmediğini, ancak piyasanın genelinde belirsizliğin azaldığını ve yeni bir fiyatlama dönemine girildiğini gösteriyor. Yatırımcılar, volatilite düşüşünü fırsat bilerek pozisyonlarını yeniden değerlendirebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Yapay Zeka İnanç Krizi, teknoloji hisselerinde kısa vadeli bir sorgulama ve yeniden fiyatlama yaratabilir, ancak tema terk edilmiyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mini Nasdaq 100 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Yapay Zeka İnanç Krizi, teknoloji hisselerinde kısa vadeli bir sorgulama ve yeniden fiyatlama yaratabilir, ancak tema terk edilmiyor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Tarihi volatilite kapitülasyonu, piyasa korkusunun azaldığını ve genel piyasa için potansiyel bir yükseliş veya istikrar dönemini işaret ediyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Tarihi volatilite kapitülasyonu, piyasa korkusunun azaldığını ve genel piyasa için potansiyel bir yükseliş veya istikrar dönemini işaret ediyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Tarihi volatilite kapitülasyonu, piyasa korkusunun azaldığını ve genel piyasa için potansiyel bir yükseliş veya istikrar dönemini işaret ediyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-23T14:33:17.604810+00:00"
+  }
+]
