@@ -1,0 +1,197 @@
+[
+  {
+    "id": "institutional-insights-raymond-james-sp500-enters-correction",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Raymond James \"SP500 Enters Correction'",
+    "title_tr": "Kurumsal İçgörüler: Raymond James 'SP500 Düzeltme Bölgesine Giriyor'",
+    "content_en": "RAYMOND JAMES INVESTMENT STRATEGY BRIEFING: S&P 500 ENTERS CORRECTION TERRITORY (-11.8%) — FUNDAMENTAL ANCHORS, TECH VALUATION RESET & FIXED INCOME DIVERSIFICATIONThe S&P 500 has declined -11.8% from its October 6 all-time high, officially entering its ...",
+    "content_tr": "RAYMOND JAMES YATIRIM STRATEJİSİ BRİFİNGİ: S&P 500 DÜZELTME BÖLGESİNE GİRİYOR (%-11.8) — TEMEL ÇAPALAR, TEKNOLOJİ DEĞERLEMESİ SIFIRLANMASI & SABİT GETİRİLİ MENKUL KIYMET ÇEŞİTLENDİRMESİ. S&P 500, 6 Ekim'deki tüm zamanların en yüksek seviyesinden %-11.8 düşüşle resmi olarak düzeltme bölgesine girdi.",
+    "url": "https://www.tickmill.com/blog/institutional-insights-raymond-james-sp500-enters-correction",
+    "published_at": "Mon, 23 Nov 2026 12:23:00 +0000",
+    "fetched_at": "2026-11-23T12:32:50.015631+00:00",
+    "translation_hash": "",
+    "yorum": "Raymond James'in S&P 500'ün düzeltme bölgesine girdiği tespiti, hisse senedi piyasalarında düşüş eğilimini işaret ediyor. Teknoloji hisselerinde değerleme sıfırlanması beklentisi, bu sektördeki baskının artabileceğini gösterirken, sabit getirili menkul kıymetlere yönelim güvenli liman arayışını yansıtıyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "E-mini S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "S&P 500'ün %-11.8 düşüşle düzeltme bölgesine girmesi genel piyasa düşüşünü işaret ediyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MES",
+        "isim": "Micro E-mini S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "S&P 500'ün %-11.8 düşüşle düzeltme bölgesine girmesi genel piyasa düşüşünü işaret ediyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "E-mini Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'Teknoloji Değerlemesi Sıfırlanması' vurgusu, teknoloji hisselerinde baskı beklentisini gösteriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Micro E-mini Nasdaq 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede 'Teknoloji Değerlemesi Sıfırlanması' vurgusu, teknoloji hisselerinde baskı beklentisini gösteriyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "RTY",
+        "isim": "E-mini Russell 2000 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Geniş piyasa düzeltmesi, küçük sermayeli şirketler üzerinde de baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "E-mini Dow Jones Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Geniş piyasa düzeltmesi, sanayi hisselerini de olumsuz etkileyebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasa düzeltmesi ve ekonomik yavaşlama endişeleri petrol talebini azaltabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Micro Ham Petrol",
+        "yon": "AŞAĞI",
+        "gerekce": "Piyasa düzeltmesi ve ekonomik yavaşlama endişeleri petrol talebini azaltabilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep dinamikleri belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Piyasa düzeltmesi ve belirsizlik dönemlerinde güvenli liman varlığı olarak talep görebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Micro Altın",
+        "yon": "YUKARI",
+        "gerekce": "Piyasa düzeltmesi ve belirsizlik dönemlerinde güvenli liman varlığı olarak talep görebilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Altını takip etme eğiliminde olsa da endüstriyel talep hassasiyeti nedeniyle daha düşük skor.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "AŞAĞI",
+        "gerekce": "Endüstriyel metal olarak ekonomik yavaşlama beklentisi talebi azaltabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin",
+        "yon": "AŞAĞI",
+        "gerekce": "Hem endüstriyel hem de değerli metal olsa da ekonomik yavaşlama endüstriyel talebi olumsuz etkileyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep ve hava koşulları belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep ve hava koşulları belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep ve hava koşulları belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep ve hava koşulları belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bir ipucu bulunmamaktadır, temel olarak arz/talep ve hava koşulları belirleyicidir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro FX Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış ortamında ABD Doları'nın güçlenmesi beklentisi Euro'yu zayıflatabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış ortamında ABD Doları'nın güçlenmesi beklentisi Japon Yeni'ni zayıflatabilir (JPY/USD).",
+        "skor": 0.6
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış ortamında ABD Doları'nın güçlenmesi beklentisi Sterlin'i zayıflatabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış, USD'nin güçlenmesi ve emtia fiyatlarındaki düşüş beklentisi AUD'yi zayıflatabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış, USD'nin güçlenmesi ve petrol fiyatlarındaki düşüş beklentisi CAD'yi zayıflatabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Riskten kaçış ortamında ABD Doları'nın güçlenmesi beklentisi İsviçre Frangı'nı zayıflatabilir (CHF/USD).",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-23T12:33:17.081506+00:00"
+  }
+]
