@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ftse-rebounds-nearly-09-as-nvidia-driven-global-tech-surge-lifts-sentiment",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Rebounds Nearly 0.9% As Nvidia Driven Global Tech Surge Lifts Sentiment",
+    "title_tr": "FTSE, Nvidia Destekli Küresel Teknoloji Yükselişiyle Duyarlılığı Artırarak Yaklaşık %0.9 Toparlandı",
+    "content_en": "FTSE Rebounds Nearly 0.9% As Nvidia Driven Global Tech Surge Lifts SentimentLondon's benchmark FTSE 100 kicked off the new week with a decisive rebound, climbing 88.90 points, or 0.85%, to trade at 10,491.80 near the top of its intraday range of 10,330 to 10,4...",
+    "content_tr": "FTSE, Nvidia destekli küresel teknoloji yükselişiyle duyarlılığı artırarak yaklaşık %0.9 toparlandı. Londra'nın gösterge endeksi FTSE 100, haftaya kararlı bir yükselişle başladı; 88.90 puan veya %0.85 artışla 10,491.80 seviyesinden işlem gördü. Bu yükseliş, küresel teknoloji sektörünün etkisiyle oluşan genel pozitif piyasa duyarlılığını yansıttı.",
+    "url": "https://www.tickmill.com/blog/ftse-rebounds-nearly-09-as-nvidia-driven-global-tech-surge-lifts-sentiment",
+    "published_at": "Mon, 23 Nov 2026 16:57:00 +0000",
+    "fetched_at": "2026-11-23T17:05:25.863241+00:00",
+    "translation_hash": "",
+    "yorum": "Nvidia liderliğindeki küresel teknoloji sektöründeki yükseliş, FTSE 100'ün toparlanmasına öncülük ederek piyasalarda genel bir iyimserlik yarattı. Bu durum, risk iştahının arttığını ve özellikle teknoloji ağırlıklı endekslerde yukarı yönlü bir hareket beklentisini gösteriyor. Haftaya pozitif bir başlangıç, diğer büyük endeksler için de olumlu bir sinyal olabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Nvidia liderliğindeki küresel teknoloji yükselişi, teknoloji ağırlıklı endeksleri doğrudan destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Nvidia liderliğindeki küresel teknoloji yükselişi, teknoloji ağırlıklı endeksleri doğrudan destekliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel teknoloji sektöründeki olumlu duyarlılık ve genel piyasa iyimserliği S&P 500'ü yukarı çekiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Küresel teknoloji sektöründeki olumlu duyarlılık ve genel piyasa iyimserliği S&P 500'ü yukarı çekiyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Genel piyasa duyarlılığındaki artış ve risk iştahının yükselmesi Dow Jones'u destekliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Risk iştahının artması ve genel piyasa iyimserliği küçük sermayeli şirketleri de olumlu etkiliyor.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-23T17:05:46.889894+00:00"
+  }
+]
