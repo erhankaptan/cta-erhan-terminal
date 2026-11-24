@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ftse-dips-as-metals-pullback-offsets-balfour-beatty-compass-gains",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "FTSE Dips as Metals Pullback Offsets: Balfour Beatty & Compass Gains",
+    "title_tr": "FTSE, Metallerdeki Geri Çekilmenin Dengelenmesiyle Düştü: Balfour Beatty ve Compass Kazançları",
+    "content_en": "FTSE Dips as Metals Pullback Offsets: Balfour Beatty & Compass GainsThe FTSE 100 experienced a slight dip on Tuesday, trading within the 10,450 to 10,470 range, reflecting a modest decline of about 0.1% to 0.3%. This follows Monday's impressive 1.3% surge,...",
+    "content_tr": "FTSE, Metallerdeki Geri Çekilmenin Dengelenmesiyle Düştü: Balfour Beatty ve Compass Kazançları. FTSE 100 Salı günü hafif bir düşüş yaşadı, 10.450 ila 10.470 aralığında işlem görerek yaklaşık %0.1 ila %0.3'lük mütevazı bir düşüşü yansıttı. Bu düşüş, Pazartesi günkü etkileyici %1.3'lük yükselişin ardından geldi...",
+    "url": "https://www.tickmill.com/blog/ftse-dips-as-metals-pullback-offsets-balfour-beatty-compass-gains",
+    "published_at": "Tue, 24 Nov 2026 17:24:00 +0000",
+    "fetched_at": "2026-11-24T17:10:04.805530+00:00",
+    "translation_hash": "",
+    "yorum": "FTSE 100 endeksi, metallerdeki geri çekilmenin etkisiyle hafif bir düşüş yaşarken, bazı şirketlerin (Balfour Beatty ve Compass) kazançları bu düşüşü kısmen dengeledi. Piyasa genelinde karışık bir seyir izlenirken, önceki günkü güçlü yükselişin ardından bir miktar kar realizasyonu gözlendi.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "UK100",
+        "isim": "FTSE 100 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Endeks, metallerdeki geri çekilmenin etkisiyle %0.1 ila %0.3 arasında hafif bir düşüş yaşadı.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'metallardaki geri çekilme' nedeniyle düşüş eğiliminde olduğu belirtilmiştir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "AŞAĞI",
+        "gerekce": "Makalede bahsedilen 'metallardaki geri çekilme' nedeniyle düşüş eğiliminde olduğu belirtilmiştir.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-24T17:10:18.945532+00:00"
+  }
+]
