@@ -1,0 +1,111 @@
+[
+  {
+    "id": "institutional-insights-nomura-too-big-to-fail",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Nomura \"TOO BIG TO FAIL\"",
+    "title_tr": "Kurumsal İçgörüler: Nomura \"BATMAYACAK KADAR BÜYÜK\"",
+    "content_en": "NOMURA CROSS-ASSET STRATEGY BRIEFING: \"JENSEN & AI TBTF, AS (+) EQUITIES WEALTH EFFECT = U.S. NATSEC\"Charlie McElligott frames Nvidia’s reinstatement of Jensen Huang as an explicit policy and market-structure intervention: because equities have become...",
+    "content_tr": "NOMURA ÇEŞİTLİ VARLIK STRATEJİ BRİFİNGİ: \"JENSEN VE YAPAY ZEKA BATMAYACAK KADAR BÜYÜK, ÇÜNKÜ (+) HİSSE SENETLERİ SERVET ETKİSİ = ABD ULUSAL GÜVENLİĞİ\" Charlie McElligott, Nvidia'nın Jensen Huang'ı yeniden göreve getirmesini açık bir politika ve piyasa yapısı müdahalesi olarak çerçeveliyor: çünkü hisse senetleri haline geldi...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-nomura-too-big-to-fail",
+    "published_at": "Tue, 24 Nov 2026 09:28:00 +0000",
+    "fetched_at": "2026-11-24T08:53:56.763765+00:00",
+    "translation_hash": "",
+    "yorum": "Bu makale, yapay zeka ve önde gelen teknoloji şirketlerinin (Nvidia gibi) \"batmayacak kadar büyük\" görüldüğünü ve hisse senetlerinin yarattığı servet etkisinin ABD ulusal güvenliğiyle ilişkilendirildiğini belirtiyor. Bu durum, teknoloji hisselerine ve genel olarak piyasaya yönelik güçlü bir destek algısı yaratarak yükseliş eğilimini pekiştirebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "Şirketin CEO'sunun göreve iadesi, piyasa yapısı müdahalesi olarak görülüyor ve ulusal güvenlik ile ilişkilendiriliyor, bu da güçlü bir destek anlamına geliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinin servet etkisi ve ulusal güvenlik ile ilişkilendirilmesi, özellikle teknoloji ağırlıklı Nasdaq endeksi için olumlu bir sinyal.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Hisse senetlerinin genel servet etkisi ve ulusal güvenlik ile ilişkilendirilmesi, ABD piyasaları için olumlu bir görünüm sunuyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-24T08:54:07.432705+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-24-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 24, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 24 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 24, 2026 Patrick Munnelly, Partner: Market Strategy, Tickmill Group Munnelly’s Macro Missive - Huang Returns Sparks Historic AI Squeeze Wall Street delivered an explosive short squeeze on Monday as the abrupt return of Nvidia CEO Jens...",
+    "content_tr": "Günlük Piyasa Görünümü, 24 Kasım 2026 Patrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Grubu Munnelly'nin Makro Mesajı - Huang'ın Dönüşü Tarihi Bir Yapay Zeka Kısa Sıkışmasını Tetikledi Wall Street, Nvidia CEO'su Jens'in ani dönüşüyle Pazartesi günü patlayıcı bir kısa sıkışma yaşadı...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-24-2026",
+    "published_at": "Tue, 24 Nov 2026 09:32:00 +0000",
+    "fetched_at": "2026-11-24T08:53:56.763795+00:00",
+    "translation_hash": "",
+    "yorum": "Nvidia CEO'sunun dönüşüyle tetiklenen yapay zeka sektöründeki tarihi kısa sıkışma, Wall Street'te güçlü bir yükselişe neden oldu. Bu durum, özellikle teknoloji hisseleri ve genel olarak ABD borsaları için olumlu bir piyasa etkisi yaratmıştır.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "NVDA",
+        "isim": "Nvidia",
+        "yon": "YUKARI",
+        "gerekce": "CEO'sunun dönüşüyle tetiklenen tarihi yapay zeka kısa sıkışmasının ana nedeni.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Yapay zeka ve teknoloji hisselerindeki güçlü yükselişten doğrudan faydalanan endeks.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Wall Street'teki genel piyasa iyimserliği ve kısa sıkışmadan olumlu etkilendi.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-24T08:54:19.416508+00:00"
+  },
+  {
+    "id": "sp500-daily-action-areas-price-targets-241126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 24/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 24/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 24/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7300/50MONTHLY RANGE RES 7378 SUP 6482MONTHLY OPEX RES...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 24/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) ALINTILANIYOR, FARK PUANINI ÇIKARIN*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7300/50 AYLIK ARALIK DİRENCİ 7378 DESTEK 6482 AYLIK OPEX DİRENCİ...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-241126",
+    "published_at": "Tue, 24 Nov 2026 08:32:00 +0000",
+    "fetched_at": "2026-11-24T08:53:56.763823+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 endeksi için önemli aylık destek ve direnç seviyeleri ile boğa-ayı bölgelerini belirtmektedir. Belirtilen hedefler mevcut piyasa seviyelerinin oldukça üzerinde olup, endekste potansiyel bir yükseliş beklentisine işaret etmektedir. Bu durum, piyasada genel olarak olumlu bir hava yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Makale, mevcut seviyelerin oldukça üzerinde aylık direnç ve boğa-ayı bölgeleri belirterek S&P500 için potansiyel yükseliş hedefleri sunmaktadır.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-24T08:54:33.687643+00:00"
+  }
+]
