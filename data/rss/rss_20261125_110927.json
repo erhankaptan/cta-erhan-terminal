@@ -1,0 +1,29 @@
+[
+  {
+    "id": "institutional-insights-deutsche-bank-where-this-sell-off-stands-and-what-could-trigger-a-bigger-one",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: Deutsche Bank ' Where this sell off stands and what could trigger a bigger one'",
+    "title_tr": "Kurumsal Bakış Açıları: Deutsche Bank 'Bu satış dalgası nerede duruyor ve daha büyüğünü ne tetikleyebilir?'",
+    "content_en": "DEUTSCHE BANK THEMATIC RESEARCH BRIEFING: WHERE LAST WEEK'S SELLOFF STANDS IN HISTORY & WHAT DRIVES OUTRIGHT BEAR MARKETSDespite Monday’s rebound, last week’s drawdown pushed the S&P 500 into official correction territory (-10%+) for the first time sin...",
+    "content_tr": "DEUTSCHE BANK TEMATİK ARAŞTIRMA RAPORU: GEÇEN HAFTAKİ SATIŞ DALGASI TARİHTE NEREDE DURUYOR VE TAM TEŞEKKÜLLÜ AYI PİYASALARINI NE TETİKLER? Pazartesi günkü toparlanmaya rağmen, geçen haftaki düşüş S&P 500'ü ilk kez resmi düzeltme bölgesine (%-10+) itti...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-deutsche-bank-where-this-sell-off-stands-and-what-could-trigger-a-bigger-one",
+    "published_at": "Wed, 25 Nov 2026 11:40:00 +0000",
+    "fetched_at": "2026-11-25T11:09:27.785992+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P 500'ün düzeltme bölgesine girmesiyle piyasalardaki satış baskısını ve olası bir ayı piyasası riskini vurguluyor. Yatırımcıların temkinli olması ve piyasayı daha da aşağı çekebilecek tetikleyicileri yakından izlemesi gerektiği anlaşılıyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "AŞAĞI",
+        "gerekce": "Geçen haftaki düşüşle resmi düzeltme bölgesine (%-10+) girdi.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-25T11:09:37.154914+00:00"
+  }
+]
