@@ -1,0 +1,57 @@
+[
+  {
+    "id": "eurusd-year-end-trading-scenario-analysis",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "EURUSD Year End Trading Scenario Analysis",
+    "title_tr": "EURUSD Yıl Sonu Ticaret Senaryosu Analizi",
+    "content_en": "...",
+    "content_tr": "Makale, EURUSD paritesinin yıl sonu performansını etkileyebilecek çeşitli senaryoları inceliyor. Başlıca faktörler arasında ABD Merkez Bankası (Fed) ve Avrupa Merkez Bankası (ECB) arasındaki para politikası farklılıkları, enflasyon beklentileri ve küresel ekonomik büyüme endişeleri yer alıyor. Fed'in şahin duruşunu sürdürmesi ve faiz artırımlarına devam etme potansiyeli, doları destekleyerek EURUSD üzerinde aşağı yönlü baskı oluşturabilir. Öte yandan, ECB'nin de enflasyonla mücadele için sıkılaşma adımları atması bekleniyor, ancak Euro Bölgesi'ndeki enerji krizi ve resesyon riskleri bu adımların etkisini sınırlayabilir. Yıl sonu düşük likidite koşulları, piyasada ani ve keskin hareketlere yol açabilir. Makale, yatırımcıların hem Fed'in hem de ECB'nin açıklamalarını yakından takip etmeleri ve olası ekonomik verilerin parite üzerindeki etkilerini göz önünde bulundurmaları gerektiğini vurguluyor. Genel olarak, doların gücünü koruma eğilimi ve Avrupa ekonomisindeki belirsizlikler nedeniyle EURUSD'de aşağı yönlü bir eğilim veya yüksek oynaklık bekleniyor.",
+    "url": "https://www.tickmill.com/blog/eurusd-year-end-trading-scenario-analysis",
+    "published_at": "Wed, 25 Nov 2026 13:02:00 +0000",
+    "fetched_at": "2026-11-25T13:17:28.510687+00:00",
+    "translation_hash": "",
+    "yorum": "Yıl sonu düşük likidite ve merkez bankalarının farklılaşan para politikaları EURUSD paritesinde yüksek oynaklığa neden olabilir. Fed'in şahin duruşu doları desteklerken, Avrupa'daki ekonomik zorluklar Euro üzerinde baskı yaratabilir. Yatırımcıların dikkatli olması ve makroekonomik gelişmeleri yakından takip etmesi önemlidir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "EURUSD",
+        "isim": "Euro/Dolar",
+        "yon": "AŞAĞI",
+        "gerekce": "Fed'in şahin duruşu ve Avrupa'daki ekonomik zorluklar pariteyi baskılayabilir.",
+        "skor": 0.75
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in sıkılaşma politikaları ve küresel belirsizlikler doları destekliyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Yüksek faiz oranları ve resesyon endişeleri hisse senedi piyasaları üzerinde baskı oluşturabilirken, yıl sonu pozisyon ayarlamaları dengeleyici olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "Güçlü dolar ve yüksek reel faizler altın fiyatlarını baskılarken, jeopolitik riskler ve enflasyon endişeleri destekleyici olabilir.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "NÖTR",
+        "gerekce": "Küresel büyüme endişeleri ve Avrupa'daki enerji talebi belirsizliği fiyatları baskılarken, arz kısıtlamaları ve jeopolitik gerilimler destekleyici olabilir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-25T13:17:44.594031+00:00"
+  }
+]
