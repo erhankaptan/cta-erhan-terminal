@@ -1,0 +1,197 @@
+[
+  {
+    "id": "daily-market-outlook-november-26-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 26, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 26 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 26, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Holiday Calm Masks Hot US PCE And A Fragile TapeGlobal equities entered the US Thanksgiving holiday on a calmer, constructive footing overnig...",
+    "content_tr": "Günlük Piyasa Görünümü, 26 Kasım 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mesajı - Tatil Sakinliği, Yüksek ABD PCE ve Kırılgan Bir Piyasayı Gizliyor\nKüresel hisse senetleri, ABD Şükran Günü tatiline sakin, yapıcı bir zemin üzerinde girdi...",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-26-2026",
+    "published_at": "Thu, 26 Nov 2026 09:01:00 +0000",
+    "fetched_at": "2026-11-26T09:12:31.437260+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, ABD Şükran Günü tatili öncesi piyasalardaki sakinliğin, yüksek ABD Kişisel Tüketim Harcamaları (PCE) verisi ve genel piyasa kırılganlığı gibi temel endişeleri maskelediğini belirtiyor. Bu durum, yatırımcıların tatil sonrası dönemde enflasyonist baskılar ve potansiyel piyasa oynaklığına karşı dikkatli olmaları gerektiğini gösteriyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, hisse senetleri üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MES",
+        "isim": "Mikro S&P 500 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, hisse senetleri üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, özellikle büyüme hisseleri için olumsuz bir ortam yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "MNQ",
+        "isim": "Mikro Nasdaq 100 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, özellikle büyüme hisseleri için olumsuz bir ortam yaratıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "RTY",
+        "isim": "Russell 2000 Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, küçük ölçekli şirketler için daha fazla risk taşıyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "YM",
+        "isim": "Dow Jones Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, hisse senetleri üzerinde aşağı yönlü baskı oluşturuyor.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor; genel piyasa kırılganlığı talep endişesi yaratabilir ancak net bir yön yok.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor; genel piyasa kırılganlığı talep endişesi yaratabilir ancak net bir yön yok.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "NG",
+        "isim": "Doğal Gaz Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek ABD PCE enflasyonist baskıları artırarak altına olan talebi enflasyon koruması olarak destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "MGC",
+        "isim": "Mikro Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Yüksek ABD PCE enflasyonist baskıları artırarak altına olan talebi enflasyon koruması olarak destekleyebilir.",
+        "skor": 0.6
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Altına benzer şekilde enflasyon koruması olabilir ancak endüstriyel talep ve faiz artışı endişeleri karışık sinyaller veriyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "HG",
+        "isim": "Bakır Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor; küresel büyüme endişeleri baskı yaratabilir ancak net bir yön yok.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "PL",
+        "isim": "Platin Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor; endüstriyel talep ve enflasyon koruması arasında karışık sinyaller.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZC",
+        "isim": "Mısır Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZS",
+        "isim": "Soya Fasulyesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZW",
+        "isim": "Buğday Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZL",
+        "isim": "Soya Yağı Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "ZM",
+        "isim": "Soya Küspesi Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makalede doğrudan bahsedilmiyor.",
+        "skor": 0.5
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da Euro üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6J",
+        "isim": "Japon Yeni Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da Japon Yeni üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da İngiliz Sterlini üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6A",
+        "isim": "Avustralya Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da Avustralya Doları üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6C",
+        "isim": "Kanada Doları Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da Kanada Doları üzerinde baskı yaratır.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "6S",
+        "isim": "İsviçre Frangı Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek USD'yi güçlendirebilir, bu da İsviçre Frangı üzerinde baskı yaratır.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-26T09:13:01.622405+00:00"
+  }
+]
