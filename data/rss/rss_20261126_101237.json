@@ -1,0 +1,70 @@
+[
+  {
+    "id": "spx-thanksgiving-santa-rally-setup",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "SPX Thanksgiving & Santa Rally Setup",
+    "title_tr": "SPX Şükran Günü ve Noel Rallisi Kurulumu",
+    "content_en": "...",
+    "content_tr": "Piyasa, Şükran Günü'nü takiben potansiyel bir 'Noel Rallisi' için hazırlanıyor ve S&P 500 (SPX500) için güçlü bir boğa piyasası hissiyatı göstergeleri mevcut. Olumlu tüketici harcamaları verileri, enflasyon endişelerinin hafiflemesiyle birleşerek yıl sonu yükseliş beklentilerini körüklüyor. Analistler, Şükran Günü ile yıl sonu arasındaki dönemin genellikle önemli kazançlar getirdiği tarihsel kalıplara işaret ediyor. Potansiyel faiz artışlarına ilişkin bazı ihtiyatlı yaklaşımlar devam etse de, hisse senetleri, özellikle büyüme hisseleri için genel görünüm iyimser. Yatırımcılara önemli ekonomik göstergeleri ve şirket kazanç raporlarını yakından takip etmeleri tavsiye ediliyor. Risk iştahı arttıkça Altın (GC) bir miktar baskı görebilirken, Fed'in ralliye rağmen şahin duruşunu sürdürmesi halinde ABD Doları (DXY) güçlenebilir.",
+    "url": "https://www.tickmill.com/blog/spx-thanksgiving-santa-rally-setup",
+    "published_at": "Thu, 26 Nov 2026 10:02:00 +0000",
+    "fetched_at": "2026-11-26T10:12:37.200262+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, Şükran Günü sonrası ve yıl sonuna doğru piyasalarda güçlü bir yükseliş beklentisini ortaya koyuyor. Tüketici harcamaları ve enflasyon verileri gibi olumlu göstergeler, hisse senedi piyasalarında yukarı yönlü bir ivme yaratabilir. Bu durum, risk iştahını artırarak güvenli liman varlıkları üzerinde baskı oluşturabilirken, doların Fed politikalarına bağlı olarak güçlenmesine yol açabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "SPX500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Şükran Günü ve Noel rallisi beklentisi, olumlu tüketici harcamaları ve enflasyon verileri.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "AŞAĞI",
+        "gerekce": "Artan risk iştahı nedeniyle güvenli liman talebinin azalması.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "DXY",
+        "isim": "Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Fed'in şahin duruşunu sürdürmesi halinde güçlenme potansiyeli.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-26T10:12:53.246527+00:00"
+  },
+  {
+    "id": "institutional-insights-rbc-capital-markets-depressed-sentiment-pays",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Institutional Insights: RBC Capital Markets ' Depressed Sentiment Pays'",
+    "title_tr": "Kurumsal İçgörüler: RBC Capital Markets 'Düşük Duyarlılık Kazandırır'",
+    "content_en": "AAII Investor Sentiment & Forward S&P 500 Returns (1987–2026)Dataset: Four-week moving average of the AAII Bulls Less Bears spread (Bulls - Bears) from July 1987 through November 2026 (with forward S&P 500 performance buckets calibrated on 1987 to Octob...",
+    "content_tr": "AAII Yatırımcı Duyarlılığı ve Gelecekteki S&P 500 Getirileri (1987–2026) Veri Seti: Temmuz 1987'den Kasım 2026'ya kadar olan AAII Boğalar Eksi Ayılar farkının (Boğalar - Ayılar) dört haftalık hareketli ortalaması (1987'den Ekim'e kadar kalibre edilmiş gelecekteki S&P 500 performans dilimleriyle)...",
+    "url": "https://www.tickmill.com/blog/institutional-insights-rbc-capital-markets-depressed-sentiment-pays",
+    "published_at": "Thu, 26 Nov 2026 10:35:00 +0000",
+    "fetched_at": "2026-11-26T10:12:37.200306+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, düşük yatırımcı duyarlılığının tarihsel olarak S&P 500 için gelecekteki getirilerle ilişkilendirildiğini belirtiyor. Bu durum, piyasada mevcut bir karamsarlık varsa, bunun uzun vadede bir alım fırsatı olabileceğine işaret ediyor. Genel piyasa beklentisi, duyarlılık düştüğünde yükseliş yönünde.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Endeks Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Makale, düşük yatırımcı duyarlılığının S&P 500 için gelecekteki getirilerle pozitif korelasyon gösterdiğini belirtiyor ('Depressed Sentiment Pays').",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-26T10:13:04.551253+00:00"
+  }
+]
