@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sp500-daily-action-areas-price-targets-261126",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "S&P500 Daily Action Areas & Price Targets 26/11/26",
+    "title_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 26/11/26",
+    "content_en": "S&P500 Daily Action Areas & Price Targets 26/11/26 ***QUOTING ES1!(Z CONTRACT LEVLES) FOR CASH US500 EQUIVALENT LEVELS, SUBTRACT POINT DIFFERENCE***MONTHLY-WEEKLY& DAILY LEVELSMONTHLY BULL BEAR ZONE 7300/50MONTHLY RANGE RES 7378 SUP 6482MONTHLY OPEX RES...",
+    "content_tr": "S&P500 Günlük Hareket Alanları ve Fiyat Hedefleri 26/11/26 ***NAKİT US500 EŞDEĞER SEVİYELERİ İÇİN ES1!(Z SÖZLEŞME SEVİYELERİ) KULLANILMIŞTIR, FARK PUANINI ÇIKARINIZ*** AYLIK-HAFTALIK & GÜNLÜK SEVİYELER AYLIK BOĞA AYI BÖLGESİ 7300/50 AYLIK ARALIK DİRENCİ 7378 DESTEĞİ 6482 AYLIK OPEX DİRENCİ...",
+    "url": "https://www.tickmill.com/blog/sp500-daily-action-areas-price-targets-261126",
+    "published_at": "Thu, 26 Nov 2026 08:04:00 +0000",
+    "fetched_at": "2026-11-26T08:12:25.136885+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, S&P500 için önemli teknik seviyeler sunarak, boğa/ayı bölgeleri ile direnç ve destek noktalarını belirtmektedir. Bu seviyeler, piyasa katılımcılarının kısa vadeli işlem stratejilerini belirlemesine ve potansiyel fiyat hareketlerini tahmin etmesine yardımcı olacaktır.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 E-mini Vadeli İşlemleri",
+        "yon": "NÖTR",
+        "gerekce": "Makale, S&P500 için aylık boğa/ayı bölgesi (7300/50), direnç (7378) ve destek (6482) seviyelerini belirtmektedir. Net bir yön yerine teknik seviyeler sunulmuştur.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "US500",
+        "isim": "S&P 500 Endeksi",
+        "yon": "NÖTR",
+        "gerekce": "ES1! sözleşme seviyelerinin nakit US500 eşdeğerleri için kullanıldığı belirtilmiştir. Direnç ve destek seviyeleri sunulmuştur.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-26T08:12:38.198432+00:00"
+  }
+]
