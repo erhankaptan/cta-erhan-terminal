@@ -1,0 +1,56 @@
+[
+  {
+    "id": "copper-rebounds-following-trump-tariff-announcement",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Copper Rebounds But AI Concerns Linger",
+    "title_tr": "Bakır Toparlanıyor Ancak Yapay Zeka Endişeleri Devam Ediyor",
+    "content_en": "Tariff VolatilityCopper prices are up off the week’s lows today amidst a reversal higher following yesterday’s tariff announcement. News of fresh tariffs against 14 US trading partners, including China, the EU and Japan, have had clear impact across markets this we...",
+    "content_tr": "Tarife Volatilitesi. Bakır fiyatları, dünkü tarife duyurusunun ardından yukarı yönlü bir dönüşle haftanın en düşük seviyelerinden bugün yükselişte. Çin, AB ve Japonya dahil 14 ABD ticaret ortağına karşı yeni tarifeler haberleri, bu hafta piyasalar üzerinde net bir etki yarattı.",
+    "url": "https://www.tickmill.com/blog/copper-rebounds-following-trump-tariff-announcement",
+    "published_at": "Thu, 26 Nov 2026 10:15:00 +0000",
+    "fetched_at": "2026-11-26T11:12:27.348123+00:00",
+    "translation_hash": "",
+    "yorum": "Yeni tarifeler piyasalarda oynaklığa neden olurken, bakır fiyatları haftanın en düşük seviyelerinden toparlanma gösteriyor. Bu durum, küresel ticaret gerilimlerinin emtia piyasaları üzerindeki karmaşık etkilerini ve yapay zeka endişelerinin devam ettiğini yansıtmaktadır.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Dünkü tarife duyurusuna rağmen haftanın en düşük seviyelerinden toparlanma göstererek yükselişe geçti.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-26T11:12:38.742233+00:00"
+  },
+  {
+    "id": "gold-bounces-off-lows-following-tariff-announcement",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Gold Bounces Off Lows Following Tariff Announcement",
+    "title_tr": "Tarife Duyurusunun Ardından Altın Düşük Seviyelerden Toparlandı",
+    "content_en": "Gold Holding Steady for NowGold prices are stable for now and likely to continue to consolidate here with the US off for Thanksgiving and most traders likely to take a long weekend. However, risks of further downside next week are well noted on the back of yesterda...",
+    "content_tr": "Altın şimdilik istikrarlı kalıyor ve ABD'nin Şükran Günü tatilinde olması, çoğu yatırımcının uzun bir hafta sonu geçirmesi nedeniyle bu seviyelerde konsolide olmaya devam etmesi muhtemel. Ancak, dünkü gelişmelerin ardından gelecek hafta daha fazla düşüş riski iyi bir şekilde not edildi.",
+    "url": "https://www.tickmill.com/blog/gold-bounces-off-lows-following-tariff-announcement",
+    "published_at": "Thu, 26 Nov 2026 09:48:00 +0000",
+    "fetched_at": "2026-11-26T11:12:27.348143+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, ABD tatili nedeniyle geçici bir sakinlik yaşarken, gelecek hafta için potansiyel düşüş riskleri taşıyor. Bu durum, tatil sonrası dönemde piyasada temkinli bir hava ve olası bir zayıflık eğilimi olduğunu gösteriyor.",
+    "genel_yon": "NÖTR",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "NÖTR",
+        "gerekce": "ABD tatili nedeniyle şimdilik istikrarlı ve konsolide oluyor. Ancak, gelecek hafta için düşüş riskleri belirtiliyor. Başlıkta düşük seviyelerden toparlandığı ifade edilmiştir.",
+        "skor": 0.5
+      }
+    ],
+    "translated_at": "2026-11-26T11:12:52.397830+00:00"
+  }
+]
