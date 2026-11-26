@@ -1,0 +1,43 @@
+[
+  {
+    "id": "strong-dollar-keeping-gbp-submerged",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Strong Dollar Keeping GBP Submerged",
+    "title_tr": "Güçlü Dolar, Sterlini Baskı Altında Tutuyor",
+    "content_en": "Cable Bounces Off LowsGBPUSD is up off last week’s lows but remains heavily down from the November highs and still in negative territory for the year so far as a whole. The move lower this month comes despite a hawkish shift in the BOE landscape with the bank hikin...",
+    "content_tr": "Cable Düşük Seviyelerden Toparlanıyor. GBPUSD geçen haftaki düşük seviyelerden yükselmiş olsa da, Kasım zirvelerinden hala önemli ölçüde aşağıda ve yıl genelinde hala negatif bölgede seyrediyor. Bu ayki düşüş, İngiltere Merkez Bankası'nın (BOE) şahin duruşuna ve faiz artırımlarına rağmen gerçekleşti...",
+    "url": "https://www.tickmill.com/blog/strong-dollar-keeping-gbp-submerged",
+    "published_at": "Thu, 26 Nov 2026 11:10:00 +0000",
+    "fetched_at": "2026-11-26T13:47:15.127048+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, güçlü doların İngiliz sterlini üzerindeki devam eden baskısını vurguluyor. BOE'nin şahin politikalarına rağmen GBPUSD'nin düşüş eğilimini sürdürmesi, piyasada doların genel gücünün diğer faktörleri gölgede bıraktığını gösteriyor. Bu durum, kısa vadeli toparlanmalara rağmen sterlin için aşağı yönlü risklerin devam ettiğine işaret ediyor.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "GBPUSD",
+        "isim": "İngiliz Sterlini / ABD Doları",
+        "yon": "AŞAĞI",
+        "gerekce": "Geçen haftaki düşük seviyelerden toparlansa da, Kasım zirvelerinden ve yıl genelinde hala önemli ölçüde aşağıda. Güçlü dolar baskısı devam ediyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "DXY",
+        "isim": "ABD Dolar Endeksi",
+        "yon": "YUKARI",
+        "gerekce": "Başlıkta 'Güçlü Dolar' vurgusu ve GBP'yi baskılaması, doların genel olarak güçlü olduğunu gösteriyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "6B",
+        "isim": "İngiliz Sterlini Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "GBPUSD'nin genel düşüş eğilimi ve güçlü doların sterlin üzerindeki baskısı, sterlin vadeli işlemlerini de aşağı çekiyor.",
+        "skor": 0.7
+      }
+    ],
+    "translated_at": "2026-11-26T13:47:29.071784+00:00"
+  }
+]
