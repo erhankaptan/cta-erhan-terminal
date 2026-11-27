@@ -1,0 +1,159 @@
+[
+  {
+    "id": "copper-soars-on-strong-china-data",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Copper Soars On Strong China Data",
+    "title_tr": "Bakır, Güçlü Çin Verileriyle Yükselişe Geçti",
+    "content_en": "Volatile Moves ContinueIt’s been a volatile week for copper prices with the market whipsawing violently as traders react to various risk drivers. Copper futures are back in the green for the week following an explosive 10% move off yesterday’s lows. The return of f...",
+    "content_tr": "Volatil hareketler devam ediyor. Bakır fiyatları için dalgalı bir hafta oldu; piyasa, yatırımcıların çeşitli risk faktörlerine tepki vermesiyle şiddetli bir şekilde dalgalandı. Bakır vadeli işlemleri, dünkü düşük seviyelerden %10'luk patlayıcı bir hareketin ardından hafta içinde tekrar yeşile döndü. Geri dönüş...",
+    "url": "https://www.tickmill.com/blog/copper-soars-on-strong-china-data",
+    "published_at": "Fri, 27 Nov 2026 09:46:00 +0000",
+    "fetched_at": "2026-11-27T14:05:05.559373+00:00",
+    "translation_hash": "",
+    "yorum": "Çin'den gelen güçlü ekonomik veriler, bakır gibi endüstriyel metallere olan talebi canlandırarak küresel büyüme beklentilerini artırdı. Bu durum, emtia piyasalarında genel bir iyimserlik yaratabilir ve diğer riskli varlıkları da destekleyebilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "HG",
+        "isim": "Bakır",
+        "yon": "YUKARI",
+        "gerekce": "Güçlü Çin verileriyle desteklenen bakır vadeli işlemleri, dünkü düşük seviyelerden %10 yükselerek haftalık kazançlarını geri aldı.",
+        "skor": 0.9
+      }
+    ],
+    "translated_at": "2026-11-27T14:05:14.375671+00:00"
+  },
+  {
+    "id": "daily-market-outlook-november-27-2026",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Daily Market Outlook, November 27, 2026",
+    "title_tr": "Günlük Piyasa Görünümü, 27 Kasım 2026",
+    "content_en": "Daily Market Outlook, November 27, 2026Patrick Munnelly, Partner: Market Strategy, Tickmill GroupMunnelly’s Macro Missive - Holiday Calm Masks Hot US PCE And A Fragile TapeGlobal equities entered the US Thanksgiving holiday on a calmer, constructive footing overnig...",
+    "content_tr": "Günlük Piyasa Görünümü, 27 Kasım 2026\nPatrick Munnelly, Ortak: Piyasa Stratejisi, Tickmill Group\nMunnelly'nin Makro Mektubu - Tatil Sakinliği, Yüksek ABD PCE Verisini ve Kırılgan Bir Piyasayı Gizliyor\nKüresel hisse senetleri, ABD Şükran Günü tatiline daha sakin, yapıcı bir zeminde girdi. Ancak piyasanın altında yatan yüksek ABD Kişisel Tüketim Harcamaları (PCE) verisi ve genel piyasa yapısındaki kırılganlık, bu sakinliğin geçici olabileceğine işaret ediyor. Yatırımcılar, tatil sonrası dönemde enflasyon baskıları ve potansiyel ekonomik zayıflık konusunda daha dikkatli olmalı.",
+    "url": "https://www.tickmill.com/blog/daily-market-outlook-november-27-2026",
+    "published_at": "Fri, 27 Nov 2026 09:02:00 +0000",
+    "fetched_at": "2026-11-27T14:05:05.559403+00:00",
+    "translation_hash": "",
+    "yorum": "Piyasa, Şükran Günü tatili nedeniyle sakin bir seyir izlese de, yüksek ABD PCE verisi ve genel piyasa kırılganlığı, bu sakinliğin aldatıcı olabileceğini gösteriyor. Tatil sonrası dönemde enflasyon endişeleri ve potansiyel piyasa düzeltmeleri gündeme gelebilir.",
+    "genel_yon": "AŞAĞI",
+    "varliklar": [
+      {
+        "sembol": "ES",
+        "isim": "S&P 500 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi ve piyasadaki kırılganlık, tatil sakinliğinin ardından endekslerde düzeltme potansiyeli yaratıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "NQ",
+        "isim": "Nasdaq 100 Endeks Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Enflasyon baskıları ve kırılgan piyasa yapısı, teknoloji ağırlıklı endekste düşüş riskini artırıyor.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "6E",
+        "isim": "Euro Vadeli İşlemleri",
+        "yon": "AŞAĞI",
+        "gerekce": "Yüksek ABD PCE verisi, Fed'in şahin duruşunu destekleyerek ABD dolarını güçlendirebilir ve Euro üzerinde baskı yaratabilir.",
+        "skor": 0.7
+      },
+      {
+        "sembol": "GC",
+        "isim": "Altın Vadeli İşlemleri",
+        "yon": "YUKARI",
+        "gerekce": "Piyasadaki kırılganlık ve potansiyel ekonomik belirsizlikler, altının güvenli liman talebini artırabilir.",
+        "skor": 0.6
+      }
+    ],
+    "translated_at": "2026-11-27T14:05:46.357305+00:00"
+  },
+  {
+    "id": "gold-bouncing-back-despite-hawkish-fed-expectations",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Gold Bouncing Back Despite Hawkish Fed Expectations",
+    "title_tr": "Şahin Fed Beklentilerine Rağmen Altın Toparlanıyor",
+    "content_en": "Gold Rallying on FridayGold prices are bouncing back today with the futures market up around 4% on Friday. The gains look linked to a surge in inflows for gold and silver ETFs which have risen sharply over the end of the week following a previous correction in the ...",
+    "content_tr": "Cuma Günü Altın Yükselişte. Altın fiyatları bugün toparlanıyor; vadeli piyasa Cuma günü yaklaşık %4 yükseldi. Bu kazançlar, hafta sonunda altın ve gümüş ETF'lerine olan girişlerdeki artışla bağlantılı görünüyor. Bu girişler, önceki bir düzeltmenin ardından keskin bir şekilde yükseldi...",
+    "url": "https://www.tickmill.com/blog/gold-bouncing-back-despite-hawkish-fed-expectations",
+    "published_at": "Fri, 27 Nov 2026 11:38:00 +0000",
+    "fetched_at": "2026-11-27T14:05:05.559420+00:00",
+    "translation_hash": "",
+    "yorum": "Makale, şahin Fed beklentilerine rağmen altın ve gümüşte güçlü bir toparlanmaya işaret ediyor. Bu durum, yatırımcıların güvenli liman varlıklarına yöneldiğini ve Fed'in politikalarının değerli metaller üzerindeki etkisinin sınırlı kalabileceğini düşündüğünü gösteriyor.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "GC",
+        "isim": "Altın",
+        "yon": "YUKARI",
+        "gerekce": "Vadeli piyasada %4 yükseliş ve ETF girişlerindeki artışla toparlanıyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "SI",
+        "isim": "Gümüş",
+        "yon": "YUKARI",
+        "gerekce": "Altın ile birlikte ETF girişlerindeki artışla keskin yükseliş gösteriyor.",
+        "skor": 0.8
+      }
+    ],
+    "translated_at": "2026-11-27T14:05:57.143813+00:00"
+  },
+  {
+    "id": "oil-rebounding-as-middle-east-attacks-intensify",
+    "source": "Tickmill",
+    "source_type": "RSS",
+    "language_original": "en",
+    "language_display": "tr",
+    "title_en": "Oil Rebounding As Middle East Attacks Intensify",
+    "title_tr": "Petrol Ortadoğu Saldırıları Yoğunlaşırken Toparlanıyor",
+    "content_en": "Crude Recovery ContinuesOil prices continued to rebound higher today with the crude futures market on course to print its first positive week in a month. The rally comes amidst an uptick in attacks on oil tankers and other vessels in the Gulf region from Iran and c...",
+    "content_tr": "Ham Petrol Toparlanması Devam Ediyor. Petrol fiyatları bugün yükselişini sürdürerek, ham petrol vadeli işlem piyasasının bir ay sonra ilk pozitif haftasını kaydetme yolunda ilerlemesini sağladı. Bu yükseliş, İran ve müttefikleri tarafından Körfez bölgesindeki petrol tankerleri ve diğer gemilere yönelik saldırıların artmasıyla gerçekleşti.",
+    "url": "https://www.tickmill.com/blog/oil-rebounding-as-middle-east-attacks-intensify",
+    "published_at": "Fri, 27 Nov 2026 09:16:00 +0000",
+    "fetched_at": "2026-11-27T14:05:05.559438+00:00",
+    "translation_hash": "",
+    "yorum": "Ortadoğu'daki jeopolitik gerilimlerin artması petrol fiyatlarını yukarı yönlü desteklemektedir. Bu durum, küresel enflasyonist baskıları artırabilir ve enerji maliyetleri üzerinde yukarı yönlü bir etki yaratabilir.",
+    "genel_yon": "YUKARI",
+    "varliklar": [
+      {
+        "sembol": "CL",
+        "isim": "Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ortadoğu'daki saldırıların yoğunlaşması ve arz endişeleri nedeniyle petrol fiyatları yükseliyor.",
+        "skor": 0.9
+      },
+      {
+        "sembol": "MCL",
+        "isim": "Mikro Ham Petrol",
+        "yon": "YUKARI",
+        "gerekce": "Ham petrol fiyatlarındaki yükseliş, mikro ham petrol vadeli işlemlerini de yukarı çekmektedir.",
+        "skor": 0.8
+      },
+      {
+        "sembol": "USOUSD",
+        "isim": "ABD Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Küresel ham petrol piyasasındaki arz endişeleri ve fiyat artışı, ABD petrolünü de etkilemektedir.",
+        "skor": 0.85
+      },
+      {
+        "sembol": "UKOIL",
+        "isim": "İngiltere Petrolü",
+        "yon": "YUKARI",
+        "gerekce": "Ortadoğu'daki jeopolitik gerilimler ve arz kesintisi beklentileri, Brent petrol fiyatlarını da yükseltmektedir.",
+        "skor": 0.85
+      }
+    ],
+    "translated_at": "2026-11-27T14:06:11.775018+00:00"
+  }
+]
