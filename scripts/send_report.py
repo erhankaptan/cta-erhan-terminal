@@ -600,7 +600,28 @@ def main():
     # bilgilerinin hala gecerli oldugunu dogrulayabilir (GOZLEM'deki
     # (kurumsal-makro-gozlem-terminali) check_schedule.py'de ZATEN
     # kullanilan AYNI desen).
-    is_manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+    #
+    # DUZELTME (2026-11-27, Reis'in "CTA ERHAN RAPORU saatte bir geliyor,
+    # 3 sabit saatte gelmesi gerekiyordu" bulgusu uzerine -- KOK SEBEP):
+    # Reis'in Docker'inda 7/24 calisan otomatik dongu (scripts/
+    # trigger_github_pipeline.py, saatlik), GitHub'in "schedule" tetikleyi-
+    # cisinin bazen gec/kacirmasina karsi, fetch.yml'yi DOGRUDAN
+    # workflow_dispatch API'siyle tetikliyordu -- ama bu GITHUB_EVENT_NAME'i
+    # workflow_dispatch'e esitledigi icin YUKARIDAKI is_manual=True oluyor
+    # ve her saat, GUN/SAAT FARKETMEKSIZIN, GERCEK bir rapor maili/Telegram
+    # mesaji KOSULSUZ gonderiliyordu -- 3-slot/gun kurali fiilen hic
+    # calismiyordu. Artik trigger_github_pipeline.py cagrisina
+    # "trigger_source=docker_auto" input'u eklendi (fetch.yml'den
+    # TRIGGER_SOURCE ortam degiskenine aktariliyor) -- Reis'in GERCEKTEN
+    # GitHub arayuzunden elle "Run workflow"a basmasi bu alani BOS
+    # birakir (varsayilan ""), SADECE o durumda kosulsuz/aninda gonderim
+    # eskisi gibi calisir. Otomatik Docker dongusunden gelen cagrilar
+    # artik is_manual=False sayilir, yani normal pencere + "zaten
+    # gonderildi mi" kontrolune TABI olur.
+    is_manual = (
+        os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+        and not os.environ.get("TRIGGER_SOURCE", "").strip()
+    )
     now_utc = datetime.now(timezone.utc)
     today_paris = now_utc.astimezone(PARIS_TZ).date().isoformat()
 

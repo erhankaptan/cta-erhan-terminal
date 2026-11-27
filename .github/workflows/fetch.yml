@@ -15,7 +15,26 @@ on:
     - cron: '0 * * * *'
 
   # Manuel tetikleme (test etmek için)
+  #
+  # DUZELTME (2026-11-27, Reis'in "CTA ERHAN RAPORU saatte bir geliyor"
+  # bulgusu uzerine): asagidaki "trigger_source" input'u EKLENDI.
+  # scripts/trigger_github_pipeline.py (Reis'in Docker'inda 7/24 calisan,
+  # saatlik otomatik tetikleyici) artik bu cagriya trigger_source=
+  # "docker_auto" gonderiyor -- bu deger, altta "Send Report" adiminda
+  # TRIGGER_SOURCE ortam degiskenine aktarilip send_report.py'ye iletiliyor
+  # (bkz. o dosyadaki ayni tarihli duzeltme notu: SADECE bu deger BOSSA
+  # "gercek, elle (GitHub arayuzunden) tetiklenmis manuel calistirma"
+  # sayiliyor VE saat penceresi/tekrar kontrolu atlaniyor). Reis GitHub
+  # arayuzunden "Run workflow" ile elle calistirirsa bu alani BOS
+  # birakacagi icin (varsayilan ""), o calistirma ESKISI GIBI kosulsuz/
+  # aninda rapor gonderir -- SADECE otomatik Docker dongusu artik normal
+  # 3-slot/gun kurallarina tabi oluyor.
   workflow_dispatch:
+    inputs:
+      trigger_source:
+        description: "Bu calistirmayi kim/ne tetikledi (bos = Reis'in GitHub arayuzunden elle calistirmasi, kosulsuz gonderir)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -100,6 +119,10 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # EKLENEN (2026-11-27): yukaridaki workflow_dispatch input'u
+          # buraya aktariliyor -- bkz. yukaridaki ve send_report.py'deki
+          # ayni tarihli duzeltme notlari.
+          TRIGGER_SOURCE: ${{ github.event.inputs.trigger_source }}
         run: python scripts/send_report.py
 
       # Commit ve Push
